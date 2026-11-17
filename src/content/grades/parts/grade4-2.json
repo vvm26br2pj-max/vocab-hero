@@ -1,0 +1,1977 @@
+[
+  {
+    "id": "determined.adj.1",
+    "word": "determined",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "dih-TUR-mind",
+    "definition": "having made a firm decision and not willing to give up",
+    "hero": {
+      "text": "Pixel was determined to fix the broken robot, so she tried again after every failed attempt.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "🤖",
+          "🔧"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Even after falling off her skateboard twice, Mara was determined to land the new trick.",
+    "contrast": {
+      "nonExample": "Will tried the hard puzzle once, sighed, and put it back in the box for good.",
+      "explanation": "A determined person keeps going even when something is hard. Giving up after one try is not determined.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🧩"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "persistent",
+        "resolved",
+        "set on"
+      ],
+      "antonyms": [
+        "uncertain",
+        "hesitant"
+      ],
+      "family": [
+        "determination",
+        "determine"
+      ]
+    },
+    "forms": [
+      "determined"
+    ],
+    "tags": [
+      "reading",
+      "everyday",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "determined.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is determined?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Isa quits the race when she gets a cramp."
+          },
+          {
+            "id": "b",
+            "text": "Noor practices free throws until she makes ten."
+          },
+          {
+            "id": "c",
+            "text": "Jake plays whatever game his friends pick."
+          }
+        ],
+        "answer": "b",
+        "hint": "Who sets a goal and keeps going until she reaches it?",
+        "explanation": "Determined means having a firm goal and not giving up. Noor keeps practicing until she reaches her goal of ten shots.",
+        "wrong": {
+          "a": "Isa gives up, which is the opposite of determined.",
+          "c": "Jake goes along with others; he has not made a firm decision of his own."
+        }
+      },
+      {
+        "id": "determined.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Though the trail was steep and rocky, the ___ climbers kept going until they reached the top.",
+        "options": [
+          {
+            "id": "a",
+            "text": "sleepy"
+          },
+          {
+            "id": "b",
+            "text": "careless"
+          },
+          {
+            "id": "c",
+            "text": "confused"
+          },
+          {
+            "id": "d",
+            "text": "determined"
+          }
+        ],
+        "answer": "d",
+        "clue": "Though the trail was steep; kept going until they reached the top",
+        "hint": "The climbers did not stop even though it was hard.",
+        "explanation": "\"Though the trail was steep\" shows it was hard, and \"kept going until they reached the top\" shows they would not give up. That is determined."
+      },
+      {
+        "id": "determined.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word best describes Ravi?",
+        "passage": "Ravi made up his mind to finish the marathon, and he kept running even when his legs ached.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hopeful"
+          },
+          {
+            "id": "b",
+            "text": "lazy"
+          },
+          {
+            "id": "c",
+            "text": "reluctant"
+          },
+          {
+            "id": "d",
+            "text": "determined"
+          }
+        ],
+        "answer": "d",
+        "clue": "made up his mind; kept running even when his legs ached",
+        "hint": "Ravi did more than wish. He decided and kept going.",
+        "explanation": "\"Made up his mind\" and \"kept running even when his legs ached\" show a firm decision and refusing to quit. That is determined. Hopeful only means wishing something will happen."
+      },
+      {
+        "id": "determined.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what determined means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The determined puppy"
+          },
+          {
+            "id": "c2",
+            "text": "kept digging at the fence"
+          },
+          {
+            "id": "c3",
+            "text": "until it found its buried bone."
+          },
+          {
+            "id": "c4",
+            "text": "for one second, then lost interest."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Determined means not giving up. Which ending shows that?",
+        "explanation": "Digging until it found the bone shows the puppy would not give up, so it is determined. Losing interest after one second is the opposite."
+      },
+      {
+        "id": "determined.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes Marie Curie in this passage?",
+        "passage": "Marie Curie worked for years in a cold, leaky shed, testing material after material until she discovered new elements.",
+        "options": [
+          {
+            "id": "a",
+            "text": "careless"
+          },
+          {
+            "id": "b",
+            "text": "bored"
+          },
+          {
+            "id": "c",
+            "text": "determined"
+          },
+          {
+            "id": "d",
+            "text": "frightened"
+          }
+        ],
+        "answer": "c",
+        "clue": "worked for years; testing material after material until",
+        "hint": "She kept working for years in a hard place. What does that show?",
+        "explanation": "\"Worked for years\" in a cold shed and kept testing \"until she discovered\" something shows she would not give up. That is determined."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "eventually.adv.1",
+    "word": "eventually",
+    "grade": 4,
+    "pos": "adverb",
+    "say": "ih-VEN-choo-uh-lee",
+    "definition": "in the end, after a long time or after many things happen",
+    "hero": {
+      "text": "Kai searched the city all afternoon and eventually found the lost kitten hiding under a bench.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🐱",
+          "🪑"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The seed took weeks to sprout, but it eventually grew into a tall sunflower.",
+    "contrast": {
+      "nonExample": "The moment the bell rang, Ella jumped up and ran outside to play.",
+      "explanation": "Eventually means after a long wait or many steps. Something that happens the instant something else does happens immediately, not eventually.",
+      "scene": {
+        "pose": "running",
+        "props": [
+          "🔔"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "finally",
+        "in the end",
+        "at last"
+      ],
+      "antonyms": [
+        "immediately",
+        "right away"
+      ],
+      "family": [
+        "eventual"
+      ]
+    },
+    "forms": [
+      "eventually"
+    ],
+    "tags": [
+      "reading",
+      "science",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "eventually.adv.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Did the lock open eventually?",
+        "passage": "Dad tried six different keys on the ring before one finally opened the old lock.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did the lock open right away, or after many tries?",
+        "explanation": "Yes. The lock opened only after six tries. Something that happens in the end, after many steps, happens eventually."
+      },
+      {
+        "id": "eventually.adv.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The traffic jam lasted over an hour, but we ___ made it to the beach before sunset.",
+        "options": [
+          {
+            "id": "a",
+            "text": "immediately"
+          },
+          {
+            "id": "b",
+            "text": "quietly"
+          },
+          {
+            "id": "c",
+            "text": "eventually"
+          },
+          {
+            "id": "d",
+            "text": "rarely"
+          }
+        ],
+        "answer": "c",
+        "clue": "lasted over an hour, but",
+        "hint": "They had a long wait first. When did they arrive?",
+        "explanation": "\"Lasted over an hour, but\" tells you they arrived only after a long delay. That is eventually. Immediately would mean right away, which does not fit a long traffic jam."
+      },
+      {
+        "id": "eventually.adv.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"eventually\" in this sentence?",
+        "passage": "After many tries, Ana eventually solved the tricky riddle.",
+        "options": [
+          {
+            "id": "a",
+            "text": "finally"
+          },
+          {
+            "id": "b",
+            "text": "immediately"
+          },
+          {
+            "id": "c",
+            "text": "slowly"
+          },
+          {
+            "id": "d",
+            "text": "carefully"
+          }
+        ],
+        "answer": "b",
+        "hint": "Eventually means after a long time. What means with no wait at all?",
+        "explanation": "Eventually means in the end, after a long time. Immediately means right away, so it is the opposite. Finally means almost the same as eventually."
+      },
+      {
+        "id": "eventually.adv.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what eventually means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Kim practiced the song every day for a month,"
+          },
+          {
+            "id": "c2",
+            "text": "and eventually"
+          },
+          {
+            "id": "c3",
+            "text": "she could play it perfectly."
+          },
+          {
+            "id": "c4",
+            "text": "she could play it before she ever practiced."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Eventually comes at the end of a long process.",
+        "explanation": "After a month of practice, Kim could play perfectly. That result came at the end of a long time, so eventually fits. Something cannot happen eventually if it happens before the practice even starts."
+      },
+      {
+        "id": "eventually.adv.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best completes the summary?",
+        "passage": "At first, the settlers struggled to grow crops in the rocky soil. After years of trying new methods, their farms began to thrive. Summary: The settlers' farms ___ thrived.",
+        "options": [
+          {
+            "id": "a",
+            "text": "eventually"
+          },
+          {
+            "id": "b",
+            "text": "immediately"
+          },
+          {
+            "id": "c",
+            "text": "never"
+          },
+          {
+            "id": "d",
+            "text": "suddenly"
+          }
+        ],
+        "answer": "a",
+        "clue": "At first; After years of trying",
+        "hint": "Did the farms do well right away, or after a long time?",
+        "explanation": "\"At first\" they struggled, and only \"after years of trying\" did the farms thrive. Success after a long time is eventually. Never is wrong because the farms did thrive."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "evidence.noun.1",
+    "word": "evidence",
+    "grade": 4,
+    "pos": "noun",
+    "say": "EV-ih-dens",
+    "definition": "facts or signs that show something is true",
+    "hero": {
+      "text": "Rex pointed to the muddy paw prints as evidence that a raccoon had raided the lab snacks.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "🐾",
+          "🦝"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Scientists found seashell fossils on the mountain, evidence that it was once under the ocean.",
+    "contrast": {
+      "nonExample": "Ben thinks his sister ate his cookie just because she seems like the type.",
+      "explanation": "That is only a hunch. Evidence is something you can point to that shows what is true, like crumbs on her shirt.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "🍪"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "proof",
+        "clues",
+        "signs"
+      ],
+      "antonyms": [],
+      "family": [
+        "evident",
+        "evidently"
+      ]
+    },
+    "forms": [
+      "evidence"
+    ],
+    "tags": [
+      "science",
+      "reading",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "evidence.noun.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which one is evidence that it rained last night?",
+        "options": [
+          {
+            "id": "a",
+            "text": "puddles on the sidewalk this morning"
+          },
+          {
+            "id": "b",
+            "text": "a wish that it will rain tomorrow"
+          },
+          {
+            "id": "c",
+            "text": "a sunny forecast for the weekend"
+          }
+        ],
+        "answer": "a",
+        "hint": "Evidence is something you can see that shows what happened.",
+        "explanation": "Evidence is a fact or sign that shows something is true. Puddles you can see this morning show that rain fell last night.",
+        "wrong": {
+          "b": "A wish is about the future and shows nothing about last night.",
+          "c": "A forecast is about the weekend, not last night."
+        }
+      },
+      {
+        "id": "evidence.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The detective collected ___, such as fingerprints and a torn ticket, to solve the case.",
+        "options": [
+          {
+            "id": "a",
+            "text": "weather"
+          },
+          {
+            "id": "b",
+            "text": "music"
+          },
+          {
+            "id": "c",
+            "text": "furniture"
+          },
+          {
+            "id": "d",
+            "text": "evidence"
+          }
+        ],
+        "answer": "d",
+        "clue": "such as fingerprints and a torn ticket; to solve the case",
+        "hint": "Fingerprints and a ticket are clues. What word means clues that prove something?",
+        "explanation": "\"Fingerprints and a torn ticket\" are signs that can show what really happened. Things that help prove the truth are evidence."
+      },
+      {
+        "id": "evidence.noun.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "What did Tia use to support her claim?",
+        "passage": "In her essay, Tia supported her claim that recess helps learning by describing a study of 500 students.",
+        "options": [
+          {
+            "id": "a",
+            "text": "an opinion"
+          },
+          {
+            "id": "b",
+            "text": "a rumor"
+          },
+          {
+            "id": "c",
+            "text": "evidence"
+          },
+          {
+            "id": "d",
+            "text": "a guess"
+          }
+        ],
+        "answer": "c",
+        "clue": "a study of 500 students",
+        "hint": "A study collects real facts. Is that an opinion or proof?",
+        "explanation": "A study of 500 students gives facts that show her claim is true. That is evidence. An opinion is what someone thinks, and a rumor is something people say that may not be true."
+      },
+      {
+        "id": "evidence.noun.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what evidence means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The melted snowman"
+          },
+          {
+            "id": "c2",
+            "text": "was evidence"
+          },
+          {
+            "id": "c3",
+            "text": "that the day had grown warm."
+          },
+          {
+            "id": "c4",
+            "text": "that the day had grown colder."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Evidence shows what is true. What does melting snow show?",
+        "explanation": "Snow melts when it gets warm, so a melted snowman shows the day grew warm. It cannot be evidence that the day grew colder."
+      },
+      {
+        "id": "evidence.noun.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is Omar giving evidence?",
+        "passage": "Omar says the class hamster escaped because \"hamsters just do that sometimes,\" but he has not checked the cage.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Has Omar pointed to any facts or signs?",
+        "explanation": "No. Omar is only guessing and has not looked for any signs. Evidence would be something real, like an open cage door."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "exhausted.adj.1",
+    "word": "exhausted",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "ig-ZAWS-tid",
+    "definition": "extremely tired, with no energy left",
+    "hero": {
+      "text": "After stacking sandbags all night to stop the flood, Bolt was exhausted and fell asleep standing up.",
+      "scene": {
+        "pose": "tired",
+        "props": [
+          "😴",
+          "💧"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "After running the whole cross-country course, Nia was so exhausted that she lay down in the grass.",
+    "contrast": {
+      "nonExample": "Theo yawned a little during the slow movie but still wanted to play tag afterward.",
+      "explanation": "Feeling a little sleepy is not the same as exhausted. Exhausted means completely worn out, with no energy left.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "🥱"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "worn out",
+        "drained",
+        "weary"
+      ],
+      "antonyms": [
+        "energetic",
+        "refreshed"
+      ],
+      "family": [
+        "exhaust",
+        "exhaustion",
+        "exhausting"
+      ]
+    },
+    "forms": [
+      "exhausted"
+    ],
+    "tags": [
+      "everyday",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "exhausted.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is Mom exhausted?",
+        "passage": "After moving heavy boxes all day, Mom could barely lift her arms and fell asleep on the couch.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Does Mom have any energy left?",
+        "explanation": "Yes. Barely lifting her arms and falling asleep show Mom has no energy left. That is exhausted."
+      },
+      {
+        "id": "exhausted.adj.1#2",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "After swimming fifty laps without a break, Lucy could hardly climb out of the pool. She was ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "sleepy"
+          },
+          {
+            "id": "b",
+            "text": "exhausted"
+          },
+          {
+            "id": "c",
+            "text": "bored"
+          },
+          {
+            "id": "d",
+            "text": "relaxed"
+          }
+        ],
+        "answer": "b",
+        "clue": "fifty laps without a break; could hardly climb out",
+        "hint": "Lucy is more than a little tired. Pick the strongest tired word.",
+        "explanation": "\"Could hardly climb out\" after fifty laps shows Lucy used up all her energy. Exhausted means extremely tired. Sleepy is much weaker and means ready for bed."
+      },
+      {
+        "id": "exhausted.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"exhausted\" in this sentence?",
+        "passage": "The exhausted hikers rested by the stream before heading home.",
+        "options": [
+          {
+            "id": "a",
+            "text": "worn out"
+          },
+          {
+            "id": "b",
+            "text": "hungry"
+          },
+          {
+            "id": "c",
+            "text": "lost"
+          },
+          {
+            "id": "d",
+            "text": "energetic"
+          }
+        ],
+        "answer": "d",
+        "hint": "Exhausted means no energy. What means full of energy?",
+        "explanation": "Exhausted means having no energy left, so the opposite is energetic. Worn out means the same as exhausted."
+      },
+      {
+        "id": "exhausted.adj.1#4",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The new puppy chased balls around the yard for hours and was ___ by bedtime.",
+        "options": [
+          {
+            "id": "a",
+            "text": "exhausted"
+          },
+          {
+            "id": "b",
+            "text": "patient"
+          },
+          {
+            "id": "c",
+            "text": "invisible"
+          },
+          {
+            "id": "d",
+            "text": "famous"
+          }
+        ],
+        "answer": "a",
+        "clue": "chased balls for hours",
+        "hint": "How would you feel after running for hours?",
+        "explanation": "Chasing balls \"for hours\" would use up all the puppy's energy. Being completely worn out is being exhausted."
+      },
+      {
+        "id": "exhausted.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the runner?",
+        "passage": "The marathon runner crossed the finish line, stumbled, and sank onto a cot. Her legs shook, and she could not even lift her water bottle.",
+        "options": [
+          {
+            "id": "a",
+            "text": "bored"
+          },
+          {
+            "id": "b",
+            "text": "angry"
+          },
+          {
+            "id": "c",
+            "text": "exhausted"
+          },
+          {
+            "id": "d",
+            "text": "confused"
+          }
+        ],
+        "answer": "c",
+        "clue": "stumbled; legs shook; could not even lift her water bottle",
+        "hint": "What do shaking legs and weak arms tell you?",
+        "explanation": "Stumbling, shaking legs, and being unable to lift a water bottle show she has no energy left. That is exhausted."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "familiar.adj.1",
+    "word": "familiar",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "fuh-MIL-yer",
+    "definition": "well known to you because you have seen or heard it before",
+    "hero": {
+      "text": "Lost in the fog, Nova smiled when she heard the familiar chime of the academy's clock tower.",
+      "scene": {
+        "pose": "listening",
+        "props": [
+          "🕰️",
+          "🌫️"
+        ],
+        "setting": "night"
+      }
+    },
+    "everyday": "On the first day at her new school, Aria smiled when she spotted a familiar face from camp.",
+    "contrast": {
+      "nonExample": "Ian moved to a new city where every street and store was strange to him.",
+      "explanation": "Familiar things are ones you already know. Places you have never seen before are unfamiliar.",
+      "scene": {
+        "pose": "confused",
+        "props": [
+          "🏙️",
+          "❓"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "known",
+        "recognizable",
+        "well-known"
+      ],
+      "antonyms": [
+        "unfamiliar",
+        "strange",
+        "new"
+      ],
+      "family": [
+        "familiarity",
+        "unfamiliar",
+        "familiarize"
+      ]
+    },
+    "forms": [
+      "familiar"
+    ],
+    "tags": [
+      "everyday",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "familiar.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does familiar mean in this sentence?",
+        "passage": "The song on the radio sounded familiar, so Leah started humming along.",
+        "options": [
+          {
+            "id": "a",
+            "text": "loud and hard to hear"
+          },
+          {
+            "id": "b",
+            "text": "sad and slow"
+          },
+          {
+            "id": "c",
+            "text": "new and strange"
+          },
+          {
+            "id": "d",
+            "text": "known from before"
+          }
+        ],
+        "answer": "d",
+        "hint": "Leah could hum along. Had she heard it before?",
+        "explanation": "Familiar means known because you have seen or heard it before. Leah could hum along, so she already knew the song.",
+        "wrong": {
+          "c": "New and strange is the opposite. Leah could not hum a song she had never heard."
+        }
+      },
+      {
+        "id": "familiar.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "After driving the same route for three years, the bus driver found every stop ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "unusual"
+          },
+          {
+            "id": "b",
+            "text": "invisible"
+          },
+          {
+            "id": "c",
+            "text": "frightening"
+          },
+          {
+            "id": "d",
+            "text": "familiar"
+          }
+        ],
+        "answer": "d",
+        "clue": "the same route for three years",
+        "hint": "What happens when you see the same places again and again?",
+        "explanation": "Driving \"the same route for three years\" means the driver knows every stop well. Well-known places are familiar. Unusual is the opposite."
+      },
+      {
+        "id": "familiar.adj.1#3",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The prefix un- means \"not.\" What does unfamiliar mean in this sentence?",
+        "passage": "The hikers felt nervous on the unfamiliar trail and checked their map often.",
+        "options": [
+          {
+            "id": "a",
+            "text": "not known before"
+          },
+          {
+            "id": "b",
+            "text": "very well known"
+          },
+          {
+            "id": "c",
+            "text": "very long and steep"
+          },
+          {
+            "id": "d",
+            "text": "known once again"
+          }
+        ],
+        "answer": "a",
+        "hint": "Un- + familiar = not + known.",
+        "explanation": "Un- means not, so unfamiliar means not known. The hikers had never been on this trail, which is why they kept checking their map."
+      },
+      {
+        "id": "familiar.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what familiar means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Grandma's kitchen smelled familiar"
+          },
+          {
+            "id": "c2",
+            "text": "because she always baked"
+          },
+          {
+            "id": "c3",
+            "text": "the same cinnamon bread."
+          },
+          {
+            "id": "c4",
+            "text": "because I had never been inside it."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Something smells familiar when you have smelled it many times.",
+        "explanation": "Smelling the same bread again and again makes the smell well known, so it is familiar. A place you have never been cannot smell familiar."
+      },
+      {
+        "id": "familiar.adj.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Was the new country familiar to Mei?",
+        "passage": "On her first visit to a new country, Mei could not read any of the signs and did not recognize the foods.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Mei already know this place?",
+        "explanation": "No. It was her first visit, and she recognized nothing. Familiar means already well known to you."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "frequent.adj.1",
+    "word": "frequent",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "FREE-kwent",
+    "definition": "happening often",
+    "hero": {
+      "text": "Juniper makes frequent visits to the city garden, stopping by almost every morning to water the plants.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "🌱",
+          "💧"
+        ],
+        "setting": "park"
+      }
+    },
+    "everyday": "Our town has frequent thunderstorms in summer, sometimes three in a single week.",
+    "contrast": {
+      "nonExample": "A total solar eclipse can be seen from our town only once every few hundred years.",
+      "explanation": "That happens very rarely. Frequent means happening often.",
+      "scene": {
+        "pose": "surprised",
+        "props": [
+          "🌑",
+          "☀️"
+        ],
+        "setting": "sky"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "regular",
+        "common",
+        "repeated"
+      ],
+      "antonyms": [
+        "rare",
+        "occasional"
+      ],
+      "family": [
+        "frequently",
+        "frequency"
+      ]
+    },
+    "forms": [
+      "frequent"
+    ],
+    "tags": [
+      "science",
+      "math",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "frequent.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which one is frequent?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a birthday that comes once a year"
+          },
+          {
+            "id": "b",
+            "text": "a bus that stops every ten minutes"
+          },
+          {
+            "id": "c",
+            "text": "a comet seen once in a lifetime"
+          }
+        ],
+        "answer": "b",
+        "hint": "Frequent means often. Which one happens most often?",
+        "explanation": "Frequent means happening often. A bus every ten minutes comes many times a day.",
+        "wrong": {
+          "a": "Once a year is not often.",
+          "c": "Once in a lifetime is rare, the opposite of frequent."
+        }
+      },
+      {
+        "id": "frequent.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Because of the ___ power outages, the family kept a flashlight in every room.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rare"
+          },
+          {
+            "id": "b",
+            "text": "silent"
+          },
+          {
+            "id": "c",
+            "text": "frequent"
+          },
+          {
+            "id": "d",
+            "text": "tiny"
+          }
+        ],
+        "answer": "c",
+        "clue": "kept a flashlight in every room",
+        "hint": "Why would a family need flashlights everywhere?",
+        "explanation": "Keeping \"a flashlight in every room\" makes sense only if the power goes out often. Frequent means happening often. Rare outages would not need so much planning."
+      },
+      {
+        "id": "frequent.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"frequent\" in this sentence?",
+        "passage": "Mrs. Lee gives frequent spelling quizzes to help us practice.",
+        "options": [
+          {
+            "id": "a",
+            "text": "regular"
+          },
+          {
+            "id": "b",
+            "text": "rare"
+          },
+          {
+            "id": "c",
+            "text": "hard"
+          },
+          {
+            "id": "d",
+            "text": "short"
+          }
+        ],
+        "answer": "b",
+        "hint": "Frequent means often. What means hardly ever?",
+        "explanation": "Frequent means happening often, so the opposite is rare, which means hardly ever. Regular is close in meaning to frequent."
+      },
+      {
+        "id": "frequent.adj.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses frequent correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I go every Saturday, so I'm a frequent visitor.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I went to the zoo once, so I'm a frequent visitor there.\""
+          },
+          {
+            "id": "c",
+            "text": "\"The frequent ending of the movie surprised me.\""
+          }
+        ],
+        "answer": "a",
+        "hint": "Frequent describes something that happens again and again.",
+        "explanation": "Going every Saturday is often, so frequent fits. Going once is not frequent, and a movie has only one ending, so it cannot be frequent.",
+        "wrong": {
+          "b": "Once is not often.",
+          "c": "An ending happens one time, so frequent does not fit."
+        }
+      },
+      {
+        "id": "frequent.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word describes how often hummingbirds eat?",
+        "passage": "Hummingbirds must feed every few minutes during the day because their tiny bodies burn energy so fast.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rare"
+          },
+          {
+            "id": "b",
+            "text": "slow"
+          },
+          {
+            "id": "c",
+            "text": "careful"
+          },
+          {
+            "id": "d",
+            "text": "frequent"
+          }
+        ],
+        "answer": "d",
+        "clue": "every few minutes",
+        "hint": "How often is every few minutes?",
+        "explanation": "\"Every few minutes\" means the birds eat very often. Frequent means happening often."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "hesitate.verb.1",
+    "word": "hesitate",
+    "grade": 4,
+    "pos": "verb",
+    "say": "HEZ-ih-tayt",
+    "definition": "to pause before doing or saying something because you are unsure",
+    "hero": {
+      "text": "Kai hesitated at the edge of the roof, unsure if the jump was safe, then chose the stairs.",
+      "scene": {
+        "pose": "hesitant",
+        "props": [
+          "🏢"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "When the teacher asked who knocked over the paint, Jordan hesitated before raising his hand.",
+    "contrast": {
+      "nonExample": "The moment the whistle blew, Lucia dove straight into the pool.",
+      "explanation": "Hesitating means pausing because you are unsure. Diving in instantly shows no pause at all.",
+      "scene": {
+        "pose": "jumping",
+        "props": [
+          "🏊",
+          "📣"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "pause",
+        "waver",
+        "hold back"
+      ],
+      "antonyms": [
+        "rush",
+        "proceed"
+      ],
+      "family": [
+        "hesitation",
+        "hesitant",
+        "hesitantly"
+      ]
+    },
+    "forms": [
+      "hesitate",
+      "hesitates",
+      "hesitated",
+      "hesitating"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "hesitate.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Did Ruby hesitate?",
+        "passage": "Before answering the hard question, Ruby paused, bit her lip, and thought for a while.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did Ruby stop before she answered?",
+        "explanation": "Yes. Ruby paused because she was unsure of the answer. Pausing before acting or speaking is hesitating."
+      },
+      {
+        "id": "hesitate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Max ___ at the door of the new classroom, unsure if he was in the right place.",
+        "options": [
+          {
+            "id": "a",
+            "text": "laughed"
+          },
+          {
+            "id": "b",
+            "text": "sprinted"
+          },
+          {
+            "id": "c",
+            "text": "hesitated"
+          },
+          {
+            "id": "d",
+            "text": "shouted"
+          }
+        ],
+        "answer": "c",
+        "clue": "unsure if he was in the right place",
+        "hint": "What do you do at a door when you are not sure you should go in?",
+        "explanation": "\"Unsure if he was in the right place\" explains why Max paused. Pausing because you are unsure is hesitating."
+      },
+      {
+        "id": "hesitate.verb.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "When asked to try the strange green soup, Elena ___ for a moment, then took a tiny sip.",
+        "options": [
+          {
+            "id": "a",
+            "text": "refused"
+          },
+          {
+            "id": "b",
+            "text": "hesitated"
+          },
+          {
+            "id": "c",
+            "text": "rushed"
+          },
+          {
+            "id": "d",
+            "text": "forgot"
+          }
+        ],
+        "answer": "b",
+        "clue": "for a moment, then took a tiny sip",
+        "hint": "Elena did try the soup in the end. Did she say no, or just pause?",
+        "explanation": "Elena paused \"for a moment\" and \"then took a tiny sip,\" so she hesitated. Refused would mean she said no and did not try it at all."
+      },
+      {
+        "id": "hesitate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what hesitate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The deer hesitated"
+          },
+          {
+            "id": "c2",
+            "text": "at the edge of the road,"
+          },
+          {
+            "id": "c3",
+            "text": "looking both ways before crossing."
+          },
+          {
+            "id": "c4",
+            "text": "and dashed across without stopping."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A deer that hesitates stops before moving on.",
+        "explanation": "Looking both ways before crossing shows the deer paused, unsure if it was safe. Dashing across without stopping is the opposite of hesitating."
+      },
+      {
+        "id": "hesitate.verb.1#5",
+        "format": "synonym",
+        "stage": "transfer",
+        "prompt": "What does \"don't hesitate\" mean in this sentence?",
+        "passage": "If you need help with your science project, please don't hesitate to ask me.",
+        "options": [
+          {
+            "id": "a",
+            "text": "don't hold back"
+          },
+          {
+            "id": "b",
+            "text": "don't ask too loudly"
+          },
+          {
+            "id": "c",
+            "text": "don't finish too soon"
+          },
+          {
+            "id": "d",
+            "text": "don't forget your name"
+          }
+        ],
+        "answer": "a",
+        "hint": "The speaker wants you to feel free to ask.",
+        "explanation": "To hesitate is to hold back because you are unsure. \"Don't hesitate to ask\" means ask right away without holding back."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "identify.verb.1",
+    "word": "identify",
+    "grade": 4,
+    "pos": "verb",
+    "say": "eye-DEN-tih-fy",
+    "definition": "to recognize and name who or what something is",
+    "hero": {
+      "text": "Pixel used her scanner to identify the strange purple plant as a harmless kind of fern.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🌿",
+          "🔍"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "The bird-watching club learned to identify robins by their orange chests and cheerful songs.",
+    "contrast": {
+      "nonExample": "Gabe saw a bird fly past the window but had no idea what kind it was.",
+      "explanation": "Seeing something is not the same as identifying it. To identify means you can recognize and name exactly what it is.",
+      "scene": {
+        "pose": "confused",
+        "props": [
+          "🐦",
+          "❓"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "recognize",
+        "name",
+        "pick out"
+      ],
+      "antonyms": [
+        "confuse",
+        "mistake"
+      ],
+      "family": [
+        "identification",
+        "identity",
+        "identifiable"
+      ]
+    },
+    "forms": [
+      "identify",
+      "identifies",
+      "identified",
+      "identifying"
+    ],
+    "tags": [
+      "science",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "identify.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does identify mean in this question?",
+        "passage": "Can you identify the main character in this story?",
+        "options": [
+          {
+            "id": "a",
+            "text": "draw a picture of"
+          },
+          {
+            "id": "b",
+            "text": "hide from"
+          },
+          {
+            "id": "c",
+            "text": "argue with"
+          },
+          {
+            "id": "d",
+            "text": "recognize and name"
+          }
+        ],
+        "answer": "d",
+        "hint": "The question wants you to say who the main character is.",
+        "explanation": "Identify means to recognize and name who or what something is. The question asks you to name the main character."
+      },
+      {
+        "id": "identify.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Using a field guide, the class was able to ___ every kind of leaf they collected on the walk.",
+        "options": [
+          {
+            "id": "a",
+            "text": "swallow"
+          },
+          {
+            "id": "b",
+            "text": "bury"
+          },
+          {
+            "id": "c",
+            "text": "lose"
+          },
+          {
+            "id": "d",
+            "text": "identify"
+          }
+        ],
+        "answer": "d",
+        "clue": "Using a field guide; every kind of leaf",
+        "hint": "A field guide helps you figure out what something is called.",
+        "explanation": "A field guide shows pictures and names, so the class used it to say what kind each leaf was. That is identifying."
+      },
+      {
+        "id": "identify.verb.1#3",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses identify correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I identified the cake by eating all of it.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Please identify the door so I can walk through.\""
+          },
+          {
+            "id": "c",
+            "text": "\"I can identify this rock as granite by its speckles.\""
+          }
+        ],
+        "answer": "c",
+        "hint": "When you identify something, you say what it is.",
+        "explanation": "Using speckles to say the rock is granite is recognizing and naming it, so identify fits. Eating a cake or walking through a door does not name what something is.",
+        "wrong": {
+          "a": "Eating the cake does not tell what it is.",
+          "b": "You open a door; identifying it would mean saying which door it is."
+        }
+      },
+      {
+        "id": "identify.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what identify means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The doctor identified"
+          },
+          {
+            "id": "c2",
+            "text": "the cause of my cough"
+          },
+          {
+            "id": "c3",
+            "text": "after listening to my lungs."
+          },
+          {
+            "id": "c4",
+            "text": "but still had no idea what it was."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "If you identify something, you know what it is.",
+        "explanation": "Listening to my lungs helped the doctor recognize the cause, so she identified it. You cannot identify something and still have no idea what it is."
+      },
+      {
+        "id": "identify.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did Ms. Chen identify the animal?",
+        "passage": "Ms. Chen studied the tracks in the snow and said, \"These long back prints were made by a rabbit.\"",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did she name what made the tracks?",
+        "explanation": "Yes. Ms. Chen used the clue of the long back prints to name the animal as a rabbit. Recognizing and naming something is identifying it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "independent.adj.1",
+    "word": "independent",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "in-dih-PEN-dent",
+    "definition": "able to do things for yourself without needing help or control from others",
+    "hero": {
+      "text": "Rex is independent: he packs his own gear and plans his own training without being reminded.",
+      "scene": {
+        "pose": "confident",
+        "props": [
+          "🎒",
+          "📋"
+        ],
+        "setting": "school"
+      }
+    },
+    "everyday": "In 1776, the American colonies declared that they would be independent from Britain.",
+    "contrast": {
+      "nonExample": "Ella asks her older brother to tie her shoes and pour her cereal every morning.",
+      "explanation": "An independent person does things on their own. Needing someone else for everyday tasks is depending on them.",
+      "scene": {
+        "pose": "sitting",
+        "props": [
+          "👟",
+          "🥣"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "self-reliant",
+        "free"
+      ],
+      "antonyms": [
+        "dependent",
+        "reliant"
+      ],
+      "family": [
+        "independence",
+        "independently",
+        "depend"
+      ]
+    },
+    "forms": [
+      "independent"
+    ],
+    "parts": [
+      {
+        "part": "in-",
+        "meaning": "not"
+      },
+      {
+        "part": "depend",
+        "meaning": "to rely on someone"
+      },
+      {
+        "part": "-ent",
+        "meaning": "being a certain way"
+      }
+    ],
+    "tags": [
+      "history",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "independent.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is independent?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rosa waits for her dad to pick out her clothes."
+          },
+          {
+            "id": "b",
+            "text": "Liam makes his own lunch and packs his bag."
+          },
+          {
+            "id": "c",
+            "text": "Nate copies his friend's answers on every worksheet."
+          }
+        ],
+        "answer": "b",
+        "hint": "Who does things for himself?",
+        "explanation": "Independent means doing things for yourself without help. Liam makes his own lunch and packs his own bag.",
+        "wrong": {
+          "a": "Rosa depends on her dad.",
+          "c": "Nate depends on his friend's work."
+        }
+      },
+      {
+        "id": "independent.adj.1#2",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The prefix in- means \"not,\" and depend means \"to rely on someone.\" What does independent mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "relying on others for everything"
+          },
+          {
+            "id": "b",
+            "text": "not needing to rely on others"
+          },
+          {
+            "id": "c",
+            "text": "depending on someone again"
+          },
+          {
+            "id": "d",
+            "text": "unable to do anything"
+          }
+        ],
+        "answer": "b",
+        "hint": "Put the parts together: not + relying on someone.",
+        "explanation": "In- (not) + depend (rely on) = not relying on others. Dependent means relying on others, so in- flips it to the opposite.",
+        "wrong": {
+          "a": "This is the meaning of dependent, without the in-."
+        }
+      },
+      {
+        "id": "independent.adj.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "After many years of being ruled by another country, the nation finally became ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "dependent"
+          },
+          {
+            "id": "b",
+            "text": "enormous"
+          },
+          {
+            "id": "c",
+            "text": "independent"
+          },
+          {
+            "id": "d",
+            "text": "invisible"
+          }
+        ],
+        "answer": "c",
+        "clue": "being ruled by another country; finally",
+        "hint": "What does a country become when it stops being ruled by someone else?",
+        "explanation": "\"Being ruled by another country\" is the old situation, and \"finally\" tells you it changed. A nation that rules itself is independent."
+      },
+      {
+        "id": "independent.adj.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"independent\" in this sentence?",
+        "passage": "My cat is very independent and rarely wants to be held or helped.",
+        "options": [
+          {
+            "id": "a",
+            "text": "sleepy"
+          },
+          {
+            "id": "b",
+            "text": "self-reliant"
+          },
+          {
+            "id": "c",
+            "text": "playful"
+          },
+          {
+            "id": "d",
+            "text": "dependent"
+          }
+        ],
+        "answer": "d",
+        "hint": "Independent means not needing others. What means needing others?",
+        "explanation": "Independent means not needing help from others, so dependent, which means relying on others, is the opposite. Self-reliant means almost the same as independent."
+      },
+      {
+        "id": "independent.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes Ava?",
+        "passage": "Now that she is eleven, Ava rides the city bus to her piano lesson alone and plans her own practice schedule.",
+        "options": [
+          {
+            "id": "a",
+            "text": "independent"
+          },
+          {
+            "id": "b",
+            "text": "forgetful"
+          },
+          {
+            "id": "c",
+            "text": "dependent"
+          },
+          {
+            "id": "d",
+            "text": "anxious"
+          }
+        ],
+        "answer": "a",
+        "clue": "rides the city bus alone; plans her own practice schedule",
+        "hint": "Does Ava need someone else to do these things for her?",
+        "explanation": "Riding the bus \"alone\" and planning \"her own\" schedule show Ava does things for herself. That is independent."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "influence.verb.1",
+    "word": "influence",
+    "grade": 4,
+    "pos": "verb",
+    "say": "IN-floo-ens",
+    "definition": "to change how someone thinks or acts, or how something happens",
+    "hero": {
+      "text": "Nova's calm voice influenced the frightened crowd, and soon everyone was walking safely to the exit.",
+      "scene": {
+        "pose": "calm",
+        "props": [
+          "🗣️",
+          "🚪"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The amount of sunlight a plant gets can influence how quickly it grows.",
+    "contrast": {
+      "nonExample": "Ty's friends begged him to join the band, but he kept his plan to join the chess club.",
+      "explanation": "His friends tried, but they did not influence him, because his choice did not change. Influencing means actually changing what someone thinks or does.",
+      "scene": {
+        "pose": "confident",
+        "props": [
+          "♟️",
+          "🎸"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "affect",
+        "shape",
+        "sway"
+      ],
+      "antonyms": [],
+      "family": [
+        "influential",
+        "influencer"
+      ]
+    },
+    "forms": [
+      "influence",
+      "influences",
+      "influenced",
+      "influencing"
+    ],
+    "tags": [
+      "social",
+      "science",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "influence.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does influenced mean in this sentence?",
+        "passage": "Reading books about astronauts influenced Maya to study science in college.",
+        "options": [
+          {
+            "id": "a",
+            "text": "shaped her choice"
+          },
+          {
+            "id": "b",
+            "text": "stopped her from"
+          },
+          {
+            "id": "c",
+            "text": "confused her about"
+          },
+          {
+            "id": "d",
+            "text": "made her forget about"
+          }
+        ],
+        "answer": "a",
+        "hint": "The books changed what Maya decided to do.",
+        "explanation": "Influence means to change how someone thinks or acts. The astronaut books helped shape Maya's choice to study science."
+      },
+      {
+        "id": "influence.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Rainfall and temperature can ___ which crops farmers choose to plant each spring.",
+        "options": [
+          {
+            "id": "a",
+            "text": "whisper"
+          },
+          {
+            "id": "b",
+            "text": "decorate"
+          },
+          {
+            "id": "c",
+            "text": "borrow"
+          },
+          {
+            "id": "d",
+            "text": "influence"
+          }
+        ],
+        "answer": "d",
+        "clue": "which crops farmers choose",
+        "hint": "Weather can change the farmers' decision.",
+        "explanation": "Rainfall and temperature help decide \"which crops farmers choose.\" Something that changes a decision influences it."
+      },
+      {
+        "id": "influence.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"influence\" in this sentence?",
+        "passage": "A good coach can influence how hard the players work in practice.",
+        "options": [
+          {
+            "id": "a",
+            "text": "affect"
+          },
+          {
+            "id": "b",
+            "text": "measure"
+          },
+          {
+            "id": "c",
+            "text": "ignore"
+          },
+          {
+            "id": "d",
+            "text": "remember"
+          }
+        ],
+        "answer": "a",
+        "hint": "The coach can change how hard players work.",
+        "explanation": "Affect means to cause a change in something, just like influence. Measure only means finding out how much; it does not change anything."
+      },
+      {
+        "id": "influence.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what influence means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Hearing her favorite author speak"
+          },
+          {
+            "id": "c2",
+            "text": "influenced Lia"
+          },
+          {
+            "id": "c3",
+            "text": "to start writing her own stories."
+          },
+          {
+            "id": "c4",
+            "text": "but nothing about her changed at all."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "If something influences you, something about you changes.",
+        "explanation": "Lia started writing because of the author's talk, so the talk changed what she did. That is influence. If nothing changed, she was not influenced."
+      },
+      {
+        "id": "influence.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did the classmate influence Diego?",
+        "passage": "After a classmate explained how much water is wasted, Diego began turning off the tap while brushing his teeth.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did Diego change what he does after hearing his classmate?",
+        "explanation": "Yes. Diego changed his habit because of what his classmate said. Changing how someone acts is influencing them."
+      }
+    ],
+    "review": "pending"
+  }
+]

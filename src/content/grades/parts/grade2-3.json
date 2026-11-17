@@ -1,0 +1,1890 @@
+[
+ {
+  "id": "borrow.verb.1",
+  "word": "borrow",
+  "grade": 2,
+  "pos": "verb",
+  "say": "BOR-oh",
+  "definition": "to take something for a short time and then give it back",
+  "hero": {
+   "text": "Pixel borrowed Bolt's map and gave it back after the trip.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🗺️",
+     "🤝"
+    ],
+    "second": "kind",
+    "setting": "school"
+   }
+  },
+  "everyday": "Can I borrow your red crayon? I'll give it right back.",
+  "contrast": {
+   "nonExample": "Sara gave her old bike to her cousin to keep forever.",
+   "explanation": "Her cousin keeps the bike forever, so it is a gift. To borrow is to take something and give it back later.",
+   "scene": {
+    "pose": "kind",
+    "props": [
+     "🚲",
+     "🎁"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "use for a while"
+   ],
+   "antonyms": [
+    "lend"
+   ],
+   "family": [
+    "borrowed",
+    "borrower",
+    "borrowing"
+   ]
+  },
+  "forms": [
+   "borrow",
+   "borrows",
+   "borrowed",
+   "borrowing"
+  ],
+  "tags": [
+   "everyday",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "borrow.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person borrows something?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Max buys a new ball at the store."
+     },
+     {
+      "id": "b",
+      "text": "Lia uses her friend's pencil and gives it back."
+     },
+     {
+      "id": "c",
+      "text": "Ken throws his old shoes away."
+     }
+    ],
+    "answer": "b",
+    "hint": "When you borrow, you give the thing back.",
+    "explanation": "Lia uses the pencil and gives it back. That is borrowing. Buying something means it is yours to keep.",
+    "wrong": {
+     "a": "Max buys the ball, so it is his to keep.",
+     "c": "Throwing shoes away is not borrowing."
+    }
+   },
+   {
+    "id": "borrow.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "I forgot my umbrella, so I ___ one from my teacher until the rain stopped.",
+    "options": [
+     {
+      "id": "a",
+      "text": "scrubbed"
+     },
+     {
+      "id": "b",
+      "text": "sniffed"
+     },
+     {
+      "id": "c",
+      "text": "painted"
+     },
+     {
+      "id": "d",
+      "text": "borrowed"
+     }
+    ],
+    "answer": "d",
+    "clue": "until the rain stopped",
+    "hint": "You use the umbrella only until the rain stops.",
+    "explanation": "\"Until the rain stopped\" shows you used it for a short time and gave it back. That is borrowed."
+   },
+   {
+    "id": "borrow.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of borrowing?",
+    "passage": "Jon took a book home from the library and returned it two weeks later.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did Jon give the book back?",
+    "explanation": "Yes. Jon used the library book for a while and returned it. That is borrowing."
+   },
+   {
+    "id": "borrow.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what borrow means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Can I borrow"
+     },
+     {
+      "id": "c2",
+      "text": "your jump rope for recess?"
+     },
+     {
+      "id": "c3",
+      "text": "I will bring it back after lunch."
+     },
+     {
+      "id": "c4",
+      "text": "I will keep it forever."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "When you borrow, you give it back.",
+    "explanation": "Borrowing means giving the thing back, so \"I will bring it back after lunch\" fits. Keeping it forever is not borrowing."
+   },
+   {
+    "id": "borrow.verb.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best fits the sentence?",
+    "passage": "Mom let me ___ her scarf for the day, and I gave it back that night.",
+    "options": [
+     {
+      "id": "a",
+      "text": "borrow"
+     },
+     {
+      "id": "b",
+      "text": "keep"
+     },
+     {
+      "id": "c",
+      "text": "lose"
+     }
+    ],
+    "answer": "a",
+    "clue": "gave it back that night",
+    "hint": "Which word means use it and then give it back?",
+    "explanation": "\"Gave it back that night\" is the clue. Borrow means take something for a short time and return it. Keep means it stays yours."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "chilly.adj.1",
+  "word": "chilly",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "CHIL-ee",
+  "definition": "a little bit cold",
+  "hero": {
+   "text": "The night air was chilly, so Kai zipped up his hero jacket.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🧥",
+     "🌙"
+    ],
+    "setting": "night"
+   }
+  },
+  "everyday": "It was chilly in the morning, so I wore a sweater to school.",
+  "contrast": {
+   "nonExample": "The sand at the beach was hot under the bright sun.",
+   "explanation": "Hot sand is warm, not cold. Chilly means a little bit cold.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🏖️",
+     "☀️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "cool",
+    "cold"
+   ],
+   "antonyms": [
+    "warm",
+    "hot"
+   ],
+   "family": [
+    "chill",
+    "chillier",
+    "chilliest"
+   ]
+  },
+  "forms": [
+   "chilly",
+   "chillier",
+   "chilliest"
+  ],
+  "tags": [
+   "everyday",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "chilly.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which day is chilly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a cool fall morning when you need a jacket"
+     },
+     {
+      "id": "b",
+      "text": "a hot summer day at the pool"
+     },
+     {
+      "id": "c",
+      "text": "a warm day in a sunny garden"
+     }
+    ],
+    "answer": "a",
+    "hint": "Chilly means a little bit cold.",
+    "explanation": "A cool morning when you need a jacket is a little cold. That is chilly. Hot and warm days are not chilly."
+   },
+   {
+    "id": "chilly.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The room felt ___, so Dad closed the window.",
+    "options": [
+     {
+      "id": "a",
+      "text": "proud"
+     },
+     {
+      "id": "b",
+      "text": "delicious"
+     },
+     {
+      "id": "c",
+      "text": "brave"
+     },
+     {
+      "id": "d",
+      "text": "chilly"
+     }
+    ],
+    "answer": "d",
+    "clue": "closed the window",
+    "hint": "Why would Dad close a window?",
+    "explanation": "Closing the window keeps cold air out. The room felt a little cold, so chilly fits."
+   },
+   {
+    "id": "chilly.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is the OPPOSITE of \"chilly\" in this sentence?",
+    "passage": "The water in the lake was chilly.",
+    "options": [
+     {
+      "id": "a",
+      "text": "warm"
+     },
+     {
+      "id": "b",
+      "text": "cool"
+     },
+     {
+      "id": "c",
+      "text": "deep"
+     },
+     {
+      "id": "d",
+      "text": "blue"
+     }
+    ],
+    "answer": "a",
+    "hint": "Find the word that means not cold.",
+    "explanation": "Warm is the opposite of chilly. Cool means almost the same as chilly."
+   },
+   {
+    "id": "chilly.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what chilly means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The wind was chilly,"
+     },
+     {
+      "id": "c2",
+      "text": "so I put on my hat"
+     },
+     {
+      "id": "c3",
+      "text": "and gloves."
+     },
+     {
+      "id": "c4",
+      "text": "and took off my shoes."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "When it is chilly, you want to stay warm.",
+    "explanation": "Chilly wind makes you want warm clothes like a hat and gloves. Taking off your shoes would make you colder."
+   },
+   {
+    "id": "chilly.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Does this describe something chilly?",
+    "passage": "Leo put his hand in the oven mitt and pulled out the hot bread.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is it a little cold, or hot?",
+    "explanation": "No. Hot bread from the oven is the opposite of chilly. Chilly means a little bit cold."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "cheerful.adj.1",
+  "word": "cheerful",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "CHEER-ful",
+  "definition": "happy and bright in a way others can see",
+  "hero": {
+   "text": "Juniper gave a cheerful wave to every kid on the street.",
+   "scene": {
+    "pose": "waving",
+    "props": [
+     "👋",
+     "😊"
+    ],
+    "setting": "street"
+   }
+  },
+  "everyday": "Our bus driver is always cheerful and says good morning to everyone.",
+  "contrast": {
+   "nonExample": "Jay frowned and stomped to his room.",
+   "explanation": "Frowning and stomping show a bad mood. A cheerful person is happy and bright.",
+   "scene": {
+    "pose": "angry",
+    "props": [
+     "😠",
+     "🚪"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "happy",
+    "jolly"
+   ],
+   "antonyms": [
+    "grumpy",
+    "gloomy"
+   ],
+   "family": [
+    "cheer",
+    "cheerfully",
+    "cheerfulness"
+   ]
+  },
+  "forms": [
+   "cheerful"
+  ],
+  "tags": [
+   "everyday",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "cheerful.adj.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is this person cheerful?",
+    "passage": "Ana smiles, hums a song, and says hello to everyone.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is Ana happy and bright?",
+    "explanation": "Yes. Smiling, humming, and saying hello show Ana is happy. She is cheerful."
+   },
+   {
+    "id": "cheerful.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The yellow flowers made the room look bright and ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "hollow"
+     },
+     {
+      "id": "b",
+      "text": "sticky"
+     },
+     {
+      "id": "c",
+      "text": "cheerful"
+     },
+     {
+      "id": "d",
+      "text": "lonely"
+     }
+    ],
+    "answer": "c",
+    "clue": "bright",
+    "hint": "\"Bright and ___\" — which word goes with bright and happy?",
+    "explanation": "\"Bright\" is the clue. Yellow flowers make a room look happy and bright, so cheerful fits."
+   },
+   {
+    "id": "cheerful.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is the OPPOSITE of \"cheerful\" in this sentence?",
+    "passage": "Grandma was cheerful at her birthday party.",
+    "options": [
+     {
+      "id": "a",
+      "text": "happy"
+     },
+     {
+      "id": "b",
+      "text": "grumpy"
+     },
+     {
+      "id": "c",
+      "text": "old"
+     },
+     {
+      "id": "d",
+      "text": "busy"
+     }
+    ],
+    "answer": "b",
+    "hint": "Find the word for a bad mood.",
+    "explanation": "Grumpy means in a bad mood, the opposite of cheerful. Happy means almost the same as cheerful."
+   },
+   {
+    "id": "cheerful.adj.1#4",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Cheerful\" is made of \"cheer\" + \"-ful.\" The ending \"-ful\" means \"full of.\" So cheerful means:",
+    "options": [
+     {
+      "id": "a",
+      "text": "without any cheer"
+     },
+     {
+      "id": "b",
+      "text": "full of cheer and happiness"
+     },
+     {
+      "id": "c",
+      "text": "ready to fall asleep"
+     }
+    ],
+    "answer": "b",
+    "hint": "Put the parts together: full of + cheer.",
+    "explanation": "-ful means full of, so cheerful means full of cheer. A cheerful person is happy and bright."
+   },
+   {
+    "id": "cheerful.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best describes Zane?",
+    "passage": "Zane whistled while he walked his dog. He grinned at everyone he passed.",
+    "options": [
+     {
+      "id": "a",
+      "text": "grumpy"
+     },
+     {
+      "id": "b",
+      "text": "sleepy"
+     },
+     {
+      "id": "c",
+      "text": "scared"
+     },
+     {
+      "id": "d",
+      "text": "cheerful"
+     }
+    ],
+    "answer": "d",
+    "clue": "whistled; grinned at everyone",
+    "hint": "Whistling and grinning show a mood. Which one?",
+    "explanation": "\"Whistled\" and \"grinned at everyone\" show Zane is happy and bright. He is cheerful."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "explore.verb.1",
+  "word": "explore",
+  "grade": 2,
+  "pos": "verb",
+  "say": "ek-SPLOR",
+  "definition": "to look around a new place to learn about it",
+  "hero": {
+   "text": "Pixel and Kai explored the old tunnel to see where it led.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🔦",
+     "🕳️"
+    ],
+    "second": "looking",
+    "setting": "night"
+   }
+  },
+  "everyday": "On our camping trip, we explored the woods and found a stream.",
+  "contrast": {
+   "nonExample": "Sam stayed on the couch and watched the same show again.",
+   "explanation": "Sam is not going anywhere new or learning about a place. To explore is to look around a new place to learn about it.",
+   "scene": {
+    "pose": "sitting",
+    "props": [
+     "🛋️",
+     "📺"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "discover",
+    "search"
+   ],
+   "antonyms": [],
+   "family": [
+    "explored",
+    "explorer",
+    "exploring"
+   ]
+  },
+  "forms": [
+   "explore",
+   "explores",
+   "explored",
+   "exploring"
+  ],
+  "tags": [
+   "science",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "explore.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person is exploring?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Jake looks all around a cave he has never seen before."
+     },
+     {
+      "id": "b",
+      "text": "Tia sleeps late on Saturday."
+     },
+     {
+      "id": "c",
+      "text": "Eva eats a sandwich at home."
+     }
+    ],
+    "answer": "a",
+    "hint": "To explore is to look around a new place.",
+    "explanation": "Jake looks all around a new cave to learn about it. That is exploring."
+   },
+   {
+    "id": "explore.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "On the first day of school, we got to ___ our new classroom.",
+    "options": [
+     {
+      "id": "a",
+      "text": "scrub"
+     },
+     {
+      "id": "b",
+      "text": "borrow"
+     },
+     {
+      "id": "c",
+      "text": "repair"
+     },
+     {
+      "id": "d",
+      "text": "explore"
+     }
+    ],
+    "answer": "d",
+    "clue": "new classroom",
+    "hint": "The classroom is new. What do you do in a new place?",
+    "explanation": "\"New classroom\" is the clue. You look around a new place to learn about it. That is explore."
+   },
+   {
+    "id": "explore.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of exploring?",
+    "passage": "The kids walked along the beach, looking at shells and tide pools they had never seen.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Are they looking around to learn about a new place?",
+    "explanation": "Yes. They look around a beach they have never seen and learn about it. That is exploring."
+   },
+   {
+    "id": "explore.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what explore means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The puppy explored"
+     },
+     {
+      "id": "c2",
+      "text": "every corner of its new home"
+     },
+     {
+      "id": "c3",
+      "text": "and sniffed each room."
+     },
+     {
+      "id": "c4",
+      "text": "and never left its box."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "To explore, you look around.",
+    "explanation": "The puppy looks all around its new home, so it explores. Never leaving its box is not exploring."
+   },
+   {
+    "id": "explore.verb.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best fits what the scientists did?",
+    "passage": "The scientists went deep under the sea in a small sub. They looked for fish no one had ever seen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "giggled"
+     },
+     {
+      "id": "b",
+      "text": "tumbled"
+     },
+     {
+      "id": "c",
+      "text": "explored"
+     },
+     {
+      "id": "d",
+      "text": "rescued"
+     }
+    ],
+    "answer": "c",
+    "clue": "looked for fish no one had ever seen",
+    "hint": "They went to a new place to learn about it.",
+    "explanation": "Going \"deep under the sea\" to look for new fish means they looked around a new place to learn. That is explored."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "repair.verb.1",
+  "word": "repair",
+  "grade": 2,
+  "pos": "verb",
+  "say": "rih-PAIR",
+  "definition": "to fix something that is broken",
+  "hero": {
+   "text": "Rex used his super strength to repair the broken bridge.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🔧",
+     "🌉"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Dad repaired my bike's flat tire.",
+  "contrast": {
+   "nonExample": "Mo dropped the cup, and it cracked in two.",
+   "explanation": "Dropping the cup broke it. To repair is to fix something that is broken.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "☕",
+     "💔"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "fix",
+    "mend"
+   ],
+   "antonyms": [
+    "break"
+   ],
+   "family": [
+    "repaired",
+    "repairing",
+    "repairs"
+   ]
+  },
+  "forms": [
+   "repair",
+   "repairs",
+   "repaired",
+   "repairing"
+  ],
+  "tags": [
+   "everyday",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "repair.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"repair\" mean in this sentence?",
+    "passage": "Can you repair the broken toy car?",
+    "options": [
+     {
+      "id": "a",
+      "text": "fix it"
+     },
+     {
+      "id": "b",
+      "text": "paint it"
+     },
+     {
+      "id": "c",
+      "text": "hide it"
+     }
+    ],
+    "answer": "a",
+    "hint": "The toy car is broken. What does it need?",
+    "explanation": "To repair is to fix something that is broken. The broken car needs to be fixed."
+   },
+   {
+    "id": "repair.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The fence had a big hole, so Mom used boards to ___ it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "sniff"
+     },
+     {
+      "id": "b",
+      "text": "borrow"
+     },
+     {
+      "id": "c",
+      "text": "tickle"
+     },
+     {
+      "id": "d",
+      "text": "repair"
+     }
+    ],
+    "answer": "d",
+    "clue": "big hole",
+    "hint": "What do you do to a fence with a hole?",
+    "explanation": "\"Big hole\" means the fence is broken. Mom uses boards to fix it, so repair fits."
+   },
+   {
+    "id": "repair.verb.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means almost the same as \"repaired\" in this sentence?",
+    "passage": "Grandpa repaired the leaky sink.",
+    "options": [
+     {
+      "id": "a",
+      "text": "fixed"
+     },
+     {
+      "id": "b",
+      "text": "broke"
+     },
+     {
+      "id": "c",
+      "text": "filled"
+     },
+     {
+      "id": "d",
+      "text": "washed"
+     }
+    ],
+    "answer": "a",
+    "hint": "Find the word that means made it work again.",
+    "explanation": "Fixed means almost the same as repaired. Broke is the opposite."
+   },
+   {
+    "id": "repair.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what repair means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Kate repaired"
+     },
+     {
+      "id": "c2",
+      "text": "the torn page"
+     },
+     {
+      "id": "c3",
+      "text": "with a piece of tape."
+     },
+     {
+      "id": "c4",
+      "text": "by ripping it more."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Repairing makes something whole again.",
+    "explanation": "Tape fixes a torn page, so Kate repaired it. Ripping it more makes it worse, not repaired."
+   },
+   {
+    "id": "repair.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this an example of repairing?",
+    "passage": "Lee cut his paper into tiny pieces for a craft.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is Lee fixing something broken?",
+    "explanation": "No. Cutting paper for a craft is not fixing anything. To repair is to fix something that is broken."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "delicious.adj.1",
+  "word": "delicious",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "dih-LISH-us",
+  "definition": "tasting or smelling very good",
+  "hero": {
+   "text": "Bolt shared delicious pizza with the team after the rescue.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🍕",
+     "😋"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Grandma's warm apple pie smells delicious.",
+  "contrast": {
+   "nonExample": "The milk was old and tasted sour.",
+   "explanation": "Sour, old milk tastes bad. Delicious means tasting or smelling very good.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "🥛",
+     "🤢"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "tasty",
+    "yummy"
+   ],
+   "antonyms": [
+    "disgusting",
+    "yucky"
+   ],
+   "family": [
+    "deliciously"
+   ]
+  },
+  "forms": [
+   "delicious"
+  ],
+  "tags": [
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "delicious.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which food is delicious?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a sweet, juicy strawberry"
+     },
+     {
+      "id": "b",
+      "text": "a burnt piece of toast"
+     },
+     {
+      "id": "c",
+      "text": "a soggy, cold noodle"
+     }
+    ],
+    "answer": "a",
+    "hint": "Delicious means tasting very good.",
+    "explanation": "A sweet, juicy strawberry tastes very good, so it is delicious. Burnt toast and soggy noodles do not taste good."
+   },
+   {
+    "id": "delicious.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The soup was so ___ that I asked for another bowl.",
+    "options": [
+     {
+      "id": "a",
+      "text": "chilly"
+     },
+     {
+      "id": "b",
+      "text": "delicious"
+     },
+     {
+      "id": "c",
+      "text": "rough"
+     },
+     {
+      "id": "d",
+      "text": "empty"
+     }
+    ],
+    "answer": "b",
+    "clue": "asked for another bowl",
+    "hint": "Why would you want another bowl?",
+    "explanation": "\"Asked for another bowl\" shows the soup tasted very good. Delicious fits."
+   },
+   {
+    "id": "delicious.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means almost the same as \"delicious\" in this sentence?",
+    "passage": "We ate delicious tacos at the fair.",
+    "options": [
+     {
+      "id": "a",
+      "text": "spicy"
+     },
+     {
+      "id": "b",
+      "text": "big"
+     },
+     {
+      "id": "c",
+      "text": "tasty"
+     },
+     {
+      "id": "d",
+      "text": "cheap"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which word is about tasting good?",
+    "explanation": "Tasty means tasting good, like delicious. Spicy is a kind of taste, but spicy food is not always good to everyone."
+   },
+   {
+    "id": "delicious.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what delicious means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The cookies were delicious,"
+     },
+     {
+      "id": "c2",
+      "text": "so we ate every one"
+     },
+     {
+      "id": "c3",
+      "text": "and licked our fingers."
+     },
+     {
+      "id": "c4",
+      "text": "and spit them all out."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Delicious food is food you want to eat.",
+    "explanation": "Delicious cookies taste good, so you eat them all. Spitting them out means they tasted bad."
+   },
+   {
+    "id": "delicious.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best describes the bread?",
+    "passage": "When the bread came out of the oven, it smelled so good that everyone ran into the kitchen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "delicious"
+     },
+     {
+      "id": "b",
+      "text": "sticky"
+     },
+     {
+      "id": "c",
+      "text": "lonely"
+     },
+     {
+      "id": "d",
+      "text": "hollow"
+     }
+    ],
+    "answer": "a",
+    "clue": "smelled so good",
+    "hint": "Everyone ran in because of the smell.",
+    "explanation": "\"Smelled so good\" is the clue. Delicious means tasting or smelling very good."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "empty.adj.1",
+  "word": "empty",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "EMP-tee",
+  "definition": "having nothing inside",
+  "hero": {
+   "text": "Nova checked the empty building to make sure no one was left inside.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🏢",
+     "🔦"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "My cereal bowl was empty after breakfast.",
+  "contrast": {
+   "nonExample": "The toy box was full of blocks and dolls.",
+   "explanation": "A full box has many things inside. Empty means having nothing inside.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🧸",
+     "📦"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "bare",
+    "vacant"
+   ],
+   "antonyms": [
+    "full"
+   ],
+   "family": [
+    "emptied",
+    "emptiness"
+   ]
+  },
+  "forms": [
+   "empty",
+   "emptier",
+   "emptiest"
+  ],
+  "tags": [
+   "everyday",
+   "math"
+  ],
+  "items": [
+   {
+    "id": "empty.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which thing is empty?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a fish tank full of fish"
+     },
+     {
+      "id": "b",
+      "text": "a backpack stuffed with books"
+     },
+     {
+      "id": "c",
+      "text": "a cookie jar with no cookies left"
+     }
+    ],
+    "answer": "c",
+    "hint": "Empty means nothing is inside.",
+    "explanation": "A cookie jar with no cookies has nothing inside. It is empty. The fish tank and backpack are full."
+   },
+   {
+    "id": "empty.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Everyone went home, so the playground was ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "crowded"
+     },
+     {
+      "id": "b",
+      "text": "empty"
+     },
+     {
+      "id": "c",
+      "text": "delicious"
+     },
+     {
+      "id": "d",
+      "text": "gentle"
+     }
+    ],
+    "answer": "b",
+    "clue": "everyone went home",
+    "hint": "If everyone went home, who is left?",
+    "explanation": "\"Everyone went home\" means no one is left. The playground is empty. Crowded means the opposite."
+   },
+   {
+    "id": "empty.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is the OPPOSITE of \"empty\" in this sentence?",
+    "passage": "I filled my empty water bottle at the sink.",
+    "options": [
+     {
+      "id": "a",
+      "text": "bare"
+     },
+     {
+      "id": "b",
+      "text": "old"
+     },
+     {
+      "id": "c",
+      "text": "full"
+     },
+     {
+      "id": "d",
+      "text": "clean"
+     }
+    ],
+    "answer": "c",
+    "hint": "Find the word that means it has lots inside.",
+    "explanation": "Full is the opposite of empty. Bare means almost the same as empty."
+   },
+   {
+    "id": "empty.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what empty means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The gas tank was empty,"
+     },
+     {
+      "id": "c2",
+      "text": "so the car could not go"
+     },
+     {
+      "id": "c3",
+      "text": "until Mom filled it up."
+     },
+     {
+      "id": "c4",
+      "text": "so the car zoomed far away."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "An empty tank has no gas inside.",
+    "explanation": "With no gas inside, the car cannot go. A car would not zoom away on an empty tank."
+   },
+   {
+    "id": "empty.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this thing empty?",
+    "passage": "The bird's nest had three blue eggs in it.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is there anything inside the nest?",
+    "explanation": "No. The nest has three eggs inside, so it is not empty. Empty means having nothing inside."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "hollow.adj.1",
+  "word": "hollow",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "HOL-oh",
+  "definition": "having an empty space inside",
+  "hero": {
+   "text": "Kai hid the map inside a hollow log in the forest.",
+   "scene": {
+    "pose": "sneaky",
+    "props": [
+     "🪵",
+     "🗺️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "everyday": "An owl made its home in a hollow tree.",
+  "contrast": {
+   "nonExample": "The brick was solid all the way through.",
+   "explanation": "A solid brick has no space inside. Hollow means having an empty space inside, like a tube or a drum.",
+   "scene": {
+    "pose": "lifting",
+    "props": [
+     "🧱"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "empty inside"
+   ],
+   "antonyms": [
+    "solid"
+   ],
+   "family": [
+    "hollowed"
+   ]
+  },
+  "forms": [
+   "hollow"
+  ],
+  "tags": [
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "hollow.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which thing is hollow?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a solid rock"
+     },
+     {
+      "id": "b",
+      "text": "a heavy brick"
+     },
+     {
+      "id": "c",
+      "text": "a tube from a paper towel roll"
+     }
+    ],
+    "answer": "c",
+    "hint": "Hollow means there is empty space inside.",
+    "explanation": "A paper towel tube has empty space in the middle, so it is hollow. A rock and a brick are solid all the way through."
+   },
+   {
+    "id": "hollow.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The chocolate bunny was ___, so it had nothing but air inside.",
+    "options": [
+     {
+      "id": "a",
+      "text": "brave"
+     },
+     {
+      "id": "b",
+      "text": "hollow"
+     },
+     {
+      "id": "c",
+      "text": "chilly"
+     },
+     {
+      "id": "d",
+      "text": "proud"
+     }
+    ],
+    "answer": "b",
+    "clue": "nothing but air inside",
+    "hint": "\"Nothing but air inside\" is a big clue.",
+    "explanation": "\"Nothing but air inside\" means the bunny has an empty space inside. That is hollow."
+   },
+   {
+    "id": "hollow.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word fits best?",
+    "passage": "The log looked whole, but it had a big empty space in the middle. The log was ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "hollow"
+     },
+     {
+      "id": "b",
+      "text": "solid"
+     },
+     {
+      "id": "c",
+      "text": "heavy"
+     }
+    ],
+    "answer": "a",
+    "hint": "Which word means having an empty space inside?",
+    "explanation": "\"Empty space in the middle\" tells you the log is hollow. Solid means filled all the way through, the opposite."
+   },
+   {
+    "id": "hollow.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what hollow means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The drum is hollow,"
+     },
+     {
+      "id": "c2",
+      "text": "so it makes a loud boom"
+     },
+     {
+      "id": "c3",
+      "text": "when you hit it."
+     },
+     {
+      "id": "c4",
+      "text": "so it is filled with sand."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "A hollow drum has empty space inside.",
+    "explanation": "The empty space inside a hollow drum helps it boom. If it were filled with sand, it would not be hollow."
+   },
+   {
+    "id": "hollow.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this thing hollow?",
+    "passage": "Ivy found a big seashell with an empty space inside where a crab could hide.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is there an empty space inside?",
+    "explanation": "Yes. The shell has an empty space inside, so it is hollow."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "sniff.verb.1",
+  "word": "sniff",
+  "grade": 2,
+  "pos": "verb",
+  "say": "SNIF",
+  "definition": "to smell something by taking short breaths through your nose",
+  "hero": {
+   "text": "Juniper's dog sniffed the trail to find the missing hiker.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🐕",
+     "👃"
+    ],
+    "setting": "nature"
+   }
+  },
+  "everyday": "I sniffed the flowers to see if they smelled sweet.",
+  "contrast": {
+   "nonExample": "Ben listened to the birds singing outside.",
+   "explanation": "Ben is using his ears, not his nose. To sniff is to smell by taking short breaths through your nose.",
+   "scene": {
+    "pose": "listening",
+    "props": [
+     "🐦",
+     "🎵"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "smell"
+   ],
+   "antonyms": [],
+   "family": [
+    "sniffed",
+    "sniffing",
+    "sniffy"
+   ]
+  },
+  "forms": [
+   "sniff",
+   "sniffs",
+   "sniffed",
+   "sniffing"
+  ],
+  "tags": [
+   "everyday",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "sniff.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"sniff\" mean in this sentence?",
+    "passage": "The rabbit stopped to sniff the carrot.",
+    "options": [
+     {
+      "id": "a",
+      "text": "kick it with its feet"
+     },
+     {
+      "id": "b",
+      "text": "smell it with its nose"
+     },
+     {
+      "id": "c",
+      "text": "hide it in a hole"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which body part do you use to sniff?",
+    "explanation": "To sniff is to smell with short breaths through your nose. The rabbit smells the carrot."
+   },
+   {
+    "id": "sniff.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Mom opened the milk to ___ it and see if it was still fresh.",
+    "options": [
+     {
+      "id": "a",
+      "text": "scrub"
+     },
+     {
+      "id": "b",
+      "text": "borrow"
+     },
+     {
+      "id": "c",
+      "text": "sniff"
+     },
+     {
+      "id": "d",
+      "text": "repair"
+     }
+    ],
+    "answer": "c",
+    "clue": "see if it was still fresh",
+    "hint": "How can you tell if milk is fresh without tasting it?",
+    "explanation": "You can smell milk to tell if it is fresh. \"See if it was still fresh\" is the clue. Sniff fits."
+   },
+   {
+    "id": "sniff.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of sniffing?",
+    "passage": "The puppy put its nose to the ground and smelled every patch of grass.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is the puppy smelling with its nose?",
+    "explanation": "Yes. The puppy uses its nose to smell the grass. That is sniffing."
+   },
+   {
+    "id": "sniff.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what sniff means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Leo sniffed the air"
+     },
+     {
+      "id": "c2",
+      "text": "and smelled cookies baking"
+     },
+     {
+      "id": "c3",
+      "text": "in the kitchen."
+     },
+     {
+      "id": "c4",
+      "text": "and heard a loud drum."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Sniffing is about smelling.",
+    "explanation": "When you sniff, you smell things, like cookies baking. Hearing a drum is about your ears, not your nose."
+   },
+   {
+    "id": "sniff.verb.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best fits what the bear did?",
+    "passage": "The bear lifted its nose and breathed in quickly, again and again. It was trying to smell the honey.",
+    "options": [
+     {
+      "id": "a",
+      "text": "giggled"
+     },
+     {
+      "id": "b",
+      "text": "stretched"
+     },
+     {
+      "id": "c",
+      "text": "repaired"
+     },
+     {
+      "id": "d",
+      "text": "sniffed"
+     }
+    ],
+    "answer": "d",
+    "clue": "breathed in quickly; trying to smell",
+    "hint": "The bear used its nose with quick breaths.",
+    "explanation": "\"Breathed in quickly\" with its nose \"to smell the honey\" is sniffing."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "sturdy.adj.1",
+  "word": "sturdy",
+  "grade": 2,
+  "pos": "adjective",
+  "say": "STUR-dee",
+  "definition": "strong and hard to break or knock over",
+  "hero": {
+   "text": "Rex built a sturdy wall that the strong wind could not knock down.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🧱",
+     "💨"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "We need a sturdy box to carry these heavy books.",
+  "contrast": {
+   "nonExample": "The paper cup crushed when Ty squeezed it.",
+   "explanation": "A paper cup breaks easily. Sturdy means strong and hard to break.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "🥤",
+     "✊"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "strong",
+    "solid"
+   ],
+   "antonyms": [
+    "flimsy",
+    "weak"
+   ],
+   "family": [
+    "sturdier",
+    "sturdiest",
+    "sturdily"
+   ]
+  },
+  "forms": [
+   "sturdy",
+   "sturdier",
+   "sturdiest"
+  ],
+  "tags": [
+   "everyday",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "sturdy.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which thing is sturdy?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a strong wooden table"
+     },
+     {
+      "id": "b",
+      "text": "a soap bubble"
+     },
+     {
+      "id": "c",
+      "text": "a tower made of wet tissue paper"
+     }
+    ],
+    "answer": "a",
+    "hint": "Sturdy means strong and hard to break.",
+    "explanation": "A strong wooden table is hard to break or knock over. It is sturdy. Bubbles and wet tissue break very easily."
+   },
+   {
+    "id": "sturdy.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The tree house was so ___ that five kids could play in it safely.",
+    "options": [
+     {
+      "id": "a",
+      "text": "tiny"
+     },
+     {
+      "id": "b",
+      "text": "sturdy"
+     },
+     {
+      "id": "c",
+      "text": "hollow"
+     },
+     {
+      "id": "d",
+      "text": "chilly"
+     }
+    ],
+    "answer": "b",
+    "clue": "five kids; safely",
+    "hint": "Five kids can play in it safely. What kind of tree house is that?",
+    "explanation": "\"Five kids could play in it safely\" shows it was strong. Sturdy fits. A tiny tree house could not hold five kids."
+   },
+   {
+    "id": "sturdy.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is the OPPOSITE of \"sturdy\" in this sentence?",
+    "passage": "Grandpa sat on the sturdy chair.",
+    "options": [
+     {
+      "id": "a",
+      "text": "strong"
+     },
+     {
+      "id": "b",
+      "text": "brown"
+     },
+     {
+      "id": "c",
+      "text": "weak"
+     },
+     {
+      "id": "d",
+      "text": "soft"
+     }
+    ],
+    "answer": "c",
+    "hint": "Find the word that means easy to break.",
+    "explanation": "Weak is the opposite of sturdy. Strong means almost the same as sturdy."
+   },
+   {
+    "id": "sturdy.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what sturdy means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Kim wore sturdy boots"
+     },
+     {
+      "id": "c2",
+      "text": "on the rocky hike"
+     },
+     {
+      "id": "c3",
+      "text": "so her feet stayed safe."
+     },
+     {
+      "id": "c4",
+      "text": "and they ripped right away."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Sturdy things are strong.",
+    "explanation": "Sturdy boots are strong, so they keep feet safe on rocks. Boots that rip right away are not sturdy."
+   },
+   {
+    "id": "sturdy.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this thing sturdy?",
+    "passage": "The sand castle fell apart as soon as a small wave touched it.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Was it strong and hard to knock over?",
+    "explanation": "No. The sand castle fell apart easily. Sturdy means strong and hard to break or knock over."
+   }
+  ],
+  "review": "pending"
+ }
+]

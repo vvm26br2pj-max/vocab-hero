@@ -1,0 +1,2058 @@
+[
+  {
+    "id": "interpret.verb.1",
+    "word": "interpret",
+    "grade": 5,
+    "pos": "verb",
+    "say": "in-TUR-prit",
+    "definition": "to figure out and explain what something means",
+    "hero": {
+      "text": "Pixel studied the strange symbols on the ancient map and tried to interpret what each mark meant for the team.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "🗺️",
+          "🔍"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Our class worked together to interpret the poem, deciding that the storm stood for the speaker's anger.",
+    "contrast": {
+      "nonExample": "Jonah copied the poem word for word into his notebook without thinking about it.",
+      "explanation": "Copying words is not interpreting. To interpret, you have to decide what the words or signs actually mean.",
+      "scene": {
+        "pose": "writing",
+        "props": [
+          "📓",
+          "✏️"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "explain",
+        "make sense of",
+        "decode"
+      ],
+      "antonyms": [
+        "misunderstand",
+        "misread"
+      ],
+      "family": [
+        "interpretation",
+        "interpreter",
+        "misinterpret"
+      ]
+    },
+    "forms": [
+      "interpret",
+      "interprets",
+      "interpreted",
+      "interpreting"
+    ],
+    "tags": [
+      "reading",
+      "science",
+      "math"
+    ],
+    "items": [
+      {
+        "id": "interpret.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"interpret\" mean in this sentence?",
+        "passage": "Scientists interpret the rings inside a tree trunk to learn how much rain fell in each year of its life.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to count something quickly"
+          },
+          {
+            "id": "b",
+            "text": "to cut something into pieces"
+          },
+          {
+            "id": "c",
+            "text": "to figure out what something means"
+          },
+          {
+            "id": "d",
+            "text": "to draw a copy of something"
+          }
+        ],
+        "answer": "c",
+        "hint": "The scientists look at the rings in order to learn something. What are they doing with the rings?",
+        "explanation": "The scientists use the rings \"to learn how much rain fell\". They are working out what the rings mean, which is what interpret means.",
+        "wrong": {
+          "a": "Counting rings tells the tree's age, but the sentence is about what the rings tell us about rain.",
+          "b": "Nothing in the sentence is about cutting.",
+          "d": "Copying the rings would not explain anything about rain."
+        }
+      },
+      {
+        "id": "interpret.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The bar graph was confusing at first, so Ms. Lee showed us how to ___ the height of each bar.",
+        "options": [
+          {
+            "id": "a",
+            "text": "interpret"
+          },
+          {
+            "id": "b",
+            "text": "decorate"
+          },
+          {
+            "id": "c",
+            "text": "ignore"
+          },
+          {
+            "id": "d",
+            "text": "measure"
+          }
+        ],
+        "answer": "a",
+        "clue": "confusing at first; showed us how",
+        "hint": "The graph was confusing. What would the teacher help students do with it?",
+        "explanation": "Because the graph was \"confusing at first\", the teacher helped students understand what each bar means. That is interpreting the graph.",
+        "wrong": {
+          "b": "Decorating a graph would not make it less confusing.",
+          "c": "The teacher wanted students to understand the bars, not ignore them.",
+          "d": "Measuring gives a number, but the problem was understanding what the bars meant."
+        }
+      },
+      {
+        "id": "interpret.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"interpret\" in this sentence?",
+        "passage": "Ancient sailors learned to interpret the shapes of clouds as signs that a storm was coming.",
+        "options": [
+          {
+            "id": "a",
+            "text": "photograph"
+          },
+          {
+            "id": "b",
+            "text": "avoid"
+          },
+          {
+            "id": "c",
+            "text": "create"
+          },
+          {
+            "id": "d",
+            "text": "read"
+          }
+        ],
+        "answer": "d",
+        "hint": "The sailors looked at clouds and understood them as signs. Which word can mean understanding signs?",
+        "explanation": "Here, \"read\" means understanding signs, like reading the sky. The sailors understood the cloud shapes as warnings, which is interpreting them."
+      },
+      {
+        "id": "interpret.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what interpret means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "In art class, we tried to interpret"
+          },
+          {
+            "id": "c2",
+            "text": "the painting's dark colors"
+          },
+          {
+            "id": "c3",
+            "text": "as a sign of sadness."
+          },
+          {
+            "id": "c4",
+            "text": "by hanging it on the wall."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Interpreting means deciding what something means. Which ending tells a meaning?",
+        "explanation": "\"As a sign of sadness\" explains what the colors mean, so it shows interpreting. Hanging a painting on a wall does not explain its meaning."
+      },
+      {
+        "id": "interpret.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what Amir did?",
+        "passage": "When his grandmother nodded slowly and smiled, Amir decided her look meant she was proud of his science project.",
+        "options": [
+          {
+            "id": "a",
+            "text": "repeated"
+          },
+          {
+            "id": "b",
+            "text": "interpreted"
+          },
+          {
+            "id": "c",
+            "text": "interrupted"
+          },
+          {
+            "id": "d",
+            "text": "invented"
+          }
+        ],
+        "answer": "b",
+        "clue": "decided her look meant",
+        "hint": "Amir looked at a nod and a smile and decided what they meant.",
+        "explanation": "\"Decided her look meant\" shows Amir figured out the meaning of his grandmother's expression. That is interpreting. Interrupted sounds similar but means cutting someone off.",
+        "wrong": {
+          "c": "Interrupted looks similar, but it means breaking in while someone is talking."
+        }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "substantial.adj.1",
+    "word": "substantial",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "sub-STAN-shul",
+    "definition": "large in amount, size, or importance",
+    "hero": {
+      "text": "Rex lifted a substantial pile of fallen bricks off the road so the families could finally drive home.",
+      "scene": {
+        "pose": "lifting",
+        "props": [
+          "🧱",
+          "🚗"
+        ],
+        "setting": "street"
+      }
+    },
+    "everyday": "The library received a substantial donation that paid for hundreds of new books and three computers.",
+    "contrast": {
+      "nonExample": "Tia found a single penny on the sidewalk and put it in her pocket.",
+      "explanation": "One penny is a tiny amount. Substantial describes something large enough to really matter.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🪙"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "considerable",
+        "large",
+        "significant"
+      ],
+      "antonyms": [
+        "small",
+        "slight",
+        "minor"
+      ],
+      "family": [
+        "substantially",
+        "substance"
+      ]
+    },
+    "forms": [
+      "substantial"
+    ],
+    "tags": [
+      "math",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "substantial.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this an example of something substantial?",
+        "passage": "After a week of dry weather, the town reservoir rose by only half an inch, barely enough to notice.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Is half an inch, barely enough to notice, a large amount?",
+        "explanation": "Half an inch that is \"barely enough to notice\" is a tiny amount. Substantial means large in amount or importance, so this does not fit."
+      },
+      {
+        "id": "substantial.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Our bake sale earned ___ profits this year, more than enough to pay for the whole class trip.",
+        "options": [
+          {
+            "id": "a",
+            "text": "tiny"
+          },
+          {
+            "id": "b",
+            "text": "careless"
+          },
+          {
+            "id": "c",
+            "text": "substantial"
+          },
+          {
+            "id": "d",
+            "text": "secret"
+          }
+        ],
+        "answer": "c",
+        "clue": "more than enough to pay for the whole class trip",
+        "hint": "How much money would pay for a whole trip with some left over?",
+        "explanation": "\"More than enough to pay for the whole class trip\" shows the amount was large. Substantial fits. Tiny is the opposite."
+      },
+      {
+        "id": "substantial.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"substantial\" in this sentence?",
+        "passage": "The new medicine caused a substantial drop in fevers among the patients in the study.",
+        "options": [
+          {
+            "id": "a",
+            "text": "major"
+          },
+          {
+            "id": "b",
+            "text": "slight"
+          },
+          {
+            "id": "c",
+            "text": "sudden"
+          },
+          {
+            "id": "d",
+            "text": "healthy"
+          }
+        ],
+        "answer": "b",
+        "hint": "Substantial means large. Which word means very small?",
+        "explanation": "Slight means small, the opposite of substantial. Major means almost the same as substantial. Sudden is about speed, not size."
+      },
+      {
+        "id": "substantial.adj.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Building the new bridge will take a ___ effort: two years of work and hundreds of workers.",
+        "options": [
+          {
+            "id": "a",
+            "text": "small"
+          },
+          {
+            "id": "b",
+            "text": "fair"
+          },
+          {
+            "id": "c",
+            "text": "quick"
+          },
+          {
+            "id": "d",
+            "text": "substantial"
+          }
+        ],
+        "answer": "d",
+        "clue": "two years of work and hundreds of workers",
+        "hint": "Look at the details after the colon. Is this a big job or a little one?",
+        "explanation": "\"Two years\" and \"hundreds of workers\" describe a very large effort. Substantial fits. Quick and small contradict those details."
+      },
+      {
+        "id": "substantial.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the meal?",
+        "passage": "Before the long hike, Dad cooked a hearty breakfast of eggs, oatmeal, and fruit that kept us full until dinner.",
+        "options": [
+          {
+            "id": "a",
+            "text": "substantial"
+          },
+          {
+            "id": "b",
+            "text": "delicate"
+          },
+          {
+            "id": "c",
+            "text": "spicy"
+          },
+          {
+            "id": "d",
+            "text": "skimpy"
+          }
+        ],
+        "answer": "a",
+        "clue": "hearty; kept us full until dinner",
+        "hint": "A meal that keeps you full all day must be big. Which word describes that?",
+        "explanation": "\"Hearty\" and \"kept us full until dinner\" show the breakfast was large and filling. That is substantial. Skimpy means too small."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "distinguish.verb.1",
+    "word": "distinguish",
+    "grade": 5,
+    "pos": "verb",
+    "say": "dih-STING-gwish",
+    "definition": "to notice or show the difference between things",
+    "hero": {
+      "text": "Juniper could distinguish the real robot from its copy because the real one had a tiny scratch on its arm.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "🤖",
+          "🤖"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Good readers learn to distinguish facts, which can be checked, from opinions, which tell what someone believes.",
+    "contrast": {
+      "nonExample": "Leo dumped all the red and blue beads into one jar without looking at them.",
+      "explanation": "Mixing things together without noticing what makes them different is not distinguishing. Distinguishing means telling things apart.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🫙",
+          "🔴",
+          "🔵"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "tell apart",
+        "differentiate",
+        "separate"
+      ],
+      "antonyms": [
+        "confuse",
+        "mix up"
+      ],
+      "family": [
+        "distinguished",
+        "distinguishable",
+        "distinction"
+      ]
+    },
+    "forms": [
+      "distinguish",
+      "distinguishes",
+      "distinguished",
+      "distinguishing"
+    ],
+    "tags": [
+      "science",
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "distinguish.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which student is able to distinguish between two things?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nia thinks frogs and toads are exactly the same animal."
+          },
+          {
+            "id": "b",
+            "text": "Omar draws a frog and colors it bright green."
+          },
+          {
+            "id": "c",
+            "text": "Lily knows toads have bumpy, dry skin and frogs have smooth, wet skin."
+          },
+          {
+            "id": "d",
+            "text": "Sam reads a short story about a frog prince."
+          }
+        ],
+        "answer": "c",
+        "hint": "Distinguish means telling the difference. Who can tell frogs and toads apart?",
+        "explanation": "Lily names the difference between toads and frogs, so she can distinguish them. Nia mixes them up, which is the opposite.",
+        "wrong": {
+          "a": "Nia mixes the animals up, so she cannot distinguish them.",
+          "b": "Drawing one frog does not compare two things.",
+          "d": "Reading a story does not show telling things apart."
+        }
+      },
+      {
+        "id": "distinguish.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The twins look so alike that even their teacher cannot ___ one from the other without their name tags.",
+        "options": [
+          {
+            "id": "a",
+            "text": "protect"
+          },
+          {
+            "id": "b",
+            "text": "distinguish"
+          },
+          {
+            "id": "c",
+            "text": "remember"
+          },
+          {
+            "id": "d",
+            "text": "borrow"
+          }
+        ],
+        "answer": "b",
+        "clue": "look so alike; one from the other",
+        "hint": "When two people look alike, what is hard to do?",
+        "explanation": "\"Look so alike\" and \"one from the other\" signal telling two things apart. The teacher cannot distinguish the twins.",
+        "wrong": {
+          "c": "Remember does not fit with \"one from the other\". The problem is telling them apart."
+        }
+      },
+      {
+        "id": "distinguish.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which phrase is closest in meaning to \"distinguish\" in this sentence?",
+        "passage": "Bats use echoes to distinguish a moth from a leaf, even in total darkness.",
+        "options": [
+          {
+            "id": "a",
+            "text": "tell apart"
+          },
+          {
+            "id": "b",
+            "text": "chase after"
+          },
+          {
+            "id": "c",
+            "text": "hide behind"
+          },
+          {
+            "id": "d",
+            "text": "fly toward"
+          }
+        ],
+        "answer": "a",
+        "hint": "The bat needs to know which object is food and which is not.",
+        "explanation": "To distinguish a moth from a leaf is to tell them apart. Chasing comes later, after the bat knows which one is the moth."
+      },
+      {
+        "id": "distinguish.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what distinguish means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "A trained ear can distinguish"
+          },
+          {
+            "id": "c2",
+            "text": "a violin from a viola"
+          },
+          {
+            "id": "c3",
+            "text": "by the deeper sound of the viola."
+          },
+          {
+            "id": "c4",
+            "text": "because both sound exactly the same."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "To distinguish, you need a difference to notice.",
+        "explanation": "\"The deeper sound of the viola\" is the difference that lets you tell them apart. If both sounded exactly the same, you could not distinguish them."
+      },
+      {
+        "id": "distinguish.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "Which line uses \"distinguish\" correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"Please distinguish the lights so we can sleep.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I distinguish pizza more than any other food.\""
+          },
+          {
+            "id": "c",
+            "text": "\"He will distinguish his homework by Friday.\""
+          },
+          {
+            "id": "d",
+            "text": "\"Can you distinguish a crow from a raven?\""
+          }
+        ],
+        "answer": "d",
+        "hint": "Which line is about telling two similar things apart?",
+        "explanation": "Crows and ravens look alike, so asking if someone can distinguish them means asking if they can tell them apart. Option a confuses distinguish with extinguish, which means put out.",
+        "wrong": {
+          "a": "This mixes up distinguish with extinguish (to put out a light or fire).",
+          "b": "This should be a word like enjoy or prefer.",
+          "c": "This should be a word like finish."
+        }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "persistent.adj.1",
+    "word": "persistent",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "per-SIS-tunt",
+    "definition": "continuing to try or to happen, even when it is hard",
+    "hero": {
+      "text": "Kai was persistent, rebuilding his glider again and again until it finally soared across the training field.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "🛩️",
+          "🔧"
+        ],
+        "setting": "park"
+      }
+    },
+    "everyday": "Marie Curie was persistent, spending years of careful work to discover two new chemical elements.",
+    "contrast": {
+      "nonExample": "Ella tried one hard puzzle, got stuck after a minute, and put it back on the shelf.",
+      "explanation": "Giving up quickly is the opposite of being persistent. A persistent person keeps going when something is difficult.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🧩"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "determined",
+        "steady",
+        "relentless"
+      ],
+      "antonyms": [
+        "quitting",
+        "brief",
+        "occasional"
+      ],
+      "family": [
+        "persist",
+        "persistence",
+        "persistently"
+      ]
+    },
+    "forms": [
+      "persistent"
+    ],
+    "tags": [
+      "history",
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "persistent.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this person persistent?",
+        "passage": "Marco failed his swim test once, said swimming wasn't for him, and never went back to the pool.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Marco keep trying after it got hard?",
+        "explanation": "Marco stopped after one failure. A persistent person keeps trying even when something is hard, so this does not fit."
+      },
+      {
+        "id": "persistent.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ cough lasted for three weeks, so Grandpa finally went to the doctor to get it checked.",
+        "options": [
+          {
+            "id": "a",
+            "text": "gentle"
+          },
+          {
+            "id": "b",
+            "text": "sudden"
+          },
+          {
+            "id": "c",
+            "text": "persistent"
+          },
+          {
+            "id": "d",
+            "text": "silent"
+          }
+        ],
+        "answer": "c",
+        "clue": "lasted for three weeks",
+        "hint": "This time the word describes a cough, not a person. What kind of cough lasts for weeks?",
+        "explanation": "\"Lasted for three weeks\" shows the cough kept happening. Persistent can describe something that continues for a long time, not just a person who keeps trying.",
+        "wrong": {
+          "b": "Sudden means it started quickly, but the clue is about how long it lasted."
+        }
+      },
+      {
+        "id": "persistent.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"persistent\" in this sentence?",
+        "passage": "The persistent reporter called the mayor's office every day until she finally got an interview.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rude"
+          },
+          {
+            "id": "b",
+            "text": "determined"
+          },
+          {
+            "id": "c",
+            "text": "famous"
+          },
+          {
+            "id": "d",
+            "text": "nervous"
+          }
+        ],
+        "answer": "b",
+        "hint": "She called every day until she succeeded. What quality does that show?",
+        "explanation": "Determined means refusing to give up, which matches calling \"every day until\" she got the interview. Rude adds a bad attitude the sentence never mentions."
+      },
+      {
+        "id": "persistent.adj.1#4",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "\"Persistent\" comes from \"persist\" plus the suffix -ent. If \"persist\" means to keep going, what does \"persistent\" mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "stopping early"
+          },
+          {
+            "id": "b",
+            "text": "moving very fast"
+          },
+          {
+            "id": "c",
+            "text": "keeping on going"
+          },
+          {
+            "id": "d",
+            "text": "starting over"
+          }
+        ],
+        "answer": "c",
+        "hint": "The suffix -ent turns a verb into a describing word: someone or something that does the action.",
+        "explanation": "-ent means having the quality of doing the action. Persist means keep going, so persistent describes something that keeps on going."
+      },
+      {
+        "id": "persistent.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the woodpecker?",
+        "passage": "All morning the woodpecker tapped at the same tree, ignoring the wind and rain, until it had carved a deep hole.",
+        "options": [
+          {
+            "id": "a",
+            "text": "lazy"
+          },
+          {
+            "id": "b",
+            "text": "curious"
+          },
+          {
+            "id": "c",
+            "text": "graceful"
+          },
+          {
+            "id": "d",
+            "text": "persistent"
+          }
+        ],
+        "answer": "d",
+        "clue": "All morning; ignoring the wind and rain; until",
+        "hint": "The bird kept working through bad weather. What word describes that?",
+        "explanation": "\"All morning\", \"ignoring the wind and rain\", and \"until\" show the woodpecker kept going despite difficulty. That is persistent."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "abundant.adj.1",
+    "word": "abundant",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "uh-BUN-dunt",
+    "definition": "existing in large amounts; more than enough",
+    "hero": {
+      "text": "Juniper's garden was so abundant that the academy had enough tomatoes and beans to share with the whole neighborhood.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🍅",
+          "🫘",
+          "🧺"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Rainforests have abundant rainfall, which helps thousands of kinds of plants grow there.",
+    "contrast": {
+      "nonExample": "In the desert, water is so scarce that plants must store every drop they can find.",
+      "explanation": "Scarce means there is too little. Abundant means there is plenty, more than enough.",
+      "scene": {
+        "pose": "tired",
+        "props": [
+          "🌵",
+          "☀️"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "plentiful",
+        "ample",
+        "plenty of"
+      ],
+      "antonyms": [
+        "scarce",
+        "rare",
+        "lacking"
+      ],
+      "family": [
+        "abundance",
+        "abundantly"
+      ]
+    },
+    "forms": [
+      "abundant"
+    ],
+    "tags": [
+      "science",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "abundant.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"abundant\" mean in this sentence?",
+        "passage": "Fish were so abundant in the river that the bears could catch dinner in just a few minutes.",
+        "options": [
+          {
+            "id": "a",
+            "text": "very hard to find"
+          },
+          {
+            "id": "b",
+            "text": "in large amounts"
+          },
+          {
+            "id": "c",
+            "text": "moving quickly"
+          },
+          {
+            "id": "d",
+            "text": "very colorful"
+          }
+        ],
+        "answer": "b",
+        "hint": "If bears catch fish in a few minutes, are there many fish or few?",
+        "explanation": "Bears catching dinner \"in just a few minutes\" shows there were plenty of fish. Abundant means existing in large amounts.",
+        "wrong": {
+          "a": "This is the opposite: scarce. Easy catching shows there were many fish."
+        }
+      },
+      {
+        "id": "abundant.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Oil was ___ in that region a century ago, but after years of drilling, very little is left.",
+        "options": [
+          {
+            "id": "a",
+            "text": "abundant"
+          },
+          {
+            "id": "b",
+            "text": "invisible"
+          },
+          {
+            "id": "c",
+            "text": "scarce"
+          },
+          {
+            "id": "d",
+            "text": "harmful"
+          }
+        ],
+        "answer": "a",
+        "clue": "but; very little is left",
+        "hint": "\"But\" signals a change. Now very little is left, so what was it like before?",
+        "explanation": "\"But\" sets up a contrast with \"very little is left\", so oil must once have been plentiful. Abundant fits. Scarce describes now, not a century ago.",
+        "wrong": {
+          "c": "Scarce describes the situation now. \"But\" tells you the past was the opposite."
+        }
+      },
+      {
+        "id": "abundant.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"abundant\" in this sentence?",
+        "passage": "After the spring rains, wildflowers were abundant across the hills, covering them in purple and gold.",
+        "options": [
+          {
+            "id": "a",
+            "text": "tiny"
+          },
+          {
+            "id": "b",
+            "text": "wilted"
+          },
+          {
+            "id": "c",
+            "text": "plentiful"
+          },
+          {
+            "id": "d",
+            "text": "expensive"
+          }
+        ],
+        "answer": "c",
+        "hint": "The flowers covered the hills. Were there a lot of them?",
+        "explanation": "Plentiful means there is a lot, just like abundant. \"Covering them\" shows how many flowers there were."
+      },
+      {
+        "id": "abundant.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what abundant means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Apples were abundant this fall,"
+          },
+          {
+            "id": "c2",
+            "text": "so every family in town"
+          },
+          {
+            "id": "c3",
+            "text": "had to share just one basket."
+          },
+          {
+            "id": "c4",
+            "text": "could pick as many as they wanted."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c4"
+        ],
+        "hint": "If something is abundant, is there a shortage or plenty?",
+        "explanation": "Abundant means there is more than enough, so families \"could pick as many as they wanted\". Sharing one basket shows a shortage, the opposite of abundant."
+      },
+      {
+        "id": "abundant.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the food in the forest?",
+        "passage": "In autumn, acorns, berries, and seeds covered the forest floor, giving squirrels far more food than they could ever eat.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rotten"
+          },
+          {
+            "id": "b",
+            "text": "hidden"
+          },
+          {
+            "id": "c",
+            "text": "rare"
+          },
+          {
+            "id": "d",
+            "text": "abundant"
+          }
+        ],
+        "answer": "d",
+        "clue": "covered the forest floor; far more food than they could ever eat",
+        "hint": "Look for the words that tell how much food there was.",
+        "explanation": "\"Covered the forest floor\" and \"far more food than they could ever eat\" show there was plenty. That is abundant. Rare is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "adapt.verb.1",
+    "word": "adapt",
+    "grade": 5,
+    "pos": "verb",
+    "say": "uh-DAPT",
+    "definition": "to change in order to fit a new situation or place",
+    "hero": {
+      "text": "When the power went out, Bolt had to adapt quickly, using flashlights instead of screens to guide the rescue team.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "🔦",
+          "🌑"
+        ],
+        "setting": "night"
+      }
+    },
+    "everyday": "Arctic foxes adapt to the seasons by growing thick white fur in winter and thinner brown fur in summer.",
+    "contrast": {
+      "nonExample": "Even after moving to a hot city, Ben kept wearing his heavy winter coat every day.",
+      "explanation": "Ben did not change to fit his new place. To adapt, you change to suit a new situation.",
+      "scene": {
+        "pose": "tired",
+        "props": [
+          "🧥",
+          "☀️"
+        ],
+        "setting": "city"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "adjust",
+        "change",
+        "fit in"
+      ],
+      "antonyms": [
+        "resist",
+        "stay the same"
+      ],
+      "family": [
+        "adaptation",
+        "adaptable",
+        "adapted"
+      ]
+    },
+    "forms": [
+      "adapt",
+      "adapts",
+      "adapted",
+      "adapting"
+    ],
+    "tags": [
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "adapt.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this an example of adapting?",
+        "passage": "When the soccer field flooded, the coach moved practice into the gym and changed the drills to fit the smaller space.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did the coach change the plan to fit a new situation?",
+        "explanation": "The coach changed both the place and the drills to fit the new situation. Changing to fit new conditions is adapting."
+      },
+      {
+        "id": "adapt.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Camels ___ to the dry desert by storing fat in their humps and going days without drinking water.",
+        "options": [
+          {
+            "id": "a",
+            "text": "escape"
+          },
+          {
+            "id": "b",
+            "text": "adapt"
+          },
+          {
+            "id": "c",
+            "text": "travel"
+          },
+          {
+            "id": "d",
+            "text": "object"
+          }
+        ],
+        "answer": "b",
+        "clue": "storing fat; going days without drinking",
+        "hint": "The sentence lists ways camels' bodies fit their dry home.",
+        "explanation": "Storing fat and going days without water are ways camels are suited to the desert. They adapt to it. Escape would mean leaving the desert."
+      },
+      {
+        "id": "adapt.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"adapt\" in this sentence?",
+        "passage": "It took a few weeks for Rosa to adapt to her new school, but now she has friends in every class.",
+        "options": [
+          {
+            "id": "a",
+            "text": "complain"
+          },
+          {
+            "id": "b",
+            "text": "return"
+          },
+          {
+            "id": "c",
+            "text": "graduate"
+          },
+          {
+            "id": "d",
+            "text": "adjust"
+          }
+        ],
+        "answer": "d",
+        "hint": "Rosa needed time to get used to something new.",
+        "explanation": "Adjust means to get used to something new, which matches adapt. \"It took a few weeks\" shows Rosa slowly fit in."
+      },
+      {
+        "id": "adapt.verb.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "The author decided to ___ the long novel into a short play that her students could perform in one hour.",
+        "options": [
+          {
+            "id": "a",
+            "text": "adapt"
+          },
+          {
+            "id": "b",
+            "text": "adopt"
+          },
+          {
+            "id": "c",
+            "text": "admire"
+          },
+          {
+            "id": "d",
+            "text": "erase"
+          }
+        ],
+        "answer": "a",
+        "clue": "into a short play; in one hour",
+        "hint": "Adapt means to change something to fit. Adopt means to take something as your own.",
+        "explanation": "The author changed the novel to fit a new form, so adapt fits. Adopt looks similar but means to take on or take in, like adopting a pet.",
+        "wrong": {
+          "b": "Adopt means to take something as your own. The author is changing the story, not taking it."
+        }
+      },
+      {
+        "id": "adapt.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What did the city do?",
+        "passage": "As summers grew hotter, the city planted shade trees, opened cooling centers, and moved outdoor events to the evening.",
+        "options": [
+          {
+            "id": "a",
+            "text": "It ignored the heat."
+          },
+          {
+            "id": "b",
+            "text": "It adapted to the heat."
+          },
+          {
+            "id": "c",
+            "text": "It caused the heat."
+          },
+          {
+            "id": "d",
+            "text": "It measured the heat."
+          }
+        ],
+        "answer": "b",
+        "clue": "planted shade trees; opened cooling centers; moved outdoor events",
+        "hint": "Each action is a change that helps people handle hotter summers.",
+        "explanation": "Planting trees, opening cooling centers, and moving events are changes made to fit hotter weather. That is adapting."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "analyze.verb.1",
+    "word": "analyze",
+    "grade": 5,
+    "pos": "verb",
+    "say": "AN-uh-lize",
+    "definition": "to study something closely, part by part, to understand it",
+    "hero": {
+      "text": "Pixel analyzed the footprints one by one, measuring their size and depth to figure out who had crossed the mud.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "👣",
+          "📏",
+          "🔍"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "In science class, we analyzed soil samples by testing each one for water, sand, and tiny living things.",
+    "contrast": {
+      "nonExample": "Max glanced at the chart for a second and said, \"Looks fine,\" before moving on.",
+      "explanation": "A quick glance is not analyzing. To analyze, you look closely at each part to understand how it works.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "📊"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "examine",
+        "study",
+        "investigate"
+      ],
+      "antonyms": [
+        "glance at",
+        "skim",
+        "overlook"
+      ],
+      "family": [
+        "analysis",
+        "analyst",
+        "analytical"
+      ]
+    },
+    "forms": [
+      "analyze",
+      "analyzes",
+      "analyzed",
+      "analyzing",
+      "analyse",
+      "analysed",
+      "analysing"
+    ],
+    "tags": [
+      "science",
+      "math",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "analyze.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which student is analyzing?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kim reads the story's title and closes the book."
+          },
+          {
+            "id": "b",
+            "text": "Ravi studies each scene to see why the main character changes."
+          },
+          {
+            "id": "c",
+            "text": "Jada guesses the ending without reading."
+          },
+          {
+            "id": "d",
+            "text": "Theo hands the book to a friend."
+          }
+        ],
+        "answer": "b",
+        "hint": "Analyzing means looking closely at parts to understand something.",
+        "explanation": "Ravi studies \"each scene\" to understand why the character changes. Looking closely at parts to understand the whole is analyzing."
+      },
+      {
+        "id": "analyze.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Before choosing a new lunch menu, the school will ___ the survey results to see which foods students like most.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hide"
+          },
+          {
+            "id": "b",
+            "text": "print"
+          },
+          {
+            "id": "c",
+            "text": "analyze"
+          },
+          {
+            "id": "d",
+            "text": "skip"
+          }
+        ],
+        "answer": "c",
+        "clue": "to see which foods students like most",
+        "hint": "The school wants to learn something from the results. What must it do with them?",
+        "explanation": "To find out \"which foods students like most\", the school must study the results closely. That is analyzing.",
+        "wrong": {
+          "b": "Printing the results would not tell the school which foods are most popular."
+        }
+      },
+      {
+        "id": "analyze.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"analyzed\" in this sentence?",
+        "passage": "The detective analyzed every clue, from the muddy boots to the torn letter, before naming a suspect.",
+        "options": [
+          {
+            "id": "a",
+            "text": "examined"
+          },
+          {
+            "id": "b",
+            "text": "collected"
+          },
+          {
+            "id": "c",
+            "text": "destroyed"
+          },
+          {
+            "id": "d",
+            "text": "described"
+          }
+        ],
+        "answer": "a",
+        "hint": "The detective looked closely at each clue to reach an answer.",
+        "explanation": "Examined means looked at carefully, which matches analyzed. Collected means gathered, but analyzing is studying what you gathered."
+      },
+      {
+        "id": "analyze.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what analyze means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The coach analyzed the game video"
+          },
+          {
+            "id": "c2",
+            "text": "play by play"
+          },
+          {
+            "id": "c3",
+            "text": "to find where the defense made mistakes."
+          },
+          {
+            "id": "c4",
+            "text": "without paying attention to any details."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Analyzing means paying close attention to details.",
+        "explanation": "Going \"play by play\" to find mistakes shows close study of parts. Ignoring details is the opposite of analyzing."
+      },
+      {
+        "id": "analyze.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "Which line uses \"analyze\" naturally?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"Let's analyze outside before the bell rings.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I analyzed my sandwich in two bites.\""
+          },
+          {
+            "id": "c",
+            "text": "\"We should analyze the water samples to see why the fish got sick.\""
+          },
+          {
+            "id": "d",
+            "text": "\"Analyze me a glass of juice, please.\""
+          }
+        ],
+        "answer": "c",
+        "hint": "Which speaker wants to study something closely to understand it?",
+        "explanation": "Studying water samples to find out why fish got sick is close study to understand a problem. That is analyzing. The other lines use the word like play, eat, or pour."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "anticipate.verb.1",
+    "word": "anticipate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "an-TIS-uh-pate",
+    "definition": "to expect something and get ready for it before it happens",
+    "hero": {
+      "text": "Nova anticipated the rockslide, so she moved the hikers off the trail minutes before the boulders tumbled down.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "🪨",
+          "🥾"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "The museum anticipated large crowds for the dinosaur exhibit, so it hired extra guides for the weekend.",
+    "contrast": {
+      "nonExample": "The storm surprised everyone at the picnic, and nobody had brought an umbrella.",
+      "explanation": "Being caught by surprise is the opposite of anticipating. To anticipate, you expect something and prepare ahead of time.",
+      "scene": {
+        "pose": "surprised",
+        "props": [
+          "🌧️",
+          "🧺"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "expect",
+        "foresee",
+        "predict"
+      ],
+      "antonyms": [
+        "be surprised by",
+        "overlook"
+      ],
+      "family": [
+        "anticipation",
+        "anticipated"
+      ]
+    },
+    "forms": [
+      "anticipate",
+      "anticipates",
+      "anticipated",
+      "anticipating"
+    ],
+    "tags": [
+      "everyday",
+      "social",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "anticipate.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this an example of anticipating?",
+        "passage": "Mr. Patel forgot about the fire drill, so his class was in the middle of a test when the alarm rang.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Mr. Patel expect the drill and get ready for it?",
+        "explanation": "Mr. Patel forgot about the drill, so he did not expect it or prepare. Anticipating means expecting something and getting ready before it happens."
+      },
+      {
+        "id": "anticipate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Good chess players ___ their opponent's next move and plan their own response before it happens.",
+        "options": [
+          {
+            "id": "a",
+            "text": "forget"
+          },
+          {
+            "id": "b",
+            "text": "copy"
+          },
+          {
+            "id": "c",
+            "text": "announce"
+          },
+          {
+            "id": "d",
+            "text": "anticipate"
+          }
+        ],
+        "answer": "d",
+        "clue": "next move; before it happens",
+        "hint": "The players think ahead about something that has not happened yet.",
+        "explanation": "\"Before it happens\" shows the players expect the move and prepare for it. That is anticipating."
+      },
+      {
+        "id": "anticipate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"anticipate\" in this sentence?",
+        "passage": "Farmers anticipate a dry summer, so they are digging new wells and storing extra water now.",
+        "options": [
+          {
+            "id": "a",
+            "text": "expect"
+          },
+          {
+            "id": "b",
+            "text": "enjoy"
+          },
+          {
+            "id": "c",
+            "text": "remember"
+          },
+          {
+            "id": "d",
+            "text": "prevent"
+          }
+        ],
+        "answer": "a",
+        "hint": "The dry summer has not happened yet, but the farmers think it will.",
+        "explanation": "Expect means to think something will happen, which matches anticipate. Prevent would mean stopping the dry summer, which farmers cannot do."
+      },
+      {
+        "id": "anticipate.verb.1#4",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The prefix \"anti-\" in \"anticipate\" comes from a Latin word meaning \"before\". How does that help explain the word?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It means to be against something."
+          },
+          {
+            "id": "b",
+            "text": "It means to look back at the past."
+          },
+          {
+            "id": "c",
+            "text": "It means to think about something before it happens."
+          },
+          {
+            "id": "d",
+            "text": "It means to happen twice."
+          }
+        ],
+        "answer": "c",
+        "hint": "In this word, the beginning means \"before\", not \"against\".",
+        "explanation": "Here, \"anti-\" means before, so anticipate means taking hold of an idea before the event comes. It is a trick: anti- in antifreeze means against, but not in anticipate.",
+        "wrong": {
+          "a": "Anti- often means against, as in antifreeze, but in anticipate it comes from a word meaning before."
+        }
+      },
+      {
+        "id": "anticipate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what the bakery did?",
+        "passage": "Knowing the town parade would bring hungry visitors, the bakery baked twice as many muffins the night before.",
+        "options": [
+          {
+            "id": "a",
+            "text": "wasted"
+          },
+          {
+            "id": "b",
+            "text": "anticipated"
+          },
+          {
+            "id": "c",
+            "text": "celebrated"
+          },
+          {
+            "id": "d",
+            "text": "ignored"
+          }
+        ],
+        "answer": "b",
+        "clue": "Knowing; the night before",
+        "hint": "The bakery got ready for something before it happened.",
+        "explanation": "\"Knowing\" the visitors would come and baking \"the night before\" show the bakery expected the crowd and prepared. That is anticipating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "conclude.verb.1",
+    "word": "conclude",
+    "grade": 5,
+    "pos": "verb",
+    "say": "kun-KLOOD",
+    "definition": "to decide something is true after thinking about the evidence",
+    "hero": {
+      "text": "After seeing the open window and the wet paw prints, Juniper concluded that the cat had slipped outside in the rain.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "🐾",
+          "🪟",
+          "🐈"
+        ],
+        "setting": "home"
+      }
+    },
+    "everyday": "After testing the plants for three weeks, the class concluded that the ones near the window grew fastest.",
+    "contrast": {
+      "nonExample": "Without looking at any data, Eli announced that his team's plant would win.",
+      "explanation": "Eli guessed without evidence. To conclude, you decide what is true after thinking about the evidence.",
+      "scene": {
+        "pose": "confident",
+        "props": [
+          "🌱"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "decide",
+        "determine",
+        "figure out"
+      ],
+      "antonyms": [
+        "guess",
+        "doubt"
+      ],
+      "family": [
+        "conclusion",
+        "conclusive",
+        "concluding"
+      ]
+    },
+    "forms": [
+      "conclude",
+      "concludes",
+      "concluded",
+      "concluding"
+    ],
+    "tags": [
+      "science",
+      "reading",
+      "math"
+    ],
+    "items": [
+      {
+        "id": "conclude.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"concluded\" mean in this sentence?",
+        "passage": "The scientists studied the bones carefully and concluded that they came from a dinosaur that ate only plants.",
+        "options": [
+          {
+            "id": "a",
+            "text": "decided based on evidence"
+          },
+          {
+            "id": "b",
+            "text": "hoped for a long time"
+          },
+          {
+            "id": "c",
+            "text": "argued loudly"
+          },
+          {
+            "id": "d",
+            "text": "forgot about it"
+          }
+        ],
+        "answer": "a",
+        "hint": "The scientists studied first, then decided something.",
+        "explanation": "\"Studied the bones carefully\" is the evidence, and then they decided what was true. That is concluding. In other sentences, conclude can also mean to end, like \"the concert concluded at nine\", but here it means to decide."
+      },
+      {
+        "id": "conclude.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Since every student who slept more scored higher, the researchers ___ that sleep helps memory.",
+        "options": [
+          {
+            "id": "a",
+            "text": "wondered"
+          },
+          {
+            "id": "b",
+            "text": "pretended"
+          },
+          {
+            "id": "c",
+            "text": "concluded"
+          },
+          {
+            "id": "d",
+            "text": "promised"
+          }
+        ],
+        "answer": "c",
+        "clue": "Since every student who slept more scored higher",
+        "hint": "\"Since\" gives the evidence. What did the researchers do with it?",
+        "explanation": "\"Since\" introduces the evidence, and the researchers used it to decide something was true. That is concluding. Wondered means they were still unsure.",
+        "wrong": {
+          "a": "Wondered means still asking a question, but the evidence led them to a decision."
+        }
+      },
+      {
+        "id": "conclude.verb.1#3",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what conclude means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Because the ice melted fastest in the sun,"
+          },
+          {
+            "id": "c2",
+            "text": "we concluded"
+          },
+          {
+            "id": "c3",
+            "text": "that heat speeds up melting."
+          },
+          {
+            "id": "c4",
+            "text": "that we should never test anything."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A conclusion should match the evidence that came before it.",
+        "explanation": "Ice melting fastest in the sun is evidence that heat speeds up melting, so that is a sensible conclusion. The decoy does not follow from the evidence."
+      },
+      {
+        "id": "conclude.verb.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"concluded\" in this sentence?",
+        "passage": "After counting the votes twice, the class concluded that the field trip would be to the aquarium.",
+        "options": [
+          {
+            "id": "a",
+            "text": "guessed"
+          },
+          {
+            "id": "b",
+            "text": "worried"
+          },
+          {
+            "id": "c",
+            "text": "traveled"
+          },
+          {
+            "id": "d",
+            "text": "determined"
+          }
+        ],
+        "answer": "d",
+        "hint": "They counted twice, so they were sure. Which word means finding out for sure?",
+        "explanation": "Determined means figured out for sure, which matches concluded after counting twice. Guessed means deciding without enough evidence."
+      },
+      {
+        "id": "conclude.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What can Zara reasonably conclude?",
+        "passage": "Zara's bike tire is flat. She finds a sharp nail stuck in the rubber and hears air hissing out around it.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Someone stole her bike."
+          },
+          {
+            "id": "b",
+            "text": "The nail made a hole in the tire."
+          },
+          {
+            "id": "c",
+            "text": "The bike is brand new."
+          },
+          {
+            "id": "d",
+            "text": "It is going to rain."
+          }
+        ],
+        "answer": "b",
+        "clue": "sharp nail stuck in the rubber; air hissing out",
+        "hint": "Use the evidence: a nail and hissing air.",
+        "explanation": "The nail stuck in the tire and the hissing air are evidence that the nail made a hole. To conclude is to decide what the evidence shows."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "convince.verb.1",
+    "word": "convince",
+    "grade": 5,
+    "pos": "verb",
+    "say": "kun-VINS",
+    "definition": "to make someone believe something or agree to do something",
+    "hero": {
+      "text": "Bolt showed the mayor photos of the cracked dam and convinced her to send repair crews right away.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "📸",
+          "🏞️"
+        ],
+        "second": "listening",
+        "setting": "city"
+      }
+    },
+    "everyday": "Lena used facts about plastic pollution to convince her class to start a recycling program.",
+    "contrast": {
+      "nonExample": "Amy told her brother to recycle, but he shrugged and kept throwing bottles in the trash.",
+      "explanation": "Amy tried, but her brother did not change his mind. To convince, you must actually get someone to believe or agree.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "🗑️",
+          "🍾"
+        ],
+        "second": "shrugging",
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "persuade",
+        "win over"
+      ],
+      "antonyms": [
+        "discourage",
+        "dissuade"
+      ],
+      "family": [
+        "convincing",
+        "convinced",
+        "conviction"
+      ]
+    },
+    "forms": [
+      "convince",
+      "convinces",
+      "convinced",
+      "convincing"
+    ],
+    "tags": [
+      "reading",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "convince.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Did Noah convince his parents?",
+        "passage": "Noah explained how he would feed and walk a puppy every day, and his parents finally agreed to adopt one.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did his parents change their minds and agree?",
+        "explanation": "Noah's reasons made his parents agree. Getting someone to believe or agree is what convince means."
+      },
+      {
+        "id": "convince.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The lawyer used fingerprints and a video to ___ the jury that her client was innocent.",
+        "options": [
+          {
+            "id": "a",
+            "text": "remind"
+          },
+          {
+            "id": "b",
+            "text": "convince"
+          },
+          {
+            "id": "c",
+            "text": "warn"
+          },
+          {
+            "id": "d",
+            "text": "confuse"
+          }
+        ],
+        "answer": "b",
+        "clue": "used fingerprints and a video; that her client was innocent",
+        "hint": "She used evidence to make the jury believe something.",
+        "explanation": "The lawyer used evidence to make the jury believe her client was innocent. That is convincing. Remind would mean the jury already knew it.",
+        "wrong": {
+          "a": "Remind means helping someone remember something they already knew.",
+          "d": "Confusing the jury would not help them believe anything."
+        }
+      },
+      {
+        "id": "convince.verb.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Leo begged his sister for an hour to trade lunches, but he could not ___ her, so she kept her sandwich.",
+        "options": [
+          {
+            "id": "a",
+            "text": "convince"
+          },
+          {
+            "id": "b",
+            "text": "ask"
+          },
+          {
+            "id": "c",
+            "text": "hear"
+          },
+          {
+            "id": "d",
+            "text": "feed"
+          }
+        ],
+        "answer": "a",
+        "clue": "begged for an hour; she kept her sandwich",
+        "hint": "Leo did ask, but what didn't he manage to do?",
+        "explanation": "Leo asked many times, so \"could not ask\" makes no sense. He failed to get her to agree, so \"could not convince\" fits. Convincing means succeeding at changing a mind.",
+        "wrong": {
+          "b": "Leo did ask, for an hour. What failed was changing her mind."
+        }
+      },
+      {
+        "id": "convince.verb.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"convince\" in this sentence?",
+        "passage": "Our posters helped convince the town council to build a new skate park near the library.",
+        "options": [
+          {
+            "id": "a",
+            "text": "force"
+          },
+          {
+            "id": "b",
+            "text": "pay"
+          },
+          {
+            "id": "c",
+            "text": "trick"
+          },
+          {
+            "id": "d",
+            "text": "persuade"
+          }
+        ],
+        "answer": "d",
+        "hint": "The posters gave reasons that changed the council's minds.",
+        "explanation": "Persuade means to get someone to agree by giving reasons, which matches convince. Force and trick are not about honest reasons."
+      },
+      {
+        "id": "convince.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "Which line uses \"convince\" correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I convinced the ball over the fence.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Can you convince me the salt?\""
+          },
+          {
+            "id": "c",
+            "text": "\"The data convinced me that bees are important.\""
+          },
+          {
+            "id": "d",
+            "text": "\"The flowers convinced in the spring.\""
+          }
+        ],
+        "answer": "c",
+        "hint": "Convince is about changing what someone believes.",
+        "explanation": "The data changed what the speaker believes about bees, so it convinced them. The other lines use convince like kick, pass, or bloom."
+      }
+    ],
+    "review": "pending"
+  }
+]

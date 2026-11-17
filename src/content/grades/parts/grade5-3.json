@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "humble.adj.1",
+    "word": "humble",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "HUM-bul",
+    "definition": "not proud or boastful; not thinking you are better than others",
+    "hero": {
+      "text": "Even after saving the city, Juniper stayed humble, thanking the firefighters and saying she was just part of the team.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "🚒",
+          "🤝"
+        ],
+        "second": "happy",
+        "setting": "city"
+      }
+    },
+    "everyday": "The humble scientist won a huge prize but said the credit belonged to her students and helpers.",
+    "contrast": {
+      "nonExample": "After scoring one goal, Kyle ran around shouting that he was the best player in the whole world.",
+      "explanation": "Bragging about being the best is the opposite of humble. A humble person does not show off.",
+      "scene": {
+        "pose": "proud",
+        "props": [
+          "⚽",
+          "🏆"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "modest",
+        "unassuming"
+      ],
+      "antonyms": [
+        "proud",
+        "boastful",
+        "arrogant"
+      ],
+      "family": [
+        "humbly",
+        "humility",
+        "humbleness"
+      ]
+    },
+    "forms": [
+      "humble",
+      "humbler",
+      "humblest"
+    ],
+    "tags": [
+      "reading",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "humble.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this person humble?",
+        "passage": "When her art won first place, Rina smiled and said that many other paintings in the show were just as good.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did Rina brag, or did she give credit to others?",
+        "explanation": "Rina won but praised the other artists instead of showing off. Not boasting about your success is being humble."
+      },
+      {
+        "id": "humble.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Although he was the most famous musician in the country, he remained ___ and never acted more important than his fans.",
+        "options": [
+          {
+            "id": "a",
+            "text": "boastful"
+          },
+          {
+            "id": "b",
+            "text": "humble"
+          },
+          {
+            "id": "c",
+            "text": "wealthy"
+          },
+          {
+            "id": "d",
+            "text": "jealous"
+          }
+        ],
+        "answer": "b",
+        "clue": "Although; never acted more important than his fans",
+        "hint": "\"Although\" signals a surprise: he was famous, but how did he act?",
+        "explanation": "\"Never acted more important than his fans\" describes someone who is not proud. That is humble. Boastful is the opposite.",
+        "wrong": {
+          "c": "Wealthy is about money, but the clue is about how he acted toward others."
+        }
+      },
+      {
+        "id": "humble.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"humble\" in this sentence?",
+        "passage": "The humble champion shook hands with every runner and said she had simply been lucky that day.",
+        "options": [
+          {
+            "id": "a",
+            "text": "modest"
+          },
+          {
+            "id": "b",
+            "text": "speedy"
+          },
+          {
+            "id": "c",
+            "text": "shy"
+          },
+          {
+            "id": "d",
+            "text": "arrogant"
+          }
+        ],
+        "answer": "a",
+        "hint": "She didn't brag about winning. Which word means not bragging?",
+        "explanation": "Modest means not bragging about yourself, which matches humble. Shy means nervous around people, which is different: a humble person can be very outgoing.",
+        "wrong": {
+          "c": "Shy means nervous around others. The champion shook hands with every runner, so she was not shy, just not boastful.",
+          "d": "Arrogant is the opposite of humble."
+        }
+      },
+      {
+        "id": "humble.adj.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which reply is the most humble?",
+        "passage": "Coach: \"Great job leading the team to victory today!\"",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I know. Nobody else did anything.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Thanks! Everyone worked hard. I couldn't have done it alone.\""
+          },
+          {
+            "id": "c",
+            "text": "\"Obviously. I'm the star.\""
+          },
+          {
+            "id": "d",
+            "text": "\"Whatever, I'm going home.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "A humble person shares the credit.",
+        "explanation": "Saying \"I couldn't have done it alone\" shares credit with the team. That is humble. Options a and c are boastful."
+      },
+      {
+        "id": "humble.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the inventor?",
+        "passage": "Reporters called her invention world-changing, but the inventor just shrugged and said she had built on the work of others.",
+        "options": [
+          {
+            "id": "a",
+            "text": "boastful"
+          },
+          {
+            "id": "b",
+            "text": "careless"
+          },
+          {
+            "id": "c",
+            "text": "humble"
+          },
+          {
+            "id": "d",
+            "text": "confused"
+          }
+        ],
+        "answer": "c",
+        "clue": "just shrugged; built on the work of others",
+        "hint": "How did she react to big praise?",
+        "explanation": "She \"shrugged\" off big praise and credited \"the work of others\". Not taking all the credit is being humble."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "illustrate.verb.1",
+    "word": "illustrate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "IL-uh-strate",
+    "definition": "to make an idea clear by giving examples or pictures",
+    "hero": {
+      "text": "To illustrate how lightning travels, Bolt drew a zigzag path from the cloud to the tallest tree on the board.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "⚡",
+          "🌳",
+          "📋"
+        ],
+        "setting": "school"
+      }
+    },
+    "everyday": "Mrs. Kim illustrated the idea of fractions by cutting a pizza into eight equal slices.",
+    "contrast": {
+      "nonExample": "The teacher said \"photosynthesis\" once and moved on without any example or picture.",
+      "explanation": "Just naming an idea does not illustrate it. To illustrate, you use examples or pictures to make it clear.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "🌿"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "show",
+        "demonstrate",
+        "explain"
+      ],
+      "antonyms": [
+        "confuse",
+        "obscure"
+      ],
+      "family": [
+        "illustration",
+        "illustrator",
+        "illustrated"
+      ]
+    },
+    "forms": [
+      "illustrate",
+      "illustrates",
+      "illustrated",
+      "illustrating"
+    ],
+    "tags": [
+      "arts",
+      "reading",
+      "math",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "illustrate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"illustrate\" mean in this sentence?",
+        "passage": "The author tells the story of one lost puppy to illustrate why animal shelters need more volunteers.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to draw a picture in color"
+          },
+          {
+            "id": "b",
+            "text": "to make an idea clear with an example"
+          },
+          {
+            "id": "c",
+            "text": "to hide the main idea"
+          },
+          {
+            "id": "d",
+            "text": "to tell a joke"
+          }
+        ],
+        "answer": "b",
+        "hint": "The author uses a story, not a drawing. What does the story do for the idea?",
+        "explanation": "The puppy's story is an example that makes the idea clear. Illustrate can mean drawing pictures for a book, but here it means explaining with an example.",
+        "wrong": {
+          "a": "Illustrate can mean drawing pictures, but this author uses a story, not a drawing."
+        }
+      },
+      {
+        "id": "illustrate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "To ___ how the heart pumps blood, our teacher squeezed a water bottle and made water shoot out the top.",
+        "options": [
+          {
+            "id": "a",
+            "text": "forget"
+          },
+          {
+            "id": "b",
+            "text": "measure"
+          },
+          {
+            "id": "c",
+            "text": "question"
+          },
+          {
+            "id": "d",
+            "text": "illustrate"
+          }
+        ],
+        "answer": "d",
+        "clue": "squeezed a water bottle",
+        "hint": "The water bottle is a model that helps explain something.",
+        "explanation": "Squeezing the bottle is a hands-on example that makes the idea of pumping clear. That is illustrating."
+      },
+      {
+        "id": "illustrate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"illustrates\" in this sentence?",
+        "passage": "The graph clearly illustrates how the temperature rose each afternoon during the heat wave.",
+        "options": [
+          {
+            "id": "a",
+            "text": "colors"
+          },
+          {
+            "id": "b",
+            "text": "shows"
+          },
+          {
+            "id": "c",
+            "text": "causes"
+          },
+          {
+            "id": "d",
+            "text": "predicts"
+          }
+        ],
+        "answer": "b",
+        "hint": "A graph does not make the temperature rise. What does it do?",
+        "explanation": "Shows means makes clear, which matches illustrates here. The graph does not cause the heat; it shows it."
+      },
+      {
+        "id": "illustrate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what illustrate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "To illustrate how big the sun is,"
+          },
+          {
+            "id": "c2",
+            "text": "Mr. Bell placed a pea next to a beach ball,"
+          },
+          {
+            "id": "c3",
+            "text": "so we could compare Earth and the sun."
+          },
+          {
+            "id": "c4",
+            "text": "so nobody could understand anything."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Illustrating makes an idea clearer, not more confusing.",
+        "explanation": "The pea and beach ball are an example that helps students compare sizes, which illustrates the idea. Making nobody understand is the opposite."
+      },
+      {
+        "id": "illustrate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What is the speaker doing with the story?",
+        "passage": "Talking about honesty, Grandma told how she once returned a wallet full of money and how good it felt afterward.",
+        "options": [
+          {
+            "id": "a",
+            "text": "illustrating her point"
+          },
+          {
+            "id": "b",
+            "text": "changing the subject"
+          },
+          {
+            "id": "c",
+            "text": "arguing against honesty"
+          },
+          {
+            "id": "d",
+            "text": "drawing a wallet"
+          }
+        ],
+        "answer": "a",
+        "clue": "Talking about honesty; told how she once returned a wallet",
+        "hint": "The story is an example of the idea she was talking about.",
+        "explanation": "Grandma's wallet story is an example that makes the idea of honesty clear. That is illustrating her point. She is not drawing anything; illustrate here means explaining with an example."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "indicate.verb.1",
+    "word": "indicate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "IN-dih-kate",
+    "definition": "to show or point out that something is true or likely",
+    "hero": {
+      "text": "The blinking green light indicated that the bridge was safe, so Kai waved the school bus across.",
+      "scene": {
+        "pose": "waving",
+        "props": [
+          "🟢",
+          "🚌",
+          "🌉"
+        ],
+        "setting": "street"
+      }
+    },
+    "everyday": "Dark clouds and a sudden cool wind often indicate that a thunderstorm is on the way.",
+    "contrast": {
+      "nonExample": "Liam guessed it would snow tomorrow, even though the sky was clear and the weather report said sunny.",
+      "explanation": "Liam's guess had no sign behind it. To indicate is to be a sign that shows something is true or likely.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "☀️",
+          "❄️"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "show",
+        "signal",
+        "suggest",
+        "point to"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "family": [
+        "indication",
+        "indicator",
+        "indicated"
+      ]
+    },
+    "forms": [
+      "indicate",
+      "indicates",
+      "indicated",
+      "indicating"
+    ],
+    "tags": [
+      "science",
+      "math",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "indicate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"indicates\" mean in this sentence?",
+        "passage": "A fever usually indicates that the body is fighting off some kind of infection.",
+        "options": [
+          {
+            "id": "a",
+            "text": "stops"
+          },
+          {
+            "id": "b",
+            "text": "is a sign of"
+          },
+          {
+            "id": "c",
+            "text": "is caused by medicine"
+          },
+          {
+            "id": "d",
+            "text": "makes worse"
+          }
+        ],
+        "answer": "b",
+        "hint": "A fever tells you something about what is happening in the body.",
+        "explanation": "A fever is a sign that the body is fighting infection. Indicate means to show or be a sign of something."
+      },
+      {
+        "id": "indicate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The arrows on the museum floor ___ which way visitors should walk to reach the dinosaur hall.",
+        "options": [
+          {
+            "id": "a",
+            "text": "indicate"
+          },
+          {
+            "id": "b",
+            "text": "block"
+          },
+          {
+            "id": "c",
+            "text": "decorate"
+          },
+          {
+            "id": "d",
+            "text": "erase"
+          }
+        ],
+        "answer": "a",
+        "clue": "arrows; which way visitors should walk",
+        "hint": "What do arrows do?",
+        "explanation": "Arrows point out the way to go. Indicate means to show or point out. Decorate would mean the arrows are just for looks.",
+        "wrong": {
+          "c": "Decorate means making something look nice, but these arrows give directions."
+        }
+      },
+      {
+        "id": "indicate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"indicated\" in this sentence?",
+        "passage": "The survey results indicated that most students would rather have recess before lunch.",
+        "options": [
+          {
+            "id": "a",
+            "text": "demanded"
+          },
+          {
+            "id": "b",
+            "text": "doubted"
+          },
+          {
+            "id": "c",
+            "text": "showed"
+          },
+          {
+            "id": "d",
+            "text": "required"
+          }
+        ],
+        "answer": "c",
+        "hint": "Results cannot demand anything. What can they do?",
+        "explanation": "Showed means made clear, which matches indicated. Survey results show what students think; they cannot demand or require anything."
+      },
+      {
+        "id": "indicate.verb.1#4",
+        "format": "context_clues",
+        "stage": "independent",
+        "prompt": "What do the clues indicate?",
+        "passage": "The cookie jar is empty, crumbs lead down the hall, and your little brother has chocolate on his chin.",
+        "options": [
+          {
+            "id": "a",
+            "text": "The dog baked cookies."
+          },
+          {
+            "id": "b",
+            "text": "The cookies were never made."
+          },
+          {
+            "id": "c",
+            "text": "Mom hid the cookies."
+          },
+          {
+            "id": "d",
+            "text": "Your brother ate the cookies."
+          }
+        ],
+        "answer": "d",
+        "clue": "crumbs lead down the hall; chocolate on his chin",
+        "hint": "Each clue is a sign. What do they point to?",
+        "explanation": "The crumbs and the chocolate on his chin are signs that point to your brother. They indicate he ate the cookies."
+      },
+      {
+        "id": "indicate.verb.1#5",
+        "format": "sentence_build",
+        "stage": "transfer",
+        "prompt": "Build a sentence that shows what indicate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Rings of salt on the rocks"
+          },
+          {
+            "id": "c2",
+            "text": "indicate"
+          },
+          {
+            "id": "c3",
+            "text": "that this desert was once covered by a lake."
+          },
+          {
+            "id": "c4",
+            "text": "that nobody knows anything about this desert."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Something that indicates gives a clue about what is true.",
+        "explanation": "Salt rings are a sign that water once stood there, so they indicate the old lake. The decoy does not tell what the sign points to."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "inquire.verb.1",
+    "word": "inquire",
+    "grade": 5,
+    "pos": "verb",
+    "say": "in-KWIRE",
+    "definition": "to ask for information about something",
+    "hero": {
+      "text": "Pixel called the weather station to inquire about the storm's path before the heroes flew out over the ocean.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "📞",
+          "🌀"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "My mom stopped at the front desk to inquire about signing me up for swimming lessons.",
+    "contrast": {
+      "nonExample": "Theo told his friends all about the movie he saw last night.",
+      "explanation": "Telling information is not inquiring. To inquire, you ask questions to get information.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "🎬"
+        ],
+        "second": "listening",
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "ask",
+        "question",
+        "look into"
+      ],
+      "antonyms": [
+        "answer",
+        "reply",
+        "tell"
+      ],
+      "family": [
+        "inquiry",
+        "inquiring",
+        "inquisitive"
+      ]
+    },
+    "forms": [
+      "inquire",
+      "inquires",
+      "inquired",
+      "inquiring",
+      "enquire",
+      "enquired"
+    ],
+    "tags": [
+      "science",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "inquire.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this person inquiring?",
+        "passage": "At the zoo, Priya asked the keeper how much food the elephants eat in one day.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is Priya asking for information?",
+        "explanation": "Priya asked a question to get information about the elephants. That is inquiring."
+      },
+      {
+        "id": "inquire.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Before planning the trip, Dad wrote to the park office to ___ whether the campgrounds were open in March.",
+        "options": [
+          {
+            "id": "a",
+            "text": "announce"
+          },
+          {
+            "id": "b",
+            "text": "promise"
+          },
+          {
+            "id": "c",
+            "text": "inquire"
+          },
+          {
+            "id": "d",
+            "text": "complain"
+          }
+        ],
+        "answer": "c",
+        "clue": "whether the campgrounds were open",
+        "hint": "Dad did not know the answer. What was he doing?",
+        "explanation": "\"Whether the campgrounds were open\" is a question Dad wanted answered. Writing to ask for information is inquiring.",
+        "wrong": {
+          "a": "Announcing means telling, but Dad needed to find out something."
+        }
+      },
+      {
+        "id": "inquire.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"inquire\" in this sentence?",
+        "passage": "Reporters gathered outside to inquire about the cause of the fire at the old factory.",
+        "options": [
+          {
+            "id": "a",
+            "text": "ask"
+          },
+          {
+            "id": "b",
+            "text": "worry"
+          },
+          {
+            "id": "c",
+            "text": "search"
+          },
+          {
+            "id": "d",
+            "text": "answer"
+          }
+        ],
+        "answer": "d",
+        "hint": "Inquire means to ask. What is the opposite of asking?",
+        "explanation": "To inquire is to ask for information, so answer is the opposite. Ask is a synonym."
+      },
+      {
+        "id": "inquire.verb.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "The polite customer approached the counter to ___ about the price of the blue bicycle in the window.",
+        "options": [
+          {
+            "id": "a",
+            "text": "inquire"
+          },
+          {
+            "id": "b",
+            "text": "demand"
+          },
+          {
+            "id": "c",
+            "text": "argue"
+          },
+          {
+            "id": "d",
+            "text": "shout"
+          }
+        ],
+        "answer": "a",
+        "clue": "polite; about the price",
+        "hint": "All four can involve speaking, but which one matches \"polite\"?",
+        "explanation": "Inquire is a polite, formal way to ask for information. Demand, argue, and shout are too forceful for a polite customer."
+      },
+      {
+        "id": "inquire.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "In which line is the speaker inquiring?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"The library closes at six.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Excuse me, what time does the library close?\""
+          },
+          {
+            "id": "c",
+            "text": "\"I love this library.\""
+          },
+          {
+            "id": "d",
+            "text": "\"Please return your books.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "Look for the speaker who is asking for information.",
+        "explanation": "Asking what time the library closes is a request for information. That is inquiring. Option a gives the answer instead of asking."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "isolate.verb.1",
+    "word": "isolate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "EYE-suh-late",
+    "definition": "to separate something or someone from others",
+    "hero": {
+      "text": "Kai built a glass wall to isolate the leaking chemical so it could not spread through the rest of the lab.",
+      "scene": {
+        "pose": "building",
+        "props": [
+          "🧪",
+          "🧱"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "The nurse isolated the sick hamster in its own cage so the other class pets would not catch its cold.",
+    "contrast": {
+      "nonExample": "The teacher mixed all the groups together so everyone could work with someone new.",
+      "explanation": "Mixing everyone together is the opposite of isolating. To isolate means to keep something apart from the rest.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "👥"
+        ],
+        "second": "happy",
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "separate",
+        "set apart",
+        "cut off"
+      ],
+      "antonyms": [
+        "combine",
+        "include",
+        "connect"
+      ],
+      "family": [
+        "isolation",
+        "isolated"
+      ]
+    },
+    "forms": [
+      "isolate",
+      "isolates",
+      "isolated",
+      "isolating"
+    ],
+    "tags": [
+      "science",
+      "social",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "isolate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"isolate\" mean in this sentence?",
+        "passage": "Farmers isolate new cows from the herd for a few weeks to make sure they are not carrying any disease.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to feed extra food"
+          },
+          {
+            "id": "b",
+            "text": "to sell for money"
+          },
+          {
+            "id": "c",
+            "text": "to keep apart from others"
+          },
+          {
+            "id": "d",
+            "text": "to give a name"
+          }
+        ],
+        "answer": "c",
+        "hint": "The new cows are kept \"from the herd\". What does that mean?",
+        "explanation": "The new cows are kept \"from the herd\" so disease cannot spread. Keeping something apart from others is isolating."
+      },
+      {
+        "id": "isolate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The heavy snowstorm ___ the mountain village for a week, since no cars could reach it.",
+        "options": [
+          {
+            "id": "a",
+            "text": "warmed"
+          },
+          {
+            "id": "b",
+            "text": "isolated"
+          },
+          {
+            "id": "c",
+            "text": "connected"
+          },
+          {
+            "id": "d",
+            "text": "crowded"
+          }
+        ],
+        "answer": "b",
+        "clue": "no cars could reach it",
+        "hint": "If nobody can get to the village, what has happened to it?",
+        "explanation": "\"No cars could reach it\" means the village was cut off from everyone else. The storm isolated it. Connected is the opposite."
+      },
+      {
+        "id": "isolate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"isolate\" in this sentence?",
+        "passage": "Scientists can isolate a single germ from a drop of pond water to study it under a microscope.",
+        "options": [
+          {
+            "id": "a",
+            "text": "separate"
+          },
+          {
+            "id": "b",
+            "text": "destroy"
+          },
+          {
+            "id": "c",
+            "text": "multiply"
+          },
+          {
+            "id": "d",
+            "text": "color"
+          }
+        ],
+        "answer": "a",
+        "hint": "They want just one germ, apart from everything else in the water.",
+        "explanation": "Separate means to set apart, which matches isolate. The scientists want to study the germ, not destroy it."
+      },
+      {
+        "id": "isolate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what isolate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "To find the problem,"
+          },
+          {
+            "id": "c2",
+            "text": "the electrician isolated one wire"
+          },
+          {
+            "id": "c3",
+            "text": "and tested it by itself."
+          },
+          {
+            "id": "c4",
+            "text": "and twisted it together with all the others."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Isolating means keeping one thing apart.",
+        "explanation": "Testing one wire \"by itself\" means it was kept apart from the rest. Twisting it together with the others would be the opposite."
+      },
+      {
+        "id": "isolate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what the ocean did to the island's animals?",
+        "passage": "For millions of years, hundreds of miles of ocean kept the island's birds and lizards apart from animals on the mainland.",
+        "options": [
+          {
+            "id": "a",
+            "text": "fed"
+          },
+          {
+            "id": "b",
+            "text": "joined"
+          },
+          {
+            "id": "c",
+            "text": "chased"
+          },
+          {
+            "id": "d",
+            "text": "isolated"
+          }
+        ],
+        "answer": "d",
+        "clue": "kept apart from animals on the mainland",
+        "hint": "The ocean kept the animals apart from others.",
+        "explanation": "\"Kept apart from animals on the mainland\" means the ocean separated them. That is isolating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "minor.adj.1",
+    "word": "minor",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "MY-ner",
+    "definition": "small or not very important",
+    "hero": {
+      "text": "Bolt's suit had only a minor scratch after the rescue, so he fixed it with a dab of paint and kept going.",
+      "scene": {
+        "pose": "confident",
+        "props": [
+          "🎨",
+          "🦸"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The story's main character is a girl named June; her cousin is only a minor character who appears once.",
+    "contrast": {
+      "nonExample": "The earthquake knocked down bridges and buildings all across the city.",
+      "explanation": "Huge, serious damage is not minor. Minor means small or not very important.",
+      "scene": {
+        "pose": "scared",
+        "props": [
+          "🏚️",
+          "🌉"
+        ],
+        "setting": "city"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "small",
+        "slight",
+        "unimportant"
+      ],
+      "antonyms": [
+        "major",
+        "serious",
+        "important"
+      ],
+      "family": [
+        "minority",
+        "minor (noun)"
+      ]
+    },
+    "forms": [
+      "minor"
+    ],
+    "tags": [
+      "reading",
+      "everyday",
+      "arts"
+    ],
+    "items": [
+      {
+        "id": "minor.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this a minor problem?",
+        "passage": "Ella's essay was excellent except for one small spelling mistake in the last sentence.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is one small spelling mistake a big deal in an excellent essay?",
+        "explanation": "One small mistake in an excellent essay is not very important. That is a minor problem."
+      },
+      {
+        "id": "minor.adj.1#2",
+        "format": "meaning",
+        "stage": "independent",
+        "prompt": "Minor can mean \"small or unimportant\", \"a person under 18\", or \"a sad-sounding musical key\". Which meaning is used here?",
+        "passage": "The movie theater has a rule that a minor must be with an adult to see the late-night horror film.",
+        "options": [
+          {
+            "id": "a",
+            "text": "small or unimportant"
+          },
+          {
+            "id": "b",
+            "text": "a sad-sounding musical key"
+          },
+          {
+            "id": "c",
+            "text": "a person under 18"
+          },
+          {
+            "id": "d",
+            "text": "a worker in a mine"
+          }
+        ],
+        "answer": "c",
+        "clue": "must be with an adult",
+        "hint": "Who would need to be with an adult?",
+        "explanation": "\"Must be with an adult\" tells you minor here means a young person under 18. This is a different sense from the main one you learned. A worker in a mine is a miner, spelled differently.",
+        "wrong": {
+          "a": "That is the adjective meaning. Here minor is a noun naming a person.",
+          "d": "That word is miner, which sounds the same but is spelled differently."
+        }
+      },
+      {
+        "id": "minor.adj.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The doctor said the cut was ___ and would heal in a few days with just a bandage.",
+        "options": [
+          {
+            "id": "a",
+            "text": "serious"
+          },
+          {
+            "id": "b",
+            "text": "minor"
+          },
+          {
+            "id": "c",
+            "text": "deep"
+          },
+          {
+            "id": "d",
+            "text": "dangerous"
+          }
+        ],
+        "answer": "b",
+        "clue": "heal in a few days; just a bandage",
+        "hint": "A cut that needs only a bandage is big or small?",
+        "explanation": "\"Just a bandage\" and \"a few days\" show the cut was small and not serious. That is minor."
+      },
+      {
+        "id": "minor.adj.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"minor\" in this sentence?",
+        "passage": "The new bus schedule caused only minor delays, and most students still arrived before the bell.",
+        "options": [
+          {
+            "id": "a",
+            "text": "major"
+          },
+          {
+            "id": "b",
+            "text": "slight"
+          },
+          {
+            "id": "c",
+            "text": "early"
+          },
+          {
+            "id": "d",
+            "text": "quick"
+          }
+        ],
+        "answer": "a",
+        "hint": "Minor and its opposite are a common word pair.",
+        "explanation": "Major means large or serious, the opposite of minor. Slight means almost the same as minor."
+      },
+      {
+        "id": "minor.adj.1#5",
+        "format": "meaning",
+        "stage": "transfer",
+        "prompt": "What does \"minor\" mean as used in this passage?",
+        "passage": "The two teams agreed on almost everything. They argued only about minor details, like what color the posters should be.",
+        "options": [
+          {
+            "id": "a",
+            "text": "young"
+          },
+          {
+            "id": "b",
+            "text": "sad-sounding"
+          },
+          {
+            "id": "c",
+            "text": "secret"
+          },
+          {
+            "id": "d",
+            "text": "small and unimportant"
+          }
+        ],
+        "answer": "d",
+        "clue": "agreed on almost everything; like what color the posters should be",
+        "hint": "Poster color is given as an example of the details. Is that a big issue?",
+        "explanation": "The teams \"agreed on almost everything\", and poster color is a small issue. Minor here means small and unimportant, not young or sad-sounding."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "modify.verb.1",
+    "word": "modify",
+    "grade": 5,
+    "pos": "verb",
+    "say": "MOD-uh-fy",
+    "definition": "to change something a little to make it work better",
+    "hero": {
+      "text": "Pixel modified her drone by adding wider wings, which helped it carry medicine to villages in strong winds.",
+      "scene": {
+        "pose": "building",
+        "props": [
+          "🛸",
+          "🔧",
+          "💊"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Grandma modified her cookie recipe, using less sugar and adding oats so the cookies would be healthier.",
+    "contrast": {
+      "nonExample": "Jake threw away his old model car and bought a completely different one.",
+      "explanation": "Replacing something completely is not modifying it. To modify is to make some changes to the same thing.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🚗",
+          "🗑️"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "adjust",
+        "alter",
+        "change"
+      ],
+      "antonyms": [
+        "keep",
+        "preserve",
+        "leave alone"
+      ],
+      "family": [
+        "modification",
+        "modified",
+        "modifier"
+      ]
+    },
+    "forms": [
+      "modify",
+      "modifies",
+      "modified",
+      "modifying"
+    ],
+    "tags": [
+      "science",
+      "math",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "modify.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which student modified a project?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zoe started a brand-new project from scratch."
+          },
+          {
+            "id": "b",
+            "text": "Tom left his bridge exactly as it was."
+          },
+          {
+            "id": "c",
+            "text": "Ali added extra supports to his paper bridge so it could hold more weight."
+          },
+          {
+            "id": "d",
+            "text": "Kim watched a video about bridges."
+          }
+        ],
+        "answer": "c",
+        "hint": "Modifying means changing something you already have, a little, to improve it.",
+        "explanation": "Ali kept his bridge but added supports to make it stronger. That is modifying. Zoe started over instead.",
+        "wrong": {
+          "a": "Starting over is not modifying; modifying changes something that already exists."
+        }
+      },
+      {
+        "id": "modify.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "When the experiment failed, the scientists decided to ___ one step instead of starting the whole thing over.",
+        "options": [
+          {
+            "id": "a",
+            "text": "modify"
+          },
+          {
+            "id": "b",
+            "text": "celebrate"
+          },
+          {
+            "id": "c",
+            "text": "abandon"
+          },
+          {
+            "id": "d",
+            "text": "repeat"
+          }
+        ],
+        "answer": "a",
+        "clue": "one step; instead of starting the whole thing over",
+        "hint": "They changed only part of the experiment.",
+        "explanation": "Changing \"one step\" instead of starting over is making a small change. That is modifying. Repeat means doing the same step again without change.",
+        "wrong": {
+          "d": "Repeating the step exactly would not fix the failure. They needed to change it."
+        }
+      },
+      {
+        "id": "modify.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"modify\" in this sentence?",
+        "passage": "The city plans to modify the old train station so that people in wheelchairs can use it easily.",
+        "options": [
+          {
+            "id": "a",
+            "text": "demolish"
+          },
+          {
+            "id": "b",
+            "text": "alter"
+          },
+          {
+            "id": "c",
+            "text": "visit"
+          },
+          {
+            "id": "d",
+            "text": "close"
+          }
+        ],
+        "answer": "b",
+        "hint": "The station will stay, but some parts will change.",
+        "explanation": "Alter means to change something, which matches modify. Demolish would mean knocking the station down completely."
+      },
+      {
+        "id": "modify.verb.1#4",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The suffix \"-ify\" means \"to make\". \"Modify\" comes from a Latin word meaning \"measure\" or \"way\". Which other word uses -ify the same way?",
+        "options": [
+          {
+            "id": "a",
+            "text": "simplify: to make simple"
+          },
+          {
+            "id": "b",
+            "text": "family: a group of relatives"
+          },
+          {
+            "id": "c",
+            "text": "ivy: a climbing plant"
+          },
+          {
+            "id": "d",
+            "text": "fifty: five tens"
+          }
+        ],
+        "answer": "a",
+        "hint": "Look for a word where -ify means \"to make\".",
+        "explanation": "In simplify, -ify means to make (make simple), just as modify means to make something a different way. Family, ivy, and fifty only contain similar letters."
+      },
+      {
+        "id": "modify.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What did the coach do to the game?",
+        "passage": "Because the youngest players got tired quickly, the coach kept the same soccer rules but made the field smaller and the games shorter.",
+        "options": [
+          {
+            "id": "a",
+            "text": "invented it"
+          },
+          {
+            "id": "b",
+            "text": "canceled it"
+          },
+          {
+            "id": "c",
+            "text": "modified it"
+          },
+          {
+            "id": "d",
+            "text": "watched it"
+          }
+        ],
+        "answer": "c",
+        "clue": "kept the same soccer rules but made the field smaller",
+        "hint": "Some things stayed the same, and some changed.",
+        "explanation": "The coach \"kept the same soccer rules\" but changed the field and game length. Making some changes to improve something is modifying."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "numerous.adj.1",
+    "word": "numerous",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "NOO-mer-us",
+    "definition": "great in number; very many",
+    "hero": {
+      "text": "Nova received numerous thank-you letters from students after she helped rebuild their flooded school.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "✉️",
+          "✉️",
+          "🏫"
+        ],
+        "setting": "school"
+      }
+    },
+    "everyday": "Numerous stars fill the night sky in the desert, far from the glow of city lights.",
+    "contrast": {
+      "nonExample": "Only two students signed up for the chess club this year.",
+      "explanation": "Two is a small number. Numerous means very many.",
+      "scene": {
+        "pose": "sad",
+        "props": [
+          "♟️"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "many",
+        "countless",
+        "plenty of"
+      ],
+      "antonyms": [
+        "few",
+        "rare",
+        "scarce"
+      ],
+      "family": [
+        "number",
+        "numerously",
+        "numeral"
+      ]
+    },
+    "forms": [
+      "numerous"
+    ],
+    "tags": [
+      "math",
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "numerous.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"numerous\" mean in this sentence?",
+        "passage": "The scientist has written numerous books about sharks, filling three whole shelves in our library.",
+        "options": [
+          {
+            "id": "a",
+            "text": "very many"
+          },
+          {
+            "id": "b",
+            "text": "very old"
+          },
+          {
+            "id": "c",
+            "text": "very short"
+          },
+          {
+            "id": "d",
+            "text": "only one"
+          }
+        ],
+        "answer": "a",
+        "hint": "The books fill three whole shelves.",
+        "explanation": "Books \"filling three whole shelves\" means there are a lot of them. Numerous means very many."
+      },
+      {
+        "id": "numerous.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The coral reef is home to ___ kinds of fish, from tiny clownfish to giant groupers.",
+        "options": [
+          {
+            "id": "a",
+            "text": "few"
+          },
+          {
+            "id": "b",
+            "text": "frozen"
+          },
+          {
+            "id": "c",
+            "text": "numerous"
+          },
+          {
+            "id": "d",
+            "text": "silent"
+          }
+        ],
+        "answer": "c",
+        "clue": "from tiny clownfish to giant groupers",
+        "hint": "\"From ... to ...\" shows a wide range. How many kinds might that be?",
+        "explanation": "\"From tiny clownfish to giant groupers\" suggests a huge range of fish. Numerous means very many. Few is the opposite."
+      },
+      {
+        "id": "numerous.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"numerous\" in this sentence?",
+        "passage": "Numerous volunteers showed up to clean the beach, and they collected over fifty bags of trash.",
+        "options": [
+          {
+            "id": "a",
+            "text": "many"
+          },
+          {
+            "id": "b",
+            "text": "eager"
+          },
+          {
+            "id": "c",
+            "text": "tired"
+          },
+          {
+            "id": "d",
+            "text": "few"
+          }
+        ],
+        "answer": "d",
+        "hint": "Numerous means a lot. What means a small number?",
+        "explanation": "Few means a small number, the opposite of numerous. Many is a synonym."
+      },
+      {
+        "id": "numerous.adj.1#4",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "\"Numerous\" shares a root with \"number\" and \"numeral\". The suffix \"-ous\" means \"full of\". What does \"numerous\" most likely mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "good at math"
+          },
+          {
+            "id": "b",
+            "text": "full of numbers; very many"
+          },
+          {
+            "id": "c",
+            "text": "without any number"
+          },
+          {
+            "id": "d",
+            "text": "counting backward"
+          }
+        ],
+        "answer": "b",
+        "hint": "Put the parts together: number + full of.",
+        "explanation": "Numer- means number and -ous means full of, so numerous means a great number, very many. It describes amount, not math skill."
+      },
+      {
+        "id": "numerous.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the times Emma practiced?",
+        "passage": "Emma practiced her piano piece every morning and every evening for months before the big recital.",
+        "options": [
+          {
+            "id": "a",
+            "text": "numerous"
+          },
+          {
+            "id": "b",
+            "text": "rare"
+          },
+          {
+            "id": "c",
+            "text": "brief"
+          },
+          {
+            "id": "d",
+            "text": "secret"
+          }
+        ],
+        "answer": "a",
+        "clue": "every morning and every evening for months",
+        "hint": "Twice a day for months adds up to how many times?",
+        "explanation": "Practicing \"every morning and every evening for months\" adds up to very many times. That is numerous. Rare is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "obstacle.noun.1",
+    "word": "obstacle",
+    "grade": 5,
+    "pos": "noun",
+    "say": "OB-stuh-kul",
+    "definition": "something that blocks your way or makes it hard to reach a goal",
+    "hero": {
+      "text": "A fallen tree was the first obstacle on the path, so Rex lifted it aside and the hikers continued.",
+      "scene": {
+        "pose": "lifting",
+        "props": [
+          "🌲",
+          "🥾"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Not speaking English was an obstacle for Luis at first, but he practiced every day and made new friends.",
+    "contrast": {
+      "nonExample": "The smooth, empty road let the runners go as fast as they wanted.",
+      "explanation": "A clear path has nothing blocking it. An obstacle is something that gets in the way.",
+      "scene": {
+        "pose": "running",
+        "props": [
+          "🛣️"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "barrier",
+        "hurdle",
+        "challenge"
+      ],
+      "antonyms": [
+        "help",
+        "advantage",
+        "aid"
+      ],
+      "family": [
+        "obstacles"
+      ]
+    },
+    "forms": [
+      "obstacle",
+      "obstacles"
+    ],
+    "tags": [
+      "history",
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "obstacle.noun.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this an obstacle?",
+        "passage": "A big pile of snow blocked the front door, so the family could not get outside to the car.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did the snow get in the family's way?",
+        "explanation": "The snow blocked the door and kept the family from reaching the car. Something that blocks your way is an obstacle."
+      },
+      {
+        "id": "obstacle.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Lack of money was the biggest ___ to building the new playground, so the town held fundraisers all year.",
+        "options": [
+          {
+            "id": "a",
+            "text": "reward"
+          },
+          {
+            "id": "b",
+            "text": "obstacle"
+          },
+          {
+            "id": "c",
+            "text": "reason"
+          },
+          {
+            "id": "d",
+            "text": "tradition"
+          }
+        ],
+        "answer": "b",
+        "clue": "Lack of money; held fundraisers",
+        "hint": "Not having money made building hard. What do you call something that makes a goal hard?",
+        "explanation": "Lack of money stood in the way of the playground, so it was an obstacle. The fundraisers were how the town got past it. An obstacle does not have to be a physical object.",
+        "wrong": {
+          "c": "A reason explains why. Here, lack of money is what blocked the goal."
+        }
+      },
+      {
+        "id": "obstacle.noun.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"obstacle\" in this sentence?",
+        "passage": "The steep, icy mountain pass was a dangerous obstacle for pioneers traveling west in covered wagons.",
+        "options": [
+          {
+            "id": "a",
+            "text": "shortcut"
+          },
+          {
+            "id": "b",
+            "text": "view"
+          },
+          {
+            "id": "c",
+            "text": "barrier"
+          },
+          {
+            "id": "d",
+            "text": "camp"
+          }
+        ],
+        "answer": "c",
+        "hint": "The pass made the trip harder. Which word names something that blocks the way?",
+        "explanation": "A barrier blocks the way, just like an obstacle. A shortcut is the opposite: it makes travel easier."
+      },
+      {
+        "id": "obstacle.noun.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what obstacle means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Her broken arm was an obstacle,"
+          },
+          {
+            "id": "c2",
+            "text": "but Maya learned to write with her other hand"
+          },
+          {
+            "id": "c3",
+            "text": "and finished her school project."
+          },
+          {
+            "id": "c4",
+            "text": "because it made everything much easier."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "An obstacle makes things harder, not easier.",
+        "explanation": "The broken arm made writing hard, and Maya found a way around it. Saying it made everything easier contradicts the meaning of obstacle."
+      },
+      {
+        "id": "obstacle.noun.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What was the river for the explorers?",
+        "passage": "The explorers wanted to reach the far mountains, but a wide, rushing river stood in their way. They spent days building a raft.",
+        "options": [
+          {
+            "id": "a",
+            "text": "a shortcut"
+          },
+          {
+            "id": "b",
+            "text": "a goal"
+          },
+          {
+            "id": "c",
+            "text": "a reward"
+          },
+          {
+            "id": "d",
+            "text": "an obstacle"
+          }
+        ],
+        "answer": "d",
+        "clue": "stood in their way; spent days building a raft",
+        "hint": "The river kept them from reaching their goal.",
+        "explanation": "The river \"stood in their way\" and they had to build a raft to cross it. Something that blocks a goal is an obstacle. The mountains were their goal, not the river."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "participate.verb.1",
+    "word": "participate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "par-TIS-uh-pate",
+    "definition": "to take part in an activity or event",
+    "hero": {
+      "text": "Every hero participated in the clean-up day, and Juniper planted twenty new trees along the river.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🌳",
+          "🧤",
+          "🪣"
+        ],
+        "setting": "park"
+      }
+    },
+    "everyday": "All fifth graders will participate in the science fair by presenting an experiment to visiting families.",
+    "contrast": {
+      "nonExample": "Sam sat in the bleachers and watched the relay race without joining in.",
+      "explanation": "Watching is not participating. To participate, you take part in the activity yourself.",
+      "scene": {
+        "pose": "sitting",
+        "props": [
+          "🏃",
+          "🏟️"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "take part",
+        "join in",
+        "be involved"
+      ],
+      "antonyms": [
+        "watch",
+        "sit out",
+        "avoid"
+      ],
+      "family": [
+        "participation",
+        "participant",
+        "participating"
+      ]
+    },
+    "forms": [
+      "participate",
+      "participates",
+      "participated",
+      "participating"
+    ],
+    "tags": [
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "participate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person participates in the class play?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jen plays the role of the queen."
+          },
+          {
+            "id": "b",
+            "text": "Ray watches the play from the audience."
+          },
+          {
+            "id": "c",
+            "text": "Mia hears about the play from her sister."
+          },
+          {
+            "id": "d",
+            "text": "Lou stays home that night."
+          }
+        ],
+        "answer": "a",
+        "hint": "Who takes part in the play itself?",
+        "explanation": "Jen acts in the play, so she takes part in it. That is participating. Ray only watches.",
+        "wrong": {
+          "b": "Watching from the audience is not taking part in the play."
+        }
+      },
+      {
+        "id": "participate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Over a thousand runners will ___ in the city marathon to raise money for the children's hospital.",
+        "options": [
+          {
+            "id": "a",
+            "text": "watch"
+          },
+          {
+            "id": "b",
+            "text": "complain"
+          },
+          {
+            "id": "c",
+            "text": "rest"
+          },
+          {
+            "id": "d",
+            "text": "participate"
+          }
+        ],
+        "answer": "d",
+        "clue": "runners; in the city marathon",
+        "hint": "The runners take part in the race.",
+        "explanation": "Runners take part in the marathon, so they participate in it. Watch would mean they only look on."
+      },
+      {
+        "id": "participate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which phrase is closest in meaning to \"participate\" in this sentence?",
+        "passage": "Our teacher encourages everyone to participate in class discussions, even if they feel a little shy.",
+        "options": [
+          {
+            "id": "a",
+            "text": "listen quietly"
+          },
+          {
+            "id": "b",
+            "text": "join in"
+          },
+          {
+            "id": "c",
+            "text": "take notes"
+          },
+          {
+            "id": "d",
+            "text": "walk out"
+          }
+        ],
+        "answer": "b",
+        "hint": "The teacher wants shy students to do more than listen.",
+        "explanation": "Join in means to take part, which matches participate. \"Even if they feel a little shy\" shows the teacher wants students to speak up, not just listen."
+      },
+      {
+        "id": "participate.verb.1#4",
+        "format": "example_nonexample",
+        "stage": "independent",
+        "prompt": "Is this person participating?",
+        "passage": "During the town meeting, Mr. Ford stood in the back hallway looking at his phone the whole time.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Mr. Ford take part in the meeting?",
+        "explanation": "Being nearby while looking at a phone is not taking part. Participating means joining in the activity."
+      },
+      {
+        "id": "participate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what Grace did?",
+        "passage": "At the community art project, Grace painted a section of the mural, helped choose colors, and cleaned brushes afterward.",
+        "options": [
+          {
+            "id": "a",
+            "text": "observed"
+          },
+          {
+            "id": "b",
+            "text": "participated"
+          },
+          {
+            "id": "c",
+            "text": "refused"
+          },
+          {
+            "id": "d",
+            "text": "organized"
+          }
+        ],
+        "answer": "b",
+        "clue": "painted a section; helped choose colors; cleaned brushes",
+        "hint": "Grace did several jobs in the project herself.",
+        "explanation": "Painting, choosing colors, and cleaning brushes show Grace took part in the project. That is participating. Organized would mean she planned and ran it, which the passage does not say.",
+        "wrong": {
+          "d": "Organized means planning and running the event. Grace helped, but nothing says she was in charge."
+        }
+      }
+    ],
+    "review": "pending"
+  }
+]

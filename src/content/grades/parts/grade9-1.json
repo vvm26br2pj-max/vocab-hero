@@ -1,0 +1,2105 @@
+[
+ {
+  "id": "pragmatic.adj.1",
+  "word": "pragmatic",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "prag-MAT-ik",
+  "definition": "dealing with problems in a practical, realistic way rather than following theory or ideals",
+  "hero": {
+   "text": "Instead of waiting for the perfect plan, Juniper took a pragmatic approach: she fixed the leak with what she had and planned a full repair later.",
+   "scene": {
+    "pose": "determined",
+    "props": [
+     "🔧",
+     "💧"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The student council made a pragmatic choice to hold the dance in the gym, since the budget could not cover a rented hall.",
+  "contrast": {
+   "nonExample": "Theo refused to start his essay until he found a topic that would change the world.",
+   "explanation": "Theo is guided by an ideal, not by what will actually work. A pragmatic person focuses on realistic results.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "📝",
+     "🌍"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "practical",
+    "realistic",
+    "sensible"
+   ],
+   "antonyms": [
+    "idealistic",
+    "impractical",
+    "unrealistic"
+   ],
+   "family": [
+    "pragmatism",
+    "pragmatist",
+    "pragmatically"
+   ]
+  },
+  "forms": [
+   "pragmatic"
+  ],
+  "tags": [
+   "social",
+   "history",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "pragmatic.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"pragmatic\" mean in this sentence?",
+    "passage": "The mayor took a pragmatic approach, choosing the plan the city could actually afford over the one that looked best on paper.",
+    "options": [
+     {
+      "id": "a",
+      "text": "focused on what is popular with voters"
+     },
+     {
+      "id": "b",
+      "text": "focused on what works in real conditions"
+     },
+     {
+      "id": "c",
+      "text": "focused on following tradition"
+     },
+     {
+      "id": "d",
+      "text": "focused on the most ambitious goal"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Popularity is not mentioned; the deciding factor was cost.",
+     "c": "Tradition is not the reason given.",
+     "d": "The ambitious plan is the one \"on paper\" that she rejected."
+    },
+    "hint": "Notice the contrast: \"could actually afford\" versus \"looked best on paper.\"",
+    "explanation": "Pragmatic means practical and realistic. The mayor picked the plan that would work with real money, not the ideal one."
+   },
+   {
+    "id": "pragmatic.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The scientists wanted a perfect experiment, but with only two weeks of funding left, they made the ___ decision to test the three most promising samples instead of all twenty.",
+    "options": [
+     {
+      "id": "a",
+      "text": "theoretical"
+     },
+     {
+      "id": "b",
+      "text": "reckless"
+     },
+     {
+      "id": "c",
+      "text": "sentimental"
+     },
+     {
+      "id": "d",
+      "text": "pragmatic"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "b": "Reckless means careless about risk; their choice was careful.",
+     "c": "Sentimental means driven by emotion, which the passage does not show.",
+     "a": "Theoretical is the opposite: about ideas rather than practice."
+    },
+    "hint": "The limits of time and money forced a realistic adjustment.",
+    "explanation": "\"Only two weeks of funding left\" shows a real-world limit. Testing the three best samples is a pragmatic, workable compromise.",
+    "clue": "only two weeks of funding left; instead of all twenty"
+   },
+   {
+    "id": "pragmatic.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes Coach Rivera's decision?",
+    "passage": "Coach Rivera believed every player deserved equal time, but in the championship game she kept her strongest five on the court, explaining, \"Today, we play to win.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "hypocritical"
+     },
+     {
+      "id": "b",
+      "text": "impulsive"
+     },
+     {
+      "id": "c",
+      "text": "cynical"
+     },
+     {
+      "id": "d",
+      "text": "pragmatic"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "Cynical means doubting others' motives; she is not doubting anyone.",
+     "a": "Hypocritical implies dishonesty; she openly explains her choice.",
+     "b": "Impulsive means acting without thought; she gives a reason."
+    },
+    "hint": "She sets aside a belief because of the real situation, and she explains why calmly.",
+    "explanation": "Pragmatic fits: she adjusts her ideal to the practical demands of the moment. Hypocritical suggests pretending to hold a belief, and cynical suggests distrust of people, which the passage does not show."
+   },
+   {
+    "id": "pragmatic.adj.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what pragmatic means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Rather than wait for a new building,"
+     },
+     {
+      "id": "c2",
+      "text": "the pragmatic principal"
+     },
+     {
+      "id": "c3",
+      "text": "turned the unused library corner into a study room."
+     },
+     {
+      "id": "c4",
+      "text": "demanded a grand new campus before any classes resumed."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "A pragmatic person uses what is available to solve the problem now.",
+    "explanation": "Turning an existing space into a study room is a realistic, workable solution. Demanding a grand campus first is idealistic, the opposite of pragmatic."
+   },
+   {
+    "id": "pragmatic.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"pragmatic\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"The poem was so pragmatic that it made me cry about the ocean.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Let's be pragmatic: we can't paint the whole mural by Friday, so let's finish one wall well.\""
+     },
+     {
+      "id": "c",
+      "text": "\"He gave a pragmatic shout when his team scored.\""
+     },
+     {
+      "id": "d",
+      "text": "\"That idea is pragmatic because nobody has ever tried anything like it.\""
+     }
+    ],
+    "answer": "b",
+    "hint": "Pragmatic describes a realistic, practical way of handling a problem.",
+    "explanation": "Scaling the mural down to what can really be finished is pragmatic. The other lines use the word for emotion, loudness, or originality, none of which mean practical."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "substantiate.verb.1",
+  "word": "substantiate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "sub-STAN-shee-ayt",
+  "definition": "to support a claim with evidence that shows it is true",
+  "hero": {
+   "text": "Pixel substantiated her claim that the signal came from the old tower by showing the map, the timestamps, and the recording.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🗺️",
+     "📡"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "In her history essay, Ana substantiated her argument about the causes of the war with quotes from three primary sources.",
+  "contrast": {
+   "nonExample": "Marcus kept repeating, louder each time, that his team was the best in the league.",
+   "explanation": "Repeating a claim, even loudly, does not substantiate it. To substantiate, you must provide evidence.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📢",
+     "🏆"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "support",
+    "verify",
+    "back up",
+    "prove"
+   ],
+   "antonyms": [
+    "refute",
+    "disprove",
+    "contradict"
+   ],
+   "family": [
+    "substantiation",
+    "substantiated",
+    "unsubstantiated"
+   ]
+  },
+  "forms": [
+   "substantiate",
+   "substantiates",
+   "substantiated",
+   "substantiating"
+  ],
+  "parts": [
+   {
+    "part": "sub-",
+    "meaning": "under"
+   },
+   {
+    "part": "stant",
+    "meaning": "stand"
+   },
+   {
+    "part": "-iate",
+    "meaning": "to make or do"
+   }
+  ],
+  "tags": [
+   "reading",
+   "science",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "substantiate.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Does this person substantiate the claim?",
+    "passage": "Lin says the new bus route saves time. To show it, she presents a chart of arrival times from three weeks before and three weeks after the change.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Ask: did she give evidence, or just an opinion?",
+    "explanation": "Yes. A chart of real arrival times is evidence that supports her claim, so she substantiates it."
+   },
+   {
+    "id": "substantiate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The reporter's editor refused to publish the accusation until the reporter could ___ it with documents or at least two reliable witnesses.",
+    "options": [
+     {
+      "id": "a",
+      "text": "exaggerate"
+     },
+     {
+      "id": "b",
+      "text": "substantiate"
+     },
+     {
+      "id": "c",
+      "text": "summarize"
+     },
+     {
+      "id": "d",
+      "text": "announce"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Exaggerating makes a claim bigger, not better supported.",
+     "c": "Summarizing shortens; it adds no proof.",
+     "d": "Announcing is exactly what the editor will not allow yet."
+    },
+    "hint": "What do documents and witnesses do for an accusation?",
+    "explanation": "Documents and witnesses are evidence, and evidence is what substantiates a claim. Announcing or summarizing it would not make it more trustworthy.",
+    "clue": "documents or at least two reliable witnesses"
+   },
+   {
+    "id": "substantiate.verb.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"substantiate\" in this sentence?",
+    "passage": "New fossil finds substantiated the theory that the two species lived at the same time.",
+    "options": [
+     {
+      "id": "a",
+      "text": "inspired"
+     },
+     {
+      "id": "b",
+      "text": "confirmed"
+     },
+     {
+      "id": "c",
+      "text": "refuted"
+     },
+     {
+      "id": "d",
+      "text": "described"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Confirmed is close in meaning, not opposite.",
+     "d": "Described is neutral; it neither proves nor disproves.",
+     "a": "Inspired is unrelated to proof."
+    },
+    "hint": "Look for a word meaning \"showed it was false.\"",
+    "explanation": "Substantiate means support with evidence. Refute means prove false, the opposite. Confirmed is a near-synonym."
+   },
+   {
+    "id": "substantiate.verb.1#4",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Substantiate\" is related to \"substance\" (something solid and real). How does that help explain the word?",
+    "options": [
+     {
+      "id": "a",
+      "text": "to remove a claim from a discussion"
+     },
+     {
+      "id": "b",
+      "text": "to put a claim in simpler words"
+     },
+     {
+      "id": "c",
+      "text": "to make a claim sound more exciting"
+     },
+     {
+      "id": "d",
+      "text": "to give a claim solid, real support"
+     }
+    ],
+    "answer": "d",
+    "hint": "Something with substance has real weight.",
+    "explanation": "Substantiating a claim gives it substance: solid evidence that makes it real and believable."
+   },
+   {
+    "id": "substantiate.verb.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best describes what the class did?",
+    "passage": "Mr. Okafor's students claimed the school's recycling bins were often misused. Over two weeks they sorted and weighed the bins' contents, then photographed the results for the principal.",
+    "options": [
+     {
+      "id": "a",
+      "text": "substantiated"
+     },
+     {
+      "id": "b",
+      "text": "dramatized"
+     },
+     {
+      "id": "c",
+      "text": "protested"
+     },
+     {
+      "id": "d",
+      "text": "speculated"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "d": "Speculating is guessing; they gathered evidence instead.",
+     "b": "Dramatizing means making something theatrical.",
+     "c": "Protesting objects to something; the focus here is on proof."
+    },
+    "hint": "The students collected data to back up their claim.",
+    "explanation": "Weighing and photographing the contents produced evidence for their claim, so they substantiated it. Speculating is guessing without evidence.",
+    "clue": "sorted and weighed; photographed the results"
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "equivocal.adj.1",
+  "word": "equivocal",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "ih-KWIV-uh-kul",
+  "definition": "unclear or open to more than one meaning, often on purpose to avoid committing",
+  "hero": {
+   "text": "When Rex asked if the mission was safe, Bolt gave an equivocal answer: \"Well, it depends how you define safe.\"",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "❓",
+     "🤷"
+    ],
+    "second": "confused",
+    "setting": "city"
+   }
+  },
+  "everyday": "Asked whether she supported the new law, the senator gave an equivocal reply that both sides claimed as agreement.",
+  "contrast": {
+   "nonExample": "When asked if he broke the vase, Leo said, \"Yes, I did, and I'm sorry.\"",
+   "explanation": "Leo's answer is direct and has only one meaning. An equivocal answer is vague or can be read two ways.",
+   "scene": {
+    "pose": "sad",
+    "props": [
+     "🏺",
+     "💔"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "ambiguous",
+    "vague",
+    "noncommittal"
+   ],
+   "antonyms": [
+    "clear",
+    "definite",
+    "unequivocal"
+   ],
+   "family": [
+    "equivocate",
+    "equivocation",
+    "unequivocal"
+   ]
+  },
+  "forms": [
+   "equivocal"
+  ],
+  "parts": [
+   {
+    "part": "equi-",
+    "meaning": "equal"
+   },
+   {
+    "part": "voc",
+    "meaning": "voice, call"
+   }
+  ],
+  "tags": [
+   "reading",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "equivocal.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"equivocal\" mean in this sentence?",
+    "passage": "The study's results were equivocal: some data suggested the drug helped, while other data suggested it did nothing.",
+    "options": [
+     {
+      "id": "a",
+      "text": "open to more than one interpretation"
+     },
+     {
+      "id": "b",
+      "text": "strongly in favor"
+     },
+     {
+      "id": "c",
+      "text": "kept secret from the public"
+     },
+     {
+      "id": "d",
+      "text": "completely wrong"
+     }
+    ],
+    "answer": "a",
+    "hint": "The data point in two different directions.",
+    "explanation": "Equivocal means unclear or open to more than one reading. Some data said yes and some said no, so the results did not give a clear answer."
+   },
+   {
+    "id": "equivocal.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the spokesperson's statement?",
+    "passage": "Asked whether layoffs were coming, the company spokesperson said, \"We are always evaluating our options,\" a phrase that could mean yes, no, or not yet.",
+    "options": [
+     {
+      "id": "a",
+      "text": "honest"
+     },
+     {
+      "id": "b",
+      "text": "hostile"
+     },
+     {
+      "id": "c",
+      "text": "equivocal"
+     },
+     {
+      "id": "d",
+      "text": "eloquent"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "a": "An honest answer would state what is actually planned.",
+     "b": "Nothing in the reply is aggressive.",
+     "d": "Eloquent describes graceful speech; this reply is just slippery."
+    },
+    "hint": "The phrase \"could mean yes, no, or not yet.\"",
+    "explanation": "A statement that could mean several things, used to avoid a commitment, is equivocal. Eloquent means beautifully expressed, which is about style, not clarity."
+   },
+   {
+    "id": "equivocal.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Critics found the novel's ending deliberately ___: readers still argue about whether the narrator survived or only imagined her escape.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unoriginal"
+     },
+     {
+      "id": "b",
+      "text": "equivocal"
+     },
+     {
+      "id": "c",
+      "text": "predictable"
+     },
+     {
+      "id": "d",
+      "text": "tragic"
+     }
+    ],
+    "answer": "b",
+    "hint": "If readers argue about what happened, how clear is the ending?",
+    "explanation": "\"Readers still argue\" about two possible meanings, so the ending is equivocal. Predictable would leave nothing to argue about.",
+    "clue": "readers still argue about whether"
+   },
+   {
+    "id": "equivocal.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"equivocal\" in this sentence?",
+    "passage": "The witness's equivocal testimony did little to help either side of the case.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unambiguous"
+     },
+     {
+      "id": "b",
+      "text": "emotional"
+     },
+     {
+      "id": "c",
+      "text": "uncertain"
+     },
+     {
+      "id": "d",
+      "text": "lengthy"
+     }
+    ],
+    "answer": "a",
+    "hint": "Find the word meaning \"having only one clear meaning.\"",
+    "explanation": "Equivocal means open to more than one meaning. Unambiguous means having one clear meaning, the opposite. Uncertain is close to equivocal."
+   },
+   {
+    "id": "equivocal.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which reply is the most equivocal?",
+    "passage": "Maya asks her friend, \"Will you come to my recital on Saturday?\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"Sorry, I have a game that day.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Saturday... we'll see how things go.\""
+     },
+     {
+      "id": "c",
+      "text": "\"I can't wait to hear you play.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Yes! I'll be in the front row.\""
+     }
+    ],
+    "answer": "b",
+    "hint": "Which answer avoids saying yes or no?",
+    "explanation": "\"We'll see how things go\" commits to nothing and can be read either way, so it is equivocal. The other replies give a clear yes or no."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "ubiquitous.adj.1",
+  "word": "ubiquitous",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "yoo-BIK-wuh-tus",
+  "definition": "seeming to be everywhere at the same time; extremely common",
+  "hero": {
+   "text": "After Nova saved the city, her lightning logo became ubiquitous, appearing on posters, backpacks, and every bus stop.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "⚡",
+     "🪧"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Smartphones have become so ubiquitous that it is hard to find a public place where no one is using one.",
+  "contrast": {
+   "nonExample": "Only one shop in town sells the rare blue cheese, and it is often sold out.",
+   "explanation": "Something rare and hard to find is the opposite of ubiquitous. Ubiquitous things turn up everywhere.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🧀",
+     "🏪"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "omnipresent",
+    "pervasive",
+    "widespread"
+   ],
+   "antonyms": [
+    "rare",
+    "scarce",
+    "uncommon"
+   ],
+   "family": [
+    "ubiquity",
+    "ubiquitously"
+   ]
+  },
+  "forms": [
+   "ubiquitous"
+  ],
+  "tags": [
+   "science",
+   "social",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "ubiquitous.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"ubiquitous\" mean in this sentence?",
+    "passage": "Plastic is now so ubiquitous that scientists have found tiny pieces of it in Arctic ice and on the deep ocean floor.",
+    "options": [
+     {
+      "id": "a",
+      "text": "dangerous to touch"
+     },
+     {
+      "id": "b",
+      "text": "found almost everywhere"
+     },
+     {
+      "id": "c",
+      "text": "recently invented"
+     },
+     {
+      "id": "d",
+      "text": "expensive to produce"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Plastic may be harmful, but the sentence is about where it is found.",
+     "c": "Plastic is not new; the point is how widespread it is.",
+     "d": "Cost is never mentioned."
+    },
+    "hint": "Arctic ice and the deep ocean are very far apart. What does that tell you?",
+    "explanation": "Ubiquitous means found nearly everywhere. Plastic turning up even in remote places shows how widespread it is."
+   },
+   {
+    "id": "ubiquitous.adj.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is the item described ubiquitous?",
+    "passage": "In the 1800s, a handful of wealthy families in one city owned telephones, and most people had never seen one.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Was the telephone everywhere, or rare?",
+    "explanation": "No. Owned by only a few families and unseen by most people, the early telephone was rare, not ubiquitous."
+   },
+   {
+    "id": "ubiquitous.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In the 1950s, television antennas became ___ in American suburbs; from any rooftop, you could see dozens of them stretching down the street.",
+    "options": [
+     {
+      "id": "a",
+      "text": "controversial"
+     },
+     {
+      "id": "b",
+      "text": "fragile"
+     },
+     {
+      "id": "c",
+      "text": "obsolete"
+     },
+     {
+      "id": "d",
+      "text": "ubiquitous"
+     }
+    ],
+    "answer": "d",
+    "hint": "Dozens on every street suggests they were very common.",
+    "explanation": "\"Dozens of them stretching down the street\" shows antennas were everywhere, so they were ubiquitous. Obsolete would mean out of use, the opposite.",
+    "clue": "dozens of them stretching down the street"
+   },
+   {
+    "id": "ubiquitous.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best fits the description?",
+    "passage": "Coffee shops in this city are on nearly every corner, in train stations, inside bookstores, and even in the hospital lobby.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ubiquitous"
+     },
+     {
+      "id": "b",
+      "text": "abundant"
+     },
+     {
+      "id": "c",
+      "text": "fashionable"
+     },
+     {
+      "id": "d",
+      "text": "popular"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "d": "Popular says people like them, not that they are everywhere.",
+     "b": "Abundant means plentiful, close but weaker; ubiquitous highlights appearing in every setting.",
+     "c": "Fashionable is about trends, not location."
+    },
+    "hint": "The focus is on how they appear in every kind of place.",
+    "explanation": "Ubiquitous stresses being everywhere at once, which matches shops on corners, stations, bookstores, and hospitals. Popular means well liked, and fashionable means trendy; neither says where they are found."
+   },
+   {
+    "id": "ubiquitous.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word fits the description of the dandelions?",
+    "passage": "By late May the dandelions had spread across the soccer fields, sprouted through cracks in the parking lot, and even appeared in the planters on the school roof.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ubiquitous"
+     },
+     {
+      "id": "b",
+      "text": "delicate"
+     },
+     {
+      "id": "c",
+      "text": "endangered"
+     },
+     {
+      "id": "d",
+      "text": "fragrant"
+     }
+    ],
+    "answer": "a",
+    "hint": "Count the places the dandelions appeared.",
+    "explanation": "Showing up on fields, in pavement cracks, and on the roof means the dandelions were everywhere: ubiquitous. Endangered would mean nearly gone, the opposite.",
+    "clue": "soccer fields; cracks in the parking lot; planters on the school roof"
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "acquiesce.verb.1",
+  "word": "acquiesce",
+  "grade": 9,
+  "pos": "verb",
+  "say": "ak-wee-ES",
+  "definition": "to accept or agree to something quietly, often without really wanting to",
+  "hero": {
+   "text": "Kai wanted to keep searching all night, but he acquiesced when the team voted to rest until dawn.",
+   "scene": {
+    "pose": "tired",
+    "props": [
+     "🌙",
+     "🛌"
+    ],
+    "setting": "night"
+   }
+  },
+  "everyday": "After a long debate, the band finally acquiesced to the drummer's request to play the song more slowly.",
+  "contrast": {
+   "nonExample": "Rosa argued loudly against the new rule and organized a petition to overturn it.",
+   "explanation": "Rosa actively resists. Acquiescing means going along with something without resistance.",
+   "scene": {
+    "pose": "angry",
+    "props": [
+     "📜",
+     "✊"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "comply",
+    "consent",
+    "give in",
+    "yield"
+   ],
+   "antonyms": [
+    "resist",
+    "refuse",
+    "protest",
+    "object"
+   ],
+   "family": [
+    "acquiescence",
+    "acquiescent"
+   ]
+  },
+  "forms": [
+   "acquiesce",
+   "acquiesces",
+   "acquiesced",
+   "acquiescing"
+  ],
+  "tags": [
+   "reading",
+   "history",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "acquiesce.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person acquiesces?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Hana sighs but agrees to her brother's choice of movie."
+     },
+     {
+      "id": "b",
+      "text": "Omar storms out when the plan changes."
+     },
+     {
+      "id": "c",
+      "text": "Bea suggests three new ideas for the trip."
+     },
+     {
+      "id": "d",
+      "text": "Dev insists on choosing the restaurant himself."
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for someone who goes along with something without fighting it.",
+    "explanation": "Hana is not thrilled (she sighs) but quietly agrees. That is acquiescing. Dev and Omar resist, and Bea is proposing, not accepting."
+   },
+   {
+    "id": "acquiesce.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The king had hoped to keep his full powers, but facing a united army of nobles in 1215, he was forced to ___ to their demands and seal the Magna Carta.",
+    "options": [
+     {
+      "id": "a",
+      "text": "acquiesce"
+     },
+     {
+      "id": "b",
+      "text": "object"
+     },
+     {
+      "id": "c",
+      "text": "retaliate"
+     },
+     {
+      "id": "d",
+      "text": "appeal"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "Objecting is resisting, the opposite of what happened.",
+     "c": "Retaliating means striking back.",
+     "d": "Appealing means asking for a different decision."
+    },
+    "hint": "He did not want to, but he had to go along.",
+    "explanation": "\"Had hoped to keep\" and \"forced to\" show he gave in reluctantly. Acquiesce means to accept without further resistance.",
+    "clue": "had hoped to keep; forced to"
+   },
+   {
+    "id": "acquiesce.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes how the city council responded?",
+    "passage": "The council had opposed the skate park for years. When hundreds of residents signed a petition, the council quietly approved the funding without further debate.",
+    "options": [
+     {
+      "id": "a",
+      "text": "collaborated"
+     },
+     {
+      "id": "b",
+      "text": "celebrated"
+     },
+     {
+      "id": "c",
+      "text": "acquiesced"
+     },
+     {
+      "id": "d",
+      "text": "retreated"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Nothing shows the council was happy about it.",
+     "d": "Retreated suggests backing away physically or in battle, a rougher fit.",
+     "a": "Collaborating means working together as partners; they simply gave in."
+    },
+    "hint": "They stopped opposing and went along, without enthusiasm.",
+    "explanation": "Acquiesced fits: the council accepted the demand quietly, after resisting. Celebrated suggests joy, and collaborated suggests actively working together, neither of which is described."
+   },
+   {
+    "id": "acquiesce.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what acquiesce means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Although she preferred blue,"
+     },
+     {
+      "id": "c2",
+      "text": "Lucia acquiesced"
+     },
+     {
+      "id": "c3",
+      "text": "and painted the room the green her sister wanted."
+     },
+     {
+      "id": "c4",
+      "text": "and refused to touch a brush until blue was chosen."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "To acquiesce is to go along despite your own preference.",
+    "explanation": "Lucia gives up her preference and goes along with her sister: acquiescing. Refusing to paint is resistance, the opposite."
+   },
+   {
+    "id": "acquiesce.verb.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word is closest in meaning to \"acquiesced\" in this sentence?",
+    "passage": "Tired of arguing, the students acquiesced to the teacher's choice of book for the final project.",
+    "options": [
+     {
+      "id": "a",
+      "text": "rejoiced"
+     },
+     {
+      "id": "b",
+      "text": "challenged"
+     },
+     {
+      "id": "c",
+      "text": "volunteered"
+     },
+     {
+      "id": "d",
+      "text": "complied"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "a": "Rejoiced means celebrated; they were tired of arguing, not joyful.",
+     "b": "Challenged is what they stopped doing.",
+     "c": "Volunteering is eager; acquiescing is reluctant."
+    },
+    "hint": "They went along with it after arguing.",
+    "explanation": "Complied means went along with a request or rule, which matches acquiesced. Volunteered suggests eagerness, but acquiescing is reluctant."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "admonish.verb.1",
+  "word": "admonish",
+  "grade": 9,
+  "pos": "verb",
+  "say": "ad-MON-ish",
+  "definition": "to warn or scold someone firmly but without great anger",
+  "hero": {
+   "text": "Juniper gently admonished the new recruits for leaving the lab door unlocked overnight.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🚪",
+     "🔓"
+    ],
+    "second": "sad",
+    "setting": "lab"
+   }
+  },
+  "everyday": "The librarian admonished the students to keep their voices down during exam week.",
+  "contrast": {
+   "nonExample": "The coach praised the team for their hard work during practice.",
+   "explanation": "Praise is the opposite of admonishing. To admonish is to warn or correct someone about a fault.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🏅",
+     "👏"
+    ],
+    "second": "happy",
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "reprimand",
+    "caution",
+    "scold",
+    "rebuke"
+   ],
+   "antonyms": [
+    "praise",
+    "commend",
+    "compliment"
+   ],
+   "family": [
+    "admonition",
+    "admonishment",
+    "admonished"
+   ]
+  },
+  "forms": [
+   "admonish",
+   "admonishes",
+   "admonished",
+   "admonishing"
+  ],
+  "tags": [
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "admonish.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is this an example of admonishing?",
+    "passage": "Mr. Chen took Zara aside and firmly reminded her that copying a classmate's homework was not acceptable and could not happen again.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is he warning or correcting her about a fault?",
+    "explanation": "Yes. A firm warning about wrong behavior is an admonishment. He corrects her seriously but without shouting."
+   },
+   {
+    "id": "admonish.verb.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what the doctor did?",
+    "passage": "The doctor looked over Jamal's x-ray and said seriously, \"If you keep skateboarding without a helmet, next time it could be much worse.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "consoled"
+     },
+     {
+      "id": "b",
+      "text": "interrogated"
+     },
+     {
+      "id": "c",
+      "text": "admonished"
+     },
+     {
+      "id": "d",
+      "text": "insulted"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "d": "She is not trying to hurt his feelings.",
+     "a": "Consoling would be comforting, not warning.",
+     "b": "Interrogating means questioning closely."
+    },
+    "hint": "She is giving a serious warning about his behavior.",
+    "explanation": "The doctor warns Jamal about a risky habit: she admonishes him. Insulting means being rude to hurt someone, and consoling means comforting."
+   },
+   {
+    "id": "admonish.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In the fable, the old tortoise ___ the young hare, warning him that speed without patience would someday cost him the race.",
+    "options": [
+     {
+      "id": "a",
+      "text": "admonished"
+     },
+     {
+      "id": "b",
+      "text": "imitated"
+     },
+     {
+      "id": "c",
+      "text": "ignored"
+     },
+     {
+      "id": "d",
+      "text": "flattered"
+     }
+    ],
+    "answer": "a",
+    "hint": "The clue is \"warning him\" about a fault.",
+    "explanation": "\"Warning him\" about his impatience is the key clue. To admonish is to warn or reprove. Flattering is praising too much, the opposite tone.",
+    "clue": "warning him"
+   },
+   {
+    "id": "admonish.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"admonished\" in this sentence?",
+    "passage": "The principal admonished the class for the mess left in the cafeteria.",
+    "options": [
+     {
+      "id": "a",
+      "text": "reprimanded"
+     },
+     {
+      "id": "b",
+      "text": "commended"
+     },
+     {
+      "id": "c",
+      "text": "reminded"
+     },
+     {
+      "id": "d",
+      "text": "questioned"
+     }
+    ],
+    "answer": "b",
+    "hint": "Look for a word that means praised.",
+    "explanation": "Admonished means warned or scolded. Commended means praised, the opposite. Reprimanded is a near-synonym, though usually harsher."
+   },
+   {
+    "id": "admonish.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line is the speaker most clearly admonishing someone?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I wonder what we're having for dinner.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Wow, your science project looks amazing!\""
+     },
+     {
+      "id": "c",
+      "text": "\"Can you pass me the scissors, please?\""
+     },
+     {
+      "id": "d",
+      "text": "\"Remember, if you leave the oven on again, someone could get hurt.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Find the line that gives a firm warning about a fault.",
+    "explanation": "Warning someone not to repeat a careless mistake is admonishing. The other lines praise, request, or wonder."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "allude.verb.1",
+  "word": "allude",
+  "grade": 9,
+  "pos": "verb",
+  "say": "uh-LOOD",
+  "definition": "to refer to something indirectly, without naming it outright",
+  "hero": {
+   "text": "Bolt never mentioned the failed rescue by name, but he alluded to it when he said, \"We all remember what happened at the bridge.\"",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🌉",
+     "💭"
+    ],
+    "second": "listening",
+    "setting": "school"
+   }
+  },
+  "everyday": "The poem alludes to the story of Icarus when it describes a boy who flew too close to the sun.",
+  "contrast": {
+   "nonExample": "In his speech, the principal said, \"Last year's flood damaged the gym floor.\"",
+   "explanation": "The principal names the event directly. To allude is to hint at something without stating it plainly.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🌊",
+     "🏀"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "refer",
+    "hint",
+    "suggest",
+    "imply"
+   ],
+   "antonyms": [
+    "state",
+    "specify",
+    "declare"
+   ],
+   "family": [
+    "allusion",
+    "allusive",
+    "alluded"
+   ]
+  },
+  "forms": [
+   "allude",
+   "alludes",
+   "alluded",
+   "alluding"
+  ],
+  "tags": [
+   "reading",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "allude.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"alluded\" mean in this sentence?",
+    "passage": "Without saying her name, the speaker alluded to the famous scientist by mentioning \"the woman who won two Nobel Prizes.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "refused to discuss"
+     },
+     {
+      "id": "b",
+      "text": "strongly criticized"
+     },
+     {
+      "id": "c",
+      "text": "referred to indirectly"
+     },
+     {
+      "id": "d",
+      "text": "described in full detail"
+     }
+    ],
+    "answer": "c",
+    "hint": "\"Without saying her name\" is the key clue.",
+    "explanation": "Alluding means referring to something without naming it outright. The speaker hints at the scientist through a detail instead of her name."
+   },
+   {
+    "id": "allude.verb.1#2",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "Which statement about the passage is true?",
+    "passage": "In his novel, the author describes a character who must choose between \"two roads that diverged in a wood,\" a clear nod to a well-known poem by Robert Frost.",
+    "options": [
+     {
+      "id": "a",
+      "text": "The author criticizes Frost directly."
+     },
+     {
+      "id": "b",
+      "text": "The author denies knowing the poem."
+     },
+     {
+      "id": "c",
+      "text": "The author quotes the entire poem."
+     },
+     {
+      "id": "d",
+      "text": "The author alludes to Frost's poem."
+     }
+    ],
+    "answer": "d",
+    "hint": "A \"nod\" is an indirect reference.",
+    "explanation": "Borrowing a famous phrase as \"a nod\" to a poem is an allusion. The author alludes to Frost's work without retelling it.",
+    "clue": "a clear nod to"
+   },
+   {
+    "id": "allude.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Although the senator never named her opponent, everyone understood whom she meant when she ___ to \"a certain candidate who missed half the votes last year.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "objected"
+     },
+     {
+      "id": "b",
+      "text": "apologized"
+     },
+     {
+      "id": "c",
+      "text": "surrendered"
+     },
+     {
+      "id": "d",
+      "text": "alluded"
+     }
+    ],
+    "answer": "d",
+    "hint": "She refers to him, but only indirectly.",
+    "explanation": "\"Never named\" but \"everyone understood whom she meant\" is the definition of alluding: an indirect reference.",
+    "clue": "never named her opponent; whom she meant"
+   },
+   {
+    "id": "allude.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what allude means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The film's title"
+     },
+     {
+      "id": "c2",
+      "text": "alludes to a Greek myth"
+     },
+     {
+      "id": "c3",
+      "text": "without ever naming the hero it is based on."
+     },
+     {
+      "id": "c4",
+      "text": "by printing the myth's full text in the opening credits."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Alluding is indirect. Which ending keeps the reference indirect?",
+    "explanation": "Referring to a myth \"without ever naming the hero\" is an allusion. Printing the full text is a direct reference, not an allusion."
+   },
+   {
+    "id": "allude.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this an example of alluding?",
+    "passage": "At lunch, Priya said to her friend, \"So, are you going to tell me what happened with the science fair, or should I ask Ms. Patel?\"",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does Priya refer to the event indirectly or name it outright?",
+    "explanation": "No. Priya names the science fair directly. Alluding would mean hinting, for example \"Are you going to tell me about last Friday?\""
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "analogous.adj.1",
+  "word": "analogous",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "uh-NAL-uh-gus",
+  "definition": "similar in a way that allows a useful comparison",
+  "hero": {
+   "text": "Pixel explained that the city's power grid is analogous to a body's blood vessels: both carry energy to every part of the system.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🔌",
+     "🫀"
+    ],
+    "second": "listening",
+    "setting": "lab"
+   }
+  },
+  "everyday": "A bird's wing and a bat's wing are analogous structures: they do the same job but developed separately.",
+  "contrast": {
+   "nonExample": "The red apple and the green apple are both apples.",
+   "explanation": "Two things of the same kind are simply alike. Analogous describes different things that share a meaningful similarity useful for comparison.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "🍎",
+     "🍏"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "comparable",
+    "parallel",
+    "similar",
+    "corresponding"
+   ],
+   "antonyms": [
+    "dissimilar",
+    "unlike",
+    "different"
+   ],
+   "family": [
+    "analogy",
+    "analog",
+    "analogously"
+   ]
+  },
+  "forms": [
+   "analogous"
+  ],
+  "tags": [
+   "science",
+   "reading",
+   "math"
+  ],
+  "items": [
+   {
+    "id": "analogous.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"analogous\" mean in this sentence?",
+    "passage": "The teacher said a cell membrane is analogous to a security gate, since both control what enters and leaves.",
+    "options": [
+     {
+      "id": "a",
+      "text": "comparable in an important way"
+     },
+     {
+      "id": "b",
+      "text": "more important than"
+     },
+     {
+      "id": "c",
+      "text": "connected by a wire"
+     },
+     {
+      "id": "d",
+      "text": "made of the same material"
+     }
+    ],
+    "answer": "a",
+    "hint": "A cell and a gate are very different, yet they share something.",
+    "explanation": "Analogous means similar in a way that supports a comparison. Membranes and gates both control what passes through."
+   },
+   {
+    "id": "analogous.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Historians sometimes argue that the spread of the printing press is ___ to the rise of the internet: each made information cheaper and harder to control.",
+    "options": [
+     {
+      "id": "a",
+      "text": "identical"
+     },
+     {
+      "id": "b",
+      "text": "superior"
+     },
+     {
+      "id": "c",
+      "text": "analogous"
+     },
+     {
+      "id": "d",
+      "text": "unrelated"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "a": "Identical overstates it; a press and the internet are clearly not the same thing.",
+     "b": "Superior means better, which the passage does not argue.",
+     "d": "Unrelated contradicts the shared effect described."
+    },
+    "hint": "The two are different technologies with a shared effect.",
+    "explanation": "The shared effect (\"each made information cheaper\") makes the comparison useful, so analogous fits. Identical would mean exactly the same, which is too strong.",
+    "clue": "each made information cheaper and harder to control"
+   },
+   {
+    "id": "analogous.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "A referee in a soccer game plays a role ___ to a judge in a courtroom: both enforce rules impartially.",
+    "options": [
+     {
+      "id": "a",
+      "text": "inferior"
+     },
+     {
+      "id": "b",
+      "text": "identical"
+     },
+     {
+      "id": "c",
+      "text": "analogous"
+     },
+     {
+      "id": "d",
+      "text": "opposite"
+     }
+    ],
+    "answer": "c",
+    "hint": "They are not the same job, but they share a key feature.",
+    "explanation": "Analogous fits because refereeing and judging differ in many ways but share one important feature. Identical is too strong, and opposite contradicts \"both enforce rules.\""
+   },
+   {
+    "id": "analogous.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"analogous\" in this sentence?",
+    "passage": "The way a thermostat keeps a room warm is analogous to the way sweating keeps your body cool.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unrelated"
+     },
+     {
+      "id": "b",
+      "text": "accidental"
+     },
+     {
+      "id": "c",
+      "text": "parallel"
+     },
+     {
+      "id": "d",
+      "text": "opposite"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which word suggests two things working in a similar way?",
+    "explanation": "Parallel means similar in a corresponding way, like analogous. Both systems respond to temperature to keep things stable."
+   },
+   {
+    "id": "analogous.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best describes the relationship the writer draws?",
+    "passage": "In her essay, Kim argued that training for a marathon is like writing a novel: both require small daily efforts, stubborn patience, and a willingness to push through boring middle stretches.",
+    "options": [
+     {
+      "id": "a",
+      "text": "analogous"
+     },
+     {
+      "id": "b",
+      "text": "accidental"
+     },
+     {
+      "id": "c",
+      "text": "competitive"
+     },
+     {
+      "id": "d",
+      "text": "contradictory"
+     }
+    ],
+    "answer": "a",
+    "hint": "\"Is like\" and \"both require\" signal a comparison.",
+    "explanation": "Kim compares two different activities by their shared demands, so she presents them as analogous. Contradictory would mean they conflict.",
+    "clue": "is like; both require"
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "antithesis.noun.1",
+  "word": "antithesis",
+  "grade": 9,
+  "pos": "noun",
+  "say": "an-TITH-uh-sis",
+  "definition": "the direct opposite of something, or a contrast of opposite ideas placed side by side",
+  "hero": {
+   "text": "Rex's calm, careful planning is the antithesis of Bolt's rush-in-first style.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "📋",
+     "⚡"
+    ],
+    "second": "running",
+    "setting": "school"
+   }
+  },
+  "everyday": "Charles Dickens begins A Tale of Two Cities with an antithesis: \"It was the best of times, it was the worst of times.\"",
+  "contrast": {
+   "nonExample": "Ella's sneakers and her sister's sneakers are slightly different shades of white.",
+   "explanation": "A slight difference is not an antithesis. An antithesis is a complete or striking opposite.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "👟",
+     "👟"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "opposite",
+    "contrast",
+    "reverse",
+    "converse"
+   ],
+   "antonyms": [
+    "equivalent",
+    "likeness",
+    "match"
+   ],
+   "family": [
+    "antithetical",
+    "antitheses"
+   ]
+  },
+  "forms": [
+   "antithesis",
+   "antitheses"
+  ],
+  "parts": [
+   {
+    "part": "anti-",
+    "meaning": "against, opposite"
+   },
+   {
+    "part": "thesis",
+    "meaning": "a position or idea"
+   }
+  ],
+  "tags": [
+   "reading",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "antithesis.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"antithesis\" mean in this sentence?",
+    "passage": "The noisy, crowded city was the antithesis of the quiet farm where she grew up.",
+    "options": [
+     {
+      "id": "a",
+      "text": "the exact opposite"
+     },
+     {
+      "id": "b",
+      "text": "a smaller copy"
+     },
+     {
+      "id": "c",
+      "text": "the original source"
+     },
+     {
+      "id": "d",
+      "text": "an improved version"
+     }
+    ],
+    "answer": "a",
+    "hint": "Compare \"noisy, crowded\" with \"quiet.\"",
+    "explanation": "An antithesis is the direct opposite. Noisy and crowded are the opposite of quiet and peaceful."
+   },
+   {
+    "id": "antithesis.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The dictator claimed to defend freedom, yet his secret police and censored newspapers were the very ___ of freedom.",
+    "options": [
+     {
+      "id": "a",
+      "text": "symbol"
+     },
+     {
+      "id": "b",
+      "text": "antithesis"
+     },
+     {
+      "id": "c",
+      "text": "foundation"
+     },
+     {
+      "id": "d",
+      "text": "definition"
+     }
+    ],
+    "answer": "b",
+    "hint": "\"Yet\" signals a contrast. Are secret police and censorship part of freedom, or its opposite?",
+    "explanation": "Secret police and censorship directly oppose freedom, so they are its antithesis. Symbol or foundation would suggest they support freedom.",
+    "clue": "claimed to defend freedom, yet"
+   },
+   {
+    "id": "antithesis.noun.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Antithesis\" combines \"anti-\" (against) and \"thesis\" (a position or idea). What does that suggest?",
+    "options": [
+     {
+      "id": "a",
+      "text": "an idea that has been proven true"
+     },
+     {
+      "id": "b",
+      "text": "an idea that supports another idea"
+     },
+     {
+      "id": "c",
+      "text": "an idea set directly against another"
+     },
+     {
+      "id": "d",
+      "text": "an idea that comes before another"
+     }
+    ],
+    "answer": "c",
+    "hint": "Think about what \"anti-\" means in words like \"antibiotic\" or \"antisocial.\"",
+    "explanation": "Anti- means against. An antithesis is a position set against another one: its opposite."
+   },
+   {
+    "id": "antithesis.noun.1#4",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "Which sentence uses antithesis as a rhetorical device?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"The sky was a deep, glowing orange.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Please remember to bring your library book tomorrow.\""
+     },
+     {
+      "id": "c",
+      "text": "\"We walked to the park and played on the swings.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Ask not what your country can do for you; ask what you can do for your country.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Look for opposite ideas set side by side in a balanced sentence.",
+    "explanation": "The famous line places two opposite ideas in balanced form, \"what your country can do for you\" against \"what you can do for your country.\" That is antithesis."
+   },
+   {
+    "id": "antithesis.noun.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is the second item the antithesis of the first?",
+    "passage": "First: a chef who carefully measures every ingredient. Second: a chef who measures most ingredients but sometimes estimates the salt.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Are these two chefs complete opposites?",
+    "explanation": "No. The second chef is only slightly different. The antithesis of a careful measurer would be someone who never measures at all."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "benign.adj.1",
+  "word": "benign",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "bih-NINE",
+  "definition": "gentle and harmless; in medicine, not dangerous or cancerous",
+  "hero": {
+   "text": "The glowing creature looked frightening, but Kai realized it was benign: it only wanted the scraps of fruit in his bag.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🦎",
+     "🍎"
+    ],
+    "setting": "nature"
+   }
+  },
+  "everyday": "The doctor reassured Grandpa that the lump on his arm was benign and would not spread.",
+  "contrast": {
+   "nonExample": "The storm grew stronger and knocked out power across three towns.",
+   "explanation": "A destructive storm causes harm. Benign describes something harmless or kindly.",
+   "scene": {
+    "pose": "scared",
+    "props": [
+     "🌩️",
+     "🏚️"
+    ],
+    "setting": "night"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "harmless",
+    "gentle",
+    "mild",
+    "kindly"
+   ],
+   "antonyms": [
+    "harmful",
+    "malignant",
+    "dangerous",
+    "hostile"
+   ],
+   "family": [
+    "benignly",
+    "benignity"
+   ]
+  },
+  "forms": [
+   "benign"
+  ],
+  "parts": [
+   {
+    "part": "bene-",
+    "meaning": "good, well"
+   }
+  ],
+  "tags": [
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "benign.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"benign\" mean in this sentence?",
+    "passage": "Most bacteria living in the human gut are benign, and many even help us digest food.",
+    "options": [
+     {
+      "id": "a",
+      "text": "invisible"
+     },
+     {
+      "id": "b",
+      "text": "rare"
+     },
+     {
+      "id": "c",
+      "text": "powerful"
+     },
+     {
+      "id": "d",
+      "text": "harmless"
+     }
+    ],
+    "answer": "d",
+    "hint": "Many of them \"even help us.\" What does that suggest?",
+    "explanation": "Benign means harmless. Gut bacteria that do no damage, and even help, are benign."
+   },
+   {
+    "id": "benign.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Although the software update looked suspicious, the security team confirmed it was ___ and contained no hidden programs that could damage the network.",
+    "options": [
+     {
+      "id": "a",
+      "text": "malicious"
+     },
+     {
+      "id": "b",
+      "text": "benign"
+     },
+     {
+      "id": "c",
+      "text": "outdated"
+     },
+     {
+      "id": "d",
+      "text": "encrypted"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Malicious is the opposite: designed to cause harm.",
+     "c": "Outdated means old; age is not the issue.",
+     "d": "Encrypted means coded for privacy, which says nothing about harm."
+    },
+    "hint": "\"No hidden programs that could damage\" tells you it is safe.",
+    "explanation": "Software that contains nothing harmful is benign. Malicious means intended to harm, the opposite.",
+    "clue": "contained no hidden programs that could damage"
+   },
+   {
+    "id": "benign.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"benign\" in this sentence?",
+    "passage": "The biopsy showed that the growth was benign.",
+    "options": [
+     {
+      "id": "a",
+      "text": "stable"
+     },
+     {
+      "id": "b",
+      "text": "mild"
+     },
+     {
+      "id": "c",
+      "text": "malignant"
+     },
+     {
+      "id": "d",
+      "text": "minor"
+     }
+    ],
+    "answer": "c",
+    "hint": "In medicine, what is the dangerous opposite of a benign growth?",
+    "explanation": "In medicine, benign means not cancerous, and malignant means cancerous and dangerous. Mild and minor are closer to benign."
+   },
+   {
+    "id": "benign.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the grandmother's expression?",
+    "passage": "The grandmother watched the toddlers knock over her flowerpots with a benign smile, as if nothing could possibly upset her.",
+    "options": [
+     {
+      "id": "a",
+      "text": "anxious"
+     },
+     {
+      "id": "b",
+      "text": "stern"
+     },
+     {
+      "id": "c",
+      "text": "sarcastic"
+     },
+     {
+      "id": "d",
+      "text": "benign"
+     }
+    ],
+    "answer": "d",
+    "hint": "She is gentle and untroubled.",
+    "explanation": "A benign smile is kindly and gentle, with no hostility. Stern or sarcastic would suggest disapproval, which the passage rules out."
+   },
+   {
+    "id": "benign.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is the situation described benign?",
+    "passage": "A new invasive beetle has spread through the forest, killing thousands of ash trees in just five years.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is the beetle harmless?",
+    "explanation": "No. A beetle killing thousands of trees is harmful, the opposite of benign."
+   }
+  ],
+  "review": "pending"
+ }
+]

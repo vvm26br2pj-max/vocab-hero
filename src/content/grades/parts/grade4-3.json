@@ -1,0 +1,1957 @@
+[
+  {
+    "id": "locate.verb.1",
+    "word": "locate",
+    "grade": 4,
+    "pos": "verb",
+    "say": "LOH-kayt",
+    "definition": "to find exactly where something is",
+    "hero": {
+      "text": "Bolt used the signal on his wristband to locate Juniper, who was stuck in a stalled elevator.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "📡",
+          "🛗"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Using a globe, Sara was able to locate Egypt in the northeast corner of Africa.",
+    "contrast": {
+      "nonExample": "Jake wandered around the mall for an hour without ever finding the shoe store.",
+      "explanation": "Jake was still searching. To locate something means to actually find exactly where it is.",
+      "scene": {
+        "pose": "confused",
+        "props": [
+          "🛍️",
+          "❓"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "find",
+        "pinpoint",
+        "track down"
+      ],
+      "antonyms": [
+        "lose",
+        "misplace"
+      ],
+      "family": [
+        "location",
+        "located"
+      ]
+    },
+    "forms": [
+      "locate",
+      "locates",
+      "located",
+      "locating"
+    ],
+    "tags": [
+      "social",
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "locate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does locate mean in this question?",
+        "passage": "Can you locate the library on this map of our town?",
+        "options": [
+          {
+            "id": "a",
+            "text": "find where it is"
+          },
+          {
+            "id": "b",
+            "text": "draw a new picture of it"
+          },
+          {
+            "id": "c",
+            "text": "count the books inside it"
+          },
+          {
+            "id": "d",
+            "text": "move it somewhere else"
+          }
+        ],
+        "answer": "a",
+        "hint": "You are looking at a map. What do people use maps for?",
+        "explanation": "Locate means to find exactly where something is. On a map, you would point to the spot where the library is."
+      },
+      {
+        "id": "locate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The lifeguard used binoculars to ___ the swimmer who had drifted far from shore.",
+        "options": [
+          {
+            "id": "a",
+            "text": "scold"
+          },
+          {
+            "id": "b",
+            "text": "imagine"
+          },
+          {
+            "id": "c",
+            "text": "locate"
+          },
+          {
+            "id": "d",
+            "text": "forget"
+          }
+        ],
+        "answer": "c",
+        "clue": "used binoculars; drifted far from shore",
+        "hint": "Binoculars help you see things far away. What was the lifeguard trying to do?",
+        "explanation": "The swimmer had \"drifted far from shore,\" so the lifeguard \"used binoculars\" to find exactly where he was. That is locating."
+      },
+      {
+        "id": "locate.verb.1#3",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses locate correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I located my keys, but I still don't know where they are.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Help me locate my keys; they're somewhere in the house.\""
+          },
+          {
+            "id": "c",
+            "text": "\"I'll locate my keys by hiding them under the couch.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "When you locate something, you find where it is.",
+        "explanation": "Asking for help to find keys somewhere in the house uses locate correctly. If you located the keys, you would know where they are, and hiding something is the opposite of finding it.",
+        "wrong": {
+          "a": "Locating means you now know where they are, so this contradicts itself.",
+          "c": "Hiding is not finding."
+        }
+      },
+      {
+        "id": "locate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what locate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "With help from a metal detector,"
+          },
+          {
+            "id": "c2",
+            "text": "Grandpa located"
+          },
+          {
+            "id": "c3",
+            "text": "the ring he had dropped in the sand."
+          },
+          {
+            "id": "c4",
+            "text": "the ring, which stayed lost forever."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "If you locate something, it is no longer lost.",
+        "explanation": "Grandpa used the detector to find exactly where the ring was, so he located it. A ring that stays lost forever was never located."
+      },
+      {
+        "id": "locate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what the sea turtles can do?",
+        "passage": "Sea turtles swim thousands of miles across the ocean and can still find the exact beach where they hatched.",
+        "options": [
+          {
+            "id": "a",
+            "text": "avoid"
+          },
+          {
+            "id": "b",
+            "text": "build"
+          },
+          {
+            "id": "c",
+            "text": "forget"
+          },
+          {
+            "id": "d",
+            "text": "locate"
+          }
+        ],
+        "answer": "d",
+        "clue": "find the exact beach",
+        "hint": "Which word means the same as finding the exact place?",
+        "explanation": "\"Find the exact beach\" means the turtles know exactly where to go. Finding exactly where something is means locating it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "massive.adj.1",
+    "word": "massive",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "MAS-iv",
+    "definition": "very large, heavy, and solid",
+    "hero": {
+      "text": "Rex lifted the massive boulder off the road so the school bus could get through.",
+      "scene": {
+        "pose": "lifting",
+        "props": [
+          "🪨",
+          "🚌"
+        ],
+        "setting": "street"
+      }
+    },
+    "everyday": "The blue whale is a massive animal, longer than two school buses parked end to end.",
+    "contrast": {
+      "nonExample": "Kim held up a pebble so small that it balanced on her fingertip.",
+      "explanation": "A tiny pebble is the opposite of massive. Massive means very big and heavy.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🤏"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "huge",
+        "enormous",
+        "gigantic"
+      ],
+      "antonyms": [
+        "tiny",
+        "small"
+      ],
+      "family": [
+        "mass",
+        "massively"
+      ]
+    },
+    "forms": [
+      "massive"
+    ],
+    "tags": [
+      "science",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "massive.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the oak tree massive?",
+        "passage": "The old oak tree was so wide that five kids holding hands could not reach around it.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is the tree very big?",
+        "explanation": "Yes. A trunk too wide for five kids to reach around is very large and solid. That is massive."
+      },
+      {
+        "id": "massive.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "It took a giant crane to lift the ___ steel beam to the top of the new building.",
+        "options": [
+          {
+            "id": "a",
+            "text": "delicate"
+          },
+          {
+            "id": "b",
+            "text": "tiny"
+          },
+          {
+            "id": "c",
+            "text": "massive"
+          },
+          {
+            "id": "d",
+            "text": "fuzzy"
+          }
+        ],
+        "answer": "c",
+        "clue": "took a giant crane",
+        "hint": "Why would you need a giant crane to lift something?",
+        "explanation": "Needing \"a giant crane\" tells you the beam was very big and heavy. That is massive. A tiny beam could be lifted by hand."
+      },
+      {
+        "id": "massive.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"massive\" in this sentence?",
+        "passage": "A massive wave crashed onto the beach and soaked everyone on their towels.",
+        "options": [
+          {
+            "id": "a",
+            "text": "gentle"
+          },
+          {
+            "id": "b",
+            "text": "cold"
+          },
+          {
+            "id": "c",
+            "text": "huge"
+          },
+          {
+            "id": "d",
+            "text": "quick"
+          }
+        ],
+        "answer": "c",
+        "hint": "Massive is about size.",
+        "explanation": "Huge means very big, just like massive. The wave might also have been cold or quick, but those words do not describe size."
+      },
+      {
+        "id": "massive.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what massive means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The elephant was so massive"
+          },
+          {
+            "id": "c2",
+            "text": "that its footprints"
+          },
+          {
+            "id": "c3",
+            "text": "were as wide as a trash can lid."
+          },
+          {
+            "id": "c4",
+            "text": "were smaller than a coin."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A massive animal leaves big footprints.",
+        "explanation": "Footprints as wide as a trash can lid show the elephant is very big and heavy. Footprints smaller than a coin would not match a massive animal."
+      },
+      {
+        "id": "massive.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the Great Pyramid?",
+        "passage": "The Great Pyramid of Giza is built from more than two million stone blocks, and many weigh more than a car.",
+        "options": [
+          {
+            "id": "a",
+            "text": "fragile"
+          },
+          {
+            "id": "b",
+            "text": "massive"
+          },
+          {
+            "id": "c",
+            "text": "modern"
+          },
+          {
+            "id": "d",
+            "text": "hollow"
+          }
+        ],
+        "answer": "b",
+        "clue": "more than two million stone blocks; weigh more than a car",
+        "hint": "Think about how big and heavy two million stone blocks would be.",
+        "explanation": "\"Two million stone blocks\" that each \"weigh more than a car\" make the pyramid enormous and heavy. That is massive. Fragile means easily broken, the opposite of solid stone."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "misplace.verb.1",
+    "word": "misplace",
+    "grade": 4,
+    "pos": "verb",
+    "say": "mis-PLAYS",
+    "definition": "to put something down and then forget where it is",
+    "hero": {
+      "text": "Kai misplaced his mask again and finally found it in the freezer next to the ice cream.",
+      "scene": {
+        "pose": "confused",
+        "props": [
+          "🎭",
+          "🧊"
+        ],
+        "setting": "home"
+      }
+    },
+    "everyday": "Grandpa often misplaces his reading glasses, even though they are usually on top of his head.",
+    "contrast": {
+      "nonExample": "Lily threw her worn-out shoes in the trash on purpose.",
+      "explanation": "Misplacing is an accident: you put something down and forget where. Throwing something away on purpose is not misplacing it.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "👟",
+          "🗑️"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "lose",
+        "mislay"
+      ],
+      "antonyms": [
+        "find",
+        "locate"
+      ],
+      "family": [
+        "misplaced"
+      ]
+    },
+    "forms": [
+      "misplace",
+      "misplaces",
+      "misplaced",
+      "misplacing"
+    ],
+    "parts": [
+      {
+        "part": "mis-",
+        "meaning": "wrongly or badly"
+      },
+      {
+        "part": "place",
+        "meaning": "to put somewhere"
+      }
+    ],
+    "tags": [
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "misplace.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person misplaced something?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ben gave his old toys to his little cousin."
+          },
+          {
+            "id": "b",
+            "text": "Ana set down her book and can't remember where."
+          },
+          {
+            "id": "c",
+            "text": "Cara hung her coat on its usual hook."
+          }
+        ],
+        "answer": "b",
+        "hint": "Who put something down and now can't find it?",
+        "explanation": "Misplace means to put something down and forget where it is. Ana set her book down and can't remember where.",
+        "wrong": {
+          "a": "Ben gave the toys away on purpose, so he knows where they went.",
+          "c": "Cara put her coat in its usual place, so it is not misplaced."
+        }
+      },
+      {
+        "id": "misplace.verb.1#2",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The prefix mis- means \"wrongly\" or \"badly.\" Using that clue, what does misplace mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "to put away very carefully"
+          },
+          {
+            "id": "b",
+            "text": "to put back again"
+          },
+          {
+            "id": "c",
+            "text": "to put down and lose track of"
+          },
+          {
+            "id": "d",
+            "text": "to buy a new place for"
+          }
+        ],
+        "answer": "c",
+        "hint": "Mis- + place = put wrongly.",
+        "explanation": "Mis- means wrongly, so misplace means to put something in the wrong spot and lose track of it. Mis- also shows up in misspell (spell wrongly).",
+        "wrong": {
+          "a": "Carefully is the opposite of mis-.",
+          "b": "Re-, not mis-, means again."
+        }
+      },
+      {
+        "id": "misplace.verb.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Dad always hangs the spare key on the same hook so he won't ___ it again.",
+        "options": [
+          {
+            "id": "a",
+            "text": "polish"
+          },
+          {
+            "id": "b",
+            "text": "borrow"
+          },
+          {
+            "id": "c",
+            "text": "unlock"
+          },
+          {
+            "id": "d",
+            "text": "misplace"
+          }
+        ],
+        "answer": "d",
+        "clue": "on the same hook; won't ___ it again",
+        "hint": "Why would someone always put a key in the same spot?",
+        "explanation": "Hanging the key \"on the same hook\" helps Dad always know where it is, so he won't lose track of it \"again.\" That is misplace."
+      },
+      {
+        "id": "misplace.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what misplace means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "I misplaced my homework,"
+          },
+          {
+            "id": "c2",
+            "text": "so I searched my backpack,"
+          },
+          {
+            "id": "c3",
+            "text": "my desk, and under my bed."
+          },
+          {
+            "id": "c4",
+            "text": "so I knew exactly where it was."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "When you misplace something, you have to look for it.",
+        "explanation": "Searching in many places shows I didn't know where my homework was, so I misplaced it. If I knew exactly where it was, it would not be misplaced."
+      },
+      {
+        "id": "misplace.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did Owen misplace his soccer ball?",
+        "passage": "Owen knows his soccer ball is at Liam's house because he left it there on purpose to share.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Does Owen know where the ball is?",
+        "explanation": "No. Owen knows exactly where the ball is, and he left it there on purpose. Misplacing means forgetting where you put something."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "mysterious.adj.1",
+    "word": "mysterious",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "mih-STEER-ee-us",
+    "definition": "strange and hard to explain or understand",
+    "hero": {
+      "text": "A mysterious blue light blinked from the old tower every night, and Pixel wanted to know why.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "🗼",
+          "💡"
+        ],
+        "setting": "night"
+      }
+    },
+    "everyday": "Nobody in the family could explain the mysterious tapping sound coming from inside the attic wall.",
+    "contrast": {
+      "nonExample": "The doorbell rang at three o'clock, and it was the mail carrier, just like every afternoon.",
+      "explanation": "Something that is expected and easy to explain is not mysterious. Mysterious things are puzzling and hard to explain.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "📦",
+          "🔔"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "puzzling",
+        "strange",
+        "unexplained"
+      ],
+      "antonyms": [
+        "obvious",
+        "ordinary"
+      ],
+      "family": [
+        "mystery",
+        "mysteriously"
+      ]
+    },
+    "forms": [
+      "mysterious"
+    ],
+    "tags": [
+      "reading",
+      "science",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "mysterious.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the flower on the desk mysterious?",
+        "passage": "Every morning, a single red flower appeared on Ms. Park's desk, and no one knew who left it.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Can anyone explain where the flower comes from?",
+        "explanation": "Yes. \"No one knew who left it,\" so the flower is strange and hard to explain. That is mysterious."
+      },
+      {
+        "id": "mysterious.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ footprints in the snow stopped in the middle of the field, as if the walker had vanished.",
+        "options": [
+          {
+            "id": "a",
+            "text": "ordinary"
+          },
+          {
+            "id": "b",
+            "text": "cheerful"
+          },
+          {
+            "id": "c",
+            "text": "careful"
+          },
+          {
+            "id": "d",
+            "text": "mysterious"
+          }
+        ],
+        "answer": "d",
+        "clue": "stopped in the middle of the field; as if the walker had vanished",
+        "hint": "Footprints that just stop are very strange. What word fits that?",
+        "explanation": "Footprints that end \"as if the walker had vanished\" are strange and hard to explain. That is mysterious. Ordinary is the opposite."
+      },
+      {
+        "id": "mysterious.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"mysterious\" in this sentence?",
+        "passage": "The old map had mysterious symbols that no one at the museum could read.",
+        "options": [
+          {
+            "id": "a",
+            "text": "puzzling"
+          },
+          {
+            "id": "b",
+            "text": "colorful"
+          },
+          {
+            "id": "c",
+            "text": "famous"
+          },
+          {
+            "id": "d",
+            "text": "simple"
+          }
+        ],
+        "answer": "a",
+        "hint": "No one could figure out the symbols.",
+        "explanation": "Puzzling means hard to understand, just like mysterious. Simple is the opposite, because simple symbols would be easy to read."
+      },
+      {
+        "id": "mysterious.adj.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses mysterious correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"The bus came at 8:00 like always, which was so mysterious.\""
+          },
+          {
+            "id": "b",
+            "text": "\"The cookies vanished from a locked room. How mysterious!\""
+          },
+          {
+            "id": "c",
+            "text": "\"My mysterious sandwich is just ham and cheese, as usual.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "Mysterious things are hard to explain.",
+        "explanation": "Cookies vanishing from a locked room is strange and hard to explain, so mysterious fits. A bus arriving on time and a usual sandwich are ordinary, not mysterious.",
+        "wrong": {
+          "a": "\"Like always\" means it is expected, not mysterious.",
+          "c": "\"As usual\" means nothing is strange about it."
+        }
+      },
+      {
+        "id": "mysterious.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes these disappearances?",
+        "passage": "Sailors once told stories of ships that disappeared in one part of the ocean without a trace, and no one could say why.",
+        "options": [
+          {
+            "id": "a",
+            "text": "expected"
+          },
+          {
+            "id": "b",
+            "text": "brief"
+          },
+          {
+            "id": "c",
+            "text": "mysterious"
+          },
+          {
+            "id": "d",
+            "text": "careless"
+          }
+        ],
+        "answer": "c",
+        "clue": "without a trace; no one could say why",
+        "hint": "Could anyone explain what happened to the ships?",
+        "explanation": "\"Without a trace\" and \"no one could say why\" show the disappearances could not be explained. That is mysterious."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "opponent.noun.1",
+    "word": "opponent",
+    "grade": 4,
+    "pos": "noun",
+    "say": "uh-POH-nent",
+    "definition": "a person or team you compete against in a game, contest, or argument",
+    "hero": {
+      "text": "Before the academy chess tournament began, Juniper shook hands with her opponent, Bolt.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "♟️",
+          "🤝"
+        ],
+        "second": "confident",
+        "setting": "school"
+      }
+    },
+    "everyday": "The tennis player watched videos of her opponent to learn how she served the ball.",
+    "contrast": {
+      "nonExample": "Mia and Jo run on the same relay team and cheer for each other at every meet.",
+      "explanation": "Teammates work on the same side. An opponent is someone on the other side whom you compete against.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🏃",
+          "🏅"
+        ],
+        "second": "happy",
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "rival",
+        "competitor"
+      ],
+      "antonyms": [
+        "teammate",
+        "partner",
+        "ally"
+      ],
+      "family": [
+        "oppose",
+        "opposition"
+      ]
+    },
+    "forms": [
+      "opponent",
+      "opponents"
+    ],
+    "tags": [
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "opponent.noun.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does opponent mean in this sentence?",
+        "passage": "In the spelling bee final, Lucas faced his toughest opponent yet.",
+        "options": [
+          {
+            "id": "a",
+            "text": "a person he competed against"
+          },
+          {
+            "id": "b",
+            "text": "a judge who read the words"
+          },
+          {
+            "id": "c",
+            "text": "a friend cheering for him"
+          },
+          {
+            "id": "d",
+            "text": "a coach who trained him"
+          }
+        ],
+        "answer": "a",
+        "hint": "In a final, who are you trying to beat?",
+        "explanation": "An opponent is someone you compete against. In the final, Lucas faced another speller who was trying to win."
+      },
+      {
+        "id": "opponent.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "During the class debate, Ana listened carefully to her ___ and then argued for the other side.",
+        "options": [
+          {
+            "id": "a",
+            "text": "teammate"
+          },
+          {
+            "id": "b",
+            "text": "neighbor"
+          },
+          {
+            "id": "c",
+            "text": "opponent"
+          },
+          {
+            "id": "d",
+            "text": "puppy"
+          }
+        ],
+        "answer": "c",
+        "clue": "debate; argued for the other side",
+        "hint": "In a debate, who argues against you?",
+        "explanation": "In a debate, Ana \"argued for the other side,\" so the person she listened to was on the opposite side. That is her opponent. A teammate would be on her side."
+      },
+      {
+        "id": "opponent.noun.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"opponents\" in this sentence?",
+        "passage": "Our soccer team shook hands with our opponents after the close game.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rivals"
+          },
+          {
+            "id": "b",
+            "text": "teammates"
+          },
+          {
+            "id": "c",
+            "text": "fans"
+          },
+          {
+            "id": "d",
+            "text": "coaches"
+          }
+        ],
+        "answer": "b",
+        "hint": "Opponents play against you. Who plays with you?",
+        "explanation": "Opponents are on the other side, so teammates, who are on your side, are the opposite. Rivals means almost the same as opponents."
+      },
+      {
+        "id": "opponent.noun.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what opponent means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "In our checkers match,"
+          },
+          {
+            "id": "c2",
+            "text": "Grandpa was a clever opponent"
+          },
+          {
+            "id": "c3",
+            "text": "who blocked every move I tried."
+          },
+          {
+            "id": "c4",
+            "text": "who helped me win by playing on my side."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "An opponent plays against you, not with you.",
+        "explanation": "Blocking my moves shows Grandpa was competing against me, so he was my opponent. Someone playing on my side is a partner, not an opponent."
+      },
+      {
+        "id": "opponent.noun.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is Aaron Sofia's opponent?",
+        "passage": "In the class election, Sofia and Aaron both ran for president, and each tried to win more votes.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Are they competing for the same thing?",
+        "explanation": "Yes. Sofia and Aaron are competing to win the same election. Someone you compete against is your opponent, even outside of sports."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "permanent.adj.1",
+    "word": "permanent",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "PUR-muh-nent",
+    "definition": "lasting forever or for a very long time, not meant to change",
+    "hero": {
+      "text": "The heroes carved their names into the stone wall as a permanent record of their first rescue.",
+      "scene": {
+        "pose": "proud",
+        "props": [
+          "🪨",
+          "✍️"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Be careful with that permanent marker, because it will not wash out of your shirt.",
+    "contrast": {
+      "nonExample": "The sandcastle washed away as soon as the tide came in.",
+      "explanation": "Something that disappears quickly is temporary. Permanent things last for a very long time.",
+      "scene": {
+        "pose": "sad",
+        "props": [
+          "🏖️",
+          "🌊"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "lasting",
+        "enduring",
+        "fixed"
+      ],
+      "antonyms": [
+        "temporary"
+      ],
+      "family": [
+        "permanently"
+      ]
+    },
+    "forms": [
+      "permanent"
+    ],
+    "tags": [
+      "history",
+      "everyday",
+      "arts"
+    ],
+    "items": [
+      {
+        "id": "permanent.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which one is permanent?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a chalk drawing on the sidewalk before a rainstorm"
+          },
+          {
+            "id": "b",
+            "text": "a soap bubble"
+          },
+          {
+            "id": "c",
+            "text": "a name carved into a stone monument"
+          }
+        ],
+        "answer": "c",
+        "hint": "Which one will still be there many years from now?",
+        "explanation": "Permanent means lasting for a very long time. A name carved into stone can last hundreds of years.",
+        "wrong": {
+          "a": "Rain will wash the chalk away.",
+          "b": "A soap bubble pops in seconds."
+        }
+      },
+      {
+        "id": "permanent.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "After two months of moving from hotel to hotel, the family finally found a home that would be ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "temporary"
+          },
+          {
+            "id": "b",
+            "text": "tiny"
+          },
+          {
+            "id": "c",
+            "text": "noisy"
+          },
+          {
+            "id": "d",
+            "text": "permanent"
+          }
+        ],
+        "answer": "d",
+        "clue": "moving from hotel to hotel; finally",
+        "hint": "The hotels were short stays. What kind of home were they finally looking for?",
+        "explanation": "\"Moving from hotel to hotel\" means short stays, and \"finally\" tells you that changed. A home where they will stay for a long time is permanent. Temporary describes the hotels."
+      },
+      {
+        "id": "permanent.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"permanent\" in this sentence?",
+        "passage": "The museum's dinosaur display is permanent, so it will be there whenever you visit.",
+        "options": [
+          {
+            "id": "a",
+            "text": "lasting"
+          },
+          {
+            "id": "b",
+            "text": "huge"
+          },
+          {
+            "id": "c",
+            "text": "popular"
+          },
+          {
+            "id": "d",
+            "text": "temporary"
+          }
+        ],
+        "answer": "d",
+        "hint": "Permanent means it stays. What means it is only there for a short time?",
+        "explanation": "Permanent means lasting a long time, so temporary, which means only for a short time, is the opposite. Lasting means almost the same as permanent."
+      },
+      {
+        "id": "permanent.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what permanent means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The scar on my knee"
+          },
+          {
+            "id": "c2",
+            "text": "is permanent,"
+          },
+          {
+            "id": "c3",
+            "text": "so it will never fully fade."
+          },
+          {
+            "id": "c4",
+            "text": "so it will be gone by Friday."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Something permanent does not go away.",
+        "explanation": "A scar that will never fade lasts forever, so it is permanent. Something gone by Friday is temporary."
+      },
+      {
+        "id": "permanent.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the Great Wall?",
+        "passage": "The Great Wall of China was built to last. Some parts of it have stood for more than two thousand years.",
+        "options": [
+          {
+            "id": "a",
+            "text": "fragile"
+          },
+          {
+            "id": "b",
+            "text": "new"
+          },
+          {
+            "id": "c",
+            "text": "permanent"
+          },
+          {
+            "id": "d",
+            "text": "temporary"
+          }
+        ],
+        "answer": "c",
+        "clue": "built to last; stood for more than two thousand years",
+        "hint": "How long has the wall lasted?",
+        "explanation": "\"Built to last\" and standing \"more than two thousand years\" show the wall was meant to stay for a very long time. That is permanent."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "precious.adj.1",
+    "word": "precious",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "PRESH-us",
+    "definition": "very valuable, or very important and loved",
+    "hero": {
+      "text": "Juniper keeps her grandmother's old locket safe because it is the most precious thing she owns.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "📿",
+          "💖"
+        ],
+        "setting": "home"
+      }
+    },
+    "everyday": "Clean water is precious in the desert, so families there are careful not to waste a drop.",
+    "contrast": {
+      "nonExample": "Ray tossed an old candy wrapper into the recycling bin without a second thought.",
+      "explanation": "Something you throw away without caring is not precious. Precious things are valuable or deeply loved.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "🍬",
+          "♻️"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "valuable",
+        "treasured",
+        "dear"
+      ],
+      "antonyms": [
+        "worthless"
+      ],
+      "family": [
+        "preciousness"
+      ]
+    },
+    "forms": [
+      "precious"
+    ],
+    "tags": [
+      "everyday",
+      "science",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "precious.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the letter precious to Mira?",
+        "passage": "Mira keeps the first letter her dad ever wrote her in a special box and reads it often.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "How does Mira treat the letter?",
+        "explanation": "Yes. Keeping the letter in a special box and reading it often shows it is very important and loved. That is precious."
+      },
+      {
+        "id": "precious.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Gold and diamonds are ___ because they are rare and cost a great deal of money.",
+        "options": [
+          {
+            "id": "a",
+            "text": "precious"
+          },
+          {
+            "id": "b",
+            "text": "plentiful"
+          },
+          {
+            "id": "c",
+            "text": "cheap"
+          },
+          {
+            "id": "d",
+            "text": "soft"
+          }
+        ],
+        "answer": "a",
+        "clue": "rare; cost a great deal of money",
+        "hint": "Things that are rare and expensive are very ___.",
+        "explanation": "\"Rare\" and \"cost a great deal\" show gold and diamonds are very valuable. That is precious. Cheap and plentiful are the opposite."
+      },
+      {
+        "id": "precious.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "To the family, the old photo album was ___; it held the only pictures of their great-grandparents.",
+        "options": [
+          {
+            "id": "a",
+            "text": "expensive"
+          },
+          {
+            "id": "b",
+            "text": "boring"
+          },
+          {
+            "id": "c",
+            "text": "precious"
+          },
+          {
+            "id": "d",
+            "text": "heavy"
+          }
+        ],
+        "answer": "c",
+        "clue": "the only pictures of their great-grandparents",
+        "hint": "The album may not cost much money. Why does the family care about it?",
+        "explanation": "The album holds \"the only pictures\" of loved family members, so it is deeply treasured. Precious can mean loved, not just costly. Expensive is only about money, and an old album probably did not cost much."
+      },
+      {
+        "id": "precious.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what precious means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Time with his friends"
+          },
+          {
+            "id": "c2",
+            "text": "felt precious"
+          },
+          {
+            "id": "c3",
+            "text": "on Amir's last day before moving away."
+          },
+          {
+            "id": "c4",
+            "text": "because he didn't care about it at all."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Something feels precious when it matters a lot and might not last.",
+        "explanation": "On his last day, time with friends mattered a lot to Amir, so it felt precious. You cannot feel that something is precious if you don't care about it."
+      },
+      {
+        "id": "precious.adj.1#5",
+        "format": "synonym",
+        "stage": "transfer",
+        "prompt": "Which word is closest in meaning to \"precious\" in this sentence?",
+        "passage": "Seeds were precious to the early farmers, who saved them carefully for next year's planting.",
+        "options": [
+          {
+            "id": "a",
+            "text": "tiny"
+          },
+          {
+            "id": "b",
+            "text": "plentiful"
+          },
+          {
+            "id": "c",
+            "text": "ugly"
+          },
+          {
+            "id": "d",
+            "text": "valuable"
+          }
+        ],
+        "answer": "d",
+        "hint": "The farmers saved the seeds carefully. Why?",
+        "explanation": "Valuable means worth a lot, just like precious. Seeds are tiny, but that describes their size, not why the farmers saved them so carefully."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "previous.adj.1",
+    "word": "previous",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "PREE-vee-us",
+    "definition": "coming before in time or order",
+    "hero": {
+      "text": "Pixel read her notes from the previous day to remember where she had hidden the spare battery.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "📓",
+          "🔋"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Our new teacher asked us to share one thing we had learned in our previous grade.",
+    "contrast": {
+      "nonExample": "The next chapter of my book is the one I haven't read yet.",
+      "explanation": "Next means coming after. Previous means coming before.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "📖"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "earlier",
+        "prior",
+        "former"
+      ],
+      "antonyms": [
+        "next",
+        "following"
+      ],
+      "family": [
+        "previously"
+      ]
+    },
+    "forms": [
+      "previous"
+    ],
+    "tags": [
+      "reading",
+      "history",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "previous.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does previous mean in this sentence?",
+        "passage": "I could not remember the previous question, so I scrolled back up to read it again.",
+        "options": [
+          {
+            "id": "a",
+            "text": "the one that came before"
+          },
+          {
+            "id": "b",
+            "text": "the one coming next"
+          },
+          {
+            "id": "c",
+            "text": "the hardest one"
+          },
+          {
+            "id": "d",
+            "text": "the last one on the test"
+          }
+        ],
+        "answer": "a",
+        "hint": "The person scrolled back up. Was the question before or after?",
+        "explanation": "Previous means coming before. Scrolling back up shows the question came earlier.",
+        "wrong": {
+          "b": "Next is the opposite of previous."
+        }
+      },
+      {
+        "id": "previous.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Today is Tuesday, so the ___ day was Monday, when we had our spelling test.",
+        "options": [
+          {
+            "id": "a",
+            "text": "following"
+          },
+          {
+            "id": "b",
+            "text": "previous"
+          },
+          {
+            "id": "c",
+            "text": "fifth"
+          },
+          {
+            "id": "d",
+            "text": "longest"
+          }
+        ],
+        "answer": "b",
+        "clue": "Today is Tuesday; was Monday",
+        "hint": "Monday comes before Tuesday.",
+        "explanation": "Monday comes right before Tuesday, and \"was\" shows it is in the past. The day that came before is the previous day. Following would mean Wednesday."
+      },
+      {
+        "id": "previous.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"previous\" in this sentence?",
+        "passage": "The previous owner of our house planted the apple tree in the backyard.",
+        "options": [
+          {
+            "id": "a",
+            "text": "earlier"
+          },
+          {
+            "id": "b",
+            "text": "next"
+          },
+          {
+            "id": "c",
+            "text": "richest"
+          },
+          {
+            "id": "d",
+            "text": "friendly"
+          }
+        ],
+        "answer": "a",
+        "hint": "Did this owner live there before or after us?",
+        "explanation": "Earlier means coming before, just like previous. The previous owner lived in the house before we did. Next is the opposite."
+      },
+      {
+        "id": "previous.adj.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses previous correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I'll see you on the previous Saturday, which is next week.\""
+          },
+          {
+            "id": "b",
+            "text": "\"On my previous visit, the museum had a dinosaur exhibit.\""
+          },
+          {
+            "id": "c",
+            "text": "\"The previous chapter is the one I'll read tomorrow.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "Previous always points back to something earlier.",
+        "explanation": "A previous visit is one that already happened, so this line makes sense. \"Next week\" and \"tomorrow\" point to the future, so previous does not fit those lines.",
+        "wrong": {
+          "a": "Next week is in the future, not before.",
+          "c": "A chapter you will read tomorrow comes after, not before."
+        }
+      },
+      {
+        "id": "previous.adj.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is Ella reading the previous chapter?",
+        "passage": "Ella just finished chapter four, and now she is starting chapter five.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Does chapter five come before or after chapter four?",
+        "explanation": "No. Chapter five comes after chapter four, so it is the next chapter. The previous chapter would be chapter three or four, which come before."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "relieved.adj.1",
+    "word": "relieved",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "rih-LEEVD",
+    "definition": "feeling better because something worrying or painful is over",
+    "hero": {
+      "text": "Bolt was relieved when the lost puppy he had been searching for came running out of the alley.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🐶"
+        ],
+        "setting": "street"
+      }
+    },
+    "everyday": "Ava was relieved to hear that her grandma's surgery had gone well.",
+    "contrast": {
+      "nonExample": "Ty was excited when he found out his class was going to the zoo next week.",
+      "explanation": "Excited means looking forward to something fun. Relieved is the good feeling when a worry finally ends.",
+      "scene": {
+        "pose": "excited",
+        "props": [
+          "🦁",
+          "🎉"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "reassured",
+        "eased",
+        "comforted"
+      ],
+      "antonyms": [
+        "worried",
+        "anxious"
+      ],
+      "family": [
+        "relief",
+        "relieve"
+      ]
+    },
+    "forms": [
+      "relieved"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "relieved.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is Jin relieved?",
+        "passage": "Jin had worried all week about his science grade, then smiled and sighed when he saw an A.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Jin was worried, and then the worry ended. How does that feel?",
+        "explanation": "Yes. Jin worried all week, and seeing the A ended his worry. That good feeling when a worry is over is relief, so Jin is relieved."
+      },
+      {
+        "id": "relieved.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The pilot felt ___ when the storm finally passed and the plane landed safely.",
+        "options": [
+          {
+            "id": "a",
+            "text": "furious"
+          },
+          {
+            "id": "b",
+            "text": "bored"
+          },
+          {
+            "id": "c",
+            "text": "jealous"
+          },
+          {
+            "id": "d",
+            "text": "relieved"
+          }
+        ],
+        "answer": "d",
+        "clue": "storm finally passed; landed safely",
+        "hint": "The danger is over. How would the pilot feel?",
+        "explanation": "\"Storm finally passed\" and \"landed safely\" show a scary situation ended well. Feeling better after a worry ends is being relieved."
+      },
+      {
+        "id": "relieved.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "When the lights came back on after the scary blackout, Maya let out a long breath. She felt ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "excited"
+          },
+          {
+            "id": "b",
+            "text": "surprised"
+          },
+          {
+            "id": "c",
+            "text": "proud"
+          },
+          {
+            "id": "d",
+            "text": "relieved"
+          }
+        ],
+        "answer": "d",
+        "clue": "scary blackout; let out a long breath",
+        "hint": "Maya is not cheering. She is calming down after being scared.",
+        "explanation": "Letting out a long breath after something \"scary\" ends shows relief, not excitement. Excited means eager about something fun ahead. Proud is about something you did well."
+      },
+      {
+        "id": "relieved.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what relieved means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The players were relieved"
+          },
+          {
+            "id": "c2",
+            "text": "when the referee's final call"
+          },
+          {
+            "id": "c3",
+            "text": "went their way after all."
+          },
+          {
+            "id": "c4",
+            "text": "made them worry even more."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Relieved people stop worrying.",
+        "explanation": "\"After all\" shows the players had been worried, and the good call ended that worry. That is relieved. Worrying even more is the opposite."
+      },
+      {
+        "id": "relieved.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the families?",
+        "passage": "After three days of searching, rescuers found the missing hikers safe and unhurt. Their families hugged one another and cried happy tears.",
+        "options": [
+          {
+            "id": "a",
+            "text": "anxious"
+          },
+          {
+            "id": "b",
+            "text": "disappointed"
+          },
+          {
+            "id": "c",
+            "text": "relieved"
+          },
+          {
+            "id": "d",
+            "text": "confused"
+          }
+        ],
+        "answer": "c",
+        "clue": "three days of searching; safe and unhurt; happy tears",
+        "hint": "The families were worried for three days. Then what happened?",
+        "explanation": "After \"three days of searching,\" the hikers were found \"safe and unhurt,\" so the families' long worry ended. That is relieved. Anxious describes how they felt before the hikers were found."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "require.verb.1",
+    "word": "require",
+    "grade": 4,
+    "pos": "verb",
+    "say": "rih-KWIRE",
+    "definition": "to need something, or to make something necessary",
+    "hero": {
+      "text": "Building the rescue glider required Pixel's math skills and Rex's strength working together.",
+      "scene": {
+        "pose": "building",
+        "props": [
+          "🛠️",
+          "📐"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "Most plants require sunlight, water, and air to grow.",
+    "contrast": {
+      "nonExample": "Sprinkles are nice on an ice cream cone, but you can enjoy it just fine without them.",
+      "explanation": "Something extra is optional. Something required is needed; you cannot do without it.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🍦"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "need",
+        "demand"
+      ],
+      "antonyms": [],
+      "family": [
+        "requirement",
+        "required"
+      ]
+    },
+    "forms": [
+      "require",
+      "requires",
+      "required",
+      "requiring"
+    ],
+    "tags": [
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "require.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does requires mean in this sentence?",
+        "passage": "This pancake recipe requires two eggs and a cup of flour.",
+        "options": [
+          {
+            "id": "a",
+            "text": "needs"
+          },
+          {
+            "id": "b",
+            "text": "ignores"
+          },
+          {
+            "id": "c",
+            "text": "replaces"
+          },
+          {
+            "id": "d",
+            "text": "decorates"
+          }
+        ],
+        "answer": "a",
+        "hint": "Can you make the pancakes without the eggs and flour?",
+        "explanation": "Require means to need. The recipe needs eggs and flour to work."
+      },
+      {
+        "id": "require.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The class trip to the science museum will ___ a permission slip signed by a parent.",
+        "options": [
+          {
+            "id": "a",
+            "text": "erase"
+          },
+          {
+            "id": "b",
+            "text": "require"
+          },
+          {
+            "id": "c",
+            "text": "imagine"
+          },
+          {
+            "id": "d",
+            "text": "celebrate"
+          }
+        ],
+        "answer": "b",
+        "clue": "permission slip signed by a parent",
+        "hint": "Can students go on the trip without the slip?",
+        "explanation": "Schools need a signed permission slip before a trip, so the slip is necessary. Making something necessary is what require means."
+      },
+      {
+        "id": "require.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"requires\" in this sentence?",
+        "passage": "Learning to play the violin well requires a lot of patience and practice.",
+        "options": [
+          {
+            "id": "a",
+            "text": "wastes"
+          },
+          {
+            "id": "b",
+            "text": "avoids"
+          },
+          {
+            "id": "c",
+            "text": "needs"
+          },
+          {
+            "id": "d",
+            "text": "breaks"
+          }
+        ],
+        "answer": "c",
+        "hint": "Can you learn violin without patience?",
+        "explanation": "Needs means the same as requires here: you cannot learn violin well without patience and practice."
+      },
+      {
+        "id": "require.verb.1#4",
+        "format": "example_nonexample",
+        "stage": "independent",
+        "prompt": "Is a swim cap required at this pool?",
+        "passage": "A sign at the pool says, \"Everyone must wear a swim cap. No cap, no swimming.\"",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Can you swim there without a cap?",
+        "explanation": "Yes. \"Must wear\" and \"No cap, no swimming\" mean a cap is necessary. When something is necessary, it is required."
+      },
+      {
+        "id": "require.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "Which line uses require correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"This game requires batteries, so we don't need any.\""
+          },
+          {
+            "id": "b",
+            "text": "\"This game requires batteries, so let's buy some.\""
+          },
+          {
+            "id": "c",
+            "text": "\"I require a nap right now, but I'm not tired at all.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "If something is required, you need it.",
+        "explanation": "If the game requires batteries, it needs them, so buying some makes sense. Saying you don't need something that is required contradicts the meaning.",
+        "wrong": {
+          "a": "Requires means needs, so \"we don't need any\" contradicts it.",
+          "c": "If you are not tired, you do not really need a nap."
+        }
+      }
+    ],
+    "review": "pending"
+  }
+]

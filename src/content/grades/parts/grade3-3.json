@@ -1,0 +1,859 @@
+[
+  {
+    "id": "delighted.adj.1",
+    "word": "delighted",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "dih-LY-tid",
+    "definition": "very happy and pleased",
+    "hero": {
+      "text": "Kai was delighted when the kids he rescued cheered his name.",
+      "scene": { "pose": "happy", "props": ["🎉", "😄"], "setting": "city" }
+    },
+    "everyday": "Grandma was delighted when we surprised her with flowers on her birthday.",
+    "contrast": {
+      "nonExample": "Ian felt just okay about getting a plain pencil as a prize.",
+      "explanation": "Delighted means very happy. Feeling just okay is not strong enough to be delighted.",
+      "scene": { "pose": "shrugging", "props": ["✏️"], "setting": "school" }
+    },
+    "related": { "synonyms": ["thrilled", "overjoyed"], "antonyms": ["disappointed", "upset"], "family": ["delight", "delightful"] },
+    "forms": ["delighted"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "delighted.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Jada delighted?",
+        "passage": "When Jada saw the new puppy, she jumped up and down and squealed with joy.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "How happy does Jada seem?",
+        "explanation": "Delighted means very happy. Jumping and squealing with joy show Jada is delighted."
+      },
+      {
+        "id": "delighted.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The kids were ___ when the teacher said there would be an extra recess.",
+        "options": [
+          { "id": "a", "text": "fragile" }, { "id": "b", "text": "timid" },
+          { "id": "c", "text": "delighted" }, { "id": "d", "text": "ancient" }
+        ],
+        "answer": "c",
+        "clue": "an extra recess",
+        "hint": "How do kids feel about extra recess?",
+        "explanation": "Extra recess is great news, so the kids felt very happy. That is delighted."
+      },
+      {
+        "id": "delighted.adj.1#3", "format": "best_word", "stage": "independent",
+        "prompt": "Which word best describes how Rafi felt?",
+        "passage": "Rafi's team won the big game in the very last second. He jumped, cheered, and hugged everyone.",
+        "options": [
+          { "id": "a", "text": "calm" }, { "id": "b", "text": "delighted" },
+          { "id": "c", "text": "fine" }, { "id": "d", "text": "annoyed" }
+        ],
+        "answer": "b",
+        "clue": "jumped, cheered, and hugged everyone",
+        "hint": "Was Rafi a little happy or very happy?",
+        "explanation": "Jumping, cheering, and hugging show Rafi was very happy, so delighted fits. Fine is only a little happy, which is too weak.",
+        "wrong": { "c": "Fine means just okay. Rafi's cheering and hugging show much stronger happiness." }
+      },
+      {
+        "id": "delighted.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what delighted means.",
+        "chunks": [
+          { "id": "c1", "text": "Tess was delighted" },
+          { "id": "c2", "text": "with her birthday gift," },
+          { "id": "c3", "text": "so she hugged her aunt and grinned." },
+          { "id": "c4", "text": "so she frowned and said nothing." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Delighted people show they are very happy.",
+        "explanation": "Hugging and grinning show great happiness. Frowning shows Tess was not pleased."
+      },
+      {
+        "id": "delighted.adj.1#5", "format": "synonym", "stage": "transfer",
+        "prompt": "Which word is closest in meaning to \"delighted\" in this sentence?",
+        "passage": "The audience was delighted by the funny puppet show.",
+        "options": [
+          { "id": "a", "text": "bored" }, { "id": "b", "text": "confused" },
+          { "id": "c", "text": "scared" }, { "id": "d", "text": "thrilled" }
+        ],
+        "answer": "d",
+        "hint": "How would people feel at a funny show they love?",
+        "explanation": "Thrilled means very happy and excited, close to delighted. Bored is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "annoyed.adj.1",
+    "word": "annoyed",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "uh-NOYD",
+    "definition": "a little angry or bothered",
+    "hero": {
+      "text": "Bolt was annoyed when the alarm kept beeping during his nap, so he turned it off.",
+      "scene": { "pose": "tired", "props": ["⏰", "😤"], "setting": "home" }
+    },
+    "everyday": "I get annoyed when my sister hums the same song over and over.",
+    "contrast": {
+      "nonExample": "Pia screamed and threw her backpack when her brother smashed her model ship.",
+      "explanation": "Annoyed means only a little angry. Screaming and throwing things show someone is furious, which is much stronger.",
+      "scene": { "pose": "angry", "props": ["🎒", "🚢"], "setting": "home" }
+    },
+    "related": { "synonyms": ["bothered", "irritated"], "antonyms": ["pleased", "calm"], "family": ["annoy", "annoying", "annoyance"] },
+    "forms": ["annoyed"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "annoyed.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is annoyed?",
+        "options": [
+          { "id": "a", "text": "Cam sighs and rolls his eyes when a fly keeps buzzing near him." },
+          { "id": "b", "text": "Cam laughs and laughs at a funny joke his best friend tells him." },
+          { "id": "c", "text": "Cam shakes with fear during a storm." }
+        ],
+        "answer": "a",
+        "hint": "Who is bothered by something small?",
+        "explanation": "Annoyed means a little angry or bothered. Sighing and rolling his eyes at a buzzing fly shows Cam is annoyed."
+      },
+      {
+        "id": "annoyed.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Dad was ___ because the dripping faucet kept him awake all night.",
+        "options": [
+          { "id": "a", "text": "grateful" }, { "id": "b", "text": "annoyed" },
+          { "id": "c", "text": "generous" }, { "id": "d", "text": "fortunate" }
+        ],
+        "answer": "b",
+        "clue": "dripping faucet kept him awake",
+        "hint": "How would a dripping sound all night make you feel?",
+        "explanation": "A dripping faucet that keeps you awake is bothersome, so Dad felt annoyed."
+      },
+      {
+        "id": "annoyed.adj.1#3", "format": "best_word", "stage": "independent",
+        "prompt": "Which word best describes how Mila felt?",
+        "passage": "Mila's friend was ten minutes late. Mila tapped her foot and sighed, then said hello.",
+        "options": [
+          { "id": "a", "text": "furious" }, { "id": "b", "text": "annoyed" },
+          { "id": "c", "text": "delighted" }, { "id": "d", "text": "frantic" }
+        ],
+        "answer": "b",
+        "clue": "tapped her foot and sighed, then said hello",
+        "hint": "Is Mila a little bothered or extremely angry?",
+        "explanation": "Tapping her foot and sighing show Mila was a little bothered, but she still said hello. That is annoyed. Furious would mean extremely angry, which is too strong.",
+        "wrong": { "a": "Furious means extremely angry. Mila only sighed and still said hello, so she was just annoyed." }
+      },
+      {
+        "id": "annoyed.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what annoyed means.",
+        "chunks": [
+          { "id": "c1", "text": "Jay felt annoyed" },
+          { "id": "c2", "text": "when his pencil broke again," },
+          { "id": "c3", "text": "so he sighed and sharpened it." },
+          { "id": "c4", "text": "so he cheered and danced around." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Annoyed people are a little bothered.",
+        "explanation": "Sighing shows Jay was a little bothered. Cheering and dancing show happiness, not annoyance."
+      },
+      {
+        "id": "annoyed.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Ms. Diaz?",
+        "passage": "The barking dog next door kept bothering Ms. Diaz while she tried to read.",
+        "options": [
+          { "id": "a", "text": "timid" }, { "id": "b", "text": "wealthy" },
+          { "id": "c", "text": "grateful" }, { "id": "d", "text": "annoyed" }
+        ],
+        "answer": "d",
+        "clue": "kept bothering",
+        "hint": "How does a noise that keeps bothering you make you feel?",
+        "explanation": "\"Kept bothering\" shows Ms. Diaz felt a little angry about the noise. That is annoyed."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "patient.adj.1",
+    "word": "patient",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "PAY-shunt",
+    "definition": "able to wait calmly without getting upset",
+    "hero": {
+      "text": "Juniper stayed patient while the scared puppy slowly crept out from under the car.",
+      "scene": { "pose": "calm", "props": ["🐶", "🚗"], "setting": "street" }
+    },
+    "everyday": "Mr. Lin is patient and explains the math problem again when we don't understand.",
+    "contrast": {
+      "nonExample": "Eli honked the horn again and again because the line of cars was not moving.",
+      "explanation": "Patient people wait calmly. Eli got upset and honked, so he was impatient.",
+      "scene": { "pose": "angry", "props": ["🚗", "📯"], "setting": "street" }
+    },
+    "related": { "synonyms": ["calm", "tolerant"], "antonyms": ["impatient"], "family": ["patience", "patiently", "impatient"] },
+    "forms": ["patient"],
+    "tags": ["everyday", "social"],
+    "items": [
+      {
+        "id": "patient.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Ava being patient?",
+        "passage": "Ava waited quietly in the long lunch line without complaining.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Does Ava wait calmly?",
+        "explanation": "Patient means able to wait calmly. Ava waits in a long line without complaining."
+      },
+      {
+        "id": "patient.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "You have to be ___ when you fish, because a bite can take a long time.",
+        "options": [
+          { "id": "a", "text": "patient" }, { "id": "b", "text": "frantic" },
+          { "id": "c", "text": "clumsy" }, { "id": "d", "text": "wealthy" }
+        ],
+        "answer": "a",
+        "clue": "a bite can take a long time",
+        "hint": "What do you need when something takes a long time?",
+        "explanation": "\"Can take a long time\" means you must wait calmly. That is being patient."
+      },
+      {
+        "id": "patient.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"patient\" in this sentence?",
+        "passage": "The patient boy waited his turn on the slide.",
+        "options": [
+          { "id": "a", "text": "small" }, { "id": "b", "text": "happy" },
+          { "id": "c", "text": "impatient" }, { "id": "d", "text": "careful" }
+        ],
+        "answer": "c",
+        "hint": "Look for a word that means NOT able to wait calmly.",
+        "explanation": "Impatient means not able to wait calmly, the opposite of patient."
+      },
+      {
+        "id": "patient.adj.1#4", "format": "word_parts", "stage": "independent",
+        "prompt": "The prefix im- means \"not.\" What does \"impatient\" mean in this sentence?",
+        "passage": "The impatient kids in the back seat kept asking, \"Are we there yet?\"",
+        "options": [
+          { "id": "a", "text": "very sleepy" }, { "id": "b", "text": "not able to wait calmly" },
+          { "id": "c", "text": "not able to see well" }, { "id": "d", "text": "very hungry for snacks" }
+        ],
+        "answer": "b",
+        "hint": "Im- + patient = not ___.",
+        "explanation": "Im- means not, so impatient means not patient: not able to wait calmly. Asking \"Are we there yet?\" over and over shows it."
+      },
+      {
+        "id": "patient.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Kim?",
+        "passage": "Kim spent weeks building a model ship piece by piece and never rushed.",
+        "options": [
+          { "id": "a", "text": "frantic" }, { "id": "b", "text": "furious" },
+          { "id": "c", "text": "timid" }, { "id": "d", "text": "patient" }
+        ],
+        "answer": "d",
+        "clue": "spent weeks; piece by piece; never rushed",
+        "hint": "Kim worked a long time without hurrying.",
+        "explanation": "\"Spent weeks\" and \"never rushed\" show Kim calmly kept going for a long time. That is patient."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "polite.adj.1",
+    "word": "polite",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "puh-LYT",
+    "definition": "having good manners and treating others with respect",
+    "hero": {
+      "text": "After saving the bus, Rex gave the driver a polite nod and said, \"Have a nice day.\"",
+      "scene": { "pose": "talking", "props": ["🚌", "🙏"], "setting": "street" }
+    },
+    "everyday": "It is polite to say \"please\" when you ask for something.",
+    "contrast": {
+      "nonExample": "Drew grabbed the last slice of pizza and burped loudly at the table.",
+      "explanation": "Polite means using good manners. Grabbing food and burping at the table are rude.",
+      "scene": { "pose": "sneaky", "props": ["🍕"], "setting": "home" }
+    },
+    "related": { "synonyms": ["courteous", "respectful"], "antonyms": ["rude"], "family": ["politely", "politeness"] },
+    "forms": ["polite"],
+    "tags": ["social", "everyday"],
+    "items": [
+      {
+        "id": "polite.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is polite?",
+        "options": [
+          { "id": "a", "text": "Sara holds the door open and says, \"After you.\"" },
+          { "id": "b", "text": "Sara cuts in front of everyone in line." },
+          { "id": "c", "text": "Sara talks loudly while others are speaking." }
+        ],
+        "answer": "a",
+        "hint": "Who is using good manners?",
+        "explanation": "Polite means having good manners. Holding the door and saying \"After you\" is polite. Cutting in line and talking over people are rude."
+      },
+      {
+        "id": "polite.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ boy said \"excuse me\" before he walked past the teacher.",
+        "options": [
+          { "id": "a", "text": "ancient" }, { "id": "b", "text": "scarce" },
+          { "id": "c", "text": "fragile" }, { "id": "d", "text": "polite" }
+        ],
+        "answer": "d",
+        "clue": "said \"excuse me\"",
+        "hint": "Saying \"excuse me\" shows what?",
+        "explanation": "Saying \"excuse me\" is good manners. That is polite."
+      },
+      {
+        "id": "polite.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"polite\" in this sentence?",
+        "passage": "The polite waiter smiled and refilled our water glasses.",
+        "options": [
+          { "id": "a", "text": "kind" }, { "id": "b", "text": "rude" },
+          { "id": "c", "text": "fast" }, { "id": "d", "text": "tall" }
+        ],
+        "answer": "b",
+        "hint": "Which word means bad manners?",
+        "explanation": "Rude means having bad manners, the opposite of polite. Kind is close to polite, not opposite."
+      },
+      {
+        "id": "polite.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what polite means.",
+        "chunks": [
+          { "id": "c1", "text": "To be polite," },
+          { "id": "c2", "text": "Ana waited" },
+          { "id": "c3", "text": "until her friend finished talking." },
+          { "id": "c4", "text": "while yelling over her friend." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Polite people let others finish.",
+        "explanation": "Waiting until someone finishes talking is good manners. Yelling over a friend is rude."
+      },
+      {
+        "id": "polite.adj.1#5", "format": "dialogue", "stage": "transfer",
+        "prompt": "Which line is polite?",
+        "options": [
+          { "id": "a", "text": "\"Hand me that book right now, because I want it more than you do.\"" },
+          { "id": "b", "text": "\"May I please borrow your book when you're done?\"" },
+          { "id": "c", "text": "\"That book is boring, just like you.\"" }
+        ],
+        "answer": "b",
+        "hint": "Which speaker uses good manners?",
+        "explanation": "\"May I please\" and waiting until the person is done show good manners. That is polite. The other lines are bossy or mean."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "scarce.adj.1",
+    "word": "scarce",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "SKAIRS",
+    "definition": "hard to find because there is very little of it",
+    "hero": {
+      "text": "Water was scarce in the desert town, so Nova flew in big tanks to help.",
+      "scene": { "pose": "lifting", "props": ["💧", "🏜️"], "setting": "sky" }
+    },
+    "everyday": "Fresh strawberries are scarce in winter, so they cost more at the store.",
+    "contrast": {
+      "nonExample": "There were so many apples on the tree that the branches bent to the ground.",
+      "explanation": "Scarce means there is very little. The tree had plenty of apples, so they were plentiful, not scarce.",
+      "scene": { "pose": "happy", "props": ["🍎", "🌳"], "setting": "nature" }
+    },
+    "related": { "synonyms": ["rare", "limited"], "antonyms": ["plentiful", "common"], "family": ["scarcely", "scarcity"] },
+    "forms": ["scarce"],
+    "tags": ["science", "social"],
+    "items": [
+      {
+        "id": "scarce.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Were shells scarce on this beach?",
+        "passage": "The beach had more shells than we could ever pick up.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "Were there a few shells or a lot?",
+        "explanation": "Scarce means there is very little. This beach had tons of shells, so they were plentiful, not scarce."
+      },
+      {
+        "id": "scarce.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Food was ___ in winter, so the squirrels ate the nuts they had saved.",
+        "options": [
+          { "id": "a", "text": "polite" }, { "id": "b", "text": "scarce" },
+          { "id": "c", "text": "eager" }, { "id": "d", "text": "curious" }
+        ],
+        "answer": "b",
+        "clue": "ate the nuts they had saved",
+        "hint": "Why would squirrels need to eat saved food?",
+        "explanation": "The squirrels used saved nuts because there was very little food around. That means food was scarce."
+      },
+      {
+        "id": "scarce.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"scarce\" in this sentence?",
+        "passage": "Pandas are scarce in the wild, so people work hard to protect them.",
+        "options": [
+          { "id": "a", "text": "rare" }, { "id": "b", "text": "big" },
+          { "id": "c", "text": "friendly" }, { "id": "d", "text": "hungry" }
+        ],
+        "answer": "a",
+        "hint": "Why would people need to protect them?",
+        "explanation": "Rare means there are very few, like scarce. Pandas need protection because there are so few in the wild."
+      },
+      {
+        "id": "scarce.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what scarce means.",
+        "chunks": [
+          { "id": "c1", "text": "Because paper was scarce," },
+          { "id": "c2", "text": "the class" },
+          { "id": "c3", "text": "used both sides of every sheet." },
+          { "id": "c4", "text": "threw away whole stacks of it." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "When something is scarce, you try not to waste it.",
+        "explanation": "Using both sides saves paper when there is very little. Throwing away stacks only makes sense if paper is plentiful."
+      },
+      {
+        "id": "scarce.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the tickets?",
+        "passage": "Only three tickets were left for the concert, and hundreds of people wanted them.",
+        "options": [
+          { "id": "a", "text": "ordinary" }, { "id": "b", "text": "plentiful" },
+          { "id": "c", "text": "scarce" }, { "id": "d", "text": "ancient" }
+        ],
+        "answer": "c",
+        "clue": "Only three tickets were left; hundreds of people wanted them",
+        "hint": "Are there enough tickets for everyone?",
+        "explanation": "\"Only three\" tickets for \"hundreds of people\" means there were very few. That is scarce. Plentiful is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "sensible.adj.1",
+    "word": "sensible",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "SEN-suh-bul",
+    "definition": "showing good sense; wise and practical",
+    "hero": {
+      "text": "Kai made a sensible plan: get everyone out of the building first, then catch the robot.",
+      "scene": { "pose": "thinking", "props": ["📋", "🏢"], "setting": "city" }
+    },
+    "everyday": "Wearing warm boots in the snow is a sensible choice.",
+    "contrast": {
+      "nonExample": "Ned wore flip-flops to hike up a steep, rocky mountain.",
+      "explanation": "Sensible choices are wise and practical. Flip-flops on a rocky trail are an unwise choice.",
+      "scene": { "pose": "confused", "props": ["🩴", "⛰️"], "setting": "nature" }
+    },
+    "related": { "synonyms": ["wise", "practical", "reasonable"], "antonyms": ["foolish", "silly"], "family": ["sense", "sensibly"] },
+    "forms": ["sensible"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "sensible.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which choice is sensible?",
+        "options": [
+          { "id": "a", "text": "wearing a heavy coat on a hot beach" },
+          { "id": "b", "text": "eating only candy for dinner" },
+          { "id": "c", "text": "taking an umbrella on a rainy day" }
+        ],
+        "answer": "c",
+        "hint": "Which choice is wise?",
+        "explanation": "Sensible means wise and practical. An umbrella on a rainy day keeps you dry."
+      },
+      {
+        "id": "sensible.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "It was ___ of Kate to save part of her allowance for later.",
+        "options": [
+          { "id": "a", "text": "frantic" }, { "id": "b", "text": "fragile" },
+          { "id": "c", "text": "sensible" }, { "id": "d", "text": "timid" }
+        ],
+        "answer": "c",
+        "clue": "save part of her allowance for later",
+        "hint": "Is saving money a wise choice?",
+        "explanation": "Saving money for later is a wise, practical choice. That is sensible."
+      },
+      {
+        "id": "sensible.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"sensible\" in this sentence?",
+        "passage": "Packing a snack for the long car trip was a sensible idea.",
+        "options": [
+          { "id": "a", "text": "tasty" }, { "id": "b", "text": "foolish" },
+          { "id": "c", "text": "long" }, { "id": "d", "text": "quick" }
+        ],
+        "answer": "b",
+        "hint": "Sensible means wise. What is the opposite of wise?",
+        "explanation": "Foolish means unwise, the opposite of sensible."
+      },
+      {
+        "id": "sensible.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what sensible means.",
+        "chunks": [
+          { "id": "c1", "text": "Being sensible," },
+          { "id": "c2", "text": "Leo wore a helmet" },
+          { "id": "c3", "text": "when he rode his bike." },
+          { "id": "c4", "text": "Leo rode without a helmet" }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A sensible person makes the safe, wise choice.",
+        "explanation": "Wearing a helmet is the wise, safe choice, so it is sensible. Riding without one is not."
+      },
+      {
+        "id": "sensible.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Mrs. Ortiz?",
+        "passage": "Before the storm, Mrs. Ortiz filled jugs with water and found her flashlight.",
+        "options": [
+          { "id": "a", "text": "clumsy" }, { "id": "b", "text": "peculiar" },
+          { "id": "c", "text": "furious" }, { "id": "d", "text": "sensible" }
+        ],
+        "answer": "d",
+        "clue": "Before the storm; filled jugs with water; found her flashlight",
+        "hint": "Is getting ready before a storm wise?",
+        "explanation": "Getting water and a flashlight ready \"before the storm\" is wise and practical. That is sensible."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "flexible.adj.1",
+    "word": "flexible",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "FLEK-suh-bul",
+    "definition": "able to bend easily without breaking",
+    "hero": {
+      "text": "Pixel's flexible suit let her bend and twist through the narrow pipes.",
+      "scene": { "pose": "confident", "props": ["🤸", "🔧"], "setting": "lab" }
+    },
+    "everyday": "A rubber band is flexible, so you can stretch it and it snaps back.",
+    "contrast": {
+      "nonExample": "The dry stick snapped in half when Lucas tried to bend it.",
+      "explanation": "Flexible things bend without breaking. The dry stick broke, so it was stiff, not flexible.",
+      "scene": { "pose": "surprised", "props": ["🪵"], "setting": "nature" }
+    },
+    "related": { "synonyms": ["bendable", "stretchy"], "antonyms": ["stiff", "rigid"], "family": ["flexibility", "flex"] },
+    "forms": ["flexible"],
+    "tags": ["science", "everyday"],
+    "items": [
+      {
+        "id": "flexible.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is the ruler flexible?",
+        "passage": "Mia bent her plastic ruler into a curve, and it sprang back without breaking.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Did the ruler bend without breaking?",
+        "explanation": "Flexible means able to bend without breaking. The ruler curved and sprang back."
+      },
+      {
+        "id": "flexible.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Gymnasts are very ___ and can bend over to touch their toes easily.",
+        "options": [
+          { "id": "a", "text": "scarce" }, { "id": "b", "text": "ancient" },
+          { "id": "c", "text": "grateful" }, { "id": "d", "text": "flexible" }
+        ],
+        "answer": "d",
+        "clue": "bend over to touch their toes easily",
+        "hint": "What word means able to bend easily?",
+        "explanation": "\"Bend over\" and \"easily\" show the gymnasts' bodies bend well. That is flexible."
+      },
+      {
+        "id": "flexible.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"flexible\" in this sentence?",
+        "passage": "The flexible straw bent so I could drink while lying down.",
+        "options": [
+          { "id": "a", "text": "long" }, { "id": "b", "text": "clean" },
+          { "id": "c", "text": "stiff" }, { "id": "d", "text": "striped" }
+        ],
+        "answer": "c",
+        "hint": "What do you call something that will NOT bend?",
+        "explanation": "Stiff means hard to bend, the opposite of flexible."
+      },
+      {
+        "id": "flexible.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what flexible means.",
+        "chunks": [
+          { "id": "c1", "text": "The flexible branch" },
+          { "id": "c2", "text": "bent low in the wind" },
+          { "id": "c3", "text": "and did not break." },
+          { "id": "c4", "text": "and snapped right away." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Flexible things bend but don't break.",
+        "explanation": "A flexible branch bends without breaking. Snapping right away shows a stiff branch."
+      },
+      {
+        "id": "flexible.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Dad's body now?",
+        "passage": "Doing yoga every morning helps Dad's body stretch and bend more easily than before.",
+        "options": [
+          { "id": "a", "text": "fragile" }, { "id": "b", "text": "flexible" },
+          { "id": "c", "text": "clumsy" }, { "id": "d", "text": "ancient" }
+        ],
+        "answer": "b",
+        "clue": "stretch and bend more easily",
+        "hint": "What does yoga help Dad do?",
+        "explanation": "\"Stretch and bend more easily\" means Dad's body is more flexible. Fragile would mean it breaks easily."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "recall.verb.1",
+    "word": "recall",
+    "grade": 3,
+    "pos": "verb",
+    "say": "rih-KAWL",
+    "definition": "to remember something from before",
+    "hero": {
+      "text": "Bolt recalled the robot's weak spot from their last battle and aimed right for it.",
+      "scene": { "pose": "thinking", "props": ["🤖", "🎯"], "setting": "city" }
+    },
+    "everyday": "Can you recall the name of your first-grade teacher?",
+    "contrast": {
+      "nonExample": "Jen forgot where she left her shoes and had to search the whole house.",
+      "explanation": "To recall is to bring a memory back. Jen could not remember, so she forgot instead of recalling.",
+      "scene": { "pose": "confused", "props": ["👟", "❓"], "setting": "home" }
+    },
+    "related": { "synonyms": ["remember", "recollect"], "antonyms": ["forget"], "family": ["recalled", "recalling"] },
+    "forms": ["recall", "recalls", "recalled", "recalling"],
+    "parts": [{ "part": "re-", "meaning": "back or again" }, { "part": "call", "meaning": "bring or summon" }],
+    "tags": ["reading", "everyday"],
+    "items": [
+      {
+        "id": "recall.verb.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "What does \"recall\" mean in this sentence?",
+        "passage": "I can recall every word of my favorite poem.",
+        "options": [
+          { "id": "a", "text": "to forget" }, { "id": "b", "text": "to remember" },
+          { "id": "c", "text": "to write" }, { "id": "d", "text": "to shout" }
+        ],
+        "answer": "b",
+        "hint": "Saying every word of a poem from memory means you...",
+        "explanation": "Recall means to remember. You bring every word back from memory."
+      },
+      {
+        "id": "recall.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Do you ___ where we parked the car this morning?",
+        "options": [
+          { "id": "a", "text": "vanish" }, { "id": "b", "text": "boast" },
+          { "id": "c", "text": "recall" }, { "id": "d", "text": "imitate" }
+        ],
+        "answer": "c",
+        "clue": "where we parked; this morning",
+        "hint": "The question asks about something that happened earlier.",
+        "explanation": "Parking happened \"this morning,\" so you must remember it. That is recalling."
+      },
+      {
+        "id": "recall.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"recall\" in this sentence?",
+        "passage": "Grandpa likes to recall stories from when he was a boy.",
+        "options": [
+          { "id": "a", "text": "tell" }, { "id": "b", "text": "hear" },
+          { "id": "c", "text": "write" }, { "id": "d", "text": "forget" }
+        ],
+        "answer": "d",
+        "hint": "Recall means remember. What is the opposite?",
+        "explanation": "Forget is the opposite of recall. Grandpa remembers his stories instead of forgetting them."
+      },
+      {
+        "id": "recall.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what recall means.",
+        "chunks": [
+          { "id": "c1", "text": "Sara could recall" },
+          { "id": "c2", "text": "the answer" },
+          { "id": "c3", "text": "because she had studied it the night before." },
+          { "id": "c4", "text": "even though she had never learned it." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "You can only recall something you learned before.",
+        "explanation": "Sara recalled the answer because she studied it earlier. You can't remember something you never learned."
+      },
+      {
+        "id": "recall.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best tells what Jon did?",
+        "passage": "Jon closed his eyes and thought hard until the phone number came back to him.",
+        "options": [
+          { "id": "a", "text": "predicted" }, { "id": "b", "text": "imitated" },
+          { "id": "c", "text": "recalled" }, { "id": "d", "text": "described" }
+        ],
+        "answer": "c",
+        "clue": "the phone number came back to him",
+        "hint": "The number \"came back\" into Jon's mind.",
+        "explanation": "\"Came back to him\" means Jon remembered the number. That is recalling. Predicted is about the future, not memory."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "rely.verb.1",
+    "word": "rely",
+    "grade": 3,
+    "pos": "verb",
+    "say": "rih-LY",
+    "definition": "to trust and depend on someone or something",
+    "hero": {
+      "text": "The whole city can rely on Nova to show up whenever there is trouble.",
+      "scene": { "pose": "confident", "props": ["🏙️", "🦸"], "setting": "city" }
+    },
+    "everyday": "Plants rely on sunlight and water to grow.",
+    "contrast": {
+      "nonExample": "Eva's alarm clock often stops working, so she never knows if it will ring.",
+      "explanation": "To rely on something, you must be able to trust it. Eva can't trust her alarm, so she can't rely on it.",
+      "scene": { "pose": "confused", "props": ["⏰"], "setting": "home" }
+    },
+    "related": { "synonyms": ["depend", "count on", "trust"], "antonyms": ["doubt"], "family": ["reliable", "reliance", "relied"] },
+    "forms": ["rely", "relies", "relied", "relying"],
+    "tags": ["everyday", "science"],
+    "items": [
+      {
+        "id": "rely.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Does Max rely on his sister?",
+        "passage": "When homework is hard, Max asks his big sister, because she always helps him.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Does Max trust and depend on his sister?",
+        "explanation": "To rely on someone is to depend on them. Max counts on his sister because she always helps."
+      },
+      {
+        "id": "rely.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the words that best complete the sentence.",
+        "passage": "Baby birds ___ their parents to bring them food.",
+        "options": [
+          { "id": "a", "text": "glance at" }, { "id": "b", "text": "rely on" },
+          { "id": "c", "text": "boast about" }, { "id": "d", "text": "vanish from" }
+        ],
+        "answer": "b",
+        "clue": "to bring them food",
+        "hint": "Baby birds can't get food alone. What do they do?",
+        "explanation": "Baby birds can't feed themselves, so they depend on their parents \"to bring them food.\" That is relying on them."
+      },
+      {
+        "id": "rely.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which words are closest in meaning to \"rely on\" in this sentence?",
+        "passage": "You can rely on Tia to keep a secret.",
+        "options": [
+          { "id": "a", "text": "worry about" }, { "id": "b", "text": "laugh at" },
+          { "id": "c", "text": "count on" }, { "id": "d", "text": "forget about" }
+        ],
+        "answer": "c",
+        "hint": "Can you trust Tia with a secret?",
+        "explanation": "Count on means trust and depend on, the same as rely on. You can trust Tia to keep a secret."
+      },
+      {
+        "id": "rely.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what rely means.",
+        "chunks": [
+          { "id": "c1", "text": "We rely on our bus driver" },
+          { "id": "c2", "text": "because she" },
+          { "id": "c3", "text": "is always on time." },
+          { "id": "c4", "text": "is late almost every day." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "You rely on people you can trust.",
+        "explanation": "Being on time every day makes the driver someone you can trust, so we rely on her. You can't rely on someone who is always late."
+      },
+      {
+        "id": "rely.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which sentence tells about the farmer and his tractor?",
+        "passage": "The farmer needs his tractor every single day to plow his fields.",
+        "options": [
+          { "id": "a", "text": "He boasts about it." }, { "id": "b", "text": "He imitates it." },
+          { "id": "c", "text": "He relies on it." }, { "id": "d", "text": "He is scared of it." }
+        ],
+        "answer": "c",
+        "clue": "needs his tractor every single day",
+        "hint": "What does needing something every day tell you?",
+        "explanation": "\"Needs his tractor every single day\" shows the farmer depends on it. That is relying on it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "nervous.adj.1",
+    "word": "nervous",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "NUR-vus",
+    "definition": "worried or a little scared about what might happen",
+    "hero": {
+      "text": "Kai felt nervous before his first big rescue, and his hands shook a little.",
+      "scene": { "pose": "hesitant", "props": ["😬", "🚒"], "setting": "city" }
+    },
+    "everyday": "Ella was nervous before her piano recital, so she took slow, deep breaths.",
+    "contrast": {
+      "nonExample": "Ty smiled and strolled onto the stage, relaxed, for his tenth show.",
+      "explanation": "Nervous means worried or jumpy about what might happen. Ty was calm and relaxed, so he was not nervous.",
+      "scene": { "pose": "confident", "props": ["🎤"], "setting": "stage" }
+    },
+    "related": { "synonyms": ["worried", "jittery", "anxious"], "antonyms": ["calm", "relaxed"], "family": ["nervously", "nervousness"] },
+    "forms": ["nervous"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "nervous.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is nervous?",
+        "options": [
+          { "id": "a", "text": "Ben bites his nails, and his tummy flips before the spelling bee." },
+          { "id": "b", "text": "Ben naps happily on the couch." },
+          { "id": "c", "text": "Ben eats a big turkey sandwich with chips at the lunch table." }
+        ],
+        "answer": "a",
+        "hint": "Who is worried about something that is about to happen?",
+        "explanation": "Nervous means worried about what might happen. Biting nails and a flipping tummy before the spelling bee show worry."
+      },
+      {
+        "id": "nervous.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Olivia felt ___ while she waited for the doctor to give her a shot.",
+        "options": [
+          { "id": "a", "text": "wealthy" }, { "id": "b", "text": "nervous" },
+          { "id": "c", "text": "generous" }, { "id": "d", "text": "ancient" }
+        ],
+        "answer": "b",
+        "clue": "waited for the doctor to give her a shot",
+        "hint": "How do many kids feel waiting for a shot?",
+        "explanation": "Waiting for a shot makes many people worried about what will happen. That is nervous."
+      },
+      {
+        "id": "nervous.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"nervous\" in this sentence?",
+        "passage": "The nervous cat jumped at every little noise.",
+        "options": [
+          { "id": "a", "text": "fluffy" }, { "id": "b", "text": "lazy" },
+          { "id": "c", "text": "hungry" }, { "id": "d", "text": "jumpy" }
+        ],
+        "answer": "d",
+        "hint": "The cat jumped at every noise.",
+        "explanation": "Jumpy means easily startled and on edge, close to nervous. \"Jumped at every little noise\" is the clue."
+      },
+      {
+        "id": "nervous.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what nervous means.",
+        "chunks": [
+          { "id": "c1", "text": "Lucas was nervous" },
+          { "id": "c2", "text": "about the big test," },
+          { "id": "c3", "text": "so he studied extra the night before." },
+          { "id": "c4", "text": "so he didn't think about it at all." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Nervous people worry about what is coming.",
+        "explanation": "Worrying about the test made Lucas study extra, which fits nervous. Not thinking about it at all shows no worry."
+      },
+      {
+        "id": "nervous.adj.1#5", "format": "best_word", "stage": "transfer",
+        "prompt": "Which word best describes Zoe?",
+        "passage": "Before her first swim race, Zoe's heart pounded and she kept worrying she would come in last.",
+        "options": [
+          { "id": "a", "text": "delighted" }, { "id": "b", "text": "nervous" },
+          { "id": "c", "text": "furious" }, { "id": "d", "text": "ordinary" }
+        ],
+        "answer": "b",
+        "clue": "heart pounded; kept worrying",
+        "hint": "Is Zoe happy, angry, or worried?",
+        "explanation": "A pounding heart and \"kept worrying\" before the race show Zoe was nervous. A pounding heart can come with anger too, but she is worried, not angry."
+      }
+    ],
+    "review": "pending"
+  }
+]

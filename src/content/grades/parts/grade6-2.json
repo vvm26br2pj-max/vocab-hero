@@ -1,0 +1,1970 @@
+[
+ {
+  "id": "compatible.adj.1",
+  "word": "compatible",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "kum-PAT-uh-bul",
+  "definition": "able to work, fit, or exist together without problems",
+  "hero": {
+   "text": "Pixel checked that the new battery was compatible with Bolt's suit before plugging it in.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🔋",
+     "🔌"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "The new game is compatible with older tablets, so Amir can still play it.",
+  "contrast": {
+   "nonExample": "Two roommates argue every day about noise, mess, and what time to turn off the lights.",
+   "explanation": "They cannot live together smoothly, so they are not compatible. Compatible things or people work well together.",
+   "scene": {
+    "pose": "angry",
+    "props": [
+     "🔊",
+     "🧦"
+    ],
+    "setting": "home",
+    "second": "angry"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "well-matched",
+    "suited",
+    "harmonious"
+   ],
+   "antonyms": [
+    "incompatible",
+    "mismatched"
+   ],
+   "family": [
+    "compatibility",
+    "incompatible"
+   ]
+  },
+  "forms": [
+   "compatible"
+  ],
+  "parts": [
+   {
+    "part": "-ible",
+    "meaning": "able to be"
+   }
+  ],
+  "tags": [
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "compatible.adj.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Are these headphones compatible with the music player?",
+    "passage": "Lena's new headphones plug right into her old music player and work perfectly.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Do the two things work together without problems?",
+    "explanation": "Yes. The headphones and the player work together with no trouble, so they are compatible."
+   },
+   {
+    "id": "compatible.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The suffix -ible means \"able to be,\" and the prefix in- means \"not.\" What does incompatible mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "not able to work together"
+     },
+     {
+      "id": "b",
+      "text": "able to work together well"
+     },
+     {
+      "id": "c",
+      "text": "very easy to break"
+     },
+     {
+      "id": "d",
+      "text": "too large to fit anywhere"
+     }
+    ],
+    "answer": "a",
+    "hint": "In- = not. Compatible = able to work together.",
+    "explanation": "In- (not) + compatible (able to work together) = not able to work together. Being breakable or too large is a different idea."
+   },
+   {
+    "id": "compatible.adj.1#3",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "What does \"compatible\" mean in this passage?",
+    "passage": "The two plans for the class party were not compatible: one moved the party to Friday, and the other cancelled all Friday events.",
+    "options": [
+     {
+      "id": "a",
+      "text": "equally expensive"
+     },
+     {
+      "id": "b",
+      "text": "written by the same person"
+     },
+     {
+      "id": "c",
+      "text": "able to fit together without conflict"
+     },
+     {
+      "id": "d",
+      "text": "finished on time"
+     }
+    ],
+    "answer": "c",
+    "clue": "one moved... the other cancelled",
+    "hint": "Could both plans happen at once?",
+    "explanation": "One plan puts the party on Friday and the other cancels Friday events, so both cannot happen. They clash, which means they are not compatible."
+   },
+   {
+    "id": "compatible.adj.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Before a blood transfusion, doctors test whether the donor's blood type is ___ with the patient's blood.",
+    "options": [
+     {
+      "id": "a",
+      "text": "comfortable"
+     },
+     {
+      "id": "b",
+      "text": "generous"
+     },
+     {
+      "id": "c",
+      "text": "compatible"
+     },
+     {
+      "id": "d",
+      "text": "curious"
+     }
+    ],
+    "answer": "c",
+    "clue": "test whether... with the patient's",
+    "hint": "The doctors need to know if the two blood types can safely mix.",
+    "explanation": "Doctors test whether the blood types can safely work together in one body. Compatible means able to exist together without problems."
+   },
+   {
+    "id": "compatible.adj.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Jada and Theo have different hobbies, but they split chores fairly and rarely argue, so they are great roommates. They are ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "compatible"
+     },
+     {
+      "id": "b",
+      "text": "identical"
+     },
+     {
+      "id": "c",
+      "text": "competitive"
+     },
+     {
+      "id": "d",
+      "text": "dependent"
+     }
+    ],
+    "answer": "a",
+    "clue": "split chores fairly and rarely argue",
+    "hint": "They are different, yet they live together well.",
+    "explanation": "Identical would mean exactly the same, but they have different hobbies. They still live together smoothly, which is what compatible means."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "comprehensive.adj.1",
+  "word": "comprehensive",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "kom-prih-HEN-siv",
+  "definition": "including all or nearly all of the important parts; complete",
+  "hero": {
+   "text": "Juniper made a comprehensive map of the city that showed every street, park, and hidden tunnel.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🗺️",
+     "📍"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The museum guide gives a comprehensive history of the dinosaurs, from the first ones to the last.",
+  "contrast": {
+   "nonExample": "Owen's book report described only the first chapter of the novel.",
+   "explanation": "Covering only one chapter is partial, not comprehensive. Something comprehensive covers everything important.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "📖"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "complete",
+    "thorough",
+    "full"
+   ],
+   "antonyms": [
+    "partial",
+    "limited",
+    "incomplete"
+   ],
+   "family": [
+    "comprehensively",
+    "comprehend"
+   ]
+  },
+  "forms": [
+   "comprehensive"
+  ],
+  "tags": [
+   "reading",
+   "science",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "comprehensive.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"comprehensive\" mean in this sentence?",
+    "passage": "The doctor gave Sam a comprehensive checkup, testing his eyes, ears, heart, lungs, and reflexes.",
+    "options": [
+     {
+      "id": "a",
+      "text": "very quick"
+     },
+     {
+      "id": "b",
+      "text": "painful"
+     },
+     {
+      "id": "c",
+      "text": "unusual"
+     },
+     {
+      "id": "d",
+      "text": "covering everything important"
+     }
+    ],
+    "answer": "d",
+    "clue": "eyes, ears, heart, lungs, and reflexes",
+    "hint": "Look at the long list of things the doctor checked.",
+    "explanation": "The doctor checked eyes, ears, heart, lungs, and reflexes, which is nearly everything important. That makes the checkup comprehensive."
+   },
+   {
+    "id": "comprehensive.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The study guide was ___: it reviewed every single topic from all six units.",
+    "options": [
+     {
+      "id": "a",
+      "text": "colorful"
+     },
+     {
+      "id": "b",
+      "text": "comprehensive"
+     },
+     {
+      "id": "c",
+      "text": "brief"
+     },
+     {
+      "id": "d",
+      "text": "mysterious"
+     }
+    ],
+    "answer": "b",
+    "clue": "every single topic from all six units",
+    "hint": "What word describes something that covers EVERY topic?",
+    "explanation": "\"Every single topic from all six units\" is the clue. A guide that covers everything is comprehensive. Brief means short, which points the other way."
+   },
+   {
+    "id": "comprehensive.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which description best fits Ava's report?",
+    "passage": "Ava's report on the Civil War was twenty pages long, but it discussed only one cause of the war and skipped all the others.",
+    "options": [
+     {
+      "id": "a",
+      "text": "long but not comprehensive"
+     },
+     {
+      "id": "b",
+      "text": "long and comprehensive"
+     },
+     {
+      "id": "c",
+      "text": "short and comprehensive"
+     },
+     {
+      "id": "d",
+      "text": "short but complete"
+     }
+    ],
+    "answer": "a",
+    "hint": "Length and coverage are different things.",
+    "explanation": "Twenty pages is long, but skipping most causes means the report is not complete. Comprehensive is about covering all the important parts, not about how many pages there are."
+   },
+   {
+    "id": "comprehensive.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is most nearly the OPPOSITE of \"comprehensive\" in this sentence?",
+    "passage": "The company did a comprehensive search for the lost files, checking every computer in the building.",
+    "options": [
+     {
+      "id": "a",
+      "text": "careful"
+     },
+     {
+      "id": "b",
+      "text": "expensive"
+     },
+     {
+      "id": "c",
+      "text": "partial"
+     },
+     {
+      "id": "d",
+      "text": "sudden"
+     }
+    ],
+    "answer": "c",
+    "hint": "If comprehensive means covering everything, what means covering only some?",
+    "explanation": "A comprehensive search checks everything, and a partial search checks only some places. A search can be careful or expensive and still not be complete."
+   },
+   {
+    "id": "comprehensive.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this field guide comprehensive?",
+    "passage": "A field guide claims to cover \"the birds of our state,\" but it describes only the 10 most common birds, even though more than 400 kinds live there.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "How much of the topic does the guide leave out?",
+    "explanation": "No. Ten birds out of more than 400 leaves out almost everything, so the guide is partial, not comprehensive. A comprehensive guide would include all or nearly all of them."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "concise.adj.1",
+  "word": "concise",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "kun-SYS",
+  "definition": "saying what is needed clearly, in just a few words",
+  "hero": {
+   "text": "Instead of a long speech, Rex gave a concise warning: \"Bridge cracked. Use the tunnel.\"",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🌉",
+     "⚠️"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "A good summary is concise; it gives the main idea without extra details.",
+  "contrast": {
+   "nonExample": "When asked \"What time is it?\" Tim talked for five minutes, including a long story about where he bought his watch.",
+   "explanation": "Using far more words than needed is wordy, the opposite of concise. A concise answer is short and still clear.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "⌚",
+     "💬"
+    ],
+    "setting": "school",
+    "second": "tired"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "brief",
+    "to the point",
+    "succinct"
+   ],
+   "antonyms": [
+    "wordy",
+    "long-winded",
+    "rambling"
+   ],
+   "family": [
+    "concisely",
+    "conciseness"
+   ]
+  },
+  "forms": [
+   "concise"
+  ],
+  "tags": [
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "concise.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which answer is the most concise?",
+    "passage": "Question: Why did the classroom plant die?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Well, so, there was this plant, and I think maybe it kind of needed some water, I guess."
+     },
+     {
+      "id": "b",
+      "text": "It didn't get enough water."
+     },
+     {
+      "id": "c",
+      "text": "Plants are living things that grow."
+     },
+     {
+      "id": "d",
+      "text": "I don't really know, but plants are cool."
+     }
+    ],
+    "answer": "b",
+    "hint": "Look for the answer that is short AND actually answers the question.",
+    "explanation": "\"It didn't get enough water\" answers the question clearly in a few words. The rambling answer is wordy, and the others are short but do not answer the question, so they are not useful."
+   },
+   {
+    "id": "concise.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes this headline?",
+    "passage": "Headline: \"Snowstorm Closes All City Schools Tuesday\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "vague"
+     },
+     {
+      "id": "b",
+      "text": "wordy"
+     },
+     {
+      "id": "c",
+      "text": "dramatic"
+     },
+     {
+      "id": "d",
+      "text": "concise"
+     }
+    ],
+    "answer": "d",
+    "hint": "Is the headline short? Is it clear about what, where, and when?",
+    "explanation": "The headline is short, and it still tells what (schools close), why (snowstorm), and when (Tuesday). That is concise. Vague would mean short but missing key information."
+   },
+   {
+    "id": "concise.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Ms. Patel asked for ___ answers of one or two sentences, with no extra filler.",
+    "options": [
+     {
+      "id": "a",
+      "text": "detailed"
+     },
+     {
+      "id": "b",
+      "text": "concise"
+     },
+     {
+      "id": "c",
+      "text": "creative"
+     },
+     {
+      "id": "d",
+      "text": "polite"
+     }
+    ],
+    "answer": "b",
+    "clue": "one or two sentences, with no extra filler",
+    "hint": "\"One or two sentences\" and \"no extra filler\" describe what kind of answer?",
+    "explanation": "Answers of one or two sentences with no filler are short and to the point, which is concise. Detailed answers would usually be longer."
+   },
+   {
+    "id": "concise.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"concise\" in this sentence?",
+    "passage": "The editor helped turn the rambling article into a concise one.",
+    "options": [
+     {
+      "id": "a",
+      "text": "clear"
+     },
+     {
+      "id": "b",
+      "text": "accurate"
+     },
+     {
+      "id": "c",
+      "text": "interesting"
+     },
+     {
+      "id": "d",
+      "text": "wordy"
+     }
+    ],
+    "answer": "d",
+    "hint": "The article started out \"rambling.\" That is a clue to the opposite.",
+    "explanation": "Rambling writing uses too many words, so wordy is the opposite of concise. A piece can be clear or accurate and still be concise, so those are not opposites."
+   },
+   {
+    "id": "concise.adj.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what concise means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "she explained the results"
+     },
+     {
+      "id": "c2",
+      "text": "Her lab report was concise:"
+     },
+     {
+      "id": "c3",
+      "text": "in twelve rambling pages."
+     },
+     {
+      "id": "c4",
+      "text": "in three clear sentences."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Concise means short and clear.",
+    "explanation": "Three clear sentences is short and to the point, which is concise. Twelve rambling pages is wordy, the opposite."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "criteria.noun.1",
+  "word": "criteria",
+  "grade": 6,
+  "pos": "noun",
+  "say": "kry-TEER-ee-uh",
+  "definition": "the standards or rules used to judge or decide something (singular: criterion)",
+  "hero": {
+   "text": "The academy listed three criteria for new heroes: courage, kindness, and teamwork.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "📋",
+     "✅"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The science fair judges used criteria such as creativity, accuracy, and a clear presentation.",
+  "contrast": {
+   "nonExample": "Zara closed her eyes and grabbed any book off the library shelf.",
+   "explanation": "Zara used no standards to choose, so there were no criteria. Criteria are the rules or standards used to make a decision.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "📚",
+     "🙈"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "standards",
+    "requirements",
+    "guidelines"
+   ],
+   "antonyms": [],
+   "family": [
+    "criterion"
+   ]
+  },
+  "forms": [
+   "criteria",
+   "criterion"
+  ],
+  "tags": [
+   "science",
+   "social",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "criteria.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"criteria\" mean in this sentence?",
+    "passage": "The criteria for the poster contest were neatness, originality, and a clear message.",
+    "options": [
+     {
+      "id": "a",
+      "text": "standards used for judging"
+     },
+     {
+      "id": "b",
+      "text": "prizes for the winners"
+     },
+     {
+      "id": "c",
+      "text": "names of the judges"
+     },
+     {
+      "id": "d",
+      "text": "supplies for the posters"
+     }
+    ],
+    "answer": "a",
+    "hint": "Neatness, originality, and a clear message are things the judges look FOR.",
+    "explanation": "Neatness, originality, and a clear message are the standards the posters will be judged by. Those are criteria."
+   },
+   {
+    "id": "criteria.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "To join the robotics team, students had to meet two ___: passing grades and perfect attendance at practice.",
+    "options": [
+     {
+      "id": "a",
+      "text": "obstacles"
+     },
+     {
+      "id": "b",
+      "text": "rewards"
+     },
+     {
+      "id": "c",
+      "text": "criteria"
+     },
+     {
+      "id": "d",
+      "text": "mysteries"
+     }
+    ],
+    "answer": "c",
+    "clue": "had to meet two",
+    "hint": "Passing grades and perfect attendance are rules you must meet to be chosen.",
+    "explanation": "The two requirements a student must meet to join are criteria. You \"meet criteria\"; rewards come after, and obstacles get in the way."
+   },
+   {
+    "id": "criteria.noun.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Are these criteria?",
+    "passage": "The class agrees that its field trip must cost under $10 per student, be within an hour's drive, and relate to science.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Are these standards the class will use to decide?",
+    "explanation": "Yes. Cost, distance, and topic are standards the class will use to judge each trip idea. Those are criteria."
+   },
+   {
+    "id": "criteria.noun.1#4",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "What were the criteria?",
+    "passage": "When choosing a new class pet, the students agreed it had to be quiet, cheap to feed, and safe to hold. A hamster met all three criteria; a parrot met none.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a hamster and a parrot"
+     },
+     {
+      "id": "b",
+      "text": "the students who voted"
+     },
+     {
+      "id": "c",
+      "text": "being quiet, cheap to feed, and safe to hold"
+     },
+     {
+      "id": "d",
+      "text": "the pet store's prices"
+     }
+    ],
+    "answer": "c",
+    "clue": "had to be quiet, cheap to feed, and safe to hold",
+    "hint": "Criteria are the standards, not the choices being judged.",
+    "explanation": "The standards were being quiet, cheap to feed, and safe to hold. The hamster and the parrot were the options judged BY those criteria."
+   },
+   {
+    "id": "criteria.noun.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word is closest in meaning to \"criteria\" in this sentence?",
+    "passage": "The city set strict criteria for which old buildings could be called \"historic.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "standards"
+     },
+     {
+      "id": "b",
+      "text": "debates"
+     },
+     {
+      "id": "c",
+      "text": "budgets"
+     },
+     {
+      "id": "d",
+      "text": "maps"
+     }
+    ],
+    "answer": "a",
+    "hint": "What would a city use to decide if a building counts as historic?",
+    "explanation": "The city decides using rules or standards that a building must meet, such as its age. Standards is the closest meaning."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "deduce.verb.1",
+  "word": "deduce",
+  "grade": 6,
+  "pos": "verb",
+  "say": "dih-DOOS",
+  "definition": "to reach an answer by careful reasoning from facts or evidence",
+  "hero": {
+   "text": "Juniper deduced that the thief was left-handed from the way the lock had been scratched.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🔍",
+     "🔒"
+    ],
+    "setting": "night"
+   }
+  },
+  "everyday": "From the fossil's sharp, pointed teeth, scientists deduced that the animal ate meat.",
+  "contrast": {
+   "nonExample": "Ollie picked answer C without even reading the question.",
+   "explanation": "Choosing at random is guessing. To deduce, you reason step by step from evidence.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "🎲",
+     "📝"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "conclude",
+    "reason out",
+    "work out"
+   ],
+   "antonyms": [
+    "guess"
+   ],
+   "family": [
+    "deduction",
+    "deductive"
+   ]
+  },
+  "forms": [
+   "deduce",
+   "deduces",
+   "deduced",
+   "deducing"
+  ],
+  "parts": [
+   {
+    "part": "de-",
+    "meaning": "from"
+   },
+   {
+    "part": "duc",
+    "meaning": "lead"
+   }
+  ],
+  "tags": [
+   "science",
+   "reading",
+   "math"
+  ],
+  "items": [
+   {
+    "id": "deduce.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Did Mom deduce something?",
+    "passage": "All the cookies were gone, a trail of crumbs led to the dog bed, and only the dog had been home. Mom decided the dog ate them.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did Mom use evidence to reason it out?",
+    "explanation": "Yes. Mom put together facts (empty plate, crumb trail, only the dog home) to reach an answer. That is deducing."
+   },
+   {
+    "id": "deduce.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix de- can mean \"from,\" and the root duc means \"lead,\" as in conduct. So when you deduce something, you...",
+    "options": [
+     {
+      "id": "a",
+      "text": "lead a group on a trip"
+     },
+     {
+      "id": "b",
+      "text": "take a number away from a total"
+     },
+     {
+      "id": "c",
+      "text": "guess without thinking"
+     },
+     {
+      "id": "d",
+      "text": "let the evidence lead you to an answer"
+     }
+    ],
+    "answer": "d",
+    "hint": "De- = from. Duc = lead.",
+    "explanation": "When you deduce, the facts lead you from evidence to an answer. Taking a number away is \"deduct,\" a different word, and guessing skips the evidence."
+   },
+   {
+    "id": "deduce.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Everyone who ate the potato salad got sick, and no one who skipped it did. Using these facts, the health inspector ___ that the salad caused the illness.",
+    "options": [
+     {
+      "id": "a",
+      "text": "guessed"
+     },
+     {
+      "id": "b",
+      "text": "deduced"
+     },
+     {
+      "id": "c",
+      "text": "assumed"
+     },
+     {
+      "id": "d",
+      "text": "imagined"
+     }
+    ],
+    "answer": "b",
+    "clue": "Using these facts",
+    "hint": "The inspector used facts. Which word means reasoning from evidence?",
+    "explanation": "Guessing and assuming happen without evidence, and imagining is make-believe. The inspector reasoned carefully from facts, so deduced is the best fit."
+   },
+   {
+    "id": "deduce.verb.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "A good detective can ___ a lot about a person from small clues like muddy boots or ink-stained fingers.",
+    "options": [
+     {
+      "id": "a",
+      "text": "deduce"
+     },
+     {
+      "id": "b",
+      "text": "decorate"
+     },
+     {
+      "id": "c",
+      "text": "deliver"
+     },
+     {
+      "id": "d",
+      "text": "delay"
+     }
+    ],
+    "answer": "a",
+    "clue": "from small clues",
+    "hint": "What does a detective DO with small clues?",
+    "explanation": "Detectives use small clues to reason their way to answers about a person. That is deducing. The other de- words look similar but mean very different things."
+   },
+   {
+    "id": "deduce.verb.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "What does \"deduced\" mean in this passage?",
+    "passage": "Ancient sailors noticed that ships disappeared bottom-first over the horizon. From this, they deduced that the Earth's surface must be curved.",
+    "options": [
+     {
+      "id": "a",
+      "text": "were told by a teacher"
+     },
+     {
+      "id": "b",
+      "text": "wished it were true"
+     },
+     {
+      "id": "c",
+      "text": "figured out by reasoning from what they saw"
+     },
+     {
+      "id": "d",
+      "text": "proved wrong"
+     }
+    ],
+    "answer": "c",
+    "clue": "From this",
+    "hint": "\"From this\" points back to the evidence.",
+    "explanation": "The sailors noticed something (ships vanishing bottom-first) and reasoned from it to an answer (Earth is curved). Deduced means figured out by reasoning from evidence."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "diminish.verb.1",
+  "word": "diminish",
+  "grade": 6,
+  "pos": "verb",
+  "say": "dih-MIN-ish",
+  "definition": "to become or make smaller, weaker, or less",
+  "hero": {
+   "text": "As Kai calmly explained the plan, the crowd's panic began to diminish.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "😌",
+     "👥"
+    ],
+    "setting": "street"
+   }
+  },
+  "everyday": "The sound of the train diminished as it moved farther away.",
+  "contrast": {
+   "nonExample": "The snowball grew bigger and bigger as it rolled down the hill.",
+   "explanation": "Growing is the opposite of diminishing. To diminish is to get smaller or weaker.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "☃️",
+     "⛰️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "decrease",
+    "lessen",
+    "shrink",
+    "fade"
+   ],
+   "antonyms": [
+    "increase",
+    "grow",
+    "enhance"
+   ],
+   "family": [
+    "diminished",
+    "diminishing"
+   ]
+  },
+  "forms": [
+   "diminish",
+   "diminishes",
+   "diminished",
+   "diminishing"
+  ],
+  "parts": [
+   {
+    "part": "mini",
+    "meaning": "small"
+   }
+  ],
+  "tags": [
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "diminish.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"diminished\" mean in this sentence?",
+    "passage": "The pain in Ella's ankle diminished after she rested it for a week.",
+    "options": [
+     {
+      "id": "a",
+      "text": "spread"
+     },
+     {
+      "id": "b",
+      "text": "grew less"
+     },
+     {
+      "id": "c",
+      "text": "came back"
+     },
+     {
+      "id": "d",
+      "text": "began suddenly"
+     }
+    ],
+    "answer": "b",
+    "hint": "What usually happens to pain after rest?",
+    "explanation": "After a week of rest, the pain got smaller. Diminished means became less."
+   },
+   {
+    "id": "diminish.verb.1#2",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"diminished\" in this sentence?",
+    "passage": "Over the dry summer, the water in the pond diminished until only mud was left.",
+    "options": [
+     {
+      "id": "a",
+      "text": "evaporated"
+     },
+     {
+      "id": "b",
+      "text": "shrank"
+     },
+     {
+      "id": "c",
+      "text": "froze"
+     },
+     {
+      "id": "d",
+      "text": "increased"
+     }
+    ],
+    "answer": "d",
+    "hint": "Diminished means got smaller. Which word means got bigger?",
+    "explanation": "Diminished means got less, so increased is the opposite. Shrank means nearly the same as diminished, and evaporated is how the water got less."
+   },
+   {
+    "id": "diminish.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The noise from the party ___ as the guests left, but a few people were still laughing in the kitchen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "vanished"
+     },
+     {
+      "id": "b",
+      "text": "diminished"
+     },
+     {
+      "id": "c",
+      "text": "exploded"
+     },
+     {
+      "id": "d",
+      "text": "repeated"
+     }
+    ],
+    "answer": "b",
+    "clue": "a few people were still laughing",
+    "hint": "Was the noise completely gone?",
+    "explanation": "Vanished means gone completely, but \"a few people were still laughing,\" so some noise remained. The noise got smaller, which is diminished."
+   },
+   {
+    "id": "diminish.verb.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of diminishing?",
+    "passage": "All afternoon, more and more fans poured into the stadium, and the cheering grew louder and louder.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is something getting smaller or weaker?",
+    "explanation": "No. The crowd and the cheering are both growing, which is the opposite of diminishing. Diminish means to become smaller, weaker, or less."
+   },
+   {
+    "id": "diminish.verb.1#5",
+    "format": "word_parts",
+    "stage": "transfer",
+    "prompt": "Diminish shares the root mini, meaning \"small,\" with miniature and minimum. Which sentence uses diminish correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "The balloon diminished to twice its first size."
+     },
+     {
+      "id": "b",
+      "text": "The crowd diminished from 50 people to 500."
+     },
+     {
+      "id": "c",
+      "text": "Her excitement diminished into total joy."
+     },
+     {
+      "id": "d",
+      "text": "The candle's light diminished as it burned down."
+     }
+    ],
+    "answer": "d",
+    "hint": "Mini = small. Diminish should mean getting smaller.",
+    "explanation": "The candle's light getting weaker is a true example of diminishing. A balloon doubling, a crowd growing to 500, and excitement turning into joy are all increases."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "dominant.adj.1",
+  "word": "dominant",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "DOM-uh-nunt",
+  "definition": "most powerful, important, or noticeable; in control over others",
+  "hero": {
+   "text": "Blue is the dominant color in Nova's new suit, with only thin silver stripes.",
+   "scene": {
+    "pose": "proud",
+    "props": [
+     "💙",
+     "✨"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "In the forest, oak trees were the dominant species, far outnumbering the pines.",
+  "contrast": {
+   "nonExample": "In the painting, a tiny red dot sits in one corner of a huge green field.",
+   "explanation": "The tiny red dot is a minor detail. Green is the dominant color because it fills most of the space and catches the eye.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🖼️",
+     "🟢"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "main",
+    "leading",
+    "controlling",
+    "chief"
+   ],
+   "antonyms": [
+    "minor",
+    "secondary"
+   ],
+   "family": [
+    "dominate",
+    "dominance"
+   ]
+  },
+  "forms": [
+   "dominant"
+  ],
+  "tags": [
+   "science",
+   "arts",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "dominant.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"dominant\" mean in this sentence?",
+    "passage": "Wolves in a pack follow the dominant pair, who lead the hunts and eat first.",
+    "options": [
+     {
+      "id": "a",
+      "text": "most powerful and in control"
+     },
+     {
+      "id": "b",
+      "text": "youngest"
+     },
+     {
+      "id": "c",
+      "text": "friendliest"
+     },
+     {
+      "id": "d",
+      "text": "most hidden"
+     }
+    ],
+    "answer": "a",
+    "clue": "lead the hunts and eat first",
+    "hint": "Who leads and eats first?",
+    "explanation": "The pair that leads the hunts and eats first has the most power in the pack. That is dominant."
+   },
+   {
+    "id": "dominant.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Rain was the ___ feature of the region's weather, falling on almost 300 days each year.",
+    "options": [
+     {
+      "id": "a",
+      "text": "rare"
+     },
+     {
+      "id": "b",
+      "text": "gentle"
+     },
+     {
+      "id": "c",
+      "text": "dominant"
+     },
+     {
+      "id": "d",
+      "text": "surprising"
+     }
+    ],
+    "answer": "c",
+    "clue": "almost 300 days each year",
+    "hint": "Almost 300 days a year! Is rain a small part or the main part of the weather?",
+    "explanation": "Rain on almost 300 days a year makes it the main, most noticeable feature. Dominant fits; rare is the opposite."
+   },
+   {
+    "id": "dominant.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Most people write, throw, and eat with the same hand. That hand is called their ___ hand.",
+    "options": [
+     {
+      "id": "a",
+      "text": "superior"
+     },
+     {
+      "id": "b",
+      "text": "bossy"
+     },
+     {
+      "id": "c",
+      "text": "dominant"
+     },
+     {
+      "id": "d",
+      "text": "famous"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which hand is the strongest and most used?",
+    "explanation": "The hand you use most is your dominant hand, the one in charge. Bossy describes a personality, and superior means better than others, which is not what we mean about hands."
+   },
+   {
+    "id": "dominant.adj.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is there a dominant member in this group?",
+    "passage": "In a group project, all four students share the work equally and take turns leading the meetings.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does one person have more power or control?",
+    "explanation": "No. Everyone shares the work and the leading equally, so no one is dominant. Dominant means having the most power or control."
+   },
+   {
+    "id": "dominant.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"dominant\" naturally?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"Hip-hop was the dominant sound at the festival; almost every stage played it.\""
+     },
+     {
+      "id": "b",
+      "text": "\"I will dominant the dishes after dinner tonight.\""
+     },
+     {
+      "id": "c",
+      "text": "\"The tiny stain was so dominant that nobody could see it.\""
+     },
+     {
+      "id": "d",
+      "text": "\"She whispered in a dominant voice that no one could hear.\""
+     }
+    ],
+    "answer": "a",
+    "hint": "Dominant means most powerful or noticeable.",
+    "explanation": "Hip-hop played on almost every stage was the main, most noticeable sound. That is dominant. A stain nobody sees or a voice nobody hears is the opposite."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "empathy.noun.1",
+  "word": "empathy",
+  "grade": 6,
+  "pos": "noun",
+  "say": "EM-puh-thee",
+  "definition": "the ability to understand and share the feelings of another person",
+  "hero": {
+   "text": "Juniper showed empathy for the lost child, kneeling down and saying, \"I would be scared too.\"",
+   "scene": {
+    "pose": "kind",
+    "props": [
+     "🧒",
+     "🤝"
+    ],
+    "setting": "park",
+    "second": "sad"
+   }
+  },
+  "everyday": "Because Malik once broke his arm, he had empathy for his friend who was wearing a cast.",
+  "contrast": {
+   "nonExample": "When Jen dropped her lunch tray, Chris laughed and walked away.",
+   "explanation": "Chris ignored how Jen felt, so he showed no empathy. Empathy means imagining and understanding someone else's feelings.",
+   "scene": {
+    "pose": "sad",
+    "props": [
+     "🍱",
+     "😢"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "understanding",
+    "compassion",
+    "fellow feeling"
+   ],
+   "antonyms": [
+    "indifference",
+    "coldness"
+   ],
+   "family": [
+    "empathize",
+    "empathetic"
+   ]
+  },
+  "forms": [
+   "empathy"
+  ],
+  "parts": [
+   {
+    "part": "em-",
+    "meaning": "in"
+   },
+   {
+    "part": "path",
+    "meaning": "feeling"
+   }
+  ],
+  "tags": [
+   "reading",
+   "social",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "empathy.noun.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Does Sofia show empathy?",
+    "passage": "When Sofia's friend lost a big game, Sofia remembered how awful losing felt and sat with her quietly.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is Sofia understanding how her friend feels?",
+    "explanation": "Yes. Sofia remembered a similar feeling and used it to understand her friend's sadness. That is empathy."
+   },
+   {
+    "id": "empathy.noun.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The root path means \"feeling,\" as in sympathy. The prefix em- means \"in.\" So empathy is...",
+    "options": [
+     {
+      "id": "a",
+      "text": "a path through the woods"
+     },
+     {
+      "id": "b",
+      "text": "a fear of meeting strangers"
+     },
+     {
+      "id": "c",
+      "text": "a complete lack of feeling"
+     },
+     {
+      "id": "d",
+      "text": "feeling what is inside another person's heart"
+     }
+    ],
+    "answer": "d",
+    "hint": "Em- = in. Path = feeling.",
+    "explanation": "Empathy means getting \"into\" someone else's feelings: understanding what they feel as if from the inside. The \"path\" here is about feeling, not a trail."
+   },
+   {
+    "id": "empathy.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what Ana felt?",
+    "passage": "Ana didn't just feel sorry for the new student. She imagined being in his shoes, not knowing anyone and getting lost in the halls, and she truly understood how lonely he felt.",
+    "options": [
+     {
+      "id": "a",
+      "text": "sympathy"
+     },
+     {
+      "id": "b",
+      "text": "empathy"
+     },
+     {
+      "id": "c",
+      "text": "pity"
+     },
+     {
+      "id": "d",
+      "text": "curiosity"
+     }
+    ],
+    "answer": "b",
+    "clue": "didn't just feel sorry; imagined being in his shoes",
+    "hint": "\"Didn't just feel sorry\" tells you it was more than sympathy.",
+    "explanation": "Sympathy and pity mean feeling sorry FOR someone. Ana went further: she imagined being in his place and understood his loneliness from the inside. That deeper understanding is empathy."
+   },
+   {
+    "id": "empathy.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Good nurses need ___, because patients feel calmer when someone truly understands their fear.",
+    "options": [
+     {
+      "id": "a",
+      "text": "empathy"
+     },
+     {
+      "id": "b",
+      "text": "speed"
+     },
+     {
+      "id": "c",
+      "text": "luck"
+     },
+     {
+      "id": "d",
+      "text": "silence"
+     }
+    ],
+    "answer": "a",
+    "clue": "truly understands their fear",
+    "hint": "What helps someone understand another person's fear?",
+    "explanation": "\"Truly understands their fear\" describes empathy, the ability to understand and share another person's feelings."
+   },
+   {
+    "id": "empathy.noun.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "What changed in the main character?",
+    "passage": "In the novel, Maya can't stand her grumpy neighbor at first. Then she learns that his family moved far away and he has been alone for years. Her anger turns to empathy.",
+    "options": [
+     {
+      "id": "a",
+      "text": "She started to be afraid of the neighbor"
+     },
+     {
+      "id": "b",
+      "text": "She decided to move away too"
+     },
+     {
+      "id": "c",
+      "text": "She began to understand how the neighbor felt"
+     },
+     {
+      "id": "d",
+      "text": "She forgot all about the neighbor"
+     }
+    ],
+    "answer": "c",
+    "clue": "Her anger turns to empathy",
+    "hint": "What did Maya learn, and how did it change her feelings?",
+    "explanation": "Learning about his loneliness helped Maya understand his feelings. Her anger turned into empathy, the ability to understand someone else's feelings."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "enhance.verb.1",
+  "word": "enhance",
+  "grade": 6,
+  "pos": "verb",
+  "say": "en-HANS",
+  "definition": "to make something better, stronger, or more attractive",
+  "hero": {
+   "text": "Pixel enhanced the blurry security photo until the license plate was easy to read.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "📷",
+     "💻"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "A pinch of salt can enhance the sweet flavor of caramel.",
+  "contrast": {
+   "nonExample": "Spilling juice on the poster smeared all the letters.",
+   "explanation": "The spill made the poster worse, not better. To enhance is to improve something that already exists.",
+   "scene": {
+    "pose": "sad",
+    "props": [
+     "🧃",
+     "🪧"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "improve",
+    "boost",
+    "strengthen"
+   ],
+   "antonyms": [
+    "diminish",
+    "weaken",
+    "worsen"
+   ],
+   "family": [
+    "enhancement",
+    "enhanced"
+   ]
+  },
+  "forms": [
+   "enhance",
+   "enhances",
+   "enhanced",
+   "enhancing"
+  ],
+  "tags": [
+   "arts",
+   "science",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "enhance.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"enhanced\" mean in this sentence?",
+    "passage": "The stage lights enhanced the dancers' costumes, making the colors glow.",
+    "options": [
+     {
+      "id": "a",
+      "text": "hid from view"
+     },
+     {
+      "id": "b",
+      "text": "made better or more striking"
+     },
+     {
+      "id": "c",
+      "text": "damaged"
+     },
+     {
+      "id": "d",
+      "text": "replaced"
+     }
+    ],
+    "answer": "b",
+    "clue": "making the colors glow",
+    "hint": "What did the lights do to the colors?",
+    "explanation": "The lights made the colors glow, so the costumes looked even better. Enhanced means improved or made more striking."
+   },
+   {
+    "id": "enhance.verb.1#2",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"enhance\" in this sentence?",
+    "passage": "Regular practice will enhance your piano skills.",
+    "options": [
+     {
+      "id": "a",
+      "text": "improve"
+     },
+     {
+      "id": "b",
+      "text": "test"
+     },
+     {
+      "id": "c",
+      "text": "display"
+     },
+     {
+      "id": "d",
+      "text": "weaken"
+     }
+    ],
+    "answer": "d",
+    "hint": "Enhance means make better. What means make worse?",
+    "explanation": "Enhance means improve, so weaken is the opposite. Improve is a synonym, not an opposite."
+   },
+   {
+    "id": "enhance.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is the gardener enhancing her soil?",
+    "passage": "A gardener mixes compost into her soil so her tomato plants grow healthier and produce more fruit.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is she making something better?",
+    "explanation": "Yes. Adding compost improves the soil that is already there, so the plants grow better. That is enhancing."
+   },
+   {
+    "id": "enhance.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The museum didn't paint a new picture. It cleaned the old painting and added better lighting to ___ its colors.",
+    "options": [
+     {
+      "id": "a",
+      "text": "create"
+     },
+     {
+      "id": "b",
+      "text": "enhance"
+     },
+     {
+      "id": "c",
+      "text": "invent"
+     },
+     {
+      "id": "d",
+      "text": "disguise"
+     }
+    ],
+    "answer": "b",
+    "clue": "didn't paint a new picture",
+    "hint": "The painting already existed. What did the museum do to it?",
+    "explanation": "Create and invent mean making something new, but the painting already existed. Cleaning and lighting improved what was there, which is enhancing. Disguise would hide the colors."
+   },
+   {
+    "id": "enhance.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what enhance means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "enhanced the students' view"
+     },
+     {
+      "id": "c2",
+      "text": "The new microscope"
+     },
+     {
+      "id": "c3",
+      "text": "by making the cells blurry and hard to see."
+     },
+     {
+      "id": "c4",
+      "text": "by making tiny cells look sharper."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Enhance means make better.",
+    "explanation": "Making cells look sharper improves the view, which is enhancing. Making them blurry would make the view worse."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "evaluate.verb.1",
+  "word": "evaluate",
+  "grade": 6,
+  "pos": "verb",
+  "say": "ih-VAL-yoo-ayt",
+  "definition": "to judge carefully how good, useful, or important something is",
+  "hero": {
+   "text": "Rex evaluated each escape route, checking which was safest before leading everyone out.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🚪",
+     "📋"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The teacher evaluated each project using a checklist of what a strong report needs.",
+  "contrast": {
+   "nonExample": "Ivy copied facts from the first website she found without checking whether they were true.",
+   "explanation": "Ivy never judged the source's quality, so she did not evaluate it. Evaluating means carefully weighing strengths and weaknesses.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "💻",
+     "📋"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "assess",
+    "judge",
+    "rate"
+   ],
+   "antonyms": [],
+   "family": [
+    "evaluation",
+    "evaluator"
+   ]
+  },
+  "forms": [
+   "evaluate",
+   "evaluates",
+   "evaluated",
+   "evaluating"
+  ],
+  "tags": [
+   "science",
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "evaluate.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is Jamal evaluating?",
+    "passage": "Before buying a bike, Jamal compares the price, weight, and reviews of three different models.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is Jamal carefully judging which is best?",
+    "explanation": "Yes. Jamal weighs the strengths and weaknesses of each bike before deciding. That is evaluating."
+   },
+   {
+    "id": "evaluate.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "Look inside the word evaluate: e-VALU-ate. Which word is hiding in it, and what does that suggest?",
+    "options": [
+     {
+      "id": "a",
+      "text": "valley, so evaluate means walking down a hill"
+     },
+     {
+      "id": "b",
+      "text": "vacation, so evaluate means taking a break"
+     },
+     {
+      "id": "c",
+      "text": "violin, so evaluate means playing music"
+     },
+     {
+      "id": "d",
+      "text": "value, so evaluate means judging how valuable something is"
+     }
+    ],
+    "answer": "d",
+    "hint": "Find a smaller word inside e-VALU-ate.",
+    "explanation": "Evaluate contains \"value.\" To evaluate something is to figure out its value: how good, useful, or important it is."
+   },
+   {
+    "id": "evaluate.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Before trusting a news story, it is smart to ___ the source: Who wrote it, and what evidence do they give?",
+    "options": [
+     {
+      "id": "a",
+      "text": "evaluate"
+     },
+     {
+      "id": "b",
+      "text": "decorate"
+     },
+     {
+      "id": "c",
+      "text": "memorize"
+     },
+     {
+      "id": "d",
+      "text": "repeat"
+     }
+    ],
+    "answer": "a",
+    "clue": "Who wrote it, and what evidence do they give?",
+    "hint": "The questions after the colon tell you what to do with the source.",
+    "explanation": "Asking who wrote it and what evidence they give are ways of judging how trustworthy a source is. That is evaluating."
+   },
+   {
+    "id": "evaluate.verb.1#4",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "Describing a movie tells what happens in it. Which task asks you to EVALUATE the movie?",
+    "options": [
+     {
+      "id": "a",
+      "text": "List the names of all the main characters in order."
+     },
+     {
+      "id": "b",
+      "text": "Retell the plot from the beginning to the end."
+     },
+     {
+      "id": "c",
+      "text": "Explain whether the ending worked, and why."
+     },
+     {
+      "id": "d",
+      "text": "Draw a picture of the scene you remember best."
+     }
+    ],
+    "answer": "c",
+    "hint": "Evaluating means judging quality.",
+    "explanation": "Deciding whether the ending worked and explaining why is a judgment about quality. That is evaluating. Listing, retelling, and drawing describe the movie without judging it."
+   },
+   {
+    "id": "evaluate.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"evaluate\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I evaluated my sandwich into four equal pieces.\""
+     },
+     {
+      "id": "b",
+      "text": "\"The geese evaluated south for the winter months.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Let's evaluate both plans and pick the one with fewer risks.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Please evaluate the lights when you leave the room.\""
+     }
+    ],
+    "answer": "c",
+    "hint": "Evaluate means carefully judge.",
+    "explanation": "Comparing two plans to see which has fewer risks is careful judging, so the first line is correct. The others confuse evaluate with cut, fly, or turn off."
+   }
+  ],
+  "review": "pending"
+ }
+]

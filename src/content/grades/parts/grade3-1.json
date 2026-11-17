@@ -1,0 +1,873 @@
+[
+  {
+    "id": "cautious.adj.1",
+    "word": "cautious",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "KAW-shus",
+    "definition": "careful to avoid danger or mistakes",
+    "hero": {
+      "text": "Juniper was cautious on the icy rooftop, testing each step before putting her weight down.",
+      "scene": { "pose": "hesitant", "props": ["🧊", "👣"], "setting": "city" }
+    },
+    "everyday": "Grandpa is cautious at the busy corner and looks both ways twice before crossing.",
+    "contrast": {
+      "nonExample": "Theo raced down the steep hill on his bike without touching the brakes.",
+      "explanation": "Cautious people slow down and think about danger first. Theo rushed ahead without any care, so he was reckless, not cautious.",
+      "scene": { "pose": "excited", "props": ["🚲", "💨"], "setting": "park" }
+    },
+    "related": { "synonyms": ["careful", "watchful"], "antonyms": ["careless", "reckless"], "family": ["caution", "cautiously"] },
+    "forms": ["cautious"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "cautious.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is being cautious?",
+        "options": [
+          { "id": "a", "text": "Mila taps the pond ice with a stick before stepping on it." },
+          { "id": "b", "text": "Jon dashes straight onto the frozen pond without looking first or checking." },
+          { "id": "c", "text": "Ana laughs as she slides across the pond." }
+        ],
+        "answer": "a",
+        "hint": "Look for the person who checks for danger first.",
+        "explanation": "Cautious means careful to avoid danger. Mila tests the ice before she trusts it.",
+        "wrong": { "b": "Jon does not check at all, so he is careless, not cautious.", "c": "Ana is having fun, but nothing shows she is being careful." }
+      },
+      {
+        "id": "cautious.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Mom is ___ with hot pans, so she always uses thick oven mitts.",
+        "options": [
+          { "id": "a", "text": "furious" }, { "id": "b", "text": "wealthy" },
+          { "id": "c", "text": "cautious" }, { "id": "d", "text": "ancient" }
+        ],
+        "answer": "c",
+        "clue": "always uses thick oven mitts",
+        "hint": "Why would someone always wear thick mitts?",
+        "explanation": "\"Always uses thick oven mitts\" shows Mom is careful not to get burned. That is cautious."
+      },
+      {
+        "id": "cautious.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"cautious\" in this sentence?",
+        "passage": "The cautious hiker stayed far away from the edge of the cliff.",
+        "options": [
+          { "id": "a", "text": "careful" }, { "id": "b", "text": "reckless" },
+          { "id": "c", "text": "tired" }, { "id": "d", "text": "quiet" }
+        ],
+        "answer": "b",
+        "hint": "The opposite of being careful about danger is...?",
+        "explanation": "Reckless means not caring about danger, the opposite of cautious. Careful means the same as cautious, not the opposite.",
+        "wrong": { "a": "Careful is a synonym of cautious, not its opposite." }
+      },
+      {
+        "id": "cautious.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what cautious means.",
+        "chunks": [
+          { "id": "c1", "text": "Because the floor was wet," },
+          { "id": "c2", "text": "Ravi was cautious" },
+          { "id": "c3", "text": "and took small, slow steps." },
+          { "id": "c4", "text": "and ran and slid everywhere." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A cautious person is careful. Which ending shows care?",
+        "explanation": "Taking small, slow steps on a wet floor is careful, so it shows caution. Running and sliding is careless."
+      },
+      {
+        "id": "cautious.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Lily?",
+        "passage": "Before she touched the strange plant, Lily put on gloves and asked her teacher if it was safe.",
+        "options": [
+          { "id": "a", "text": "lazy" }, { "id": "b", "text": "furious" },
+          { "id": "c", "text": "careless" }, { "id": "d", "text": "cautious" }
+        ],
+        "answer": "d",
+        "clue": "put on gloves; asked her teacher if it was safe",
+        "hint": "What does Lily do before she touches the plant?",
+        "explanation": "Lily \"put on gloves\" and \"asked if it was safe\" before touching anything. Checking for danger first is being cautious."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "fortunate.adj.1",
+    "word": "fortunate",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "FOR-chuh-nut",
+    "definition": "lucky; having something good happen to you",
+    "hero": {
+      "text": "Bolt was fortunate that the storm stopped just as he finished fixing the bridge.",
+      "scene": { "pose": "happy", "props": ["🌈", "🌉"], "setting": "city" }
+    },
+    "everyday": "We were fortunate to get a sunny day for our class picnic.",
+    "contrast": {
+      "nonExample": "Ella practiced every single day, so she earned a spot on the soccer team.",
+      "explanation": "Fortunate means something good happens by luck. Ella earned her spot through hard work, so it was not just luck.",
+      "scene": { "pose": "determined", "props": ["⚽", "🏅"], "setting": "park" }
+    },
+    "related": { "synonyms": ["lucky"], "antonyms": ["unfortunate", "unlucky"], "family": ["fortune", "fortunately", "unfortunate"] },
+    "forms": ["fortunate"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "fortunate.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Max fortunate?",
+        "passage": "Max dropped his ice cream cone, but it landed right side up on a clean plate.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Did something lucky happen to Max?",
+        "explanation": "Fortunate means lucky. The cone landing safely on a clean plate was a lucky break for Max."
+      },
+      {
+        "id": "fortunate.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Our bus was late, but we were ___ because the show had not started yet.",
+        "options": [
+          { "id": "a", "text": "timid" }, { "id": "b", "text": "fortunate" },
+          { "id": "c", "text": "fragile" }, { "id": "d", "text": "sincere" }
+        ],
+        "answer": "b",
+        "clue": "the show had not started yet",
+        "hint": "Being late could have been bad. What happened instead?",
+        "explanation": "\"The show had not started yet\" means things worked out by luck even though the bus was late. That is fortunate."
+      },
+      {
+        "id": "fortunate.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"fortunate\" in this sentence?",
+        "passage": "Nia felt fortunate to find her lost key in the tall grass.",
+        "options": [
+          { "id": "a", "text": "clever" }, { "id": "b", "text": "sleepy" },
+          { "id": "c", "text": "lucky" }, { "id": "d", "text": "angry" }
+        ],
+        "answer": "c",
+        "hint": "Finding a tiny key in tall grass takes some luck.",
+        "explanation": "Lucky means the same as fortunate. Clever would mean she found it by being smart, but the sentence is about good luck."
+      },
+      {
+        "id": "fortunate.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what fortunate means.",
+        "chunks": [
+          { "id": "c1", "text": "Sam was fortunate" },
+          { "id": "c2", "text": "because he found a dollar" },
+          { "id": "c3", "text": "on the sidewalk." },
+          { "id": "c4", "text": "because he lost his lunch money" }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Fortunate means something lucky happened. Which reason is lucky?",
+        "explanation": "Finding a dollar is a lucky surprise, so Sam was fortunate. Losing money is unlucky."
+      },
+      {
+        "id": "fortunate.adj.1#5", "format": "word_parts", "stage": "transfer",
+        "prompt": "The prefix un- means \"not.\" What does \"unfortunate\" mean in this sentence?",
+        "passage": "It was unfortunate that rain cancelled our baseball game.",
+        "options": [
+          { "id": "a", "text": "lucky" }, { "id": "b", "text": "unlucky" },
+          { "id": "c", "text": "exciting" }, { "id": "d", "text": "safe" }
+        ],
+        "answer": "b",
+        "hint": "Un- + fortunate = not ___.",
+        "explanation": "Un- means not, so unfortunate means not lucky. A cancelled game is bad luck.",
+        "wrong": { "a": "Lucky is what fortunate means. The un- flips it to the opposite." }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "curious.adj.1",
+    "word": "curious",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "KYUR-ee-us",
+    "definition": "wanting to know or learn about something",
+    "hero": {
+      "text": "Pixel was curious about the glowing rock, so she studied it under her magnifier.",
+      "scene": { "pose": "thinking", "props": ["🔍", "🪨"], "setting": "lab" }
+    },
+    "everyday": "The curious toddler opened every kitchen drawer to see what was inside.",
+    "contrast": {
+      "nonExample": "Leo yawned and looked away when his friend showed him the new fish tank.",
+      "explanation": "Curious people want to find out more. Leo showed no interest at all, so he was bored, not curious.",
+      "scene": { "pose": "tired", "props": ["🐠", "🥱"], "setting": "home" }
+    },
+    "related": { "synonyms": ["interested", "inquisitive"], "antonyms": ["bored", "uninterested"], "family": ["curiosity", "curiously"] },
+    "forms": ["curious"],
+    "tags": ["science", "reading"],
+    "items": [
+      {
+        "id": "curious.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "What does \"curious\" mean in this sentence?",
+        "passage": "Jada was curious about how bees make honey.",
+        "options": [
+          { "id": "a", "text": "afraid that something will hurt you" },
+          { "id": "b", "text": "wanting to learn about something" },
+          { "id": "c", "text": "upset that something went wrong" },
+          { "id": "d", "text": "tired of hearing about something" }
+        ],
+        "answer": "b",
+        "hint": "Jada is wondering HOW bees do something.",
+        "explanation": "Curious means wanting to know more. Jada wonders how bees make honey, so she wants to learn."
+      },
+      {
+        "id": "curious.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ puppy sniffed the new box to find out what was inside.",
+        "options": [
+          { "id": "a", "text": "wealthy" }, { "id": "b", "text": "ancient" },
+          { "id": "c", "text": "polite" }, { "id": "d", "text": "curious" }
+        ],
+        "answer": "d",
+        "clue": "to find out what was inside",
+        "hint": "The puppy wants to find something out.",
+        "explanation": "\"To find out what was inside\" shows the puppy wants to know something. That is curious."
+      },
+      {
+        "id": "curious.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"curious\" in this sentence?",
+        "passage": "The curious students asked the zookeeper many questions about the snakes.",
+        "options": [
+          { "id": "a", "text": "interested" }, { "id": "b", "text": "bored" },
+          { "id": "c", "text": "noisy" }, { "id": "d", "text": "scared" }
+        ],
+        "answer": "b",
+        "hint": "Curious students ask lots of questions. What kind of students would ask none?",
+        "explanation": "Bored students don't care to learn more, the opposite of curious. Interested is a synonym, not an opposite.",
+        "wrong": { "a": "Interested means almost the same as curious." }
+      },
+      {
+        "id": "curious.adj.1#4", "format": "dialogue", "stage": "independent",
+        "prompt": "Which line uses \"curious\" correctly?",
+        "options": [
+          { "id": "a", "text": "\"I'm curious about what's in that box. Can we open it?\"" },
+          { "id": "b", "text": "\"I'm so curious that I never want to know what is inside it.\"" },
+          { "id": "c", "text": "\"I felt curious, so I went right to sleep.\"" }
+        ],
+        "answer": "a",
+        "hint": "A curious person wants to find out more.",
+        "explanation": "Wanting to open the box to see what's inside shows curiosity. Not wanting to know, or going to sleep, shows no curiosity."
+      },
+      {
+        "id": "curious.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Omar?",
+        "passage": "Omar kept asking questions about the moon and checked out five library books about space.",
+        "options": [
+          { "id": "a", "text": "clumsy" }, { "id": "b", "text": "nervous" },
+          { "id": "c", "text": "curious" }, { "id": "d", "text": "furious" }
+        ],
+        "answer": "c",
+        "clue": "kept asking questions; checked out five library books",
+        "hint": "What do all those questions and books tell you about Omar?",
+        "explanation": "\"Kept asking questions\" and \"five library books about space\" show Omar wants to learn more. That is curious."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "predict.verb.1",
+    "word": "predict",
+    "grade": 3,
+    "pos": "verb",
+    "say": "prih-DIKT",
+    "definition": "to say what you think will happen before it happens",
+    "hero": {
+      "text": "Kai looked at the dark clouds and predicted the storm would reach the city by noon.",
+      "scene": { "pose": "thinking", "props": ["⛈️", "🏙️"], "setting": "sky" }
+    },
+    "everyday": "Before reading the story, our class predicted that the fox would trick the hen.",
+    "contrast": {
+      "nonExample": "After the game was over, Ty told everyone the final score.",
+      "explanation": "To predict, you tell what will happen BEFORE it happens. Ty reported the score after the game, so he did not predict it.",
+      "scene": { "pose": "talking", "props": ["🏀", "📋"], "setting": "school" }
+    },
+    "related": { "synonyms": ["guess", "forecast"], "antonyms": [], "family": ["prediction", "predictable", "unpredictable"] },
+    "forms": ["predict", "predicts", "predicted", "predicting"],
+    "parts": [{ "part": "pre-", "meaning": "before" }, { "part": "dict", "meaning": "say" }],
+    "tags": ["science", "reading"],
+    "items": [
+      {
+        "id": "predict.verb.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is predicting?",
+        "options": [
+          { "id": "a", "text": "Zara says, \"I think the ice cube will melt in ten minutes.\"" },
+          { "id": "b", "text": "Zara says, \"The ice cube melted while we sat and watched it.\"" },
+          { "id": "c", "text": "Zara says, \"The ice cube feels cold and wet.\"" }
+        ],
+        "answer": "a",
+        "hint": "Who talks about something that has not happened yet?",
+        "explanation": "To predict is to say what will happen before it does. \"Will melt\" is about the future.",
+        "wrong": { "b": "\"Melted\" already happened, so Zara is telling what she saw, not predicting.", "c": "Zara is describing how it feels right now." }
+      },
+      {
+        "id": "predict.verb.1#2", "format": "word_parts", "stage": "independent",
+        "prompt": "The prefix pre- means \"before,\" and dict means \"say.\" What does \"predict\" mean?",
+        "options": [
+          { "id": "a", "text": "to say something so loudly that all can hear" },
+          { "id": "b", "text": "to say what will happen before it happens" },
+          { "id": "c", "text": "to repeat what someone else just said" },
+          { "id": "d", "text": "to write down every word very carefully" }
+        ],
+        "answer": "b",
+        "hint": "Put the parts together: say + before.",
+        "explanation": "Pre- (before) + dict (say) = to say before. When you predict, you say what will happen before it happens."
+      },
+      {
+        "id": "predict.verb.1#3", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Can you ___ what will happen if we leave the ice cream in the sun?",
+        "options": [
+          { "id": "a", "text": "vanish" }, { "id": "b", "text": "boast" },
+          { "id": "c", "text": "predict" }, { "id": "d", "text": "wilt" }
+        ],
+        "answer": "c",
+        "clue": "what will happen",
+        "hint": "The question asks about something in the future.",
+        "explanation": "\"What will happen\" asks you to think ahead. Saying what will happen before it does is predicting."
+      },
+      {
+        "id": "predict.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what predict means.",
+        "chunks": [
+          { "id": "c1", "text": "Before the race started," },
+          { "id": "c2", "text": "Mia predicted" },
+          { "id": "c3", "text": "that the gray turtle would win." },
+          { "id": "c4", "text": "that the gray turtle had already won." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A prediction is about what WILL happen.",
+        "explanation": "\"Would win\" talks about the future, which is a prediction. \"Had already won\" can't be true before the race even started."
+      },
+      {
+        "id": "predict.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best names what the weather reporter did?",
+        "passage": "The weather reporter studied the maps and told viewers that snow would fall tomorrow.",
+        "options": [
+          { "id": "a", "text": "recalled" }, { "id": "b", "text": "imitated" },
+          { "id": "c", "text": "boasted" }, { "id": "d", "text": "predicted" }
+        ],
+        "answer": "d",
+        "clue": "would fall tomorrow",
+        "hint": "Is the reporter talking about the past or the future?",
+        "explanation": "\"Would fall tomorrow\" is about the future, so the reporter predicted. Recalled means remembered something from the past."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "eager.adj.1",
+    "word": "eager",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "EE-gur",
+    "definition": "wanting very much to do or have something",
+    "hero": {
+      "text": "Rex was eager to try his new jet boots and was the first one out the door.",
+      "scene": { "pose": "excited", "props": ["🚀", "👟"], "setting": "park" }
+    },
+    "everyday": "The eager students raised their hands before the teacher even finished the question.",
+    "contrast": {
+      "nonExample": "Ben dragged his feet and walked as slowly as he could on the way to the dentist.",
+      "explanation": "Eager means you really want to do something. Ben moved slowly because he did not want to go, so he was reluctant.",
+      "scene": { "pose": "hesitant", "props": ["🦷", "🐢"], "setting": "street" }
+    },
+    "related": { "synonyms": ["keen", "excited"], "antonyms": ["reluctant", "unwilling"], "family": ["eagerly", "eagerness"] },
+    "forms": ["eager"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "eager.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Lucy eager for the field trip?",
+        "passage": "Lucy packed her bag the night before the field trip and woke up extra early.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Does Lucy seem to really want to go?",
+        "explanation": "Packing early and waking up early show Lucy really wants to go. That is eager."
+      },
+      {
+        "id": "eager.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The dog was ___ to go for a walk and waited by the door with its leash.",
+        "options": [
+          { "id": "a", "text": "fragile" }, { "id": "b", "text": "eager" },
+          { "id": "c", "text": "ancient" }, { "id": "d", "text": "scarce" }
+        ],
+        "answer": "b",
+        "clue": "waited by the door with its leash",
+        "hint": "What does waiting by the door with a leash show?",
+        "explanation": "\"Waited by the door with its leash\" shows the dog really wanted to go. That is eager."
+      },
+      {
+        "id": "eager.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"eager\" in this sentence?",
+        "passage": "Tom was eager to share his science project with the class.",
+        "options": [
+          { "id": "a", "text": "reluctant" }, { "id": "b", "text": "excited" },
+          { "id": "c", "text": "ready" }, { "id": "d", "text": "proud" }
+        ],
+        "answer": "a",
+        "hint": "Look for a word that means NOT wanting to do it.",
+        "explanation": "Reluctant means not wanting to, the opposite of eager. Excited and ready are close to eager.",
+        "wrong": { "b": "Excited is close to eager, not opposite.", "c": "Ready is close to eager, not opposite." }
+      },
+      {
+        "id": "eager.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what eager means.",
+        "chunks": [
+          { "id": "c1", "text": "Maya was eager" },
+          { "id": "c2", "text": "to start her piano lesson," },
+          { "id": "c3", "text": "so she sat down early." },
+          { "id": "c4", "text": "so she hid in her room." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "An eager person can't wait. Which ending shows that?",
+        "explanation": "Sitting down early shows Maya couldn't wait to start. Hiding in her room shows she didn't want to go."
+      },
+      {
+        "id": "eager.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Jamal?",
+        "passage": "Jamal couldn't wait to open his new paints and kept asking when he could start.",
+        "options": [
+          { "id": "a", "text": "timid" }, { "id": "b", "text": "annoyed" },
+          { "id": "c", "text": "eager" }, { "id": "d", "text": "sensible" }
+        ],
+        "answer": "c",
+        "clue": "couldn't wait; kept asking when he could start",
+        "hint": "How does Jamal feel about starting?",
+        "explanation": "\"Couldn't wait\" and \"kept asking when he could start\" show Jamal really wanted to paint. That is eager."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "timid.adj.1",
+    "word": "timid",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "TIM-id",
+    "definition": "shy and easily frightened; not brave",
+    "hero": {
+      "text": "The timid kitten hid behind Nova's boots until she spoke to it softly.",
+      "scene": { "pose": "kind", "props": ["🐱", "👢"], "setting": "street" }
+    },
+    "everyday": "On the first day of school, the timid new boy spoke in a tiny whisper.",
+    "contrast": {
+      "nonExample": "Grace walked right up to the new students and introduced herself with a big smile.",
+      "explanation": "Timid people are shy or easily scared. Grace was bold and friendly, the opposite of timid.",
+      "scene": { "pose": "waving", "props": ["👋", "😊"], "setting": "school" }
+    },
+    "related": { "synonyms": ["shy", "fearful"], "antonyms": ["bold", "brave", "confident"], "family": ["timidly", "timidity"] },
+    "forms": ["timid"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "timid.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which animal is timid?",
+        "options": [
+          { "id": "a", "text": "A rabbit freezes and hides when a leaf falls nearby." },
+          { "id": "b", "text": "A big dog runs up and barks loudly at every person." },
+          { "id": "c", "text": "A cat stretches out in the warm sun." }
+        ],
+        "answer": "a",
+        "hint": "Which animal gets scared very easily?",
+        "explanation": "Timid means easily frightened. The rabbit hides from something as small as a falling leaf.",
+        "wrong": { "b": "The dog is bold and loud, the opposite of timid.", "c": "The cat is relaxed, not frightened." }
+      },
+      {
+        "id": "timid.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ girl hid behind her mom when the clown said hello.",
+        "options": [
+          { "id": "a", "text": "generous" }, { "id": "b", "text": "timid" },
+          { "id": "c", "text": "wealthy" }, { "id": "d", "text": "sincere" }
+        ],
+        "answer": "b",
+        "clue": "hid behind her mom",
+        "hint": "Why might a child hide when someone says hello?",
+        "explanation": "\"Hid behind her mom\" shows the girl was shy and a little scared. That is timid."
+      },
+      {
+        "id": "timid.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"timid\" in this sentence?",
+        "passage": "The timid deer ran away at the smallest sound.",
+        "options": [
+          { "id": "a", "text": "hungry" }, { "id": "b", "text": "proud" },
+          { "id": "c", "text": "fast" }, { "id": "d", "text": "fearful" }
+        ],
+        "answer": "d",
+        "hint": "Why would a deer run from a tiny sound?",
+        "explanation": "Fearful means easily scared, like timid. The deer might be fast too, but running at the smallest sound shows fear.",
+        "wrong": { "c": "The deer may be fast, but timid is about being easily scared, not speed." }
+      },
+      {
+        "id": "timid.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what timid means.",
+        "chunks": [
+          { "id": "c1", "text": "Because Owen was timid," },
+          { "id": "c2", "text": "he spoke very softly" },
+          { "id": "c3", "text": "when he met new people." },
+          { "id": "c4", "text": "he shouted hello to everyone" }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Timid people are shy. Which choice is shy?",
+        "explanation": "Speaking softly around new people is shy, so it shows timid. Shouting hello to everyone is bold."
+      },
+      {
+        "id": "timid.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Ella?",
+        "passage": "Ella wanted to join the game at recess, but she felt too shy and scared to ask.",
+        "options": [
+          { "id": "a", "text": "furious" }, { "id": "b", "text": "careless" },
+          { "id": "c", "text": "timid" }, { "id": "d", "text": "wealthy" }
+        ],
+        "answer": "c",
+        "clue": "too shy and scared to ask",
+        "hint": "What stops Ella from asking?",
+        "explanation": "\"Too shy and scared to ask\" shows Ella is timid. She wants to play but feels afraid."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "observe.verb.1",
+    "word": "observe",
+    "grade": 3,
+    "pos": "verb",
+    "say": "ub-ZURV",
+    "definition": "to watch something carefully to learn about it",
+    "hero": {
+      "text": "Juniper observed the robot from the rooftop for an hour to learn how it moved.",
+      "scene": { "pose": "looking", "props": ["🔭", "🤖"], "setting": "city" }
+    },
+    "everyday": "In science class, we observed a caterpillar every day as it turned into a butterfly.",
+    "contrast": {
+      "nonExample": "Jake glanced at the clock for one second and kept running down the hall.",
+      "explanation": "To observe is to watch carefully, often for a while, to learn something. A one-second look is not careful watching.",
+      "scene": { "pose": "running", "props": ["⏰", "💨"], "setting": "school" }
+    },
+    "related": { "synonyms": ["watch", "study", "notice"], "antonyms": ["ignore"], "family": ["observation", "observant", "observer"] },
+    "forms": ["observe", "observes", "observed", "observing"],
+    "tags": ["science"],
+    "items": [
+      {
+        "id": "observe.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Rosa observing the birds?",
+        "passage": "Rosa sat quietly by the bird feeder for twenty minutes, writing down which birds came.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Is Rosa watching carefully to learn something?",
+        "explanation": "Rosa watches closely for a long time and writes down what she sees. That is observing."
+      },
+      {
+        "id": "observe.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Scientists ___ the frogs closely to learn what they eat.",
+        "options": [
+          { "id": "a", "text": "boast" }, { "id": "b", "text": "imitate" },
+          { "id": "c", "text": "observe" }, { "id": "d", "text": "vanish" }
+        ],
+        "answer": "c",
+        "clue": "closely; to learn",
+        "hint": "How do scientists learn about animals?",
+        "explanation": "\"Closely\" and \"to learn\" show careful watching. That is observing.",
+        "wrong": { "b": "Imitate means copy. Scientists learn by watching the frogs, not copying them." }
+      },
+      {
+        "id": "observe.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"observe\" in this sentence?",
+        "passage": "Please observe how the colors mix when I add water to the paint.",
+        "options": [
+          { "id": "a", "text": "ignore" }, { "id": "b", "text": "watch" },
+          { "id": "c", "text": "paint" }, { "id": "d", "text": "guess" }
+        ],
+        "answer": "b",
+        "hint": "What should you do with your eyes while the colors mix?",
+        "explanation": "Watch is closest to observe here. Ignore is the opposite, and guess means you don't look at all."
+      },
+      {
+        "id": "observe.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what observe means.",
+        "chunks": [
+          { "id": "c1", "text": "Each night," },
+          { "id": "c2", "text": "Ali observed the moon" },
+          { "id": "c3", "text": "and drew how its shape changed." },
+          { "id": "c4", "text": "without ever looking up at it." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Observing means looking carefully. Which ending fits?",
+        "explanation": "Drawing how the moon's shape changed shows careful watching. You can't observe something without looking at it."
+      },
+      {
+        "id": "observe.verb.1#5", "format": "dialogue", "stage": "transfer",
+        "prompt": "Which line uses \"observe\" correctly?",
+        "options": [
+          { "id": "a", "text": "\"I will observe the ball by kicking it into the goal.\"" },
+          { "id": "b", "text": "\"Let's observe the ants and see where they go.\"" },
+          { "id": "c", "text": "\"Keep your eyes shut tight while you observe the picture on the wall.\"" }
+        ],
+        "answer": "b",
+        "hint": "Observing means watching carefully.",
+        "explanation": "Watching the ants to see where they go is observing. Kicking is not watching, and you can't observe with your eyes shut."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "describe.verb.1",
+    "word": "describe",
+    "grade": 3,
+    "pos": "verb",
+    "say": "dih-SKRYB",
+    "definition": "to tell what something is like using words",
+    "hero": {
+      "text": "Pixel described the missing dog to Bolt: small, brown, with one white ear.",
+      "scene": { "pose": "talking", "props": ["🐕", "💬"], "setting": "street" }
+    },
+    "everyday": "Can you describe your favorite meal so well that I can almost taste it?",
+    "contrast": {
+      "nonExample": "Mia pointed at the puppy without saying a word.",
+      "explanation": "To describe is to use words to tell what something is like. Pointing shows where it is but gives no details.",
+      "scene": { "pose": "pointing", "props": ["🐶", "👉"], "setting": "park" }
+    },
+    "related": { "synonyms": ["explain", "tell about"], "antonyms": [], "family": ["description", "descriptive"] },
+    "forms": ["describe", "describes", "described", "describing"],
+    "tags": ["reading", "arts"],
+    "items": [
+      {
+        "id": "describe.verb.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is describing something?",
+        "options": [
+          { "id": "a", "text": "Ivy says her kite is red and diamond-shaped, with a long tail." },
+          { "id": "b", "text": "Ivy runs across the field and flies her kite high in the windy sky." },
+          { "id": "c", "text": "Ivy buys a kite at the store." }
+        ],
+        "answer": "a",
+        "hint": "Who uses words to tell what something looks like?",
+        "explanation": "Describing means telling what something is like. Ivy tells the kite's color, shape, and tail.",
+        "wrong": { "b": "Ivy is flying the kite, not telling what it is like.", "c": "Buying a kite is not using words to tell about it." }
+      },
+      {
+        "id": "describe.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Use three adjectives to ___ the ocean in your poem.",
+        "options": [
+          { "id": "a", "text": "vanish" }, { "id": "b", "text": "rely" },
+          { "id": "c", "text": "wilt" }, { "id": "d", "text": "describe" }
+        ],
+        "answer": "d",
+        "clue": "three adjectives; poem",
+        "hint": "Adjectives are describing words.",
+        "explanation": "Adjectives tell what something is like, so you use them to describe the ocean."
+      },
+      {
+        "id": "describe.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which words are closest in meaning to \"describe\" in this sentence?",
+        "passage": "Will you describe the house where you grew up?",
+        "options": [
+          { "id": "a", "text": "tell about" }, { "id": "b", "text": "build" },
+          { "id": "c", "text": "clean" }, { "id": "d", "text": "visit" }
+        ],
+        "answer": "a",
+        "hint": "The person is asking you to use words.",
+        "explanation": "To describe the house is to tell about it in words: its rooms, colors, and yard."
+      },
+      {
+        "id": "describe.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what describe means.",
+        "chunks": [
+          { "id": "c1", "text": "To describe the storm," },
+          { "id": "c2", "text": "Leah wrote" },
+          { "id": "c3", "text": "about the loud thunder and bright flashes." },
+          { "id": "c4", "text": "nothing at all on her paper." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Describing uses details. Which ending gives details?",
+        "explanation": "Writing about the loud thunder and bright flashes tells what the storm was like. Writing nothing describes nothing."
+      },
+      {
+        "id": "describe.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "What is the officer asking the person to do?",
+        "passage": "The officer asked, \"What did the thief look like? Tell me his height, hair, and clothes.\"",
+        "options": [
+          { "id": "a", "text": "predict the thief" }, { "id": "b", "text": "imitate the thief" },
+          { "id": "c", "text": "describe the thief" }, { "id": "d", "text": "boast about the thief" }
+        ],
+        "answer": "c",
+        "clue": "What did the thief look like? Tell me",
+        "hint": "The officer wants to know what the thief was like.",
+        "explanation": "\"What did the thief look like? Tell me...\" asks the person to use words to tell details. That is describing."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "compare.verb.1",
+    "word": "compare",
+    "grade": 3,
+    "pos": "verb",
+    "say": "kum-PAIR",
+    "definition": "to look at how two or more things are alike and different",
+    "hero": {
+      "text": "Kai compared the two footprints in the mud and saw that one was much bigger.",
+      "scene": { "pose": "thinking", "props": ["👣", "🔍"], "setting": "nature" }
+    },
+    "everyday": "In math, we compared the two numbers to see which one was greater.",
+    "contrast": {
+      "nonExample": "Lily looked at one apple and said it was red.",
+      "explanation": "Comparing needs at least two things. Lily only described one apple, so she did not compare.",
+      "scene": { "pose": "looking", "props": ["🍎"], "setting": "home" }
+    },
+    "related": { "synonyms": ["contrast", "match up"], "antonyms": [], "family": ["comparison", "comparing"] },
+    "forms": ["compare", "compares", "compared", "comparing"],
+    "tags": ["math", "science", "reading"],
+    "items": [
+      {
+        "id": "compare.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Jack comparing?",
+        "passage": "Jack held up one leaf and counted the points around its edge.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "How many leaves is Jack looking at?",
+        "explanation": "To compare, you need two or more things. Jack studies only one leaf, so he is not comparing."
+      },
+      {
+        "id": "compare.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Let's ___ the two maps to see which road is shorter.",
+        "options": [
+          { "id": "a", "text": "vanish" }, { "id": "b", "text": "compare" },
+          { "id": "c", "text": "boast" }, { "id": "d", "text": "wilt" }
+        ],
+        "answer": "b",
+        "clue": "the two maps; which road is shorter",
+        "hint": "You are looking at two things to find a difference.",
+        "explanation": "\"The two maps\" and \"which road is shorter\" mean looking at how they differ. That is comparing."
+      },
+      {
+        "id": "compare.verb.1#3", "format": "meaning", "stage": "independent",
+        "prompt": "What does \"compared\" mean in this sentence?",
+        "passage": "The coach compared the two runners' times.",
+        "options": [
+          { "id": "a", "text": "cheered loudly for each runner in the race" },
+          { "id": "b", "text": "wrote down each time on a chart" },
+          { "id": "c", "text": "looked at how the times were alike or different" },
+          { "id": "d", "text": "picked a winner without looking" }
+        ],
+        "answer": "c",
+        "hint": "What do you do with two things when you compare them?",
+        "explanation": "Comparing means looking at how things are alike and different, like which runner was faster."
+      },
+      {
+        "id": "compare.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what compare means.",
+        "chunks": [
+          { "id": "c1", "text": "When Ava compared" },
+          { "id": "c2", "text": "the two cookies," },
+          { "id": "c3", "text": "she saw that one had more chips." },
+          { "id": "c4", "text": "she looked at only one of them." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Comparing means finding a difference or sameness between things.",
+        "explanation": "Seeing that one cookie had more chips is a difference found by comparing. Looking at only one cookie is not comparing."
+      },
+      {
+        "id": "compare.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best tells what Ben did?",
+        "passage": "Ben made a chart showing how frogs and toads are the same and how they are different.",
+        "options": [
+          { "id": "a", "text": "imitated" }, { "id": "b", "text": "recalled" },
+          { "id": "c", "text": "predicted" }, { "id": "d", "text": "compared" }
+        ],
+        "answer": "d",
+        "clue": "how they are the same and how they are different",
+        "hint": "Ben looks at two animals side by side.",
+        "explanation": "\"The same\" and \"different\" are the two parts of comparing. Ben compared frogs and toads."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "ancient.adj.1",
+    "word": "ancient",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "AYN-shunt",
+    "definition": "very, very old; from a long, long time ago",
+    "hero": {
+      "text": "Rex found an ancient map in the museum that was thousands of years old.",
+      "scene": { "pose": "surprised", "props": ["🗺️", "🏛️"], "setting": "city" }
+    },
+    "everyday": "Ancient Egyptians built the pyramids more than four thousand years ago.",
+    "contrast": {
+      "nonExample": "Dad's car is ten years old and has a few scratches.",
+      "explanation": "Ancient means extremely old, often thousands of years. Ten years is old for a car, but it is not ancient.",
+      "scene": { "pose": "neutral", "props": ["🚗"], "setting": "street" }
+    },
+    "related": { "synonyms": ["very old", "prehistoric"], "antonyms": ["modern", "new"], "family": [] },
+    "forms": ["ancient"],
+    "tags": ["history"],
+    "items": [
+      {
+        "id": "ancient.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which thing is ancient?",
+        "options": [
+          { "id": "a", "text": "a clay pot made 3,000 years ago" },
+          { "id": "b", "text": "a phone bought last week" },
+          { "id": "c", "text": "a sandwich made this morning" }
+        ],
+        "answer": "a",
+        "hint": "Which one is from the longest time ago?",
+        "explanation": "Ancient means very, very old. A pot from 3,000 years ago is ancient."
+      },
+      {
+        "id": "ancient.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ castle was built more than a thousand years ago.",
+        "options": [
+          { "id": "a", "text": "generous" }, { "id": "b", "text": "ancient" },
+          { "id": "c", "text": "polite" }, { "id": "d", "text": "frantic" }
+        ],
+        "answer": "b",
+        "clue": "more than a thousand years ago",
+        "hint": "Look at how long ago the castle was built.",
+        "explanation": "\"More than a thousand years ago\" tells you the castle is extremely old. That is ancient."
+      },
+      {
+        "id": "ancient.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"ancient\" in this sentence?",
+        "passage": "Scientists studied the ancient bones of a dinosaur.",
+        "options": [
+          { "id": "a", "text": "huge" }, { "id": "b", "text": "broken" },
+          { "id": "c", "text": "heavy" }, { "id": "d", "text": "new" }
+        ],
+        "answer": "d",
+        "hint": "Ancient is about age. Which word is about age?",
+        "explanation": "Ancient means very old, so new is the opposite. Huge, broken, and heavy describe size or condition, not age."
+      },
+      {
+        "id": "ancient.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what ancient means.",
+        "chunks": [
+          { "id": "c1", "text": "The ancient tree" },
+          { "id": "c2", "text": "has been growing" },
+          { "id": "c3", "text": "for over two thousand years." },
+          { "id": "c4", "text": "since last spring." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Ancient things are very, very old.",
+        "explanation": "Two thousand years makes the tree ancient. A tree that started growing last spring is young."
+      },
+      {
+        "id": "ancient.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the coin?",
+        "passage": "Ms. Lee showed us a coin from Rome that people used about 2,000 years ago.",
+        "options": [
+          { "id": "a", "text": "temporary" }, { "id": "b", "text": "wealthy" },
+          { "id": "c", "text": "ancient" }, { "id": "d", "text": "flexible" }
+        ],
+        "answer": "c",
+        "clue": "about 2,000 years ago",
+        "hint": "How old is the coin?",
+        "explanation": "\"About 2,000 years ago\" shows the coin is extremely old, so it is ancient."
+      }
+    ],
+    "review": "pending"
+  }
+]

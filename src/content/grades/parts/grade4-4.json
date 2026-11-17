@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "solution.noun.1",
+    "word": "solution",
+    "grade": 4,
+    "pos": "noun",
+    "say": "suh-LOO-shun",
+    "definition": "an answer to a problem, or a way to fix it",
+    "hero": {
+      "text": "When the bridge washed out, Nova's solution was to fly the stranded students across one at a time.",
+      "scene": {
+        "pose": "flying",
+        "props": [
+          "🌉",
+          "🎒"
+        ],
+        "setting": "sky"
+      }
+    },
+    "everyday": "Our class found a solution to the messy lunchroom: a cleanup chart with jobs that rotate each week.",
+    "contrast": {
+      "nonExample": "Every morning, Leo complains that the bus is too crowded, but he never suggests a fix.",
+      "explanation": "Complaining only describes the problem. A solution is a way to fix it.",
+      "scene": {
+        "pose": "angry",
+        "props": [
+          "🚌"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "answer",
+        "fix",
+        "remedy"
+      ],
+      "antonyms": [
+        "problem"
+      ],
+      "family": [
+        "solve",
+        "solutions"
+      ]
+    },
+    "forms": [
+      "solution",
+      "solutions"
+    ],
+    "tags": [
+      "math",
+      "science",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "solution.noun.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does solution mean in this sentence?",
+        "passage": "Putting a rubber doorstop under the door was a simple solution to the slamming noise.",
+        "options": [
+          {
+            "id": "a",
+            "text": "a way to fix a problem"
+          },
+          {
+            "id": "b",
+            "text": "a loud, sudden noise"
+          },
+          {
+            "id": "c",
+            "text": "a kind of door"
+          },
+          {
+            "id": "d",
+            "text": "a reason to complain"
+          }
+        ],
+        "answer": "a",
+        "hint": "The doorstop stopped the slamming. What did it do to the problem?",
+        "explanation": "A solution is a way to fix a problem. The doorstop fixed the problem of the slamming door."
+      },
+      {
+        "id": "solution.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The math problem seemed impossible, but Jada kept working until she found the ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "question"
+          },
+          {
+            "id": "b",
+            "text": "mistake"
+          },
+          {
+            "id": "c",
+            "text": "solution"
+          },
+          {
+            "id": "d",
+            "text": "eraser"
+          }
+        ],
+        "answer": "c",
+        "clue": "math problem; kept working until",
+        "hint": "What do you find at the end of solving a math problem?",
+        "explanation": "Jada \"kept working until\" she reached the end of the \"math problem.\" The answer to a problem is its solution. She already had the question."
+      },
+      {
+        "id": "solution.noun.1#3",
+        "format": "example_nonexample",
+        "stage": "independent",
+        "prompt": "Is the drip hose a solution?",
+        "passage": "The garden kept drying out, so the family set up a drip hose that waters the plants every morning.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Does the hose fix the problem of the dry garden?",
+        "explanation": "Yes. The problem was a dry garden, and the hose fixes it by watering the plants. A way to fix a problem is a solution."
+      },
+      {
+        "id": "solution.noun.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what solution means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "To stop the puppy from chewing shoes,"
+          },
+          {
+            "id": "c2",
+            "text": "our solution was"
+          },
+          {
+            "id": "c3",
+            "text": "to give him his own chew toys."
+          },
+          {
+            "id": "c4",
+            "text": "to leave more shoes on the floor."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A solution makes the problem go away.",
+        "explanation": "Giving the puppy chew toys keeps him away from shoes, so it fixes the problem. Leaving more shoes out would make the problem worse, so it is not a solution."
+      },
+      {
+        "id": "solution.noun.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What was the new sewer system?",
+        "passage": "In the 1800s, many people in London got sick from dirty river water. Engineers built huge sewers to carry waste away from the city.",
+        "options": [
+          {
+            "id": "a",
+            "text": "a problem"
+          },
+          {
+            "id": "b",
+            "text": "a disease"
+          },
+          {
+            "id": "c",
+            "text": "a river"
+          },
+          {
+            "id": "d",
+            "text": "a solution"
+          }
+        ],
+        "answer": "d",
+        "clue": "got sick from dirty river water; carry waste away",
+        "hint": "First find the problem. Then find what fixed it.",
+        "explanation": "The problem was people getting sick from \"dirty river water.\" The sewers carried the waste away to fix that, so they were a solution."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "survive.verb.1",
+    "word": "survive",
+    "grade": 4,
+    "pos": "verb",
+    "say": "ser-VIVE",
+    "definition": "to stay alive or keep going through a hard or dangerous time",
+    "hero": {
+      "text": "The tiny seedling survived the storm because Juniper built a shield of branches around it.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "🌱",
+          "⛈️"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Camels can survive for days in the hot desert without drinking any water.",
+    "contrast": {
+      "nonExample": "The goldfish lives in a clean tank with plenty of food and nothing to fear.",
+      "explanation": "Surviving means getting through something hard or dangerous. Living comfortably with no danger is not surviving a challenge.",
+      "scene": {
+        "pose": "calm",
+        "props": [
+          "🐠"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "endure",
+        "last",
+        "live through"
+      ],
+      "antonyms": [
+        "die",
+        "perish"
+      ],
+      "family": [
+        "survival",
+        "survivor"
+      ]
+    },
+    "forms": [
+      "survive",
+      "survives",
+      "survived",
+      "surviving"
+    ],
+    "tags": [
+      "science",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "survive.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Did the oak tree survive?",
+        "passage": "The old oak tree was struck by lightning, but it grew new green leaves the next spring.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is the tree still alive after something dangerous happened?",
+        "explanation": "Yes. The tree was hit by lightning, a dangerous event, and it still grew new leaves. Staying alive through danger is surviving."
+      },
+      {
+        "id": "survive.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Polar bears have thick fur and a layer of fat that help them ___ the freezing Arctic winter.",
+        "options": [
+          {
+            "id": "a",
+            "text": "decorate"
+          },
+          {
+            "id": "b",
+            "text": "melt"
+          },
+          {
+            "id": "c",
+            "text": "forecast"
+          },
+          {
+            "id": "d",
+            "text": "survive"
+          }
+        ],
+        "answer": "d",
+        "clue": "thick fur and a layer of fat; freezing",
+        "hint": "Why would an animal need fur and fat in the freezing cold?",
+        "explanation": "Fur and fat keep polar bears warm so they can stay alive in the \"freezing\" winter. Staying alive through hard conditions is surviving."
+      },
+      {
+        "id": "survive.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which phrase is closest in meaning to \"survived\" in this sentence?",
+        "passage": "Somehow, Grandma's houseplant survived two whole weeks without water.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hid during"
+          },
+          {
+            "id": "b",
+            "text": "lived through"
+          },
+          {
+            "id": "c",
+            "text": "grew out of"
+          },
+          {
+            "id": "d",
+            "text": "dried up during"
+          }
+        ],
+        "answer": "b",
+        "hint": "Is the plant still alive?",
+        "explanation": "Lived through means stayed alive during something hard, just like survived. Dried up during would mean the plant did not make it, which is the opposite."
+      },
+      {
+        "id": "survive.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what survive means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The hikers survived"
+          },
+          {
+            "id": "c2",
+            "text": "the sudden snowstorm"
+          },
+          {
+            "id": "c3",
+            "text": "by building a shelter and staying warm."
+          },
+          {
+            "id": "c4",
+            "text": "even though none of them made it home."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Surviving means getting through the danger safely.",
+        "explanation": "Building a shelter and staying warm is how the hikers got through the storm alive, so they survived. If none made it home, they did not survive."
+      },
+      {
+        "id": "survive.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word describes what these frogs do in winter?",
+        "passage": "Wood frogs freeze almost solid in winter, and their hearts stop beating. In spring, they thaw out and hop away.",
+        "options": [
+          {
+            "id": "a",
+            "text": "vanish"
+          },
+          {
+            "id": "b",
+            "text": "compete"
+          },
+          {
+            "id": "c",
+            "text": "survive"
+          },
+          {
+            "id": "d",
+            "text": "investigate"
+          }
+        ],
+        "answer": "c",
+        "clue": "freeze almost solid; In spring, they thaw out and hop away",
+        "hint": "The frogs go through something very hard. Are they alive afterward?",
+        "explanation": "Freezing solid is extremely dangerous, but the frogs \"thaw out and hop away\" in spring. Staying alive through a hard time is surviving."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "thorough.adj.1",
+    "word": "thorough",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "THUR-oh",
+    "definition": "careful and complete, paying attention to every part",
+    "hero": {
+      "text": "Kai did a thorough search of the museum, checking every room, closet, and display case for the missing statue.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🔦",
+          "🏛️"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Before the science fair, Zara gave her project a thorough check, testing every wire and label.",
+    "contrast": {
+      "nonExample": "Ned glanced at his spelling homework for two seconds and said it was fine.",
+      "explanation": "A quick glance skips most of the work. Thorough means careful and complete, checking every part.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "📝"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "careful",
+        "complete",
+        "detailed"
+      ],
+      "antonyms": [
+        "careless",
+        "sloppy",
+        "hasty"
+      ],
+      "family": [
+        "thoroughly",
+        "thoroughness"
+      ]
+    },
+    "forms": [
+      "thorough"
+    ],
+    "tags": [
+      "science",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "thorough.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is thorough?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eli dusts only the middle of the shelf."
+          },
+          {
+            "id": "b",
+            "text": "Gia checks every answer twice."
+          },
+          {
+            "id": "c",
+            "text": "Hal skims the first page and skips the rest."
+          }
+        ],
+        "answer": "b",
+        "hint": "Who pays attention to every part?",
+        "explanation": "Thorough means careful and complete. Gia checks every answer, not just some of them.",
+        "wrong": {
+          "a": "Eli skips the edges, so his dusting is not complete.",
+          "c": "Hal skips most of the reading."
+        }
+      },
+      {
+        "id": "thorough.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The doctor's exam was ___: she checked my ears, eyes, throat, heart, and lungs.",
+        "options": [
+          {
+            "id": "a",
+            "text": "brief"
+          },
+          {
+            "id": "b",
+            "text": "careless"
+          },
+          {
+            "id": "c",
+            "text": "funny"
+          },
+          {
+            "id": "d",
+            "text": "thorough"
+          }
+        ],
+        "answer": "d",
+        "clue": "ears, eyes, throat, heart, and lungs",
+        "hint": "Count how many things the doctor checked.",
+        "explanation": "The doctor checked five different parts, so the exam was complete and careful. That is thorough. Brief would mean short, which does not fit such a long list."
+      },
+      {
+        "id": "thorough.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Before painting, Dad scrubbed every inch of the wall, filled every crack, and taped every edge. His preparation was ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "quick"
+          },
+          {
+            "id": "b",
+            "text": "lucky"
+          },
+          {
+            "id": "c",
+            "text": "messy"
+          },
+          {
+            "id": "d",
+            "text": "thorough"
+          }
+        ],
+        "answer": "d",
+        "clue": "every inch; every crack; every edge",
+        "hint": "Notice the word \"every\" repeated three times.",
+        "explanation": "\"Every inch,\" \"every crack,\" and \"every edge\" show Dad did not skip anything. Careful work on every part is thorough. Quick would suggest he rushed."
+      },
+      {
+        "id": "thorough.adj.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"thorough\" in this sentence?",
+        "passage": "The detective was thorough and noticed every tiny detail at the scene.",
+        "options": [
+          {
+            "id": "a",
+            "text": "careless"
+          },
+          {
+            "id": "b",
+            "text": "complete"
+          },
+          {
+            "id": "c",
+            "text": "curious"
+          },
+          {
+            "id": "d",
+            "text": "honest"
+          }
+        ],
+        "answer": "a",
+        "hint": "Thorough means careful. What is the opposite of careful?",
+        "explanation": "Thorough means careful and complete, so careless is the opposite. Complete means almost the same as thorough."
+      },
+      {
+        "id": "thorough.adj.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did Kenji clean his room in a thorough way?",
+        "passage": "Kenji cleaned his room by shoving everything under the bed in two minutes.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Kenji take care with every part of the job?",
+        "explanation": "No. Shoving everything under the bed in two minutes is rushed and incomplete. Thorough cleaning means careful attention to every part."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "transform.verb.1",
+    "word": "transform",
+    "grade": 4,
+    "pos": "verb",
+    "say": "trans-FORM",
+    "definition": "to change something completely in form or appearance",
+    "hero": {
+      "text": "With paint, lights, and teamwork, the heroes transformed the empty warehouse into a bright community center.",
+      "scene": {
+        "pose": "building",
+        "props": [
+          "🎨",
+          "💡"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Inside its chrysalis, a caterpillar transforms into a butterfly.",
+    "contrast": {
+      "nonExample": "Mom moved the lamp from one side of the table to the other side.",
+      "explanation": "A small change is not a transformation. Transform means to change something completely.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "💡"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "change",
+        "convert",
+        "turn into"
+      ],
+      "antonyms": [
+        "preserve",
+        "keep"
+      ],
+      "family": [
+        "transformation"
+      ]
+    },
+    "forms": [
+      "transform",
+      "transforms",
+      "transformed",
+      "transforming"
+    ],
+    "parts": [
+      {
+        "part": "trans-",
+        "meaning": "across or beyond"
+      },
+      {
+        "part": "form",
+        "meaning": "shape"
+      }
+    ],
+    "tags": [
+      "science",
+      "arts"
+    ],
+    "items": [
+      {
+        "id": "transform.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Did the volunteers transform the lot?",
+        "passage": "Volunteers turned a vacant lot full of trash into a flower garden with benches and paths.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is the lot completely different now?",
+        "explanation": "Yes. A trash-filled lot became a garden with benches and paths. That complete change is a transformation."
+      },
+      {
+        "id": "transform.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Heat from the oven will ___ the runny batter into a light, fluffy cake.",
+        "options": [
+          {
+            "id": "a",
+            "text": "freeze"
+          },
+          {
+            "id": "b",
+            "text": "spill"
+          },
+          {
+            "id": "c",
+            "text": "transform"
+          },
+          {
+            "id": "d",
+            "text": "hide"
+          }
+        ],
+        "answer": "c",
+        "clue": "runny batter into a light, fluffy cake",
+        "hint": "Runny batter becomes something very different. What word means a complete change?",
+        "explanation": "The batter goes from \"runny\" to \"light, fluffy cake,\" a complete change in form. That is transform. An oven heats things, so freeze does not fit."
+      },
+      {
+        "id": "transform.verb.1#3",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "In transform, trans- means \"across\" or \"beyond,\" and form means \"shape.\" What does transform mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "to change into a new shape"
+          },
+          {
+            "id": "b",
+            "text": "to keep the same shape forever"
+          },
+          {
+            "id": "c",
+            "text": "to fill out a paper form"
+          },
+          {
+            "id": "d",
+            "text": "to measure a shape"
+          }
+        ],
+        "answer": "a",
+        "hint": "Trans- + form = go beyond the old shape.",
+        "explanation": "Trans- (across, beyond) + form (shape) means moving beyond the old shape into a new one. That is a complete change.",
+        "wrong": {
+          "c": "Form here means shape, not a paper form."
+        }
+      },
+      {
+        "id": "transform.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what transform means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The new mural"
+          },
+          {
+            "id": "c2",
+            "text": "transformed"
+          },
+          {
+            "id": "c3",
+            "text": "the dull gray wall into a burst of color."
+          },
+          {
+            "id": "c4",
+            "text": "the wall into the same dull gray wall."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "When something is transformed, it becomes very different.",
+        "explanation": "Going from dull gray to a burst of color is a complete change, so the mural transformed the wall. Staying the same gray wall is no change at all."
+      },
+      {
+        "id": "transform.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which phrase describes what freezing does to water?",
+        "passage": "When water freezes, it changes from a flowing liquid into hard, solid ice. When ice is heated, it melts back into water.",
+        "options": [
+          {
+            "id": "a",
+            "text": "protects it"
+          },
+          {
+            "id": "b",
+            "text": "transforms it"
+          },
+          {
+            "id": "c",
+            "text": "hides it"
+          },
+          {
+            "id": "d",
+            "text": "measures it"
+          }
+        ],
+        "answer": "b",
+        "clue": "changes from a flowing liquid into hard, solid ice",
+        "hint": "Liquid water and solid ice look and act very differently.",
+        "explanation": "Freezing \"changes\" water from a \"flowing liquid\" into \"solid ice,\" a complete change in form. That is transforming it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "vivid.adj.1",
+    "word": "vivid",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "VIV-id",
+    "definition": "very bright, clear, or full of detail, so it seems real",
+    "hero": {
+      "text": "Pixel painted a vivid mural of the city, with glowing orange sunsets and bright purple skies.",
+      "scene": {
+        "pose": "proud",
+        "props": [
+          "🎨",
+          "🌅"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The author's description was so vivid that I could almost smell the salty ocean air.",
+    "contrast": {
+      "nonExample": "The old T-shirt had been washed so many times that its colors were pale and faded.",
+      "explanation": "Pale, faded colors are dull. Vivid colors are bright and strong.",
+      "scene": {
+        "pose": "sad",
+        "props": [
+          "👕"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "bright",
+        "clear",
+        "lively",
+        "detailed"
+      ],
+      "antonyms": [
+        "dull",
+        "faded",
+        "vague"
+      ],
+      "family": [
+        "vividly"
+      ]
+    },
+    "forms": [
+      "vivid"
+    ],
+    "tags": [
+      "arts",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "vivid.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does vivid mean in this sentence?",
+        "passage": "Ella had a vivid dream about flying over a city made of candy.",
+        "options": [
+          {
+            "id": "a",
+            "text": "very clear and detailed"
+          },
+          {
+            "id": "b",
+            "text": "very short and forgotten"
+          },
+          {
+            "id": "c",
+            "text": "very scary"
+          },
+          {
+            "id": "d",
+            "text": "very quiet"
+          }
+        ],
+        "answer": "a",
+        "hint": "Ella remembers lots of details from the dream.",
+        "explanation": "Vivid means very clear and full of detail, so it seems real. Ella remembers flying and the candy city clearly."
+      },
+      {
+        "id": "vivid.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The parrot's feathers were so ___ that they seemed to glow red, green, and gold.",
+        "options": [
+          {
+            "id": "a",
+            "text": "faded"
+          },
+          {
+            "id": "b",
+            "text": "plain"
+          },
+          {
+            "id": "c",
+            "text": "gray"
+          },
+          {
+            "id": "d",
+            "text": "vivid"
+          }
+        ],
+        "answer": "d",
+        "clue": "seemed to glow red, green, and gold",
+        "hint": "Glowing colors are very bright.",
+        "explanation": "Feathers that \"seemed to glow\" in bright colors are strong and bright. That is vivid. Faded and plain are the opposite."
+      },
+      {
+        "id": "vivid.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Grandpa described the first moon landing in such ___ detail that I felt I was watching it live.",
+        "options": [
+          {
+            "id": "a",
+            "text": "brief"
+          },
+          {
+            "id": "b",
+            "text": "secret"
+          },
+          {
+            "id": "c",
+            "text": "boring"
+          },
+          {
+            "id": "d",
+            "text": "vivid"
+          }
+        ],
+        "answer": "d",
+        "clue": "felt I was watching it live",
+        "hint": "The description made the event feel real.",
+        "explanation": "Feeling like \"I was watching it live\" means the description was clear and full of detail. That is vivid. Brief detail would not make it feel so real."
+      },
+      {
+        "id": "vivid.adj.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"vivid\" in this sentence?",
+        "passage": "The sunset was vivid, painting the sky in bright pinks and oranges.",
+        "options": [
+          {
+            "id": "a",
+            "text": "dull"
+          },
+          {
+            "id": "b",
+            "text": "bright"
+          },
+          {
+            "id": "c",
+            "text": "early"
+          },
+          {
+            "id": "d",
+            "text": "warm"
+          }
+        ],
+        "answer": "a",
+        "hint": "Vivid colors are strong. What word means weak and not bright?",
+        "explanation": "Vivid means bright and strong, so dull is the opposite. Bright means almost the same as vivid."
+      },
+      {
+        "id": "vivid.adj.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is Jamal's description vivid?",
+        "passage": "Jamal wrote only, \"The beach was nice,\" so his teacher asked him to add more details.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Does Jamal's sentence help you picture the beach clearly?",
+        "explanation": "No. \"The beach was nice\" gives no details to picture. A vivid description is full of clear details, like the sound of waves or the hot sand."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "distract.verb.1",
+    "word": "distract",
+    "grade": 4,
+    "pos": "verb",
+    "say": "dih-STRAKT",
+    "definition": "to pull someone's attention away from what they are doing",
+    "hero": {
+      "text": "Bolt juggled glowing balls to distract the scared kids while the crew fixed the stuck elevator.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🤹",
+          "🛗"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The barking dog next door distracted me while I was trying to finish my reading.",
+    "contrast": {
+      "nonExample": "Lena turned off the TV so she could focus on her math homework.",
+      "explanation": "Lena removed something that might pull her attention away. Distracting means taking attention away, but she is focusing.",
+      "scene": {
+        "pose": "writing",
+        "props": [
+          "📺",
+          "✏️"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "sidetrack",
+        "divert"
+      ],
+      "antonyms": [
+        "focus",
+        "concentrate"
+      ],
+      "family": [
+        "distraction",
+        "distracted",
+        "distracting"
+      ]
+    },
+    "forms": [
+      "distract",
+      "distracts",
+      "distracted",
+      "distracting"
+    ],
+    "tags": [
+      "everyday",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "distract.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the phone distracting Tomas?",
+        "passage": "While Tomas was studying for his test, his phone kept buzzing, and he kept looking at it.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is the phone pulling his attention away from studying?",
+        "explanation": "Yes. The buzzing phone keeps pulling Tomas's attention away from studying. That is what it means to distract."
+      },
+      {
+        "id": "distract.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Please don't ___ the bus driver by shouting while she is driving in traffic.",
+        "options": [
+          {
+            "id": "a",
+            "text": "thank"
+          },
+          {
+            "id": "b",
+            "text": "follow"
+          },
+          {
+            "id": "c",
+            "text": "distract"
+          },
+          {
+            "id": "d",
+            "text": "pay"
+          }
+        ],
+        "answer": "c",
+        "clue": "by shouting; while she is driving",
+        "hint": "Shouting could pull the driver's attention off the road.",
+        "explanation": "\"Shouting while she is driving\" would pull the driver's attention away from the road. Pulling someone's attention away is distracting them."
+      },
+      {
+        "id": "distract.verb.1#3",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses distract correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"The music helped me distract on my essay.\""
+          },
+          {
+            "id": "b",
+            "text": "\"The loud music distracted me from my essay.\""
+          },
+          {
+            "id": "c",
+            "text": "\"I distracted the whole essay in an hour.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "Something distracts you from what you are trying to do.",
+        "explanation": "Loud music pulled the speaker's attention away from the essay, so distract fits. You focus on an essay, not distract on it, and you write an essay, not distract it.",
+        "wrong": {
+          "a": "The word for paying attention is focus, not distract.",
+          "c": "Distract is about attention, so you cannot distract an essay."
+        }
+      },
+      {
+        "id": "distract.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what distract means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The goalie was distracted"
+          },
+          {
+            "id": "c2",
+            "text": "by a butterfly near the net,"
+          },
+          {
+            "id": "c3",
+            "text": "so the other team scored easily."
+          },
+          {
+            "id": "c4",
+            "text": "so she blocked every shot perfectly."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A distracted goalie is not paying attention to the ball.",
+        "explanation": "The butterfly pulled the goalie's attention away, so she missed the shot. Blocking every shot perfectly would show full attention, not distraction."
+      },
+      {
+        "id": "distract.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Why does the mother bird act this way?",
+        "passage": "A killdeer will sometimes pretend to have a broken wing, flapping on the ground to lead a fox away from her nest.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to feed the fox"
+          },
+          {
+            "id": "b",
+            "text": "to distract the fox"
+          },
+          {
+            "id": "c",
+            "text": "to fix her wing"
+          },
+          {
+            "id": "d",
+            "text": "to build a nest"
+          }
+        ],
+        "answer": "b",
+        "clue": "pretend; lead a fox away from her nest",
+        "hint": "She is only pretending. What does she want the fox to stop paying attention to?",
+        "explanation": "The bird \"pretends\" to be hurt to \"lead a fox away from her nest.\" Pulling the fox's attention away from the nest is distracting it. Her wing is not really broken, so she is not fixing it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "encourage.verb.1",
+    "word": "encourage",
+    "grade": 4,
+    "pos": "verb",
+    "say": "en-KUR-ij",
+    "definition": "to give someone support, hope, or confidence to do something",
+    "hero": {
+      "text": "When Kai doubted he could finish the obstacle course, Nova encouraged him by cheering his name.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "📣"
+        ],
+        "second": "determined",
+        "setting": "park"
+      }
+    },
+    "everyday": "My piano teacher encouraged me to play in the recital, even though I was nervous.",
+    "contrast": {
+      "nonExample": "When Ali showed his drawing, his cousin laughed and said he should give up on art.",
+      "explanation": "Laughing and telling someone to quit takes away confidence. Encouraging means giving someone support and confidence.",
+      "scene": {
+        "pose": "sad",
+        "props": [
+          "🖍️"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "support",
+        "inspire",
+        "cheer on"
+      ],
+      "antonyms": [
+        "discourage"
+      ],
+      "family": [
+        "encouragement",
+        "encouraging",
+        "courage"
+      ]
+    },
+    "forms": [
+      "encourage",
+      "encourages",
+      "encouraged",
+      "encouraging"
+    ],
+    "parts": [
+      {
+        "part": "en-",
+        "meaning": "to put into"
+      },
+      {
+        "part": "courage",
+        "meaning": "bravery"
+      }
+    ],
+    "tags": [
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "encourage.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is encouraging a friend?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rosa tells Eva, \"You can do it! Keep trying!\""
+          },
+          {
+            "id": "b",
+            "text": "Pete tells Sam, \"Don't bother. You'll never make it.\""
+          },
+          {
+            "id": "c",
+            "text": "Dana walks away without saying anything."
+          }
+        ],
+        "answer": "a",
+        "hint": "Who is giving her friend confidence?",
+        "explanation": "Encourage means to give someone support and confidence. Rosa tells Eva she can do it.",
+        "wrong": {
+          "b": "Pete takes away Sam's confidence, so he is discouraging him.",
+          "c": "Dana gives no support at all."
+        }
+      },
+      {
+        "id": "encourage.verb.1#2",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "Courage means \"bravery,\" and en- can mean \"to put into.\" What does encourage mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "to take away someone's bravery"
+          },
+          {
+            "id": "b",
+            "text": "to tell a brave story"
+          },
+          {
+            "id": "c",
+            "text": "to be very afraid"
+          },
+          {
+            "id": "d",
+            "text": "to give someone confidence"
+          }
+        ],
+        "answer": "d",
+        "hint": "En- + courage = put bravery into someone.",
+        "explanation": "En- (put into) + courage (bravery) means putting bravery and confidence into someone. Taking bravery away is discourage.",
+        "wrong": {
+          "a": "This is discourage, the opposite.",
+          "b": "Encourage is something you do for a person, not a kind of story."
+        }
+      },
+      {
+        "id": "encourage.verb.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The coach ___ the nervous swimmer by reminding her how much she had improved this season.",
+        "options": [
+          {
+            "id": "a",
+            "text": "ignored"
+          },
+          {
+            "id": "b",
+            "text": "discouraged"
+          },
+          {
+            "id": "c",
+            "text": "encouraged"
+          },
+          {
+            "id": "d",
+            "text": "punished"
+          }
+        ],
+        "answer": "c",
+        "clue": "nervous; reminding her how much she had improved",
+        "hint": "Reminding someone of their progress helps them feel what?",
+        "explanation": "Reminding a \"nervous\" swimmer how much she \"had improved\" gives her confidence. That is encouraging. Discouraged would mean taking her confidence away."
+      },
+      {
+        "id": "encourage.verb.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"encourages\" in this sentence?",
+        "passage": "Our librarian encourages everyone to keep reading during the summer break.",
+        "options": [
+          {
+            "id": "a",
+            "text": "inspires"
+          },
+          {
+            "id": "b",
+            "text": "reminds"
+          },
+          {
+            "id": "c",
+            "text": "teaches"
+          },
+          {
+            "id": "d",
+            "text": "discourages"
+          }
+        ],
+        "answer": "d",
+        "hint": "Look for a word that means making someone less likely to do something.",
+        "explanation": "Encourages means gives support to do something, so discourages, which means takes away confidence or desire, is the opposite. Inspires is close in meaning to encourages."
+      },
+      {
+        "id": "encourage.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did Max's sister encourage him?",
+        "passage": "Before the spelling bee, Max's sister reminded him that he had studied hard and told him he was ready.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did her words give Max confidence?",
+        "explanation": "Yes. Reminding Max of his hard work and telling him he was ready gave him confidence. That is encouraging."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "ignore.verb.1",
+    "word": "ignore",
+    "grade": 4,
+    "pos": "verb",
+    "say": "ig-NOR",
+    "definition": "to pay no attention to something or someone on purpose",
+    "hero": {
+      "text": "Rex ignored the loud teasing from the crowd and kept helping the lost child find her mom.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "👧",
+          "🙉"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Mia ignored the noise from the hallway and kept reading her book.",
+    "contrast": {
+      "nonExample": "Ben listened closely and nodded as his friend explained the rules of the new game.",
+      "explanation": "Ben is paying close attention. Ignoring means choosing not to pay attention.",
+      "scene": {
+        "pose": "listening",
+        "props": [
+          "🎲"
+        ],
+        "second": "talking",
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "disregard",
+        "overlook",
+        "tune out"
+      ],
+      "antonyms": [
+        "notice",
+        "pay attention to",
+        "heed"
+      ],
+      "family": [
+        "ignored",
+        "ignoring"
+      ]
+    },
+    "forms": [
+      "ignore",
+      "ignores",
+      "ignored",
+      "ignoring"
+    ],
+    "tags": [
+      "everyday",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "ignore.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person ignores the sign?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Leo reads the \"Wet Paint\" sign and walks around the bench."
+          },
+          {
+            "id": "b",
+            "text": "Kim sees the \"Wet Paint\" sign but sits on the bench anyway."
+          },
+          {
+            "id": "c",
+            "text": "Raj asks a worker what the sign means."
+          }
+        ],
+        "answer": "b",
+        "hint": "Who sees the sign but doesn't pay attention to it?",
+        "explanation": "Ignore means to pay no attention on purpose. Kim sees the sign but sits down anyway.",
+        "wrong": {
+          "a": "Leo pays attention and follows the sign.",
+          "c": "Raj is paying close attention by asking about it."
+        }
+      },
+      {
+        "id": "ignore.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Pam ___ her ringing alarm clock, rolled over, and ended up late for school.",
+        "options": [
+          {
+            "id": "a",
+            "text": "obeyed"
+          },
+          {
+            "id": "b",
+            "text": "repaired"
+          },
+          {
+            "id": "c",
+            "text": "ignored"
+          },
+          {
+            "id": "d",
+            "text": "answered"
+          }
+        ],
+        "answer": "c",
+        "clue": "rolled over; ended up late",
+        "hint": "Pam heard the alarm but didn't get up.",
+        "explanation": "Pam \"rolled over\" and was \"late,\" so she paid no attention to the alarm. That is ignoring it. Obeyed would mean she got up when it rang."
+      },
+      {
+        "id": "ignore.verb.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Tara saw her friend wave from across the street, but she ___ him because she was still upset.",
+        "options": [
+          {
+            "id": "a",
+            "text": "missed"
+          },
+          {
+            "id": "b",
+            "text": "ignored"
+          },
+          {
+            "id": "c",
+            "text": "greeted"
+          },
+          {
+            "id": "d",
+            "text": "forgot"
+          }
+        ],
+        "answer": "b",
+        "clue": "saw her friend wave; because she was still upset",
+        "hint": "Tara did see him. Did she choose not to respond?",
+        "explanation": "Tara \"saw\" the wave and chose not to respond \"because she was still upset.\" Not paying attention on purpose is ignoring. Missed would mean she did not see him at all."
+      },
+      {
+        "id": "ignore.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what ignore means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The driver ignored"
+          },
+          {
+            "id": "c2",
+            "text": "the red stop sign,"
+          },
+          {
+            "id": "c3",
+            "text": "and a police officer gave him a ticket."
+          },
+          {
+            "id": "c4",
+            "text": "and stopped carefully at the line."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "If you ignore a sign, you do not do what it says.",
+        "explanation": "The driver paid no attention to the stop sign and got a ticket, so he ignored it. Stopping carefully would mean he paid attention to the sign."
+      },
+      {
+        "id": "ignore.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did the students ignore the alarm?",
+        "passage": "When the fire alarm rang, the students lined up quickly and walked calmly outside.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did the students pay attention to the alarm?",
+        "explanation": "No. The students lined up and went outside right away, so they paid attention. Ignoring would mean acting as if they had not heard it."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "unpredictable.adj.1",
+    "word": "unpredictable",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "un-prih-DIK-tuh-bul",
+    "definition": "not able to be known or guessed ahead of time",
+    "hero": {
+      "text": "The weather on Storm Mountain was so unpredictable that Juniper packed both sunglasses and a raincoat.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "🌦️",
+          "🕶️",
+          "🧥"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Our cat is unpredictable: one minute she purrs, and the next she swats your hand.",
+    "contrast": {
+      "nonExample": "The sun rises in the east every single morning.",
+      "explanation": "You always know what the sun will do, so it is predictable. Unpredictable things cannot be known ahead of time.",
+      "scene": {
+        "pose": "calm",
+        "props": [
+          "🌅"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "uncertain",
+        "changeable",
+        "surprising"
+      ],
+      "antonyms": [
+        "predictable",
+        "expected",
+        "reliable"
+      ],
+      "family": [
+        "predict",
+        "prediction",
+        "predictable",
+        "unpredictably"
+      ]
+    },
+    "forms": [
+      "unpredictable"
+    ],
+    "parts": [
+      {
+        "part": "un-",
+        "meaning": "not"
+      },
+      {
+        "part": "pre-",
+        "meaning": "before"
+      },
+      {
+        "part": "dict",
+        "meaning": "say or tell"
+      },
+      {
+        "part": "-able",
+        "meaning": "can be"
+      }
+    ],
+    "tags": [
+      "science",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "unpredictable.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the school bus unpredictable?",
+        "passage": "The school bus always arrives at exactly 7:45, rain or shine.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Do you know ahead of time when the bus will come?",
+        "explanation": "No. The bus \"always\" comes at 7:45, so you know exactly what will happen. Unpredictable means you cannot tell ahead of time."
+      },
+      {
+        "id": "unpredictable.adj.1#2",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "Un- means \"not,\" pre- means \"before,\" dict means \"say or tell,\" and -able means \"can be.\" What does unpredictable mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "can be told ahead of time"
+          },
+          {
+            "id": "b",
+            "text": "not able to speak"
+          },
+          {
+            "id": "c",
+            "text": "told again and again"
+          },
+          {
+            "id": "d",
+            "text": "cannot be told ahead of time"
+          }
+        ],
+        "answer": "d",
+        "hint": "Build it up: predict = tell before; predictable = can be told before; un- = not.",
+        "explanation": "Predict means tell before, predictable means can be told before, and un- flips it: cannot be told ahead of time.",
+        "wrong": {
+          "a": "This is predictable. The un- at the front makes it the opposite.",
+          "b": "Dict means say, but the word is about telling the future, not speaking."
+        }
+      },
+      {
+        "id": "unpredictable.adj.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Spring weather here is ___: it can snow in the morning and feel warm by afternoon.",
+        "options": [
+          {
+            "id": "a",
+            "text": "predictable"
+          },
+          {
+            "id": "b",
+            "text": "silent"
+          },
+          {
+            "id": "c",
+            "text": "enormous"
+          },
+          {
+            "id": "d",
+            "text": "unpredictable"
+          }
+        ],
+        "answer": "d",
+        "clue": "snow in the morning; warm by afternoon",
+        "hint": "Could you guess in the morning what the afternoon would be like?",
+        "explanation": "Snow in the morning and warmth by afternoon means the weather changes in ways you cannot guess. That is unpredictable. Predictable is the opposite."
+      },
+      {
+        "id": "unpredictable.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what unpredictable means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The basketball game was unpredictable"
+          },
+          {
+            "id": "c2",
+            "text": "because the lead kept changing"
+          },
+          {
+            "id": "c3",
+            "text": "until the very last second."
+          },
+          {
+            "id": "c4",
+            "text": "because everyone knew who would win."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Something unpredictable keeps you guessing.",
+        "explanation": "A lead that keeps changing means nobody could tell who would win, so the game was unpredictable. If everyone knew who would win, it was predictable."
+      },
+      {
+        "id": "unpredictable.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes earthquakes?",
+        "passage": "Earthquakes can strike without warning. Scientists study them closely, but they still cannot say exactly when the next one will happen.",
+        "options": [
+          {
+            "id": "a",
+            "text": "gentle"
+          },
+          {
+            "id": "b",
+            "text": "scheduled"
+          },
+          {
+            "id": "c",
+            "text": "unpredictable"
+          },
+          {
+            "id": "d",
+            "text": "familiar"
+          }
+        ],
+        "answer": "c",
+        "clue": "without warning; cannot say exactly when",
+        "hint": "Can scientists tell ahead of time when an earthquake will come?",
+        "explanation": "\"Without warning\" and \"cannot say exactly when\" show earthquakes cannot be known ahead of time. That is unpredictable. Scheduled is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "approach.verb.1",
+    "word": "approach",
+    "grade": 4,
+    "pos": "verb",
+    "say": "uh-PROHCH",
+    "definition": "to move closer to someone or something",
+    "hero": {
+      "text": "Juniper approached the frightened deer slowly, speaking softly so it would not run away.",
+      "scene": {
+        "pose": "calm",
+        "props": [
+          "🦌"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "As the train approached the station, it slowed down and blew its whistle.",
+    "contrast": {
+      "nonExample": "The kite drifted farther and farther away from the children until it disappeared.",
+      "explanation": "Moving farther away is the opposite of approaching. Approach means coming closer.",
+      "scene": {
+        "pose": "sad",
+        "props": [
+          "🪁"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "near",
+        "come toward"
+      ],
+      "antonyms": [
+        "retreat",
+        "leave",
+        "withdraw"
+      ],
+      "family": [
+        "approachable",
+        "approaching"
+      ]
+    },
+    "forms": [
+      "approach",
+      "approaches",
+      "approached",
+      "approaching"
+    ],
+    "tags": [
+      "everyday",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "approach.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does approached mean in this sentence?",
+        "passage": "As we approached the bakery, the smell of fresh bread grew stronger.",
+        "options": [
+          {
+            "id": "a",
+            "text": "moved closer to"
+          },
+          {
+            "id": "b",
+            "text": "walked away from"
+          },
+          {
+            "id": "c",
+            "text": "paid money at"
+          },
+          {
+            "id": "d",
+            "text": "drew a picture of"
+          }
+        ],
+        "answer": "a",
+        "hint": "The smell grew stronger. Were they getting closer or farther away?",
+        "explanation": "Approach means to move closer. The smell grew stronger because they were getting nearer to the bakery.",
+        "wrong": {
+          "b": "Walking away would make the smell weaker, not stronger."
+        }
+      },
+      {
+        "id": "approach.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The cat crept low through the tall grass as it slowly ___ the bird feeder.",
+        "options": [
+          {
+            "id": "a",
+            "text": "ignored"
+          },
+          {
+            "id": "b",
+            "text": "approached"
+          },
+          {
+            "id": "c",
+            "text": "built"
+          },
+          {
+            "id": "d",
+            "text": "forgot"
+          }
+        ],
+        "answer": "b",
+        "clue": "crept low; slowly",
+        "hint": "The cat is sneaking toward something.",
+        "explanation": "A cat that \"crept low\" and moved \"slowly\" is sneaking closer to the feeder. Moving closer is approaching."
+      },
+      {
+        "id": "approach.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which phrase is the opposite of \"approached\" in this sentence?",
+        "passage": "Wave by wave, the rising tide approached the sandcastle.",
+        "options": [
+          {
+            "id": "a",
+            "text": "came toward"
+          },
+          {
+            "id": "b",
+            "text": "crashed into"
+          },
+          {
+            "id": "c",
+            "text": "splashed onto"
+          },
+          {
+            "id": "d",
+            "text": "moved away from"
+          }
+        ],
+        "answer": "d",
+        "hint": "Approached means came closer. What is the opposite direction?",
+        "explanation": "Approached means moved closer, so moved away from is the opposite. Came toward means the same as approached."
+      },
+      {
+        "id": "approach.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what approach means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "As the storm approached,"
+          },
+          {
+            "id": "c2",
+            "text": "the sky grew darker"
+          },
+          {
+            "id": "c3",
+            "text": "and the wind got stronger."
+          },
+          {
+            "id": "c4",
+            "text": "and the clouds moved far away."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "When a storm approaches, it is getting closer.",
+        "explanation": "A darker sky and stronger wind show the storm coming closer, so it approached. Clouds moving far away would mean the storm was leaving."
+      },
+      {
+        "id": "approach.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Did Nina approach the dog?",
+        "passage": "Nina saw a friendly dog at the park and walked up to it slowly with her hand held out.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did Nina move closer to the dog?",
+        "explanation": "Yes. Nina walked up to the dog, moving closer to it. Moving closer to someone or something is approaching."
+      }
+    ],
+    "review": "pending"
+  }
+]

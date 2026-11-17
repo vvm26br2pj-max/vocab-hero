@@ -1,0 +1,1996 @@
+[
+  {
+    "id": "reluctant.adj.1",
+    "word": "reluctant",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "rih-LUK-tunt",
+    "definition": "hesitant or not wanting to do something",
+    "hero": {
+      "text": "Nova was reluctant to cross the shaky bridge, but she knew someone needed help on the other side.",
+      "scene": {
+        "pose": "hesitant",
+        "props": [
+          "🌉",
+          "😟"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Mia was reluctant to speak in front of the class.",
+    "contrast": {
+      "nonExample": "Sam can't swim yet, so he stays out of the pool.",
+      "explanation": "Being unable to do something is different from being reluctant. Someone may be able to swim but still be reluctant to get into cold water.",
+      "scene": {
+        "pose": "excited",
+        "props": [
+          "🏊",
+          "💦"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "hesitant",
+        "unwilling"
+      ],
+      "antonyms": [
+        "eager",
+        "willing"
+      ],
+      "family": [
+        "reluctance",
+        "reluctantly"
+      ]
+    },
+    "forms": [
+      "reluctant"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "reluctant.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is reluctant?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ava runs over to join the game right away."
+          },
+          {
+            "id": "b",
+            "text": "Leo hangs back because he doesn't want to join."
+          },
+          {
+            "id": "c",
+            "text": "Zoe cheers loudly for her team."
+          }
+        ],
+        "answer": "b",
+        "hint": "Look for the person who does not want to do something.",
+        "explanation": "Reluctant means hesitant or unwilling. Leo hangs back because he doesn't want to join.",
+        "wrong": {
+          "a": "Ava wants to join immediately, so eager fits her better.",
+          "c": "Zoe is excited, not hesitant."
+        }
+      },
+      {
+        "id": "reluctant.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Although he knew how to swim, Ben was ___ to jump into the icy lake.",
+        "options": [
+          {
+            "id": "a",
+            "text": "delighted"
+          },
+          {
+            "id": "b",
+            "text": "ordinary"
+          },
+          {
+            "id": "c",
+            "text": "reluctant"
+          },
+          {
+            "id": "d",
+            "text": "generous"
+          }
+        ],
+        "answer": "c",
+        "clue": "Although he knew how; icy",
+        "hint": "\"Although\" tells you something unexpected is coming. How might someone feel about icy water?",
+        "explanation": "\"Although he knew how to swim\" shows Ben was able, and \"icy\" shows why he hesitated. Reluctant fits: he did not want to jump."
+      },
+      {
+        "id": "reluctant.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"reluctant\" in this sentence?",
+        "passage": "The puppy was reluctant to step onto the slippery floor.",
+        "options": [
+          {
+            "id": "a",
+            "text": "unwilling"
+          },
+          {
+            "id": "b",
+            "text": "unable"
+          },
+          {
+            "id": "c",
+            "text": "excited"
+          },
+          {
+            "id": "d",
+            "text": "careless"
+          }
+        ],
+        "answer": "a",
+        "hint": "Did the puppy not want to, or could it not?",
+        "explanation": "Unwilling means not wanting to, which matches reluctant. Unable means it couldn't, which is a different idea."
+      },
+      {
+        "id": "reluctant.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what reluctant means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Priya was reluctant"
+          },
+          {
+            "id": "c2",
+            "text": "to share her new markers,"
+          },
+          {
+            "id": "c3",
+            "text": "but she handed one to her friend."
+          },
+          {
+            "id": "c4",
+            "text": "so she happily gave them all away."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A reluctant person hesitates. Which ending shows hesitation and then a choice?",
+        "explanation": "Reluctant people hesitate, so \"but she handed one to her friend\" fits. \"Happily gave them all away\" shows eagerness, not reluctance."
+      },
+      {
+        "id": "reluctant.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes how Lena felt?",
+        "passage": "Lena eventually agreed to lend out her favorite book, but she hesitated for a long time first.",
+        "options": [
+          {
+            "id": "a",
+            "text": "proud"
+          },
+          {
+            "id": "b",
+            "text": "reluctant"
+          },
+          {
+            "id": "c",
+            "text": "curious"
+          },
+          {
+            "id": "d",
+            "text": "furious"
+          }
+        ],
+        "answer": "b",
+        "clue": "hesitated for a long time",
+        "hint": "What does hesitating before agreeing tell you?",
+        "explanation": "\"Hesitated for a long time\" before agreeing shows Lena didn't really want to. That is reluctant. Furious is much stronger anger, and nothing shows she was angry."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "investigate.verb.1",
+    "word": "investigate",
+    "grade": 4,
+    "pos": "verb",
+    "say": "in-VES-tih-gayt",
+    "definition": "to look at something closely and carefully to find out the facts",
+    "hero": {
+      "text": "Pixel investigated the strange glowing footprints, measuring and photographing each one for clues.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🔍",
+          "👣",
+          "📸"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Our class investigated why some plants on the windowsill grew taller than the others.",
+    "contrast": {
+      "nonExample": "Theo glanced at the puddle on the kitchen floor and walked away without wondering where it came from.",
+      "explanation": "Investigating means carefully searching for facts or causes. A quick glance with no questions is not investigating.",
+      "scene": {
+        "pose": "neutral",
+        "props": [
+          "💧"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "examine",
+        "explore",
+        "look into"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "family": [
+        "investigation",
+        "investigator"
+      ]
+    },
+    "forms": [
+      "investigate",
+      "investigates",
+      "investigated",
+      "investigating"
+    ],
+    "tags": [
+      "science",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "investigate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does investigate mean in this sentence?",
+        "passage": "The scientists will investigate why the lake water suddenly turned green.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to clean something up quickly"
+          },
+          {
+            "id": "b",
+            "text": "to look closely to find the facts"
+          },
+          {
+            "id": "c",
+            "text": "to warn people about a danger"
+          },
+          {
+            "id": "d",
+            "text": "to stop thinking about a problem"
+          }
+        ],
+        "answer": "b",
+        "hint": "The scientists want to know why. What do you do when you want to find out why?",
+        "explanation": "Investigate means to look closely and carefully to find out the facts. The scientists want to learn why the water changed color.",
+        "wrong": {
+          "a": "Cleaning might come later, but first they want to find out why it happened.",
+          "c": "Warning people is telling, not finding out.",
+          "d": "This is the opposite: investigating means paying close attention to a problem."
+        }
+      },
+      {
+        "id": "investigate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "When the cookies vanished from the jar, Grandpa decided to ___ by checking for crumbs and fingerprints.",
+        "options": [
+          {
+            "id": "a",
+            "text": "celebrate"
+          },
+          {
+            "id": "b",
+            "text": "apologize"
+          },
+          {
+            "id": "c",
+            "text": "relax"
+          },
+          {
+            "id": "d",
+            "text": "investigate"
+          }
+        ],
+        "answer": "d",
+        "clue": "checking for crumbs and fingerprints",
+        "hint": "Grandpa is looking for clues. What word means searching for facts?",
+        "explanation": "\"Checking for crumbs and fingerprints\" means looking carefully for clues to find out what happened. That is what it means to investigate."
+      },
+      {
+        "id": "investigate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"investigated\" in this sentence?",
+        "passage": "The museum staff investigated how the old painting had been damaged.",
+        "options": [
+          {
+            "id": "a",
+            "text": "examined"
+          },
+          {
+            "id": "b",
+            "text": "repaired"
+          },
+          {
+            "id": "c",
+            "text": "hid"
+          },
+          {
+            "id": "d",
+            "text": "sold"
+          }
+        ],
+        "answer": "a",
+        "hint": "The staff wanted to find out how the damage happened.",
+        "explanation": "Examined means looked at closely to learn more, which matches investigated. Repaired means fixed; that might come after the investigation, but it is a different action."
+      },
+      {
+        "id": "investigate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what investigate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The coach investigated"
+          },
+          {
+            "id": "c2",
+            "text": "why the team kept losing the ball"
+          },
+          {
+            "id": "c3",
+            "text": "by watching videos of every game."
+          },
+          {
+            "id": "c4",
+            "text": "by refusing to think about it at all."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Investigating takes careful looking. Which ending shows that?",
+        "explanation": "Watching videos of every game is a careful way to find out the cause, so it shows investigating. Refusing to think about it is the opposite of investigating."
+      },
+      {
+        "id": "investigate.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is Rosa investigating?",
+        "passage": "Rosa wanted to know why her bike chain kept slipping, so she studied it, tested the gears, and read the manual.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Is Rosa carefully searching for the reason?",
+        "explanation": "Yes. Rosa studies, tests, and reads to find out why the chain slips. Looking carefully for the cause of a problem is investigating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "resourceful.adj.1",
+    "word": "resourceful",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "rih-SORS-ful",
+    "definition": "good at finding clever ways to solve problems with what you have",
+    "hero": {
+      "text": "When the power went out, Juniper was resourceful and used glow sticks to light up the shelter.",
+      "scene": {
+        "pose": "confident",
+        "props": [
+          "🔦",
+          "✨"
+        ],
+        "setting": "night"
+      }
+    },
+    "everyday": "Without a ruler, the resourceful student measured her desk using a dollar bill.",
+    "contrast": {
+      "nonExample": "When his pencil broke, Omar just sat and waited for the teacher to notice instead of looking for another one.",
+      "explanation": "A resourceful person finds a way to solve a problem with whatever is nearby. Waiting for someone else to fix it is not resourceful.",
+      "scene": {
+        "pose": "sitting",
+        "props": [
+          "✏️"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "clever",
+        "inventive",
+        "creative"
+      ],
+      "antonyms": [
+        "helpless"
+      ],
+      "family": [
+        "resource",
+        "resourcefulness",
+        "resourcefully"
+      ]
+    },
+    "forms": [
+      "resourceful"
+    ],
+    "parts": [
+      {
+        "part": "resource",
+        "meaning": "something useful you can use"
+      },
+      {
+        "part": "-ful",
+        "meaning": "full of"
+      }
+    ],
+    "tags": [
+      "everyday",
+      "reading"
+    ],
+    "items": [
+      {
+        "id": "resourceful.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which person is resourceful?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kira forgets her umbrella and stays wet all day."
+          },
+          {
+            "id": "b",
+            "text": "Jon buys a brand-new umbrella every time it rains."
+          },
+          {
+            "id": "c",
+            "text": "Lia folds a newspaper into a rain hat."
+          },
+          {
+            "id": "d",
+            "text": "Max complains loudly that it is raining."
+          }
+        ],
+        "answer": "c",
+        "hint": "Who solves the problem cleverly using something already nearby?",
+        "explanation": "Resourceful means finding clever ways to solve problems with what you have. Lia turns a newspaper into a hat.",
+        "wrong": {
+          "a": "Kira does nothing to solve the problem.",
+          "b": "Buying something new is not using what you already have.",
+          "d": "Complaining does not solve the problem."
+        }
+      },
+      {
+        "id": "resourceful.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "With no tape left, the ___ artist held her poster together using paper clips and string.",
+        "options": [
+          {
+            "id": "a",
+            "text": "resourceful"
+          },
+          {
+            "id": "b",
+            "text": "careless"
+          },
+          {
+            "id": "c",
+            "text": "sleepy"
+          },
+          {
+            "id": "d",
+            "text": "polite"
+          }
+        ],
+        "answer": "a",
+        "clue": "With no tape left; using paper clips and string",
+        "hint": "The artist ran out of something but still found a way. What word fits that?",
+        "explanation": "\"With no tape left\" is the problem, and \"using paper clips and string\" is her clever fix. Solving a problem with what is on hand is being resourceful."
+      },
+      {
+        "id": "resourceful.adj.1#3",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what resourceful means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "When the recipe called for buttermilk,"
+          },
+          {
+            "id": "c2",
+            "text": "the resourceful cook"
+          },
+          {
+            "id": "c3",
+            "text": "mixed milk with lemon juice instead."
+          },
+          {
+            "id": "c4",
+            "text": "gave up and threw the batter away."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A resourceful cook finds a way to keep going. Which ending shows that?",
+        "explanation": "Mixing milk with lemon juice is a clever swap using what was in the kitchen, so it shows resourcefulness. Giving up does not."
+      },
+      {
+        "id": "resourceful.adj.1#4",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "A resource is something useful you can use, and -ful means \"full of.\" What does resourceful mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "full of ways to use what you have"
+          },
+          {
+            "id": "b",
+            "text": "having no supplies at all"
+          },
+          {
+            "id": "c",
+            "text": "owning far too many things"
+          },
+          {
+            "id": "d",
+            "text": "able to buy whatever you want"
+          }
+        ],
+        "answer": "a",
+        "hint": "Put the two parts together: full of + useful things.",
+        "explanation": "Resource + -ful means full of ways to use helpful things. A resourceful person makes good use of whatever is around them.",
+        "wrong": {
+          "b": "This describes having nothing, not being clever with what you have.",
+          "c": "Having lots of things is not the same as using them cleverly.",
+          "d": "Buying is not the same as finding clever ways."
+        }
+      },
+      {
+        "id": "resourceful.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes Dev?",
+        "passage": "Stranded without a map on the hiking trail, Dev drew one from memory and used the sun to find north.",
+        "options": [
+          {
+            "id": "a",
+            "text": "lucky"
+          },
+          {
+            "id": "b",
+            "text": "obedient"
+          },
+          {
+            "id": "c",
+            "text": "resourceful"
+          },
+          {
+            "id": "d",
+            "text": "stubborn"
+          }
+        ],
+        "answer": "c",
+        "clue": "drew one from memory; used the sun to find north",
+        "hint": "Did good things just happen to Dev, or did he make his own solution?",
+        "explanation": "Dev \"drew one from memory\" and \"used the sun to find north,\" solving his problem with what he had. That is resourceful. Lucky would mean things went well by chance."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "consequence.noun.1",
+    "word": "consequence",
+    "grade": 4,
+    "pos": "noun",
+    "say": "KON-sih-kwens",
+    "definition": "something that happens because of an earlier action or choice",
+    "hero": {
+      "text": "Bolt forgot to charge his speed boots, and the consequence was a very long walk home.",
+      "scene": {
+        "pose": "tired",
+        "props": [
+          "🥾",
+          "🔋"
+        ],
+        "setting": "street"
+      }
+    },
+    "everyday": "One consequence of the heavy rain was a soccer field too muddy to play on.",
+    "contrast": {
+      "nonExample": "Before the storm arrived, the sky turned dark and the wind began to pick up.",
+      "explanation": "Those are signs that come before an event. A consequence comes after, as a result of something that already happened.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🌩️",
+          "💨"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "result",
+        "outcome",
+        "effect"
+      ],
+      "antonyms": [
+        "cause"
+      ],
+      "family": [
+        "consequences",
+        "consequently"
+      ]
+    },
+    "forms": [
+      "consequence",
+      "consequences"
+    ],
+    "tags": [
+      "reading",
+      "social",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "consequence.noun.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is feeling sleepy a consequence of staying up late?",
+        "passage": "Ella stayed up very late reading, so she felt sleepy during math class the next day.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Did the sleepiness happen because of something Ella did earlier?",
+        "explanation": "Yes. The word \"so\" shows that feeling sleepy happened because Ella stayed up late. A result of an earlier choice is a consequence."
+      },
+      {
+        "id": "consequence.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Littering in the park had a serious ___: birds got tangled in the plastic bags.",
+        "options": [
+          {
+            "id": "a",
+            "text": "celebration"
+          },
+          {
+            "id": "b",
+            "text": "instruction"
+          },
+          {
+            "id": "c",
+            "text": "decoration"
+          },
+          {
+            "id": "d",
+            "text": "consequence"
+          }
+        ],
+        "answer": "d",
+        "clue": "Littering; birds got tangled",
+        "hint": "What happened because people littered?",
+        "explanation": "The birds getting tangled happened because of the littering. Something that results from an action is a consequence."
+      },
+      {
+        "id": "consequence.noun.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"consequence\" in this sentence?",
+        "passage": "A consequence of skipping breakfast was that Jamal felt hungry all morning.",
+        "options": [
+          {
+            "id": "a",
+            "text": "cause"
+          },
+          {
+            "id": "b",
+            "text": "warning"
+          },
+          {
+            "id": "c",
+            "text": "meal"
+          },
+          {
+            "id": "d",
+            "text": "result"
+          }
+        ],
+        "answer": "d",
+        "hint": "Feeling hungry came after skipping breakfast. Is it the cause or what came from it?",
+        "explanation": "Result means what happens because of something, just like consequence. Cause is the opposite: skipping breakfast was the cause, and feeling hungry was the result."
+      },
+      {
+        "id": "consequence.noun.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses consequence correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"Please hand me that consequence on the shelf.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Our garden was a consequence of planting seeds in May.\""
+          },
+          {
+            "id": "c",
+            "text": "\"The consequence happened before I even made my choice.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "A consequence comes after an action, because of it.",
+        "explanation": "The garden grew because the seeds were planted, so it is a consequence of planting. A consequence is not an object to hand someone, and it cannot happen before the choice that causes it.",
+        "wrong": {
+          "a": "A consequence is an outcome, not a thing on a shelf.",
+          "c": "A consequence comes after the choice, not before."
+        }
+      },
+      {
+        "id": "consequence.noun.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What was a consequence of cutting down the trees?",
+        "passage": "The town cut down most of the trees on the hill. Later, heavy rains washed thick mud into the streets below.",
+        "options": [
+          {
+            "id": "a",
+            "text": "the trees on the hill"
+          },
+          {
+            "id": "b",
+            "text": "mud washing into the streets"
+          },
+          {
+            "id": "c",
+            "text": "the town's decision"
+          },
+          {
+            "id": "d",
+            "text": "the hill itself"
+          }
+        ],
+        "answer": "b",
+        "clue": "Later, heavy rains washed thick mud",
+        "hint": "Which thing happened later, because of what the town did?",
+        "explanation": "\"Later\" tells you the mud came after the trees were cut. Without tree roots to hold the soil, mud washed down. That result is a consequence. The town's decision was the cause."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "accurate.adj.1",
+    "word": "accurate",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "AK-yur-it",
+    "definition": "exactly correct, with no mistakes",
+    "hero": {
+      "text": "Kai's map of the tunnels was so accurate that the team found the exit in minutes.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "🗺️",
+          "🧭"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "The nurse used a special scale to get an accurate measurement of the baby's weight.",
+    "contrast": {
+      "nonExample": "Lucy guessed that the jar held about a hundred marbles without counting any of them.",
+      "explanation": "A guess might be close, but accurate means exactly right, usually after careful checking or measuring.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🫙",
+          "🔵"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "correct",
+        "exact",
+        "precise"
+      ],
+      "antonyms": [
+        "inaccurate",
+        "wrong"
+      ],
+      "family": [
+        "accuracy",
+        "accurately",
+        "inaccurate"
+      ]
+    },
+    "forms": [
+      "accurate"
+    ],
+    "tags": [
+      "math",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "accurate.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which statement is accurate?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ada says the bus comes at 3:00, but it comes at 3:30."
+          },
+          {
+            "id": "b",
+            "text": "Tim says there are six eggs, but there are only four."
+          },
+          {
+            "id": "c",
+            "text": "Ben says the movie starts at 7:00, and it does."
+          }
+        ],
+        "answer": "c",
+        "hint": "Which person's information turns out to be exactly right?",
+        "explanation": "Accurate means exactly correct. Ben said 7:00, and the movie really started at 7:00.",
+        "wrong": {
+          "a": "Ada was off by thirty minutes, so she was not accurate.",
+          "b": "Tim counted wrong, so his count was not accurate."
+        }
+      },
+      {
+        "id": "accurate.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The scientist checked her numbers three times to make sure the results were ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "famous"
+          },
+          {
+            "id": "b",
+            "text": "colorful"
+          },
+          {
+            "id": "c",
+            "text": "accurate"
+          },
+          {
+            "id": "d",
+            "text": "noisy"
+          }
+        ],
+        "answer": "c",
+        "clue": "checked her numbers three times",
+        "hint": "Why would someone check numbers again and again?",
+        "explanation": "People check numbers \"three times\" to be sure there are no mistakes. Results with no mistakes are accurate."
+      },
+      {
+        "id": "accurate.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the opposite of \"accurate\" in this sentence?",
+        "passage": "The weather report was accurate: it said rain at noon, and it rained at noon.",
+        "options": [
+          {
+            "id": "a",
+            "text": "correct"
+          },
+          {
+            "id": "b",
+            "text": "cloudy"
+          },
+          {
+            "id": "c",
+            "text": "early"
+          },
+          {
+            "id": "d",
+            "text": "wrong"
+          }
+        ],
+        "answer": "d",
+        "hint": "An accurate report is right. What is the opposite of right?",
+        "explanation": "Accurate means exactly right, so its opposite is wrong. Correct means the same as accurate, not the opposite."
+      },
+      {
+        "id": "accurate.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what accurate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The reporter's story was accurate"
+          },
+          {
+            "id": "c2",
+            "text": "because she checked every fact"
+          },
+          {
+            "id": "c3",
+            "text": "with two different sources."
+          },
+          {
+            "id": "c4",
+            "text": "because she guessed at most of the facts"
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "What makes a story exactly correct?",
+        "explanation": "Checking every fact with two sources is how you make sure there are no mistakes, so the story is accurate. Guessing at facts leads to mistakes, not accuracy."
+      },
+      {
+        "id": "accurate.adj.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Is the hallway clock accurate?",
+        "passage": "The clock in the school hallway runs ten minutes fast, so students keep arriving at lunch too early.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Does the clock show exactly the right time?",
+        "explanation": "No. A clock that is ten minutes fast shows the wrong time. Accurate means exactly correct."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "admire.verb.1",
+    "word": "admire",
+    "grade": 4,
+    "pos": "verb",
+    "say": "ad-MIRE",
+    "definition": "to respect and look up to someone or something because it is good or impressive",
+    "hero": {
+      "text": "The younger students admire Rex because he always helps others, even when nobody is watching.",
+      "scene": {
+        "pose": "kind",
+        "props": [
+          "⭐"
+        ],
+        "second": "happy",
+        "setting": "school"
+      }
+    },
+    "everyday": "Many people admire Harriet Tubman for her courage in leading others to freedom.",
+    "contrast": {
+      "nonExample": "Jada felt jealous of her friend's new bike and wished it belonged to her instead.",
+      "explanation": "Admiring means respecting something good about someone. Jealousy means wanting what someone else has, often with unhappy feelings.",
+      "scene": {
+        "pose": "angry",
+        "props": [
+          "🚲"
+        ],
+        "setting": "street"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "respect",
+        "look up to",
+        "appreciate"
+      ],
+      "antonyms": [
+        "scorn",
+        "dislike"
+      ],
+      "family": [
+        "admiration",
+        "admirable",
+        "admirer"
+      ]
+    },
+    "forms": [
+      "admire",
+      "admires",
+      "admired",
+      "admiring"
+    ],
+    "tags": [
+      "reading",
+      "history",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "admire.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does admire mean in this sentence?",
+        "passage": "I admire my aunt because she taught herself to speak three languages.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to feel sorry for"
+          },
+          {
+            "id": "b",
+            "text": "to respect and look up to"
+          },
+          {
+            "id": "c",
+            "text": "to be confused by"
+          },
+          {
+            "id": "d",
+            "text": "to be afraid of"
+          }
+        ],
+        "answer": "b",
+        "hint": "Learning three languages is impressive. How do you feel about someone impressive?",
+        "explanation": "Admire means to respect and look up to someone. Teaching yourself three languages is impressive, so the speaker admires her aunt."
+      },
+      {
+        "id": "admire.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Visitors stopped to ___ the giant sand castle, praising every tower and tunnel.",
+        "options": [
+          {
+            "id": "a",
+            "text": "admire"
+          },
+          {
+            "id": "b",
+            "text": "destroy"
+          },
+          {
+            "id": "c",
+            "text": "ignore"
+          },
+          {
+            "id": "d",
+            "text": "forget"
+          }
+        ],
+        "answer": "a",
+        "clue": "praising every tower and tunnel",
+        "hint": "The visitors are praising the castle. What are they doing?",
+        "explanation": "\"Praising every tower and tunnel\" shows the visitors think the castle is impressive. Looking at something with respect and delight is admiring it."
+      },
+      {
+        "id": "admire.verb.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Wen thinks her coach is wise and hardworking, and she hopes to be like her someday. Wen ___ her coach.",
+        "options": [
+          {
+            "id": "a",
+            "text": "envies"
+          },
+          {
+            "id": "b",
+            "text": "obeys"
+          },
+          {
+            "id": "c",
+            "text": "admires"
+          },
+          {
+            "id": "d",
+            "text": "notices"
+          }
+        ],
+        "answer": "c",
+        "clue": "wise and hardworking; hopes to be like her",
+        "hint": "Wen respects her coach and wants to be like her.",
+        "explanation": "Wanting to be like someone because they are wise and hardworking is admiring them. Envies means wanting what someone has, with unhappy feelings. Notices is just seeing, with no respect involved."
+      },
+      {
+        "id": "admire.verb.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses admire naturally?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"I admire the rain because it ruined our picnic.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I admire how patient you are with your brother.\""
+          },
+          {
+            "id": "c",
+            "text": "\"I admire my homework, so I hid it under the bed.\""
+          }
+        ],
+        "answer": "b",
+        "hint": "We admire things we think are good or impressive.",
+        "explanation": "Patience is a good quality, so admiring it makes sense. People do not admire something for ruining their fun, and hiding homework does not show respect for it.",
+        "wrong": {
+          "a": "\"Ruined our picnic\" is a bad thing, so admire does not fit.",
+          "c": "Hiding something does not show you look up to it."
+        }
+      },
+      {
+        "id": "admire.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Does Marco admire his classmate's painting?",
+        "passage": "Marco rolled his eyes when his classmate won the art contest and said her painting was boring.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Does rolling your eyes show respect?",
+        "explanation": "No. Rolling his eyes and calling the painting boring shows Marco does not respect it. To admire something, you have to think it is good or impressive."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "anxious.adj.1",
+    "word": "anxious",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "ANK-shus",
+    "definition": "worried or nervous about something that might happen",
+    "hero": {
+      "text": "Before her first flying test, Juniper felt anxious and kept checking the straps on her cape.",
+      "scene": {
+        "pose": "hesitant",
+        "props": [
+          "😰",
+          "🦸"
+        ],
+        "setting": "sky"
+      }
+    },
+    "everyday": "Leo felt anxious the night before the spelling bee and could not fall asleep.",
+    "contrast": {
+      "nonExample": "Ana was angry that her brother had eaten the last slice of pizza.",
+      "explanation": "Angry is about something that already happened and upset you. Anxious is worry about something that might happen.",
+      "scene": {
+        "pose": "angry",
+        "props": [
+          "🍕"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "worried",
+        "nervous",
+        "uneasy"
+      ],
+      "antonyms": [
+        "calm",
+        "relaxed"
+      ],
+      "family": [
+        "anxiety",
+        "anxiously"
+      ]
+    },
+    "forms": [
+      "anxious"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "anxious.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is Priya anxious?",
+        "passage": "Priya keeps checking the clock and biting her nails while she waits for her test results.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "What do checking the clock and biting nails show about how she feels?",
+        "explanation": "Yes. Checking the clock and biting her nails show Priya is worried about results she does not know yet. Worry about what might happen is being anxious."
+      },
+      {
+        "id": "anxious.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The farmer grew ___ as weeks passed with no rain and his crops began to wilt.",
+        "options": [
+          {
+            "id": "a",
+            "text": "cheerful"
+          },
+          {
+            "id": "b",
+            "text": "proud"
+          },
+          {
+            "id": "c",
+            "text": "generous"
+          },
+          {
+            "id": "d",
+            "text": "anxious"
+          }
+        ],
+        "answer": "d",
+        "clue": "no rain; crops began to wilt",
+        "hint": "How would you feel if your plants were dying and you didn't know if rain would come?",
+        "explanation": "\"No rain\" and \"crops began to wilt\" give the farmer good reason to worry about what will happen. That worried feeling is anxious."
+      },
+      {
+        "id": "anxious.adj.1#3",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word best describes how Sam feels?",
+        "passage": "Sam is a little worried that he might forget his lines in the school play tomorrow.",
+        "options": [
+          {
+            "id": "a",
+            "text": "terrified"
+          },
+          {
+            "id": "b",
+            "text": "bored"
+          },
+          {
+            "id": "c",
+            "text": "anxious"
+          },
+          {
+            "id": "d",
+            "text": "furious"
+          }
+        ],
+        "answer": "c",
+        "clue": "a little worried; might forget",
+        "hint": "Sam is only a little worried. Pick a word that is not too strong.",
+        "explanation": "Anxious means worried about something that might happen, which matches \"a little worried.\" Terrified is much stronger fear, too strong for Sam's feelings."
+      },
+      {
+        "id": "anxious.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what anxious means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Mom felt anxious"
+          },
+          {
+            "id": "c2",
+            "text": "when my little sister was late"
+          },
+          {
+            "id": "c3",
+            "text": "coming home from her friend's house."
+          },
+          {
+            "id": "c4",
+            "text": "and smiled as she took a calm nap."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Anxious people are worried. Which ending gives Mom something to worry about?",
+        "explanation": "A child coming home late is a reason to worry, so it explains why Mom felt anxious. Smiling and napping calmly is the opposite of anxious."
+      },
+      {
+        "id": "anxious.adj.1#5",
+        "format": "synonym",
+        "stage": "transfer",
+        "prompt": "Which word is the opposite of \"anxious\" in this sentence?",
+        "passage": "The anxious puppy paced back and forth by the door until its owner came home.",
+        "options": [
+          {
+            "id": "a",
+            "text": "calm"
+          },
+          {
+            "id": "b",
+            "text": "nervous"
+          },
+          {
+            "id": "c",
+            "text": "tiny"
+          },
+          {
+            "id": "d",
+            "text": "hungry"
+          }
+        ],
+        "answer": "a",
+        "hint": "The puppy is pacing with worry. What is the opposite of worried?",
+        "explanation": "Pacing shows the puppy is worried. The opposite of anxious is calm. Nervous means almost the same as anxious, so it is not the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "brief.adj.1",
+    "word": "brief",
+    "grade": 4,
+    "pos": "adjective",
+    "say": "BREEF",
+    "definition": "short in time or length",
+    "hero": {
+      "text": "Bolt gave a brief speech, just two sentences long, before the team rushed off to help.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "🎤",
+          "⏱️"
+        ],
+        "setting": "stage"
+      }
+    },
+    "everyday": "After a brief rain shower, the sun came out and dried the sidewalk.",
+    "contrast": {
+      "nonExample": "The movie lasted almost three hours, and some people in the audience fell asleep.",
+      "explanation": "Brief means short. Something that goes on for hours is long, not brief.",
+      "scene": {
+        "pose": "tired",
+        "props": [
+          "🎬",
+          "😴"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "short",
+        "quick"
+      ],
+      "antonyms": [
+        "long",
+        "lengthy"
+      ],
+      "family": [
+        "briefly"
+      ]
+    },
+    "forms": [
+      "brief",
+      "briefer",
+      "briefest"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "brief.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which one is brief?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a whole summer vacation"
+          },
+          {
+            "id": "b",
+            "text": "a ten-chapter book"
+          },
+          {
+            "id": "c",
+            "text": "a five-second commercial"
+          }
+        ],
+        "answer": "c",
+        "hint": "Brief means short. Which one takes the least time?",
+        "explanation": "Brief means short in time or length. Five seconds is a very short time.",
+        "wrong": {
+          "a": "A summer vacation lasts weeks, which is long.",
+          "b": "Ten chapters is a long book, not a brief one."
+        }
+      },
+      {
+        "id": "brief.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Our visit with Grandma was ___ because our train left only twenty minutes later.",
+        "options": [
+          {
+            "id": "a",
+            "text": "endless"
+          },
+          {
+            "id": "b",
+            "text": "brief"
+          },
+          {
+            "id": "c",
+            "text": "noisy"
+          },
+          {
+            "id": "d",
+            "text": "famous"
+          }
+        ],
+        "answer": "b",
+        "clue": "only twenty minutes later",
+        "hint": "How long could the visit last if the train left so soon?",
+        "explanation": "\"Only twenty minutes\" means there was very little time, so the visit was short. Brief means short. Endless is the opposite."
+      },
+      {
+        "id": "brief.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"brief\" in this sentence?",
+        "passage": "The principal made a brief announcement before lunch and then let us eat.",
+        "options": [
+          {
+            "id": "a",
+            "text": "short"
+          },
+          {
+            "id": "b",
+            "text": "loud"
+          },
+          {
+            "id": "c",
+            "text": "important"
+          },
+          {
+            "id": "d",
+            "text": "boring"
+          }
+        ],
+        "answer": "a",
+        "hint": "Brief is about how long something lasts.",
+        "explanation": "Brief means short. An announcement could also be loud or important, but those words describe something else, not its length."
+      },
+      {
+        "id": "brief.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what brief means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The teacher asked us for"
+          },
+          {
+            "id": "c2",
+            "text": "a brief summary,"
+          },
+          {
+            "id": "c3",
+            "text": "just three sentences long."
+          },
+          {
+            "id": "c4",
+            "text": "at least ten pages long."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "A brief summary is short. Which length is short?",
+        "explanation": "Three sentences is short, so it matches brief. Ten pages is long, which is the opposite of brief."
+      },
+      {
+        "id": "brief.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes the hummingbird's visit?",
+        "passage": "The hummingbird landed on the feeder for only a moment before zooming away over the fence.",
+        "options": [
+          {
+            "id": "a",
+            "text": "lengthy"
+          },
+          {
+            "id": "b",
+            "text": "careful"
+          },
+          {
+            "id": "c",
+            "text": "silent"
+          },
+          {
+            "id": "d",
+            "text": "brief"
+          }
+        ],
+        "answer": "d",
+        "clue": "only a moment",
+        "hint": "How long did the bird stay?",
+        "explanation": "\"Only a moment\" tells you the visit was very short. Brief means short in time. Lengthy means the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "cooperate.verb.1",
+    "word": "cooperate",
+    "grade": 4,
+    "pos": "verb",
+    "say": "koh-OP-uh-rayt",
+    "definition": "to work together with others to reach the same goal",
+    "hero": {
+      "text": "Nova and Kai cooperated to lift the fallen tree off the path, each holding one end.",
+      "scene": {
+        "pose": "lifting",
+        "props": [
+          "🌳"
+        ],
+        "second": "lifting",
+        "setting": "park"
+      }
+    },
+    "everyday": "The students cooperated to build a model volcano, with each person handling one part.",
+    "contrast": {
+      "nonExample": "Two brothers each built their own sandcastle and refused to share their buckets.",
+      "explanation": "Cooperating means working together toward one goal. Working separately and refusing to share is not cooperating.",
+      "scene": {
+        "pose": "angry",
+        "props": [
+          "🏖️",
+          "🪣"
+        ],
+        "second": "angry",
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "collaborate",
+        "work together",
+        "team up"
+      ],
+      "antonyms": [
+        "refuse",
+        "resist"
+      ],
+      "family": [
+        "cooperation",
+        "cooperative"
+      ]
+    },
+    "forms": [
+      "cooperate",
+      "cooperates",
+      "cooperated",
+      "cooperating"
+    ],
+    "parts": [
+      {
+        "part": "co-",
+        "meaning": "together"
+      },
+      {
+        "part": "operate",
+        "meaning": "to work"
+      }
+    ],
+    "tags": [
+      "social",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "cooperate.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Are the neighbors cooperating?",
+        "passage": "On cleanup day, the neighbors split up the jobs: some raked leaves while others bagged them.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Are they working together toward one goal?",
+        "explanation": "Yes. The neighbors share the work to reach the same goal: a clean neighborhood. Working together like that is cooperating."
+      },
+      {
+        "id": "cooperate.verb.1#2",
+        "format": "word_parts",
+        "stage": "independent",
+        "prompt": "The prefix co- means \"together,\" and operate means \"to work.\" What does cooperate mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "to work all alone"
+          },
+          {
+            "id": "b",
+            "text": "to work again"
+          },
+          {
+            "id": "c",
+            "text": "to stop working"
+          },
+          {
+            "id": "d",
+            "text": "to work together"
+          }
+        ],
+        "answer": "d",
+        "hint": "Put the two parts together: together + work.",
+        "explanation": "Co- (together) + operate (work) = work together. The prefix co- also appears in co-pilot, a pilot who flies together with another.",
+        "wrong": {
+          "a": "Co- means together, so alone is the opposite.",
+          "b": "Re-, not co-, means again."
+        }
+      },
+      {
+        "id": "cooperate.verb.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The puzzle was far too big for one person, so the whole family had to ___ to finish it.",
+        "options": [
+          {
+            "id": "a",
+            "text": "complain"
+          },
+          {
+            "id": "b",
+            "text": "compete"
+          },
+          {
+            "id": "c",
+            "text": "disappear"
+          },
+          {
+            "id": "d",
+            "text": "cooperate"
+          }
+        ],
+        "answer": "d",
+        "clue": "too big for one person; the whole family",
+        "hint": "If a job is too big for one person, what must a group do?",
+        "explanation": "\"Too big for one person\" and \"the whole family\" show that everyone had to work together. That is cooperating. Compete means trying to beat each other, the opposite idea."
+      },
+      {
+        "id": "cooperate.verb.1#4",
+        "format": "dialogue",
+        "stage": "independent",
+        "prompt": "Which line uses cooperate correctly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"If we cooperate, we can lift this table together.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I cooperated by doing the whole project by myself.\""
+          },
+          {
+            "id": "c",
+            "text": "\"Let's cooperate and each refuse to help.\""
+          }
+        ],
+        "answer": "a",
+        "hint": "Cooperating always involves more than one person helping.",
+        "explanation": "Lifting a table together is working as a team, so cooperate fits. You cannot cooperate by yourself, and refusing to help is the opposite of cooperating.",
+        "wrong": {
+          "b": "Doing it all by yourself is working alone, not cooperating.",
+          "c": "Refusing to help is not working together."
+        }
+      },
+      {
+        "id": "cooperate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word describes what the relay team did?",
+        "passage": "In the relay race, each runner passed the baton smoothly to the next, and the team won by working as one.",
+        "options": [
+          {
+            "id": "a",
+            "text": "cooperated"
+          },
+          {
+            "id": "b",
+            "text": "argued"
+          },
+          {
+            "id": "c",
+            "text": "hesitated"
+          },
+          {
+            "id": "d",
+            "text": "quit"
+          }
+        ],
+        "answer": "a",
+        "clue": "passed the baton smoothly; working as one",
+        "hint": "What does \"working as one\" mean?",
+        "explanation": "\"Passed the baton smoothly\" and \"working as one\" show the runners worked together toward the same goal. That is cooperating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "dedicate.verb.1",
+    "word": "dedicate",
+    "grade": 4,
+    "pos": "verb",
+    "say": "DED-ih-kayt",
+    "definition": "to give a lot of your time and effort to something important to you",
+    "hero": {
+      "text": "Rex dedicated every afternoon for a month to learning how to control his super strength.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "💪",
+          "📅"
+        ],
+        "setting": "park"
+      }
+    },
+    "everyday": "Dr. Ruiz dedicated her career to protecting sea turtles and their nesting beaches.",
+    "contrast": {
+      "nonExample": "Ty tried piano for one week and then stopped practicing because it got hard.",
+      "explanation": "Dedicating yourself means giving lots of time and effort over a long time. Quitting after a week is not dedication.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "🎹"
+        ],
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "devote",
+        "commit"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon"
+      ],
+      "family": [
+        "dedication",
+        "dedicated"
+      ]
+    },
+    "forms": [
+      "dedicate",
+      "dedicates",
+      "dedicated",
+      "dedicating"
+    ],
+    "tags": [
+      "reading",
+      "science",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "dedicate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does dedicated mean in this sentence?",
+        "passage": "Mr. Okafor dedicated his weekends to coaching the youth soccer team.",
+        "options": [
+          {
+            "id": "a",
+            "text": "gave a lot of time and effort to"
+          },
+          {
+            "id": "b",
+            "text": "often complained to others about"
+          },
+          {
+            "id": "c",
+            "text": "forgot all about"
+          },
+          {
+            "id": "d",
+            "text": "paid money to watch"
+          }
+        ],
+        "answer": "a",
+        "hint": "He spends his weekends on coaching. What does that show?",
+        "explanation": "Dedicate means to give a lot of time and effort to something. Mr. Okafor spends his weekends coaching, so he dedicated them to the team."
+      },
+      {
+        "id": "dedicate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The volunteers ___ their whole summer to rebuilding the playground after the flood.",
+        "options": [
+          {
+            "id": "a",
+            "text": "borrowed"
+          },
+          {
+            "id": "b",
+            "text": "delayed"
+          },
+          {
+            "id": "c",
+            "text": "dedicated"
+          },
+          {
+            "id": "d",
+            "text": "described"
+          }
+        ],
+        "answer": "c",
+        "clue": "their whole summer to rebuilding",
+        "hint": "The volunteers spent a long time and lots of effort on one goal.",
+        "explanation": "Giving \"their whole summer\" to rebuilding means spending lots of time and effort on it. That is dedicating it."
+      },
+      {
+        "id": "dedicate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"dedicated\" in this sentence?",
+        "passage": "The author dedicated three years to writing her first novel about life on a farm.",
+        "options": [
+          {
+            "id": "a",
+            "text": "wasted"
+          },
+          {
+            "id": "b",
+            "text": "devoted"
+          },
+          {
+            "id": "c",
+            "text": "refused"
+          },
+          {
+            "id": "d",
+            "text": "hid"
+          }
+        ],
+        "answer": "b",
+        "hint": "She spent three years working hard on her book.",
+        "explanation": "Devoted means gave time and effort with care, just like dedicated. Wasted also involves time, but it means using it for nothing, which is not the same."
+      },
+      {
+        "id": "dedicate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what dedicate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Grandpa dedicated"
+          },
+          {
+            "id": "c2",
+            "text": "hours every week"
+          },
+          {
+            "id": "c3",
+            "text": "to caring for his vegetable garden."
+          },
+          {
+            "id": "c4",
+            "text": "to forgetting all about his garden."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "When you dedicate time to something, you put effort into it.",
+        "explanation": "Spending hours caring for a garden shows effort and commitment, which is dedication. You cannot dedicate time to forgetting about something."
+      },
+      {
+        "id": "dedicate.verb.1#5",
+        "format": "example_nonexample",
+        "stage": "transfer",
+        "prompt": "Has Aiko dedicated herself to the violin?",
+        "passage": "Aiko signed up for violin lessons but quit after two days because practicing felt boring.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Aiko give a lot of time and effort over a long time?",
+        "explanation": "No. Quitting after two days means Aiko did not give much time or effort. Dedicating yourself means sticking with something and working hard at it."
+      }
+    ],
+    "review": "pending"
+  }
+]

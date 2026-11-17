@@ -1,0 +1,1955 @@
+[
+ {
+  "id": "excerpt.noun.1",
+  "word": "excerpt",
+  "grade": 6,
+  "pos": "noun",
+  "say": "EK-surpt",
+  "definition": "a short part taken from a longer piece of writing, music, film, or speech",
+  "hero": {
+   "text": "At the ceremony, Kai read an excerpt from the academy's founding speech: just two powerful sentences.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📜",
+     "🎤"
+    ],
+    "setting": "stage"
+   }
+  },
+  "everyday": "The reading test included an excerpt from a novel, followed by questions about the main character.",
+  "contrast": {
+   "nonExample": "Julia read the entire novel, from the first page to the very last.",
+   "explanation": "Reading the whole book is not reading an excerpt. An excerpt is only a short piece taken from something longer.",
+   "scene": {
+    "pose": "sitting",
+    "props": [
+     "📕",
+     "📖"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "passage",
+    "extract",
+    "selection",
+    "clip"
+   ],
+   "antonyms": [],
+   "family": [
+    "excerpts",
+    "excerpted"
+   ]
+  },
+  "forms": [
+   "excerpt",
+   "excerpts"
+  ],
+  "parts": [
+   {
+    "part": "ex-",
+    "meaning": "out"
+   }
+  ],
+  "tags": [
+   "reading",
+   "history",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "excerpt.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"excerpt\" mean in this sentence?",
+    "passage": "Our textbook includes an excerpt from a famous speech given in 1963.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a short part taken from a longer work"
+     },
+     {
+      "id": "b",
+      "text": "a summary in your own words"
+     },
+     {
+      "id": "c",
+      "text": "a picture of the speaker"
+     },
+     {
+      "id": "d",
+      "text": "the complete speech"
+     }
+    ],
+    "answer": "a",
+    "hint": "Does a textbook usually print the whole speech, or just a piece?",
+    "explanation": "An excerpt is a short part taken from a longer work, word for word. It is not the complete speech, and it is not a summary in your own words."
+   },
+   {
+    "id": "excerpt.noun.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix ex- means \"out,\" as in exit and export. So an excerpt is a piece that has been...",
+    "options": [
+     {
+      "id": "a",
+      "text": "added to the end of a book"
+     },
+     {
+      "id": "b",
+      "text": "written by an expert"
+     },
+     {
+      "id": "c",
+      "text": "left out on purpose"
+     },
+     {
+      "id": "d",
+      "text": "taken out of a longer work"
+     }
+    ],
+    "answer": "d",
+    "hint": "Ex- = out. What happens to the piece?",
+    "explanation": "An excerpt is pulled out of a longer work so it can be shared or studied by itself. It is not added, and it is not left out."
+   },
+   {
+    "id": "excerpt.noun.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an excerpt?",
+    "passage": "A movie trailer shows a few short scenes taken from a two-hour film.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Are these short pieces taken from something longer?",
+    "explanation": "Yes. The trailer uses short pieces taken directly from the longer film, so each clip is an excerpt."
+   },
+   {
+    "id": "excerpt.noun.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which of these is an EXCERPT from the story \"Goldilocks and the Three Bears\"?",
+    "options": [
+     {
+      "id": "a",
+      "text": "A girl enters the bears' house, tries their things, and runs off."
+     },
+     {
+      "id": "b",
+      "text": "\"Someone's been eating my porridge!\" cried Papa Bear."
+     },
+     {
+      "id": "c",
+      "text": "This story teaches readers to respect other people's things."
+     },
+     {
+      "id": "d",
+      "text": "Goldilocks is my favorite fairy tale of all time."
+     }
+    ],
+    "answer": "b",
+    "hint": "An excerpt uses the exact words from the story itself.",
+    "explanation": "An excerpt copies the author's actual words, like Papa Bear's line. A retelling of events is a summary, a lesson is a theme, and \"my favorite\" is an opinion."
+   },
+   {
+    "id": "excerpt.noun.1#5",
+    "format": "context_gap",
+    "stage": "transfer",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The radio host played a 30-second ___ from the new symphony so listeners could hear its opening melody.",
+    "options": [
+     {
+      "id": "a",
+      "text": "excerpt"
+     },
+     {
+      "id": "b",
+      "text": "instrument"
+     },
+     {
+      "id": "c",
+      "text": "audience"
+     },
+     {
+      "id": "d",
+      "text": "composer"
+     }
+    ],
+    "answer": "a",
+    "clue": "30-second; from the new symphony",
+    "hint": "A 30-second piece taken from a much longer symphony is called what?",
+    "explanation": "A 30-second piece of a long symphony is a short part taken from a longer work: an excerpt."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "hypothesis.noun.1",
+  "word": "hypothesis",
+  "grade": 6,
+  "pos": "noun",
+  "say": "hy-POTH-uh-sis",
+  "definition": "a possible explanation or prediction that can be tested (plural: hypotheses)",
+  "hero": {
+   "text": "Pixel's hypothesis was that the robot froze because its battery got too cold, so she tested it in a warm room.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🤖",
+     "🌡️"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "Leah's hypothesis was that plants would grow faster with music, so she set up two groups to compare.",
+  "contrast": {
+   "nonExample": "Water boils at 100 degrees Celsius at sea level.",
+   "explanation": "That is a fact that has been tested many times, not a hypothesis. A hypothesis is an idea that still needs to be tested.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "💧",
+     "🔥"
+    ],
+    "setting": "lab"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "prediction",
+    "educated guess",
+    "proposal"
+   ],
+   "antonyms": [],
+   "family": [
+    "hypotheses",
+    "hypothesize",
+    "hypothetical"
+   ]
+  },
+  "forms": [
+   "hypothesis",
+   "hypotheses"
+  ],
+  "parts": [
+   {
+    "part": "hypo-",
+    "meaning": "under"
+   },
+   {
+    "part": "thesis",
+    "meaning": "idea, proposal"
+   }
+  ],
+  "tags": [
+   "science"
+  ],
+  "items": [
+   {
+    "id": "hypothesis.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"hypothesis\" mean in this passage?",
+    "passage": "Before the experiment, the class wrote a hypothesis: \"Ice will melt faster in salt water than in fresh water.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "a list of supplies"
+     },
+     {
+      "id": "b",
+      "text": "the final result"
+     },
+     {
+      "id": "c",
+      "text": "a prediction that can be tested"
+     },
+     {
+      "id": "d",
+      "text": "a rule everyone must follow"
+     }
+    ],
+    "answer": "c",
+    "clue": "Before the experiment",
+    "hint": "It was written BEFORE the experiment.",
+    "explanation": "The class wrote it before testing, as a prediction they could check. That is a hypothesis. The final result comes after the experiment."
+   },
+   {
+    "id": "hypothesis.noun.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is Marco forming a hypothesis?",
+    "passage": "Marco thinks his cat sleeps more on rainy days, so he plans to record her naps and the weather for a month.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does Marco have an idea that he plans to test?",
+    "explanation": "Yes. Marco has a possible explanation (rain makes the cat sleep more) and a plan to test it. That is a hypothesis."
+   },
+   {
+    "id": "hypothesis.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which statement is a hypothesis?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Bean plants are the prettiest plants in the garden."
+     },
+     {
+      "id": "b",
+      "text": "If we add fertilizer, the bean plants will grow taller."
+     },
+     {
+      "id": "c",
+      "text": "The bean plants grew five centimeters in two weeks."
+     },
+     {
+      "id": "d",
+      "text": "We used three pots, soil, and a packet of bean seeds."
+     }
+    ],
+    "answer": "b",
+    "hint": "A hypothesis is a prediction you can test. It is not an opinion, a result, or a list of materials.",
+    "explanation": "The fertilizer statement predicts something that an experiment could test. \"Prettiest\" is an opinion, \"grew five centimeters\" is a result, and the last choice lists materials."
+   },
+   {
+    "id": "hypothesis.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The scientists' ___ turned out to be wrong, but testing it still taught them something new about the virus.",
+    "options": [
+     {
+      "id": "a",
+      "text": "laboratory"
+     },
+     {
+      "id": "b",
+      "text": "microscope"
+     },
+     {
+      "id": "c",
+      "text": "schedule"
+     },
+     {
+      "id": "d",
+      "text": "hypothesis"
+     }
+    ],
+    "answer": "d",
+    "clue": "turned out to be wrong; testing it",
+    "hint": "What kind of idea can be tested and turn out to be wrong?",
+    "explanation": "\"Testing it\" and \"turned out to be wrong\" fit a hypothesis: an idea that is tested and may or may not be right."
+   },
+   {
+    "id": "hypothesis.noun.1#5",
+    "format": "word_parts",
+    "stage": "transfer",
+    "prompt": "The prefix hypo- means \"under,\" and thesis means \"idea\" or \"proposal.\" Why is hypothesis a good name for an idea that has not been proven yet?",
+    "options": [
+     {
+      "id": "a",
+      "text": "It is an idea buried under the ground"
+     },
+     {
+      "id": "b",
+      "text": "It is an idea placed under an experiment, to be tested"
+     },
+     {
+      "id": "c",
+      "text": "It is an idea proven many times already"
+     },
+     {
+      "id": "d",
+      "text": "It is an idea too small to matter"
+     }
+    ],
+    "answer": "b",
+    "hint": "Hypo- = under. Think about what supports or sits beneath an experiment.",
+    "explanation": "A hypothesis is the starting idea that an experiment is built on and tests. It is not proven yet. Once it has been tested many times, it is no longer just a hypothesis."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "incentive.noun.1",
+  "word": "incentive",
+  "grade": 6,
+  "pos": "noun",
+  "say": "in-SEN-tiv",
+  "definition": "something that encourages a person to do something, such as a reward",
+  "hero": {
+   "text": "As an incentive to finish training early, Bolt promised the cadets a flight through the clouds.",
+   "scene": {
+    "pose": "flying",
+    "props": [
+     "🎁",
+     "☁️"
+    ],
+    "setting": "sky"
+   }
+  },
+  "everyday": "The store offered a free smoothie as an incentive for customers to bring reusable bags.",
+  "contrast": {
+   "nonExample": "Sara cleaned her room on a Saturday. Nobody asked her or offered her anything for it.",
+   "explanation": "Nothing was offered to encourage her, so there was no incentive. An incentive is something offered to push someone to act.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🧹",
+     "🛏️"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "motivation",
+    "reward",
+    "encouragement"
+   ],
+   "antonyms": [
+    "deterrent",
+    "discouragement"
+   ],
+   "family": [
+    "incentives"
+   ]
+  },
+  "forms": [
+   "incentive",
+   "incentives"
+  ],
+  "tags": [
+   "social",
+   "math",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "incentive.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"incentive\" mean in this sentence?",
+    "passage": "The library offered stickers as an incentive for kids to read twenty books over the summer.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a rule that forbids something"
+     },
+     {
+      "id": "b",
+      "text": "a punishment for being late"
+     },
+     {
+      "id": "c",
+      "text": "a kind of library book"
+     },
+     {
+      "id": "d",
+      "text": "something that encourages an action"
+     }
+    ],
+    "answer": "d",
+    "hint": "Why does the library offer stickers?",
+    "explanation": "The stickers encourage kids to read more. Something offered to encourage an action is an incentive, not a rule or a punishment."
+   },
+   {
+    "id": "incentive.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Free parking was the main ___ that convinced shoppers to try the new market.",
+    "options": [
+     {
+      "id": "a",
+      "text": "incentive"
+     },
+     {
+      "id": "b",
+      "text": "obstacle"
+     },
+     {
+      "id": "c",
+      "text": "rumor"
+     },
+     {
+      "id": "d",
+      "text": "complaint"
+     }
+    ],
+    "answer": "a",
+    "clue": "convinced shoppers to try",
+    "hint": "Something \"convinced\" shoppers to come. Was it helpful or a problem?",
+    "explanation": "Free parking encouraged shoppers to come, so it was an incentive. An obstacle would keep them away."
+   },
+   {
+    "id": "incentive.noun.1#3",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "Which of these is an incentive to recycle?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Paying a fee for every bag of trash you throw out"
+     },
+     {
+      "id": "b",
+      "text": "A poster that lists what can be recycled"
+     },
+     {
+      "id": "c",
+      "text": "Getting 10 cents back for every can you return"
+     },
+     {
+      "id": "d",
+      "text": "A new law that bans plastic grocery bags"
+     }
+    ],
+    "answer": "c",
+    "hint": "An incentive is a reward that makes you WANT to do something.",
+    "explanation": "Getting money back rewards recycling, so it is an incentive. A fee is a penalty, a poster gives information, and a law forces a rule."
+   },
+   {
+    "id": "incentive.noun.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is there an incentive to finish early?",
+    "passage": "A company tells its workers the project is due Friday. Finishing early earns no reward, praise, or time off.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is anything offered to encourage the workers to finish early?",
+    "explanation": "No. Nothing is offered for finishing early, so there is no incentive to do it. An incentive is something, like a reward, that encourages an action."
+   },
+   {
+    "id": "incentive.noun.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word is closest in meaning to \"incentive\" in this sentence?",
+    "passage": "For many students, the chance to perform onstage was a powerful incentive to practice every day.",
+    "options": [
+     {
+      "id": "a",
+      "text": "distraction"
+     },
+     {
+      "id": "b",
+      "text": "worry"
+     },
+     {
+      "id": "c",
+      "text": "motivation"
+     },
+     {
+      "id": "d",
+      "text": "excuse"
+     }
+    ],
+    "answer": "c",
+    "hint": "What did the chance to perform make the students want to do?",
+    "explanation": "The chance to perform made students want to practice, so motivation is the closest meaning. A distraction or excuse would pull them away from practicing."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "implicit.adj.1",
+  "word": "implicit",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "im-PLIS-it",
+  "definition": "suggested or understood without being said directly",
+  "hero": {
+   "text": "Nova never said she was proud of the new cadet, but her huge smile made it implicit.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "😊",
+     "⭐"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The poem's message about loneliness is implicit; the poet shows an empty chair instead of saying it.",
+  "contrast": {
+   "nonExample": "A sign in the hallway says in bold letters: \"NO RUNNING.\"",
+   "explanation": "The rule is stated directly, which makes it explicit, not implicit. An implicit message is suggested without being said.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🪧",
+     "🚫"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "implied",
+    "unstated",
+    "unspoken"
+   ],
+   "antonyms": [
+    "explicit",
+    "stated",
+    "direct"
+   ],
+   "family": [
+    "implicitly",
+    "imply"
+   ]
+  },
+  "forms": [
+   "implicit"
+  ],
+  "tags": [
+   "reading",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "implicit.adj.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is Grandma's message implicit?",
+    "passage": "When Grandma saw muddy shoes on her clean floor, she said nothing. She just raised her eyebrows and looked at the doormat.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did Grandma say her message in words?",
+    "explanation": "Yes. Grandma never said \"wipe your feet,\" but her look made the message clear. A message understood without being said is implicit."
+   },
+   {
+    "id": "implicit.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The story never says the character is nervous, but it shows her hands shaking and her voice cracking. Her nervousness is ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "implicit"
+     },
+     {
+      "id": "b",
+      "text": "explicit"
+     },
+     {
+      "id": "c",
+      "text": "imaginary"
+     },
+     {
+      "id": "d",
+      "text": "accidental"
+     }
+    ],
+    "answer": "a",
+    "clue": "never says; shows her hands shaking",
+    "hint": "Is the nervousness said directly, or shown through clues?",
+    "explanation": "Explicit would mean the story says it directly. Here it is only shown through details, so it is implicit. It is not imaginary, because the clues show it is real."
+   },
+   {
+    "id": "implicit.adj.1#3",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "What does \"implicit\" mean in this sentence?",
+    "passage": "There was an implicit agreement among the friends: whoever arrived first saved seats for everyone.",
+    "options": [
+     {
+      "id": "a",
+      "text": "written down and signed"
+     },
+     {
+      "id": "b",
+      "text": "broken right away"
+     },
+     {
+      "id": "c",
+      "text": "argued about loudly"
+     },
+     {
+      "id": "d",
+      "text": "understood without being said out loud"
+     }
+    ],
+    "answer": "d",
+    "hint": "Did the friends ever write or say the rule?",
+    "explanation": "The friends all knew the seat-saving rule without anyone stating it. An agreement understood without being said is implicit. One written and signed would be explicit."
+   },
+   {
+    "id": "implicit.adj.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Although the coach never stated it, the ___ message of her speech was that the team needed to work harder.",
+    "options": [
+     {
+      "id": "a",
+      "text": "explicit"
+     },
+     {
+      "id": "b",
+      "text": "implicit"
+     },
+     {
+      "id": "c",
+      "text": "printed"
+     },
+     {
+      "id": "d",
+      "text": "official"
+     }
+    ],
+    "answer": "b",
+    "clue": "never stated it",
+    "hint": "\"Never stated it\" is the key clue.",
+    "explanation": "The coach never stated it, so the message was suggested, not said: implicit. Explicit, printed, and official messages are all stated directly."
+   },
+   {
+    "id": "implicit.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "What is the implicit message of the ad?",
+    "passage": "In a TV ad, a famous runner drinks a bottle of ZoomFizz and then wins a race. The ad never actually claims the drink helped her win.",
+    "options": [
+     {
+      "id": "a",
+      "text": "that the drink will help you win"
+     },
+     {
+      "id": "b",
+      "text": "that the runner is famous"
+     },
+     {
+      "id": "c",
+      "text": "how much the drink costs"
+     },
+     {
+      "id": "d",
+      "text": "how long the race was"
+     }
+    ],
+    "answer": "a",
+    "clue": "never actually claims",
+    "hint": "What does the ad want you to believe without saying it?",
+    "explanation": "The ad never claims the drink helped, but showing her win right after drinking it suggests that idea. A message suggested but not said is implicit."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "intervene.verb.1",
+  "word": "intervene",
+  "grade": 6,
+  "pos": "verb",
+  "say": "in-ter-VEEN",
+  "definition": "to step in to change what is happening, often to stop a problem",
+  "hero": {
+   "text": "When two cadets started arguing, Kai intervened and helped them talk it out calmly.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🗣️",
+     "🤝"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The lifeguard intervened when a young swimmer drifted into deep water.",
+  "contrast": {
+   "nonExample": "Ben watched his little brother struggle with a puzzle and let him figure it out alone.",
+   "explanation": "Ben stayed out of it, so he did not intervene. To intervene is to step in and change what is happening.",
+   "scene": {
+    "pose": "sitting",
+    "props": [
+     "🧩"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "step in",
+    "get involved",
+    "mediate"
+   ],
+   "antonyms": [
+    "stand by",
+    "stay out"
+   ],
+   "family": [
+    "intervention",
+    "intervening"
+   ]
+  },
+  "forms": [
+   "intervene",
+   "intervenes",
+   "intervened",
+   "intervening"
+  ],
+  "parts": [
+   {
+    "part": "inter-",
+    "meaning": "between"
+   },
+   {
+    "part": "ven",
+    "meaning": "come"
+   }
+  ],
+  "tags": [
+   "social",
+   "history",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "intervene.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person intervenes?",
+    "options": [
+     {
+      "id": "a",
+      "text": "A teacher reads quietly at her desk."
+     },
+     {
+      "id": "b",
+      "text": "A teacher leaves the room to get lunch."
+     },
+     {
+      "id": "c",
+      "text": "A teacher steps between two students about to fight."
+     },
+     {
+      "id": "d",
+      "text": "A teacher hears about a fight a week later."
+     }
+    ],
+    "answer": "c",
+    "hint": "Look for someone who steps in while something is happening.",
+    "explanation": "Stepping between two students stops the fight while it is happening. That is intervening. Hearing about it a week later is too late to change anything."
+   },
+   {
+    "id": "intervene.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix inter- means \"between,\" as in international. The root ven means \"come,\" as in convention (a coming together). When you intervene, you...",
+    "options": [
+     {
+      "id": "a",
+      "text": "travel to another country"
+     },
+     {
+      "id": "b",
+      "text": "come between people or events to change what happens"
+     },
+     {
+      "id": "c",
+      "text": "arrive late to a meeting"
+     },
+     {
+      "id": "d",
+      "text": "invite people to a party"
+     }
+    ],
+    "answer": "b",
+    "hint": "Inter- = between. Ven = come.",
+    "explanation": "Intervene means to \"come between\": you step into a situation to change it, like stopping an argument."
+   },
+   {
+    "id": "intervene.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "If the river keeps rising, the town will have to ___ by stacking sandbags along the banks.",
+    "options": [
+     {
+      "id": "a",
+      "text": "celebrate"
+     },
+     {
+      "id": "b",
+      "text": "relax"
+     },
+     {
+      "id": "c",
+      "text": "disappear"
+     },
+     {
+      "id": "d",
+      "text": "intervene"
+     }
+    ],
+    "answer": "d",
+    "clue": "keeps rising; stacking sandbags",
+    "hint": "The town needs to step in to stop a problem.",
+    "explanation": "Stacking sandbags is stepping in to stop a flood, which is intervening."
+   },
+   {
+    "id": "intervene.verb.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Does anyone intervene?",
+    "passage": "A crowd watches a stray dog run toward a busy street, but no one moves to stop it.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does anyone step in to change what happens?",
+    "explanation": "No. Everyone just watches, and no one steps in. To intervene, someone must act to change what is happening."
+   },
+   {
+    "id": "intervene.verb.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which phrase is closest in meaning to \"intervened\" in this sentence?",
+    "passage": "The referee intervened before the argument between the players could turn into a shoving match.",
+    "options": [
+     {
+      "id": "a",
+      "text": "cheered loudly"
+     },
+     {
+      "id": "b",
+      "text": "stepped in"
+     },
+     {
+      "id": "c",
+      "text": "watched closely"
+     },
+     {
+      "id": "d",
+      "text": "walked away"
+     }
+    ],
+    "answer": "b",
+    "hint": "What did the referee do before things got worse?",
+    "explanation": "The referee stepped in to stop the argument from getting worse. Watching closely or walking away would not change what happened."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "irrelevant.adj.1",
+  "word": "irrelevant",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "ih-REL-uh-vunt",
+  "definition": "not connected to or important for what is being discussed",
+  "hero": {
+   "text": "During the mission briefing, Bolt kept talking about his favorite snack, which was irrelevant to the plan.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🍕",
+     "📋"
+    ],
+    "setting": "school",
+    "second": "confused"
+   }
+  },
+  "everyday": "In a report about volcanoes, a paragraph about your pet hamster would be irrelevant.",
+  "contrast": {
+   "nonExample": "In an essay about healthy eating, Kira included facts about fruits and vegetables.",
+   "explanation": "Those facts connect directly to the topic, so they are relevant, not irrelevant. Irrelevant details have nothing to do with the topic.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "🍎",
+     "🥦"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unrelated",
+    "beside the point",
+    "off-topic"
+   ],
+   "antonyms": [
+    "relevant",
+    "related",
+    "connected"
+   ],
+   "family": [
+    "relevant",
+    "relevance",
+    "irrelevance"
+   ]
+  },
+  "forms": [
+   "irrelevant"
+  ],
+  "parts": [
+   {
+    "part": "ir-",
+    "meaning": "not"
+   },
+   {
+    "part": "relevant",
+    "meaning": "connected to the topic"
+   }
+  ],
+  "tags": [
+   "reading",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "irrelevant.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"irrelevant\" mean in this sentence?",
+    "passage": "The lawyer said the witness's comment about the weather was irrelevant to the case.",
+    "options": [
+     {
+      "id": "a",
+      "text": "very important"
+     },
+     {
+      "id": "b",
+      "text": "rude"
+     },
+     {
+      "id": "c",
+      "text": "untrue"
+     },
+     {
+      "id": "d",
+      "text": "not connected to the topic"
+     }
+    ],
+    "answer": "d",
+    "hint": "Does the weather have anything to do with the case?",
+    "explanation": "The weather has nothing to do with the case, so the comment is not connected to the topic. That is irrelevant. It might still be true and polite."
+   },
+   {
+    "id": "irrelevant.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix ir- means \"not,\" as in irregular. If relevant means \"connected to the topic,\" irrelevant means...",
+    "options": [
+     {
+      "id": "a",
+      "text": "not connected to the topic"
+     },
+     {
+      "id": "b",
+      "text": "very connected to the topic"
+     },
+     {
+      "id": "c",
+      "text": "connected again"
+     },
+     {
+      "id": "d",
+      "text": "hard to understand"
+     }
+    ],
+    "answer": "a",
+    "hint": "Ir- = not.",
+    "explanation": "Ir- (not) + relevant (connected to the topic) = not connected to the topic. Ir- is used in place of in- before words that start with r."
+   },
+   {
+    "id": "irrelevant.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this detail irrelevant?",
+    "passage": "In a book review of a mystery novel, Sam explains how the clues in the story build suspense.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does the detail connect to the topic of the review?",
+    "explanation": "No. How the clues build suspense is directly connected to reviewing a mystery novel, so it is relevant, not irrelevant."
+   },
+   {
+    "id": "irrelevant.adj.1#4",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "Why is the cousin's car irrelevant?",
+    "passage": "\"Your argument for a longer recess is strong,\" said Ms. Grant, \"but the part about your cousin's new car is irrelevant. Stick to reasons about recess.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "It is false"
+     },
+     {
+      "id": "b",
+      "text": "It is too long"
+     },
+     {
+      "id": "c",
+      "text": "It doesn't connect to the argument about recess"
+     },
+     {
+      "id": "d",
+      "text": "It proves the argument"
+     }
+    ],
+    "answer": "c",
+    "clue": "Stick to reasons about recess",
+    "hint": "What does Ms. Grant tell the student to stick to?",
+    "explanation": "\"Stick to reasons about recess\" shows the car has nothing to do with the topic. Nothing says the detail is false or too long; it just does not connect."
+   },
+   {
+    "id": "irrelevant.adj.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what irrelevant means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "because it was irrelevant"
+     },
+     {
+      "id": "c2",
+      "text": "The judge ignored the comment"
+     },
+     {
+      "id": "c3",
+      "text": "and the key to solving the case."
+     },
+     {
+      "id": "c4",
+      "text": "to the question being decided."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Why would a judge ignore something?",
+    "explanation": "A judge ignores comments that are not connected to the question, so \"to the question being decided\" fits. If it were the key to the case, it would be very relevant."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "justify.verb.1",
+  "word": "justify",
+  "grade": 6,
+  "pos": "verb",
+  "say": "JUS-tuh-fy",
+  "definition": "to give good reasons that show something is right, fair, or true",
+  "hero": {
+   "text": "Rex justified his choice to close the bridge by showing everyone the cracks in its supports.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🌉",
+     "🔍"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "On the math test, students had to justify their answers by showing their work.",
+  "contrast": {
+   "nonExample": "When the teacher asked Lucy why she picked answer B, she said, \"Just because.\"",
+   "explanation": "\"Just because\" gives no reasons, so Lucy did not justify her answer. To justify, you explain with reasons or evidence.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "📝",
+     "❓"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "explain",
+    "defend",
+    "support"
+   ],
+   "antonyms": [],
+   "family": [
+    "justification",
+    "justified",
+    "unjustified"
+   ]
+  },
+  "forms": [
+   "justify",
+   "justifies",
+   "justified",
+   "justifying"
+  ],
+  "tags": [
+   "reading",
+   "math",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "justify.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Does Theo justify his idea?",
+    "passage": "Theo argues that the class pet should be a fish, explaining that fish are quiet, cheap to feed, and easy to care for.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does Theo give reasons?",
+    "explanation": "Yes. Theo supports his idea with three reasons. Giving reasons that show an idea is right is justifying."
+   },
+   {
+    "id": "justify.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The museum had to ___ spending so much on one painting, so it explained that the painting would bring in thousands of visitors.",
+    "options": [
+     {
+      "id": "a",
+      "text": "decorate"
+     },
+     {
+      "id": "b",
+      "text": "conceal"
+     },
+     {
+      "id": "c",
+      "text": "justify"
+     },
+     {
+      "id": "d",
+      "text": "forget"
+     }
+    ],
+    "answer": "c",
+    "clue": "so it explained that",
+    "hint": "The museum \"explained\" why the spending made sense.",
+    "explanation": "Explaining that the painting would bring in visitors gives a good reason for the spending. That is justifying."
+   },
+   {
+    "id": "justify.verb.1#3",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "What does \"justify\" mean in this question?",
+    "passage": "Can you justify your claim that some dinosaurs had feathers?",
+    "options": [
+     {
+      "id": "a",
+      "text": "give reasons or evidence that support it"
+     },
+     {
+      "id": "b",
+      "text": "say it in a louder voice"
+     },
+     {
+      "id": "c",
+      "text": "change it to something else"
+     },
+     {
+      "id": "d",
+      "text": "take it back"
+     }
+    ],
+    "answer": "a",
+    "hint": "What would you need to show to prove your claim?",
+    "explanation": "To justify a claim, you support it with reasons or evidence, such as fossils with feather prints. Saying it louder is not a reason."
+   },
+   {
+    "id": "justify.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which response best JUSTIFIES the opinion \"Our school should start later\"?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Our school should really start later than it does now."
+     },
+     {
+      "id": "b",
+      "text": "I really, really, truly think our school should start later."
+     },
+     {
+      "id": "c",
+      "text": "Some schools in our state start at eight o'clock."
+     },
+     {
+      "id": "d",
+      "text": "Studies show teens learn better with more sleep."
+     }
+    ],
+    "answer": "d",
+    "hint": "Justifying means giving a reason, not just repeating the opinion.",
+    "explanation": "Only the first choice gives a reason backed by evidence. The second and third just repeat the opinion more strongly, and the last is a fact that does not support it."
+   },
+   {
+    "id": "justify.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"justify\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"Please justify the lamp so the room gets brighter.\""
+     },
+     {
+      "id": "b",
+      "text": "\"The bus broke down. Here's a note to justify why I'm late.\""
+     },
+     {
+      "id": "c",
+      "text": "\"She justified her running shoes right before the race.\""
+     },
+     {
+      "id": "d",
+      "text": "\"We justified over to the park after lunch.\""
+     }
+    ],
+    "answer": "b",
+    "hint": "Justify means give a reason that shows something is fair or right.",
+    "explanation": "The note gives a good reason for being late, so it justifies the lateness. The other lines use justify for actions it does not describe."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "misconception.noun.1",
+  "word": "misconception",
+  "grade": 6,
+  "pos": "noun",
+  "say": "mis-kun-SEP-shun",
+  "definition": "a mistaken idea or belief, often one that many people share",
+  "hero": {
+   "text": "Pixel cleared up a common misconception: heroes do not need superpowers to help others.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "💡",
+     "❌"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "It is a misconception that goldfish remember things for only three seconds; they can remember for months.",
+  "contrast": {
+   "nonExample": "Most people know that the sun rises in the east.",
+   "explanation": "This belief is true, so it is not a misconception. A misconception is a belief that is wrong.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "🌅"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "misunderstanding",
+    "myth",
+    "false belief"
+   ],
+   "antonyms": [
+    "fact",
+    "truth"
+   ],
+   "family": [
+    "misconceptions",
+    "conception"
+   ]
+  },
+  "forms": [
+   "misconception",
+   "misconceptions"
+  ],
+  "parts": [
+   {
+    "part": "mis-",
+    "meaning": "wrongly"
+   },
+   {
+    "part": "concept",
+    "meaning": "idea"
+   }
+  ],
+  "tags": [
+   "science",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "misconception.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"misconception\" mean in this sentence?",
+    "passage": "Many people have the misconception that bats are blind, but most bats can see quite well.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a mistaken belief"
+     },
+     {
+      "id": "b",
+      "text": "a scientific fact"
+     },
+     {
+      "id": "c",
+      "text": "a type of bat"
+     },
+     {
+      "id": "d",
+      "text": "a clever trick"
+     }
+    ],
+    "answer": "a",
+    "clue": "but most bats can see quite well",
+    "hint": "What does the word \"but\" tell you about the belief?",
+    "explanation": "\"But most bats can see quite well\" shows the belief is wrong. A mistaken belief is a misconception."
+   },
+   {
+    "id": "misconception.noun.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix mis- means \"wrongly\" or \"badly,\" as in misspell and misbehave. A conception is an idea. So a misconception is...",
+    "options": [
+     {
+      "id": "a",
+      "text": "an idea that is brand new"
+     },
+     {
+      "id": "b",
+      "text": "an idea that is secret"
+     },
+     {
+      "id": "c",
+      "text": "an idea that is wrong"
+     },
+     {
+      "id": "d",
+      "text": "an idea that is shared"
+     }
+    ],
+    "answer": "c",
+    "hint": "Mis- = wrongly.",
+    "explanation": "Mis- (wrongly) + conception (idea) = a wrong idea. Many people may share a misconception, but what makes it one is that it is wrong."
+   },
+   {
+    "id": "misconception.noun.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this a misconception?",
+    "passage": "Lots of people believe lightning never strikes the same place twice, but some tall towers are hit dozens of times a year.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is the common belief true or false?",
+    "explanation": "Yes. Many people believe it, but tall towers prove it wrong. A widely held belief that is false is a misconception."
+   },
+   {
+    "id": "misconception.noun.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Long ago, many people truly believed that the sun circled the Earth. They were not trying to fool anyone. This belief was ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a lie"
+     },
+     {
+      "id": "b",
+      "text": "a misconception"
+     },
+     {
+      "id": "c",
+      "text": "a rumor"
+     },
+     {
+      "id": "d",
+      "text": "a joke"
+     }
+    ],
+    "answer": "b",
+    "clue": "truly believed; not trying to fool anyone",
+    "hint": "They \"truly believed\" it and were not trying to fool anyone.",
+    "explanation": "A lie is said on purpose to fool someone, and a rumor is a story passed around without proof. People honestly believed this wrong idea, which makes it a misconception."
+   },
+   {
+    "id": "misconception.noun.1#5",
+    "format": "context_gap",
+    "stage": "transfer",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The science teacher began by correcting a popular ___: the idea that heavy objects always fall faster than light ones.",
+    "options": [
+     {
+      "id": "a",
+      "text": "experiment"
+     },
+     {
+      "id": "b",
+      "text": "invention"
+     },
+     {
+      "id": "c",
+      "text": "equation"
+     },
+     {
+      "id": "d",
+      "text": "misconception"
+     }
+    ],
+    "answer": "d",
+    "clue": "correcting a popular",
+    "hint": "Something \"popular\" needed \"correcting.\" What kind of idea is it?",
+    "explanation": "\"Correcting a popular\" idea tells you many people believe something wrong. That is a misconception. (In fact, without air resistance, heavy and light objects fall at the same rate.)"
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "objective.adj.1",
+  "word": "objective",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "ub-JEK-tiv",
+  "definition": "based on facts, not on personal feelings or opinions; fair",
+  "hero": {
+   "text": "Juniper tried to stay objective when judging the race, even though her best friend was running.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "⚖️",
+     "🏁"
+    ],
+    "setting": "park"
+   }
+  },
+  "everyday": "A news report should be objective, giving the facts from all sides.",
+  "contrast": {
+   "nonExample": "\"This is the most beautiful song ever written!\" said the songwriter's proud mom.",
+   "explanation": "That is a personal feeling, so it is subjective. Objective statements stick to facts that anyone could check.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🎵",
+     "😍"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unbiased",
+    "impartial",
+    "neutral",
+    "fair"
+   ],
+   "antonyms": [
+    "subjective",
+    "biased"
+   ],
+   "family": [
+    "objectivity",
+    "objectively"
+   ]
+  },
+  "forms": [
+   "objective"
+  ],
+  "tags": [
+   "science",
+   "reading",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "objective.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which statement is objective?",
+    "options": [
+     {
+      "id": "a",
+      "text": "The bridge is the prettiest in the world."
+     },
+     {
+      "id": "b",
+      "text": "The bridge is 300 meters long."
+     },
+     {
+      "id": "c",
+      "text": "The bridge is scary to walk across."
+     },
+     {
+      "id": "d",
+      "text": "Everyone should love this bridge."
+     }
+    ],
+    "answer": "b",
+    "hint": "Look for a fact that anyone could measure or check.",
+    "explanation": "The bridge's length can be measured and checked, so it is objective. \"Prettiest,\" \"scary,\" and \"should love\" are personal feelings."
+   },
+   {
+    "id": "objective.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the judging?",
+    "passage": "A baking-contest judge scores each cake with the same checklist and tastes them without knowing who baked them.",
+    "options": [
+     {
+      "id": "a",
+      "text": "subjective"
+     },
+     {
+      "id": "b",
+      "text": "emotional"
+     },
+     {
+      "id": "c",
+      "text": "careless"
+     },
+     {
+      "id": "d",
+      "text": "objective"
+     }
+    ],
+    "answer": "d",
+    "hint": "Could the judge favor a friend?",
+    "explanation": "Using the same checklist and not knowing the bakers keeps feelings out of the scores, so the judging is objective. Subjective judging would be based on personal feelings."
+   },
+   {
+    "id": "objective.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"objective\" in this sentence?",
+    "passage": "Scientists try to be objective, recording what they see even when it surprises them.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unbiased"
+     },
+     {
+      "id": "b",
+      "text": "cheerful"
+     },
+     {
+      "id": "c",
+      "text": "famous"
+     },
+     {
+      "id": "d",
+      "text": "impatient"
+     }
+    ],
+    "answer": "a",
+    "hint": "Scientists record what they see, not what they hoped to see.",
+    "explanation": "Recording what you see even when it surprises you means not letting your feelings decide. Unbiased is the closest meaning."
+   },
+   {
+    "id": "objective.adj.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this referee objective?",
+    "passage": "A referee calls more fouls against the visiting team because the home crowd is cheering so loudly.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is the referee basing calls on facts or on the crowd's feelings?",
+    "explanation": "No. The referee lets the crowd influence the calls instead of judging the facts. That is biased, not objective."
+   },
+   {
+    "id": "objective.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which sentence is objective, and why?",
+    "passage": "Ines wrote two sentences about the rainforest. (1) \"The rainforest gets over 200 centimeters of rain a year.\" (2) \"The rainforest is the most amazing place on Earth.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sentence 2, because it shows strong feelings"
+     },
+     {
+      "id": "b",
+      "text": "Both, because they are about the same rainforest"
+     },
+     {
+      "id": "c",
+      "text": "Sentence 1, because it states a fact that can be checked"
+     },
+     {
+      "id": "d",
+      "text": "Neither, because both sentences are short"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which sentence could you check with measurements?",
+    "explanation": "Rainfall can be measured, so sentence 1 is objective. \"Most amazing\" is a personal feeling, so sentence 2 is subjective."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "perceive.verb.1",
+  "word": "perceive",
+  "grade": 6,
+  "pos": "verb",
+  "say": "per-SEEV",
+  "definition": "to notice or become aware of something, using your senses or your mind",
+  "hero": {
+   "text": "Kai could perceive the faint sound of a kitten meowing beneath the fallen boards.",
+   "scene": {
+    "pose": "listening",
+    "props": [
+     "🐱",
+     "👂"
+    ],
+    "setting": "street"
+   }
+  },
+  "everyday": "Some animals can perceive colors that humans cannot see.",
+  "contrast": {
+   "nonExample": "Noah walked right past the new painting in the hallway without noticing it at all.",
+   "explanation": "Noah did not notice the painting, so he did not perceive it. To perceive is to become aware of something.",
+   "scene": {
+    "pose": "running",
+    "props": [
+     "🖼️"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "notice",
+    "sense",
+    "detect",
+    "recognize"
+   ],
+   "antonyms": [
+    "overlook",
+    "miss"
+   ],
+   "family": [
+    "perception",
+    "perceptive"
+   ]
+  },
+  "forms": [
+   "perceive",
+   "perceives",
+   "perceived",
+   "perceiving"
+  ],
+  "tags": [
+   "science",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "perceive.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"perceive\" mean in this sentence?",
+    "passage": "Dogs can perceive sounds that are too high for people to hear.",
+    "options": [
+     {
+      "id": "a",
+      "text": "make"
+     },
+     {
+      "id": "b",
+      "text": "dislike"
+     },
+     {
+      "id": "c",
+      "text": "notice or sense"
+     },
+     {
+      "id": "d",
+      "text": "forget"
+     }
+    ],
+    "answer": "c",
+    "hint": "What can dogs do with sounds people cannot hear?",
+    "explanation": "Dogs can notice sounds that people cannot. Perceive means to notice or sense something."
+   },
+   {
+    "id": "perceive.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The change in the music was so slight that only trained ears could ___ it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "perceive"
+     },
+     {
+      "id": "b",
+      "text": "admire"
+     },
+     {
+      "id": "c",
+      "text": "repeat"
+     },
+     {
+      "id": "d",
+      "text": "ignore"
+     }
+    ],
+    "answer": "a",
+    "clue": "so slight; only trained ears",
+    "hint": "A very slight change is hard to notice. What can trained ears do?",
+    "explanation": "\"So slight\" tells you the change is hard to notice; only trained ears could perceive (notice) it."
+   },
+   {
+    "id": "perceive.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Does Mira perceive something?",
+    "passage": "Mira sensed tension in the room as soon as she walked in, even though nobody said a word.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did Mira become aware of something?",
+    "explanation": "Yes. Mira noticed the tension through clues around her, even without words. Becoming aware of something is perceiving."
+   },
+   {
+    "id": "perceive.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"perceive\" in this sentence?",
+    "passage": "Many people perceive spiders as dangerous, even though most spiders are harmless.",
+    "options": [
+     {
+      "id": "a",
+      "text": "catch"
+     },
+     {
+      "id": "b",
+      "text": "avoid"
+     },
+     {
+      "id": "c",
+      "text": "describe"
+     },
+     {
+      "id": "d",
+      "text": "view"
+     }
+    ],
+    "answer": "d",
+    "hint": "Here \"perceive ... as\" means how people think about spiders.",
+    "explanation": "To perceive something as dangerous is to see it or think of it that way. View is the closest meaning. People may also avoid spiders, but that is an action, not a way of seeing."
+   },
+   {
+    "id": "perceive.verb.1#5",
+    "format": "word_parts",
+    "stage": "transfer",
+    "prompt": "A person who perceives small details easily is perceptive. Which sentence uses perceptive correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "The perceptive dog slept through the loud thunderstorm."
+     },
+     {
+      "id": "b",
+      "text": "The perceptive student spotted a tiny error in the chart."
+     },
+     {
+      "id": "c",
+      "text": "Her perceptive answer completely missed the main point."
+     },
+     {
+      "id": "d",
+      "text": "He was far too perceptive to notice anything at all."
+     }
+    ],
+    "answer": "b",
+    "hint": "Perceptive = good at perceiving (noticing).",
+    "explanation": "Spotting a tiny error shows someone who notices details, so perceptive fits. Sleeping through thunder, missing the point, and noticing nothing are the opposite."
+   }
+  ],
+  "review": "pending"
+ }
+]

@@ -1,0 +1,861 @@
+[
+  {
+    "id": "fragile.adj.1",
+    "word": "fragile",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "FRAJ-ul",
+    "definition": "easily broken or damaged",
+    "hero": {
+      "text": "Nova carried the fragile glass statue with both hands so it would not crack.",
+      "scene": { "pose": "calm", "props": ["🏺", "🙌"], "setting": "city" }
+    },
+    "everyday": "The box said FRAGILE, so we carried the dishes inside very carefully.",
+    "contrast": {
+      "nonExample": "Sam's rubber ball bounced off the brick wall without a single scratch.",
+      "explanation": "Fragile things break easily. The rubber ball is tough and bouncy, so it is sturdy, not fragile.",
+      "scene": { "pose": "jumping", "props": ["🔴", "🧱"], "setting": "park" }
+    },
+    "related": { "synonyms": ["delicate", "breakable"], "antonyms": ["sturdy", "strong", "unbreakable"], "family": ["fragility"] },
+    "forms": ["fragile"],
+    "tags": ["everyday", "science"],
+    "items": [
+      {
+        "id": "fragile.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is the egg fragile?",
+        "passage": "A bird's egg can crack if you squeeze it even a little.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Does the egg break easily?",
+        "explanation": "Fragile means easily broken. An egg that cracks with a small squeeze is fragile."
+      },
+      {
+        "id": "fragile.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Be gentle with the butterfly, because its thin wings are very ___.",
+        "options": [
+          { "id": "a", "text": "wealthy" }, { "id": "b", "text": "furious" },
+          { "id": "c", "text": "sincere" }, { "id": "d", "text": "fragile" }
+        ],
+        "answer": "d",
+        "clue": "Be gentle; thin wings",
+        "hint": "Why do you need to be gentle with thin wings?",
+        "explanation": "\"Be gentle\" and \"thin wings\" show the wings could tear easily. That is fragile."
+      },
+      {
+        "id": "fragile.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"fragile\" in this sentence?",
+        "passage": "The old book had fragile pages that tore when you touched them.",
+        "options": [
+          { "id": "a", "text": "delicate" }, { "id": "b", "text": "colorful" },
+          { "id": "c", "text": "heavy" }, { "id": "d", "text": "boring" }
+        ],
+        "answer": "a",
+        "hint": "The pages tore when touched.",
+        "explanation": "Delicate means easily damaged, like fragile. Pages that tear at a touch are delicate."
+      },
+      {
+        "id": "fragile.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what fragile means.",
+        "chunks": [
+          { "id": "c1", "text": "We wrapped the fragile vase" },
+          { "id": "c2", "text": "in soft paper" },
+          { "id": "c3", "text": "so it would not break." },
+          { "id": "c4", "text": "so we could kick it around." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Fragile things need protection.",
+        "explanation": "You wrap a fragile vase so it won't break. Kicking a fragile vase would smash it."
+      },
+      {
+        "id": "fragile.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the teacups?",
+        "passage": "Grandma's teacups are so thin that even a small bump could chip them.",
+        "options": [
+          { "id": "a", "text": "sturdy" }, { "id": "b", "text": "steady" },
+          { "id": "c", "text": "fragile" }, { "id": "d", "text": "generous" }
+        ],
+        "answer": "c",
+        "clue": "so thin; even a small bump could chip them",
+        "hint": "What could happen with just a small bump?",
+        "explanation": "\"Even a small bump could chip them\" shows the cups break easily. That is fragile. Sturdy is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "generous.adj.1",
+    "word": "generous",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "JEN-ur-us",
+    "definition": "happy to give or share, often more than you have to",
+    "hero": {
+      "text": "Bolt was generous and gave half of his snack to a hungry kid in the park.",
+      "scene": { "pose": "kind", "props": ["🍎", "🤝"], "setting": "park" }
+    },
+    "everyday": "Our generous neighbor shares tomatoes from her garden with the whole street.",
+    "contrast": {
+      "nonExample": "Ollie kept all the crayons in a pile and would not let anyone use them.",
+      "explanation": "Generous people share and give freely. Ollie kept everything for himself, so he was selfish.",
+      "scene": { "pose": "angry", "props": ["🖍️"], "setting": "school" }
+    },
+    "related": { "synonyms": ["giving", "unselfish"], "antonyms": ["selfish", "stingy"], "family": ["generosity", "generously"] },
+    "forms": ["generous"],
+    "tags": ["everyday", "social"],
+    "items": [
+      {
+        "id": "generous.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is generous?",
+        "options": [
+          { "id": "a", "text": "Ruby keeps every cookie for herself and hides the jar." },
+          { "id": "b", "text": "Ruby shares her cookies with the whole class." },
+          { "id": "c", "text": "Ruby counts her cookies and eats one." }
+        ],
+        "answer": "b",
+        "hint": "Who gives to others?",
+        "explanation": "Generous means happy to give and share. Ruby shares with the whole class.",
+        "wrong": { "a": "Hiding the jar is selfish, the opposite of generous." }
+      },
+      {
+        "id": "generous.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "It was ___ of Marco to give his old bike to his little cousin.",
+        "options": [
+          { "id": "a", "text": "fragile" }, { "id": "b", "text": "timid" },
+          { "id": "c", "text": "generous" }, { "id": "d", "text": "scarce" }
+        ],
+        "answer": "c",
+        "clue": "give his old bike to his little cousin",
+        "hint": "What kind of person gives away a bike?",
+        "explanation": "Giving his bike to his cousin is a kind act of giving. That is generous."
+      },
+      {
+        "id": "generous.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"generous\" in this sentence?",
+        "passage": "The generous baker gave free bread to everyone in line.",
+        "options": [
+          { "id": "a", "text": "selfish" }, { "id": "b", "text": "busy" },
+          { "id": "c", "text": "happy" }, { "id": "d", "text": "tall" }
+        ],
+        "answer": "a",
+        "hint": "Which person would NOT give bread away?",
+        "explanation": "Selfish people keep things for themselves, the opposite of generous people who give."
+      },
+      {
+        "id": "generous.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what generous means.",
+        "chunks": [
+          { "id": "c1", "text": "Being generous," },
+          { "id": "c2", "text": "Leo shared" },
+          { "id": "c3", "text": "his umbrella with a friend in the rain." },
+          { "id": "c4", "text": "nothing and kept his umbrella to himself." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Generous people share.",
+        "explanation": "Sharing his umbrella is generous. Keeping it to himself is the opposite."
+      },
+      {
+        "id": "generous.adj.1#5", "format": "best_word", "stage": "transfer",
+        "prompt": "Which word best describes Mia?",
+        "passage": "Mia gave away ten of her twelve toys to children who had none.",
+        "options": [
+          { "id": "a", "text": "polite" }, { "id": "b", "text": "generous" },
+          { "id": "c", "text": "patient" }, { "id": "d", "text": "sensible" }
+        ],
+        "answer": "b",
+        "clue": "gave away ten of her twelve toys",
+        "hint": "Mia is not just using good manners. What is she doing?",
+        "explanation": "Giving away most of her toys is giving freely, which is generous. Polite is about good manners, like saying please, not about giving.",
+        "wrong": { "a": "Polite means having good manners. Mia is giving a lot away, which is generous." }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "glance.verb.1",
+    "word": "glance",
+    "grade": 3,
+    "pos": "verb",
+    "say": "GLANS",
+    "definition": "to look at something quickly",
+    "hero": {
+      "text": "Pixel glanced at her watch and saw she had one minute to reach the bank.",
+      "scene": { "pose": "looking", "props": ["⌚", "🏦"], "setting": "city" }
+    },
+    "everyday": "During the test, Ana glanced at the clock and then went back to work.",
+    "contrast": {
+      "nonExample": "Owen stared at the painting for ten minutes, studying every color.",
+      "explanation": "A glance is quick. Owen looked for a long time, so he stared or studied it.",
+      "scene": { "pose": "looking", "props": ["🖼️", "🎨"], "setting": "school" }
+    },
+    "related": { "synonyms": ["peek", "glimpse"], "antonyms": ["stare", "gaze"], "family": ["glanced", "glancing"] },
+    "forms": ["glance", "glances", "glanced", "glancing"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "glance.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Did Ken glance at the map?",
+        "passage": "Ken looked at the map for a long time, tracing every road with his finger.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "Was Ken's look quick or long?",
+        "explanation": "To glance is to look quickly. Ken looked for a long time, so he studied the map instead."
+      },
+      {
+        "id": "glance.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Before crossing the street, Ava ___ quickly to the left and right.",
+        "options": [
+          { "id": "a", "text": "boasted" }, { "id": "b", "text": "glanced" },
+          { "id": "c", "text": "wilted" }, { "id": "d", "text": "vanished" }
+        ],
+        "answer": "b",
+        "clue": "quickly to the left and right",
+        "hint": "What do you do with your eyes before crossing?",
+        "explanation": "\"Quickly\" and \"left and right\" show Ava took fast looks. That is glancing."
+      },
+      {
+        "id": "glance.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"glanced\" in this sentence?",
+        "passage": "Dad glanced at the newspaper headline before running out the door.",
+        "options": [
+          { "id": "a", "text": "peeked" }, { "id": "b", "text": "stared" },
+          { "id": "c", "text": "read" }, { "id": "d", "text": "smiled" }
+        ],
+        "answer": "b",
+        "hint": "A glance is short. What is a long look called?",
+        "explanation": "Stared means looked for a long time, the opposite of a quick glance. Peeked is close in meaning to glanced.",
+        "wrong": { "a": "Peeked is a quick look too, so it is close in meaning, not opposite." }
+      },
+      {
+        "id": "glance.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what glance means.",
+        "chunks": [
+          { "id": "c1", "text": "Nina glanced" },
+          { "id": "c2", "text": "at the menu" },
+          { "id": "c3", "text": "for just a second before she ordered." },
+          { "id": "c4", "text": "for a whole hour before she ordered." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A glance is very short.",
+        "explanation": "A glance lasts about a second. Looking for a whole hour is not a glance."
+      },
+      {
+        "id": "glance.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best tells what the goalie did?",
+        "passage": "The goalie took one quick look over her shoulder just before the ball came.",
+        "options": [
+          { "id": "a", "text": "observed" }, { "id": "b", "text": "compared" },
+          { "id": "c", "text": "described" }, { "id": "d", "text": "glanced" }
+        ],
+        "answer": "d",
+        "clue": "one quick look",
+        "hint": "Was her look long and careful, or fast?",
+        "explanation": "\"One quick look\" is a glance. Observed would mean watching carefully for a while.",
+        "wrong": { "a": "Observing is careful watching over time. The goalie only took one quick look." }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "gradual.adj.1",
+    "word": "gradual",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "GRAJ-oo-ul",
+    "definition": "happening slowly, a little at a time",
+    "hero": {
+      "text": "Juniper's power made a gradual glow that grew brighter, little by little, until the cave was lit.",
+      "scene": { "pose": "calm", "props": ["✨", "🌙"], "setting": "night" }
+    },
+    "everyday": "The gradual change of the leaves from green to red took several weeks.",
+    "contrast": {
+      "nonExample": "All the lights in the house went off at once when the power failed.",
+      "explanation": "Gradual changes happen slowly, step by step. The lights went off all at once, so the change was sudden.",
+      "scene": { "pose": "surprised", "props": ["💡", "⚡"], "setting": "home" }
+    },
+    "related": { "synonyms": ["slow", "step-by-step"], "antonyms": ["sudden", "quick"], "family": ["gradually"] },
+    "forms": ["gradual"],
+    "tags": ["science"],
+    "items": [
+      {
+        "id": "gradual.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "What does \"gradual\" mean in this sentence?",
+        "passage": "There was a gradual rise in the river after days of light rain.",
+        "options": [
+          { "id": "a", "text": "sudden and very fast, all at once" },
+          { "id": "b", "text": "slow, a little at a time" },
+          { "id": "c", "text": "loud and scary for everyone" },
+          { "id": "d", "text": "not happening at all" }
+        ],
+        "answer": "b",
+        "hint": "Light rain for days would make the river rise how?",
+        "explanation": "Gradual means slow and a little at a time. Days of light rain raised the river slowly."
+      },
+      {
+        "id": "gradual.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The puppy's growth was ___, so we never noticed it getting bigger each day.",
+        "options": [
+          { "id": "a", "text": "furious" }, { "id": "b", "text": "generous" },
+          { "id": "c", "text": "timid" }, { "id": "d", "text": "gradual" }
+        ],
+        "answer": "d",
+        "clue": "never noticed it getting bigger each day",
+        "hint": "Why wouldn't you notice a change each day?",
+        "explanation": "You don't notice a change each day when it happens slowly, a little at a time. That is gradual."
+      },
+      {
+        "id": "gradual.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"gradual\" in this sentence?",
+        "passage": "The hill had a gradual slope that was easy to walk up.",
+        "options": [
+          { "id": "a", "text": "gentle" }, { "id": "b", "text": "long" },
+          { "id": "c", "text": "steep" }, { "id": "d", "text": "grassy" }
+        ],
+        "answer": "c",
+        "hint": "A gradual slope rises slowly. What kind of slope rises sharply?",
+        "explanation": "A gradual slope goes up a little at a time. A steep slope goes up sharply, the opposite. Gentle means almost the same as gradual here.",
+        "wrong": { "a": "Gentle is close in meaning to gradual for a hill, not opposite." }
+      },
+      {
+        "id": "gradual.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what gradual means.",
+        "chunks": [
+          { "id": "c1", "text": "The bean plant's growth" },
+          { "id": "c2", "text": "was gradual," },
+          { "id": "c3", "text": "getting a little taller each week." },
+          { "id": "c4", "text": "shooting up three feet overnight." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Gradual means little by little.",
+        "explanation": "Growing a little each week is gradual. Shooting up overnight is sudden."
+      },
+      {
+        "id": "gradual.adj.1#5", "format": "example_nonexample", "stage": "transfer",
+        "prompt": "Is this a gradual change?",
+        "passage": "A balloon popped with a loud bang in less than one second.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "Did it happen slowly or all at once?",
+        "explanation": "Gradual changes happen slowly. A pop in less than a second is sudden, not gradual."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "habitat.noun.1",
+    "word": "habitat",
+    "grade": 3,
+    "pos": "noun",
+    "say": "HAB-ih-tat",
+    "definition": "the natural home of an animal or plant",
+    "hero": {
+      "text": "Kai helped rebuild the frogs' pond habitat after the flood washed it away.",
+      "scene": { "pose": "building", "props": ["🐸", "🪷"], "setting": "nature" }
+    },
+    "everyday": "A polar bear's habitat is cold and icy, with lots of snow and sea.",
+    "contrast": {
+      "nonExample": "The grocery store is where we go to buy milk and bread.",
+      "explanation": "A habitat is the natural place where a plant or animal lives and finds what it needs. A store is a place people visit to shop, not a natural home.",
+      "scene": { "pose": "neutral", "props": ["🛒", "🥛"], "setting": "street" }
+    },
+    "related": { "synonyms": ["home", "environment"], "antonyms": [], "family": ["habitats"] },
+    "forms": ["habitat", "habitats"],
+    "tags": ["science"],
+    "items": [
+      {
+        "id": "habitat.noun.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which is a habitat?",
+        "options": [
+          { "id": "a", "text": "the desert where a camel lives" },
+          { "id": "b", "text": "the store where we buy milk" },
+          { "id": "c", "text": "the bus that takes us to school" }
+        ],
+        "answer": "a",
+        "hint": "Which is the natural home of an animal?",
+        "explanation": "A habitat is the natural place an animal lives. The desert is a camel's habitat."
+      },
+      {
+        "id": "habitat.noun.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Cutting down the forest destroyed the owls' ___.",
+        "options": [
+          { "id": "a", "text": "rumor" }, { "id": "b", "text": "habitat" },
+          { "id": "c", "text": "glance" }, { "id": "d", "text": "boast" }
+        ],
+        "answer": "b",
+        "clue": "forest; owls'",
+        "hint": "What is a forest to the owls who live there?",
+        "explanation": "The forest is where the owls live naturally, so it is their habitat."
+      },
+      {
+        "id": "habitat.noun.1#3", "format": "context_clues", "stage": "independent",
+        "prompt": "What is the desert for cactuses?",
+        "passage": "Cactuses grow well in the hot, dry desert, where there is lots of sun and little rain.",
+        "options": [
+          { "id": "a", "text": "their enemy" }, { "id": "b", "text": "their rumor" },
+          { "id": "c", "text": "their habitat" }, { "id": "d", "text": "their meal" }
+        ],
+        "answer": "c",
+        "clue": "grow well in the hot, dry desert",
+        "hint": "Where do cactuses live and grow?",
+        "explanation": "\"Grow well in the hot, dry desert\" shows the desert is where cactuses naturally live. That is their habitat."
+      },
+      {
+        "id": "habitat.noun.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what habitat means.",
+        "chunks": [
+          { "id": "c1", "text": "The wetland is a habitat" },
+          { "id": "c2", "text": "for many birds," },
+          { "id": "c3", "text": "because it gives them food and shelter." },
+          { "id": "c4", "text": "because it has a big parking lot." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A habitat gives living things what they need.",
+        "explanation": "A habitat provides food and shelter. A parking lot does not help birds live."
+      },
+      {
+        "id": "habitat.noun.1#5", "format": "example_nonexample", "stage": "transfer",
+        "prompt": "Is the rainforest the monkeys' habitat?",
+        "passage": "Monkeys live high in the trees of the rainforest, where they find fruit and stay safe.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Do the monkeys live there and find what they need?",
+        "explanation": "The monkeys live in the rainforest and find food and safety there, so it is their habitat."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "imitate.verb.1",
+    "word": "imitate",
+    "grade": 3,
+    "pos": "verb",
+    "say": "IM-ih-tayt",
+    "definition": "to copy the way someone looks, acts, or sounds",
+    "hero": {
+      "text": "Rex imitated the villain's deep voice so well that the guards opened the gate.",
+      "scene": { "pose": "sneaky", "props": ["🎭", "🗣️"], "setting": "city" }
+    },
+    "everyday": "My little brother imitates everything I do, even the way I tie my shoes.",
+    "contrast": {
+      "nonExample": "Zoe made up a brand-new dance that nobody had ever seen before.",
+      "explanation": "To imitate is to copy someone else. Zoe created something new, so she was inventing, not imitating.",
+      "scene": { "pose": "excited", "props": ["💃", "✨"], "setting": "stage" }
+    },
+    "related": { "synonyms": ["copy", "mimic"], "antonyms": ["invent", "create"], "family": ["imitation", "imitator"] },
+    "forms": ["imitate", "imitates", "imitated", "imitating"],
+    "tags": ["arts", "everyday"],
+    "items": [
+      {
+        "id": "imitate.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is the parrot imitating its owner?",
+        "passage": "A parrot says \"Hello!\" in the very same voice as its owner.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Is the parrot copying how someone sounds?",
+        "explanation": "To imitate is to copy. The parrot copies its owner's voice."
+      },
+      {
+        "id": "imitate.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The baby tried to ___ the funny sounds her father made.",
+        "options": [
+          { "id": "a", "text": "imitate" }, { "id": "b", "text": "vanish" },
+          { "id": "c", "text": "wilt" }, { "id": "d", "text": "rely" }
+        ],
+        "answer": "a",
+        "clue": "the funny sounds her father made",
+        "hint": "Babies learn to talk by doing what?",
+        "explanation": "The baby tries to make the same sounds as her father. Copying sounds is imitating."
+      },
+      {
+        "id": "imitate.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"imitated\" in this sentence?",
+        "passage": "The students imitated the artist's brushstrokes to learn her style.",
+        "options": [
+          { "id": "a", "text": "sold" }, { "id": "b", "text": "ignored" },
+          { "id": "c", "text": "copied" }, { "id": "d", "text": "erased" }
+        ],
+        "answer": "c",
+        "hint": "How do you learn someone's style?",
+        "explanation": "Copied means the same as imitated. The students made brushstrokes just like the artist's."
+      },
+      {
+        "id": "imitate.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what imitate means.",
+        "chunks": [
+          { "id": "c1", "text": "To imitate a cat," },
+          { "id": "c2", "text": "Theo said" },
+          { "id": "c3", "text": "\"meow\" and licked the back of his hand." },
+          { "id": "c4", "text": "\"woof\" and wagged an imaginary tail." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "To imitate a cat, you copy what a cat does.",
+        "explanation": "Meowing and licking like a cat copies a cat. Barking and wagging copies a dog instead."
+      },
+      {
+        "id": "imitate.verb.1#5", "format": "dialogue", "stage": "transfer",
+        "prompt": "Which line uses \"imitate\" correctly?",
+        "options": [
+          { "id": "a", "text": "\"I will imitate a new song that no one has ever heard.\"" },
+          { "id": "b", "text": "\"Watch me imitate how a penguin walks!\"" },
+          { "id": "c", "text": "\"Please imitate the box onto the top shelf.\"" }
+        ],
+        "answer": "b",
+        "hint": "Imitating means copying something that already exists.",
+        "explanation": "Walking like a penguin copies a penguin, so it is imitating. You can't copy a song no one has heard, and you can't imitate a box onto a shelf."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "frantic.adj.1",
+    "word": "frantic",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "FRAN-tik",
+    "definition": "wild and rushed because of fear or worry",
+    "hero": {
+      "text": "Bolt made a frantic search for the lost child as the crowd grew bigger.",
+      "scene": { "pose": "running", "props": ["🔎", "👧"], "setting": "street" }
+    },
+    "everyday": "Mom was frantic when she couldn't find her car keys and we were already late.",
+    "contrast": {
+      "nonExample": "Jen calmly packed her bag for the trip while humming a song.",
+      "explanation": "Frantic means rushed and worried. Jen was calm and relaxed, so she was not frantic.",
+      "scene": { "pose": "calm", "props": ["🎒", "🎵"], "setting": "home" }
+    },
+    "related": { "synonyms": ["panicked", "frenzied"], "antonyms": ["calm", "relaxed"], "family": ["frantically"] },
+    "forms": ["frantic"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "frantic.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is frantic?",
+        "options": [
+          { "id": "a", "text": "Ray sits on a soft blanket and reads quietly under a shady tree." },
+          { "id": "b", "text": "Ray runs around yelling, \"Where is my dog? I can't find him!\"" },
+          { "id": "c", "text": "Ray slowly waters the flowers." }
+        ],
+        "answer": "b",
+        "hint": "Who is rushing around in a worried way?",
+        "explanation": "Frantic means wild and rushed with worry. Ray runs and yells because he can't find his dog."
+      },
+      {
+        "id": "frantic.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "When the bees flew into the tent, the ___ campers ran around waving their arms.",
+        "options": [
+          { "id": "a", "text": "sensible" }, { "id": "b", "text": "polite" },
+          { "id": "c", "text": "frantic" }, { "id": "d", "text": "patient" }
+        ],
+        "answer": "c",
+        "clue": "ran around waving their arms",
+        "hint": "How do people act when bees surprise them?",
+        "explanation": "\"Ran around waving their arms\" shows wild, scared rushing. That is frantic."
+      },
+      {
+        "id": "frantic.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"frantic\" in this sentence?",
+        "passage": "We made a frantic dash to the bus stop before the bus pulled away.",
+        "options": [
+          { "id": "a", "text": "quick" }, { "id": "b", "text": "calm" },
+          { "id": "c", "text": "long" }, { "id": "d", "text": "loud" }
+        ],
+        "answer": "b",
+        "hint": "Frantic is wild and worried. What is the opposite feeling?",
+        "explanation": "Calm is relaxed and steady, the opposite of frantic. Quick describes speed, and a frantic dash is quick too.",
+        "wrong": { "a": "A frantic dash is quick, so quick is not the opposite." }
+      },
+      {
+        "id": "frantic.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what frantic means.",
+        "chunks": [
+          { "id": "c1", "text": "The cat grew frantic" },
+          { "id": "c2", "text": "when the thunder boomed" },
+          { "id": "c3", "text": "and dashed under the bed." },
+          { "id": "c4", "text": "and stretched out for a peaceful nap." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Frantic animals rush around in fear.",
+        "explanation": "Dashing under the bed is a scared, rushed action, so it shows frantic. A peaceful nap is calm."
+      },
+      {
+        "id": "frantic.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Ava?",
+        "passage": "Late for the bus, Ava ran around the kitchen grabbing papers and dropping her pencil.",
+        "options": [
+          { "id": "a", "text": "patient" }, { "id": "b", "text": "frantic" },
+          { "id": "c", "text": "steady" }, { "id": "d", "text": "cautious" }
+        ],
+        "answer": "b",
+        "clue": "Late; ran around grabbing papers and dropping her pencil",
+        "hint": "How is Ava moving, and why?",
+        "explanation": "Being late and running around grabbing and dropping things shows wild, worried rushing. That is frantic."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "furious.adj.1",
+    "word": "furious",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "FYUR-ee-us",
+    "definition": "extremely angry",
+    "hero": {
+      "text": "Nova was furious when the thief smashed the museum window, and her eyes blazed.",
+      "scene": { "pose": "angry", "props": ["💢", "🪟"], "setting": "city" }
+    },
+    "everyday": "Dad was furious when someone dumped trash all over our clean yard.",
+    "contrast": {
+      "nonExample": "Jo frowned a little when the tip of her pencil broke.",
+      "explanation": "Furious means very, very angry. A small frown over a broken pencil is only a little annoyed.",
+      "scene": { "pose": "shrugging", "props": ["✏️"], "setting": "school" }
+    },
+    "related": { "synonyms": ["enraged", "livid"], "antonyms": ["calm", "pleased"], "family": ["fury", "furiously"] },
+    "forms": ["furious"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "furious.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "What does \"furious\" mean in this sentence?",
+        "passage": "The farmer was furious when the goats ate his whole garden.",
+        "options": [
+          { "id": "a", "text": "a little sad" }, { "id": "b", "text": "very tired" },
+          { "id": "c", "text": "very angry" }, { "id": "d", "text": "quite happy" }
+        ],
+        "answer": "c",
+        "hint": "How would you feel if goats ate your WHOLE garden?",
+        "explanation": "Furious means extremely angry. Losing the whole garden would make the farmer very angry."
+      },
+      {
+        "id": "furious.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Kim was ___ when her little brother broke her new tablet on purpose.",
+        "options": [
+          { "id": "a", "text": "grateful" }, { "id": "b", "text": "fortunate" },
+          { "id": "c", "text": "sensible" }, { "id": "d", "text": "furious" }
+        ],
+        "answer": "d",
+        "clue": "broke her new tablet on purpose",
+        "hint": "How would someone feel if their new thing was broken on purpose?",
+        "explanation": "Breaking something new \"on purpose\" would make Kim extremely angry. That is furious."
+      },
+      {
+        "id": "furious.adj.1#3", "format": "best_word", "stage": "independent",
+        "prompt": "Which word best describes how Kai felt?",
+        "passage": "Someone stomped on Kai's sandcastle on purpose. Kai's face turned red and he yelled as loud as he could.",
+        "options": [
+          { "id": "a", "text": "annoyed" }, { "id": "b", "text": "furious" },
+          { "id": "c", "text": "timid" }, { "id": "d", "text": "grateful" }
+        ],
+        "answer": "b",
+        "clue": "face turned red; yelled as loud as he could",
+        "hint": "Is Kai a little angry or extremely angry?",
+        "explanation": "A red face and yelling as loud as he could show extreme anger, so furious fits. Annoyed is only a little angry, which is too weak here.",
+        "wrong": { "a": "Annoyed means a little bothered. Kai's red face and loud yelling show much stronger anger." }
+      },
+      {
+        "id": "furious.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what furious means.",
+        "chunks": [
+          { "id": "c1", "text": "Max was furious" },
+          { "id": "c2", "text": "when he saw his broken window," },
+          { "id": "c3", "text": "so he stomped and shouted." },
+          { "id": "c4", "text": "so he smiled and hummed." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Furious people show strong anger.",
+        "explanation": "Stomping and shouting show extreme anger, so they fit furious. Smiling and humming show happiness."
+      },
+      {
+        "id": "furious.adj.1#5", "format": "synonym", "stage": "transfer",
+        "prompt": "Which word is closest in meaning to \"furious\" in this sentence?",
+        "passage": "The furious bull snorted and charged at the fence.",
+        "options": [
+          { "id": "a", "text": "hungry" }, { "id": "b", "text": "sleepy" },
+          { "id": "c", "text": "enraged" }, { "id": "d", "text": "gentle" }
+        ],
+        "answer": "c",
+        "hint": "Snorting and charging show a strong feeling.",
+        "explanation": "Enraged means filled with rage, or extremely angry, just like furious. Gentle is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "grateful.adj.1",
+    "word": "grateful",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "GRAYT-ful",
+    "definition": "feeling thankful for something someone did or gave",
+    "hero": {
+      "text": "The family was grateful that Juniper rescued their cat, so they baked her a pie.",
+      "scene": { "pose": "kind", "props": ["🐈", "🥧"], "setting": "street" }
+    },
+    "everyday": "I was grateful when my friend helped me carry my heavy backpack home.",
+    "contrast": {
+      "nonExample": "Liam got a new sweater as a gift and complained that it was the wrong color.",
+      "explanation": "Grateful people feel and show thanks. Liam complained instead of being thankful.",
+      "scene": { "pose": "angry", "props": ["🧥", "🎁"], "setting": "home" }
+    },
+    "related": { "synonyms": ["thankful", "appreciative"], "antonyms": ["ungrateful"], "family": ["gratitude", "gratefully"] },
+    "forms": ["grateful"],
+    "tags": ["everyday", "social"],
+    "items": [
+      {
+        "id": "grateful.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Ana grateful?",
+        "passage": "After Ms. Park helped Ana with her reading, Ana made her a thank-you card.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "What does a thank-you card show?",
+        "explanation": "Grateful means thankful. Ana shows her thanks with a card."
+      },
+      {
+        "id": "grateful.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "We were ___ to the firefighters who saved our neighbor's home.",
+        "options": [
+          { "id": "a", "text": "clumsy" }, { "id": "b", "text": "grateful" },
+          { "id": "c", "text": "furious" }, { "id": "d", "text": "peculiar" }
+        ],
+        "answer": "b",
+        "clue": "the firefighters who saved our neighbor's home",
+        "hint": "How do you feel toward someone who helps?",
+        "explanation": "The firefighters saved a home, so people would feel thankful to them. That is grateful."
+      },
+      {
+        "id": "grateful.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"grateful\" in this sentence?",
+        "passage": "The tired hikers were grateful for the cool water.",
+        "options": [
+          { "id": "a", "text": "angry" }, { "id": "b", "text": "bored" },
+          { "id": "c", "text": "worried" }, { "id": "d", "text": "thankful" }
+        ],
+        "answer": "d",
+        "hint": "How does a tired hiker feel about getting water?",
+        "explanation": "Thankful means the same as grateful. The hikers were thankful for the water."
+      },
+      {
+        "id": "grateful.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what grateful means.",
+        "chunks": [
+          { "id": "c1", "text": "Feeling grateful," },
+          { "id": "c2", "text": "Tara thanked her grandpa" },
+          { "id": "c3", "text": "for teaching her to fish." },
+          { "id": "c4", "text": "but grumbled that fishing was boring." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Grateful people say thanks and mean it.",
+        "explanation": "Thanking her grandpa for teaching her shows gratitude. Grumbling that it was boring does not."
+      },
+      {
+        "id": "grateful.adj.1#5", "format": "dialogue", "stage": "transfer",
+        "prompt": "Which line shows someone being grateful?",
+        "options": [
+          { "id": "a", "text": "\"You finally fixed my bike? It took way too long, and it still squeaks.\"" },
+          { "id": "b", "text": "\"Thank you for fixing my bike! I really needed it.\"" },
+          { "id": "c", "text": "\"My bike is red and has two wheels.\"" }
+        ],
+        "answer": "b",
+        "hint": "Which speaker says thanks?",
+        "explanation": "Saying thank you and \"I really needed it\" shows thankfulness. That is grateful. The first speaker complains instead."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "ordinary.adj.1",
+    "word": "ordinary",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "OR-dih-nair-ee",
+    "definition": "normal and usual; not special or different",
+    "hero": {
+      "text": "Pixel looked like an ordinary student at her desk, but she was secretly a hero.",
+      "scene": { "pose": "calm", "props": ["🎒", "📚"], "setting": "school" }
+    },
+    "everyday": "It was an ordinary Tuesday: breakfast, school, homework, and bed.",
+    "contrast": {
+      "nonExample": "On parade day, a giant balloon dragon floated down Main Street.",
+      "explanation": "Ordinary means plain and usual. A giant balloon dragon is special and unusual, not ordinary.",
+      "scene": { "pose": "excited", "props": ["🐉", "🎈"], "setting": "street" }
+    },
+    "related": { "synonyms": ["normal", "usual", "common"], "antonyms": ["unusual", "special", "extraordinary"], "family": ["ordinarily"] },
+    "forms": ["ordinary"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "ordinary.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which is ordinary?",
+        "options": [
+          { "id": "a", "text": "a purple elephant that can talk" },
+          { "id": "b", "text": "a sparrow hopping on the sidewalk" },
+          { "id": "c", "text": "a snowman in the middle of summer" }
+        ],
+        "answer": "b",
+        "hint": "Which one could you see on any normal day?",
+        "explanation": "Ordinary means normal and usual. A sparrow on the sidewalk is something you see every day."
+      },
+      {
+        "id": "ordinary.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The rock looked ___ on the outside, but inside it had sparkling purple crystals.",
+        "options": [
+          { "id": "a", "text": "eager" }, { "id": "b", "text": "grateful" },
+          { "id": "c", "text": "ordinary" }, { "id": "d", "text": "furious" }
+        ],
+        "answer": "c",
+        "clue": "but inside it had sparkling purple crystals",
+        "hint": "\"But\" shows a surprise. The inside was special, so the outside was...?",
+        "explanation": "\"But\" sets up a contrast with the special crystals inside. The outside was plain and normal, or ordinary."
+      },
+      {
+        "id": "ordinary.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"ordinary\" in this sentence?",
+        "passage": "Lunch was just an ordinary cheese sandwich and an apple.",
+        "options": [
+          { "id": "a", "text": "usual" }, { "id": "b", "text": "unusual" },
+          { "id": "c", "text": "tasty" }, { "id": "d", "text": "small" }
+        ],
+        "answer": "b",
+        "hint": "Ordinary means normal. What is the opposite?",
+        "explanation": "Unusual means not normal, the opposite of ordinary. Usual means the same as ordinary.",
+        "wrong": { "a": "Usual is a synonym of ordinary, not its opposite." }
+      },
+      {
+        "id": "ordinary.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what ordinary means.",
+        "chunks": [
+          { "id": "c1", "text": "Nothing special happened," },
+          { "id": "c2", "text": "so it was" },
+          { "id": "c3", "text": "an ordinary day." },
+          { "id": "c4", "text": "an amazing, surprising day." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "If nothing special happens, what kind of day is it?",
+        "explanation": "A day when nothing special happens is ordinary. An amazing, surprising day is not ordinary."
+      },
+      {
+        "id": "ordinary.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the party?",
+        "passage": "Ty expected a fancy party, but it was just pizza and games like every other weekend.",
+        "options": [
+          { "id": "a", "text": "ancient" }, { "id": "b", "text": "peculiar" },
+          { "id": "c", "text": "frantic" }, { "id": "d", "text": "ordinary" }
+        ],
+        "answer": "d",
+        "clue": "just pizza and games like every other weekend",
+        "hint": "Was the party special or like always?",
+        "explanation": "\"Just\" and \"like every other weekend\" show the party was normal and usual. That is ordinary. Peculiar means strange, the opposite."
+      }
+    ],
+    "review": "pending"
+  }
+]

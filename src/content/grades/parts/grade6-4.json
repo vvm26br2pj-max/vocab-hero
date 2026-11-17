@@ -1,0 +1,2004 @@
+[
+ {
+  "id": "precise.adj.1",
+  "word": "precise",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "prih-SYS",
+  "definition": "exact and accurate in every detail",
+  "hero": {
+   "text": "Pixel took precise measurements so the new antenna would fit exactly.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "📏",
+     "📡"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "The recipe gives precise amounts: 125 grams of flour and 2 grams of salt.",
+  "contrast": {
+   "nonExample": "\"The museum is somewhere over there, kind of near some stores,\" said the stranger.",
+   "explanation": "Those directions are vague. Precise directions give exact details, like street names and distances.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "🗺️",
+     "❓"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "exact",
+    "accurate",
+    "specific"
+   ],
+   "antonyms": [
+    "vague",
+    "approximate",
+    "rough"
+   ],
+   "family": [
+    "precisely",
+    "precision"
+   ]
+  },
+  "forms": [
+   "precise"
+  ],
+  "tags": [
+   "math",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "precise.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which answer is the most precise?",
+    "passage": "Question: How tall is the oak tree?",
+    "options": [
+     {
+      "id": "a",
+      "text": "It's 12.4 meters tall."
+     },
+     {
+      "id": "b",
+      "text": "It's pretty tall."
+     },
+     {
+      "id": "c",
+      "text": "Taller than our house, I think."
+     },
+     {
+      "id": "d",
+      "text": "It's a really big one."
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for the answer with an exact detail.",
+    "explanation": "\"12.4 meters\" is an exact measurement, so it is precise. \"Pretty tall\" and \"taller than our house\" are rough guesses."
+   },
+   {
+    "id": "precise.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "For the rocket launch, engineers needed the ___ time, down to the hundredth of a second, not just a rough estimate.",
+    "options": [
+     {
+      "id": "a",
+      "text": "approximate"
+     },
+     {
+      "id": "b",
+      "text": "average"
+     },
+     {
+      "id": "c",
+      "text": "precise"
+     },
+     {
+      "id": "d",
+      "text": "popular"
+     }
+    ],
+    "answer": "c",
+    "clue": "down to the hundredth of a second; not just a rough estimate",
+    "hint": "\"Not just a rough estimate\" tells you what they did NOT want.",
+    "explanation": "Approximate means close but not exact, which is a rough estimate. The engineers needed exact timing, down to the hundredth of a second. That is precise."
+   },
+   {
+    "id": "precise.adj.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"precise\" in this sentence?",
+    "passage": "The witness gave a precise description of the car: a red 2015 sedan with a dent in the left door.",
+    "options": [
+     {
+      "id": "a",
+      "text": "exact"
+     },
+     {
+      "id": "b",
+      "text": "vague"
+     },
+     {
+      "id": "c",
+      "text": "honest"
+     },
+     {
+      "id": "d",
+      "text": "long"
+     }
+    ],
+    "answer": "b",
+    "hint": "Precise means exact and detailed. What means fuzzy and unclear?",
+    "explanation": "Vague means unclear and lacking detail, the opposite of precise. Exact is a synonym, and honest or long describe different qualities."
+   },
+   {
+    "id": "precise.adj.1#4",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "What does \"precise\" mean in this passage?",
+    "passage": "A surgeon must be precise; even a cut one millimeter off could harm the patient.",
+    "options": [
+     {
+      "id": "a",
+      "text": "very fast"
+     },
+     {
+      "id": "b",
+      "text": "brave"
+     },
+     {
+      "id": "c",
+      "text": "friendly"
+     },
+     {
+      "id": "d",
+      "text": "exact and careful"
+     }
+    ],
+    "answer": "d",
+    "clue": "even a cut one millimeter off",
+    "hint": "Why does one millimeter matter?",
+    "explanation": "If one millimeter can cause harm, the surgeon must be exact in every detail. That is precise. Speed and bravery are not what the clue is about."
+   },
+   {
+    "id": "precise.adj.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what precise means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "that it showed"
+     },
+     {
+      "id": "c2",
+      "text": "The trail map was so precise"
+     },
+     {
+      "id": "c3",
+      "text": "only a rough blob for the whole forest."
+     },
+     {
+      "id": "c4",
+      "text": "every path and stream in the forest."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Precise means exact and detailed.",
+    "explanation": "A map that shows every path and stream is exact and detailed, so it is precise. A rough blob would be vague."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "prominent.adj.1",
+  "word": "prominent",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "PROM-uh-nunt",
+  "definition": "standing out so that it is easy to see or notice",
+  "hero": {
+   "text": "Bolt's lightning-bolt logo is prominent on his chest, so people can spot him from far away.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "⚡",
+     "👀"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The tall clock tower is the most prominent building on the town's skyline.",
+  "contrast": {
+   "nonExample": "A tiny signature was tucked into the bottom corner of the painting, almost impossible to see.",
+   "explanation": "Something almost impossible to see does not stand out, so it is not prominent. Prominent things catch your eye.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🖼️",
+     "🔎"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "noticeable",
+    "eye-catching",
+    "conspicuous"
+   ],
+   "antonyms": [
+    "inconspicuous",
+    "hidden",
+    "unnoticeable"
+   ],
+   "family": [
+    "prominence",
+    "prominently"
+   ]
+  },
+  "forms": [
+   "prominent"
+  ],
+  "tags": [
+   "arts",
+   "everyday",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "prominent.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"prominent\" mean in this sentence?",
+    "passage": "The EXIT sign was placed in a prominent spot above the door so everyone could find it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "secret"
+     },
+     {
+      "id": "b",
+      "text": "easy to notice"
+     },
+     {
+      "id": "c",
+      "text": "dangerous"
+     },
+     {
+      "id": "d",
+      "text": "temporary"
+     }
+    ],
+    "answer": "b",
+    "clue": "so everyone could find it",
+    "hint": "Why was it placed there? \"So everyone could find it.\"",
+    "explanation": "The sign was placed where everyone could see it easily. A spot that stands out is prominent."
+   },
+   {
+    "id": "prominent.adj.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is the date prominent on this poster?",
+    "passage": "On the concert poster, the date is printed in huge red letters across the top.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does the date stand out?",
+    "explanation": "Yes. Huge red letters across the top make the date stand out and catch the eye. That is prominent."
+   },
+   {
+    "id": "prominent.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The lighthouse is ___ on the coastline; it towers over everything nearby, and sailors spot it from miles away.",
+    "options": [
+     {
+      "id": "a",
+      "text": "visible"
+     },
+     {
+      "id": "b",
+      "text": "faint"
+     },
+     {
+      "id": "c",
+      "text": "ordinary"
+     },
+     {
+      "id": "d",
+      "text": "prominent"
+     }
+    ],
+    "answer": "d",
+    "clue": "towers over everything nearby",
+    "hint": "It does more than just show up. It \"towers over everything nearby.\"",
+    "explanation": "Visible only means it can be seen. The lighthouse towers over everything and is spotted from miles away, so it really stands out. Prominent is the stronger, better fit."
+   },
+   {
+    "id": "prominent.adj.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "In old photos, Grandpa's ___ nose and bushy eyebrows made him easy to recognize.",
+    "options": [
+     {
+      "id": "a",
+      "text": "prominent"
+     },
+     {
+      "id": "b",
+      "text": "invisible"
+     },
+     {
+      "id": "c",
+      "text": "hidden"
+     },
+     {
+      "id": "d",
+      "text": "forgotten"
+     }
+    ],
+    "answer": "a",
+    "clue": "easy to recognize",
+    "hint": "Features that make someone \"easy to recognize\" must stand out.",
+    "explanation": "Features that make someone easy to recognize stand out, so prominent fits. Hidden or invisible features would not help anyone recognize him."
+   },
+   {
+    "id": "prominent.adj.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word means the OPPOSITE of \"prominent\" in this sentence?",
+    "passage": "The museum placed the new dinosaur skeleton in the most prominent spot in the main hall.",
+    "options": [
+     {
+      "id": "a",
+      "text": "eye-catching"
+     },
+     {
+      "id": "b",
+      "text": "expensive"
+     },
+     {
+      "id": "c",
+      "text": "hidden"
+     },
+     {
+      "id": "d",
+      "text": "crowded"
+     }
+    ],
+    "answer": "c",
+    "hint": "Prominent means easy to notice. What means hard to notice?",
+    "explanation": "Prominent means standing out, so hidden is the opposite. Eye-catching is a synonym. A spot could be crowded or expensive and still be prominent."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "revise.verb.1",
+  "word": "revise",
+  "grade": 6,
+  "pos": "verb",
+  "say": "rih-VYZ",
+  "definition": "to look at something again and change it to make it better",
+  "hero": {
+   "text": "After testing the plan, Juniper revised it, moving the meeting spot to a safer street.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "📝",
+     "✏️"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "Lucas revised his essay, adding stronger evidence and fixing confusing sentences.",
+  "contrast": {
+   "nonExample": "Maya printed her first draft and turned it in without reading it again.",
+   "explanation": "Maya did not look back or make any changes, so she did not revise. To revise is to look again and improve.",
+   "scene": {
+    "pose": "tired",
+    "props": [
+     "📄",
+     "🖨️"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "edit",
+    "rework",
+    "update"
+   ],
+   "antonyms": [],
+   "family": [
+    "revision",
+    "revised"
+   ]
+  },
+  "forms": [
+   "revise",
+   "revises",
+   "revised",
+   "revising"
+  ],
+  "parts": [
+   {
+    "part": "re-",
+    "meaning": "again"
+   },
+   {
+    "part": "vis",
+    "meaning": "see"
+   }
+  ],
+  "tags": [
+   "reading",
+   "science",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "revise.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is Jada revising?",
+    "passage": "After reading her teacher's comments, Jada rewrote her story's ending to make it more surprising.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did Jada look again and make changes to improve it?",
+    "explanation": "Yes. Jada looked at her work again and changed it to make it better. That is revising."
+   },
+   {
+    "id": "revise.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix re- means \"again,\" and the root vis means \"see,\" as in vision. When you revise, you...",
+    "options": [
+     {
+      "id": "a",
+      "text": "see a doctor for a checkup"
+     },
+     {
+      "id": "b",
+      "text": "throw your work away"
+     },
+     {
+      "id": "c",
+      "text": "see your work again and improve it"
+     },
+     {
+      "id": "d",
+      "text": "copy someone else's work"
+     }
+    ],
+    "answer": "c",
+    "hint": "Re- = again. Vis = see.",
+    "explanation": "Re- (again) + vis (see): you look at your work again and change it to make it better."
+   },
+   {
+    "id": "revise.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Leo moved his strongest paragraph to the beginning, cut a section that was off-topic, and added a new example. He ___ his essay.",
+    "options": [
+     {
+      "id": "a",
+      "text": "revised"
+     },
+     {
+      "id": "b",
+      "text": "proofread"
+     },
+     {
+      "id": "c",
+      "text": "memorized"
+     },
+     {
+      "id": "d",
+      "text": "published"
+     }
+    ],
+    "answer": "a",
+    "clue": "moved; cut; added",
+    "hint": "Did Leo just fix spelling, or did he change the ideas and order?",
+    "explanation": "Proofreading means checking for small mistakes like spelling. Leo changed the order, cut sections, and added ideas, which are big changes. That is revising."
+   },
+   {
+    "id": "revise.verb.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "When new fossils were discovered, scientists had to ___ their ideas about when the dinosaur lived.",
+    "options": [
+     {
+      "id": "a",
+      "text": "announce"
+     },
+     {
+      "id": "b",
+      "text": "protect"
+     },
+     {
+      "id": "c",
+      "text": "memorize"
+     },
+     {
+      "id": "d",
+      "text": "revise"
+     }
+    ],
+    "answer": "d",
+    "clue": "When new fossils were discovered",
+    "hint": "New evidence means old ideas may need to change.",
+    "explanation": "New fossils gave new evidence, so scientists looked again at their old ideas and changed them. That is revising."
+   },
+   {
+    "id": "revise.verb.1#5",
+    "format": "meaning",
+    "stage": "transfer",
+    "prompt": "What does \"revised\" mean in this sentence?",
+    "passage": "The city revised its bus schedule after riders complained that buses came too late in the morning.",
+    "options": [
+     {
+      "id": "a",
+      "text": "printed more copies"
+     },
+     {
+      "id": "b",
+      "text": "changed it to make it better"
+     },
+     {
+      "id": "c",
+      "text": "cancelled it completely"
+     },
+     {
+      "id": "d",
+      "text": "read it out loud"
+     }
+    ],
+    "answer": "b",
+    "hint": "Why did riders complain, and what did the city do about it?",
+    "explanation": "The city looked again at the schedule and changed it to fix the problem. Revised means changed to improve. The schedule was not cancelled."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "subtle.adj.1",
+  "word": "subtle",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "SUT-ul",
+  "definition": "slight or delicate, so it is hard to notice",
+  "hero": {
+   "text": "Pixel noticed a subtle flicker in the city lights, the first sign that the power grid was failing.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "💡",
+     "🌃"
+    ],
+    "setting": "night"
+   }
+  },
+  "everyday": "There is a subtle difference between the two shades of blue; you have to look closely to see it.",
+  "contrast": {
+   "nonExample": "The fire alarm blared so loudly that everyone covered their ears.",
+   "explanation": "A blaring alarm is obvious, the opposite of subtle. Subtle things are slight and easy to miss.",
+   "scene": {
+    "pose": "scared",
+    "props": [
+     "🚨",
+     "🙉"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "slight",
+    "faint",
+    "delicate"
+   ],
+   "antonyms": [
+    "obvious",
+    "strong",
+    "blatant"
+   ],
+   "family": [
+    "subtly",
+    "subtlety"
+   ]
+  },
+  "forms": [
+   "subtle"
+  ],
+  "tags": [
+   "arts",
+   "reading",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "subtle.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"subtle\" mean in this sentence?",
+    "passage": "The soup had a subtle taste of ginger; most people did not notice it at first.",
+    "options": [
+     {
+      "id": "a",
+      "text": "slight and hard to notice"
+     },
+     {
+      "id": "b",
+      "text": "strong and spicy"
+     },
+     {
+      "id": "c",
+      "text": "sour"
+     },
+     {
+      "id": "d",
+      "text": "burnt"
+     }
+    ],
+    "answer": "a",
+    "clue": "most people did not notice it at first",
+    "hint": "Most people did not notice it at first.",
+    "explanation": "\"Most people did not notice it\" tells you the ginger taste was slight. That is subtle. A strong, spicy taste would be easy to notice."
+   },
+   {
+    "id": "subtle.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The author gives a ___ hint about the ending: a single line in chapter 2 that most readers skip right past.",
+    "options": [
+     {
+      "id": "a",
+      "text": "obvious"
+     },
+     {
+      "id": "b",
+      "text": "invisible"
+     },
+     {
+      "id": "c",
+      "text": "subtle"
+     },
+     {
+      "id": "d",
+      "text": "loud"
+     }
+    ],
+    "answer": "c",
+    "clue": "most readers skip right past",
+    "hint": "The hint is there, but most readers miss it.",
+    "explanation": "An obvious hint would be easy to notice, and an invisible one could not be found at all. The hint is really there but easy to miss, so it is subtle."
+   },
+   {
+    "id": "subtle.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is Rosa being subtle?",
+    "passage": "To show she was bored, Rosa yawned loudly, rolled her eyes, and said, \"This is SO boring!\"",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is her message slight and easy to miss?",
+    "explanation": "No. Rosa makes her boredom loud and obvious. A subtle sign would be small and easy to miss, like a quiet sigh."
+   },
+   {
+    "id": "subtle.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"subtle\" in this sentence?",
+    "passage": "The painter used subtle shading to make the apple look round.",
+    "options": [
+     {
+      "id": "a",
+      "text": "gentle"
+     },
+     {
+      "id": "b",
+      "text": "obvious"
+     },
+     {
+      "id": "c",
+      "text": "careful"
+     },
+     {
+      "id": "d",
+      "text": "delicate"
+     }
+    ],
+    "answer": "b",
+    "hint": "Subtle means slight. What means very easy to notice?",
+    "explanation": "Obvious means very easy to notice, the opposite of subtle. Gentle and delicate are close in meaning to subtle, and careful describes the painter."
+   },
+   {
+    "id": "subtle.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"subtle\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"The thunder was so subtle that it shook the windows.\""
+     },
+     {
+      "id": "b",
+      "text": "\"He gave a subtle shout across the whole stadium.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Her subtle neon sign lit up the entire block.\""
+     },
+     {
+      "id": "d",
+      "text": "\"The change is subtle, just a slightly warmer color in the sky.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Subtle means slight and easy to miss.",
+    "explanation": "A slightly warmer color is a small, easy-to-miss change, so it is subtle. Window-shaking thunder, a stadium shout, and a block-lighting sign are all obvious."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "transmit.verb.1",
+  "word": "transmit",
+  "grade": 6,
+  "pos": "verb",
+  "say": "trans-MIT",
+  "definition": "to send or pass something from one person, place, or thing to another",
+  "hero": {
+   "text": "Kai's wrist radio transmitted the rescue signal to the whole team in seconds.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📡",
+     "⌚"
+    ],
+    "setting": "sky"
+   }
+  },
+  "everyday": "Mosquitoes can transmit diseases when they bite.",
+  "contrast": {
+   "nonExample": "Sasha kept the secret to herself and never told anyone.",
+   "explanation": "Nothing was passed along, so nothing was transmitted. To transmit is to send something from one person or place to another.",
+   "scene": {
+    "pose": "sneaky",
+    "props": [
+     "🤫",
+     "🔒"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "send",
+    "pass on",
+    "broadcast"
+   ],
+   "antonyms": [
+    "receive"
+   ],
+   "family": [
+    "transmission",
+    "transmitter"
+   ]
+  },
+  "forms": [
+   "transmit",
+   "transmits",
+   "transmitted",
+   "transmitting"
+  ],
+  "parts": [
+   {
+    "part": "trans-",
+    "meaning": "across"
+   },
+   {
+    "part": "mit",
+    "meaning": "send"
+   }
+  ],
+  "tags": [
+   "science",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "transmit.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"transmits\" mean in this sentence?",
+    "passage": "The weather satellite transmits images back to Earth every hour.",
+    "options": [
+     {
+      "id": "a",
+      "text": "blocks"
+     },
+     {
+      "id": "b",
+      "text": "sends"
+     },
+     {
+      "id": "c",
+      "text": "repairs"
+     },
+     {
+      "id": "d",
+      "text": "stores"
+     }
+    ],
+    "answer": "b",
+    "hint": "The images travel from the satellite to Earth.",
+    "explanation": "The satellite sends the images from space to Earth. Transmits means sends."
+   },
+   {
+    "id": "transmit.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix trans- means \"across,\" as in transport. The root mit means \"send,\" as in submit. Transmit means...",
+    "options": [
+     {
+      "id": "a",
+      "text": "change into a new shape"
+     },
+     {
+      "id": "b",
+      "text": "hide something away"
+     },
+     {
+      "id": "c",
+      "text": "repeat many times"
+     },
+     {
+      "id": "d",
+      "text": "send across from one place to another"
+     }
+    ],
+    "answer": "d",
+    "hint": "Trans- = across. Mit = send.",
+    "explanation": "Across + send = transmit: to send something from one place to another. \"Change shape\" is transform, a different trans- word."
+   },
+   {
+    "id": "transmit.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Wash your hands often, because germs are easily ___ from person to person.",
+    "options": [
+     {
+      "id": "a",
+      "text": "transmitted"
+     },
+     {
+      "id": "b",
+      "text": "transformed"
+     },
+     {
+      "id": "c",
+      "text": "translated"
+     },
+     {
+      "id": "d",
+      "text": "trained"
+     }
+    ],
+    "answer": "a",
+    "clue": "from person to person",
+    "hint": "Germs move \"from person to person.\"",
+    "explanation": "\"From person to person\" shows the germs are passed along, so transmitted fits. Transformed and translated also start with trans-, but they mean changed and put into another language."
+   },
+   {
+    "id": "transmit.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"transmits\" in this sentence?",
+    "passage": "The tall tower transmits radio signals across the valley.",
+    "options": [
+     {
+      "id": "a",
+      "text": "sends"
+     },
+     {
+      "id": "b",
+      "text": "broadcasts"
+     },
+     {
+      "id": "c",
+      "text": "receives"
+     },
+     {
+      "id": "d",
+      "text": "builds"
+     }
+    ],
+    "answer": "c",
+    "hint": "If one tower sends the signal, what does a radio on the other side do?",
+    "explanation": "Transmit means send, so receive (take in) is the opposite. Sends and broadcasts are synonyms."
+   },
+   {
+    "id": "transmit.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this an example of transmitting?",
+    "passage": "A copper wire carries electricity from a battery to a light bulb.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is something being passed from one place to another?",
+    "explanation": "Yes. The wire passes electricity from the battery to the bulb. Carrying energy from one place to another is transmitting."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "vulnerable.adj.1",
+  "word": "vulnerable",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "VUL-ner-uh-bul",
+  "definition": "easily hurt or harmed; not well protected",
+  "hero": {
+   "text": "Without his shield, Rex felt vulnerable, so he stayed behind cover until help arrived.",
+   "scene": {
+    "pose": "scared",
+    "props": [
+     "🛡️",
+     "😰"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Newly planted seedlings are vulnerable to frost, so gardeners cover them on cold nights.",
+  "contrast": {
+   "nonExample": "The turtle pulled into its hard shell, safe from the falling pebbles.",
+   "explanation": "The shell protects the turtle, so it is not vulnerable. Vulnerable means open to harm.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🐢",
+     "🪨"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unprotected",
+    "exposed",
+    "at risk",
+    "defenseless"
+   ],
+   "antonyms": [
+    "protected",
+    "safe",
+    "invulnerable"
+   ],
+   "family": [
+    "vulnerability",
+    "invulnerable"
+   ]
+  },
+  "forms": [
+   "vulnerable"
+  ],
+  "parts": [
+   {
+    "part": "vulner",
+    "meaning": "wound"
+   },
+   {
+    "part": "-able",
+    "meaning": "able to be"
+   }
+  ],
+  "tags": [
+   "science",
+   "history",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "vulnerable.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"vulnerable\" mean in this sentence?",
+    "passage": "Baby sea turtles are vulnerable as they crawl across the beach, where birds can easily catch them.",
+    "options": [
+     {
+      "id": "a",
+      "text": "very fast"
+     },
+     {
+      "id": "b",
+      "text": "hungry"
+     },
+     {
+      "id": "c",
+      "text": "easily harmed"
+     },
+     {
+      "id": "d",
+      "text": "noisy"
+     }
+    ],
+    "answer": "c",
+    "clue": "birds can easily catch them",
+    "hint": "What can birds easily do to the baby turtles?",
+    "explanation": "\"Birds can easily catch them\" shows the turtles are open to harm. That is vulnerable."
+   },
+   {
+    "id": "vulnerable.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Old computers that never get security updates are ___ to viruses.",
+    "options": [
+     {
+      "id": "a",
+      "text": "vulnerable"
+     },
+     {
+      "id": "b",
+      "text": "immune"
+     },
+     {
+      "id": "c",
+      "text": "grateful"
+     },
+     {
+      "id": "d",
+      "text": "superior"
+     }
+    ],
+    "answer": "a",
+    "clue": "never get security updates",
+    "hint": "No updates means no protection.",
+    "explanation": "Without security updates, the computers are not protected, so they are vulnerable (open to harm) from viruses. Immune means protected, the opposite."
+   },
+   {
+    "id": "vulnerable.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this castle vulnerable?",
+    "passage": "A castle is surrounded by a deep moat and tall stone walls, with guards watching from every tower.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is the castle open to harm, or well protected?",
+    "explanation": "No. The moat, walls, and guards protect the castle, so it is not vulnerable. Vulnerable means easily harmed or unprotected."
+   },
+   {
+    "id": "vulnerable.adj.1#4",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix in- can mean \"not.\" If vulnerable means \"easily harmed,\" what does invulnerable mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "harmed again and again"
+     },
+     {
+      "id": "b",
+      "text": "easily harmed on the inside"
+     },
+     {
+      "id": "c",
+      "text": "hurt very badly"
+     },
+     {
+      "id": "d",
+      "text": "impossible to harm"
+     }
+    ],
+    "answer": "d",
+    "hint": "In- = not.",
+    "explanation": "In- (not) + vulnerable (able to be harmed) = not able to be harmed. Here in- means \"not,\" not \"inside.\""
+   },
+   {
+    "id": "vulnerable.adj.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Even the strongest wrestler is ___ while he is asleep, because he cannot defend himself.",
+    "options": [
+     {
+      "id": "a",
+      "text": "weak"
+     },
+     {
+      "id": "b",
+      "text": "vulnerable"
+     },
+     {
+      "id": "c",
+      "text": "lazy"
+     },
+     {
+      "id": "d",
+      "text": "clumsy"
+     }
+    ],
+    "answer": "b",
+    "clue": "cannot defend himself",
+    "hint": "The wrestler is still strong. What changes when he sleeps?",
+    "explanation": "Weak means lacking strength, but this wrestler is strong. While asleep, he cannot protect himself, so he is open to harm. Vulnerable is the better fit."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "versatile.adj.1",
+  "word": "versatile",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "VUR-suh-tul",
+  "definition": "able to do many different things or be used in many ways",
+  "hero": {
+   "text": "Juniper is the academy's most versatile hero: she can fly, heal plants, and talk with animals.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "🌿",
+     "🦋",
+     "🕊️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "everyday": "A pocketknife is a versatile tool, with a blade, scissors, and a screwdriver all in one.",
+  "contrast": {
+   "nonExample": "This kitchen gadget can peel apples and do nothing else.",
+   "explanation": "A tool with only one use is limited, not versatile. Versatile things can do many different jobs.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "🍎",
+     "🔪"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "adaptable",
+    "flexible",
+    "all-around",
+    "multipurpose"
+   ],
+   "antonyms": [
+    "limited",
+    "single-purpose"
+   ],
+   "family": [
+    "versatility"
+   ]
+  },
+  "forms": [
+   "versatile"
+  ],
+  "parts": [
+   {
+    "part": "vers",
+    "meaning": "turn"
+   }
+  ],
+  "tags": [
+   "arts",
+   "everyday",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "versatile.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which item is the most versatile?",
+    "options": [
+     {
+      "id": "a",
+      "text": "A scarf you can wear as a hat, belt, or bag"
+     },
+     {
+      "id": "b",
+      "text": "A key that opens only one single door lock"
+     },
+     {
+      "id": "c",
+      "text": "A stamp that can print only the word \"PAID\""
+     },
+     {
+      "id": "d",
+      "text": "A cookie cutter shaped like one small star"
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for the item with the most different uses.",
+    "explanation": "The scarf can be used in many different ways, so it is versatile. A key, a stamp, and a cookie cutter each do just one job."
+   },
+   {
+    "id": "versatile.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Eggs are very ___: you can boil them, scramble them, or bake them into cakes.",
+    "options": [
+     {
+      "id": "a",
+      "text": "fragile"
+     },
+     {
+      "id": "b",
+      "text": "expensive"
+     },
+     {
+      "id": "c",
+      "text": "versatile"
+     },
+     {
+      "id": "d",
+      "text": "ordinary"
+     }
+    ],
+    "answer": "c",
+    "clue": "boil them, scramble them, or bake them",
+    "hint": "The colon introduces a list of many uses.",
+    "explanation": "The list after the colon shows many different ways to use eggs, which is what versatile means. Eggs are fragile, but the sentence is about their uses."
+   },
+   {
+    "id": "versatile.adj.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The root vers means \"turn,\" as in reverse. A versatile person can...",
+    "options": [
+     {
+      "id": "a",
+      "text": "turn around in circles"
+     },
+     {
+      "id": "b",
+      "text": "turn easily from one skill or task to another"
+     },
+     {
+      "id": "c",
+      "text": "write poems in verse"
+     },
+     {
+      "id": "d",
+      "text": "argue against everything"
+     }
+    ],
+    "answer": "b",
+    "hint": "Vers = turn. Think of turning from one job to the next.",
+    "explanation": "A versatile person can \"turn\" from one skill to another with ease, such as moving from singing to acting."
+   },
+   {
+    "id": "versatile.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Marcus is ___: he plays piano, guitar, drums, and violin, and he can switch between jazz and classical.",
+    "options": [
+     {
+      "id": "a",
+      "text": "talented"
+     },
+     {
+      "id": "b",
+      "text": "famous"
+     },
+     {
+      "id": "c",
+      "text": "patient"
+     },
+     {
+      "id": "d",
+      "text": "versatile"
+     }
+    ],
+    "answer": "d",
+    "clue": "piano, guitar, drums, and violin; switch between",
+    "hint": "The sentence stresses how MANY different things he can do.",
+    "explanation": "Talented means skilled, but you can be talented at only one thing. The clue is range: four instruments and two styles. Versatile names that ability to do many things."
+   },
+   {
+    "id": "versatile.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this player versatile?",
+    "passage": "Ana is an excellent goalkeeper, but she struggles whenever the coach puts her in any other position.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Can Ana do many different jobs well?",
+    "explanation": "No. Ana is very skilled, but only at one position. Being excellent at one thing is talent; being versatile means being able to do many different things well."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "retain.verb.1",
+  "word": "retain",
+  "grade": 6,
+  "pos": "verb",
+  "say": "rih-TAYN",
+  "definition": "to keep or hold on to something",
+  "hero": {
+   "text": "Even after the storm, the academy's old tower retained its shape, thanks to its strong steel beams.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🏰",
+     "⛈️"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Wool retains heat, so a wool hat keeps your head warm even when it's wet.",
+  "contrast": {
+   "nonExample": "Liam forgot every word on his vocabulary list the day after the test.",
+   "explanation": "Liam lost the information instead of keeping it, so he did not retain it.",
+   "scene": {
+    "pose": "confused",
+    "props": [
+     "📝",
+     "❓"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "keep",
+    "hold",
+    "preserve",
+    "remember"
+   ],
+   "antonyms": [
+    "lose",
+    "release",
+    "forget"
+   ],
+   "family": [
+    "retention",
+    "retained"
+   ]
+  },
+  "forms": [
+   "retain",
+   "retains",
+   "retained",
+   "retaining"
+  ],
+  "parts": [
+   {
+    "part": "re-",
+    "meaning": "back"
+   },
+   {
+    "part": "tain",
+    "meaning": "hold"
+   }
+  ],
+  "tags": [
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "retain.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"retain\" mean in this sentence?",
+    "passage": "Cactus stems retain water, which helps the plant survive long dry months.",
+    "options": [
+     {
+      "id": "a",
+      "text": "spill"
+     },
+     {
+      "id": "b",
+      "text": "keep"
+     },
+     {
+      "id": "c",
+      "text": "need"
+     },
+     {
+      "id": "d",
+      "text": "produce"
+     }
+    ],
+    "answer": "b",
+    "hint": "How does stored water help the cactus during dry months?",
+    "explanation": "The cactus keeps water in its stems to use when there is no rain. Retain means keep or hold on to."
+   },
+   {
+    "id": "retain.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix re- can mean \"back,\" and the root tain means \"hold,\" as in contain. To retain something is to...",
+    "options": [
+     {
+      "id": "a",
+      "text": "train it again"
+     },
+     {
+      "id": "b",
+      "text": "hold it out to give away"
+     },
+     {
+      "id": "c",
+      "text": "hold a contest"
+     },
+     {
+      "id": "d",
+      "text": "hold it back and keep it"
+     }
+    ],
+    "answer": "d",
+    "hint": "Re- = back. Tain = hold.",
+    "explanation": "Re- (back) + tain (hold) = hold back, or keep. Holding something out to give it away is the opposite."
+   },
+   {
+    "id": "retain.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Taking notes and reviewing them later helps students ___ what they learned in class.",
+    "options": [
+     {
+      "id": "a",
+      "text": "retain"
+     },
+     {
+      "id": "b",
+      "text": "abandon"
+     },
+     {
+      "id": "c",
+      "text": "interrupt"
+     },
+     {
+      "id": "d",
+      "text": "decorate"
+     }
+    ],
+    "answer": "a",
+    "clue": "reviewing them later",
+    "hint": "What does reviewing your notes help you do with information?",
+    "explanation": "Reviewing notes helps you keep information in your memory. That is retaining. Abandon means to give up, the opposite."
+   },
+   {
+    "id": "retain.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"retained\" in this sentence?",
+    "passage": "The team retained its championship title for a third year in a row.",
+    "options": [
+     {
+      "id": "a",
+      "text": "kept"
+     },
+     {
+      "id": "b",
+      "text": "won"
+     },
+     {
+      "id": "c",
+      "text": "lost"
+     },
+     {
+      "id": "d",
+      "text": "defended"
+     }
+    ],
+    "answer": "c",
+    "hint": "Retained means kept. What is the opposite of keeping a title?",
+    "explanation": "Retained means kept, so lost is the opposite. Kept and defended are close in meaning, and you win a title the first time but retain it after that."
+   },
+   {
+    "id": "retain.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is the company retaining its workers?",
+    "passage": "To save money, a company lets go of half of its workers.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is the company keeping its workers?",
+    "explanation": "No. The company is letting workers go, not keeping them. Retaining workers means keeping them on the job."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "regulate.verb.1",
+  "word": "regulate",
+  "grade": 6,
+  "pos": "verb",
+  "say": "REG-yuh-layt",
+  "definition": "to control or manage something, often by using rules or adjustments",
+  "hero": {
+   "text": "Pixel built a valve to regulate how much water flowed into the academy's garden.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🚰",
+     "🌱"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "Your body sweats to help regulate its temperature on hot days.",
+  "contrast": {
+   "nonExample": "A broken faucet sprayed water everywhere, and nobody could turn it off.",
+   "explanation": "Nothing was controlling the water, so it was not regulated. To regulate is to control or adjust something.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "🚿",
+     "💦"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "control",
+    "manage",
+    "adjust",
+    "govern"
+   ],
+   "antonyms": [],
+   "family": [
+    "regulation",
+    "regulator",
+    "regulated"
+   ]
+  },
+  "forms": [
+   "regulate",
+   "regulates",
+   "regulated",
+   "regulating"
+  ],
+  "parts": [
+   {
+    "part": "reg",
+    "meaning": "rule"
+   }
+  ],
+  "tags": [
+   "science",
+   "social",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "regulate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"regulates\" mean in this sentence?",
+    "passage": "A thermostat regulates the temperature in a house by turning the heat on and off.",
+    "options": [
+     {
+      "id": "a",
+      "text": "measures once"
+     },
+     {
+      "id": "b",
+      "text": "breaks"
+     },
+     {
+      "id": "c",
+      "text": "controls or adjusts"
+     },
+     {
+      "id": "d",
+      "text": "decorates"
+     }
+    ],
+    "answer": "c",
+    "clue": "turning the heat on and off",
+    "hint": "What does the thermostat do with the heat?",
+    "explanation": "By turning the heat on and off, the thermostat keeps the temperature under control. Regulates means controls or adjusts."
+   },
+   {
+    "id": "regulate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Many countries have laws that ___ how much pollution factories are allowed to release.",
+    "options": [
+     {
+      "id": "a",
+      "text": "regulate"
+     },
+     {
+      "id": "b",
+      "text": "advertise"
+     },
+     {
+      "id": "c",
+      "text": "celebrate"
+     },
+     {
+      "id": "d",
+      "text": "imagine"
+     }
+    ],
+    "answer": "a",
+    "clue": "laws; are allowed",
+    "hint": "\"Laws\" and \"allowed\" are clues about control.",
+    "explanation": "Laws that set how much pollution is allowed control it with rules. That is regulating."
+   },
+   {
+    "id": "regulate.verb.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The root reg means \"rule,\" as in regular and regulation. Why does regulate contain this root?",
+    "options": [
+     {
+      "id": "a",
+      "text": "To regulate is to make something look fancy and royal"
+     },
+     {
+      "id": "b",
+      "text": "To regulate is to arrive late on a regular basis"
+     },
+     {
+      "id": "c",
+      "text": "To regulate is to ignore all the rules completely"
+     },
+     {
+      "id": "d",
+      "text": "To regulate is to control something with rules"
+     }
+    ],
+    "answer": "d",
+    "hint": "Reg = rule.",
+    "explanation": "To regulate is to control something with rules or limits, like rules for how fast cars may drive."
+   },
+   {
+    "id": "regulate.verb.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of regulating?",
+    "passage": "Traffic lights control when cars at a busy corner can go and when they must stop.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is something being controlled?",
+    "explanation": "Yes. Traffic lights control the flow of cars using a set pattern. That is regulating."
+   },
+   {
+    "id": "regulate.verb.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The town didn't forbid fireworks completely. Instead, it decided to ___ them, allowing them only on holidays and only until 10 p.m.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ban"
+     },
+     {
+      "id": "b",
+      "text": "regulate"
+     },
+     {
+      "id": "c",
+      "text": "ignore"
+     },
+     {
+      "id": "d",
+      "text": "celebrate"
+     }
+    ],
+    "answer": "b",
+    "clue": "didn't forbid fireworks completely; allowing them only",
+    "hint": "\"Didn't forbid completely\" rules out one option.",
+    "explanation": "To ban means to forbid completely, which the town did NOT do. It set limits on when fireworks are allowed, which is regulating."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "inaudible.adj.1",
+  "word": "inaudible",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "in-AW-duh-bul",
+  "definition": "too quiet or faint to be heard",
+  "hero": {
+   "text": "Kai's footsteps were nearly inaudible as he crept past the sleeping baby owls.",
+   "scene": {
+    "pose": "sneaky",
+    "props": [
+     "🦉",
+     "🤫"
+    ],
+    "setting": "night"
+   }
+  },
+  "everyday": "A dog whistle's sound is inaudible to people, but dogs hear it easily.",
+  "contrast": {
+   "nonExample": "The marching band played so loudly that people heard it three streets away.",
+   "explanation": "Sound you can hear from far away is audible, not inaudible. Inaudible means it cannot be heard at all.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "🥁",
+     "🎺"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "silent",
+    "unheard",
+    "soundless"
+   ],
+   "antonyms": [
+    "audible",
+    "loud"
+   ],
+   "family": [
+    "audible",
+    "inaudibly",
+    "audience",
+    "audio"
+   ]
+  },
+  "forms": [
+   "inaudible"
+  ],
+  "parts": [
+   {
+    "part": "in-",
+    "meaning": "not"
+   },
+   {
+    "part": "aud",
+    "meaning": "hear"
+   },
+   {
+    "part": "-ible",
+    "meaning": "able to be"
+   }
+  ],
+  "tags": [
+   "science",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "inaudible.adj.1#1",
+    "format": "word_parts",
+    "stage": "supported",
+    "prompt": "The prefix in- means \"not,\" the root aud means \"hear\" (as in audio and audience), and the suffix -ible means \"able to be.\" So inaudible means...",
+    "options": [
+     {
+      "id": "a",
+      "text": "not able to be heard"
+     },
+     {
+      "id": "b",
+      "text": "able to be heard"
+     },
+     {
+      "id": "c",
+      "text": "hard to see"
+     },
+     {
+      "id": "d",
+      "text": "not able to speak"
+     }
+    ],
+    "answer": "a",
+    "hint": "Put the three parts together: not + hear + able to be.",
+    "explanation": "In- (not) + aud (hear) + -ible (able to be) = not able to be heard."
+   },
+   {
+    "id": "inaudible.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The speaker's microphone broke, so her voice was ___ in the back rows of the hall.",
+    "options": [
+     {
+      "id": "a",
+      "text": "invisible"
+     },
+     {
+      "id": "b",
+      "text": "incredible"
+     },
+     {
+      "id": "c",
+      "text": "inaudible"
+     },
+     {
+      "id": "d",
+      "text": "inactive"
+     }
+    ],
+    "answer": "c",
+    "clue": "microphone broke; back rows",
+    "hint": "A broken microphone affects what you can HEAR.",
+    "explanation": "With the microphone broken, people in the back could not hear her, so her voice was inaudible. Invisible is about seeing, not hearing."
+   },
+   {
+    "id": "inaudible.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is the answer inaudible?",
+    "passage": "Mia answered softly, but everyone in the front row heard her answer clearly.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Could people hear the answer?",
+    "explanation": "No. Mia spoke softly, but people could still hear her, so her answer was quiet, not inaudible. Inaudible means it cannot be heard at all."
+   },
+   {
+    "id": "inaudible.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the song?",
+    "passage": "The radio was turned way down, but if you sat close and listened carefully, you could still make out the song.",
+    "options": [
+     {
+      "id": "a",
+      "text": "inaudible"
+     },
+     {
+      "id": "b",
+      "text": "faint"
+     },
+     {
+      "id": "c",
+      "text": "deafening"
+     },
+     {
+      "id": "d",
+      "text": "silent"
+     }
+    ],
+    "answer": "b",
+    "clue": "you could still make out the song",
+    "hint": "Could you hear the song or not?",
+    "explanation": "You could still make out the song by listening carefully, so it was faint (quiet but hearable). Inaudible would mean you could not hear it at all, no matter how hard you tried."
+   },
+   {
+    "id": "inaudible.adj.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which phrase is closest in meaning to \"inaudible\" in this sentence?",
+    "passage": "Bats make calls that are inaudible to humans but help the bats find insects in the dark.",
+    "options": [
+     {
+      "id": "a",
+      "text": "loud enough to hurt your ears"
+     },
+     {
+      "id": "b",
+      "text": "frightening to the insects"
+     },
+     {
+      "id": "c",
+      "text": "beautiful and musical"
+     },
+     {
+      "id": "d",
+      "text": "impossible for people to hear"
+     }
+    ],
+    "answer": "d",
+    "hint": "Aud = hear. In- = not.",
+    "explanation": "Inaudible to humans means people cannot hear the calls at all, even though bats can. The calls are not loud to people; we simply cannot hear them."
+   }
+  ],
+  "review": "pending"
+ }
+]

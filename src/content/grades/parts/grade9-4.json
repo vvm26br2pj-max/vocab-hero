@@ -1,0 +1,2083 @@
+[
+ {
+  "id": "pervasive.adj.1",
+  "word": "pervasive",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "per-VAY-siv",
+  "definition": "spreading through every part of something",
+  "hero": {
+   "text": "A pervasive smell of smoke filled every room of the building, so Kai knew the fire was spreading through the vents.",
+   "scene": {
+    "pose": "scared",
+    "props": [
+     "💨",
+     "🏢"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The novel captures the pervasive fear in the town during the long, cold war years.",
+  "contrast": {
+   "nonExample": "There was a small coffee stain in one corner of the tablecloth.",
+   "explanation": "A small stain in one spot is limited. Pervasive describes something that spreads throughout.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "☕",
+     "🧺"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "widespread",
+    "prevalent",
+    "all-encompassing",
+    "ubiquitous"
+   ],
+   "antonyms": [
+    "limited",
+    "isolated",
+    "contained"
+   ],
+   "family": [
+    "pervade",
+    "pervasively",
+    "pervasiveness"
+   ]
+  },
+  "forms": [
+   "pervasive"
+  ],
+  "tags": [
+   "social",
+   "science",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "pervasive.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"pervasive\" mean in this sentence?",
+    "passage": "There was a pervasive sense of excitement throughout the school during the week before the championship.",
+    "options": [
+     {
+      "id": "a",
+      "text": "barely noticeable"
+     },
+     {
+      "id": "b",
+      "text": "very sudden"
+     },
+     {
+      "id": "c",
+      "text": "completely false"
+     },
+     {
+      "id": "d",
+      "text": "spreading throughout"
+     }
+    ],
+    "answer": "d",
+    "hint": "Notice \"throughout the school.\"",
+    "explanation": "Pervasive means spreading through every part of something. The excitement was felt \"throughout the school.\""
+   },
+   {
+    "id": "pervasive.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In the 1930s Dust Bowl, the dust was so ___ that families found it in their food, their beds, and even inside closed cupboards.",
+    "options": [
+     {
+      "id": "a",
+      "text": "pervasive"
+     },
+     {
+      "id": "b",
+      "text": "scarce"
+     },
+     {
+      "id": "c",
+      "text": "harmless"
+     },
+     {
+      "id": "d",
+      "text": "colorful"
+     }
+    ],
+    "answer": "a",
+    "hint": "The dust got into everything.",
+    "explanation": "Dust that got into food, beds, and closed cupboards had spread throughout every space: it was pervasive.",
+    "clue": "in their food, their beds, and even inside closed cupboards"
+   },
+   {
+    "id": "pervasive.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the problem?",
+    "passage": "The investigation found that cheating was not limited to one class or grade. It appeared in every subject, at every level, and in clubs and sports as well.",
+    "options": [
+     {
+      "id": "a",
+      "text": "accidental"
+     },
+     {
+      "id": "b",
+      "text": "isolated"
+     },
+     {
+      "id": "c",
+      "text": "pervasive"
+     },
+     {
+      "id": "d",
+      "text": "minor"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Isolated is the opposite: confined to one spot.",
+     "d": "Minor means small in importance; the problem is widespread.",
+     "a": "Cheating on this scale is not described as accidental."
+    },
+    "hint": "\"Not limited to one class,\" but in every part of the school.",
+    "explanation": "A problem found in every subject, level, and activity is pervasive. Isolated would mean it was limited to one place."
+   },
+   {
+    "id": "pervasive.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"pervasive\" in this sentence?",
+    "passage": "The report described a pervasive culture of secrecy inside the agency.",
+    "options": [
+     {
+      "id": "a",
+      "text": "powerful"
+     },
+     {
+      "id": "b",
+      "text": "growing"
+     },
+     {
+      "id": "c",
+      "text": "widespread"
+     },
+     {
+      "id": "d",
+      "text": "limited"
+     }
+    ],
+    "answer": "d",
+    "hint": "Which word means \"confined to a small area\"?",
+    "explanation": "Pervasive means spread throughout. Limited means confined, the opposite. Widespread is a synonym."
+   },
+   {
+    "id": "pervasive.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is the influence described pervasive?",
+    "passage": "Social media now shapes how teenagers shop, talk, study, make friends, and even how they see themselves.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does the influence reach into many parts of life?",
+    "explanation": "Yes. An influence that reaches shopping, talking, studying, friendships, and self-image spreads throughout life: it is pervasive."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "polarize.verb.1",
+  "word": "polarize",
+  "grade": 9,
+  "pos": "verb",
+  "say": "POH-luh-ryze",
+  "definition": "to divide people into two sharply opposing groups",
+  "hero": {
+   "text": "The debate over secret identities polarized the academy: half the heroes wanted masks, half wanted to go public.",
+   "scene": {
+    "pose": "confused",
+    "props": [
+     "🎭",
+     "↔️"
+    ],
+    "second": "angry",
+    "setting": "school"
+   }
+  },
+  "everyday": "The proposal to cancel the school trip polarized parents, with some strongly for it and others strongly against.",
+  "contrast": {
+   "nonExample": "The class discussed the new schedule and quickly agreed it was an improvement.",
+   "explanation": "Quick agreement unites people. Polarizing pushes them toward two opposite extremes.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🗓️",
+     "🤝"
+    ],
+    "second": "happy",
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "divide",
+    "split",
+    "separate"
+   ],
+   "antonyms": [
+    "unite",
+    "unify",
+    "reconcile"
+   ],
+   "family": [
+    "polarization",
+    "polarized",
+    "polarizing",
+    "polar"
+   ]
+  },
+  "forms": [
+   "polarize",
+   "polarizes",
+   "polarized",
+   "polarizing"
+  ],
+  "tags": [
+   "social",
+   "history",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "polarize.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"polarized\" mean in this sentence?",
+    "passage": "The controversial painting polarized critics: some called it a masterpiece, while others called it an insult to art.",
+    "options": [
+     {
+      "id": "a",
+      "text": "divided into opposing sides"
+     },
+     {
+      "id": "b",
+      "text": "confused"
+     },
+     {
+      "id": "c",
+      "text": "bored"
+     },
+     {
+      "id": "d",
+      "text": "quietly impressed"
+     }
+    ],
+    "answer": "a",
+    "hint": "\"Masterpiece\" versus \"insult.\" How far apart are these views?",
+    "explanation": "Polarize means divide into two sharply opposing groups. Critics split into strong admirers and strong haters."
+   },
+   {
+    "id": "polarize.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The question of slavery increasingly ___ the United States in the 1850s, until the North and South could no longer find any compromise.",
+    "options": [
+     {
+      "id": "a",
+      "text": "surprised"
+     },
+     {
+      "id": "b",
+      "text": "polarized"
+     },
+     {
+      "id": "c",
+      "text": "united"
+     },
+     {
+      "id": "d",
+      "text": "enriched"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "United is the opposite of what happened.",
+     "d": "Enriched means made richer or better.",
+     "a": "Surprised describes a reaction, not division."
+    },
+    "hint": "Two sides moving so far apart that no compromise was possible.",
+    "explanation": "When two regions can no longer compromise, the issue has polarized them, pushing them to opposite extremes.",
+    "clue": "North and South could no longer find any compromise"
+   },
+   {
+    "id": "polarize.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the effect of the new dress code?",
+    "passage": "Before the vote, most students felt neutral about the dress code. After a heated assembly, nearly everyone was either passionately for it or passionately against it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "persuaded"
+     },
+     {
+      "id": "b",
+      "text": "calmed"
+     },
+     {
+      "id": "c",
+      "text": "polarized"
+     },
+     {
+      "id": "d",
+      "text": "informed"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "d": "Being informed does not explain the split into extremes.",
+     "a": "Persuaded suggests everyone moved toward one view; instead, they split.",
+     "b": "Calmed is the opposite of a heated split."
+    },
+    "hint": "From neutral to two extremes.",
+    "explanation": "Moving from neutral to two strongly opposed camps means the issue polarized students. Persuaded would mean they moved toward one side."
+   },
+   {
+    "id": "polarize.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what polarize means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The new highway plan"
+     },
+     {
+      "id": "c2",
+      "text": "polarized the town,"
+     },
+     {
+      "id": "c3",
+      "text": "splitting residents into two angry camps."
+     },
+     {
+      "id": "c4",
+      "text": "bringing every neighbor together in agreement."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Polarizing divides people into opposing sides.",
+    "explanation": "Splitting residents into two angry camps shows polarization. Bringing everyone together is the opposite."
+   },
+   {
+    "id": "polarize.verb.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word means the OPPOSITE of \"polarize\" in this sentence?",
+    "passage": "Leaders should look for solutions that unite communities rather than polarize them.",
+    "options": [
+     {
+      "id": "a",
+      "text": "divide"
+     },
+     {
+      "id": "b",
+      "text": "unify"
+     },
+     {
+      "id": "c",
+      "text": "split"
+     },
+     {
+      "id": "d",
+      "text": "alienate"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means \"bring together\"?",
+    "explanation": "Polarize means divide into opposing groups. Unify means bring together, the opposite. Divide and split are close synonyms."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "precedent.noun.1",
+  "word": "precedent",
+  "grade": 9,
+  "pos": "noun",
+  "say": "PRES-ih-dunt",
+  "definition": "an earlier event or decision used as an example or rule for similar situations later",
+  "hero": {
+   "text": "When Pixel let a civilian help with a rescue, Rex worried it would set a precedent for every future mission.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "📜",
+     "🧑‍🤝‍🧑"
+    ],
+    "second": "talking",
+    "setting": "school"
+   }
+  },
+  "everyday": "The court's ruling set a precedent that other judges followed in similar cases for decades.",
+  "contrast": {
+   "nonExample": "Every year, the class plants a tree on the first day of spring, just as the school has always done.",
+   "explanation": "Following an old tradition is not the same as setting a precedent. A precedent is the earlier example that guides later decisions.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🌳",
+     "🌸"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "example",
+    "model",
+    "standard",
+    "guideline"
+   ],
+   "antonyms": [],
+   "family": [
+    "precede",
+    "preceding",
+    "unprecedented"
+   ]
+  },
+  "forms": [
+   "precedent",
+   "precedents"
+  ],
+  "parts": [
+   {
+    "part": "pre-",
+    "meaning": "before"
+   },
+   {
+    "part": "ced",
+    "meaning": "go"
+   }
+  ],
+  "tags": [
+   "history",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "precedent.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"precedent\" mean in this sentence?",
+    "passage": "George Washington set a precedent by stepping down after two terms, and most presidents followed his example for the next 150 years.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a written law passed by Congress"
+     },
+     {
+      "id": "b",
+      "text": "an earlier example that others follow"
+     },
+     {
+      "id": "c",
+      "text": "a final decision that ends a debate"
+     },
+     {
+      "id": "d",
+      "text": "a reward for good behavior"
+     }
+    ],
+    "answer": "b",
+    "hint": "\"Most presidents followed his example.\"",
+    "explanation": "A precedent is an earlier action used as a model for later ones. Later presidents followed Washington's example."
+   },
+   {
+    "id": "precedent.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The principal hesitated to let one student retake the exam, worried that the exception would become the ___ every student would then expect to follow.",
+    "options": [
+     {
+      "id": "a",
+      "text": "question"
+     },
+     {
+      "id": "b",
+      "text": "mistake"
+     },
+     {
+      "id": "c",
+      "text": "precedent"
+     },
+     {
+      "id": "d",
+      "text": "punishment"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "d": "A retake is not a punishment.",
+     "a": "The concern is about future expectations, not a question.",
+     "b": "It might be a mistake, but the specific worry is that it becomes a model."
+    },
+    "hint": "One exception could become a model for future requests.",
+    "explanation": "Allowing one retake could become an example others expect to follow: a precedent.",
+    "clue": "every student would then expect to follow"
+   },
+   {
+    "id": "precedent.noun.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Precedent\" comes from \"pre-\" (before) and \"ced\" (go), like \"precede.\" What does that suggest?",
+    "options": [
+     {
+      "id": "a",
+      "text": "something that goes after everything else"
+     },
+     {
+      "id": "b",
+      "text": "something that goes away permanently"
+     },
+     {
+      "id": "c",
+      "text": "something that goes too fast"
+     },
+     {
+      "id": "d",
+      "text": "something that goes before and guides what follows"
+     }
+    ],
+    "answer": "d",
+    "hint": "\"Pre-\" means before, as in \"preview.\"",
+    "explanation": "A precedent \"goes before\": it is an earlier example that later decisions follow."
+   },
+   {
+    "id": "precedent.noun.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Lawyers searched old court records for a ___ in which a judge had ruled on a similar dispute about a shared fence.",
+    "options": [
+     {
+      "id": "a",
+      "text": "precedent"
+     },
+     {
+      "id": "b",
+      "text": "verdict"
+     },
+     {
+      "id": "c",
+      "text": "witness"
+     },
+     {
+      "id": "d",
+      "text": "statute"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "A verdict is the decision in a case; lawyers want an earlier verdict that can serve as a model, which is a precedent.",
+     "c": "A witness gives testimony, not a guiding ruling.",
+     "d": "A statute is a law passed by a legislature, not a past court ruling."
+    },
+    "hint": "They want an earlier case to guide this one.",
+    "explanation": "An earlier similar ruling that can guide the current case is a precedent. A verdict is just a decision in one case, and a statute is a written law."
+   },
+   {
+    "id": "precedent.noun.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Does this describe setting a precedent?",
+    "passage": "The first time the student council allowed a club to raise money by selling snacks, other clubs began asking for the same permission.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did the first decision become an example for later requests?",
+    "explanation": "Yes. The first approval became an example that other clubs pointed to, so it set a precedent."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "rhetoric.noun.1",
+  "word": "rhetoric",
+  "grade": 9,
+  "pos": "noun",
+  "say": "RET-er-ik",
+  "definition": "the art of using language to persuade; also, persuasive language that may sound impressive but lack substance",
+  "hero": {
+   "text": "Nova's speech used powerful rhetoric, with repetition and vivid images, to convince the city to rebuild together.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🎤",
+     "🏙️"
+    ],
+    "second": "listening",
+    "setting": "stage"
+   }
+  },
+  "everyday": "In debate class, students study rhetoric, including how speakers appeal to logic, emotion, and trust.",
+  "contrast": {
+   "nonExample": "The instruction manual listed the steps to assemble the shelf, one by one.",
+   "explanation": "A plain set of instructions is not trying to persuade, so it is not rhetoric.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🔩",
+     "📘"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "oratory",
+    "persuasion",
+    "eloquence"
+   ],
+   "antonyms": [],
+   "family": [
+    "rhetorical",
+    "rhetorically",
+    "rhetorician"
+   ]
+  },
+  "forms": [
+   "rhetoric"
+  ],
+  "tags": [
+   "reading",
+   "social",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "rhetoric.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"rhetoric\" mean in this sentence?",
+    "passage": "Martin Luther King Jr.'s rhetoric, with its repetition of \"I have a dream,\" moved millions of listeners.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a type of music"
+     },
+     {
+      "id": "b",
+      "text": "a written law"
+     },
+     {
+      "id": "c",
+      "text": "a historical event"
+     },
+     {
+      "id": "d",
+      "text": "persuasive use of language"
+     }
+    ],
+    "answer": "d",
+    "hint": "The repeated phrase \"moved millions.\"",
+    "explanation": "Rhetoric is the art of using language to persuade or move an audience, here through repetition."
+   },
+   {
+    "id": "rhetoric.noun.1#2",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "What is the writer's view of the candidate's speech?",
+    "passage": "The candidate's speech was full of soaring rhetoric about \"a brighter tomorrow,\" but voters noticed it contained no actual plan for jobs or schools.",
+    "options": [
+     {
+      "id": "a",
+      "text": "It sounded impressive but lacked substance."
+     },
+     {
+      "id": "b",
+      "text": "It was boring and poorly delivered."
+     },
+     {
+      "id": "c",
+      "text": "It included detailed, practical plans."
+     },
+     {
+      "id": "d",
+      "text": "It was too short to judge."
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "\"Soaring\" suggests it was impressive, not boring.",
+     "c": "The passage says it had no actual plan.",
+     "d": "Length is never mentioned."
+    },
+    "hint": "\"Soaring\" language, \"but\" no actual plan.",
+    "explanation": "Here rhetoric means impressive-sounding language without substance. The speech sounded grand but had no plan.",
+    "clue": "soaring; but; no actual plan"
+   },
+   {
+    "id": "rhetoric.noun.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In ancient Athens, citizens studied ___ so they could argue persuasively in the assembly and defend themselves in court.",
+    "options": [
+     {
+      "id": "a",
+      "text": "astronomy"
+     },
+     {
+      "id": "b",
+      "text": "rhetoric"
+     },
+     {
+      "id": "c",
+      "text": "geometry"
+     },
+     {
+      "id": "d",
+      "text": "farming"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which subject teaches persuasive speaking?",
+    "explanation": "Rhetoric is the study of persuasive language, exactly what citizens needed to argue in the assembly and in court.",
+    "clue": "argue persuasively"
+   },
+   {
+    "id": "rhetoric.noun.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the speaker's technique?",
+    "passage": "\"Will we stand by and do nothing? Will we let our park disappear? Or will we act?\" the speaker asked, pausing after each question.",
+    "options": [
+     {
+      "id": "a",
+      "text": "evidence"
+     },
+     {
+      "id": "b",
+      "text": "statistics"
+     },
+     {
+      "id": "c",
+      "text": "rhetoric"
+     },
+     {
+      "id": "d",
+      "text": "dialogue"
+     }
+    ],
+    "answer": "c",
+    "hint": "The questions are meant to persuade, not to get answers.",
+    "explanation": "Questions asked to stir the audience rather than get answers are a tool of rhetoric. Evidence and statistics would be facts or numbers, which this passage lacks."
+   },
+   {
+    "id": "rhetoric.noun.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"rhetoric\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I ate a rhetoric for breakfast.\""
+     },
+     {
+      "id": "b",
+      "text": "\"The rhetoric fell off the shelf and broke.\""
+     },
+     {
+      "id": "c",
+      "text": "\"We went swimming in the rhetoric after school.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Her rhetoric was so persuasive that the whole class changed its vote.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Rhetoric is persuasive language.",
+    "explanation": "Rhetoric is persuasive language, so \"her rhetoric was so persuasive\" uses it correctly. The other lines treat it as a food, an object, or a place."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "satire.noun.1",
+  "word": "satire",
+  "grade": 9,
+  "pos": "noun",
+  "say": "SAT-ire",
+  "definition": "humor, exaggeration, or irony used to criticize or mock people's foolishness or faults, especially in society or politics",
+  "hero": {
+   "text": "Pixel's cartoon showing the mayor as a snail racing to fix potholes was a sharp satire of the city's slow repairs.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🐌",
+     "✏️"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "Jonathan Swift wrote a famous satire suggesting that the poor sell their children as food, mocking cruel attitudes toward the poor.",
+  "contrast": {
+   "nonExample": "The comedian told jokes about his dog chasing its own tail.",
+   "explanation": "Silly jokes for fun are not satire. Satire uses humor to criticize a fault or a foolish idea.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "🐕",
+     "😂"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "parody",
+    "irony",
+    "mockery",
+    "spoof"
+   ],
+   "antonyms": [],
+   "family": [
+    "satirical",
+    "satirist",
+    "satirize"
+   ]
+  },
+  "forms": [
+   "satire",
+   "satires"
+  ],
+  "tags": [
+   "reading",
+   "arts",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "satire.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"satire\" mean in this sentence?",
+    "passage": "The TV show is a satire of reality television, exaggerating the drama to show how fake those programs can be.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a serious documentary"
+     },
+     {
+      "id": "b",
+      "text": "a true story"
+     },
+     {
+      "id": "c",
+      "text": "a talent competition"
+     },
+     {
+      "id": "d",
+      "text": "humor used to criticize"
+     }
+    ],
+    "answer": "d",
+    "hint": "It exaggerates in order to criticize.",
+    "explanation": "Satire uses humor and exaggeration to criticize. The show mocks how fake reality television can be."
+   },
+   {
+    "id": "satire.noun.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of satire?",
+    "passage": "A school newspaper prints a fake article announcing that the cafeteria will now serve \"gourmet cardboard,\" poking fun at the poor quality of school lunches.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does it use humor to criticize something?",
+    "explanation": "Yes. The fake article exaggerates to criticize school lunches, which is satire."
+   },
+   {
+    "id": "satire.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best names this kind of writing?",
+    "passage": "In the story, a government hires 500 officials to study why it takes so long to make decisions; after ten years, they announce they need more time.",
+    "options": [
+     {
+      "id": "a",
+      "text": "instruction"
+     },
+     {
+      "id": "b",
+      "text": "satire"
+     },
+     {
+      "id": "c",
+      "text": "biography"
+     },
+     {
+      "id": "d",
+      "text": "tragedy"
+     }
+    ],
+    "answer": "b",
+    "hint": "The story mocks government inefficiency with absurd exaggeration.",
+    "explanation": "The story exaggerates bureaucratic slowness to mock it, so it is satire. A tragedy would be a serious story ending in disaster."
+   },
+   {
+    "id": "satire.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In Animal Farm, George Orwell uses ___ to mock the corruption of the Soviet government: farm animals overthrow their owner, only to be ruled by pigs who become just as cruel and ridiculous.",
+    "options": [
+     {
+      "id": "a",
+      "text": "footnotes"
+     },
+     {
+      "id": "b",
+      "text": "diagrams"
+     },
+     {
+      "id": "c",
+      "text": "satire"
+     },
+     {
+      "id": "d",
+      "text": "statistics"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which tool is used to mock and criticize?",
+    "explanation": "Using an absurd animal fable to mock political corruption is satire. Statistics, footnotes, and diagrams are tools for presenting facts, not for mocking.",
+    "clue": "to mock the corruption; just as cruel and ridiculous"
+   },
+   {
+    "id": "satire.noun.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "What is the cartoonist's purpose?",
+    "passage": "A cartoon shows tech executives building a huge \"Save the Planet\" billboard powered by a smoking coal generator.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to advertise a new billboard"
+     },
+     {
+      "id": "b",
+      "text": "to explain how electricity works"
+     },
+     {
+      "id": "c",
+      "text": "to celebrate the executives"
+     },
+     {
+      "id": "d",
+      "text": "to criticize hypocrisy through satire"
+     }
+    ],
+    "answer": "d",
+    "hint": "Notice the contradiction between the message and the power source.",
+    "explanation": "The cartoon uses irony (a planet-saving sign powered by coal) to mock hypocrisy. That is satire.",
+    "clue": "\"Save the Planet\" billboard; coal generator"
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "synthesize.verb.1",
+  "word": "synthesize",
+  "grade": 9,
+  "pos": "verb",
+  "say": "SIN-thuh-syze",
+  "definition": "to combine separate ideas, information, or elements into a new whole",
+  "hero": {
+   "text": "Juniper synthesized clues from three different witnesses into one clear map of the villain's escape route.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🧩",
+     "🗺️"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "For her research paper, Mei synthesized findings from five different studies into one argument about sleep and memory.",
+  "contrast": {
+   "nonExample": "Leo copied one paragraph from a single website into his report.",
+   "explanation": "Copying a single source does not combine anything. Synthesizing brings several sources together into something new.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "📋",
+     "💻"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "combine",
+    "integrate",
+    "merge",
+    "fuse"
+   ],
+   "antonyms": [
+    "separate",
+    "analyze",
+    "divide"
+   ],
+   "family": [
+    "synthesis",
+    "synthetic",
+    "synthesizer"
+   ]
+  },
+  "forms": [
+   "synthesize",
+   "synthesizes",
+   "synthesized",
+   "synthesizing"
+  ],
+  "tags": [
+   "science",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "synthesize.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"synthesize\" mean in this sentence?",
+    "passage": "The historian synthesized letters, diaries, and newspaper reports to create a complete picture of life during the war.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to combine into a new whole"
+     },
+     {
+      "id": "b",
+      "text": "to throw away"
+     },
+     {
+      "id": "c",
+      "text": "to translate into another language"
+     },
+     {
+      "id": "d",
+      "text": "to memorize word for word"
+     }
+    ],
+    "answer": "a",
+    "hint": "Several sources become one complete picture.",
+    "explanation": "Synthesize means combine separate parts into a new whole. The historian combined three kinds of sources into one picture."
+   },
+   {
+    "id": "synthesize.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Plants ___ sugar from carbon dioxide, water, and sunlight during photosynthesis.",
+    "options": [
+     {
+      "id": "a",
+      "text": "release"
+     },
+     {
+      "id": "b",
+      "text": "synthesize"
+     },
+     {
+      "id": "c",
+      "text": "reject"
+     },
+     {
+      "id": "d",
+      "text": "freeze"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Plants take in these ingredients; they do not reject them.",
+     "d": "Freezing has nothing to do with photosynthesis.",
+     "a": "Plants release oxygen, but sugar is built, not released."
+    },
+    "hint": "Separate ingredients are combined into a new substance.",
+    "explanation": "Plants combine carbon dioxide and water, using light energy, into sugar: they synthesize it. The word even appears inside \"photosynthesis.\"",
+    "clue": "from carbon dioxide, water, and sunlight"
+   },
+   {
+    "id": "synthesize.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes Nia's task?",
+    "passage": "Nia's teacher asked her not just to summarize each article separately, but to combine their main ideas into a single new argument.",
+    "options": [
+     {
+      "id": "a",
+      "text": "criticize"
+     },
+     {
+      "id": "b",
+      "text": "memorize"
+     },
+     {
+      "id": "c",
+      "text": "summarize"
+     },
+     {
+      "id": "d",
+      "text": "synthesize"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "The teacher specifically asked for more than separate summaries.",
+     "a": "Criticizing means judging faults, not combining.",
+     "b": "Memorizing would not create a new argument."
+    },
+    "hint": "She must combine ideas, not just retell each one.",
+    "explanation": "Combining main ideas from several sources into one argument is synthesizing. Summarizing would only shorten each source on its own."
+   },
+   {
+    "id": "synthesize.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"synthesize\" in this sentence?",
+    "passage": "Good researchers synthesize information from many sources.",
+    "options": [
+     {
+      "id": "a",
+      "text": "separate"
+     },
+     {
+      "id": "b",
+      "text": "combine"
+     },
+     {
+      "id": "c",
+      "text": "gather"
+     },
+     {
+      "id": "d",
+      "text": "integrate"
+     }
+    ],
+    "answer": "a",
+    "hint": "Which word means \"break apart\"?",
+    "explanation": "Synthesize means bring parts together. Separate means break them apart, the opposite. Integrate and combine are synonyms."
+   },
+   {
+    "id": "synthesize.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what synthesize means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The composer"
+     },
+     {
+      "id": "c2",
+      "text": "synthesized jazz rhythms and classical melodies"
+     },
+     {
+      "id": "c3",
+      "text": "into a completely new style of music."
+     },
+     {
+      "id": "c4",
+      "text": "by deleting every note from both styles."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Synthesizing combines elements into something new.",
+    "explanation": "Blending jazz and classical into a new style is synthesizing. Deleting notes destroys rather than combines."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "unprecedented.adj.1",
+  "word": "unprecedented",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "un-PRES-ih-den-tid",
+  "definition": "never having happened or existed before",
+  "hero": {
+   "text": "Bolt's rescue of an entire falling train was unprecedented: no hero had ever attempted anything like it.",
+   "scene": {
+    "pose": "lifting",
+    "props": [
+     "🚆",
+     "💪"
+    ],
+    "second": "surprised",
+    "setting": "city"
+   }
+  },
+  "everyday": "The pandemic caused unprecedented school closures, with nearly every school in the country closing at once.",
+  "contrast": {
+   "nonExample": "Our town has a parade every Fourth of July, just as it has for a hundred years.",
+   "explanation": "An event that happens every year is familiar. Unprecedented means it has never happened before.",
+   "scene": {
+    "pose": "waving",
+    "props": [
+     "🎆",
+     "🥁"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unheard-of",
+    "unparalleled",
+    "new",
+    "first-ever"
+   ],
+   "antonyms": [
+    "common",
+    "routine",
+    "familiar",
+    "typical"
+   ],
+   "family": [
+    "precedent",
+    "unprecedentedly"
+   ]
+  },
+  "forms": [
+   "unprecedented"
+  ],
+  "parts": [
+   {
+    "part": "un-",
+    "meaning": "not"
+   },
+   {
+    "part": "precedent",
+    "meaning": "an earlier example"
+   }
+  ],
+  "tags": [
+   "history",
+   "science",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "unprecedented.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"unprecedented\" mean in this sentence?",
+    "passage": "The 1969 moon landing was an unprecedented achievement: no human had ever stood on another world.",
+    "options": [
+     {
+      "id": "a",
+      "text": "never done before"
+     },
+     {
+      "id": "b",
+      "text": "very expensive"
+     },
+     {
+      "id": "c",
+      "text": "carefully planned"
+     },
+     {
+      "id": "d",
+      "text": "widely criticized"
+     }
+    ],
+    "answer": "a",
+    "hint": "\"No human had ever...\"",
+    "explanation": "Unprecedented means never having happened before. No one had ever walked on the moon."
+   },
+   {
+    "id": "unprecedented.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Unprecedented\" combines \"un-\" (not) with \"precedent\" (an earlier example). What does the word mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "repeating an old pattern"
+     },
+     {
+      "id": "b",
+      "text": "having no earlier example"
+     },
+     {
+      "id": "c",
+      "text": "following an earlier example"
+     },
+     {
+      "id": "d",
+      "text": "happening too early"
+     }
+    ],
+    "answer": "b",
+    "hint": "If there is \"not\" any earlier example, what does that tell you?",
+    "explanation": "Un- means not. Something unprecedented has no precedent, no earlier example of anything like it."
+   },
+   {
+    "id": "unprecedented.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Scientists recorded ___ ocean temperatures last summer, higher than any reading since measurements began in the 1800s.",
+    "options": [
+     {
+      "id": "a",
+      "text": "predictable"
+     },
+     {
+      "id": "b",
+      "text": "seasonal"
+     },
+     {
+      "id": "c",
+      "text": "unprecedented"
+     },
+     {
+      "id": "d",
+      "text": "average"
+     }
+    ],
+    "answer": "c",
+    "hint": "\"Higher than any reading\" ever taken.",
+    "explanation": "Temperatures higher than any ever recorded are unprecedented. Average or seasonal would mean typical.",
+    "clue": "higher than any reading since measurements began"
+   },
+   {
+    "id": "unprecedented.adj.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this event unprecedented?",
+    "passage": "For the fifth year in a row, the school's robotics team qualified for the state finals.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Has this happened before?",
+    "explanation": "No. It has happened four times before, so it is not unprecedented. An unprecedented event has never happened before."
+   },
+   {
+    "id": "unprecedented.adj.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best describes the election result?",
+    "passage": "For the first time in the country's 200-year history, a candidate from outside the two major parties won the presidency.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unprecedented"
+     },
+     {
+      "id": "b",
+      "text": "controversial"
+     },
+     {
+      "id": "c",
+      "text": "predictable"
+     },
+     {
+      "id": "d",
+      "text": "unpopular"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "It may have been controversial, but the passage emphasizes that it was a first.",
+     "c": "A first-ever result is the opposite of predictable.",
+     "d": "The candidate won, so popularity is not the issue."
+    },
+    "hint": "\"For the first time in... 200-year history.\"",
+    "explanation": "Something happening for the first time in 200 years is unprecedented. It may also be controversial, but the passage stresses that it never happened before."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "verbose.adj.1",
+  "word": "verbose",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "ver-BOHS",
+  "definition": "using more words than are needed",
+  "hero": {
+   "text": "Rex's mission briefing was so verbose that by the time he finished, the villain had already escaped.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📜",
+     "⏰"
+    ],
+    "second": "tired",
+    "setting": "school"
+   }
+  },
+  "everyday": "The editor cut the verbose introduction from three pages to a single sharp paragraph.",
+  "contrast": {
+   "nonExample": "Her text message said simply: \"Running late. There in 10.\"",
+   "explanation": "A short, efficient message is concise, the opposite of verbose.",
+   "scene": {
+    "pose": "running",
+    "props": [
+     "📱",
+     "⏱️"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "wordy",
+    "long-winded",
+    "rambling"
+   ],
+   "antonyms": [
+    "concise",
+    "brief",
+    "succinct",
+    "terse"
+   ],
+   "family": [
+    "verbosity",
+    "verbosely"
+   ]
+  },
+  "forms": [
+   "verbose"
+  ],
+  "parts": [
+   {
+    "part": "verb",
+    "meaning": "word"
+   }
+  ],
+  "tags": [
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "verbose.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"verbose\" mean in this sentence?",
+    "passage": "The verbose instructions used three paragraphs to explain how to press a single button.",
+    "options": [
+     {
+      "id": "a",
+      "text": "using more words than needed"
+     },
+     {
+      "id": "b",
+      "text": "completely wrong"
+     },
+     {
+      "id": "c",
+      "text": "very easy to follow"
+     },
+     {
+      "id": "d",
+      "text": "printed in tiny letters"
+     }
+    ],
+    "answer": "a",
+    "hint": "Three paragraphs for one button.",
+    "explanation": "Verbose means using more words than needed. Three paragraphs for one button is far too many."
+   },
+   {
+    "id": "verbose.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the student's answer?",
+    "passage": "Question: \"What is the capital of France?\" Student's answer: \"Well, after careful consideration of the many cities in that historic nation, and keeping in mind various factors, I would say that the capital is, in fact, Paris.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "rude"
+     },
+     {
+      "id": "b",
+      "text": "verbose"
+     },
+     {
+      "id": "c",
+      "text": "incorrect"
+     },
+     {
+      "id": "d",
+      "text": "eloquent"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Paris is correct.",
+     "d": "Eloquent speech is graceful and effective; this answer is just padded.",
+     "a": "Nothing in the answer is impolite."
+    },
+    "hint": "The answer is correct but uses far too many words.",
+    "explanation": "The answer is right but padded with unnecessary words, so it is verbose. Eloquent means expressive and graceful, which this rambling answer is not."
+   },
+   {
+    "id": "verbose.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Journalists are trained to avoid ___ writing, since readers often skim and may stop reading if a story takes too long to get to the point.",
+    "options": [
+     {
+      "id": "a",
+      "text": "vivid"
+     },
+     {
+      "id": "b",
+      "text": "neutral"
+     },
+     {
+      "id": "c",
+      "text": "verbose"
+     },
+     {
+      "id": "d",
+      "text": "accurate"
+     }
+    ],
+    "answer": "c",
+    "hint": "What kind of writing takes too long to get to the point?",
+    "explanation": "Writing that takes too long to get to the point is verbose. Journalists value concise writing.",
+    "clue": "takes too long to get to the point"
+   },
+   {
+    "id": "verbose.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"verbose\" in this sentence?",
+    "passage": "The judge asked the lawyer to be less verbose and simply state the facts.",
+    "options": [
+     {
+      "id": "a",
+      "text": "concise"
+     },
+     {
+      "id": "b",
+      "text": "dramatic"
+     },
+     {
+      "id": "c",
+      "text": "nervous"
+     },
+     {
+      "id": "d",
+      "text": "long-winded"
+     }
+    ],
+    "answer": "a",
+    "hint": "Which word means \"brief and to the point\"?",
+    "explanation": "Verbose means wordy. Concise means brief and clear, the opposite. Long-winded is a synonym."
+   },
+   {
+    "id": "verbose.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which reply is the most verbose?",
+    "passage": "Jake asks his sister, \"Did you feed the dog?\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"Yes.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Yep, at six.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Regarding the question of whether the dog, our beloved family pet, has been fed this evening, I am pleased to report that yes, I did so.\""
+     },
+     {
+      "id": "d",
+      "text": "\"No, can you do it?\""
+     }
+    ],
+    "answer": "c",
+    "hint": "Find the reply with far more words than needed.",
+    "explanation": "The third reply uses a whole paragraph to say \"yes,\" so it is verbose. This is a rare case where the longest option is the answer, because length is the point."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "vindicate.verb.1",
+  "word": "vindicate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "VIN-dih-kayt",
+  "definition": "to prove that someone or something was right or innocent after being doubted or blamed",
+  "hero": {
+   "text": "When the security footage showed the real thief, it vindicated Kai, who had been wrongly accused.",
+   "scene": {
+    "pose": "proud",
+    "props": [
+     "📹",
+     "✅"
+    ],
+    "second": "surprised",
+    "setting": "city"
+   }
+  },
+  "everyday": "Years after critics laughed at her theory, new fossil evidence vindicated the scientist.",
+  "contrast": {
+   "nonExample": "The team captain was praised for scoring the winning goal.",
+   "explanation": "Praise for success is not vindication. To vindicate is to clear someone who was doubted or blamed.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "⚽",
+     "🏆"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "clear",
+    "exonerate",
+    "justify",
+    "acquit"
+   ],
+   "antonyms": [
+    "blame",
+    "accuse",
+    "convict",
+    "discredit"
+   ],
+   "family": [
+    "vindication",
+    "vindicated",
+    "vindicating"
+   ]
+  },
+  "forms": [
+   "vindicate",
+   "vindicates",
+   "vindicated",
+   "vindicating"
+  ],
+  "tags": [
+   "history",
+   "science",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "vindicate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"vindicated\" mean in this sentence?",
+    "passage": "Everyone said Ana's idea to build the bridge farther upriver was foolish, but when the flood washed away the old bridge and hers survived, she was vindicated.",
+    "options": [
+     {
+      "id": "a",
+      "text": "blamed for the flood"
+     },
+     {
+      "id": "b",
+      "text": "rewarded with money"
+     },
+     {
+      "id": "c",
+      "text": "forced to leave town"
+     },
+     {
+      "id": "d",
+      "text": "shown to be right after being doubted"
+     }
+    ],
+    "answer": "d",
+    "hint": "People doubted her, then events proved her right.",
+    "explanation": "Vindicate means to prove someone right after doubt or blame. The flood proved Ana's idea had been wise."
+   },
+   {
+    "id": "vindicate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "After spending fifteen years in prison for a crime he did not commit, the man was finally ___ when DNA testing identified the real criminal.",
+    "options": [
+     {
+      "id": "a",
+      "text": "vindicated"
+     },
+     {
+      "id": "b",
+      "text": "convicted"
+     },
+     {
+      "id": "c",
+      "text": "sentenced"
+     },
+     {
+      "id": "d",
+      "text": "suspected"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "Convicted means found guilty, the opposite.",
+     "c": "Sentenced is what happened before the DNA test.",
+     "d": "Suspected means doubted; the test cleared him."
+    },
+    "hint": "New evidence cleared him.",
+    "explanation": "DNA evidence proved his innocence, so he was vindicated. Convicted and sentenced describe what happened before, not the clearing of his name.",
+    "clue": "a crime he did not commit; identified the real criminal"
+   },
+   {
+    "id": "vindicate.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes how the engineer felt?",
+    "passage": "For months, managers ignored the engineer's warnings about the faulty part. When an inspection confirmed the flaw, she felt quietly ___ rather than angry.",
+    "options": [
+     {
+      "id": "a",
+      "text": "confused"
+     },
+     {
+      "id": "b",
+      "text": "vindicated"
+     },
+     {
+      "id": "c",
+      "text": "embarrassed"
+     },
+     {
+      "id": "d",
+      "text": "rewarded"
+     }
+    ],
+    "answer": "b",
+    "hint": "Her doubted warnings were finally proven correct.",
+    "explanation": "Being proven right after being ignored is feeling vindicated. Rewarded would mean receiving a prize or payment, which is not mentioned."
+   },
+   {
+    "id": "vindicate.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"vindicate\" in this sentence?",
+    "passage": "The new evidence may vindicate the accused student.",
+    "options": [
+     {
+      "id": "a",
+      "text": "justify"
+     },
+     {
+      "id": "b",
+      "text": "defend"
+     },
+     {
+      "id": "c",
+      "text": "clear"
+     },
+     {
+      "id": "d",
+      "text": "incriminate"
+     }
+    ],
+    "answer": "d",
+    "hint": "Which word means \"make someone look guilty\"?",
+    "explanation": "Vindicate means clear someone of blame. Incriminate means make someone appear guilty, the opposite. Clear and justify are close to vindicate."
+   },
+   {
+    "id": "vindicate.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this person vindicated?",
+    "passage": "Dev predicted the team would lose by a lot. They did lose, and nobody had argued with him about it.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Was Dev doubted or blamed first?",
+    "explanation": "No. Vindication means being proven right after being doubted or blamed. Nobody doubted Dev, so being correct here is not vindication."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "scrupulous.adj.1",
+  "word": "scrupulous",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "SKROO-pyuh-lus",
+  "definition": "very careful to be accurate, honest, and do what is right, even in small details",
+  "hero": {
+   "text": "Pixel was scrupulous about recording every detail of the evidence, down to the exact time and position of each clue.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "🔍",
+     "📝"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "The scrupulous shopkeeper chased a customer down the street to return the extra dollar he had overpaid.",
+  "contrast": {
+   "nonExample": "Rafa rushed through the lab report, guessing some measurements to finish faster.",
+   "explanation": "Guessing and rushing is careless. A scrupulous person is careful and honest about every detail.",
+   "scene": {
+    "pose": "running",
+    "props": [
+     "🧪",
+     "⏩"
+    ],
+    "setting": "lab"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "meticulous",
+    "conscientious",
+    "careful",
+    "principled"
+   ],
+   "antonyms": [
+    "careless",
+    "sloppy",
+    "dishonest",
+    "unscrupulous"
+   ],
+   "family": [
+    "scrupulously",
+    "scruple",
+    "unscrupulous"
+   ]
+  },
+  "forms": [
+   "scrupulous"
+  ],
+  "tags": [
+   "science",
+   "social",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "scrupulous.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person is scrupulous?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Kenji double-checks every source in his essay and credits each one exactly."
+     },
+     {
+      "id": "b",
+      "text": "Pia copies a friend's math answers to save time."
+     },
+     {
+      "id": "c",
+      "text": "Ty guesses at the measurements instead of using the ruler."
+     },
+     {
+      "id": "d",
+      "text": "Ivy rounds her test results to make the experiment look more successful."
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for someone who is careful, accurate, and honest.",
+    "explanation": "Kenji is careful and honest about every detail, which is scrupulous. The others are careless or dishonest."
+   },
+   {
+    "id": "scrupulous.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The restorer the museum hired was ___: she spent two years cleaning the painting with tiny brushes, documenting every square inch before touching it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "scrupulous"
+     },
+     {
+      "id": "b",
+      "text": "hasty"
+     },
+     {
+      "id": "c",
+      "text": "famous"
+     },
+     {
+      "id": "d",
+      "text": "careless"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "Hasty means rushed, the opposite of two careful years.",
+     "c": "Fame is not shown by the details given.",
+     "d": "Careless contradicts \"documenting every square inch.\""
+    },
+    "hint": "Two years and every square inch documented.",
+    "explanation": "Extreme care and attention to every detail make the restorer scrupulous. Famous may be true, but it does not explain the careful method.",
+    "clue": "spent two years; documenting every square inch"
+   },
+   {
+    "id": "scrupulous.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the treasurer?",
+    "passage": "The club treasurer records every penny, keeps every receipt, and once reported her own small math mistake to the group, even though no one would have noticed it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "generous"
+     },
+     {
+      "id": "b",
+      "text": "scrupulous"
+     },
+     {
+      "id": "c",
+      "text": "stingy"
+     },
+     {
+      "id": "d",
+      "text": "anxious"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Stingy is about refusing to spend money, not about accuracy and honesty.",
+     "d": "Nothing suggests she is worried; she is careful.",
+     "a": "Generous means giving freely, which is not described."
+    },
+    "hint": "She is careful and honest, even when no one is watching.",
+    "explanation": "Careful records and honestly reporting her own error show she is scrupulous. Stingy means unwilling to spend money, which is about spending, not honesty."
+   },
+   {
+    "id": "scrupulous.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"scrupulous\" in this sentence?",
+    "passage": "The scientist was scrupulous in following the safety procedures.",
+    "options": [
+     {
+      "id": "a",
+      "text": "cautious"
+     },
+     {
+      "id": "b",
+      "text": "thorough"
+     },
+     {
+      "id": "c",
+      "text": "meticulous"
+     },
+     {
+      "id": "d",
+      "text": "careless"
+     }
+    ],
+    "answer": "d",
+    "hint": "Which word means \"not paying attention to details\"?",
+    "explanation": "Scrupulous means very careful. Careless is the opposite. Meticulous and thorough are synonyms."
+   },
+   {
+    "id": "scrupulous.adj.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what scrupulous means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The scrupulous reporter"
+     },
+     {
+      "id": "c2",
+      "text": "checked every quote with the original speaker"
+     },
+     {
+      "id": "c3",
+      "text": "before the article went to print."
+     },
+     {
+      "id": "c4",
+      "text": "and invented a few more to make the story exciting."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "A scrupulous person is careful and honest.",
+    "explanation": "Checking every quote before printing shows careful honesty. Inventing quotes is dishonest, the opposite of scrupulous."
+   }
+  ],
+  "review": "pending"
+ }
+]

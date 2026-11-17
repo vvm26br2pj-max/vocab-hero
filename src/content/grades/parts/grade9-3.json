@@ -1,0 +1,2065 @@
+[
+ {
+  "id": "ephemeral.adj.1",
+  "word": "ephemeral",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "ih-FEM-er-ul",
+  "definition": "lasting for only a very short time",
+  "hero": {
+   "text": "Kai's ice sculpture of the team was ephemeral: by noon, the summer sun had melted it into a puddle.",
+   "scene": {
+    "pose": "sad",
+    "props": [
+     "🧊",
+     "☀️"
+    ],
+    "setting": "park"
+   }
+  },
+  "everyday": "Mayflies are famous for their ephemeral adult lives, which often last only a single day.",
+  "contrast": {
+   "nonExample": "The ancient pyramids of Giza have stood for more than four thousand years.",
+   "explanation": "Something that lasts thousands of years is enduring, the opposite of ephemeral.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🔺",
+     "🏜️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "fleeting",
+    "brief",
+    "short-lived",
+    "transient"
+   ],
+   "antonyms": [
+    "lasting",
+    "permanent",
+    "enduring"
+   ],
+   "family": [
+    "ephemerally",
+    "ephemera"
+   ]
+  },
+  "forms": [
+   "ephemeral"
+  ],
+  "tags": [
+   "science",
+   "arts",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "ephemeral.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"ephemeral\" mean in this sentence?",
+    "passage": "The rainbow was ephemeral, fading from the sky just seconds after we noticed it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "lasting a very short time"
+     },
+     {
+      "id": "b",
+      "text": "hard to see"
+     },
+     {
+      "id": "c",
+      "text": "enormous"
+     },
+     {
+      "id": "d",
+      "text": "brightly colored"
+     }
+    ],
+    "answer": "a",
+    "hint": "It faded \"just seconds after.\"",
+    "explanation": "Ephemeral means lasting only a short time. The rainbow disappeared within seconds."
+   },
+   {
+    "id": "ephemeral.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Many internet trends are ___: a dance or meme can dominate every feed for a week and then vanish so completely that no one remembers it a month later.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ephemeral"
+     },
+     {
+      "id": "b",
+      "text": "permanent"
+     },
+     {
+      "id": "c",
+      "text": "influential"
+     },
+     {
+      "id": "d",
+      "text": "original"
+     }
+    ],
+    "answer": "a",
+    "hint": "Popular for a week, forgotten in a month.",
+    "explanation": "Trends that \"vanish\" after a week are ephemeral, lasting only briefly. Permanent is the opposite.",
+    "clue": "for a week and then vanish"
+   },
+   {
+    "id": "ephemeral.adj.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best fits the artist's work?",
+    "passage": "The artist draws huge chalk murals on city sidewalks, knowing the next rainstorm will wash them away completely.",
+    "options": [
+     {
+      "id": "a",
+      "text": "controversial"
+     },
+     {
+      "id": "b",
+      "text": "ephemeral"
+     },
+     {
+      "id": "c",
+      "text": "abstract"
+     },
+     {
+      "id": "d",
+      "text": "expensive"
+     }
+    ],
+    "answer": "b",
+    "hint": "What will the rain do to the art?",
+    "explanation": "Art designed to be washed away by the next rain is ephemeral: it lasts only a short time. Abstract describes style, not duration."
+   },
+   {
+    "id": "ephemeral.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"ephemeral\" in this sentence?",
+    "passage": "The poet compares fame to a soap bubble: shining, admired, and ephemeral.",
+    "options": [
+     {
+      "id": "a",
+      "text": "fragile"
+     },
+     {
+      "id": "b",
+      "text": "delicate"
+     },
+     {
+      "id": "c",
+      "text": "fleeting"
+     },
+     {
+      "id": "d",
+      "text": "enduring"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "Fleeting is a synonym, not an opposite.",
+     "a": "Fragile means easily broken, which is related but not the opposite.",
+     "b": "Delicate describes how easily something is damaged, not how long it lasts."
+    },
+    "hint": "Find the word meaning \"lasting a long time.\"",
+    "explanation": "Ephemeral means short-lived. Enduring means lasting a long time, the opposite. Fleeting is a synonym, and fragile and delicate describe breakability rather than duration."
+   },
+   {
+    "id": "ephemeral.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this ephemeral?",
+    "passage": "A family passes down the same handmade quilt for six generations, and it is still used every winter.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Did the quilt last a short time?",
+    "explanation": "No. Lasting six generations makes the quilt enduring, the opposite of ephemeral."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "exacerbate.verb.1",
+  "word": "exacerbate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "ig-ZAS-er-bayt",
+  "definition": "to make a problem, pain, or bad situation worse",
+  "hero": {
+   "text": "Rex's angry shouting only exacerbated the panic in the crowd, so Nova stepped in with a calm voice.",
+   "scene": {
+    "pose": "angry",
+    "props": [
+     "😱",
+     "📢"
+    ],
+    "second": "calm",
+    "setting": "street"
+   }
+  },
+  "everyday": "Scratching a mosquito bite usually exacerbates the itching instead of relieving it.",
+  "contrast": {
+   "nonExample": "Putting ice on the sprained ankle reduced the swelling within an hour.",
+   "explanation": "The ice made the problem better. Exacerbating means making a problem worse.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🧊",
+     "🦶"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "worsen",
+    "aggravate",
+    "intensify",
+    "inflame"
+   ],
+   "antonyms": [
+    "ease",
+    "relieve",
+    "alleviate",
+    "improve"
+   ],
+   "family": [
+    "exacerbation",
+    "exacerbated",
+    "exacerbating"
+   ]
+  },
+  "forms": [
+   "exacerbate",
+   "exacerbates",
+   "exacerbated",
+   "exacerbating"
+  ],
+  "tags": [
+   "science",
+   "social",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "exacerbate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"exacerbated\" mean in this sentence?",
+    "passage": "The long drought exacerbated the food shortage, leaving even fewer crops to harvest.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ended"
+     },
+     {
+      "id": "b",
+      "text": "made worse"
+     },
+     {
+      "id": "c",
+      "text": "explained"
+     },
+     {
+      "id": "d",
+      "text": "predicted"
+     }
+    ],
+    "answer": "b",
+    "hint": "There were \"even fewer crops\" afterward.",
+    "explanation": "Exacerbate means make worse. The drought deepened a shortage that already existed."
+   },
+   {
+    "id": "exacerbate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Cutting down the mangrove forests along the coast ___ the damage from storms, because the trees had once absorbed much of the waves' force.",
+    "options": [
+     {
+      "id": "a",
+      "text": "reversed"
+     },
+     {
+      "id": "b",
+      "text": "exacerbated"
+     },
+     {
+      "id": "c",
+      "text": "prevented"
+     },
+     {
+      "id": "d",
+      "text": "measured"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Prevented would mean the damage stopped, but losing the trees removed protection.",
+     "d": "Measuring describes studying damage, not changing it.",
+     "a": "Reversing would mean undoing damage."
+    },
+    "hint": "Without the trees, are the storms' effects better or worse?",
+    "explanation": "Removing trees that had absorbed wave energy made storm damage worse, so cutting them exacerbated the damage.",
+    "clue": "had once absorbed much of the waves' force"
+   },
+   {
+    "id": "exacerbate.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the effect of the apology?",
+    "passage": "The two friends had a small disagreement. Then one posted a sarcastic \"apology\" online for the whole class to see, and the argument grew into a feud that lasted months.",
+    "options": [
+     {
+      "id": "a",
+      "text": "caused"
+     },
+     {
+      "id": "b",
+      "text": "ignored"
+     },
+     {
+      "id": "c",
+      "text": "resolved"
+     },
+     {
+      "id": "d",
+      "text": "exacerbated"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "Resolving would end the conflict; it grew instead.",
+     "a": "The disagreement existed before the post, so the post did not cause it.",
+     "b": "The post engaged with the argument publicly rather than ignoring it."
+    },
+    "hint": "The disagreement already existed. What did the post do to it?",
+    "explanation": "The disagreement already existed; the post made it much worse, so it exacerbated the conflict. Caused would mean it started the conflict, which it did not."
+   },
+   {
+    "id": "exacerbate.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what exacerbate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "Staying up late every night"
+     },
+     {
+      "id": "c2",
+      "text": "exacerbated Owen's headaches,"
+     },
+     {
+      "id": "c3",
+      "text": "which grew stronger and more frequent."
+     },
+     {
+      "id": "c4",
+      "text": "which finally faded away completely."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Exacerbating makes a problem worse.",
+    "explanation": "Headaches that grow \"stronger and more frequent\" have been exacerbated. Fading away would mean the problem improved."
+   },
+   {
+    "id": "exacerbate.verb.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word means the OPPOSITE of \"exacerbate\" in this sentence?",
+    "passage": "Economists warned that raising prices again would only exacerbate the crisis.",
+    "options": [
+     {
+      "id": "a",
+      "text": "aggravate"
+     },
+     {
+      "id": "b",
+      "text": "alleviate"
+     },
+     {
+      "id": "c",
+      "text": "prolong"
+     },
+     {
+      "id": "d",
+      "text": "intensify"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means \"make less severe\"?",
+    "explanation": "Exacerbate means make worse. Alleviate means make less severe, the opposite. Aggravate and intensify are synonyms, and prolong means make it last longer."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "extrapolate.verb.1",
+  "word": "extrapolate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "ik-STRAP-uh-layt",
+  "definition": "to use known facts or trends to estimate or predict what is unknown",
+  "hero": {
+   "text": "Using the storm's speed over the last hour, Pixel extrapolated that it would reach the harbor by midnight.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🌀",
+     "📈"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "From ten years of temperature records, the scientists extrapolated how warm the lake might be by 2050.",
+  "contrast": {
+   "nonExample": "Mia measured the plant's height every morning and wrote down exactly what she saw.",
+   "explanation": "Recording what you observe is not extrapolating. Extrapolating goes beyond the data to predict the unknown.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "🌱",
+     "📏"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "infer",
+    "project",
+    "predict",
+    "estimate"
+   ],
+   "antonyms": [
+    "measure",
+    "observe",
+    "record"
+   ],
+   "family": [
+    "extrapolation",
+    "extrapolated",
+    "extrapolating"
+   ]
+  },
+  "forms": [
+   "extrapolate",
+   "extrapolates",
+   "extrapolated",
+   "extrapolating"
+  ],
+  "parts": [
+   {
+    "part": "extra-",
+    "meaning": "outside, beyond"
+   }
+  ],
+  "tags": [
+   "science",
+   "math"
+  ],
+  "items": [
+   {
+    "id": "extrapolate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"extrapolate\" mean in this sentence?",
+    "passage": "Since the town's population grew by 500 people every year for a decade, planners extrapolated that it would reach 20,000 within six years.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to argue against a plan"
+     },
+     {
+      "id": "b",
+      "text": "to predict using a known trend"
+     },
+     {
+      "id": "c",
+      "text": "to count every person by hand"
+     },
+     {
+      "id": "d",
+      "text": "to guess without any information"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Counting is direct measurement, not prediction.",
+     "d": "Extrapolation uses information; it is not a blind guess.",
+     "a": "Nothing in the sentence is about arguing."
+    },
+    "hint": "They used past growth to predict future size.",
+    "explanation": "Extrapolating means extending a known pattern to estimate the unknown. The planners used ten years of growth to predict the future."
+   },
+   {
+    "id": "extrapolate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The researchers studied only 200 students, so they warned readers not to ___ their results to every teenager in the country.",
+    "options": [
+     {
+      "id": "a",
+      "text": "dispute"
+     },
+     {
+      "id": "b",
+      "text": "abbreviate"
+     },
+     {
+      "id": "c",
+      "text": "extrapolate"
+     },
+     {
+      "id": "d",
+      "text": "memorize"
+     }
+    ],
+    "answer": "c",
+    "hint": "Stretching a small sample to a whole country.",
+    "explanation": "Applying results from 200 students to all teenagers would extrapolate beyond the data, which the researchers warn against.",
+    "clue": "studied only 200 students; to every teenager in the country"
+   },
+   {
+    "id": "extrapolate.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what Ravi did?",
+    "passage": "Ravi noticed his phone battery lost 10% every hour. At 40% and noon, he concluded it would die around 4 p.m.",
+    "options": [
+     {
+      "id": "a",
+      "text": "exaggerated"
+     },
+     {
+      "id": "b",
+      "text": "recharged"
+     },
+     {
+      "id": "c",
+      "text": "observed"
+     },
+     {
+      "id": "d",
+      "text": "extrapolated"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "a": "Exaggerating means overstating; his estimate follows the data.",
+     "b": "He did not charge the phone.",
+     "c": "He observed the drain first, but the prediction is extrapolation."
+    },
+    "hint": "He used a pattern to predict a future time.",
+    "explanation": "Ravi extended the pattern (10% per hour) to predict when the battery would die. That is extrapolating. Observing describes noticing the pattern, but the prediction goes further."
+   },
+   {
+    "id": "extrapolate.verb.1#4",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Extrapolate\" begins with \"extra-,\" meaning \"outside\" or \"beyond.\" How does this help explain the word?",
+    "options": [
+     {
+      "id": "a",
+      "text": "reaching conclusions beyond the data you have"
+     },
+     {
+      "id": "b",
+      "text": "staying strictly within known facts"
+     },
+     {
+      "id": "c",
+      "text": "removing extra information"
+     },
+     {
+      "id": "d",
+      "text": "repeating information exactly"
+     }
+    ],
+    "answer": "a",
+    "hint": "\"Extra-\" as in \"extraordinary\": beyond the ordinary.",
+    "explanation": "Extra- means beyond. Extrapolating takes a known pattern beyond the existing data to predict something new."
+   },
+   {
+    "id": "extrapolate.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this an example of extrapolating?",
+    "passage": "After reading the first three chapters, in which the detective solves each case by noticing small details, Leila predicts the final mystery will be solved the same way.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does Leila use a pattern to predict something unknown?",
+    "explanation": "Yes. Leila extends a pattern from the chapters she has read to predict the ending she has not read. That is extrapolating."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "facilitate.verb.1",
+  "word": "facilitate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "fuh-SIL-uh-tayt",
+  "definition": "to make a process or action easier or help it happen",
+  "hero": {
+   "text": "Juniper built a ramp to facilitate the evacuation, so people with wheelchairs and strollers could leave quickly.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🛤️",
+     "♿"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The teacher facilitated the class discussion by asking questions and making sure everyone had a turn to speak.",
+  "contrast": {
+   "nonExample": "The broken elevator made it harder for visitors to reach the top floor.",
+   "explanation": "The broken elevator made things harder. Facilitating makes a process easier.",
+   "scene": {
+    "pose": "tired",
+    "props": [
+     "🛗",
+     "🚧"
+    ],
+    "setting": "city"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "enable",
+    "ease",
+    "assist",
+    "expedite"
+   ],
+   "antonyms": [
+    "hinder",
+    "obstruct",
+    "impede"
+   ],
+   "family": [
+    "facilitator",
+    "facilitation",
+    "facility"
+   ]
+  },
+  "forms": [
+   "facilitate",
+   "facilitates",
+   "facilitated",
+   "facilitating"
+  ],
+  "tags": [
+   "social",
+   "technology",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "facilitate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"facilitate\" mean in this sentence?",
+    "passage": "The new translation app helps facilitate conversations between doctors and patients who speak different languages.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to record"
+     },
+     {
+      "id": "b",
+      "text": "to judge"
+     },
+     {
+      "id": "c",
+      "text": "to make easier"
+     },
+     {
+      "id": "d",
+      "text": "to prevent"
+     }
+    ],
+    "answer": "c",
+    "hint": "What does the app do for the conversations?",
+    "explanation": "Facilitate means make easier or help happen. The app helps people who speak different languages understand each other."
+   },
+   {
+    "id": "facilitate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The Erie Canal, completed in 1825, greatly ___ trade between the Atlantic coast and the Midwest by cutting shipping costs by about 90 percent.",
+    "options": [
+     {
+      "id": "a",
+      "text": "discouraged"
+     },
+     {
+      "id": "b",
+      "text": "delayed"
+     },
+     {
+      "id": "c",
+      "text": "taxed"
+     },
+     {
+      "id": "d",
+      "text": "facilitated"
+     }
+    ],
+    "answer": "d",
+    "hint": "Cheaper shipping makes trade easier.",
+    "explanation": "Cutting costs made trade much easier, so the canal facilitated it. Discouraged and delayed would mean it made trade harder.",
+    "clue": "cutting shipping costs by about 90 percent"
+   },
+   {
+    "id": "facilitate.verb.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"facilitate\" in this sentence?",
+    "passage": "Clear signs facilitate the flow of visitors through the museum.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ease"
+     },
+     {
+      "id": "b",
+      "text": "hinder"
+     },
+     {
+      "id": "c",
+      "text": "guide"
+     },
+     {
+      "id": "d",
+      "text": "speed"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means \"make harder\"?",
+    "explanation": "Facilitate means make easier. Hinder means make harder, the opposite. Ease, guide, and speed are close to facilitate."
+   },
+   {
+    "id": "facilitate.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes Ms. Kim's role?",
+    "passage": "Ms. Kim does not tell the debate club what to think. She sets the schedule, keeps time, and makes sure every member gets a fair chance to speak.",
+    "options": [
+     {
+      "id": "a",
+      "text": "criticizes"
+     },
+     {
+      "id": "b",
+      "text": "dictates"
+     },
+     {
+      "id": "c",
+      "text": "facilitates"
+     },
+     {
+      "id": "d",
+      "text": "competes"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Dictating means controlling or ordering, which she avoids.",
+     "d": "She organizes; she does not compete.",
+     "a": "Nothing shows her criticizing members."
+    },
+    "hint": "She makes the process run smoothly without controlling the content.",
+    "explanation": "Ms. Kim makes the club's discussions run smoothly: she facilitates. Dictating would mean telling them what to think, which the passage rules out."
+   },
+   {
+    "id": "facilitate.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what facilitate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "To facilitate group projects,"
+     },
+     {
+      "id": "c2",
+      "text": "the library"
+     },
+     {
+      "id": "c3",
+      "text": "added large tables and whiteboards in the study rooms."
+     },
+     {
+      "id": "c4",
+      "text": "removed all the tables and banned talking."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Facilitating makes something easier.",
+    "explanation": "Tables and whiteboards make group work easier, so they facilitate it. Removing tables and banning talking would hinder group work."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "impetus.noun.1",
+  "word": "impetus",
+  "grade": 9,
+  "pos": "noun",
+  "say": "IM-puh-tus",
+  "definition": "a force or reason that causes something to start or move forward faster",
+  "hero": {
+   "text": "The near-disaster at the dam gave the team the impetus to build a real early-warning system.",
+   "scene": {
+    "pose": "determined",
+    "props": [
+     "🌊",
+     "🚨"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "The 1957 launch of Sputnik gave the United States the impetus to invest heavily in science education.",
+  "contrast": {
+   "nonExample": "The class finished the mural on schedule, exactly as planned months earlier.",
+   "explanation": "Nothing pushed the project forward or started it here. An impetus is the driving force behind a change or action.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🎨",
+     "🖌️"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "motivation",
+    "stimulus",
+    "catalyst",
+    "momentum"
+   ],
+   "antonyms": [
+    "obstacle",
+    "deterrent",
+    "hindrance"
+   ],
+   "family": [
+    "impetuses"
+   ]
+  },
+  "forms": [
+   "impetus",
+   "impetuses"
+  ],
+  "tags": [
+   "history",
+   "science",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "impetus.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"impetus\" mean in this sentence?",
+    "passage": "Her grandmother's illness was the impetus for Dana's decision to study medicine.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a reason that pushes something to happen"
+     },
+     {
+      "id": "b",
+      "text": "a final result"
+     },
+     {
+      "id": "c",
+      "text": "a delay or setback"
+     },
+     {
+      "id": "d",
+      "text": "a written plan"
+     }
+    ],
+    "answer": "a",
+    "hint": "What pushed Dana to make her decision?",
+    "explanation": "An impetus is a force or reason that drives an action. The illness motivated Dana to study medicine."
+   },
+   {
+    "id": "impetus.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The deadly factory fire of 1911 provided the ___ for new workplace safety laws in New York, which lawmakers had ignored for years.",
+    "options": [
+     {
+      "id": "a",
+      "text": "audience"
+     },
+     {
+      "id": "b",
+      "text": "impetus"
+     },
+     {
+      "id": "c",
+      "text": "obstacle"
+     },
+     {
+      "id": "d",
+      "text": "summary"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "An obstacle blocks change; the fire caused it.",
+     "d": "A summary describes events; it does not drive them.",
+     "a": "An audience watches; it is not a cause."
+    },
+    "hint": "Laws ignored for years suddenly passed. What did the fire provide?",
+    "explanation": "The fire pushed lawmakers to finally act, so it was the impetus for the laws. An obstacle would have stopped them.",
+    "clue": "had ignored for years"
+   },
+   {
+    "id": "impetus.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the role of the viral video?",
+    "passage": "For months, the neighborhood's petition for a crosswalk got little attention. Then a video of a near-accident spread online, and within weeks the city painted the crosswalk.",
+    "options": [
+     {
+      "id": "a",
+      "text": "consequence"
+     },
+     {
+      "id": "b",
+      "text": "compromise"
+     },
+     {
+      "id": "c",
+      "text": "impetus"
+     },
+     {
+      "id": "d",
+      "text": "obstacle"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "d": "An obstacle would slow the project; the video sped it up.",
+     "a": "The crosswalk is the consequence; the video came first and caused it.",
+     "b": "A compromise is a deal between two sides."
+    },
+    "hint": "The video got things moving.",
+    "explanation": "The video drove the city to act quickly, so it was the impetus. The crosswalk is the consequence, not the video."
+   },
+   {
+    "id": "impetus.noun.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Does this describe an impetus?",
+    "passage": "After failing his driving test, Tomás practiced parallel parking every day for a month.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did something push Tomás into action?",
+    "explanation": "Yes. Failing the test was the impetus that drove Tomás to practice every day."
+   },
+   {
+    "id": "impetus.noun.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word is closest in meaning to \"impetus\" in this sentence?",
+    "passage": "The discovery of gold in 1848 was the impetus for a huge wave of migration to California.",
+    "options": [
+     {
+      "id": "a",
+      "text": "catalyst"
+     },
+     {
+      "id": "b",
+      "text": "barrier"
+     },
+     {
+      "id": "c",
+      "text": "record"
+     },
+     {
+      "id": "d",
+      "text": "memory"
+     }
+    ],
+    "answer": "a",
+    "hint": "Which word means \"something that causes change to happen\"?",
+    "explanation": "A catalyst triggers or speeds up change, very close to impetus. A barrier would block migration."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "incongruous.adj.1",
+  "word": "incongruous",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "in-KONG-groo-us",
+  "definition": "strange or out of place because it does not fit with its surroundings",
+  "hero": {
+   "text": "Bolt's bright party hat looked incongruous at the serious council meeting.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "🥳",
+     "🏛️"
+    ],
+    "second": "confused",
+    "setting": "school"
+   }
+  },
+  "everyday": "A modern glass skyscraper looked incongruous among the village's centuries-old stone cottages.",
+  "contrast": {
+   "nonExample": "At the beach party, everyone wore swimsuits and sandals.",
+   "explanation": "The clothing matches the setting. Incongruous describes something that clashes with or does not fit its surroundings.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "🏖️",
+     "🩴"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "out of place",
+    "inappropriate",
+    "jarring",
+    "discordant"
+   ],
+   "antonyms": [
+    "fitting",
+    "harmonious",
+    "appropriate",
+    "congruous"
+   ],
+   "family": [
+    "incongruity",
+    "incongruously"
+   ]
+  },
+  "forms": [
+   "incongruous"
+  ],
+  "parts": [
+   {
+    "part": "in-",
+    "meaning": "not"
+   },
+   {
+    "part": "congruous",
+    "meaning": "fitting together"
+   }
+  ],
+  "tags": [
+   "reading",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "incongruous.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"incongruous\" mean in this sentence?",
+    "passage": "His cheerful whistling seemed incongruous at the quiet, solemn memorial service.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unexpectedly loud"
+     },
+     {
+      "id": "b",
+      "text": "sincere"
+     },
+     {
+      "id": "c",
+      "text": "out of place"
+     },
+     {
+      "id": "d",
+      "text": "beautiful"
+     }
+    ],
+    "answer": "c",
+    "hint": "Does cheerful whistling fit a solemn service?",
+    "explanation": "Incongruous means out of place. Cheerful whistling clashes with a solemn setting."
+   },
+   {
+    "id": "incongruous.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Incongruous\" combines \"in-\" (not) with \"congruous\" (fitting together). What does the word mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "fitting perfectly"
+     },
+     {
+      "id": "b",
+      "text": "fitting inside something"
+     },
+     {
+      "id": "c",
+      "text": "not yet finished"
+     },
+     {
+      "id": "d",
+      "text": "not fitting with its surroundings"
+     }
+    ],
+    "answer": "d",
+    "hint": "In math, congruent shapes match exactly.",
+    "explanation": "In- means not, and congruous means fitting together, so incongruous means not fitting, out of place."
+   },
+   {
+    "id": "incongruous.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The director chose a cheerful pop song for the film's saddest scene; the ___ music made some viewers uncomfortable and others think more deeply.",
+    "options": [
+     {
+      "id": "a",
+      "text": "incongruous"
+     },
+     {
+      "id": "b",
+      "text": "fitting"
+     },
+     {
+      "id": "c",
+      "text": "familiar"
+     },
+     {
+      "id": "d",
+      "text": "gentle"
+     }
+    ],
+    "answer": "a",
+    "hint": "Cheerful music in a sad scene creates a clash.",
+    "explanation": "Cheerful music does not fit a sad scene, so it is incongruous. Fitting would mean it matched, which contradicts the clash.",
+    "clue": "cheerful pop song for the saddest scene"
+   },
+   {
+    "id": "incongruous.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the speaker's remark?",
+    "passage": "In the middle of a serious debate about climate policy, one candidate suddenly began talking about his favorite pizza toppings.",
+    "options": [
+     {
+      "id": "a",
+      "text": "technical"
+     },
+     {
+      "id": "b",
+      "text": "incongruous"
+     },
+     {
+      "id": "c",
+      "text": "hostile"
+     },
+     {
+      "id": "d",
+      "text": "persuasive"
+     }
+    ],
+    "answer": "b",
+    "hint": "The remark does not fit the serious topic.",
+    "explanation": "Pizza toppings during a serious policy debate are out of place, so the remark is incongruous. It is not hostile, and it certainly is not persuasive."
+   },
+   {
+    "id": "incongruous.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is anything incongruous here?",
+    "passage": "In a quiet library reading room, students sit at wooden tables, turning pages and taking notes.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does anything clash with the setting?",
+    "explanation": "No. Everything fits the library setting. Something incongruous would clash, like a blaring radio."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "juxtapose.verb.1",
+  "word": "juxtapose",
+  "grade": 9,
+  "pos": "verb",
+  "say": "JUK-stuh-pohz",
+  "definition": "to place two things side by side, especially to highlight their differences",
+  "hero": {
+   "text": "Pixel's exhibit juxtaposed photos of the river before and after the cleanup, so visitors could see the change instantly.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🖼️",
+     "🏞️"
+    ],
+    "second": "looking",
+    "setting": "school"
+   }
+  },
+  "everyday": "The photographer juxtaposed a luxury hotel with the crowded tents beside it to show the gap between rich and poor.",
+  "contrast": {
+   "nonExample": "The museum displayed the paintings in separate rooms on different floors.",
+   "explanation": "Placing things far apart does not invite direct comparison. Juxtaposing means placing them side by side.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🏛️",
+     "🖼️"
+    ],
+    "setting": "city"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "contrast",
+    "compare",
+    "pair"
+   ],
+   "antonyms": [
+    "separate",
+    "isolate"
+   ],
+   "family": [
+    "juxtaposition",
+    "juxtaposed",
+    "juxtaposing"
+   ]
+  },
+  "forms": [
+   "juxtapose",
+   "juxtaposes",
+   "juxtaposed",
+   "juxtaposing"
+  ],
+  "tags": [
+   "arts",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "juxtapose.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"juxtaposes\" mean in this sentence?",
+    "passage": "The poem juxtaposes images of a busy, noisy city with images of a silent forest.",
+    "options": [
+     {
+      "id": "a",
+      "text": "criticizes harshly"
+     },
+     {
+      "id": "b",
+      "text": "makes something longer"
+     },
+     {
+      "id": "c",
+      "text": "describes from memory"
+     },
+     {
+      "id": "d",
+      "text": "places side by side for contrast"
+     }
+    ],
+    "answer": "d",
+    "hint": "Two very different images appear together.",
+    "explanation": "Juxtapose means to place two things side by side, often to show contrast. The poem pairs the noisy city with the silent forest."
+   },
+   {
+    "id": "juxtapose.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "In her speech, the activist ___ the company's record profits with its workers' falling wages, letting the contrast make her argument for her.",
+    "options": [
+     {
+      "id": "a",
+      "text": "juxtaposed"
+     },
+     {
+      "id": "b",
+      "text": "confused"
+     },
+     {
+      "id": "c",
+      "text": "replaced"
+     },
+     {
+      "id": "d",
+      "text": "hid"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "She clarified the two facts rather than confusing them.",
+     "c": "She did not substitute one fact for another.",
+     "d": "She made the facts more visible, not hidden."
+    },
+    "hint": "She placed two facts together so the contrast would be obvious.",
+    "explanation": "Setting record profits next to falling wages highlights the contrast: she juxtaposed them.",
+    "clue": "letting the contrast make her argument"
+   },
+   {
+    "id": "juxtapose.verb.1#3",
+    "format": "context_clues",
+    "stage": "independent",
+    "prompt": "What does the director do in this scene?",
+    "passage": "The film cuts directly from a feast in the king's palace, with tables overflowing, to a family outside the walls sharing a single loaf of bread.",
+    "options": [
+     {
+      "id": "a",
+      "text": "The director ends the film."
+     },
+     {
+      "id": "b",
+      "text": "The director juxtaposes wealth and poverty."
+     },
+     {
+      "id": "c",
+      "text": "The director hides the poverty."
+     },
+     {
+      "id": "d",
+      "text": "The director praises the king."
+     }
+    ],
+    "answer": "b",
+    "hint": "Two opposite scenes appear back-to-back.",
+    "explanation": "Cutting straight from the feast to the single loaf places the scenes side by side, juxtaposing wealth and poverty to highlight the gap.",
+    "clue": "cuts directly from... to"
+   },
+   {
+    "id": "juxtapose.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what juxtapose means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The textbook"
+     },
+     {
+      "id": "c2",
+      "text": "juxtaposes two maps of Europe"
+     },
+     {
+      "id": "c3",
+      "text": "on facing pages, one from 1914 and one from 1919."
+     },
+     {
+      "id": "c4",
+      "text": "in separate chapters, hundreds of pages apart."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Juxtaposing places things side by side.",
+    "explanation": "Maps on facing pages are side by side for easy comparison. Maps hundreds of pages apart are not juxtaposed."
+   },
+   {
+    "id": "juxtapose.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"juxtapose\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I juxtaposed my bike down the hill really fast.\""
+     },
+     {
+      "id": "b",
+      "text": "\"She juxtaposed a glass of water because she was thirsty.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Please juxtapose the trash before dinner.\""
+     },
+     {
+      "id": "d",
+      "text": "\"If you juxtapose the two essays, you can see how much stronger the second draft is.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Juxtapose means place side by side to compare.",
+    "explanation": "Placing two drafts side by side to compare them is juxtaposing. The other lines use the word for riding, drinking, or taking out trash."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "mundane.adj.1",
+  "word": "mundane",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "mun-DAYN",
+  "definition": "ordinary, routine, and unexciting",
+  "hero": {
+   "text": "Between dramatic rescues, Nova spends hours on mundane tasks like filling out reports and cleaning her gear.",
+   "scene": {
+    "pose": "tired",
+    "props": [
+     "📄",
+     "🧽"
+    ],
+    "setting": "home"
+   }
+  },
+  "everyday": "The documentary showed the mundane daily life of astronauts: exercising, fixing equipment, and cleaning filters.",
+  "contrast": {
+   "nonExample": "Juan spent the afternoon racing down a mountain on a snowboard for the first time.",
+   "explanation": "A thrilling first-time adventure is not mundane. Mundane describes the ordinary and routine.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "🏂",
+     "🏔️"
+    ],
+    "setting": "nature"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "ordinary",
+    "routine",
+    "dull",
+    "everyday"
+   ],
+   "antonyms": [
+    "extraordinary",
+    "exciting",
+    "remarkable"
+   ],
+   "family": [
+    "mundanely",
+    "mundanity"
+   ]
+  },
+  "forms": [
+   "mundane"
+  ],
+  "tags": [
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "mundane.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"mundane\" mean in this sentence?",
+    "passage": "The novel turns mundane events, like waiting for a bus or folding laundry, into moments of quiet beauty.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ordinary and routine"
+     },
+     {
+      "id": "b",
+      "text": "dangerous"
+     },
+     {
+      "id": "c",
+      "text": "magical"
+     },
+     {
+      "id": "d",
+      "text": "confusing"
+     }
+    ],
+    "answer": "a",
+    "hint": "Waiting for a bus and folding laundry are everyday tasks.",
+    "explanation": "Mundane means ordinary and routine. Bus waits and laundry are everyday events."
+   },
+   {
+    "id": "mundane.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes Lucas's summer job?",
+    "passage": "Every day, Lucas sorted the same kinds of mail into the same slots, at the same desk, from nine to five.",
+    "options": [
+     {
+      "id": "a",
+      "text": "unpredictable"
+     },
+     {
+      "id": "b",
+      "text": "mundane"
+     },
+     {
+      "id": "c",
+      "text": "strenuous"
+     },
+     {
+      "id": "d",
+      "text": "glamorous"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "c": "Strenuous means physically exhausting; the passage stresses routine, not effort.",
+     "d": "Glamorous is the opposite of this routine job.",
+     "a": "Nothing changes from day to day, so it is predictable."
+    },
+    "hint": "Same task, same place, every day.",
+    "explanation": "Repetitive, ordinary work is mundane. Strenuous means physically demanding, which sorting mail is not described as."
+   },
+   {
+    "id": "mundane.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Historians often learn the most from ___ objects such as grocery lists, receipts, and letters about the weather, because they reveal how ordinary people lived.",
+    "options": [
+     {
+      "id": "a",
+      "text": "legendary"
+     },
+     {
+      "id": "b",
+      "text": "forbidden"
+     },
+     {
+      "id": "c",
+      "text": "mundane"
+     },
+     {
+      "id": "d",
+      "text": "priceless"
+     }
+    ],
+    "answer": "c",
+    "hint": "Grocery lists and receipts are everyday items.",
+    "explanation": "Grocery lists and receipts are ordinary, everyday objects: mundane. Their very ordinariness makes them useful to historians.",
+    "clue": "grocery lists, receipts; ordinary people"
+   },
+   {
+    "id": "mundane.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"mundane\" in this sentence?",
+    "passage": "After months of mundane practice drills, the team was thrilled to play a real match.",
+    "options": [
+     {
+      "id": "a",
+      "text": "extraordinary"
+     },
+     {
+      "id": "b",
+      "text": "repetitive"
+     },
+     {
+      "id": "c",
+      "text": "routine"
+     },
+     {
+      "id": "d",
+      "text": "tedious"
+     }
+    ],
+    "answer": "a",
+    "hint": "Which word means \"far from ordinary\"?",
+    "explanation": "Mundane means ordinary and dull. Extraordinary means far beyond ordinary, the opposite. The other three are close to mundane."
+   },
+   {
+    "id": "mundane.adj.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is this activity mundane?",
+    "passage": "Every Tuesday evening, Ayla takes out the recycling, rinses the bins, and lines them up by the curb.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is this ordinary and routine?",
+    "explanation": "Yes. A weekly chore repeated the same way is a classic mundane task: ordinary and routine."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "obfuscate.verb.1",
+  "word": "obfuscate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "OB-fuh-skayt",
+  "definition": "to make something deliberately unclear or confusing, often to hide the truth",
+  "hero": {
+   "text": "The villain's spokesperson tried to obfuscate the facts with jargon, but Rex asked one simple question that cut through it.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "❓",
+     "🗯️"
+    ],
+    "second": "sneaky",
+    "setting": "stage"
+   }
+  },
+  "everyday": "The company's report used confusing charts and technical terms to obfuscate how much money it had lost.",
+  "contrast": {
+   "nonExample": "The science teacher used a simple diagram to explain how volcanoes erupt.",
+   "explanation": "Making something clearer is the opposite of obfuscating, which makes things confusing on purpose.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🌋",
+     "📊"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "obscure",
+    "confuse",
+    "muddy",
+    "cloud"
+   ],
+   "antonyms": [
+    "clarify",
+    "illuminate",
+    "explain",
+    "simplify"
+   ],
+   "family": [
+    "obfuscation",
+    "obfuscated",
+    "obfuscating"
+   ]
+  },
+  "forms": [
+   "obfuscate",
+   "obfuscates",
+   "obfuscated",
+   "obfuscating"
+  ],
+  "tags": [
+   "reading",
+   "social",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "obfuscate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"obfuscate\" mean in this sentence?",
+    "passage": "Instead of answering the question directly, the official used long, technical phrases to obfuscate what had really happened.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to announce loudly"
+     },
+     {
+      "id": "b",
+      "text": "to apologize for"
+     },
+     {
+      "id": "c",
+      "text": "to make deliberately unclear"
+     },
+     {
+      "id": "d",
+      "text": "to explain simply"
+     }
+    ],
+    "answer": "c",
+    "hint": "He avoided answering directly and used confusing language.",
+    "explanation": "Obfuscate means to make something deliberately confusing, often to hide the truth. The official used jargon instead of a clear answer."
+   },
+   {
+    "id": "obfuscate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Critics argued that the forty-page user agreement was designed to ___ the fact that the app sold users' data, burying it in paragraph thirty-seven.",
+    "options": [
+     {
+      "id": "a",
+      "text": "highlight"
+     },
+     {
+      "id": "b",
+      "text": "celebrate"
+     },
+     {
+      "id": "c",
+      "text": "correct"
+     },
+     {
+      "id": "d",
+      "text": "obfuscate"
+     }
+    ],
+    "answer": "d",
+    "hint": "Hiding a key fact deep in a long document.",
+    "explanation": "Burying important information in a long agreement makes it hard to find: an attempt to obfuscate. Highlight would mean the opposite.",
+    "clue": "burying it in paragraph thirty-seven"
+   },
+   {
+    "id": "obfuscate.verb.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"obfuscate\" in this sentence?",
+    "passage": "Good science writers never obfuscate their findings with unnecessary jargon.",
+    "options": [
+     {
+      "id": "a",
+      "text": "obscure"
+     },
+     {
+      "id": "b",
+      "text": "clarify"
+     },
+     {
+      "id": "c",
+      "text": "complicate"
+     },
+     {
+      "id": "d",
+      "text": "disguise"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means \"make clear\"?",
+    "explanation": "Obfuscate means make unclear. Clarify means make clear, the opposite. Obscure, complicate, and disguise are close to obfuscate."
+   },
+   {
+    "id": "obfuscate.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what the student did?",
+    "passage": "Asked why his project was late, Max launched into a long story about scheduling conflicts, software versions, and \"communication issues,\" never actually admitting he had forgotten.",
+    "options": [
+     {
+      "id": "a",
+      "text": "exaggerated"
+     },
+     {
+      "id": "b",
+      "text": "clarified"
+     },
+     {
+      "id": "c",
+      "text": "obfuscated"
+     },
+     {
+      "id": "d",
+      "text": "confessed"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Clarifying would make the reason clear; he did the opposite.",
+     "d": "He never admitted the real reason.",
+     "a": "He may have stretched things, but his main move was hiding the truth in confusion."
+    },
+    "hint": "His long answer hid the simple truth.",
+    "explanation": "Max used a confusing explanation to hide that he forgot, so he obfuscated. Exaggerated means overstating, but the main point is that he clouded the truth."
+   },
+   {
+    "id": "obfuscate.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker is accusing someone of obfuscating?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I can't wait to see your presentation.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Could you speak a little louder, please?\""
+     },
+     {
+      "id": "c",
+      "text": "\"Thanks for explaining that so clearly.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Stop hiding behind complicated words and just tell us what went wrong.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Find the speaker complaining about deliberately confusing language.",
+    "explanation": "\"Hiding behind complicated words\" describes obfuscation: using confusing language to avoid the truth."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "paradigm.noun.1",
+  "word": "paradigm",
+  "grade": 9,
+  "pos": "noun",
+  "say": "PAIR-uh-dime",
+  "definition": "a model or pattern of thinking that shapes how people understand something",
+  "hero": {
+   "text": "Juniper's discovery that powers could be shared created a new paradigm for how the academy trains its heroes.",
+   "scene": {
+    "pose": "excited",
+    "props": [
+     "💡",
+     "🔄"
+    ],
+    "setting": "lab"
+   }
+  },
+  "everyday": "Copernicus helped replace an Earth-centered paradigm of the universe with a sun-centered one.",
+  "contrast": {
+   "nonExample": "Ben switched from a blue pen to a black pen for his notes.",
+   "explanation": "A small change in habit is not a paradigm. A paradigm is a whole framework of thinking.",
+   "scene": {
+    "pose": "writing",
+    "props": [
+     "🖊️",
+     "📓"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "model",
+    "framework",
+    "pattern",
+    "worldview"
+   ],
+   "antonyms": [],
+   "family": [
+    "paradigms",
+    "paradigmatic"
+   ]
+  },
+  "forms": [
+   "paradigm",
+   "paradigms"
+  ],
+  "tags": [
+   "science",
+   "history",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "paradigm.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"paradigm\" mean in this sentence?",
+    "passage": "The discovery of germs changed the paradigm of medicine: doctors began to see disease as caused by tiny organisms, not bad air.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a single experiment"
+     },
+     {
+      "id": "b",
+      "text": "a hospital rule"
+     },
+     {
+      "id": "c",
+      "text": "a model for understanding something"
+     },
+     {
+      "id": "d",
+      "text": "a type of medicine"
+     }
+    ],
+    "answer": "c",
+    "hint": "Doctors changed how they thought about disease as a whole.",
+    "explanation": "A paradigm is a framework of thinking. Germ theory replaced the whole old way of understanding disease."
+   },
+   {
+    "id": "paradigm.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "For decades, the dominant ___ in nutrition held that eating fat made people fat, an assumption that shaped school lunches, food labels, and diet books.",
+    "options": [
+     {
+      "id": "a",
+      "text": "recipe"
+     },
+     {
+      "id": "b",
+      "text": "ingredient"
+     },
+     {
+      "id": "c",
+      "text": "experiment"
+     },
+     {
+      "id": "d",
+      "text": "paradigm"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "a": "A recipe is instructions for one dish.",
+     "b": "An ingredient is a single food component.",
+     "c": "An experiment tests an idea; it does not shape a whole field's thinking by itself."
+    },
+    "hint": "A broad way of thinking that shaped many things.",
+    "explanation": "A dominant assumption that shaped lunches, labels, and books is a paradigm: a framework for understanding nutrition.",
+    "clue": "dominant; an assumption that shaped"
+   },
+   {
+    "id": "paradigm.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which phrase best describes what happened?",
+    "passage": "When smartphones arrived, people stopped thinking of phones as tools only for calls and began seeing them as pocket computers for nearly everything.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a paradigm shift"
+     },
+     {
+      "id": "b",
+      "text": "a minor update"
+     },
+     {
+      "id": "c",
+      "text": "a price increase"
+     },
+     {
+      "id": "d",
+      "text": "a temporary fad"
+     }
+    ],
+    "answer": "a",
+    "hint": "The entire way people thought about phones changed.",
+    "explanation": "A complete change in how people understood phones is a paradigm shift. A minor update would be a small change within the old way of thinking."
+   },
+   {
+    "id": "paradigm.noun.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Does this describe a change in paradigm?",
+    "passage": "A bakery raises the price of its croissants by twenty-five cents.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Did a whole way of thinking change?",
+    "explanation": "No. A small price change is not a new framework of thinking. A paradigm change transforms how people understand something."
+   },
+   {
+    "id": "paradigm.noun.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Which word best names what the scientists challenged?",
+    "passage": "In the 1960s, the idea that continents never moved shaped nearly all of geology. Evidence from the ocean floor forced scientists to adopt a new framework: plate tectonics.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a measurement"
+     },
+     {
+      "id": "b",
+      "text": "a prediction"
+     },
+     {
+      "id": "c",
+      "text": "a paradigm"
+     },
+     {
+      "id": "d",
+      "text": "a rumor"
+     }
+    ],
+    "answer": "c",
+    "hint": "The old idea \"shaped nearly all of geology.\"",
+    "explanation": "An idea that shaped an entire field and was replaced by \"a new framework\" is a paradigm.",
+    "clue": "shaped nearly all of geology; a new framework"
+   }
+  ],
+  "review": "pending"
+ }
+]

@@ -1,0 +1,1985 @@
+[
+ {
+  "id": "ambiguous.adj.1",
+  "word": "ambiguous",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "am-BIG-yoo-us",
+  "definition": "able to be understood in more than one way, so the meaning is unclear",
+  "hero": {
+   "text": "Pixel's message said, \"Meet at the tower,\" but it was ambiguous, because the city has two towers.",
+   "scene": {
+    "pose": "confused",
+    "props": [
+     "❓",
+     "🗼"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The sign \"Fine for parking here\" was ambiguous: did it mean parking was allowed, or that you would pay a fine?",
+  "contrast": {
+   "nonExample": "The recipe said, \"Bake at 180 degrees for exactly 20 minutes.\"",
+   "explanation": "That instruction has only one possible meaning, so it is clear, not ambiguous. Something ambiguous could honestly be read two or more ways.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "📋",
+     "⏲️"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unclear",
+    "open to interpretation"
+   ],
+   "antonyms": [
+    "clear",
+    "definite",
+    "unmistakable"
+   ],
+   "family": [
+    "ambiguity",
+    "ambiguously"
+   ]
+  },
+  "forms": [
+   "ambiguous"
+  ],
+  "parts": [
+   {
+    "part": "ambi-",
+    "meaning": "both, two ways"
+   }
+  ],
+  "tags": [
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "ambiguous.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"ambiguous\" mean in this sentence?",
+    "passage": "The quiz question was ambiguous, so half the class answered it one way and half answered it another way.",
+    "options": [
+     {
+      "id": "a",
+      "text": "very difficult to solve"
+     },
+     {
+      "id": "b",
+      "text": "having more than one possible meaning"
+     },
+     {
+      "id": "c",
+      "text": "asked much too quickly"
+     },
+     {
+      "id": "d",
+      "text": "funny in a silly way"
+     }
+    ],
+    "answer": "b",
+    "hint": "Why would two groups give two different answers to the same question?",
+    "explanation": "Ambiguous means it can be understood in more than one way. Half the class read the question one way and half read it another way. A hard question is not the same thing: it can have one clear meaning and still be hard."
+   },
+   {
+    "id": "ambiguous.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix ambi- means \"both\" or \"two ways,\" as in ambidextrous (able to use both hands well). Using that clue, what makes a sentence ambiguous?",
+    "options": [
+     {
+      "id": "a",
+      "text": "It has two subjects in it"
+     },
+     {
+      "id": "b",
+      "text": "It was written by two people"
+     },
+     {
+      "id": "c",
+      "text": "It is twice as long as normal"
+     },
+     {
+      "id": "d",
+      "text": "It can be read in two or more ways"
+     }
+    ],
+    "answer": "d",
+    "hint": "Think about meaning that goes \"two ways.\"",
+    "explanation": "Ambi- means both or two ways. An ambiguous sentence points two ways at once: a reader could take its meaning in more than one direction. The number of subjects, writers, or words does not matter."
+   },
+   {
+    "id": "ambiguous.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this headline ambiguous?",
+    "passage": "A newspaper headline reads: \"Students Help Dog Bite Victim.\" Readers can't tell if the students helped a person who was bitten or helped a dog bite someone.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Can the headline be read in more than one way?",
+    "explanation": "Yes. The headline has two possible meanings, and the reader can't tell which one is meant. That is exactly what ambiguous means."
+   },
+   {
+    "id": "ambiguous.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the directions?",
+    "passage": "Mr. Ortiz said, \"Meet me by the big room after lunch.\" The school has a big gym and a big library, so some students went to one and some went to the other.",
+    "options": [
+     {
+      "id": "a",
+      "text": "ambiguous"
+     },
+     {
+      "id": "b",
+      "text": "vague"
+     },
+     {
+      "id": "c",
+      "text": "lengthy"
+     },
+     {
+      "id": "d",
+      "text": "incorrect"
+     }
+    ],
+    "answer": "a",
+    "clue": "a big gym and a big library",
+    "hint": "The directions were not missing details. They pointed to two places at once.",
+    "explanation": "\"Big room\" could mean two specific places, the gym or the library, so the directions were ambiguous. Vague means fuzzy or lacking detail in general; ambiguous means there are two (or more) clear possible readings. Nothing shows the directions were long or wrong."
+   },
+   {
+    "id": "ambiguous.adj.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "What did the author do by leaving the ending ambiguous?",
+    "passage": "In the novel's last chapter, the author never says whether the explorer survived. Some readers think she made it home; others think she was lost at sea. The author left the ending ambiguous on purpose.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Made the ending sad for every reader"
+     },
+     {
+      "id": "b",
+      "text": "Made the ending much shorter than the rest"
+     },
+     {
+      "id": "c",
+      "text": "Made the ending open to more than one reading"
+     },
+     {
+      "id": "d",
+      "text": "Explained exactly what happened to the explorer"
+     }
+    ],
+    "answer": "c",
+    "clue": "Some readers think... others think",
+    "hint": "What do the two groups of readers think?",
+    "explanation": "Some readers think she survived and others think she was lost, because the author never says. The ending is open to more than one reading, which is what ambiguous means. Explaining exactly what happened would make it clear, the opposite."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "coherent.adj.1",
+  "word": "coherent",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "koh-HEER-unt",
+  "definition": "clear and logical, with parts that connect and make sense together",
+  "hero": {
+   "text": "After the rescue, Kai gave a coherent report that explained each step in order.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📋",
+     "🗣️"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "Lily's essay was coherent because every paragraph connected back to her main idea.",
+  "contrast": {
+   "nonExample": "Max's story jumped from his dog to a volcano to his lunch, with no link between the parts.",
+   "explanation": "The ideas do not connect, so the story is not coherent. In a coherent explanation, each part fits logically with the others.",
+   "scene": {
+    "pose": "confused",
+    "props": [
+     "🐶",
+     "🌋",
+     "🥪"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "logical",
+    "clear",
+    "well-organized"
+   ],
+   "antonyms": [
+    "incoherent",
+    "jumbled",
+    "confusing"
+   ],
+   "family": [
+    "coherence",
+    "coherently",
+    "incoherent"
+   ]
+  },
+  "forms": [
+   "coherent"
+  ],
+  "parts": [
+   {
+    "part": "co-",
+    "meaning": "together"
+   },
+   {
+    "part": "her",
+    "meaning": "stick"
+   }
+  ],
+  "tags": [
+   "reading",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "coherent.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which explanation is coherent?",
+    "passage": "Question: How does a puddle disappear on a sunny day?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Puddles, sunshine, my cousin likes ice cream, and clouds can be fluffy sometimes."
+     },
+     {
+      "id": "b",
+      "text": "Water. Heat. Gone. It is the vapor thing, you know, with the sun and stuff."
+     },
+     {
+      "id": "c",
+      "text": "The sun warms the water, the water turns into vapor, and the vapor rises into the air."
+     }
+    ],
+    "answer": "c",
+    "hint": "Look for the answer whose parts connect in a logical order.",
+    "explanation": "The coherent answer moves step by step: warming, then vapor, then rising. Each idea leads to the next. The other answers are jumbled or skip the connections, so they are hard to follow."
+   },
+   {
+    "id": "coherent.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The witness was so shaken that her account was not ___; her sentences trailed off and her facts kept changing.",
+    "options": [
+     {
+      "id": "a",
+      "text": "coherent"
+     },
+     {
+      "id": "b",
+      "text": "popular"
+     },
+     {
+      "id": "c",
+      "text": "private"
+     },
+     {
+      "id": "d",
+      "text": "recent"
+     }
+    ],
+    "answer": "a",
+    "clue": "sentences trailed off; facts kept changing",
+    "hint": "What happens to an explanation when sentences trail off and facts keep changing?",
+    "explanation": "\"Sentences trailed off\" and \"facts kept changing\" show that her account did not hold together logically. It was not coherent. Popular, private, and recent do not connect to those clues."
+   },
+   {
+    "id": "coherent.adj.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix in- means \"not.\" If a coherent speech is clear and logical, what is an incoherent speech?",
+    "options": [
+     {
+      "id": "a",
+      "text": "very short and quick"
+     },
+     {
+      "id": "b",
+      "text": "loud and exciting"
+     },
+     {
+      "id": "c",
+      "text": "full of long words"
+     },
+     {
+      "id": "d",
+      "text": "jumbled and hard to follow"
+     }
+    ],
+    "answer": "d",
+    "hint": "Put \"not\" in front of \"clear and logical.\"",
+    "explanation": "In- means not, so incoherent means not coherent: the ideas are jumbled and do not connect. A speech can be short, loud, or full of long words and still be perfectly coherent."
+   },
+   {
+    "id": "coherent.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"coherent\" in this sentence?",
+    "passage": "Once Dev put his notes in order, his science presentation finally became coherent.",
+    "options": [
+     {
+      "id": "a",
+      "text": "colorful"
+     },
+     {
+      "id": "b",
+      "text": "logical"
+     },
+     {
+      "id": "c",
+      "text": "lengthy"
+     },
+     {
+      "id": "d",
+      "text": "famous"
+     }
+    ],
+    "answer": "b",
+    "hint": "What changed when Dev put his notes in order?",
+    "explanation": "Putting notes in order made the ideas connect, so logical is the closest meaning. Coherent is about how well ideas fit together, not about color, length, or fame."
+   },
+   {
+    "id": "coherent.adj.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what coherent means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "because each reason"
+     },
+     {
+      "id": "c2",
+      "text": "The debate team's argument was coherent"
+     },
+     {
+      "id": "c3",
+      "text": "had nothing to do with the others."
+     },
+     {
+      "id": "c4",
+      "text": "led clearly to the next."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "A coherent argument has parts that connect. Which ending shows connection?",
+    "explanation": "A coherent argument has reasons that link together, so \"led clearly to the next\" fits. Reasons that \"had nothing to do with the others\" would make the argument incoherent."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "infer.verb.1",
+  "word": "infer",
+  "grade": 6,
+  "pos": "verb",
+  "say": "in-FUR",
+  "definition": "to figure something out from clues and what you already know, even though it is not stated",
+  "hero": {
+   "text": "Juniper saw muddy footprints and an open window, so she inferred that someone had climbed inside.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "👣",
+     "🪟"
+    ],
+    "setting": "home"
+   }
+  },
+  "everyday": "From the dark clouds and the smell of rain, Omar inferred that a storm was coming.",
+  "contrast": {
+   "nonExample": "A sign on the door said \"Closed on Mondays,\" so Tara knew the shop was closed.",
+   "explanation": "Tara was told directly, so she didn't need to infer anything. To infer, you use clues to reach an idea that is not stated.",
+   "scene": {
+    "pose": "looking",
+    "props": [
+     "🚪",
+     "🪧"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "conclude",
+    "deduce",
+    "figure out"
+   ],
+   "antonyms": [],
+   "family": [
+    "inference",
+    "inferred",
+    "inferring"
+   ]
+  },
+  "forms": [
+   "infer",
+   "infers",
+   "inferred",
+   "inferring"
+  ],
+  "tags": [
+   "reading",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "infer.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Does Ella infer something?",
+    "passage": "Ella's friend walked in with a dripping umbrella and soaked shoes. Nobody mentioned the weather, but Ella decided it must be raining outside.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Did anyone tell Ella it was raining?",
+    "explanation": "Yes. Nobody said it was raining, but Ella used clues (the dripping umbrella and soaked shoes) to figure it out. That is inferring."
+   },
+   {
+    "id": "infer.verb.1#2",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "What does \"infer\" mean in this passage?",
+    "passage": "The poem never names the season, but it mentions crunchy orange leaves and geese flying south. Readers can infer that the poem takes place in autumn.",
+    "options": [
+     {
+      "id": "a",
+      "text": "work out from clues"
+     },
+     {
+      "id": "b",
+      "text": "read out loud"
+     },
+     {
+      "id": "c",
+      "text": "copy word for word"
+     },
+     {
+      "id": "d",
+      "text": "disagree with"
+     }
+    ],
+    "answer": "a",
+    "clue": "never names the season",
+    "hint": "The poem never names the season. How do readers know it?",
+    "explanation": "The season is never stated, so readers use clues like orange leaves and geese flying south to work it out. Infer means to reach an idea from clues."
+   },
+   {
+    "id": "infer.verb.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "The scientist saw that the plant by the window grew taller than the one in the closet. From this evidence, she ___ that sunlight helps the plant grow.",
+    "options": [
+     {
+      "id": "a",
+      "text": "observed"
+     },
+     {
+      "id": "b",
+      "text": "guessed"
+     },
+     {
+      "id": "c",
+      "text": "inferred"
+     },
+     {
+      "id": "d",
+      "text": "ignored"
+     }
+    ],
+    "answer": "c",
+    "clue": "From this evidence",
+    "hint": "She SAW the height difference. What did she do with that evidence?",
+    "explanation": "She observed (saw) the height difference, then used that evidence to infer an idea she could not see directly: sunlight helps growth. Guessed would mean she had no evidence, and ignored is the opposite of using it."
+   },
+   {
+    "id": "infer.verb.1#4",
+    "format": "dialogue",
+    "stage": "independent",
+    "prompt": "Which speaker uses \"infer\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I will infer the cake into the oven now.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Nobody told me, but from your huge smile I infer that you passed.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Please infer your name at the top of the page.\""
+     },
+     {
+      "id": "d",
+      "text": "\"The teacher inferred us a long story about Rome.\""
+     }
+    ],
+    "answer": "b",
+    "hint": "Infer is about figuring something out. Which speaker is reasoning from a clue?",
+    "explanation": "The speaker uses a clue (a huge smile) to figure out something unsaid (passing the test). That is inferring. The other lines confuse infer with put, write, or tell."
+   },
+   {
+    "id": "infer.verb.1#5",
+    "format": "context_gap",
+    "stage": "transfer",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "The note was unsigned, but because it mentioned the secret clubhouse, Mia could ___ that one of her three friends wrote it.",
+    "options": [
+     {
+      "id": "a",
+      "text": "announce"
+     },
+     {
+      "id": "b",
+      "text": "forget"
+     },
+     {
+      "id": "c",
+      "text": "deny"
+     },
+     {
+      "id": "d",
+      "text": "infer"
+     }
+    ],
+    "answer": "d",
+    "clue": "unsigned; because it mentioned the secret clubhouse",
+    "hint": "The note was unsigned. What did the clubhouse clue let Mia do?",
+    "explanation": "Nobody signed the note, so Mia used a clue (only her friends knew about the clubhouse) to work out who wrote it. That is inferring. Announcing, forgetting, or denying would not use the clue."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "perspective.noun.1",
+  "word": "perspective",
+  "grade": 6,
+  "pos": "noun",
+  "say": "per-SPEK-tiv",
+  "definition": "a particular way of seeing or thinking about something, shaped by where you are or what you have experienced",
+  "hero": {
+   "text": "From Bolt's perspective high in the sky, the traffic jam looked like a line of toy cars.",
+   "scene": {
+    "pose": "flying",
+    "props": [
+     "🚗",
+     "☁️"
+    ],
+    "setting": "sky"
+   }
+  },
+  "everyday": "The story about the flood is told from the perspective of a young farmer.",
+  "contrast": {
+   "nonExample": "The thermometer showed 22 degrees.",
+   "explanation": "A temperature reading is a fact, not a way of seeing things. A perspective is one person's point of view, which could differ from someone else's.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "🌡️"
+    ],
+    "setting": "lab"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "point of view",
+    "viewpoint",
+    "outlook"
+   ],
+   "antonyms": [],
+   "family": [
+    "perspectives"
+   ]
+  },
+  "forms": [
+   "perspective",
+   "perspectives"
+  ],
+  "parts": [
+   {
+    "part": "per-",
+    "meaning": "through"
+   },
+   {
+    "part": "spect",
+    "meaning": "look"
+   }
+  ],
+  "tags": [
+   "reading",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "perspective.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"perspective\" mean in this passage?",
+    "passage": "The history book shows the battle from the perspective of a soldier, while the diary shows it from the perspective of a nurse.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a famous painting"
+     },
+     {
+      "id": "b",
+      "text": "a point of view"
+     },
+     {
+      "id": "c",
+      "text": "a battle plan"
+     },
+     {
+      "id": "d",
+      "text": "an exact date"
+     }
+    ],
+    "answer": "b",
+    "hint": "The same battle is shown two ways. What changes from the soldier to the nurse?",
+    "explanation": "The battle is the same, but the soldier and the nurse see it differently. Each one gives a point of view, which is a perspective."
+   },
+   {
+    "id": "perspective.noun.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The root spect means \"look,\" as in spectator and inspect. How does that root help explain perspective?",
+    "options": [
+     {
+      "id": "a",
+      "text": "It is a sound you can hear"
+     },
+     {
+      "id": "b",
+      "text": "It is a careful measurement"
+     },
+     {
+      "id": "c",
+      "text": "It is a rule that must be followed"
+     },
+     {
+      "id": "d",
+      "text": "It is a way of looking at something"
+     }
+    ],
+    "answer": "d",
+    "hint": "Spect = look.",
+    "explanation": "Spect means look, and a perspective is a way of looking at something, either with your eyes (the view from a hill) or with your mind (a viewpoint on an issue)."
+   },
+   {
+    "id": "perspective.noun.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Does this show two different perspectives?",
+    "passage": "Two students describe the same school play. Aria, who acted in it, says it was nerve-racking. Ben, who watched from the audience, says it was relaxing.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is it the same event seen in different ways?",
+    "explanation": "Yes. Aria and Ben describe the same play differently because of where they were and what they did. Each one has a different perspective."
+   },
+   {
+    "id": "perspective.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "After volunteering at the animal shelter, Jayden gained a new ___ on why pets need responsible owners.",
+    "options": [
+     {
+      "id": "a",
+      "text": "perspective"
+     },
+     {
+      "id": "b",
+      "text": "instrument"
+     },
+     {
+      "id": "c",
+      "text": "appetite"
+     },
+     {
+      "id": "d",
+      "text": "schedule"
+     }
+    ],
+    "answer": "a",
+    "clue": "gained a new ___ on why",
+    "hint": "Volunteering changed how Jayden thinks about something. What did he gain?",
+    "explanation": "Working at the shelter changed the way Jayden sees the issue. He gained a new perspective, a new way of thinking about it. The other words do not describe a viewpoint."
+   },
+   {
+    "id": "perspective.noun.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"perspective\" naturally?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"Can you perspective the window open for me?\""
+     },
+     {
+      "id": "b",
+      "text": "\"My perspective broke when I dropped it on the floor.\""
+     },
+     {
+      "id": "c",
+      "text": "\"From a farmer's perspective, a week of rain is great news.\""
+     },
+     {
+      "id": "d",
+      "text": "\"The perspective arrived at noon on the yellow bus.\""
+     }
+    ],
+    "answer": "c",
+    "hint": "A perspective belongs to someone and is a way of seeing things.",
+    "explanation": "A farmer sees rain differently from someone planning a picnic. The first line names whose viewpoint it is. The other lines treat perspective as an action or an object."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "advocate.verb.1",
+  "word": "advocate",
+  "grade": 6,
+  "pos": "verb",
+  "say": "AD-vuh-kayt",
+  "definition": "to publicly support or speak up for a cause, idea, or person",
+  "hero": {
+   "text": "Rex advocated for a safety net under the training tower, explaining the idea at every academy meeting.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📢",
+     "🗣️"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The students advocated for more bike racks by writing letters to the city council.",
+  "contrast": {
+   "nonExample": "Nora agreed with the plan for a school garden, but she never said anything about it to anyone.",
+   "explanation": "Privately agreeing is not advocating. To advocate, you speak or act openly to support something.",
+   "scene": {
+    "pose": "sitting",
+    "props": [
+     "🤐",
+     "🌱"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "support",
+    "champion",
+    "promote",
+    "speak up for"
+   ],
+   "antonyms": [
+    "oppose"
+   ],
+   "family": [
+    "advocate (noun)",
+    "advocacy"
+   ]
+  },
+  "forms": [
+   "advocate",
+   "advocates",
+   "advocated",
+   "advocating"
+  ],
+  "parts": [
+   {
+    "part": "ad-",
+    "meaning": "to, toward"
+   },
+   {
+    "part": "voc",
+    "meaning": "voice, call"
+   }
+  ],
+  "tags": [
+   "social",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "advocate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person advocates for something?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Leah tosses her can in the trash without thinking."
+     },
+     {
+      "id": "b",
+      "text": "Leah forgets to go to the recycling meeting."
+     },
+     {
+      "id": "c",
+      "text": "Leah gives a speech urging the school to start recycling."
+     },
+     {
+      "id": "d",
+      "text": "Leah asks her friend what recycling means."
+     }
+    ],
+    "answer": "c",
+    "hint": "Look for someone publicly speaking up in support of an idea.",
+    "explanation": "Leah gives a speech urging the school to act, which is publicly supporting a cause. That is advocating. The other choices show no support or speaking up."
+   },
+   {
+    "id": "advocate.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The root voc means \"voice\" or \"call,\" as in vocal and vocabulary. Why does advocate contain this root?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Advocating means using your voice to support something"
+     },
+     {
+      "id": "b",
+      "text": "Advocating means singing in a loud choir"
+     },
+     {
+      "id": "c",
+      "text": "Advocating means staying quiet about a problem"
+     },
+     {
+      "id": "d",
+      "text": "Advocating means calling someone on the phone"
+     }
+    ],
+    "answer": "a",
+    "hint": "Think of what you do with your voice when you support an idea.",
+    "explanation": "To advocate is to use your voice for a cause: speaking, writing, or arguing in favor of it. Staying quiet is the opposite, and singing or phone calls are not what the word means."
+   },
+   {
+    "id": "advocate.verb.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is the OPPOSITE of \"advocated\" in this sentence?",
+    "passage": "The scientist advocated for protecting the wetlands from new construction.",
+    "options": [
+     {
+      "id": "a",
+      "text": "studied"
+     },
+     {
+      "id": "b",
+      "text": "visited"
+     },
+     {
+      "id": "c",
+      "text": "described"
+     },
+     {
+      "id": "d",
+      "text": "opposed"
+     }
+    ],
+    "answer": "d",
+    "hint": "If advocating means supporting, what is the opposite?",
+    "explanation": "Advocated means openly supported, so opposed (argued against) is the opposite. Studying, visiting, or describing the wetlands does not show support or opposition."
+   },
+   {
+    "id": "advocate.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Marisol didn't just like the idea of a school garden; she ___ for it at every assembly and collected 200 signatures.",
+    "options": [
+     {
+      "id": "a",
+      "text": "hoped"
+     },
+     {
+      "id": "b",
+      "text": "advocated"
+     },
+     {
+      "id": "c",
+      "text": "wondered"
+     },
+     {
+      "id": "d",
+      "text": "wished"
+     }
+    ],
+    "answer": "b",
+    "clue": "didn't just like; at every assembly; 200 signatures",
+    "hint": "\"Didn't just like\" tells you she did something stronger. What did she do in public?",
+    "explanation": "Hoping and wishing happen quietly in your head. Marisol spoke at assemblies and gathered signatures, which is strong, public support. Advocated fits that degree of action."
+   },
+   {
+    "id": "advocate.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Is Darius advocating?",
+    "passage": "Darius is asked to vote on whether the library should open on weekends. He has no opinion, so he flips a coin to decide.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is Darius speaking up for an idea he supports?",
+    "explanation": "No. Darius has no opinion and does not speak up for anything. Advocating means actively and publicly supporting a cause."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "allocate.verb.1",
+  "word": "allocate",
+  "grade": 6,
+  "pos": "verb",
+  "say": "AL-uh-kayt",
+  "definition": "to set aside or give out something, such as money, time, or space, for a particular purpose",
+  "hero": {
+   "text": "Nova allocated one hour of training to flying and one hour to first aid.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "⏰",
+     "📋"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The town allocated part of its budget to repairing the playground.",
+  "contrast": {
+   "nonExample": "Leo spent his allowance on whatever caught his eye at the store, with no plan at all.",
+   "explanation": "Spending without a plan is not allocating. To allocate is to decide ahead of time how to divide something up for specific purposes.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "💸",
+     "🛍️"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "assign",
+    "distribute",
+    "set aside"
+   ],
+   "antonyms": [
+    "withhold"
+   ],
+   "family": [
+    "allocation",
+    "allocated"
+   ]
+  },
+  "forms": [
+   "allocate",
+   "allocates",
+   "allocated",
+   "allocating"
+  ],
+  "tags": [
+   "math",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "allocate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"allocated\" mean in this sentence?",
+    "passage": "The class allocated ten minutes for each group's presentation.",
+    "options": [
+     {
+      "id": "a",
+      "text": "set aside for a purpose"
+     },
+     {
+      "id": "b",
+      "text": "argued about loudly"
+     },
+     {
+      "id": "c",
+      "text": "forgot to plan"
+     },
+     {
+      "id": "d",
+      "text": "added up quickly"
+     }
+    ],
+    "answer": "a",
+    "hint": "Each group got a certain amount of time. Who decided, and how?",
+    "explanation": "The class decided how to divide the time and gave each group ten minutes. To allocate is to set aside a share for a purpose."
+   },
+   {
+    "id": "allocate.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Because the art club had only twenty brushes, Ms. Kim had to ___ them carefully so every table got some.",
+    "options": [
+     {
+      "id": "a",
+      "text": "polish"
+     },
+     {
+      "id": "b",
+      "text": "hide"
+     },
+     {
+      "id": "c",
+      "text": "allocate"
+     },
+     {
+      "id": "d",
+      "text": "imagine"
+     }
+    ],
+    "answer": "c",
+    "clue": "only twenty brushes; so every table got some",
+    "hint": "There were only twenty brushes. What did Ms. Kim need to do so every table got some?",
+    "explanation": "\"Only twenty brushes\" and \"so every table got some\" show a limited supply that had to be divided fairly. That is allocating."
+   },
+   {
+    "id": "allocate.verb.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this an example of allocating?",
+    "passage": "A city council decides to spend $50,000 of its budget on new streetlights and $20,000 on park benches.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is the council deciding how to divide its money for specific purposes?",
+    "explanation": "Yes. The council divides its money and assigns each part to a specific purpose. That is allocating."
+   },
+   {
+    "id": "allocate.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Before the fundraiser even started, the student council met to ___ the money they hoped to raise: half for the field trip and half for new library books.",
+    "options": [
+     {
+      "id": "a",
+      "text": "spend"
+     },
+     {
+      "id": "b",
+      "text": "allocate"
+     },
+     {
+      "id": "c",
+      "text": "donate"
+     },
+     {
+      "id": "d",
+      "text": "count"
+     }
+    ],
+    "answer": "b",
+    "clue": "Before the fundraiser even started; half for... half for",
+    "hint": "The money has not been raised yet. What can you do with money you plan to get?",
+    "explanation": "The money was not collected yet, so it could not be spent, donated, or counted. The council was planning how to divide it ahead of time, which is allocating."
+   },
+   {
+    "id": "allocate.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what allocate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "twenty minutes of practice"
+     },
+     {
+      "id": "c2",
+      "text": "The coach allocated"
+     },
+     {
+      "id": "c3",
+      "text": "without any plan or purpose."
+     },
+     {
+      "id": "c4",
+      "text": "to passing drills."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Allocating means setting something aside for a purpose.",
+    "explanation": "Allocating gives a share of something to a specific purpose, so \"to passing drills\" fits. \"Without any plan or purpose\" contradicts the meaning of allocate."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "anonymous.adj.1",
+  "word": "anonymous",
+  "grade": 6,
+  "pos": "adjective",
+  "say": "uh-NON-uh-mus",
+  "definition": "with a name that is unknown or not given",
+  "hero": {
+   "text": "An anonymous note thanked Pixel for fixing the school's power, but nobody signed it.",
+   "scene": {
+    "pose": "surprised",
+    "props": [
+     "✉️",
+     "❓"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "An anonymous donor gave the hospital money for a new children's wing.",
+  "contrast": {
+   "nonExample": "Grace signed her full name in big letters at the bottom of her poem.",
+   "explanation": "Grace's name is clearly shown, so the poem is not anonymous. Anonymous means the name is hidden or unknown.",
+   "scene": {
+    "pose": "proud",
+    "props": [
+     "✍️",
+     "📜"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unnamed",
+    "unidentified",
+    "unsigned"
+   ],
+   "antonyms": [
+    "named",
+    "identified",
+    "signed"
+   ],
+   "family": [
+    "anonymously",
+    "anonymity"
+   ]
+  },
+  "forms": [
+   "anonymous"
+  ],
+  "parts": [
+   {
+    "part": "an-",
+    "meaning": "without"
+   },
+   {
+    "part": "onym",
+    "meaning": "name"
+   }
+  ],
+  "tags": [
+   "reading",
+   "social",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "anonymous.adj.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is this survey anonymous?",
+    "passage": "A survey asks students for their opinions about school lunch and tells them NOT to write their names.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Will anyone know who gave each answer?",
+    "explanation": "Yes. No names are written, so no one knows who gave each answer. That makes the survey anonymous."
+   },
+   {
+    "id": "anonymous.adj.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix an- means \"without,\" and the root onym means \"name,\" as in synonym. So an anonymous letter is...",
+    "options": [
+     {
+      "id": "a",
+      "text": "a letter with many names"
+     },
+     {
+      "id": "b",
+      "text": "a letter that is very old"
+     },
+     {
+      "id": "c",
+      "text": "a letter written in code"
+     },
+     {
+      "id": "d",
+      "text": "a letter without a name"
+     }
+    ],
+    "answer": "d",
+    "hint": "An- = without. Onym = name.",
+    "explanation": "Put the parts together: without + name. An anonymous letter has no name on it, so the writer is unknown. Being old or in code is a different idea."
+   },
+   {
+    "id": "anonymous.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "No one knows who composed the old folk song, so the concert program listed its composer as ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "cheerful"
+     },
+     {
+      "id": "b",
+      "text": "anonymous"
+     },
+     {
+      "id": "c",
+      "text": "expensive"
+     },
+     {
+      "id": "d",
+      "text": "unfinished"
+     }
+    ],
+    "answer": "b",
+    "clue": "No one knows who composed",
+    "hint": "No one knows who wrote it. How do you describe an author whose name is unknown?",
+    "explanation": "\"No one knows who composed\" the song is the clue: the composer's name is unknown, so the composer is anonymous."
+   },
+   {
+    "id": "anonymous.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"anonymous\" in this sentence?",
+    "passage": "An anonymous caller gave the police a tip about the missing painting.",
+    "options": [
+     {
+      "id": "a",
+      "text": "nervous"
+     },
+     {
+      "id": "b",
+      "text": "honest"
+     },
+     {
+      "id": "c",
+      "text": "distant"
+     },
+     {
+      "id": "d",
+      "text": "unnamed"
+     }
+    ],
+    "answer": "d",
+    "hint": "What do the police NOT know about the caller?",
+    "explanation": "The police do not know the caller's name, so unnamed is closest. The caller might also be nervous or honest, but anonymous only tells you the name is unknown."
+   },
+   {
+    "id": "anonymous.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line uses \"anonymous\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I left an anonymous compliment in the kindness box. Nobody will know it was me.\""
+     },
+     {
+      "id": "b",
+      "text": "\"My anonymous name is Jordan, and I live on Elm Street.\""
+     },
+     {
+      "id": "c",
+      "text": "\"The puppy was so anonymous that it barked all night long.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Write your anonymous answer in pen, then sign your name below.\""
+     }
+    ],
+    "answer": "a",
+    "hint": "Anonymous means the name is hidden.",
+    "explanation": "The first speaker hides their identity: \"Nobody will know it was me.\" The other lines give a name, describe barking, or ask for a signature, which contradicts anonymous."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "assumption.noun.1",
+  "word": "assumption",
+  "grade": 6,
+  "pos": "noun",
+  "say": "uh-SUMP-shun",
+  "definition": "something you believe is true without having proof",
+  "hero": {
+   "text": "Bolt made the assumption that the alarm was just a drill, but Juniper checked and found a real problem.",
+   "scene": {
+    "pose": "shrugging",
+    "props": [
+     "🚨",
+     "🤷"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Her assumption that the test would be easy turned out to be wrong.",
+  "contrast": {
+   "nonExample": "Ravi measured the table with a tape measure and found it was exactly two meters long.",
+   "explanation": "A measurement has been checked, so it is not an assumption. An assumption is accepted as true without checking or proof.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "📏",
+     "🪑"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "belief",
+    "supposition",
+    "premise"
+   ],
+   "antonyms": [
+    "fact",
+    "proof"
+   ],
+   "family": [
+    "assume",
+    "assumed",
+    "assumptions"
+   ]
+  },
+  "forms": [
+   "assumption",
+   "assumptions"
+  ],
+  "tags": [
+   "science",
+   "reading",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "assumption.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"assumption\" mean in this sentence?",
+    "passage": "Ken's assumption that the store would be open on Sunday left him standing in front of a locked door.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a careful measurement"
+     },
+     {
+      "id": "b",
+      "text": "a written promise"
+     },
+     {
+      "id": "c",
+      "text": "a belief accepted without proof"
+     },
+     {
+      "id": "d",
+      "text": "a sudden feeling of fear"
+     }
+    ],
+    "answer": "c",
+    "hint": "Did Ken check the store hours?",
+    "explanation": "Ken believed the store would be open but never checked, and he was wrong. A belief you accept without proof is an assumption."
+   },
+   {
+    "id": "assumption.noun.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is Ana making an assumption?",
+    "passage": "Without ever talking to him, Ana decides that her new classmate doesn't like music because he is quiet.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does Ana have any proof?",
+    "explanation": "Yes. Ana has no evidence. She has never talked to him about music. She believes it anyway, which is an assumption."
+   },
+   {
+    "id": "assumption.noun.1#3",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best completes the sentence?",
+    "passage": "Without checking the weather report, Kim made the ___ that it would be sunny and left her umbrella at home.",
+    "options": [
+     {
+      "id": "a",
+      "text": "conclusion"
+     },
+     {
+      "id": "b",
+      "text": "observation"
+     },
+     {
+      "id": "c",
+      "text": "assumption"
+     },
+     {
+      "id": "d",
+      "text": "measurement"
+     }
+    ],
+    "answer": "c",
+    "clue": "Without checking",
+    "hint": "Kim did not check anything. Which word means believing without evidence?",
+    "explanation": "A conclusion is reached by reasoning from evidence, and an observation comes from looking carefully. Kim checked nothing, so her belief was an assumption."
+   },
+   {
+    "id": "assumption.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Good scientists test every ___ in an experiment, because an idea that seems obvious can still be wrong.",
+    "options": [
+     {
+      "id": "a",
+      "text": "assumption"
+     },
+     {
+      "id": "b",
+      "text": "accident"
+     },
+     {
+      "id": "c",
+      "text": "audience"
+     },
+     {
+      "id": "d",
+      "text": "apology"
+     }
+    ],
+    "answer": "a",
+    "clue": "an idea that seems obvious can still be wrong",
+    "hint": "What kind of idea \"seems obvious\" but still needs testing?",
+    "explanation": "\"An idea that seems obvious can still be wrong\" describes an assumption: something we believe without proof. Scientists test assumptions instead of trusting them."
+   },
+   {
+    "id": "assumption.noun.1#5",
+    "format": "context_clues",
+    "stage": "transfer",
+    "prompt": "Why does the passage call the historians' belief an assumption?",
+    "passage": "For years, historians believed an old map was drawn by a famous explorer. No one had ever tested it. Then ink tests showed the map was made 100 years after his death. Their belief had been an assumption.",
+    "options": [
+     {
+      "id": "a",
+      "text": "The ink tests proved it was true"
+     },
+     {
+      "id": "b",
+      "text": "The explorer had said so himself"
+     },
+     {
+      "id": "c",
+      "text": "It was written right on the map"
+     },
+     {
+      "id": "d",
+      "text": "They accepted it without proof"
+     }
+    ],
+    "answer": "d",
+    "clue": "No one had ever tested it",
+    "hint": "Look for the sentence about testing.",
+    "explanation": "\"No one had ever tested it\" shows the historians believed it without proof. That is an assumption. The ink tests actually proved the belief wrong."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "bias.noun.1",
+  "word": "bias",
+  "grade": 6,
+  "pos": "noun",
+  "say": "BY-us",
+  "definition": "an unfair leaning for or against someone or something that affects judgment",
+  "hero": {
+   "text": "Kai noticed his own bias: he always picked his best friend for missions, even when someone else was better suited.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "⚖️",
+     "🤔"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The judge stepped down from the baking contest because her son had entered and she worried about bias.",
+  "contrast": {
+   "nonExample": "The coach chose the relay team by timing everyone in the same race and picking the four fastest runners.",
+   "explanation": "Using the same test for everyone is fair, so there is no bias. Bias means unfairly favoring or opposing someone.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "⏱️",
+     "🏃"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "prejudice",
+    "favoritism",
+    "one-sidedness"
+   ],
+   "antonyms": [
+    "fairness",
+    "neutrality",
+    "objectivity"
+   ],
+   "family": [
+    "biased",
+    "unbiased"
+   ]
+  },
+  "forms": [
+   "bias",
+   "biases"
+  ],
+  "tags": [
+   "social",
+   "reading",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "bias.noun.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Does this referee show bias?",
+    "passage": "A referee calls fouls on only one team, even when players on both teams break the same rules.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Is the referee treating both teams the same way?",
+    "explanation": "Yes. Both teams break the same rules, but only one is punished. That unfair leaning against one team is bias."
+   },
+   {
+    "id": "bias.noun.1#2",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "What does \"bias\" mean in this passage?",
+    "passage": "The article showed bias: it called one candidate's ideas \"brilliant\" and called the other candidate's identical ideas \"silly.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "a careful, balanced summary"
+     },
+     {
+      "id": "b",
+      "text": "an unfair leaning toward one side"
+     },
+     {
+      "id": "c",
+      "text": "a mistake in spelling"
+     },
+     {
+      "id": "d",
+      "text": "a strong argument with evidence"
+     }
+    ],
+    "answer": "b",
+    "clue": "identical ideas",
+    "hint": "The ideas were identical. Were they described the same way?",
+    "explanation": "Identical ideas were praised for one candidate and mocked for the other. That unfair leaning toward one side is bias, the opposite of a balanced summary."
+   },
+   {
+    "id": "bias.noun.1#3",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"bias\" in this sentence?",
+    "passage": "Ms. Diaz graded the essays with the students' names covered to avoid bias.",
+    "options": [
+     {
+      "id": "a",
+      "text": "fairness"
+     },
+     {
+      "id": "b",
+      "text": "effort"
+     },
+     {
+      "id": "c",
+      "text": "mistakes"
+     },
+     {
+      "id": "d",
+      "text": "opinion"
+     }
+    ],
+    "answer": "a",
+    "hint": "Why would covering names help? What was she trying to keep?",
+    "explanation": "Covering names keeps Ms. Diaz from favoring anyone, so she grades with fairness, the opposite of bias. Opinion is not the opposite: everyone has opinions, but bias is when a leaning makes judgment unfair."
+   },
+   {
+    "id": "bias.noun.1#4",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Because the survey only asked people who already loved the park, its results showed clear ___ in favor of keeping it open.",
+    "options": [
+     {
+      "id": "a",
+      "text": "rhythm"
+     },
+     {
+      "id": "b",
+      "text": "patience"
+     },
+     {
+      "id": "c",
+      "text": "bias"
+     },
+     {
+      "id": "d",
+      "text": "distance"
+     }
+    ],
+    "answer": "c",
+    "clue": "only asked people who already loved the park",
+    "hint": "Only one kind of person was asked. What does that do to the results?",
+    "explanation": "Asking only people who already loved the park tilts the results toward one side. That unfair leaning is bias."
+   },
+   {
+    "id": "bias.noun.1#5",
+    "format": "best_word",
+    "stage": "transfer",
+    "prompt": "Which word best describes the problem?",
+    "passage": "When scoring science fair projects, one judge secretly gave extra points to every project from her own school.",
+    "options": [
+     {
+      "id": "a",
+      "text": "opinion"
+     },
+     {
+      "id": "b",
+      "text": "bias"
+     },
+     {
+      "id": "c",
+      "text": "curiosity"
+     },
+     {
+      "id": "d",
+      "text": "accident"
+     }
+    ],
+    "answer": "b",
+    "hint": "Was this on purpose? Was it fair?",
+    "explanation": "Everyone has opinions, but the judge let her loyalty unfairly change the scores. That is bias. It was not an accident, because she did it on purpose."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "collaborate.verb.1",
+  "word": "collaborate",
+  "grade": 6,
+  "pos": "verb",
+  "say": "kuh-LAB-uh-rayt",
+  "definition": "to work together with others to make or achieve something",
+  "hero": {
+   "text": "Pixel and Rex collaborated on a new rescue drone: Pixel wrote the code and Rex built the frame.",
+   "scene": {
+    "pose": "building",
+    "props": [
+     "🤖",
+     "🔧"
+    ],
+    "setting": "lab",
+    "second": "building"
+   }
+  },
+  "everyday": "Two authors collaborated on the picture book; one wrote the words and the other painted the art.",
+  "contrast": {
+   "nonExample": "Each student built a volcano model alone at home and brought it in on Monday.",
+   "explanation": "Working separately is not collaborating. To collaborate, people work together toward one shared goal.",
+   "scene": {
+    "pose": "sitting",
+    "props": [
+     "🌋",
+     "🏠"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "cooperate",
+    "team up",
+    "work together"
+   ],
+   "antonyms": [
+    "work alone"
+   ],
+   "family": [
+    "collaboration",
+    "collaborative",
+    "collaborator"
+   ]
+  },
+  "forms": [
+   "collaborate",
+   "collaborates",
+   "collaborated",
+   "collaborating"
+  ],
+  "parts": [
+   {
+    "part": "col-",
+    "meaning": "together"
+   },
+   {
+    "part": "labor",
+    "meaning": "work"
+   }
+  ],
+  "tags": [
+   "science",
+   "arts",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "collaborate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which group is collaborating?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Three classmates each write their own separate report."
+     },
+     {
+      "id": "b",
+      "text": "Three classmates argue and then quit the project."
+     },
+     {
+      "id": "c",
+      "text": "Three classmates read quietly by themselves."
+     },
+     {
+      "id": "d",
+      "text": "Three classmates each write one part of a shared report."
+     }
+    ],
+    "answer": "d",
+    "hint": "Look for people working together on ONE shared project.",
+    "explanation": "Writing parts of one shared report means working together toward a common goal. That is collaborating. Writing separate reports or reading alone is working by yourself."
+   },
+   {
+    "id": "collaborate.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "The prefix col- means \"together,\" and the root labor means \"work.\" What does collaborate mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "work alone"
+     },
+     {
+      "id": "b",
+      "text": "work together"
+     },
+     {
+      "id": "c",
+      "text": "stop working"
+     },
+     {
+      "id": "d",
+      "text": "work very fast"
+     }
+    ],
+    "answer": "b",
+    "hint": "Col- = together. Labor = work.",
+    "explanation": "Together + work = collaborate. The word is built from its meaning: working together with others."
+   },
+   {
+    "id": "collaborate.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the sentence.",
+    "passage": "Scientists from fifteen countries ___ to build the International Space Station, sharing designs, parts, and astronauts.",
+    "options": [
+     {
+      "id": "a",
+      "text": "competed"
+     },
+     {
+      "id": "b",
+      "text": "argued"
+     },
+     {
+      "id": "c",
+      "text": "retired"
+     },
+     {
+      "id": "d",
+      "text": "collaborated"
+     }
+    ],
+    "answer": "d",
+    "clue": "sharing designs, parts, and astronauts",
+    "hint": "The countries were sharing. Were they working against each other or together?",
+    "explanation": "\"Sharing designs, parts, and astronauts\" shows the countries worked together toward one goal. Competed would mean they worked against each other."
+   },
+   {
+    "id": "collaborate.verb.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Are the bakeries collaborating?",
+    "passage": "Two rival bakeries each try to bake the biggest cake in town so they can win the contest prize.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Are they working together or against each other?",
+    "explanation": "No. The bakeries are competing against each other, not working together. Collaborating means sharing the work toward one shared goal."
+   },
+   {
+    "id": "collaborate.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what collaborate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "on their new song,"
+     },
+     {
+      "id": "c2",
+      "text": "The band members collaborated"
+     },
+     {
+      "id": "c3",
+      "text": "without ever talking to one another."
+     },
+     {
+      "id": "c4",
+      "text": "each adding a verse or a melody."
+     }
+    ],
+    "answer": [
+     "c2",
+     "c1",
+     "c4"
+    ],
+    "hint": "Collaborating means working together. Which ending shows teamwork?",
+    "explanation": "Each member contributing to one song shows teamwork, so \"each adding a verse or a melody\" fits. Never talking to one another is the opposite of collaborating."
+   }
+  ],
+  "review": "pending"
+ }
+]

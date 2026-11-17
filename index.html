@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1b1446" />
+    <title>Vocab Hero</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 L57 11 C57 34 49 50 32 61 C15 50 7 34 7 11 Z' fill='%23ffb72b' stroke='%231b1446' stroke-width='4'/%3E%3Cpath d='M32 9 L51 15 C50 33 44 45 32 54 C20 45 14 33 13 15 Z' fill='%236d28d9'/%3E%3Cpath d='M35 13 L24 30 L31 30 L27 41 L41 23 L34 23 L38 13 Z' fill='%23ffde59' stroke='%231b1446' stroke-width='2'/%3E%3C/svg%3E" />
+    <style>
+      /* Loading splash (Mansfield Games). Covers everything from the first paint; fades by itself if scripts fail. */
+      #splash { position: fixed; inset: 0; z-index: 1000; background: #0b0b0b; cursor: pointer; animation: splashFailsafe 0.6s ease 10s forwards; }
+      #splash canvas { display: block; }
+      #splash .splash-skip { position: absolute; right: 18px; bottom: 14px; color: rgba(246,236,218,.35); font: 13px/1 system-ui, sans-serif; letter-spacing: .05em; opacity: 0; transition: opacity .6s .8s; }
+      #splash.live .splash-skip { opacity: 1; }
+      @keyframes splashFailsafe { to { opacity: 0; visibility: hidden; } }
+    </style>
+  </head>
+  <body>
+    <div id="splash" aria-label="Mansfield Games"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

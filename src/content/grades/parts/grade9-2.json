@@ -1,0 +1,2076 @@
+[
+ {
+  "id": "capricious.adj.1",
+  "word": "capricious",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "kuh-PRISH-us",
+  "definition": "changing mood or behavior suddenly and without a clear reason",
+  "hero": {
+   "text": "The capricious wind kept shifting direction, so Nova had to adjust her flight path every few seconds.",
+   "scene": {
+    "pose": "determined",
+    "props": [
+     "🌬️",
+     "🌀"
+    ],
+    "setting": "sky"
+   }
+  },
+  "everyday": "Mountain weather is capricious: a sunny morning can turn into a hailstorm by noon.",
+  "contrast": {
+   "nonExample": "Every evening at exactly six, the lighthouse beam begins its slow, steady sweep.",
+   "explanation": "The lighthouse is completely regular and predictable. Capricious describes sudden, unpredictable changes.",
+   "scene": {
+    "pose": "calm",
+    "props": [
+     "🗼",
+     "🌅"
+    ],
+    "setting": "night"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "unpredictable",
+    "fickle",
+    "erratic",
+    "changeable"
+   ],
+   "antonyms": [
+    "steady",
+    "consistent",
+    "predictable",
+    "reliable"
+   ],
+   "family": [
+    "capriciously",
+    "capriciousness",
+    "caprice"
+   ]
+  },
+  "forms": [
+   "capricious"
+  ],
+  "tags": [
+   "reading",
+   "science",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "capricious.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"capricious\" mean in this sentence?",
+    "passage": "The ruler was so capricious that he might reward a servant one day and banish him the next for the very same action.",
+    "options": [
+     {
+      "id": "a",
+      "text": "extremely generous"
+     },
+     {
+      "id": "b",
+      "text": "changing suddenly without reason"
+     },
+     {
+      "id": "c",
+      "text": "careful and fair"
+     },
+     {
+      "id": "d",
+      "text": "very powerful"
+     }
+    ],
+    "answer": "b",
+    "hint": "Same action, opposite results on different days.",
+    "explanation": "Capricious means changing suddenly for no clear reason. Rewarding and then punishing the same behavior shows unpredictable whims."
+   },
+   {
+    "id": "capricious.adj.1#2",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this person capricious?",
+    "passage": "Ms. Alvarez posts her grading rubric at the start of the year and applies it the same way to every assignment.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is her behavior unpredictable?",
+    "explanation": "No. Ms. Alvarez is consistent and predictable, the opposite of capricious."
+   },
+   {
+    "id": "capricious.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Investors grew nervous about the ___ market, where stock prices soared on Monday, crashed on Tuesday, and recovered by Wednesday for no obvious reason.",
+    "options": [
+     {
+      "id": "a",
+      "text": "generous"
+     },
+     {
+      "id": "b",
+      "text": "transparent"
+     },
+     {
+      "id": "c",
+      "text": "stagnant"
+     },
+     {
+      "id": "d",
+      "text": "capricious"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "Stagnant means not changing, the opposite of these wild swings.",
+     "a": "Generous does not describe price movements.",
+     "b": "Transparent means easy to see through or understand, which this market is not."
+    },
+    "hint": "Big, sudden swings \"for no obvious reason.\"",
+    "explanation": "Sudden ups and downs \"for no obvious reason\" make the market capricious. Stagnant would mean not moving at all.",
+    "clue": "soared; crashed; recovered; for no obvious reason"
+   },
+   {
+    "id": "capricious.adj.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the cat's behavior?",
+    "passage": "One minute the cat purred on Leo's lap; the next, with no warning and nothing having changed, it swatted his hand and stalked away.",
+    "options": [
+     {
+      "id": "a",
+      "text": "capricious"
+     },
+     {
+      "id": "b",
+      "text": "cautious"
+     },
+     {
+      "id": "c",
+      "text": "loyal"
+     },
+     {
+      "id": "d",
+      "text": "hostile"
+     }
+    ],
+    "answer": "a",
+    "hint": "The key is the sudden, unexplained change.",
+    "explanation": "Capricious fits because the cat's mood flips suddenly \"with no warning and nothing having changed.\" Hostile would suggest steady unfriendliness, not a sudden switch."
+   },
+   {
+    "id": "capricious.adj.1#5",
+    "format": "synonym",
+    "stage": "transfer",
+    "prompt": "Which word means the OPPOSITE of \"capricious\" in this sentence?",
+    "passage": "Fans complained about the referee's capricious calls, which seemed to change from one play to the next.",
+    "options": [
+     {
+      "id": "a",
+      "text": "consistent"
+     },
+     {
+      "id": "b",
+      "text": "impulsive"
+     },
+     {
+      "id": "c",
+      "text": "erratic"
+     },
+     {
+      "id": "d",
+      "text": "dramatic"
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for a word meaning \"the same every time.\"",
+    "explanation": "Capricious means unpredictable. Consistent means applied the same way every time, the opposite. Erratic and impulsive are close to capricious."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "circumvent.verb.1",
+  "word": "circumvent",
+  "grade": 9,
+  "pos": "verb",
+  "say": "sur-kum-VENT",
+  "definition": "to find a way around a rule, obstacle, or problem, often cleverly",
+  "hero": {
+   "text": "When the main bridge was blocked, Pixel circumvented the traffic jam by guiding everyone through an old service tunnel.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🚇",
+     "🚗"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "Engineers designed a bypass canal to circumvent the dangerous rapids on the river.",
+  "contrast": {
+   "nonExample": "Lena waited patiently in the long line and paid the full entry fee.",
+   "explanation": "Lena goes straight through the normal process. Circumventing means getting around a rule or obstacle instead.",
+   "scene": {
+    "pose": "neutral",
+    "props": [
+     "🎟️",
+     "⏳"
+    ],
+    "setting": "street"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "bypass",
+    "evade",
+    "sidestep",
+    "get around"
+   ],
+   "antonyms": [
+    "confront",
+    "obey",
+    "comply with"
+   ],
+   "family": [
+    "circumvention",
+    "circumvented",
+    "circumventing"
+   ]
+  },
+  "forms": [
+   "circumvent",
+   "circumvents",
+   "circumvented",
+   "circumventing"
+  ],
+  "parts": [
+   {
+    "part": "circum-",
+    "meaning": "around"
+   },
+   {
+    "part": "vent",
+    "meaning": "come, go"
+   }
+  ],
+  "tags": [
+   "social",
+   "technology",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "circumvent.verb.1#1",
+    "format": "word_parts",
+    "stage": "supported",
+    "prompt": "\"Circumvent\" comes from \"circum-\" (around) and \"vent\" (come or go). What does it most likely mean?",
+    "options": [
+     {
+      "id": "a",
+      "text": "to come back again"
+     },
+     {
+      "id": "b",
+      "text": "to stop moving"
+     },
+     {
+      "id": "c",
+      "text": "to go straight through"
+     },
+     {
+      "id": "d",
+      "text": "to go around something"
+     }
+    ],
+    "answer": "d",
+    "hint": "\"Circum-\" appears in \"circumference,\" the distance around a circle.",
+    "explanation": "Circum- means around and vent means go, so circumvent means to go around an obstacle or rule."
+   },
+   {
+    "id": "circumvent.verb.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Some students tried to ___ the school's website filter by using a proxy server, which disguised the blocked sites as approved ones.",
+    "options": [
+     {
+      "id": "a",
+      "text": "strengthen"
+     },
+     {
+      "id": "b",
+      "text": "design"
+     },
+     {
+      "id": "c",
+      "text": "report"
+     },
+     {
+      "id": "d",
+      "text": "circumvent"
+     }
+    ],
+    "answer": "d",
+    "hint": "They are trying to get around the filter.",
+    "explanation": "Using a disguise to get past the filter is circumventing it: finding a way around a rule instead of obeying it.",
+    "clue": "disguised the blocked sites as approved ones"
+   },
+   {
+    "id": "circumvent.verb.1#3",
+    "format": "meaning",
+    "stage": "independent",
+    "prompt": "Which action circumvents a rule?",
+    "options": [
+     {
+      "id": "a",
+      "text": "A company openly pays the new tax on time."
+     },
+     {
+      "id": "b",
+      "text": "A company moves its address to another country to avoid paying a new tax."
+     },
+     {
+      "id": "c",
+      "text": "A company protests the new tax at city hall."
+     },
+     {
+      "id": "d",
+      "text": "A company pays extra tax by mistake."
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Paying the tax follows the rule.",
+     "c": "Protesting challenges the rule openly; it does not get around it.",
+     "d": "Paying by mistake is an error, not a way around a rule."
+    },
+    "hint": "Look for a clever way around the rule, not obeying or protesting it.",
+    "explanation": "Moving its address to dodge the tax is circumventing: the company avoids the rule without breaking or challenging it directly."
+   },
+   {
+    "id": "circumvent.verb.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what the river did?",
+    "passage": "When a fallen boulder blocked its path, the stream slowly carved a new channel around the rock and continued downhill.",
+    "options": [
+     {
+      "id": "a",
+      "text": "flooded"
+     },
+     {
+      "id": "b",
+      "text": "circumvented"
+     },
+     {
+      "id": "c",
+      "text": "destroyed"
+     },
+     {
+      "id": "d",
+      "text": "reversed"
+     }
+    ],
+    "answer": "b",
+    "hint": "The stream found a way around, not through.",
+    "explanation": "The stream went around the boulder rather than removing it: it circumvented the obstacle. Destroyed would mean it broke the rock apart."
+   },
+   {
+    "id": "circumvent.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what circumvent means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "To circumvent the long security line,"
+     },
+     {
+      "id": "c2",
+      "text": "the travelers"
+     },
+     {
+      "id": "c3",
+      "text": "used the express lane their airline membership allowed."
+     },
+     {
+      "id": "c4",
+      "text": "waited in it for three full hours."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Circumventing means finding a way around.",
+    "explanation": "Using the express lane is a way around the long line. Waiting in it for hours is going through it, not around it."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "cogent.adj.1",
+  "word": "cogent",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "KOH-junt",
+  "definition": "clear, logical, and convincing",
+  "hero": {
+   "text": "Rex presented such a cogent plan, with evidence for every step, that the whole team agreed in minutes.",
+   "scene": {
+    "pose": "confident",
+    "props": [
+     "📊",
+     "✅"
+    ],
+    "second": "listening",
+    "setting": "school"
+   }
+  },
+  "everyday": "The debate judges praised Aisha's cogent closing argument, which tied every point back to the evidence.",
+  "contrast": {
+   "nonExample": "Nate's speech was loud and passionate, but he jumped between unrelated points and never gave a reason.",
+   "explanation": "Passion is not the same as cogency. A cogent argument is logical and convincing, whatever its volume.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📢",
+     "🔀"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "convincing",
+    "compelling",
+    "persuasive",
+    "logical"
+   ],
+   "antonyms": [
+    "weak",
+    "unconvincing",
+    "illogical"
+   ],
+   "family": [
+    "cogently",
+    "cogency"
+   ]
+  },
+  "forms": [
+   "cogent"
+  ],
+  "tags": [
+   "reading",
+   "social"
+  ],
+  "items": [
+   {
+    "id": "cogent.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"cogent\" mean in this sentence?",
+    "passage": "The lawyer's cogent argument, supported by clear evidence and careful reasoning, persuaded the jury.",
+    "options": [
+     {
+      "id": "a",
+      "text": "emotional and dramatic"
+     },
+     {
+      "id": "b",
+      "text": "angry and aggressive"
+     },
+     {
+      "id": "c",
+      "text": "long and detailed"
+     },
+     {
+      "id": "d",
+      "text": "clear and convincing"
+     }
+    ],
+    "answer": "d",
+    "hint": "It is \"supported by clear evidence and careful reasoning\" and it \"persuaded.\"",
+    "explanation": "Cogent means clear, logical, and convincing. The argument persuaded the jury through evidence and reasoning."
+   },
+   {
+    "id": "cogent.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes Ming's essay, according to the teacher?",
+    "passage": "\"Your essay is short,\" the teacher wrote, \"but every paragraph builds logically on the last, and your evidence leaves little room for doubt.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "cogent"
+     },
+     {
+      "id": "b",
+      "text": "ambiguous"
+     },
+     {
+      "id": "c",
+      "text": "elaborate"
+     },
+     {
+      "id": "d",
+      "text": "verbose"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "d": "Verbose means wordy; the essay is short.",
+     "b": "Ambiguous means unclear; this essay leaves little doubt.",
+     "c": "Elaborate suggests lots of detail and length."
+    },
+    "hint": "Short, logical, and hard to doubt.",
+    "explanation": "Cogent fits: logical structure and convincing evidence. Verbose and elaborate suggest length, which the teacher says it lacks."
+   },
+   {
+    "id": "cogent.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Scientists rejected the theory because it rested on a single study, but the new paper's case, built on twenty years of data from five continents, was far more ___.",
+    "options": [
+     {
+      "id": "a",
+      "text": "flimsy"
+     },
+     {
+      "id": "b",
+      "text": "cogent"
+     },
+     {
+      "id": "c",
+      "text": "hasty"
+     },
+     {
+      "id": "d",
+      "text": "biased"
+     }
+    ],
+    "answer": "b",
+    "hint": "Compare a single study with twenty years of worldwide data.",
+    "explanation": "A case built on twenty years of global data is strong and convincing: cogent. Flimsy describes the earlier single-study theory.",
+    "clue": "twenty years of data from five continents"
+   },
+   {
+    "id": "cogent.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"cogent\" in this sentence?",
+    "passage": "She offered a cogent explanation for why the bridge had failed.",
+    "options": [
+     {
+      "id": "a",
+      "text": "sympathetic"
+     },
+     {
+      "id": "b",
+      "text": "compelling"
+     },
+     {
+      "id": "c",
+      "text": "lengthy"
+     },
+     {
+      "id": "d",
+      "text": "complicated"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means convincing?",
+    "explanation": "Compelling means convincing in a way that demands attention, like cogent. Lengthy and complicated describe size and difficulty, not persuasiveness."
+   },
+   {
+    "id": "cogent.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"cogent\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"He gave a cogent yawn during the movie.\""
+     },
+     {
+      "id": "b",
+      "text": "\"The puppy is cogent and loves to play fetch.\""
+     },
+     {
+      "id": "c",
+      "text": "\"The soup was so cogent that I asked for seconds.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Her cogent reasoning convinced even the people who disagreed at first.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Cogent describes arguments or reasoning.",
+    "explanation": "Cogent describes clear, convincing reasoning, so it fits \"reasoning convinced even the people who disagreed.\" It does not describe food, yawns, or pets."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "concurrent.adj.1",
+  "word": "concurrent",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "kun-KUR-unt",
+  "definition": "happening or existing at the same time",
+  "hero": {
+   "text": "Bolt had to handle two concurrent emergencies: a flooded subway and a stuck elevator, both starting at noon.",
+   "scene": {
+    "pose": "running",
+    "props": [
+     "🚇",
+     "🛗"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The museum is running two concurrent exhibits, one on ancient Egypt and one on modern photography.",
+  "contrast": {
+   "nonExample": "First the band played the anthem, and afterward the game began.",
+   "explanation": "These events happen one after another. Concurrent events happen at the same time.",
+   "scene": {
+    "pose": "listening",
+    "props": [
+     "🎺",
+     "⚾"
+    ],
+    "setting": "park"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "simultaneous",
+    "coinciding",
+    "parallel"
+   ],
+   "antonyms": [
+    "consecutive",
+    "sequential",
+    "successive"
+   ],
+   "family": [
+    "concurrently",
+    "concurrence",
+    "concur"
+   ]
+  },
+  "forms": [
+   "concurrent"
+  ],
+  "parts": [
+   {
+    "part": "con-",
+    "meaning": "together, with"
+   },
+   {
+    "part": "cur",
+    "meaning": "run"
+   }
+  ],
+  "tags": [
+   "history",
+   "math",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "concurrent.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"concurrent\" mean in this sentence?",
+    "passage": "The judge ordered the two sentences to be concurrent, so the prisoner would serve both at the same time rather than one after the other.",
+    "options": [
+     {
+      "id": "a",
+      "text": "happening in a different order"
+     },
+     {
+      "id": "b",
+      "text": "taking place at the same time"
+     },
+     {
+      "id": "c",
+      "text": "extremely long"
+     },
+     {
+      "id": "d",
+      "text": "decided by a jury"
+     }
+    ],
+    "answer": "b",
+    "hint": "\"At the same time rather than one after the other.\"",
+    "explanation": "Concurrent means happening at the same time. The passage defines it directly: both sentences run together."
+   },
+   {
+    "id": "concurrent.adj.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Historians note that the Renaissance in Italy was roughly ___ with the rise of powerful trading cities like Venice and Florence, which funded many of its artists.",
+    "options": [
+     {
+      "id": "a",
+      "text": "opposed"
+     },
+     {
+      "id": "b",
+      "text": "previous"
+     },
+     {
+      "id": "c",
+      "text": "concurrent"
+     },
+     {
+      "id": "d",
+      "text": "unrelated"
+     }
+    ],
+    "answer": "c",
+    "hint": "The two developments happened in the same period.",
+    "explanation": "The Renaissance and the rise of trading cities overlapped in time, so they were concurrent. Previous would mean one came before the other.",
+    "clue": "roughly; with the rise of"
+   },
+   {
+    "id": "concurrent.adj.1#3",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Are these events concurrent?",
+    "passage": "Jada finished her piano lesson at 4:00, then walked to soccer practice, which started at 4:30.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Did the events overlap in time?",
+    "explanation": "No. The lesson ended before practice began, so the events were consecutive, not concurrent."
+   },
+   {
+    "id": "concurrent.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"concurrent\" in this sentence?",
+    "passage": "The computer can run several concurrent tasks without slowing down.",
+    "options": [
+     {
+      "id": "a",
+      "text": "simultaneous"
+     },
+     {
+      "id": "b",
+      "text": "sequential"
+     },
+     {
+      "id": "c",
+      "text": "complex"
+     },
+     {
+      "id": "d",
+      "text": "urgent"
+     }
+    ],
+    "answer": "b",
+    "hint": "Find the word meaning \"one after another.\"",
+    "explanation": "Concurrent means at the same time. Sequential means one after another, the opposite. Simultaneous is a synonym."
+   },
+   {
+    "id": "concurrent.adj.1#5",
+    "format": "word_parts",
+    "stage": "transfer",
+    "prompt": "\"Concurrent\" comes from \"con-\" (together) and \"cur\" (run, as in \"current\"). How do those parts explain the word?",
+    "options": [
+     {
+      "id": "a",
+      "text": "running out of time"
+     },
+     {
+      "id": "b",
+      "text": "running together in time"
+     },
+     {
+      "id": "c",
+      "text": "running away from danger"
+     },
+     {
+      "id": "d",
+      "text": "running faster than others"
+     }
+    ],
+    "answer": "b",
+    "hint": "Things that \"run together\" share the same time.",
+    "explanation": "Con- means together and cur means run, so concurrent events run together, happening at the same time."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "condone.verb.1",
+  "word": "condone",
+  "grade": 9,
+  "pos": "verb",
+  "say": "kun-DOHN",
+  "definition": "to accept or allow behavior that is considered wrong, as if it were acceptable",
+  "hero": {
+   "text": "Kai made it clear he would never condone using powers to scare civilians, even as a prank.",
+   "scene": {
+    "pose": "determined",
+    "props": [
+     "🚫",
+     "👻"
+    ],
+    "setting": "school"
+   }
+  },
+  "everyday": "The school handbook states that the district does not condone cyberbullying of any kind.",
+  "contrast": {
+   "nonExample": "Mr. Diaz stopped the game immediately when he saw a student cheating.",
+   "explanation": "Mr. Diaz does not allow the wrong behavior. Condoning means letting it pass as though it were acceptable.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "🃏",
+     "🛑"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "excuse",
+    "overlook",
+    "tolerate",
+    "accept"
+   ],
+   "antonyms": [
+    "condemn",
+    "denounce",
+    "forbid",
+    "punish"
+   ],
+   "family": [
+    "condoned",
+    "condoning",
+    "condonation"
+   ]
+  },
+  "forms": [
+   "condone",
+   "condones",
+   "condoned",
+   "condoning"
+  ],
+  "tags": [
+   "social",
+   "history",
+   "everyday"
+  ],
+  "items": [
+   {
+    "id": "condone.verb.1#1",
+    "format": "example_nonexample",
+    "stage": "supported",
+    "prompt": "Is this person condoning the behavior?",
+    "passage": "When his older son lied about finishing his chores, the father smiled and said, \"That's okay, everyone stretches the truth sometimes.\"",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Does the father treat the lie as acceptable?",
+    "explanation": "Yes. By treating the lie as fine, the father condones it: he accepts wrong behavior as if it were acceptable."
+   },
+   {
+    "id": "condone.verb.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the coach's response?",
+    "passage": "Several players shoved opponents after the whistle. The coach saw it but said nothing and did not bench anyone.",
+    "options": [
+     {
+      "id": "a",
+      "text": "punished"
+     },
+     {
+      "id": "b",
+      "text": "celebrated"
+     },
+     {
+      "id": "c",
+      "text": "prevented"
+     },
+     {
+      "id": "d",
+      "text": "condoned"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "a": "He benched no one, so he did not punish.",
+     "b": "Celebrating would mean praising it openly; he simply let it go.",
+     "c": "The shoving already happened; he did nothing to stop it."
+    },
+    "hint": "Silence and no consequences send a message.",
+    "explanation": "By ignoring the shoving with no consequences, the coach condoned it. Celebrated would mean openly praising it, which goes further than the passage shows."
+   },
+   {
+    "id": "condone.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Although the senator admired the protesters' goals, she said she could not ___ their decision to damage public property.",
+    "options": [
+     {
+      "id": "a",
+      "text": "condone"
+     },
+     {
+      "id": "b",
+      "text": "admire"
+     },
+     {
+      "id": "c",
+      "text": "recall"
+     },
+     {
+      "id": "d",
+      "text": "postpone"
+     }
+    ],
+    "answer": "a",
+    "hint": "\"Although\" signals a contrast between the goals and the actions.",
+    "explanation": "She supports the goals but refuses to accept the wrong action, so she cannot condone it. Admire would contradict the contrast set up by \"although.\"",
+    "clue": "Although; admired the goals; damage public property"
+   },
+   {
+    "id": "condone.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"condone\" in this sentence?",
+    "passage": "The company says it does not condone unsafe working conditions in its factories.",
+    "options": [
+     {
+      "id": "a",
+      "text": "overlook"
+     },
+     {
+      "id": "b",
+      "text": "tolerate"
+     },
+     {
+      "id": "c",
+      "text": "condemn"
+     },
+     {
+      "id": "d",
+      "text": "excuse"
+     }
+    ],
+    "answer": "c",
+    "hint": "Which word means \"strongly disapprove of\"?",
+    "explanation": "Condone means accept wrong behavior. Condemn means openly declare it wrong, the opposite. The other three are close to condone."
+   },
+   {
+    "id": "condone.verb.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"condone\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"She condoned the trophy to the winning team.\""
+     },
+     {
+      "id": "b",
+      "text": "\"The teacher condoned us a great story yesterday.\""
+     },
+     {
+      "id": "c",
+      "text": "\"I condone this pizza; it's the best in town.\""
+     },
+     {
+      "id": "d",
+      "text": "\"Leaving trash at the campsite isn't okay, and I won't condone it.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Condone means accept or excuse wrong behavior.",
+    "explanation": "Refusing to condone littering means refusing to treat it as acceptable. The other lines confuse condone with praising, giving, or telling."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "corroborate.verb.1",
+  "word": "corroborate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "kuh-ROB-uh-rayt",
+  "definition": "to confirm a statement or idea by providing additional, independent evidence",
+  "hero": {
+   "text": "Juniper's security camera footage corroborated Nova's account of when the power went out.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "📹",
+     "🕒"
+    ],
+    "second": "listening",
+    "setting": "lab"
+   }
+  },
+  "everyday": "Two other astronomers corroborated the discovery by observing the same comet from different observatories.",
+  "contrast": {
+   "nonExample": "The suspect insisted three times that he had been home all evening.",
+   "explanation": "Repeating your own story is not corroboration. Corroboration comes from a separate source that confirms it.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🏠",
+     "🌙"
+    ],
+    "setting": "night"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "confirm",
+    "verify",
+    "back up",
+    "support"
+   ],
+   "antonyms": [
+    "contradict",
+    "refute",
+    "undermine"
+   ],
+   "family": [
+    "corroboration",
+    "corroborating",
+    "corroborative"
+   ]
+  },
+  "forms": [
+   "corroborate",
+   "corroborates",
+   "corroborated",
+   "corroborating"
+  ],
+  "tags": [
+   "science",
+   "history",
+   "reading"
+  ],
+  "items": [
+   {
+    "id": "corroborate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"corroborated\" mean in this sentence?",
+    "passage": "The diary entries corroborated the soldier's letters: both described the same battle on the same day.",
+    "options": [
+     {
+      "id": "a",
+      "text": "copied word for word"
+     },
+     {
+      "id": "b",
+      "text": "made more exciting"
+     },
+     {
+      "id": "c",
+      "text": "contradicted"
+     },
+     {
+      "id": "d",
+      "text": "confirmed with separate evidence"
+     }
+    ],
+    "answer": "d",
+    "hint": "Two separate sources tell the same story.",
+    "explanation": "Corroborate means to confirm with additional, independent evidence. The diary and the letters are separate sources that agree."
+   },
+   {
+    "id": "corroborate.verb.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes what the second lab did?",
+    "passage": "A lab in Japan reported a new material that conducts electricity perfectly. Months later, a lab in Brazil repeated the experiment independently and got the same result.",
+    "options": [
+     {
+      "id": "a",
+      "text": "invented"
+     },
+     {
+      "id": "b",
+      "text": "disputed"
+     },
+     {
+      "id": "c",
+      "text": "advertised"
+     },
+     {
+      "id": "d",
+      "text": "corroborated"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "a": "The Brazilian lab did not invent it; it repeated the experiment.",
+     "b": "Disputing would mean disagreeing; they got the same result.",
+     "c": "Advertising is promoting, not confirming."
+    },
+    "hint": "A separate group confirms the original finding.",
+    "explanation": "An independent lab getting the same result corroborates the finding. Disputed would mean it challenged the result."
+   },
+   {
+    "id": "corroborate.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "The historian was skeptical of the legend until archaeologists uncovered coins and pottery that ___ the story of a busy trading port at the site.",
+    "options": [
+     {
+      "id": "a",
+      "text": "corroborated"
+     },
+     {
+      "id": "b",
+      "text": "exaggerated"
+     },
+     {
+      "id": "c",
+      "text": "replaced"
+     },
+     {
+      "id": "d",
+      "text": "concealed"
+     }
+    ],
+    "answer": "a",
+    "hint": "The new finds support a story she doubted.",
+    "explanation": "The coins and pottery are separate physical evidence that confirm the legend, so they corroborated it.",
+    "clue": "was skeptical until; uncovered coins and pottery"
+   },
+   {
+    "id": "corroborate.verb.1#4",
+    "format": "sentence_build",
+    "stage": "independent",
+    "prompt": "Build a sentence that shows what corroborate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "A second witness"
+     },
+     {
+      "id": "c2",
+      "text": "corroborated Maria's report"
+     },
+     {
+      "id": "c3",
+      "text": "by describing the same blue car at the same corner."
+     },
+     {
+      "id": "c4",
+      "text": "by insisting she had seen a red truck somewhere else."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Corroborating evidence agrees with the original account.",
+    "explanation": "Describing the same car at the same place confirms Maria's report. A different vehicle in a different place would contradict it."
+   },
+   {
+    "id": "corroborate.verb.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Does the new evidence corroborate the claim?",
+    "passage": "A company claims its battery lasts ten hours. Independent testers find it dies after four.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Does the testers' result agree with the claim?",
+    "explanation": "No. The testers' results contradict the claim. Corroborating evidence would show the battery really does last about ten hours."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "dichotomy.noun.1",
+  "word": "dichotomy",
+  "grade": 9,
+  "pos": "noun",
+  "say": "dy-KOT-uh-mee",
+  "definition": "a sharp division or contrast between two opposite things or groups",
+  "hero": {
+   "text": "Rex rejected the dichotomy of \"heroes versus villains,\" arguing that most people are somewhere in between.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "⚖️",
+     "🦸"
+    ],
+    "second": "listening",
+    "setting": "school"
+   }
+  },
+  "everyday": "The essay explores the dichotomy between city life and country life in nineteenth-century novels.",
+  "contrast": {
+   "nonExample": "The class discussed many shades of opinion about the new schedule, from strongly for to mildly against.",
+   "explanation": "A wide range of views is not a dichotomy. A dichotomy splits things into two sharply opposed parts.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "🗓️",
+     "💬"
+    ],
+    "setting": "school"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "division",
+    "split",
+    "contrast",
+    "opposition"
+   ],
+   "antonyms": [
+    "unity",
+    "continuum",
+    "blend"
+   ],
+   "family": [
+    "dichotomous",
+    "dichotomies"
+   ]
+  },
+  "forms": [
+   "dichotomy",
+   "dichotomies"
+  ],
+  "parts": [
+   {
+    "part": "dicho-",
+    "meaning": "in two"
+   },
+   {
+    "part": "-tomy",
+    "meaning": "cutting"
+   }
+  ],
+  "tags": [
+   "reading",
+   "social",
+   "science"
+  ],
+  "items": [
+   {
+    "id": "dichotomy.noun.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"dichotomy\" mean in this sentence?",
+    "passage": "The speech set up a dichotomy between \"the people\" and \"the elites,\" as if everyone belonged to exactly one of the two groups.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a slow change over time"
+     },
+     {
+      "id": "b",
+      "text": "a friendly agreement"
+     },
+     {
+      "id": "c",
+      "text": "a sharp division into two opposing parts"
+     },
+     {
+      "id": "d",
+      "text": "a long list of examples"
+     }
+    ],
+    "answer": "c",
+    "hint": "Everyone belongs to \"exactly one of the two groups.\"",
+    "explanation": "A dichotomy splits something into two sharply opposed parts. The speech divides everyone into two groups."
+   },
+   {
+    "id": "dichotomy.noun.1#2",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Many scientists now reject the old ___ between \"nature\" and \"nurture,\" arguing that genes and environment work together rather than as rivals.",
+    "options": [
+     {
+      "id": "a",
+      "text": "experiment"
+     },
+     {
+      "id": "b",
+      "text": "tradition"
+     },
+     {
+      "id": "c",
+      "text": "alliance"
+     },
+     {
+      "id": "d",
+      "text": "dichotomy"
+     }
+    ],
+    "answer": "d",
+    "wrong": {
+     "c": "An alliance means a partnership, the opposite of rivals.",
+     "a": "An experiment is a test, not a division of ideas.",
+     "b": "Tradition is close, but the passage stresses the split into two rival sides."
+    },
+    "hint": "The old view set two things against each other as rivals.",
+    "explanation": "Treating nature and nurture as rivals is a dichotomy: a sharp two-way split. Scientists now see them as working together.",
+    "clue": "between \"nature\" and \"nurture\"; rather than as rivals"
+   },
+   {
+    "id": "dichotomy.noun.1#3",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Dichotomy\" comes from Greek parts meaning \"in two\" and \"cutting.\" What does that suggest?",
+    "options": [
+     {
+      "id": "a",
+      "text": "joining two things into one"
+     },
+     {
+      "id": "b",
+      "text": "cutting many small pieces"
+     },
+     {
+      "id": "c",
+      "text": "measuring two things carefully"
+     },
+     {
+      "id": "d",
+      "text": "cutting something into two opposed parts"
+     }
+    ],
+    "answer": "d",
+    "hint": "Put the parts together: \"cutting in two.\"",
+    "explanation": "A dichotomy literally \"cuts in two,\" dividing an idea or group into two contrasting halves."
+   },
+   {
+    "id": "dichotomy.noun.1#4",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best names what the author criticizes?",
+    "passage": "The author argues that the choice between \"art\" and \"science\" is false: architects, game designers, and medical illustrators all combine both every day.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a dichotomy"
+     },
+     {
+      "id": "b",
+      "text": "a paradox"
+     },
+     {
+      "id": "c",
+      "text": "a hypothesis"
+     },
+     {
+      "id": "d",
+      "text": "a compromise"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "A paradox seems self-contradictory but may be true; here the issue is an either-or split.",
+     "c": "A hypothesis is a testable idea.",
+     "d": "A compromise blends two sides, which is what the author recommends, not criticizes."
+    },
+    "hint": "The author rejects splitting things into two opposite camps.",
+    "explanation": "Splitting work into \"art\" versus \"science\" is a dichotomy, which the author calls false. A paradox is a statement that seems to contradict itself, which is a different idea."
+   },
+   {
+    "id": "dichotomy.noun.1#5",
+    "format": "example_nonexample",
+    "stage": "transfer",
+    "prompt": "Does this describe a dichotomy?",
+    "passage": "In the novel, the two kingdoms are complete opposites: one values only order and obedience, the other only freedom and chaos.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "yes",
+    "hint": "Are there two sharply opposed sides?",
+    "explanation": "Yes. Two kingdoms defined as complete opposites form a dichotomy: a sharp division into two contrasting parts."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "didactic.adj.1",
+  "word": "didactic",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "dy-DAK-tik",
+  "definition": "intended to teach, especially a moral lesson, sometimes in a preachy way",
+  "hero": {
+   "text": "Pixel's safety video was so didactic, with a lesson every ten seconds, that the younger heroes started rolling their eyes.",
+   "scene": {
+    "pose": "pointing",
+    "props": [
+     "📺",
+     "☝️"
+    ],
+    "second": "tired",
+    "setting": "school"
+   }
+  },
+  "everyday": "Aesop's fables are didactic: each short story ends with a clear moral, such as \"slow and steady wins the race.\"",
+  "contrast": {
+   "nonExample": "The comedy show was pure entertainment, with no message beyond making the audience laugh.",
+   "explanation": "A work made only to entertain is not didactic. Didactic works are meant to instruct.",
+   "scene": {
+    "pose": "happy",
+    "props": [
+     "😂",
+     "🎭"
+    ],
+    "setting": "stage"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "instructive",
+    "educational",
+    "moralizing",
+    "preachy"
+   ],
+   "antonyms": [
+    "entertaining",
+    "subtle"
+   ],
+   "family": [
+    "didactically",
+    "didacticism"
+   ]
+  },
+  "forms": [
+   "didactic"
+  ],
+  "tags": [
+   "reading",
+   "arts"
+  ],
+  "items": [
+   {
+    "id": "didactic.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"didactic\" mean in this sentence?",
+    "passage": "The children's book was openly didactic, ending each chapter with a list of lessons about honesty and sharing.",
+    "options": [
+     {
+      "id": "a",
+      "text": "full of beautiful illustrations"
+     },
+     {
+      "id": "b",
+      "text": "written for adults"
+     },
+     {
+      "id": "c",
+      "text": "very difficult to read"
+     },
+     {
+      "id": "d",
+      "text": "intended to teach a lesson"
+     }
+    ],
+    "answer": "d",
+    "hint": "Each chapter ends with \"a list of lessons.\"",
+    "explanation": "Didactic means intended to teach, especially morals. The lessons at the end of each chapter make the book didactic."
+   },
+   {
+    "id": "didactic.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the critic's complaint?",
+    "passage": "\"The film has a good message about protecting oceans,\" the critic wrote, \"but the characters keep stopping to lecture the audience, and the story suffers for it.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "subtle"
+     },
+     {
+      "id": "b",
+      "text": "didactic"
+     },
+     {
+      "id": "c",
+      "text": "suspenseful"
+     },
+     {
+      "id": "d",
+      "text": "satirical"
+     }
+    ],
+    "answer": "b",
+    "wrong": {
+     "a": "Subtle means delicate and understated; lecturing is anything but.",
+     "c": "Suspenseful describes tension, not lecturing.",
+     "d": "Satire uses humor or irony to criticize; this film simply preaches."
+    },
+    "hint": "Characters \"keep stopping to lecture.\"",
+    "explanation": "Constant lecturing makes the film didactic in a preachy way. Subtle is the opposite, and satirical would mean using humor to criticize."
+   },
+   {
+    "id": "didactic.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Medieval morality plays were deeply ___: characters with names like Greed and Good Deeds acted out lessons about how audiences should live.",
+    "options": [
+     {
+      "id": "a",
+      "text": "improvised"
+     },
+     {
+      "id": "b",
+      "text": "didactic"
+     },
+     {
+      "id": "c",
+      "text": "comic"
+     },
+     {
+      "id": "d",
+      "text": "mysterious"
+     }
+    ],
+    "answer": "b",
+    "hint": "The plays existed to teach audiences how to live.",
+    "explanation": "Plays designed to teach moral lessons are didactic. Characters named after virtues and vices make the teaching purpose obvious.",
+    "clue": "acted out lessons about how audiences should live"
+   },
+   {
+    "id": "didactic.adj.1#4",
+    "format": "example_nonexample",
+    "stage": "independent",
+    "prompt": "Is this work didactic?",
+    "passage": "A song describes the feeling of a summer evening, with no message, advice, or lesson, just images of fireflies and warm air.",
+    "options": [
+     {
+      "id": "yes",
+      "text": "Yes, it fits"
+     },
+     {
+      "id": "no",
+      "text": "No, it doesn't fit"
+     }
+    ],
+    "answer": "no",
+    "hint": "Is the song trying to teach anything?",
+    "explanation": "No. The song simply captures a mood. A didactic work would try to instruct or deliver a lesson."
+   },
+   {
+    "id": "didactic.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which speaker uses \"didactic\" correctly?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I felt didactic after running five miles.\""
+     },
+     {
+      "id": "b",
+      "text": "\"Our cat is didactic; she sleeps all afternoon.\""
+     },
+     {
+      "id": "c",
+      "text": "\"That thunderstorm was really didactic last night.\""
+     },
+     {
+      "id": "d",
+      "text": "\"The museum guide was a bit didactic, turning every painting into a lecture about good behavior.\""
+     }
+    ],
+    "answer": "d",
+    "hint": "Didactic describes teaching or lecturing.",
+    "explanation": "A guide who turns everything into a moral lecture is didactic. The other lines use the word for tiredness, sleepiness, or weather."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "disseminate.verb.1",
+  "word": "disseminate",
+  "grade": 9,
+  "pos": "verb",
+  "say": "dih-SEM-uh-nayt",
+  "definition": "to spread information or ideas widely",
+  "hero": {
+   "text": "Bolt helped disseminate the evacuation warning, broadcasting it on every radio channel in the city.",
+   "scene": {
+    "pose": "talking",
+    "props": [
+     "📻",
+     "📣"
+    ],
+    "setting": "city"
+   }
+  },
+  "everyday": "The printing press allowed reformers to disseminate their ideas across Europe in months rather than decades.",
+  "contrast": {
+   "nonExample": "Jo whispered the secret to her best friend and made her promise not to tell anyone.",
+   "explanation": "Telling one person and keeping it secret is the opposite of disseminating. Disseminating spreads information widely.",
+   "scene": {
+    "pose": "sneaky",
+    "props": [
+     "🤫",
+     "🔒"
+    ],
+    "setting": "home"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "spread",
+    "circulate",
+    "distribute",
+    "broadcast"
+   ],
+   "antonyms": [
+    "suppress",
+    "conceal",
+    "withhold"
+   ],
+   "family": [
+    "dissemination",
+    "disseminated",
+    "disseminating"
+   ]
+  },
+  "forms": [
+   "disseminate",
+   "disseminates",
+   "disseminated",
+   "disseminating"
+  ],
+  "parts": [
+   {
+    "part": "dis-",
+    "meaning": "apart, in different directions"
+   },
+   {
+    "part": "semin",
+    "meaning": "seed"
+   }
+  ],
+  "tags": [
+   "science",
+   "history",
+   "technology"
+  ],
+  "items": [
+   {
+    "id": "disseminate.verb.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "What does \"disseminate\" mean in this sentence?",
+    "passage": "Health officials used posters, radio ads, and social media to disseminate information about the vaccine to every neighborhood.",
+    "options": [
+     {
+      "id": "a",
+      "text": "test carefully"
+     },
+     {
+      "id": "b",
+      "text": "argue against"
+     },
+     {
+      "id": "c",
+      "text": "keep secret"
+     },
+     {
+      "id": "d",
+      "text": "spread widely"
+     }
+    ],
+    "answer": "d",
+    "hint": "Posters, radio, and social media, reaching \"every neighborhood.\"",
+    "explanation": "Disseminate means spread widely. Using many channels to reach every neighborhood is disseminating information."
+   },
+   {
+    "id": "disseminate.verb.1#2",
+    "format": "word_parts",
+    "stage": "independent",
+    "prompt": "\"Disseminate\" comes from Latin words for \"apart\" and \"seed.\" Which picture best matches the word?",
+    "options": [
+     {
+      "id": "a",
+      "text": "a farmer locking seeds in a shed"
+     },
+     {
+      "id": "b",
+      "text": "a farmer counting one seed"
+     },
+     {
+      "id": "c",
+      "text": "a farmer eating seeds"
+     },
+     {
+      "id": "d",
+      "text": "a farmer scattering seeds across a field"
+     }
+    ],
+    "answer": "d",
+    "hint": "Seeds scattered \"apart\" in many directions.",
+    "explanation": "Disseminate originally meant scattering seed. Today it means scattering ideas or information widely."
+   },
+   {
+    "id": "disseminate.verb.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "During the Revolutionary War, colonists used pamphlets and newspapers to ___ arguments for independence to farmers and merchants throughout the thirteen colonies.",
+    "options": [
+     {
+      "id": "a",
+      "text": "disseminate"
+     },
+     {
+      "id": "b",
+      "text": "suppress"
+     },
+     {
+      "id": "c",
+      "text": "translate"
+     },
+     {
+      "id": "d",
+      "text": "memorize"
+     }
+    ],
+    "answer": "a",
+    "wrong": {
+     "b": "Suppressing means preventing spread, the opposite.",
+     "c": "The colonists already shared a language; translating is not the point.",
+     "d": "Memorizing keeps ideas in one head rather than spreading them."
+    },
+    "hint": "Pamphlets carried the arguments far and wide.",
+    "explanation": "Spreading arguments \"throughout the thirteen colonies\" with pamphlets is disseminating them. Suppress would mean stopping their spread.",
+    "clue": "pamphlets and newspapers; throughout the thirteen colonies"
+   },
+   {
+    "id": "disseminate.verb.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word is closest in meaning to \"disseminated\" in this sentence?",
+    "passage": "The researchers disseminated their findings at conferences around the world.",
+    "options": [
+     {
+      "id": "a",
+      "text": "simplified"
+     },
+     {
+      "id": "b",
+      "text": "circulated"
+     },
+     {
+      "id": "c",
+      "text": "concealed"
+     },
+     {
+      "id": "d",
+      "text": "questioned"
+     }
+    ],
+    "answer": "b",
+    "hint": "Which word means \"passed around widely\"?",
+    "explanation": "Circulated means passed around widely, matching disseminated. Concealed is the opposite."
+   },
+   {
+    "id": "disseminate.verb.1#5",
+    "format": "sentence_build",
+    "stage": "transfer",
+    "prompt": "Build a sentence that shows what disseminate means.",
+    "chunks": [
+     {
+      "id": "c1",
+      "text": "The student newspaper"
+     },
+     {
+      "id": "c2",
+      "text": "disseminated the survey results"
+     },
+     {
+      "id": "c3",
+      "text": "to every classroom and the school website."
+     },
+     {
+      "id": "c4",
+      "text": "to one teacher, who locked them in a drawer."
+     }
+    ],
+    "answer": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "hint": "Disseminating spreads information widely.",
+    "explanation": "Sending results to every classroom and online spreads them widely. Giving them to one person who hides them is the opposite."
+   }
+  ],
+  "review": "pending"
+ },
+ {
+  "id": "dogmatic.adj.1",
+  "word": "dogmatic",
+  "grade": 9,
+  "pos": "adjective",
+  "say": "dawg-MAT-ik",
+  "definition": "insisting that your beliefs are completely right, without considering evidence or other views",
+  "hero": {
+   "text": "Bolt was dogmatic about his training method, refusing to even look at Juniper's data showing a better way.",
+   "scene": {
+    "pose": "angry",
+    "props": [
+     "📈",
+     "🙅"
+    ],
+    "second": "pointing",
+    "setting": "school"
+   }
+  },
+  "everyday": "The new club president was so dogmatic about the rules that he would not discuss any suggestion for change.",
+  "contrast": {
+   "nonExample": "After hearing the new evidence, Dr. Lee said, \"I may have been wrong; let's test it again.\"",
+   "explanation": "Dr. Lee is open to changing her mind. A dogmatic person refuses to consider other evidence or views.",
+   "scene": {
+    "pose": "thinking",
+    "props": [
+     "🔬",
+     "🤔"
+    ],
+    "setting": "lab"
+   }
+  },
+  "related": {
+   "synonyms": [
+    "rigid",
+    "opinionated",
+    "inflexible",
+    "closed-minded"
+   ],
+   "antonyms": [
+    "open-minded",
+    "flexible",
+    "undogmatic"
+   ],
+   "family": [
+    "dogma",
+    "dogmatically",
+    "dogmatism"
+   ]
+  },
+  "forms": [
+   "dogmatic"
+  ],
+  "tags": [
+   "social",
+   "science",
+   "history"
+  ],
+  "items": [
+   {
+    "id": "dogmatic.adj.1#1",
+    "format": "meaning",
+    "stage": "supported",
+    "prompt": "Which person is dogmatic?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ari changes his opinion after reading a convincing article."
+     },
+     {
+      "id": "b",
+      "text": "Sana insists her view is right and refuses to look at any evidence against it."
+     },
+     {
+      "id": "c",
+      "text": "Felix admits he isn't sure and asks for more information."
+     },
+     {
+      "id": "d",
+      "text": "Mei listens carefully to both sides before deciding."
+     }
+    ],
+    "answer": "b",
+    "hint": "Look for someone who refuses to consider other views.",
+    "explanation": "Sana insists she is right and refuses to look at evidence, which is dogmatic. The others are open-minded."
+   },
+   {
+    "id": "dogmatic.adj.1#2",
+    "format": "best_word",
+    "stage": "independent",
+    "prompt": "Which word best describes the professor?",
+    "passage": "For thirty years, the professor taught that the theory was beyond question. When students raised new research that challenged it, he dismissed them without reading a single page.",
+    "options": [
+     {
+      "id": "a",
+      "text": "skeptical"
+     },
+     {
+      "id": "b",
+      "text": "confident"
+     },
+     {
+      "id": "c",
+      "text": "dogmatic"
+     },
+     {
+      "id": "d",
+      "text": "experienced"
+     }
+    ],
+    "answer": "c",
+    "wrong": {
+     "b": "Confidence alone does not mean refusing to look at evidence.",
+     "d": "Experience is true of him but does not explain refusing to read.",
+     "a": "A skeptic questions claims; he never questions his own view."
+    },
+    "hint": "He refuses to even read the evidence.",
+    "explanation": "Dismissing new research without reading it shows he treats his view as beyond question: dogmatic. Confident people can still consider evidence. Skeptical means doubting, but he doubts only the new ideas, never his own."
+   },
+   {
+    "id": "dogmatic.adj.1#3",
+    "format": "context_gap",
+    "stage": "independent",
+    "prompt": "Choose the word that best completes the passage.",
+    "passage": "Galileo's critics were ___ in their belief that the sun circled the Earth; some reportedly refused even to look through his telescope.",
+    "options": [
+     {
+      "id": "a",
+      "text": "hesitant"
+     },
+     {
+      "id": "b",
+      "text": "accurate"
+     },
+     {
+      "id": "c",
+      "text": "dogmatic"
+     },
+     {
+      "id": "d",
+      "text": "curious"
+     }
+    ],
+    "answer": "c",
+    "hint": "They refused to look at evidence.",
+    "explanation": "Refusing to look at evidence that might challenge a belief is dogmatic. Curious people would have looked.",
+    "clue": "refused even to look through his telescope"
+   },
+   {
+    "id": "dogmatic.adj.1#4",
+    "format": "synonym",
+    "stage": "independent",
+    "prompt": "Which word means the OPPOSITE of \"dogmatic\" in this sentence?",
+    "passage": "Good scientists try not to be dogmatic about their theories.",
+    "options": [
+     {
+      "id": "a",
+      "text": "open-minded"
+     },
+     {
+      "id": "b",
+      "text": "stubborn"
+     },
+     {
+      "id": "c",
+      "text": "opinionated"
+     },
+     {
+      "id": "d",
+      "text": "rigid"
+     }
+    ],
+    "answer": "a",
+    "hint": "Look for a word meaning \"willing to consider new ideas.\"",
+    "explanation": "Dogmatic means refusing to consider other views. Open-minded is the opposite. Rigid, stubborn, and opinionated are all close to dogmatic."
+   },
+   {
+    "id": "dogmatic.adj.1#5",
+    "format": "dialogue",
+    "stage": "transfer",
+    "prompt": "Which line sounds the most dogmatic?",
+    "options": [
+     {
+      "id": "a",
+      "text": "\"I think this plan could work, but I'd like to hear other ideas.\""
+     },
+     {
+      "id": "b",
+      "text": "\"There is only one correct way to do this, and there's nothing to discuss.\""
+     },
+     {
+      "id": "c",
+      "text": "\"Let's look at the data before we decide.\""
+     },
+     {
+      "id": "d",
+      "text": "\"You might be right; I hadn't thought of that.\""
+     }
+    ],
+    "answer": "b",
+    "hint": "Find the speaker who shuts down discussion.",
+    "explanation": "Insisting there is \"only one correct way\" and \"nothing to discuss\" is dogmatic. The other lines show openness to evidence and other views."
+   }
+  ],
+  "review": "pending"
+ }
+]

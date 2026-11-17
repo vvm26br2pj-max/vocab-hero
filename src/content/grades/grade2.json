@@ -1,0 +1,7614 @@
+{
+ "grade": 2,
+ "title": "Grade 2",
+ "emphasis": "Familiar actions, feelings, and concrete descriptions",
+ "words": [
+  {
+   "id": "enormous.adj.1",
+   "word": "enormous",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "ih-NOR-mus",
+   "definition": "very, very big",
+   "hero": {
+    "text": "Rex lifted an enormous rock that was as big as a car.",
+    "scene": {
+     "pose": "lifting",
+     "props": [
+      "🪨",
+      "🚗"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "A blue whale is an enormous animal, longer than a school bus.",
+   "contrast": {
+    "nonExample": "The ant carried a crumb of bread to its nest.",
+    "explanation": "An ant and a crumb are tiny. Enormous means very, very big, like a whale or a mountain.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🐜",
+      "🍞"
+     ],
+     "setting": "nature"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "huge",
+     "giant"
+    ],
+    "antonyms": [
+     "tiny",
+     "small"
+    ],
+    "family": [
+     "enormously"
+    ]
+   },
+   "forms": [
+    "enormous"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "enormous.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is enormous?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a ladybug sitting on a little leaf"
+      },
+      {
+       "id": "b",
+       "text": "a mountain as tall as the clouds"
+      },
+      {
+       "id": "c",
+       "text": "a button on a winter coat"
+      }
+     ],
+     "answer": "b",
+     "hint": "Enormous means very, very big. Which thing is the biggest?",
+     "explanation": "Enormous means very, very big. A mountain as tall as the clouds is enormous. A ladybug and a button are small.",
+     "wrong": {
+      "a": "A ladybug is tiny, the opposite of enormous.",
+      "c": "A button is small enough to hold in your fingers."
+     }
+    },
+    {
+     "id": "enormous.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The elephant left ___ footprints in the soft mud.",
+     "options": [
+      {
+       "id": "a",
+       "text": "enormous"
+      },
+      {
+       "id": "b",
+       "text": "tiny"
+      },
+      {
+       "id": "c",
+       "text": "invisible"
+      },
+      {
+       "id": "d",
+       "text": "polite"
+      }
+     ],
+     "answer": "a",
+     "clue": "elephant",
+     "hint": "Think about how big an elephant's feet are.",
+     "explanation": "An elephant is a very big animal, so its footprints are enormous. Tiny is the opposite, and you could not see invisible footprints."
+    },
+    {
+     "id": "enormous.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"enormous\" in this sentence?",
+     "passage": "The baker made an enormous cake for the whole town.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sweet"
+      },
+      {
+       "id": "b",
+       "text": "small"
+      },
+      {
+       "id": "c",
+       "text": "round"
+      },
+      {
+       "id": "d",
+       "text": "huge"
+      }
+     ],
+     "answer": "d",
+     "hint": "The cake was for a whole town. Is it big or small?",
+     "explanation": "Huge means very big, just like enormous. A cake can be sweet or round, but those words are about taste and shape, not size."
+    },
+    {
+     "id": "enormous.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what enormous means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The pumpkin was enormous,"
+      },
+      {
+       "id": "c2",
+       "text": "so it took three kids"
+      },
+      {
+       "id": "c3",
+       "text": "to roll it home."
+      },
+      {
+       "id": "c4",
+       "text": "so it fit in my pocket."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Something enormous is very big. Which ending shows that?",
+     "explanation": "An enormous pumpkin is so big that three kids must roll it. Something that fits in a pocket is small, not enormous."
+    },
+    {
+     "id": "enormous.adj.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best describes the size of Mia's dog?",
+     "passage": "Mia's new dog is taller than she is when it stands up. It barely fits through the door.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tiny"
+      },
+      {
+       "id": "b",
+       "text": "enormous"
+      },
+      {
+       "id": "c",
+       "text": "sleepy"
+      },
+      {
+       "id": "d",
+       "text": "shiny"
+      }
+     ],
+     "answer": "b",
+     "clue": "taller than she is; barely fits through the door",
+     "hint": "Look at the clues about how big the dog is.",
+     "explanation": "\"Taller than she is\" and \"barely fits through the door\" tell us the dog is very, very big. That is enormous."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "gentle.adj.1",
+   "word": "gentle",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "JEN-tul",
+   "definition": "soft and careful, not rough",
+   "hero": {
+    "text": "Juniper used gentle hands to put the baby bird back in its nest.",
+    "scene": {
+     "pose": "kind",
+     "props": [
+      "🐦",
+      "🪺"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "Dad gave the new kitten a gentle pat on the head.",
+   "contrast": {
+    "nonExample": "Leo slammed the door so hard the pictures shook.",
+    "explanation": "Slamming is hard and loud. Gentle means soft and careful, so it does not hurt or break things.",
+    "scene": {
+     "pose": "angry",
+     "props": [
+      "🚪",
+      "💥"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "soft",
+     "tender"
+    ],
+    "antonyms": [
+     "rough",
+     "harsh"
+    ],
+    "family": [
+     "gently",
+     "gentleness"
+    ]
+   },
+   "forms": [
+    "gentle",
+    "gentler",
+    "gentlest"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "gentle.adj.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this an example of being gentle?",
+     "passage": "Ava holds the baby chick softly in her open hands.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is Ava being soft and careful?",
+     "explanation": "Yes. Holding the chick softly is gentle: soft and careful so nothing gets hurt."
+    },
+    {
+     "id": "gentle.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Please be ___ with the glass cup so it does not break.",
+     "options": [
+      {
+       "id": "a",
+       "text": "rough"
+      },
+      {
+       "id": "b",
+       "text": "loud"
+      },
+      {
+       "id": "c",
+       "text": "hungry"
+      },
+      {
+       "id": "d",
+       "text": "gentle"
+      }
+     ],
+     "answer": "d",
+     "clue": "so it does not break",
+     "hint": "What must you be so a glass cup does not break?",
+     "explanation": "\"So it does not break\" is the clue. Being gentle means soft and careful. Being rough could break the cup."
+    },
+    {
+     "id": "gentle.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"gentle\" in this sentence?",
+     "passage": "The gentle wind made the leaves dance slowly.",
+     "options": [
+      {
+       "id": "a",
+       "text": "rough"
+      },
+      {
+       "id": "b",
+       "text": "soft"
+      },
+      {
+       "id": "c",
+       "text": "green"
+      },
+      {
+       "id": "d",
+       "text": "happy"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means hard and not careful.",
+     "explanation": "Rough is the opposite of gentle. Soft means almost the same as gentle, so it is not the opposite."
+    },
+    {
+     "id": "gentle.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what gentle means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Sam brushed the old dog"
+      },
+      {
+       "id": "c2",
+       "text": "with slow, gentle strokes"
+      },
+      {
+       "id": "c3",
+       "text": "so it would feel calm."
+      },
+      {
+       "id": "c4",
+       "text": "so it would yelp and run."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Gentle touches make an animal feel safe.",
+     "explanation": "Slow, gentle strokes are soft and careful, so the dog feels calm. A dog would not yelp from a gentle brush."
+    },
+    {
+     "id": "gentle.adj.1#5",
+     "format": "dialogue",
+     "stage": "transfer",
+     "prompt": "Which line uses \"gentle\" the right way?",
+     "options": [
+      {
+       "id": "a",
+       "text": "\"Be gentle with the flowers, or the petals will fall off.\""
+      },
+      {
+       "id": "b",
+       "text": "\"Kick the ball as gentle and hard as you can!\""
+      },
+      {
+       "id": "c",
+       "text": "\"The gentle thunder made me jump out of bed.\""
+      }
+     ],
+     "answer": "a",
+     "hint": "Gentle means soft and careful. Which line is about being careful?",
+     "explanation": "Flowers break easily, so you must be gentle with them. Kicking \"as hard as you can\" is not gentle, and thunder that makes you jump is loud, not gentle."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "notice.verb.1",
+   "word": "notice",
+   "grade": 2,
+   "pos": "verb",
+   "say": "NOH-tis",
+   "definition": "to see or hear something and pay attention to it",
+   "hero": {
+    "text": "Pixel noticed a tiny crack in the bridge and called for help.",
+    "scene": {
+     "pose": "pointing",
+     "props": [
+      "🌉",
+      "🔍"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "Did you notice that Grandma got a new haircut?",
+   "contrast": {
+    "nonExample": "Ben walked right past the rainbow without looking up.",
+    "explanation": "Ben did not see the rainbow at all. To notice, you must see or hear something and pay attention to it.",
+    "scene": {
+     "pose": "neutral",
+     "props": [
+      "🌈",
+      "🚶"
+     ],
+     "setting": "street"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "see",
+     "spot"
+    ],
+    "antonyms": [
+     "miss",
+     "ignore"
+    ],
+    "family": [
+     "noticed",
+     "noticing",
+     "noticeable"
+    ]
+   },
+   "forms": [
+    "notice",
+    "notices",
+    "noticed",
+    "noticing"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "notice.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person noticed something?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Zoe sleeps through the whole storm."
+      },
+      {
+       "id": "b",
+       "text": "Leo sees that his friend looks sad."
+      },
+      {
+       "id": "c",
+       "text": "Mia forgets her lunch at home."
+      }
+     ],
+     "answer": "b",
+     "hint": "To notice is to see something and pay attention to it.",
+     "explanation": "Leo sees his friend looks sad and pays attention to it. That is noticing. Zoe was asleep, so she did not notice the storm.",
+     "wrong": {
+      "a": "Zoe was asleep, so she missed the storm.",
+      "c": "Forgetting is not the same as seeing something."
+     }
+    },
+    {
+     "id": "notice.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "I did not ___ the spider until it crawled onto my shoe.",
+     "options": [
+      {
+       "id": "a",
+       "text": "notice"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "scrub"
+      },
+      {
+       "id": "d",
+       "text": "repair"
+      }
+     ],
+     "answer": "a",
+     "clue": "until it crawled onto my shoe",
+     "hint": "When did you finally see the spider?",
+     "explanation": "\"Until it crawled onto my shoe\" shows you did not see the spider before. Notice means to see and pay attention."
+    },
+    {
+     "id": "notice.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Does this show someone noticing?",
+     "passage": "Kim spots a red bird on the fence and points at it.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did Kim see something and pay attention to it?",
+     "explanation": "Yes. Kim spots the bird and points, so she noticed it and paid attention."
+    },
+    {
+     "id": "notice.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what notice means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Owen noticed"
+      },
+      {
+       "id": "c2",
+       "text": "that the plant looked droopy,"
+      },
+      {
+       "id": "c3",
+       "text": "so he gave it some water."
+      },
+      {
+       "id": "c4",
+       "text": "so he never looked at it."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "When you notice something, you see it and pay attention.",
+     "explanation": "Owen sees the droopy plant and does something about it. \"Never looked at it\" means he did not notice."
+    },
+    {
+     "id": "notice.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what the teacher did?",
+     "passage": "The teacher saw that one seat was empty. She asked, \"Where is Rosa today?\"",
+     "options": [
+      {
+       "id": "a",
+       "text": "whispered"
+      },
+      {
+       "id": "b",
+       "text": "noticed"
+      },
+      {
+       "id": "c",
+       "text": "tumbled"
+      },
+      {
+       "id": "d",
+       "text": "forgot"
+      }
+     ],
+     "answer": "b",
+     "clue": "saw that one seat was empty",
+     "hint": "The teacher saw something and asked about it.",
+     "explanation": "\"Saw that one seat was empty\" and then asked about it shows she paid attention. That is noticed."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "brave.adj.1",
+   "word": "brave",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "BRAYV",
+   "definition": "ready to do something hard or scary",
+   "hero": {
+    "text": "Bolt was brave and ran into the dark cave to find the lost puppy.",
+    "scene": {
+     "pose": "determined",
+     "props": [
+      "🐶",
+      "🕳️"
+     ],
+     "setting": "night"
+    }
+   },
+   "everyday": "Lily was brave at the dentist, even though she was nervous.",
+   "contrast": {
+    "nonExample": "Max hid under his blanket and would not come out.",
+    "explanation": "Max stayed hidden because he was scared. A brave person feels scared sometimes but still does the hard thing.",
+    "scene": {
+     "pose": "scared",
+     "props": [
+      "🛏️",
+      "😨"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "bold",
+     "fearless"
+    ],
+    "antonyms": [
+     "afraid",
+     "fearful"
+    ],
+    "family": [
+     "bravely",
+     "bravery"
+    ]
+   },
+   "forms": [
+    "brave",
+    "braver",
+    "bravest"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "brave.adj.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this person being brave?",
+     "passage": "Noah is scared of the big slide, but he climbs up and slides down.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did Noah do the scary thing anyway?",
+     "explanation": "Yes. Noah felt scared but still went down the slide. Being brave means doing something hard or scary."
+    },
+    {
+     "id": "brave.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The ___ firefighter climbed the tall ladder to save the cat.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sleepy"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "brave"
+      },
+      {
+       "id": "d",
+       "text": "empty"
+      }
+     ],
+     "answer": "c",
+     "clue": "climbed the tall ladder to save the cat",
+     "hint": "What kind of person climbs a tall ladder to save someone?",
+     "explanation": "Climbing a tall ladder to save a cat is hard and scary. That takes a brave person."
+    },
+    {
+     "id": "brave.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"brave\" in this sentence?",
+     "passage": "The brave girl sang alone on the big stage.",
+     "options": [
+      {
+       "id": "a",
+       "text": "bold"
+      },
+      {
+       "id": "b",
+       "text": "afraid"
+      },
+      {
+       "id": "c",
+       "text": "tall"
+      },
+      {
+       "id": "d",
+       "text": "kind"
+      }
+     ],
+     "answer": "b",
+     "hint": "Which word means full of fear?",
+     "explanation": "Afraid is the opposite of brave. Bold means almost the same as brave."
+    },
+    {
+     "id": "brave.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what brave means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Even though the water was deep,"
+      },
+      {
+       "id": "c2",
+       "text": "Ella bravely jumped in"
+      },
+      {
+       "id": "c3",
+       "text": "for her first swim lesson."
+      },
+      {
+       "id": "c4",
+       "text": "and ran away crying."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A brave person does the hard thing.",
+     "explanation": "Ella jumps in even though the water is deep, so she is brave. Running away is not brave."
+    },
+    {
+     "id": "brave.adj.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best describes Omar?",
+     "passage": "Omar was nervous to read his story out loud. He took a deep breath and read it to the whole class.",
+     "options": [
+      {
+       "id": "a",
+       "text": "grumpy"
+      },
+      {
+       "id": "b",
+       "text": "brave"
+      },
+      {
+       "id": "c",
+       "text": "lazy"
+      }
+     ],
+     "answer": "b",
+     "clue": "nervous; took a deep breath and read it",
+     "hint": "Omar was nervous but he still did it.",
+     "explanation": "Omar felt nervous but still read aloud. Doing something scary anyway is brave. Nothing shows he was grumpy or lazy."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "tiny.adj.1",
+   "word": "tiny",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "TY-nee",
+   "definition": "very, very small",
+   "hero": {
+    "text": "Pixel shrank down and became tiny enough to fit inside a teacup.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "☕",
+      "🔬"
+     ],
+     "setting": "lab"
+    }
+   },
+   "everyday": "The baby mouse had tiny pink toes.",
+   "contrast": {
+    "nonExample": "The giraffe stretched its long neck up to the treetops.",
+    "explanation": "A giraffe is very tall and big. Tiny means very, very small, like a seed or an ant.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🦒",
+      "🌳"
+     ],
+     "setting": "nature"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "little",
+     "small"
+    ],
+    "antonyms": [
+     "enormous",
+     "huge"
+    ],
+    "family": [
+     "tinier",
+     "tiniest"
+    ]
+   },
+   "forms": [
+    "tiny",
+    "tinier",
+    "tiniest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "tiny.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is tiny?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a big yellow school bus"
+      },
+      {
+       "id": "b",
+       "text": "a grain of sand"
+      },
+      {
+       "id": "c",
+       "text": "a house with three floors"
+      }
+     ],
+     "answer": "b",
+     "hint": "Tiny means very, very small.",
+     "explanation": "A grain of sand is very, very small, so it is tiny. A bus and a house are big."
+    },
+    {
+     "id": "tiny.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The seed was so ___ that I could barely see it in my hand.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tiny"
+      },
+      {
+       "id": "b",
+       "text": "heavy"
+      },
+      {
+       "id": "c",
+       "text": "loud"
+      },
+      {
+       "id": "d",
+       "text": "cozy"
+      }
+     ],
+     "answer": "a",
+     "clue": "could barely see it",
+     "hint": "If you can barely see something, how big is it?",
+     "explanation": "\"Could barely see it\" tells us the seed was very small. Tiny fits. Heavy is about weight, not size."
+    },
+    {
+     "id": "tiny.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"tiny\" in this sentence?",
+     "passage": "A tiny bug landed on my sandwich.",
+     "options": [
+      {
+       "id": "a",
+       "text": "huge"
+      },
+      {
+       "id": "b",
+       "text": "brown"
+      },
+      {
+       "id": "c",
+       "text": "fast"
+      },
+      {
+       "id": "d",
+       "text": "little"
+      }
+     ],
+     "answer": "d",
+     "hint": "Find the word that is about being small.",
+     "explanation": "Little means small, like tiny. Huge is the opposite. Brown and fast do not tell about size."
+    },
+    {
+     "id": "tiny.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what tiny means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The doll's shoes were tiny,"
+      },
+      {
+       "id": "c2",
+       "text": "only as big"
+      },
+      {
+       "id": "c3",
+       "text": "as my fingernail."
+      },
+      {
+       "id": "c4",
+       "text": "as a dinner plate."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Tiny things are very, very small.",
+     "explanation": "Something as big as a fingernail is tiny. Shoes as big as a dinner plate would be large, not tiny."
+    },
+    {
+     "id": "tiny.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this thing tiny?",
+     "passage": "Dad pointed to the whale. It was longer than our whole boat.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is a whale longer than a boat small or big?",
+     "explanation": "No. A whale longer than a boat is enormous, not tiny. Tiny means very, very small."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "gather.verb.1",
+   "word": "gather",
+   "grade": 2,
+   "pos": "verb",
+   "say": "GATH-er",
+   "definition": "to bring things or people together into one place",
+   "hero": {
+    "text": "Nova gathered all the lost kites and brought them back to the kids.",
+    "scene": {
+     "pose": "flying",
+     "props": [
+      "🪁",
+      "🪁",
+      "🪁"
+     ],
+     "setting": "sky"
+    }
+   },
+   "everyday": "We gathered pinecones in a basket at the park.",
+   "contrast": {
+    "nonExample": "Tom threw his blocks all over the floor.",
+    "explanation": "Throwing blocks all over spreads them apart. To gather is to bring things together into one place.",
+    "scene": {
+     "pose": "angry",
+     "props": [
+      "🧱",
+      "💥"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "collect",
+     "pick up"
+    ],
+    "antonyms": [
+     "scatter",
+     "spread out"
+    ],
+    "family": [
+     "gathered",
+     "gathering"
+    ]
+   },
+   "forms": [
+    "gather",
+    "gathers",
+    "gathered",
+    "gathering"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "gather.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"gather\" mean in this sentence?",
+     "passage": "The class will gather on the rug for story time.",
+     "options": [
+      {
+       "id": "a",
+       "text": "run away from each other"
+      },
+      {
+       "id": "b",
+       "text": "fall asleep quickly"
+      },
+      {
+       "id": "c",
+       "text": "come together in one place"
+      }
+     ],
+     "answer": "c",
+     "hint": "Where does the class go? All to one place, or apart?",
+     "explanation": "The class comes together on the rug. To gather is to come or bring together in one place."
+    },
+    {
+     "id": "gather.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "After the picnic, we ___ all the trash into one big bag.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sniffed"
+      },
+      {
+       "id": "b",
+       "text": "gathered"
+      },
+      {
+       "id": "c",
+       "text": "repaired"
+      },
+      {
+       "id": "d",
+       "text": "borrowed"
+      }
+     ],
+     "answer": "b",
+     "clue": "into one big bag",
+     "hint": "The trash all ends up in one bag.",
+     "explanation": "\"Into one big bag\" shows the trash was brought together. That is gathered."
+    },
+    {
+     "id": "gather.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of gathering?",
+     "passage": "The wind blew the leaves all over the yard.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Did the leaves come together or spread apart?",
+     "explanation": "No. The wind spread the leaves apart. Gathering means bringing things together into one place."
+    },
+    {
+     "id": "gather.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what gather means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The hens"
+      },
+      {
+       "id": "c2",
+       "text": "gathered around the farmer"
+      },
+      {
+       "id": "c3",
+       "text": "when he brought their food."
+      },
+      {
+       "id": "c4",
+       "text": "and ran far away from him."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "To gather is to come together in one place.",
+     "explanation": "The hens come together around the farmer, so they gathered. Running far away is the opposite."
+    },
+    {
+     "id": "gather.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word fits what Jada did?",
+     "passage": "Jada picked up every crayon from the floor and put them all back in the box.",
+     "options": [
+      {
+       "id": "a",
+       "text": "gathered"
+      },
+      {
+       "id": "b",
+       "text": "scattered"
+      },
+      {
+       "id": "c",
+       "text": "whispered"
+      },
+      {
+       "id": "d",
+       "text": "shivered"
+      }
+     ],
+     "answer": "a",
+     "clue": "picked up every crayon; all back in the box",
+     "hint": "Jada brought all the crayons together into one box.",
+     "explanation": "\"Picked up every crayon\" and \"all back in the box\" show she brought them together. That is gathered. Scattered means the opposite."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "shiver.verb.1",
+   "word": "shiver",
+   "grade": 2,
+   "pos": "verb",
+   "say": "SHIV-er",
+   "definition": "to shake a little because you are cold or scared",
+   "hero": {
+    "text": "Kai shivered on the icy mountain until Bolt brought him a warm blanket.",
+    "scene": {
+     "pose": "scared",
+     "props": [
+      "🏔️",
+      "❄️"
+     ],
+     "setting": "nature"
+    }
+   },
+   "everyday": "I shivered at the bus stop on the snowy morning.",
+   "contrast": {
+    "nonExample": "Ana sat by the warm fire and sipped hot cocoa.",
+    "explanation": "Ana is warm and comfy, so she is still. You shiver when you shake because you are cold or scared.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🔥",
+      "☕"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "shake",
+     "tremble"
+    ],
+    "antonyms": [],
+    "family": [
+     "shivered",
+     "shivering",
+     "shivery"
+    ]
+   },
+   "forms": [
+    "shiver",
+    "shivers",
+    "shivered",
+    "shivering"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "shiver.verb.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Does this show someone who would shiver?",
+     "passage": "Eli forgot his coat, and the wind was icy cold.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "What does your body do when you are very cold?",
+     "explanation": "Yes. When you are cold, your body shakes a little. That is shivering."
+    },
+    {
+     "id": "shiver.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The wet puppy began to ___ after its cold bath.",
+     "options": [
+      {
+       "id": "a",
+       "text": "giggle"
+      },
+      {
+       "id": "b",
+       "text": "shiver"
+      },
+      {
+       "id": "c",
+       "text": "sparkle"
+      },
+      {
+       "id": "d",
+       "text": "borrow"
+      }
+     ],
+     "answer": "b",
+     "clue": "wet; cold bath",
+     "hint": "What does a wet, cold puppy do?",
+     "explanation": "\"Wet\" and \"cold bath\" are the clues. A cold puppy shakes, so it begins to shiver."
+    },
+    {
+     "id": "shiver.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"shiver\" in this sentence?",
+     "passage": "The scary noise made me shiver.",
+     "options": [
+      {
+       "id": "a",
+       "text": "laugh"
+      },
+      {
+       "id": "b",
+       "text": "sleep"
+      },
+      {
+       "id": "c",
+       "text": "shake"
+      },
+      {
+       "id": "d",
+       "text": "sing"
+      }
+     ],
+     "answer": "c",
+     "hint": "Shivering is a kind of moving your body.",
+     "explanation": "Shake means almost the same as shiver. Scary things and cold things can both make you shiver."
+    },
+    {
+     "id": "shiver.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what shiver means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Lucy shivered"
+      },
+      {
+       "id": "c2",
+       "text": "in the cold pool"
+      },
+      {
+       "id": "c3",
+       "text": "and wrapped up in a towel."
+      },
+      {
+       "id": "c4",
+       "text": "and said she felt too hot."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "People shiver when they are cold.",
+     "explanation": "Lucy is in a cold pool, so she shivers and wants a towel. You do not shiver when you feel too hot."
+    },
+    {
+     "id": "shiver.verb.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best tells what Ray did?",
+     "passage": "Ray stood outside in the snow. His teeth chattered and his arms shook.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stretched"
+      },
+      {
+       "id": "b",
+       "text": "giggled"
+      },
+      {
+       "id": "c",
+       "text": "shivered"
+      }
+     ],
+     "answer": "c",
+     "clue": "teeth chattered; arms shook",
+     "hint": "Chattering teeth and shaking arms happen when you are cold.",
+     "explanation": "\"Teeth chattered\" and \"arms shook\" in the snow show Ray was cold and shaking. That is shivered."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "peek.verb.1",
+   "word": "peek",
+   "grade": 2,
+   "pos": "verb",
+   "say": "PEEK",
+   "definition": "to take a quick, small look, often secretly",
+   "hero": {
+    "text": "Pixel peeked around the corner to see where the robot went.",
+    "scene": {
+     "pose": "sneaky",
+     "props": [
+      "🤖",
+      "👀"
+     ],
+     "setting": "street"
+    }
+   },
+   "everyday": "No peeking until I say your birthday present is ready!",
+   "contrast": {
+    "nonExample": "Grandpa stared at the painting for a whole hour.",
+    "explanation": "Staring for an hour is a long look. A peek is a quick, small look.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🖼️",
+      "⏰"
+     ],
+     "setting": "stage"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "glance",
+     "peep"
+    ],
+    "antonyms": [
+     "stare"
+    ],
+    "family": [
+     "peeked",
+     "peeking"
+    ]
+   },
+   "forms": [
+    "peek",
+    "peeks",
+    "peeked",
+    "peeking"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "peek.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"peek\" mean in this sentence?",
+     "passage": "Sara tried to peek at the cookies in the oven.",
+     "options": [
+      {
+       "id": "a",
+       "text": "eat very fast"
+      },
+      {
+       "id": "b",
+       "text": "shout loudly"
+      },
+      {
+       "id": "c",
+       "text": "take a quick look"
+      }
+     ],
+     "answer": "c",
+     "hint": "A peek is something you do with your eyes.",
+     "explanation": "To peek is to take a quick, small look. Sara wants a quick look at the cookies."
+    },
+    {
+     "id": "peek.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "During hide-and-seek, Jon covered his eyes and did not ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hurry"
+      },
+      {
+       "id": "b",
+       "text": "peek"
+      },
+      {
+       "id": "c",
+       "text": "scrub"
+      },
+      {
+       "id": "d",
+       "text": "gather"
+      }
+     ],
+     "answer": "b",
+     "clue": "covered his eyes",
+     "hint": "In hide-and-seek, you should not look while others hide.",
+     "explanation": "\"Covered his eyes\" is the clue. Jon did not take a quick secret look, so he did not peek."
+    },
+    {
+     "id": "peek.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of peeking?",
+     "passage": "Lena opened one eye for just a second to see the surprise.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Was it a quick, small look?",
+     "explanation": "Yes. Opening one eye for just a second is a quick, secret look. That is peeking."
+    },
+    {
+     "id": "peek.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what peek means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The shy kitten"
+      },
+      {
+       "id": "c2",
+       "text": "peeked out from under the bed"
+      },
+      {
+       "id": "c3",
+       "text": "for just a moment."
+      },
+      {
+       "id": "c4",
+       "text": "for the whole afternoon."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A peek is quick.",
+     "explanation": "A peek lasts just a moment. Looking for the whole afternoon is a long look, not a peek."
+    },
+    {
+     "id": "peek.verb.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best fits the sentence?",
+     "passage": "Mom told us not to ___ at our gifts, so we only looked for one tiny second.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stare"
+      },
+      {
+       "id": "b",
+       "text": "peek"
+      },
+      {
+       "id": "c",
+       "text": "sniff"
+      }
+     ],
+     "answer": "b",
+     "clue": "one tiny second",
+     "hint": "Which word means a quick look?",
+     "explanation": "\"Only looked for one tiny second\" shows a quick look. That is a peek. Stare means a long look."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "giggle.verb.1",
+   "word": "giggle",
+   "grade": 2,
+   "pos": "verb",
+   "say": "GIG-ul",
+   "definition": "to laugh in a quick, silly, light way",
+   "hero": {
+    "text": "Juniper giggled when the puppy licked her nose.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "🐶",
+      "😆"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "The kids giggled when the clown's hat fell off.",
+   "contrast": {
+    "nonExample": "Ella cried when she dropped her ice cream.",
+    "explanation": "Crying is what you do when you are sad. Giggling is a light, silly laugh when something is funny.",
+    "scene": {
+     "pose": "sad",
+     "props": [
+      "🍦",
+      "😢"
+     ],
+     "setting": "street"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "laugh",
+     "chuckle"
+    ],
+    "antonyms": [
+     "cry"
+    ],
+    "family": [
+     "giggled",
+     "giggling",
+     "giggly"
+    ]
+   },
+   "forms": [
+    "giggle",
+    "giggles",
+    "giggled",
+    "giggling"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "giggle.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person giggles?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ben frowns at his broken toy."
+      },
+      {
+       "id": "b",
+       "text": "Ali yawns in his bed."
+      },
+      {
+       "id": "c",
+       "text": "Kim laughs at a silly joke."
+      }
+     ],
+     "answer": "c",
+     "hint": "A giggle is a quick, silly laugh.",
+     "explanation": "Kim laughs at a silly joke. That is a giggle. Frowning and yawning are not laughing."
+    },
+    {
+     "id": "giggle.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The funny puppet made all the little kids ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "shiver"
+      },
+      {
+       "id": "b",
+       "text": "repair"
+      },
+      {
+       "id": "c",
+       "text": "borrow"
+      },
+      {
+       "id": "d",
+       "text": "giggle"
+      }
+     ],
+     "answer": "d",
+     "clue": "funny",
+     "hint": "What do kids do when something is funny?",
+     "explanation": "\"Funny puppet\" is the clue. Funny things make kids giggle."
+    },
+    {
+     "id": "giggle.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of giggling?",
+     "passage": "Tia and Mo laughed quietly when the dog wore Dad's hat.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did they laugh because something was silly?",
+     "explanation": "Yes. A dog in a hat is silly, and they laughed quietly. That is giggling."
+    },
+    {
+     "id": "giggle.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what giggle means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "My baby sister giggles"
+      },
+      {
+       "id": "c2",
+       "text": "when I tickle her feet"
+      },
+      {
+       "id": "c3",
+       "text": "and make funny faces."
+      },
+      {
+       "id": "c4",
+       "text": "and take her toys away."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Babies giggle at fun, silly things.",
+     "explanation": "Tickling and funny faces make a baby giggle. Taking toys away would make her cry, not giggle."
+    },
+    {
+     "id": "giggle.verb.1#5",
+     "format": "synonym",
+     "stage": "transfer",
+     "prompt": "Which word is the OPPOSITE of \"giggled\" in this sentence?",
+     "passage": "We giggled at the silly cartoon.",
+     "options": [
+      {
+       "id": "a",
+       "text": "laughed"
+      },
+      {
+       "id": "b",
+       "text": "watched"
+      },
+      {
+       "id": "c",
+       "text": "cried"
+      },
+      {
+       "id": "d",
+       "text": "smiled"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word for what you do when you are sad.",
+     "explanation": "Cried is the opposite of giggled. Laughed means almost the same as giggled, so it is not the opposite."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "grumpy.adj.1",
+   "word": "grumpy",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "GRUM-pee",
+   "definition": "in a bad mood and easily annoyed",
+   "hero": {
+    "text": "Rex was grumpy until he got a snack after the long mission.",
+    "scene": {
+     "pose": "angry",
+     "props": [
+      "🍎",
+      "😠"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "Our cat gets grumpy when we wake her up from her nap.",
+   "contrast": {
+    "nonExample": "Nina smiled and said good morning to everyone.",
+    "explanation": "Nina is cheerful and friendly. A grumpy person is in a bad mood and gets annoyed easily.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "☀️",
+      "👋"
+     ],
+     "setting": "school"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "cranky",
+     "crabby"
+    ],
+    "antonyms": [
+     "cheerful",
+     "happy"
+    ],
+    "family": [
+     "grumpier",
+     "grumpiest",
+     "grumpily"
+    ]
+   },
+   "forms": [
+    "grumpy",
+    "grumpier",
+    "grumpiest"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "grumpy.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person is grumpy?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Pia grumbles and says, \"Leave me alone!\""
+      },
+      {
+       "id": "b",
+       "text": "Sam hums a happy song."
+      },
+      {
+       "id": "c",
+       "text": "Jay shares his cookies with a friend."
+      }
+     ],
+     "answer": "a",
+     "hint": "Grumpy means in a bad mood.",
+     "explanation": "Pia grumbles and wants to be left alone. She is in a bad mood, so she is grumpy. Sam and Jay are in good moods."
+    },
+    {
+     "id": "grumpy.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Leo was tired and hungry, so he felt ___ all afternoon.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cheerful"
+      },
+      {
+       "id": "b",
+       "text": "sparkly"
+      },
+      {
+       "id": "c",
+       "text": "grumpy"
+      },
+      {
+       "id": "d",
+       "text": "enormous"
+      }
+     ],
+     "answer": "c",
+     "clue": "tired and hungry",
+     "hint": "How do people often feel when they are tired and hungry?",
+     "explanation": "\"Tired and hungry\" often puts people in a bad mood. Grumpy fits. Cheerful means the opposite."
+    },
+    {
+     "id": "grumpy.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"grumpy\" in this sentence?",
+     "passage": "The grumpy man shouted at the birds on his roof.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sleepy"
+      },
+      {
+       "id": "b",
+       "text": "cranky"
+      },
+      {
+       "id": "c",
+       "text": "funny"
+      },
+      {
+       "id": "d",
+       "text": "gentle"
+      }
+     ],
+     "answer": "b",
+     "hint": "Find the word that means a bad mood.",
+     "explanation": "Cranky means in a bad mood, just like grumpy. Gentle and funny do not fit a man shouting."
+    },
+    {
+     "id": "grumpy.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what grumpy means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Grandpa gets grumpy"
+      },
+      {
+       "id": "c2",
+       "text": "when his tea gets cold,"
+      },
+      {
+       "id": "c3",
+       "text": "so we make him a fresh cup."
+      },
+      {
+       "id": "c4",
+       "text": "so he sings and dances."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A grumpy person is in a bad mood.",
+     "explanation": "Cold tea puts Grandpa in a bad mood, so a fresh cup helps. Singing and dancing show a happy mood, not grumpy."
+    },
+    {
+     "id": "grumpy.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this person grumpy?",
+     "passage": "Ivy laughed and hugged her friends at the party.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is Ivy in a bad mood or a good mood?",
+     "explanation": "No. Ivy is laughing and hugging, so she is happy. Grumpy means in a bad mood and easily annoyed."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "rescue.verb.1",
+   "word": "rescue",
+   "grade": 2,
+   "pos": "verb",
+   "say": "RES-kyoo",
+   "definition": "to save someone or something from danger or trouble",
+   "hero": {
+    "text": "Nova flew down to rescue the kitten stuck on the high roof.",
+    "scene": {
+     "pose": "flying",
+     "props": [
+      "🐱",
+      "🏠"
+     ],
+     "setting": "sky"
+    }
+   },
+   "everyday": "The lifeguard swam out to rescue a boy who was too far from shore.",
+   "contrast": {
+    "nonExample": "Pat put the kitten on the high roof and walked away.",
+    "explanation": "Leaving the kitten in danger is the opposite of helping. To rescue is to save someone from danger or trouble.",
+    "scene": {
+     "pose": "sneaky",
+     "props": [
+      "🐱",
+      "🏠"
+     ],
+     "setting": "street"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "save",
+     "free"
+    ],
+    "antonyms": [
+     "abandon"
+    ],
+    "family": [
+     "rescued",
+     "rescuer",
+     "rescuing"
+    ]
+   },
+   "forms": [
+    "rescue",
+    "rescues",
+    "rescued",
+    "rescuing"
+   ],
+   "tags": [
+    "everyday",
+    "social"
+   ],
+   "items": [
+    {
+     "id": "rescue.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person rescues someone?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Max eats a snack on the porch."
+      },
+      {
+       "id": "b",
+       "text": "Liz paints a picture of a boat."
+      },
+      {
+       "id": "c",
+       "text": "Joy pulls her friend out of the deep mud."
+      }
+     ],
+     "answer": "c",
+     "hint": "To rescue is to save someone from trouble.",
+     "explanation": "Joy pulls her friend out of deep mud, saving him from trouble. That is a rescue."
+    },
+    {
+     "id": "rescue.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The farmer climbed into the ditch to ___ the trapped lamb.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tickle"
+      },
+      {
+       "id": "b",
+       "text": "scrub"
+      },
+      {
+       "id": "c",
+       "text": "borrow"
+      },
+      {
+       "id": "d",
+       "text": "rescue"
+      }
+     ],
+     "answer": "d",
+     "clue": "trapped",
+     "hint": "The lamb is trapped. What does it need?",
+     "explanation": "\"Trapped\" means the lamb is in trouble. The farmer climbs in to save it. That is rescue."
+    },
+    {
+     "id": "rescue.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"rescued\" in this sentence?",
+     "passage": "Dad rescued my balloon before it floated away.",
+     "options": [
+      {
+       "id": "a",
+       "text": "saved"
+      },
+      {
+       "id": "b",
+       "text": "popped"
+      },
+      {
+       "id": "c",
+       "text": "painted"
+      },
+      {
+       "id": "d",
+       "text": "lost"
+      }
+     ],
+     "answer": "a",
+     "hint": "Did Dad help the balloon or hurt it?",
+     "explanation": "Saved means almost the same as rescued. Popped and lost would mean the balloon was not rescued."
+    },
+    {
+     "id": "rescue.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what rescue means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The firefighters rescued"
+      },
+      {
+       "id": "c2",
+       "text": "the family from the smoky house"
+      },
+      {
+       "id": "c3",
+       "text": "and carried them to safety."
+      },
+      {
+       "id": "c4",
+       "text": "and left them inside."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A rescue brings someone to safety.",
+     "explanation": "Rescuing means saving someone from danger, so they are carried to safety. Leaving them inside is not a rescue."
+    },
+    {
+     "id": "rescue.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what Ruby did?",
+     "passage": "A beetle fell into the puddle and could not get out. Ruby scooped it up with a leaf and set it on dry ground.",
+     "options": [
+      {
+       "id": "a",
+       "text": "noticed"
+      },
+      {
+       "id": "b",
+       "text": "tumbled"
+      },
+      {
+       "id": "c",
+       "text": "rescued"
+      },
+      {
+       "id": "d",
+       "text": "scrubbed"
+      }
+     ],
+     "answer": "c",
+     "clue": "could not get out; set it on dry ground",
+     "hint": "The beetle was in trouble. What did Ruby do?",
+     "explanation": "The beetle \"could not get out\" and Ruby set it \"on dry ground.\" She saved it from trouble, so she rescued it. She noticed it too, but rescued tells what she did to help."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "careful.adj.1",
+   "word": "careful",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "KAIR-ful",
+   "definition": "paying close attention so you do not make a mistake or get hurt",
+   "hero": {
+    "text": "Bolt was careful as he carried the glass trophy down the stairs.",
+    "scene": {
+     "pose": "determined",
+     "props": [
+      "🏆",
+      "🪜"
+     ],
+     "setting": "school"
+    }
+   },
+   "everyday": "Be careful when you cut with the sharp scissors.",
+   "contrast": {
+    "nonExample": "Ty ran down the wet hallway without looking.",
+    "explanation": "Running on a wet floor without looking is not paying attention. Careful means paying close attention so you do not get hurt.",
+    "scene": {
+     "pose": "running",
+     "props": [
+      "💦",
+      "⚠️"
+     ],
+     "setting": "school"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "cautious"
+    ],
+    "antonyms": [
+     "careless",
+     "reckless"
+    ],
+    "family": [
+     "carefully",
+     "care",
+     "careless"
+    ]
+   },
+   "forms": [
+    "careful"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "careful.adj.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this person being careful?",
+     "passage": "Mia holds the rail and walks slowly down the icy steps.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is Mia paying close attention so she won't fall?",
+     "explanation": "Yes. Holding the rail and walking slowly on ice shows close attention. That is careful."
+    },
+    {
+     "id": "careful.adj.1#2",
+     "format": "word_parts",
+     "stage": "independent",
+     "prompt": "\"Careful\" is made of \"care\" + \"-ful.\" The ending \"-ful\" means \"full of.\" So careful means:",
+     "options": [
+      {
+       "id": "a",
+       "text": "full of care and attention"
+      },
+      {
+       "id": "b",
+       "text": "without any care"
+      },
+      {
+       "id": "c",
+       "text": "very fast and loud"
+      }
+     ],
+     "answer": "a",
+     "hint": "Put the parts together: full of + care.",
+     "explanation": "-ful means full of, so careful means full of care. A careful person pays close attention. \"Without any care\" is careless."
+    },
+    {
+     "id": "careful.adj.1#3",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Grandma is ___ when she takes the hot pan out of the oven.",
+     "options": [
+      {
+       "id": "a",
+       "text": "grumpy"
+      },
+      {
+       "id": "b",
+       "text": "chilly"
+      },
+      {
+       "id": "c",
+       "text": "hollow"
+      },
+      {
+       "id": "d",
+       "text": "careful"
+      }
+     ],
+     "answer": "d",
+     "clue": "hot pan",
+     "hint": "What should you be with a hot pan?",
+     "explanation": "A hot pan can burn you, so Grandma pays close attention. She is careful."
+    },
+    {
+     "id": "careful.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what careful means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Omar carefully"
+      },
+      {
+       "id": "c2",
+       "text": "carried the full fishbowl"
+      },
+      {
+       "id": "c3",
+       "text": "so no water spilled."
+      },
+      {
+       "id": "c4",
+       "text": "and splashed water everywhere."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Careful people try not to make mistakes.",
+     "explanation": "Carrying the bowl carefully means no water spills. Splashing water everywhere is careless."
+    },
+    {
+     "id": "careful.adj.1#5",
+     "format": "dialogue",
+     "stage": "transfer",
+     "prompt": "Which line uses \"careful\" the right way?",
+     "options": [
+      {
+       "id": "a",
+       "text": "\"I was careful, so I dropped every egg.\""
+      },
+      {
+       "id": "b",
+       "text": "\"The careful puppy ran into the wall.\""
+      },
+      {
+       "id": "c",
+       "text": "\"Be careful, that plate is very hot!\""
+      }
+     ],
+     "answer": "c",
+     "hint": "Careful means paying attention so you don't get hurt.",
+     "explanation": "Warning someone about a hot plate asks them to pay attention so they don't get hurt. Dropping every egg and running into a wall are not careful."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "whisper.verb.1",
+   "word": "whisper",
+   "grade": 2,
+   "pos": "verb",
+   "say": "WIS-per",
+   "definition": "to speak very softly and quietly",
+   "hero": {
+    "text": "Juniper whispered the secret plan so the villain could not hear.",
+    "scene": {
+     "pose": "talking",
+     "props": [
+      "🤫",
+      "👂"
+     ],
+     "second": "listening",
+     "setting": "night"
+    }
+   },
+   "everyday": "We whisper in the library so others can read.",
+   "contrast": {
+    "nonExample": "Coach yelled, \"Run faster!\" across the field.",
+    "explanation": "Yelling is very loud. Whispering is speaking very softly so only someone close can hear.",
+    "scene": {
+     "pose": "talking",
+     "props": [
+      "📣",
+      "⚽"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "murmur"
+    ],
+    "antonyms": [
+     "shout",
+     "yell"
+    ],
+    "family": [
+     "whispered",
+     "whispering"
+    ]
+   },
+   "forms": [
+    "whisper",
+    "whispers",
+    "whispered",
+    "whispering"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "whisper.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"whisper\" mean in this sentence?",
+     "passage": "Please whisper so you don't wake the baby.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sing very loudly"
+      },
+      {
+       "id": "b",
+       "text": "talk very softly"
+      },
+      {
+       "id": "c",
+       "text": "clap your hands"
+      }
+     ],
+     "answer": "b",
+     "hint": "How do you talk when a baby is sleeping?",
+     "explanation": "To whisper is to speak very softly. You whisper so the baby stays asleep."
+    },
+    {
+     "id": "whisper.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Ava leaned close to ___ the answer in my ear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whisper"
+      },
+      {
+       "id": "b",
+       "text": "shout"
+      },
+      {
+       "id": "c",
+       "text": "sniff"
+      },
+      {
+       "id": "d",
+       "text": "scrub"
+      }
+     ],
+     "answer": "a",
+     "clue": "leaned close; in my ear",
+     "hint": "She leaned close to your ear. How loud does she need to be?",
+     "explanation": "\"Leaned close\" and \"in my ear\" show she talked very softly. That is whisper. Shouting in an ear would hurt!"
+    },
+    {
+     "id": "whisper.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"whispered\" in this sentence?",
+     "passage": "Tom whispered his name to the new teacher.",
+     "options": [
+      {
+       "id": "a",
+       "text": "said"
+      },
+      {
+       "id": "b",
+       "text": "spelled"
+      },
+      {
+       "id": "c",
+       "text": "wrote"
+      },
+      {
+       "id": "d",
+       "text": "shouted"
+      }
+     ],
+     "answer": "d",
+     "hint": "Find the word that means very loud.",
+     "explanation": "Shouted is the opposite of whispered. Said just means talked, so it is not the opposite."
+    },
+    {
+     "id": "whisper.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what whisper means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "At the movie,"
+      },
+      {
+       "id": "c2",
+       "text": "Kim whispered to her mom"
+      },
+      {
+       "id": "c3",
+       "text": "so she would not bother anyone."
+      },
+      {
+       "id": "c4",
+       "text": "as loud as she could."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "People whisper so others aren't bothered.",
+     "explanation": "Whispering is quiet, so it does not bother people. Talking \"as loud as she could\" is not a whisper."
+    },
+    {
+     "id": "whisper.verb.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this an example of whispering?",
+     "passage": "At the game, Jake cheered at the top of his lungs.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is Jake speaking softly or loudly?",
+     "explanation": "No. Cheering \"at the top of his lungs\" is very loud. Whispering means speaking very softly."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "sparkle.verb.1",
+   "word": "sparkle",
+   "grade": 2,
+   "pos": "verb",
+   "say": "SPAR-kul",
+   "definition": "to shine with many tiny flashes of light",
+   "hero": {
+    "text": "Pixel's new suit sparkled under the bright city lights.",
+    "scene": {
+     "pose": "proud",
+     "props": [
+      "✨",
+      "💡"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "The snow sparkled in the morning sun.",
+   "contrast": {
+    "nonExample": "The old rock sat in the dark cave, dull and gray.",
+    "explanation": "A dull rock in the dark gives no light. Things sparkle when they shine with many tiny flashes of light.",
+    "scene": {
+     "pose": "neutral",
+     "props": [
+      "🪨",
+      "🕳️"
+     ],
+     "setting": "night"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "glitter",
+     "twinkle",
+     "shine"
+    ],
+    "antonyms": [],
+    "family": [
+     "sparkled",
+     "sparkling",
+     "sparkly"
+    ]
+   },
+   "forms": [
+    "sparkle",
+    "sparkles",
+    "sparkled",
+    "sparkling"
+   ],
+   "tags": [
+    "everyday",
+    "arts"
+   ],
+   "items": [
+    {
+     "id": "sparkle.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing sparkles?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a muddy boot by the door"
+      },
+      {
+       "id": "b",
+       "text": "a shiny ring in the sunlight"
+      },
+      {
+       "id": "c",
+       "text": "a brown paper bag"
+      }
+     ],
+     "answer": "b",
+     "hint": "Sparkle means to shine with tiny flashes of light.",
+     "explanation": "A shiny ring in the sun flashes with light, so it sparkles. Mud and paper bags are not shiny."
+    },
+    {
+     "id": "sparkle.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "At night, the stars ___ in the dark sky.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sparkle"
+      },
+      {
+       "id": "b",
+       "text": "grumble"
+      },
+      {
+       "id": "c",
+       "text": "tumble"
+      },
+      {
+       "id": "d",
+       "text": "giggle"
+      }
+     ],
+     "answer": "a",
+     "clue": "stars; dark sky",
+     "hint": "What do stars do in the night sky?",
+     "explanation": "Stars shine with tiny flashes of light in the dark sky. They sparkle."
+    },
+    {
+     "id": "sparkle.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of sparkling?",
+     "passage": "The glitter on Ana's card flashed in the light.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did it shine with tiny flashes of light?",
+     "explanation": "Yes. Glitter that flashes in the light sparkles."
+    },
+    {
+     "id": "sparkle.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what sparkle means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The lake sparkled"
+      },
+      {
+       "id": "c2",
+       "text": "when the sun shone"
+      },
+      {
+       "id": "c3",
+       "text": "on the little waves."
+      },
+      {
+       "id": "c4",
+       "text": "on a cloudy, dark night."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Things sparkle when light hits them.",
+     "explanation": "Sunlight on waves makes tiny flashes, so the lake sparkles. On a dark night there is no light to sparkle."
+    },
+    {
+     "id": "sparkle.verb.1#5",
+     "format": "synonym",
+     "stage": "transfer",
+     "prompt": "Which word means almost the same as \"sparkled\" in this sentence?",
+     "passage": "Her new shoes sparkled when she danced.",
+     "options": [
+      {
+       "id": "a",
+       "text": "squeaked"
+      },
+      {
+       "id": "b",
+       "text": "glittered"
+      },
+      {
+       "id": "c",
+       "text": "ripped"
+      },
+      {
+       "id": "d",
+       "text": "fit"
+      }
+     ],
+     "answer": "b",
+     "hint": "Look for a word about shining.",
+     "explanation": "Glittered means shone with tiny flashes, just like sparkled. Squeaked is a sound, not light."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "tumble.verb.1",
+   "word": "tumble",
+   "grade": 2,
+   "pos": "verb",
+   "say": "TUM-bul",
+   "definition": "to fall down and roll over",
+   "hero": {
+    "text": "Rex tripped and tumbled down the grassy hill, then jumped up laughing.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "⛰️",
+      "🌀"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "The apples tumbled out of the basket and rolled across the floor.",
+   "contrast": {
+    "nonExample": "The cat sat still on the windowsill all morning.",
+    "explanation": "Sitting still is not moving at all. To tumble is to fall down and roll over.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🐱",
+      "🪟"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "fall",
+     "roll"
+    ],
+    "antonyms": [],
+    "family": [
+     "tumbled",
+     "tumbling"
+    ]
+   },
+   "forms": [
+    "tumble",
+    "tumbles",
+    "tumbled",
+    "tumbling"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "tumble.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"tumble\" mean in this sentence?",
+     "passage": "Be careful, or the blocks will tumble off the table.",
+     "options": [
+      {
+       "id": "a",
+       "text": "grow bigger"
+      },
+      {
+       "id": "b",
+       "text": "stay very still"
+      },
+      {
+       "id": "c",
+       "text": "fall and roll"
+      }
+     ],
+     "answer": "c",
+     "hint": "What happens to blocks that slide off a table?",
+     "explanation": "To tumble is to fall down and roll over. The blocks would fall off the table."
+    },
+    {
+     "id": "tumble.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The puppy tripped on its big paws and ___ into the pile of leaves.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whispered"
+      },
+      {
+       "id": "b",
+       "text": "tumbled"
+      },
+      {
+       "id": "c",
+       "text": "giggled"
+      },
+      {
+       "id": "d",
+       "text": "shivered"
+      }
+     ],
+     "answer": "b",
+     "clue": "tripped",
+     "hint": "The puppy tripped. What happened next?",
+     "explanation": "\"Tripped\" is the clue. When you trip, you fall and roll. The puppy tumbled."
+    },
+    {
+     "id": "tumble.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of tumbling?",
+     "passage": "The rocks fell and rolled down the side of the mountain.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did the rocks fall and roll?",
+     "explanation": "Yes. Falling and rolling down a mountain is tumbling."
+    },
+    {
+     "id": "tumble.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what tumble means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The tall tower of cups"
+      },
+      {
+       "id": "c2",
+       "text": "tumbled to the floor"
+      },
+      {
+       "id": "c3",
+       "text": "when the dog bumped the table."
+      },
+      {
+       "id": "c4",
+       "text": "and stayed perfectly in place."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "To tumble is to fall down.",
+     "explanation": "When the dog bumps the table, the cups fall and roll. Staying perfectly in place is not tumbling."
+    },
+    {
+     "id": "tumble.verb.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best fits the sentence?",
+     "passage": "The kids rolled over and over as they ___ down the soft, grassy hill.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tumbled"
+      },
+      {
+       "id": "b",
+       "text": "hurried"
+      },
+      {
+       "id": "c",
+       "text": "tiptoed"
+      }
+     ],
+     "answer": "a",
+     "clue": "rolled over and over",
+     "hint": "Which word means falling and rolling?",
+     "explanation": "\"Rolled over and over\" is the clue. Tumbled means falling and rolling. Hurried means moving fast, but not rolling."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "cozy.adj.1",
+   "word": "cozy",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "KOH-zee",
+   "definition": "warm, soft, and comfortable",
+   "hero": {
+    "text": "After the snowy rescue, Kai felt cozy in a blanket by the fire.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🔥",
+      "🛋️"
+     ],
+     "setting": "home"
+    }
+   },
+   "everyday": "My puppy sleeps in a cozy bed full of soft pillows.",
+   "contrast": {
+    "nonExample": "Ben sat on a cold, hard rock in the rain.",
+    "explanation": "A cold, hard, wet rock is not comfortable. Cozy means warm, soft, and comfortable.",
+    "scene": {
+     "pose": "sad",
+     "props": [
+      "🪨",
+      "🌧️"
+     ],
+     "setting": "nature"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "snug",
+     "comfy"
+    ],
+    "antonyms": [
+     "uncomfortable",
+     "chilly"
+    ],
+    "family": [
+     "cozier",
+     "coziest",
+     "coziness"
+    ]
+   },
+   "forms": [
+    "cozy",
+    "cozier",
+    "coziest"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "cozy.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which place is cozy?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a cold, wet tent with no blanket"
+      },
+      {
+       "id": "b",
+       "text": "a noisy street full of cars"
+      },
+      {
+       "id": "c",
+       "text": "a warm bed with fluffy pillows"
+      }
+     ],
+     "answer": "c",
+     "hint": "Cozy means warm, soft, and comfortable.",
+     "explanation": "A warm bed with fluffy pillows is warm, soft, and comfortable. It is cozy."
+    },
+    {
+     "id": "cozy.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "On rainy days, I curl up in my ___ blanket and read.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sticky"
+      },
+      {
+       "id": "b",
+       "text": "cozy"
+      },
+      {
+       "id": "c",
+       "text": "empty"
+      },
+      {
+       "id": "d",
+       "text": "rough"
+      }
+     ],
+     "answer": "b",
+     "clue": "curl up",
+     "hint": "Curling up to read sounds comfy. What kind of blanket?",
+     "explanation": "\"Curl up\" on a rainy day is about being comfortable. Cozy fits. A rough blanket would not be comfy."
+    },
+    {
+     "id": "cozy.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"cozy\" in this sentence?",
+     "passage": "The bear slept in a cozy den all winter.",
+     "options": [
+      {
+       "id": "a",
+       "text": "noisy"
+      },
+      {
+       "id": "b",
+       "text": "wet"
+      },
+      {
+       "id": "c",
+       "text": "snug"
+      },
+      {
+       "id": "d",
+       "text": "tall"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word that means warm and comfy.",
+     "explanation": "Snug means warm and comfortable, like cozy. Noisy and wet are not comfortable."
+    },
+    {
+     "id": "cozy.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what cozy means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The kitten felt cozy"
+      },
+      {
+       "id": "c2",
+       "text": "inside my warm sweater"
+      },
+      {
+       "id": "c3",
+       "text": "and fell fast asleep."
+      },
+      {
+       "id": "c4",
+       "text": "and shivered all night."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Cozy is warm and comfortable.",
+     "explanation": "A warm sweater is cozy, so the kitten sleeps. Shivering means it is cold, not cozy."
+    },
+    {
+     "id": "cozy.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this place cozy?",
+     "passage": "The waiting room had hard metal chairs and a cold breeze.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is it warm, soft, and comfortable?",
+     "explanation": "No. Hard chairs and a cold breeze are not comfortable. Cozy means warm, soft, and comfortable."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "hurry.verb.1",
+   "word": "hurry",
+   "grade": 2,
+   "pos": "verb",
+   "say": "HUR-ee",
+   "definition": "to move or do something fast",
+   "hero": {
+    "text": "Bolt had to hurry to catch the runaway train.",
+    "scene": {
+     "pose": "running",
+     "props": [
+      "🚂",
+      "💨"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "We had to hurry to catch the school bus.",
+   "contrast": {
+    "nonExample": "Grandpa strolled slowly through the garden.",
+    "explanation": "Strolling slowly is the opposite of rushing. To hurry is to move or do something fast.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🌷",
+      "🚶"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "rush",
+     "hustle"
+    ],
+    "antonyms": [
+     "dawdle",
+     "slow down"
+    ],
+    "family": [
+     "hurried",
+     "hurrying",
+     "hurriedly"
+    ]
+   },
+   "forms": [
+    "hurry",
+    "hurries",
+    "hurried",
+    "hurrying"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "hurry.verb.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this person hurrying?",
+     "passage": "Lily runs to the door because her ride is waiting.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is Lily moving fast?",
+     "explanation": "Yes. Lily runs because her ride is waiting. She is moving fast, so she is hurrying."
+    },
+    {
+     "id": "hurry.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "We need to ___ home before the rain starts.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hurry"
+      },
+      {
+       "id": "b",
+       "text": "wander"
+      },
+      {
+       "id": "c",
+       "text": "tiptoe"
+      },
+      {
+       "id": "d",
+       "text": "stroll"
+      }
+     ],
+     "answer": "a",
+     "clue": "before the rain starts",
+     "hint": "You want to get home before the rain. How fast should you go?",
+     "explanation": "\"Before the rain starts\" means there is not much time. You must go fast, so hurry fits. Wander, tiptoe, and stroll are all slow ways to move."
+    },
+    {
+     "id": "hurry.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"hurry\" in this sentence?",
+     "passage": "Hurry, or the movie will start without us!",
+     "options": [
+      {
+       "id": "a",
+       "text": "rest"
+      },
+      {
+       "id": "b",
+       "text": "wait"
+      },
+      {
+       "id": "c",
+       "text": "sleep"
+      },
+      {
+       "id": "d",
+       "text": "rush"
+      }
+     ],
+     "answer": "d",
+     "hint": "Which word means go fast?",
+     "explanation": "Rush means go fast, like hurry. Rest and wait mean going slowly or stopping."
+    },
+    {
+     "id": "hurry.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what hurry means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Mom hurried"
+      },
+      {
+       "id": "c2",
+       "text": "to the store"
+      },
+      {
+       "id": "c3",
+       "text": "before it closed for the night."
+      },
+      {
+       "id": "c4",
+       "text": "and took the slowest path."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "When you hurry, you move fast.",
+     "explanation": "Mom hurried because the store would close soon. Taking the slowest path is not hurrying."
+    },
+    {
+     "id": "hurry.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what Sam did?",
+     "passage": "The bell was about to ring. Sam grabbed his bag and ran fast down the hall to class.",
+     "options": [
+      {
+       "id": "a",
+       "text": "wandered"
+      },
+      {
+       "id": "b",
+       "text": "hurried"
+      },
+      {
+       "id": "c",
+       "text": "whispered"
+      },
+      {
+       "id": "d",
+       "text": "wobbled"
+      }
+     ],
+     "answer": "b",
+     "clue": "about to ring; ran fast",
+     "hint": "Sam is short on time and running fast.",
+     "explanation": "\"About to ring\" and \"ran fast\" show Sam moved quickly. That is hurried. Wandered means walking slowly with no plan."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "proud.adj.1",
+   "word": "proud",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "PROWD",
+   "definition": "feeling happy about something good you or someone else did",
+   "hero": {
+    "text": "Nova felt proud when the whole city cheered for her team.",
+    "scene": {
+     "pose": "proud",
+     "props": [
+      "🏅",
+      "👏"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "Jess was proud of the tall tower she built from blocks.",
+   "contrast": {
+    "nonExample": "Owen felt bad after he broke his sister's toy.",
+    "explanation": "Owen feels sorry, not happy, about what he did. Proud means feeling happy about something good you did.",
+    "scene": {
+     "pose": "sad",
+     "props": [
+      "🧸",
+      "💔"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "pleased"
+    ],
+    "antonyms": [
+     "ashamed"
+    ],
+    "family": [
+     "proudly",
+     "pride"
+    ]
+   },
+   "forms": [
+    "proud",
+    "prouder",
+    "proudest"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "proud.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person feels proud?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Leo spills his milk at lunch."
+      },
+      {
+       "id": "b",
+       "text": "Rita loses her favorite hat."
+      },
+      {
+       "id": "c",
+       "text": "Ella finally learns to ride her bike and smiles big."
+      }
+     ],
+     "answer": "c",
+     "hint": "Proud means happy about something good you did.",
+     "explanation": "Ella did something hard and good, and she smiles. She feels proud. Spilling milk and losing a hat are not things to feel proud of."
+    },
+    {
+     "id": "proud.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "My parents were ___ when I read my whole book out loud.",
+     "options": [
+      {
+       "id": "a",
+       "text": "chilly"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "proud"
+      },
+      {
+       "id": "d",
+       "text": "lonely"
+      }
+     ],
+     "answer": "c",
+     "clue": "read my whole book",
+     "hint": "Reading a whole book is a big job. How do parents feel?",
+     "explanation": "Reading a whole book is something good, so the parents feel happy about it. They are proud."
+    },
+    {
+     "id": "proud.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"proud\" in this sentence?",
+     "passage": "Ty was proud of his clean room.",
+     "options": [
+      {
+       "id": "a",
+       "text": "pleased"
+      },
+      {
+       "id": "b",
+       "text": "ashamed"
+      },
+      {
+       "id": "c",
+       "text": "busy"
+      },
+      {
+       "id": "d",
+       "text": "tall"
+      }
+     ],
+     "answer": "b",
+     "hint": "Find the word for feeling bad about something you did.",
+     "explanation": "Ashamed means feeling bad about what you did, the opposite of proud. Pleased means almost the same as proud."
+    },
+    {
+     "id": "proud.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what proud means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Maya felt proud"
+      },
+      {
+       "id": "c2",
+       "text": "when her painting won a ribbon"
+      },
+      {
+       "id": "c3",
+       "text": "at the art fair."
+      },
+      {
+       "id": "c4",
+       "text": "when she tore it by mistake."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "You feel proud after something good happens.",
+     "explanation": "Winning a ribbon is a good thing, so Maya feels proud. Tearing her painting would make her sad, not proud."
+    },
+    {
+     "id": "proud.adj.1#5",
+     "format": "dialogue",
+     "stage": "transfer",
+     "prompt": "Which line uses \"proud\" the right way?",
+     "options": [
+      {
+       "id": "a",
+       "text": "\"I'm proud I forgot my homework again.\""
+      },
+      {
+       "id": "b",
+       "text": "\"I'm so proud of you for helping your little brother!\""
+      },
+      {
+       "id": "c",
+       "text": "\"The proud rock sat in the river.\""
+      }
+     ],
+     "answer": "b",
+     "hint": "Proud is a feeling about something good.",
+     "explanation": "Helping a little brother is something good, so being proud of it makes sense. Forgetting homework is not something to be proud of, and rocks cannot feel proud."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "wobble.verb.1",
+   "word": "wobble",
+   "grade": 2,
+   "pos": "verb",
+   "say": "WOB-ul",
+   "definition": "to shake or move from side to side in an unsteady way",
+   "hero": {
+    "text": "Kai's tall stack of boxes began to wobble, so Rex held it steady.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "📦",
+      "📦"
+     ],
+     "second": "lifting",
+     "setting": "street"
+    }
+   },
+   "everyday": "My loose tooth wobbles when I push it with my tongue.",
+   "contrast": {
+    "nonExample": "The heavy table stood firm on the floor.",
+    "explanation": "Something that stands firm does not move. To wobble is to shake from side to side in an unsteady way.",
+    "scene": {
+     "pose": "neutral",
+     "props": [
+      "🪑",
+      "🧱"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "shake",
+     "sway",
+     "teeter"
+    ],
+    "antonyms": [],
+    "family": [
+     "wobbled",
+     "wobbling",
+     "wobbly"
+    ]
+   },
+   "forms": [
+    "wobble",
+    "wobbles",
+    "wobbled",
+    "wobbling"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "wobble.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"wobble\" mean in this sentence?",
+     "passage": "The jelly wobbles when you shake the plate.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stays perfectly still"
+      },
+      {
+       "id": "b",
+       "text": "shakes from side to side"
+      },
+      {
+       "id": "c",
+       "text": "turns a bright color"
+      }
+     ],
+     "answer": "b",
+     "hint": "What does jelly do on a shaking plate?",
+     "explanation": "To wobble is to shake from side to side. Jelly shakes when the plate moves."
+    },
+    {
+     "id": "wobble.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Ben's new bike felt shaky, and it began to ___ on the bumpy path.",
+     "options": [
+      {
+       "id": "a",
+       "text": "whisper"
+      },
+      {
+       "id": "b",
+       "text": "giggle"
+      },
+      {
+       "id": "c",
+       "text": "sparkle"
+      },
+      {
+       "id": "d",
+       "text": "wobble"
+      }
+     ],
+     "answer": "d",
+     "clue": "shaky; bumpy path",
+     "hint": "The bike felt shaky. What did it do?",
+     "explanation": "\"Shaky\" and \"bumpy path\" are the clues. The bike moved from side to side, so it began to wobble."
+    },
+    {
+     "id": "wobble.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of wobbling?",
+     "passage": "The chair has one short leg, so it rocks back and forth.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Does the chair move in an unsteady way?",
+     "explanation": "Yes. A chair that rocks back and forth on a short leg is unsteady. It wobbles."
+    },
+    {
+     "id": "wobble.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what wobble means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The baby deer"
+      },
+      {
+       "id": "c2",
+       "text": "wobbled on its thin legs"
+      },
+      {
+       "id": "c3",
+       "text": "as it took its first steps."
+      },
+      {
+       "id": "c4",
+       "text": "and stood as still as stone."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "New legs are shaky.",
+     "explanation": "A baby deer's first steps are shaky and unsteady, so it wobbles. Standing as still as stone is not wobbling."
+    },
+    {
+     "id": "wobble.verb.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best fits the sentence?",
+     "passage": "The vase was so unsteady that it began to ___ when the door slammed.",
+     "options": [
+      {
+       "id": "a",
+       "text": "wobble"
+      },
+      {
+       "id": "b",
+       "text": "sparkle"
+      },
+      {
+       "id": "c",
+       "text": "stretch"
+      }
+     ],
+     "answer": "a",
+     "clue": "unsteady",
+     "hint": "Which word means shaking in an unsteady way?",
+     "explanation": "\"Unsteady\" is the clue. Wobble means to shake from side to side. Sparkle is about light, and stretch is about reaching."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "scrub.verb.1",
+   "word": "scrub",
+   "grade": 2,
+   "pos": "verb",
+   "say": "SKRUB",
+   "definition": "to clean something by rubbing it hard",
+   "hero": {
+    "text": "Juniper scrubbed the mud off the playground slide until it shone.",
+    "scene": {
+     "pose": "determined",
+     "props": [
+      "🧽",
+      "🛝"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "I scrub my hands with soap before dinner.",
+   "contrast": {
+    "nonExample": "Dad wiped a little dust off the shelf with one quick swipe.",
+    "explanation": "One quick swipe is light and fast. To scrub is to rub hard to get something clean.",
+    "scene": {
+     "pose": "neutral",
+     "props": [
+      "🪶",
+      "📚"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "rub",
+     "wash"
+    ],
+    "antonyms": [],
+    "family": [
+     "scrubbed",
+     "scrubbing",
+     "scrubber"
+    ]
+   },
+   "forms": [
+    "scrub",
+    "scrubs",
+    "scrubbed",
+    "scrubbing"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "scrub.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"scrub\" mean in this sentence?",
+     "passage": "Please scrub the dirty pot with the sponge.",
+     "options": [
+      {
+       "id": "a",
+       "text": "fill with food"
+      },
+      {
+       "id": "b",
+       "text": "rub hard to clean"
+      },
+      {
+       "id": "c",
+       "text": "throw away"
+      }
+     ],
+     "answer": "b",
+     "hint": "What do you do to a dirty pot with a sponge?",
+     "explanation": "To scrub is to clean something by rubbing it hard. You scrub the pot to get it clean."
+    },
+    {
+     "id": "scrub.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The sticky jam was stuck on the table, so we had to ___ it hard.",
+     "options": [
+      {
+       "id": "a",
+       "text": "notice"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "sniff"
+      },
+      {
+       "id": "d",
+       "text": "scrub"
+      }
+     ],
+     "answer": "d",
+     "clue": "stuck on; hard",
+     "hint": "How do you get sticky jam off?",
+     "explanation": "\"Stuck on\" and \"hard\" are the clues. You rub hard to clean it, so scrub fits."
+    },
+    {
+     "id": "scrub.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of scrubbing?",
+     "passage": "Mia gently blew on her picture to dry the paint.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is Mia rubbing hard to clean something?",
+     "explanation": "No. Blowing gently to dry paint is not cleaning. To scrub is to rub hard to get something clean."
+    },
+    {
+     "id": "scrub.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what scrub means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "After the soccer game,"
+      },
+      {
+       "id": "c2",
+       "text": "Lee scrubbed his muddy cleats"
+      },
+      {
+       "id": "c3",
+       "text": "until they were clean again."
+      },
+      {
+       "id": "c4",
+       "text": "until they were muddier."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Scrubbing makes things clean.",
+     "explanation": "Scrubbing muddy cleats makes them clean. They would not get muddier from scrubbing."
+    },
+    {
+     "id": "scrub.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what Grandpa did?",
+     "passage": "Grandpa rubbed the old pan hard with soap and a brush. Soon the black spots were gone.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sniffed"
+      },
+      {
+       "id": "b",
+       "text": "borrowed"
+      },
+      {
+       "id": "c",
+       "text": "scrubbed"
+      },
+      {
+       "id": "d",
+       "text": "wobbled"
+      }
+     ],
+     "answer": "c",
+     "clue": "rubbed the old pan hard",
+     "hint": "Grandpa rubbed hard to clean the pan.",
+     "explanation": "\"Rubbed hard\" with soap until \"the black spots were gone\" means he cleaned it by rubbing. That is scrubbed."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "borrow.verb.1",
+   "word": "borrow",
+   "grade": 2,
+   "pos": "verb",
+   "say": "BOR-oh",
+   "definition": "to take something for a short time and then give it back",
+   "hero": {
+    "text": "Pixel borrowed Bolt's map and gave it back after the trip.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "🗺️",
+      "🤝"
+     ],
+     "second": "kind",
+     "setting": "school"
+    }
+   },
+   "everyday": "Can I borrow your red crayon? I'll give it right back.",
+   "contrast": {
+    "nonExample": "Sara gave her old bike to her cousin to keep forever.",
+    "explanation": "Her cousin keeps the bike forever, so it is a gift. To borrow is to take something and give it back later.",
+    "scene": {
+     "pose": "kind",
+     "props": [
+      "🚲",
+      "🎁"
+     ],
+     "setting": "street"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "use for a while"
+    ],
+    "antonyms": [
+     "lend"
+    ],
+    "family": [
+     "borrowed",
+     "borrower",
+     "borrowing"
+    ]
+   },
+   "forms": [
+    "borrow",
+    "borrows",
+    "borrowed",
+    "borrowing"
+   ],
+   "tags": [
+    "everyday",
+    "social"
+   ],
+   "items": [
+    {
+     "id": "borrow.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person borrows something?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Max buys a new ball at the store."
+      },
+      {
+       "id": "b",
+       "text": "Lia uses her friend's pencil and gives it back."
+      },
+      {
+       "id": "c",
+       "text": "Ken throws his old shoes away."
+      }
+     ],
+     "answer": "b",
+     "hint": "When you borrow, you give the thing back.",
+     "explanation": "Lia uses the pencil and gives it back. That is borrowing. Buying something means it is yours to keep.",
+     "wrong": {
+      "a": "Max buys the ball, so it is his to keep.",
+      "c": "Throwing shoes away is not borrowing."
+     }
+    },
+    {
+     "id": "borrow.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "I forgot my umbrella, so I ___ one from my teacher until the rain stopped.",
+     "options": [
+      {
+       "id": "a",
+       "text": "scrubbed"
+      },
+      {
+       "id": "b",
+       "text": "sniffed"
+      },
+      {
+       "id": "c",
+       "text": "painted"
+      },
+      {
+       "id": "d",
+       "text": "borrowed"
+      }
+     ],
+     "answer": "d",
+     "clue": "until the rain stopped",
+     "hint": "You use the umbrella only until the rain stops.",
+     "explanation": "\"Until the rain stopped\" shows you used it for a short time and gave it back. That is borrowed."
+    },
+    {
+     "id": "borrow.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of borrowing?",
+     "passage": "Jon took a book home from the library and returned it two weeks later.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did Jon give the book back?",
+     "explanation": "Yes. Jon used the library book for a while and returned it. That is borrowing."
+    },
+    {
+     "id": "borrow.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what borrow means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Can I borrow"
+      },
+      {
+       "id": "c2",
+       "text": "your jump rope for recess?"
+      },
+      {
+       "id": "c3",
+       "text": "I will bring it back after lunch."
+      },
+      {
+       "id": "c4",
+       "text": "I will keep it forever."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "When you borrow, you give it back.",
+     "explanation": "Borrowing means giving the thing back, so \"I will bring it back after lunch\" fits. Keeping it forever is not borrowing."
+    },
+    {
+     "id": "borrow.verb.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word best fits the sentence?",
+     "passage": "Mom let me ___ her scarf for the day, and I gave it back that night.",
+     "options": [
+      {
+       "id": "a",
+       "text": "borrow"
+      },
+      {
+       "id": "b",
+       "text": "keep"
+      },
+      {
+       "id": "c",
+       "text": "lose"
+      }
+     ],
+     "answer": "a",
+     "clue": "gave it back that night",
+     "hint": "Which word means use it and then give it back?",
+     "explanation": "\"Gave it back that night\" is the clue. Borrow means take something for a short time and return it. Keep means it stays yours."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "chilly.adj.1",
+   "word": "chilly",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "CHIL-ee",
+   "definition": "a little bit cold",
+   "hero": {
+    "text": "The night air was chilly, so Kai zipped up his hero jacket.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🧥",
+      "🌙"
+     ],
+     "setting": "night"
+    }
+   },
+   "everyday": "It was chilly in the morning, so I wore a sweater to school.",
+   "contrast": {
+    "nonExample": "The sand at the beach was hot under the bright sun.",
+    "explanation": "Hot sand is warm, not cold. Chilly means a little bit cold.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "🏖️",
+      "☀️"
+     ],
+     "setting": "nature"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "cool",
+     "cold"
+    ],
+    "antonyms": [
+     "warm",
+     "hot"
+    ],
+    "family": [
+     "chill",
+     "chillier",
+     "chilliest"
+    ]
+   },
+   "forms": [
+    "chilly",
+    "chillier",
+    "chilliest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "chilly.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which day is chilly?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a cool fall morning when you need a jacket"
+      },
+      {
+       "id": "b",
+       "text": "a hot summer day at the pool"
+      },
+      {
+       "id": "c",
+       "text": "a warm day in a sunny garden"
+      }
+     ],
+     "answer": "a",
+     "hint": "Chilly means a little bit cold.",
+     "explanation": "A cool morning when you need a jacket is a little cold. That is chilly. Hot and warm days are not chilly."
+    },
+    {
+     "id": "chilly.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The room felt ___, so Dad closed the window.",
+     "options": [
+      {
+       "id": "a",
+       "text": "proud"
+      },
+      {
+       "id": "b",
+       "text": "delicious"
+      },
+      {
+       "id": "c",
+       "text": "brave"
+      },
+      {
+       "id": "d",
+       "text": "chilly"
+      }
+     ],
+     "answer": "d",
+     "clue": "closed the window",
+     "hint": "Why would Dad close a window?",
+     "explanation": "Closing the window keeps cold air out. The room felt a little cold, so chilly fits."
+    },
+    {
+     "id": "chilly.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"chilly\" in this sentence?",
+     "passage": "The water in the lake was chilly.",
+     "options": [
+      {
+       "id": "a",
+       "text": "warm"
+      },
+      {
+       "id": "b",
+       "text": "cool"
+      },
+      {
+       "id": "c",
+       "text": "deep"
+      },
+      {
+       "id": "d",
+       "text": "blue"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means not cold.",
+     "explanation": "Warm is the opposite of chilly. Cool means almost the same as chilly."
+    },
+    {
+     "id": "chilly.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what chilly means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The wind was chilly,"
+      },
+      {
+       "id": "c2",
+       "text": "so I put on my hat"
+      },
+      {
+       "id": "c3",
+       "text": "and gloves."
+      },
+      {
+       "id": "c4",
+       "text": "and took off my shoes."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "When it is chilly, you want to stay warm.",
+     "explanation": "Chilly wind makes you want warm clothes like a hat and gloves. Taking off your shoes would make you colder."
+    },
+    {
+     "id": "chilly.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Does this describe something chilly?",
+     "passage": "Leo put his hand in the oven mitt and pulled out the hot bread.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is it a little cold, or hot?",
+     "explanation": "No. Hot bread from the oven is the opposite of chilly. Chilly means a little bit cold."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "cheerful.adj.1",
+   "word": "cheerful",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "CHEER-ful",
+   "definition": "happy and bright in a way others can see",
+   "hero": {
+    "text": "Juniper gave a cheerful wave to every kid on the street.",
+    "scene": {
+     "pose": "waving",
+     "props": [
+      "👋",
+      "😊"
+     ],
+     "setting": "street"
+    }
+   },
+   "everyday": "Our bus driver is always cheerful and says good morning to everyone.",
+   "contrast": {
+    "nonExample": "Jay frowned and stomped to his room.",
+    "explanation": "Frowning and stomping show a bad mood. A cheerful person is happy and bright.",
+    "scene": {
+     "pose": "angry",
+     "props": [
+      "😠",
+      "🚪"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "happy",
+     "jolly"
+    ],
+    "antonyms": [
+     "grumpy",
+     "gloomy"
+    ],
+    "family": [
+     "cheer",
+     "cheerfully",
+     "cheerfulness"
+    ]
+   },
+   "forms": [
+    "cheerful"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "cheerful.adj.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this person cheerful?",
+     "passage": "Ana smiles, hums a song, and says hello to everyone.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is Ana happy and bright?",
+     "explanation": "Yes. Smiling, humming, and saying hello show Ana is happy. She is cheerful."
+    },
+    {
+     "id": "cheerful.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The yellow flowers made the room look bright and ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hollow"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "cheerful"
+      },
+      {
+       "id": "d",
+       "text": "lonely"
+      }
+     ],
+     "answer": "c",
+     "clue": "bright",
+     "hint": "\"Bright and ___\" — which word goes with bright and happy?",
+     "explanation": "\"Bright\" is the clue. Yellow flowers make a room look happy and bright, so cheerful fits."
+    },
+    {
+     "id": "cheerful.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"cheerful\" in this sentence?",
+     "passage": "Grandma was cheerful at her birthday party.",
+     "options": [
+      {
+       "id": "a",
+       "text": "happy"
+      },
+      {
+       "id": "b",
+       "text": "grumpy"
+      },
+      {
+       "id": "c",
+       "text": "old"
+      },
+      {
+       "id": "d",
+       "text": "busy"
+      }
+     ],
+     "answer": "b",
+     "hint": "Find the word for a bad mood.",
+     "explanation": "Grumpy means in a bad mood, the opposite of cheerful. Happy means almost the same as cheerful."
+    },
+    {
+     "id": "cheerful.adj.1#4",
+     "format": "word_parts",
+     "stage": "independent",
+     "prompt": "\"Cheerful\" is made of \"cheer\" + \"-ful.\" The ending \"-ful\" means \"full of.\" So cheerful means:",
+     "options": [
+      {
+       "id": "a",
+       "text": "without any cheer"
+      },
+      {
+       "id": "b",
+       "text": "full of cheer and happiness"
+      },
+      {
+       "id": "c",
+       "text": "ready to fall asleep"
+      }
+     ],
+     "answer": "b",
+     "hint": "Put the parts together: full of + cheer.",
+     "explanation": "-ful means full of, so cheerful means full of cheer. A cheerful person is happy and bright."
+    },
+    {
+     "id": "cheerful.adj.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best describes Zane?",
+     "passage": "Zane whistled while he walked his dog. He grinned at everyone he passed.",
+     "options": [
+      {
+       "id": "a",
+       "text": "grumpy"
+      },
+      {
+       "id": "b",
+       "text": "sleepy"
+      },
+      {
+       "id": "c",
+       "text": "scared"
+      },
+      {
+       "id": "d",
+       "text": "cheerful"
+      }
+     ],
+     "answer": "d",
+     "clue": "whistled; grinned at everyone",
+     "hint": "Whistling and grinning show a mood. Which one?",
+     "explanation": "\"Whistled\" and \"grinned at everyone\" show Zane is happy and bright. He is cheerful."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "explore.verb.1",
+   "word": "explore",
+   "grade": 2,
+   "pos": "verb",
+   "say": "ek-SPLOR",
+   "definition": "to look around a new place to learn about it",
+   "hero": {
+    "text": "Pixel and Kai explored the old tunnel to see where it led.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🔦",
+      "🕳️"
+     ],
+     "second": "looking",
+     "setting": "night"
+    }
+   },
+   "everyday": "On our camping trip, we explored the woods and found a stream.",
+   "contrast": {
+    "nonExample": "Sam stayed on the couch and watched the same show again.",
+    "explanation": "Sam is not going anywhere new or learning about a place. To explore is to look around a new place to learn about it.",
+    "scene": {
+     "pose": "sitting",
+     "props": [
+      "🛋️",
+      "📺"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "discover",
+     "search"
+    ],
+    "antonyms": [],
+    "family": [
+     "explored",
+     "explorer",
+     "exploring"
+    ]
+   },
+   "forms": [
+    "explore",
+    "explores",
+    "explored",
+    "exploring"
+   ],
+   "tags": [
+    "science",
+    "history"
+   ],
+   "items": [
+    {
+     "id": "explore.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person is exploring?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Jake looks all around a cave he has never seen before."
+      },
+      {
+       "id": "b",
+       "text": "Tia sleeps late on Saturday."
+      },
+      {
+       "id": "c",
+       "text": "Eva eats a sandwich at home."
+      }
+     ],
+     "answer": "a",
+     "hint": "To explore is to look around a new place.",
+     "explanation": "Jake looks all around a new cave to learn about it. That is exploring."
+    },
+    {
+     "id": "explore.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "On the first day of school, we got to ___ our new classroom.",
+     "options": [
+      {
+       "id": "a",
+       "text": "scrub"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "repair"
+      },
+      {
+       "id": "d",
+       "text": "explore"
+      }
+     ],
+     "answer": "d",
+     "clue": "new classroom",
+     "hint": "The classroom is new. What do you do in a new place?",
+     "explanation": "\"New classroom\" is the clue. You look around a new place to learn about it. That is explore."
+    },
+    {
+     "id": "explore.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of exploring?",
+     "passage": "The kids walked along the beach, looking at shells and tide pools they had never seen.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Are they looking around to learn about a new place?",
+     "explanation": "Yes. They look around a beach they have never seen and learn about it. That is exploring."
+    },
+    {
+     "id": "explore.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what explore means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The puppy explored"
+      },
+      {
+       "id": "c2",
+       "text": "every corner of its new home"
+      },
+      {
+       "id": "c3",
+       "text": "and sniffed each room."
+      },
+      {
+       "id": "c4",
+       "text": "and never left its box."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "To explore, you look around.",
+     "explanation": "The puppy looks all around its new home, so it explores. Never leaving its box is not exploring."
+    },
+    {
+     "id": "explore.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what the scientists did?",
+     "passage": "The scientists went deep under the sea in a small sub. They looked for fish no one had ever seen.",
+     "options": [
+      {
+       "id": "a",
+       "text": "giggled"
+      },
+      {
+       "id": "b",
+       "text": "tumbled"
+      },
+      {
+       "id": "c",
+       "text": "explored"
+      },
+      {
+       "id": "d",
+       "text": "rescued"
+      }
+     ],
+     "answer": "c",
+     "clue": "looked for fish no one had ever seen",
+     "hint": "They went to a new place to learn about it.",
+     "explanation": "Going \"deep under the sea\" to look for new fish means they looked around a new place to learn. That is explored."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "repair.verb.1",
+   "word": "repair",
+   "grade": 2,
+   "pos": "verb",
+   "say": "rih-PAIR",
+   "definition": "to fix something that is broken",
+   "hero": {
+    "text": "Rex used his super strength to repair the broken bridge.",
+    "scene": {
+     "pose": "building",
+     "props": [
+      "🔧",
+      "🌉"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "Dad repaired my bike's flat tire.",
+   "contrast": {
+    "nonExample": "Mo dropped the cup, and it cracked in two.",
+    "explanation": "Dropping the cup broke it. To repair is to fix something that is broken.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "☕",
+      "💔"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "fix",
+     "mend"
+    ],
+    "antonyms": [
+     "break"
+    ],
+    "family": [
+     "repaired",
+     "repairing",
+     "repairs"
+    ]
+   },
+   "forms": [
+    "repair",
+    "repairs",
+    "repaired",
+    "repairing"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "repair.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"repair\" mean in this sentence?",
+     "passage": "Can you repair the broken toy car?",
+     "options": [
+      {
+       "id": "a",
+       "text": "fix it"
+      },
+      {
+       "id": "b",
+       "text": "paint it"
+      },
+      {
+       "id": "c",
+       "text": "hide it"
+      }
+     ],
+     "answer": "a",
+     "hint": "The toy car is broken. What does it need?",
+     "explanation": "To repair is to fix something that is broken. The broken car needs to be fixed."
+    },
+    {
+     "id": "repair.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The fence had a big hole, so Mom used boards to ___ it.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sniff"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "tickle"
+      },
+      {
+       "id": "d",
+       "text": "repair"
+      }
+     ],
+     "answer": "d",
+     "clue": "big hole",
+     "hint": "What do you do to a fence with a hole?",
+     "explanation": "\"Big hole\" means the fence is broken. Mom uses boards to fix it, so repair fits."
+    },
+    {
+     "id": "repair.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"repaired\" in this sentence?",
+     "passage": "Grandpa repaired the leaky sink.",
+     "options": [
+      {
+       "id": "a",
+       "text": "fixed"
+      },
+      {
+       "id": "b",
+       "text": "broke"
+      },
+      {
+       "id": "c",
+       "text": "filled"
+      },
+      {
+       "id": "d",
+       "text": "washed"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means made it work again.",
+     "explanation": "Fixed means almost the same as repaired. Broke is the opposite."
+    },
+    {
+     "id": "repair.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what repair means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Kate repaired"
+      },
+      {
+       "id": "c2",
+       "text": "the torn page"
+      },
+      {
+       "id": "c3",
+       "text": "with a piece of tape."
+      },
+      {
+       "id": "c4",
+       "text": "by ripping it more."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Repairing makes something whole again.",
+     "explanation": "Tape fixes a torn page, so Kate repaired it. Ripping it more makes it worse, not repaired."
+    },
+    {
+     "id": "repair.verb.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this an example of repairing?",
+     "passage": "Lee cut his paper into tiny pieces for a craft.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is Lee fixing something broken?",
+     "explanation": "No. Cutting paper for a craft is not fixing anything. To repair is to fix something that is broken."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "delicious.adj.1",
+   "word": "delicious",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "dih-LISH-us",
+   "definition": "tasting or smelling very good",
+   "hero": {
+    "text": "Bolt shared delicious pizza with the team after the rescue.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "🍕",
+      "😋"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "Grandma's warm apple pie smells delicious.",
+   "contrast": {
+    "nonExample": "The milk was old and tasted sour.",
+    "explanation": "Sour, old milk tastes bad. Delicious means tasting or smelling very good.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "🥛",
+      "🤢"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "tasty",
+     "yummy"
+    ],
+    "antonyms": [
+     "disgusting",
+     "yucky"
+    ],
+    "family": [
+     "deliciously"
+    ]
+   },
+   "forms": [
+    "delicious"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "delicious.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which food is delicious?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a sweet, juicy strawberry"
+      },
+      {
+       "id": "b",
+       "text": "a burnt piece of toast"
+      },
+      {
+       "id": "c",
+       "text": "a soggy, cold noodle"
+      }
+     ],
+     "answer": "a",
+     "hint": "Delicious means tasting very good.",
+     "explanation": "A sweet, juicy strawberry tastes very good, so it is delicious. Burnt toast and soggy noodles do not taste good."
+    },
+    {
+     "id": "delicious.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The soup was so ___ that I asked for another bowl.",
+     "options": [
+      {
+       "id": "a",
+       "text": "chilly"
+      },
+      {
+       "id": "b",
+       "text": "delicious"
+      },
+      {
+       "id": "c",
+       "text": "rough"
+      },
+      {
+       "id": "d",
+       "text": "empty"
+      }
+     ],
+     "answer": "b",
+     "clue": "asked for another bowl",
+     "hint": "Why would you want another bowl?",
+     "explanation": "\"Asked for another bowl\" shows the soup tasted very good. Delicious fits."
+    },
+    {
+     "id": "delicious.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"delicious\" in this sentence?",
+     "passage": "We ate delicious tacos at the fair.",
+     "options": [
+      {
+       "id": "a",
+       "text": "spicy"
+      },
+      {
+       "id": "b",
+       "text": "big"
+      },
+      {
+       "id": "c",
+       "text": "tasty"
+      },
+      {
+       "id": "d",
+       "text": "cheap"
+      }
+     ],
+     "answer": "c",
+     "hint": "Which word is about tasting good?",
+     "explanation": "Tasty means tasting good, like delicious. Spicy is a kind of taste, but spicy food is not always good to everyone."
+    },
+    {
+     "id": "delicious.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what delicious means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The cookies were delicious,"
+      },
+      {
+       "id": "c2",
+       "text": "so we ate every one"
+      },
+      {
+       "id": "c3",
+       "text": "and licked our fingers."
+      },
+      {
+       "id": "c4",
+       "text": "and spit them all out."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Delicious food is food you want to eat.",
+     "explanation": "Delicious cookies taste good, so you eat them all. Spitting them out means they tasted bad."
+    },
+    {
+     "id": "delicious.adj.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best describes the bread?",
+     "passage": "When the bread came out of the oven, it smelled so good that everyone ran into the kitchen.",
+     "options": [
+      {
+       "id": "a",
+       "text": "delicious"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "lonely"
+      },
+      {
+       "id": "d",
+       "text": "hollow"
+      }
+     ],
+     "answer": "a",
+     "clue": "smelled so good",
+     "hint": "Everyone ran in because of the smell.",
+     "explanation": "\"Smelled so good\" is the clue. Delicious means tasting or smelling very good."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "empty.adj.1",
+   "word": "empty",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "EMP-tee",
+   "definition": "having nothing inside",
+   "hero": {
+    "text": "Nova checked the empty building to make sure no one was left inside.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🏢",
+      "🔦"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "My cereal bowl was empty after breakfast.",
+   "contrast": {
+    "nonExample": "The toy box was full of blocks and dolls.",
+    "explanation": "A full box has many things inside. Empty means having nothing inside.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "🧸",
+      "📦"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "bare",
+     "vacant"
+    ],
+    "antonyms": [
+     "full"
+    ],
+    "family": [
+     "emptied",
+     "emptiness"
+    ]
+   },
+   "forms": [
+    "empty",
+    "emptier",
+    "emptiest"
+   ],
+   "tags": [
+    "everyday",
+    "math"
+   ],
+   "items": [
+    {
+     "id": "empty.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is empty?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a fish tank full of fish"
+      },
+      {
+       "id": "b",
+       "text": "a backpack stuffed with books"
+      },
+      {
+       "id": "c",
+       "text": "a cookie jar with no cookies left"
+      }
+     ],
+     "answer": "c",
+     "hint": "Empty means nothing is inside.",
+     "explanation": "A cookie jar with no cookies has nothing inside. It is empty. The fish tank and backpack are full."
+    },
+    {
+     "id": "empty.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Everyone went home, so the playground was ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "crowded"
+      },
+      {
+       "id": "b",
+       "text": "empty"
+      },
+      {
+       "id": "c",
+       "text": "delicious"
+      },
+      {
+       "id": "d",
+       "text": "gentle"
+      }
+     ],
+     "answer": "b",
+     "clue": "everyone went home",
+     "hint": "If everyone went home, who is left?",
+     "explanation": "\"Everyone went home\" means no one is left. The playground is empty. Crowded means the opposite."
+    },
+    {
+     "id": "empty.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"empty\" in this sentence?",
+     "passage": "I filled my empty water bottle at the sink.",
+     "options": [
+      {
+       "id": "a",
+       "text": "bare"
+      },
+      {
+       "id": "b",
+       "text": "old"
+      },
+      {
+       "id": "c",
+       "text": "full"
+      },
+      {
+       "id": "d",
+       "text": "clean"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word that means it has lots inside.",
+     "explanation": "Full is the opposite of empty. Bare means almost the same as empty."
+    },
+    {
+     "id": "empty.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what empty means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The gas tank was empty,"
+      },
+      {
+       "id": "c2",
+       "text": "so the car could not go"
+      },
+      {
+       "id": "c3",
+       "text": "until Mom filled it up."
+      },
+      {
+       "id": "c4",
+       "text": "so the car zoomed far away."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "An empty tank has no gas inside.",
+     "explanation": "With no gas inside, the car cannot go. A car would not zoom away on an empty tank."
+    },
+    {
+     "id": "empty.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this thing empty?",
+     "passage": "The bird's nest had three blue eggs in it.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is there anything inside the nest?",
+     "explanation": "No. The nest has three eggs inside, so it is not empty. Empty means having nothing inside."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "hollow.adj.1",
+   "word": "hollow",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "HOL-oh",
+   "definition": "having an empty space inside",
+   "hero": {
+    "text": "Kai hid the map inside a hollow log in the forest.",
+    "scene": {
+     "pose": "sneaky",
+     "props": [
+      "🪵",
+      "🗺️"
+     ],
+     "setting": "nature"
+    }
+   },
+   "everyday": "An owl made its home in a hollow tree.",
+   "contrast": {
+    "nonExample": "The brick was solid all the way through.",
+    "explanation": "A solid brick has no space inside. Hollow means having an empty space inside, like a tube or a drum.",
+    "scene": {
+     "pose": "lifting",
+     "props": [
+      "🧱"
+     ],
+     "setting": "street"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "empty inside"
+    ],
+    "antonyms": [
+     "solid"
+    ],
+    "family": [
+     "hollowed"
+    ]
+   },
+   "forms": [
+    "hollow"
+   ],
+   "tags": [
+    "science",
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "hollow.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is hollow?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a solid rock"
+      },
+      {
+       "id": "b",
+       "text": "a heavy brick"
+      },
+      {
+       "id": "c",
+       "text": "a tube from a paper towel roll"
+      }
+     ],
+     "answer": "c",
+     "hint": "Hollow means there is empty space inside.",
+     "explanation": "A paper towel tube has empty space in the middle, so it is hollow. A rock and a brick are solid all the way through."
+    },
+    {
+     "id": "hollow.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The chocolate bunny was ___, so it had nothing but air inside.",
+     "options": [
+      {
+       "id": "a",
+       "text": "brave"
+      },
+      {
+       "id": "b",
+       "text": "hollow"
+      },
+      {
+       "id": "c",
+       "text": "chilly"
+      },
+      {
+       "id": "d",
+       "text": "proud"
+      }
+     ],
+     "answer": "b",
+     "clue": "nothing but air inside",
+     "hint": "\"Nothing but air inside\" is a big clue.",
+     "explanation": "\"Nothing but air inside\" means the bunny has an empty space inside. That is hollow."
+    },
+    {
+     "id": "hollow.adj.1#3",
+     "format": "best_word",
+     "stage": "independent",
+     "prompt": "Which word fits best?",
+     "passage": "The log looked whole, but it had a big empty space in the middle. The log was ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hollow"
+      },
+      {
+       "id": "b",
+       "text": "solid"
+      },
+      {
+       "id": "c",
+       "text": "heavy"
+      }
+     ],
+     "answer": "a",
+     "hint": "Which word means having an empty space inside?",
+     "explanation": "\"Empty space in the middle\" tells you the log is hollow. Solid means filled all the way through, the opposite."
+    },
+    {
+     "id": "hollow.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what hollow means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The drum is hollow,"
+      },
+      {
+       "id": "c2",
+       "text": "so it makes a loud boom"
+      },
+      {
+       "id": "c3",
+       "text": "when you hit it."
+      },
+      {
+       "id": "c4",
+       "text": "so it is filled with sand."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A hollow drum has empty space inside.",
+     "explanation": "The empty space inside a hollow drum helps it boom. If it were filled with sand, it would not be hollow."
+    },
+    {
+     "id": "hollow.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this thing hollow?",
+     "passage": "Ivy found a big seashell with an empty space inside where a crab could hide.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is there an empty space inside?",
+     "explanation": "Yes. The shell has an empty space inside, so it is hollow."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "sniff.verb.1",
+   "word": "sniff",
+   "grade": 2,
+   "pos": "verb",
+   "say": "SNIF",
+   "definition": "to smell something by taking short breaths through your nose",
+   "hero": {
+    "text": "Juniper's dog sniffed the trail to find the missing hiker.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🐕",
+      "👃"
+     ],
+     "setting": "nature"
+    }
+   },
+   "everyday": "I sniffed the flowers to see if they smelled sweet.",
+   "contrast": {
+    "nonExample": "Ben listened to the birds singing outside.",
+    "explanation": "Ben is using his ears, not his nose. To sniff is to smell by taking short breaths through your nose.",
+    "scene": {
+     "pose": "listening",
+     "props": [
+      "🐦",
+      "🎵"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "smell"
+    ],
+    "antonyms": [],
+    "family": [
+     "sniffed",
+     "sniffing",
+     "sniffy"
+    ]
+   },
+   "forms": [
+    "sniff",
+    "sniffs",
+    "sniffed",
+    "sniffing"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "sniff.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"sniff\" mean in this sentence?",
+     "passage": "The rabbit stopped to sniff the carrot.",
+     "options": [
+      {
+       "id": "a",
+       "text": "kick it with its feet"
+      },
+      {
+       "id": "b",
+       "text": "smell it with its nose"
+      },
+      {
+       "id": "c",
+       "text": "hide it in a hole"
+      }
+     ],
+     "answer": "b",
+     "hint": "Which body part do you use to sniff?",
+     "explanation": "To sniff is to smell with short breaths through your nose. The rabbit smells the carrot."
+    },
+    {
+     "id": "sniff.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Mom opened the milk to ___ it and see if it was still fresh.",
+     "options": [
+      {
+       "id": "a",
+       "text": "scrub"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "sniff"
+      },
+      {
+       "id": "d",
+       "text": "repair"
+      }
+     ],
+     "answer": "c",
+     "clue": "see if it was still fresh",
+     "hint": "How can you tell if milk is fresh without tasting it?",
+     "explanation": "You can smell milk to tell if it is fresh. \"See if it was still fresh\" is the clue. Sniff fits."
+    },
+    {
+     "id": "sniff.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of sniffing?",
+     "passage": "The puppy put its nose to the ground and smelled every patch of grass.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is the puppy smelling with its nose?",
+     "explanation": "Yes. The puppy uses its nose to smell the grass. That is sniffing."
+    },
+    {
+     "id": "sniff.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what sniff means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Leo sniffed the air"
+      },
+      {
+       "id": "c2",
+       "text": "and smelled cookies baking"
+      },
+      {
+       "id": "c3",
+       "text": "in the kitchen."
+      },
+      {
+       "id": "c4",
+       "text": "and heard a loud drum."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Sniffing is about smelling.",
+     "explanation": "When you sniff, you smell things, like cookies baking. Hearing a drum is about your ears, not your nose."
+    },
+    {
+     "id": "sniff.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what the bear did?",
+     "passage": "The bear lifted its nose and breathed in quickly, again and again. It was trying to smell the honey.",
+     "options": [
+      {
+       "id": "a",
+       "text": "giggled"
+      },
+      {
+       "id": "b",
+       "text": "stretched"
+      },
+      {
+       "id": "c",
+       "text": "repaired"
+      },
+      {
+       "id": "d",
+       "text": "sniffed"
+      }
+     ],
+     "answer": "d",
+     "clue": "breathed in quickly; trying to smell",
+     "hint": "The bear used its nose with quick breaths.",
+     "explanation": "\"Breathed in quickly\" with its nose \"to smell the honey\" is sniffing."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "sturdy.adj.1",
+   "word": "sturdy",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "STUR-dee",
+   "definition": "strong and hard to break or knock over",
+   "hero": {
+    "text": "Rex built a sturdy wall that the strong wind could not knock down.",
+    "scene": {
+     "pose": "building",
+     "props": [
+      "🧱",
+      "💨"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "We need a sturdy box to carry these heavy books.",
+   "contrast": {
+    "nonExample": "The paper cup crushed when Ty squeezed it.",
+    "explanation": "A paper cup breaks easily. Sturdy means strong and hard to break.",
+    "scene": {
+     "pose": "surprised",
+     "props": [
+      "🥤",
+      "✊"
+     ],
+     "setting": "school"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "strong",
+     "solid"
+    ],
+    "antonyms": [
+     "flimsy",
+     "weak"
+    ],
+    "family": [
+     "sturdier",
+     "sturdiest",
+     "sturdily"
+    ]
+   },
+   "forms": [
+    "sturdy",
+    "sturdier",
+    "sturdiest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "sturdy.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is sturdy?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a strong wooden table"
+      },
+      {
+       "id": "b",
+       "text": "a soap bubble"
+      },
+      {
+       "id": "c",
+       "text": "a tower made of wet tissue paper"
+      }
+     ],
+     "answer": "a",
+     "hint": "Sturdy means strong and hard to break.",
+     "explanation": "A strong wooden table is hard to break or knock over. It is sturdy. Bubbles and wet tissue break very easily."
+    },
+    {
+     "id": "sturdy.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The tree house was so ___ that five kids could play in it safely.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tiny"
+      },
+      {
+       "id": "b",
+       "text": "sturdy"
+      },
+      {
+       "id": "c",
+       "text": "hollow"
+      },
+      {
+       "id": "d",
+       "text": "chilly"
+      }
+     ],
+     "answer": "b",
+     "clue": "five kids; safely",
+     "hint": "Five kids can play in it safely. What kind of tree house is that?",
+     "explanation": "\"Five kids could play in it safely\" shows it was strong. Sturdy fits. A tiny tree house could not hold five kids."
+    },
+    {
+     "id": "sturdy.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"sturdy\" in this sentence?",
+     "passage": "Grandpa sat on the sturdy chair.",
+     "options": [
+      {
+       "id": "a",
+       "text": "strong"
+      },
+      {
+       "id": "b",
+       "text": "brown"
+      },
+      {
+       "id": "c",
+       "text": "weak"
+      },
+      {
+       "id": "d",
+       "text": "soft"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word that means easy to break.",
+     "explanation": "Weak is the opposite of sturdy. Strong means almost the same as sturdy."
+    },
+    {
+     "id": "sturdy.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what sturdy means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Kim wore sturdy boots"
+      },
+      {
+       "id": "c2",
+       "text": "on the rocky hike"
+      },
+      {
+       "id": "c3",
+       "text": "so her feet stayed safe."
+      },
+      {
+       "id": "c4",
+       "text": "and they ripped right away."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Sturdy things are strong.",
+     "explanation": "Sturdy boots are strong, so they keep feet safe on rocks. Boots that rip right away are not sturdy."
+    },
+    {
+     "id": "sturdy.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this thing sturdy?",
+     "passage": "The sand castle fell apart as soon as a small wave touched it.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Was it strong and hard to knock over?",
+     "explanation": "No. The sand castle fell apart easily. Sturdy means strong and hard to break or knock over."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "stretch.verb.1",
+   "word": "stretch",
+   "grade": 2,
+   "pos": "verb",
+   "say": "STRECH",
+   "definition": "to reach out your arms, legs, or body as far as they can go",
+   "hero": {
+    "text": "Bolt stretched his arms and legs before the big race.",
+    "scene": {
+     "pose": "jumping",
+     "props": [
+      "🏃",
+      "🙆"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "I stretch my arms up high when I wake up in the morning.",
+   "contrast": {
+    "nonExample": "The cat curled up into a tight little ball.",
+    "explanation": "Curling into a ball pulls the body in close. To stretch is to reach your body out as far as it can go.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🐱",
+      "🧶"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "reach",
+     "extend"
+    ],
+    "antonyms": [
+     "curl up"
+    ],
+    "family": [
+     "stretched",
+     "stretching",
+     "stretchy"
+    ]
+   },
+   "forms": [
+    "stretch",
+    "stretches",
+    "stretched",
+    "stretching"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "stretch.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"stretch\" mean in this sentence?",
+     "passage": "Stretch your arms up to touch the sky!",
+     "options": [
+      {
+       "id": "a",
+       "text": "fold them tight across your chest"
+      },
+      {
+       "id": "b",
+       "text": "reach them out as far as you can"
+      },
+      {
+       "id": "c",
+       "text": "wash them with soap"
+      }
+     ],
+     "answer": "b",
+     "hint": "To touch the sky, how far would you reach?",
+     "explanation": "To stretch is to reach out as far as you can. You reach your arms up high toward the sky.",
+     "wrong": {
+      "a": "Folding your arms pulls them in, the opposite of stretching."
+     }
+    },
+    {
+     "id": "stretch.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Tia had to ___ up on her toes to reach the top shelf.",
+     "options": [
+      {
+       "id": "a",
+       "text": "shiver"
+      },
+      {
+       "id": "b",
+       "text": "stretch"
+      },
+      {
+       "id": "c",
+       "text": "giggle"
+      },
+      {
+       "id": "d",
+       "text": "sniff"
+      }
+     ],
+     "answer": "b",
+     "clue": "up on her toes; reach the top shelf",
+     "hint": "The shelf is high. What does Tia do with her body?",
+     "explanation": "\"Up on her toes\" and \"reach the top shelf\" show Tia made her body as tall as it could go. That is stretch."
+    },
+    {
+     "id": "stretch.verb.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this an example of stretching?",
+     "passage": "After his nap, the dog pushed its front legs out long and arched its back.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did the dog reach its body out long?",
+     "explanation": "Yes. Pushing its legs out long is stretching."
+    },
+    {
+     "id": "stretch.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what stretch means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Before soccer practice,"
+      },
+      {
+       "id": "c2",
+       "text": "the team stretched their legs"
+      },
+      {
+       "id": "c3",
+       "text": "so their muscles were ready."
+      },
+      {
+       "id": "c4",
+       "text": "by sitting still in a ball."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Stretching means reaching your body out.",
+     "explanation": "Players stretch their legs to get ready. Sitting still in a ball is not stretching."
+    },
+    {
+     "id": "stretch.verb.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits what Grandma did?",
+     "passage": "Grandma reached her arms high over her head and then bent to touch her toes.",
+     "options": [
+      {
+       "id": "a",
+       "text": "stretched"
+      },
+      {
+       "id": "b",
+       "text": "whispered"
+      },
+      {
+       "id": "c",
+       "text": "scrubbed"
+      },
+      {
+       "id": "d",
+       "text": "wandered"
+      }
+     ],
+     "answer": "a",
+     "clue": "reached her arms high; touch her toes",
+     "hint": "Grandma reached her body out far.",
+     "explanation": "\"Reached her arms high\" and \"bent to touch her toes\" mean she reached her body out as far as it could go. That is stretched."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "lonely.adj.1",
+   "word": "lonely",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "LOHN-lee",
+   "definition": "sad because you are alone or have no friends nearby",
+   "hero": {
+    "text": "Pixel felt lonely when her team flew away, until Nova came back to get her.",
+    "scene": {
+     "pose": "sad",
+     "props": [
+      "😔",
+      "🌆"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "The new boy looked lonely at recess, so Mia asked him to play.",
+   "contrast": {
+    "nonExample": "Lily liked reading by herself and smiled at her book.",
+    "explanation": "Lily is alone but happy. Lonely means feeling sad because you are alone.",
+    "scene": {
+     "pose": "happy",
+     "props": [
+      "📖",
+      "😊"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "alone",
+     "friendless"
+    ],
+    "antonyms": [
+     "included"
+    ],
+    "family": [
+     "loneliness",
+     "lonelier"
+    ]
+   },
+   "forms": [
+    "lonely",
+    "lonelier",
+    "loneliest"
+   ],
+   "tags": [
+    "everyday",
+    "reading",
+    "social"
+   ],
+   "items": [
+    {
+     "id": "lonely.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person feels lonely?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sam laughs with his friends at lunch."
+      },
+      {
+       "id": "b",
+       "text": "Joe plays tag with his whole class."
+      },
+      {
+       "id": "c",
+       "text": "Ana eats alone and wishes someone would sit with her."
+      }
+     ],
+     "answer": "c",
+     "hint": "Lonely means sad because you are alone.",
+     "explanation": "Ana is alone and wishes for company. She is sad about being alone, so she is lonely."
+    },
+    {
+     "id": "lonely.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "When his best friend moved away, Eli felt sad and ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sticky"
+      },
+      {
+       "id": "b",
+       "text": "lonely"
+      },
+      {
+       "id": "c",
+       "text": "sturdy"
+      },
+      {
+       "id": "d",
+       "text": "swift"
+      }
+     ],
+     "answer": "b",
+     "clue": "best friend moved away; sad",
+     "hint": "His best friend is gone. How does Eli feel?",
+     "explanation": "\"Best friend moved away\" and \"sad\" are the clues. Eli is sad because he is alone. That is lonely."
+    },
+    {
+     "id": "lonely.adj.1#3",
+     "format": "best_word",
+     "stage": "independent",
+     "prompt": "Which word fits best?",
+     "passage": "Mo likes to draw by himself. He is alone, but he feels happy and calm. Mo is ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "content"
+      },
+      {
+       "id": "b",
+       "text": "lonely"
+      },
+      {
+       "id": "c",
+       "text": "grumpy"
+      }
+     ],
+     "answer": "a",
+     "hint": "Is Mo sad about being alone, or happy?",
+     "explanation": "Mo is alone but happy, so content (happy and satisfied) fits. Lonely means sad about being alone, and Mo is not sad."
+    },
+    {
+     "id": "lonely.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what lonely means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The puppy felt lonely"
+      },
+      {
+       "id": "c2",
+       "text": "when everyone left for school,"
+      },
+      {
+       "id": "c3",
+       "text": "so it waited by the door."
+      },
+      {
+       "id": "c4",
+       "text": "so it threw a big party."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A lonely puppy misses its family.",
+     "explanation": "The puppy is alone and misses everyone, so it waits by the door. Throwing a party does not show feeling lonely."
+    },
+    {
+     "id": "lonely.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this person lonely?",
+     "passage": "Rosa sat by herself on the bench, looking sadly at the kids who were playing together.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is Rosa alone and sad?",
+     "explanation": "Yes. Rosa is by herself and looks sad. She is lonely."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "sticky.adj.1",
+   "word": "sticky",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "STIK-ee",
+   "definition": "covered with something that makes things stick to it",
+   "hero": {
+    "text": "Kai's sticky web caught the falling balloons before they flew away.",
+    "scene": {
+     "pose": "pointing",
+     "props": [
+      "🕸️",
+      "🎈"
+     ],
+     "setting": "sky"
+    }
+   },
+   "everyday": "My fingers were sticky after I ate the honey toast.",
+   "contrast": {
+    "nonExample": "The marble rolled across the smooth, dry floor.",
+    "explanation": "Nothing sticks to a smooth, dry floor. Sticky means things stick to it, like glue or honey.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🔵",
+      "🏠"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "gooey",
+     "tacky"
+    ],
+    "antonyms": [
+     "smooth",
+     "dry"
+    ],
+    "family": [
+     "stick",
+     "stickier",
+     "stickiest"
+    ]
+   },
+   "forms": [
+    "sticky",
+    "stickier",
+    "stickiest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "sticky.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing is sticky?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a spoon covered in syrup"
+      },
+      {
+       "id": "b",
+       "text": "a dry paper towel"
+      },
+      {
+       "id": "c",
+       "text": "a smooth glass window"
+      }
+     ],
+     "answer": "a",
+     "hint": "Sticky things make other things stick to them.",
+     "explanation": "Syrup makes things stick, so a spoon covered in syrup is sticky. Dry paper and smooth glass are not sticky."
+    },
+    {
+     "id": "sticky.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The tape was so ___ that it stuck to my hair.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hollow"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "chilly"
+      },
+      {
+       "id": "d",
+       "text": "lonely"
+      }
+     ],
+     "answer": "b",
+     "clue": "stuck to my hair",
+     "hint": "The tape stuck to hair.",
+     "explanation": "\"Stuck to my hair\" is the clue. Sticky things stick to other things."
+    },
+    {
+     "id": "sticky.adj.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Is this thing sticky?",
+     "passage": "The melted lollipop made Ben's hands stick to the table.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Did things stick to Ben's hands?",
+     "explanation": "Yes. The melted lollipop made his hands stick, so they were sticky."
+    },
+    {
+     "id": "sticky.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what sticky means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The glue was sticky,"
+      },
+      {
+       "id": "c2",
+       "text": "so the paper stars stayed"
+      },
+      {
+       "id": "c3",
+       "text": "on the poster."
+      },
+      {
+       "id": "c4",
+       "text": "so the stars fell right off."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Sticky glue holds things in place.",
+     "explanation": "Sticky glue makes the stars stay. If the stars fell off, the glue was not sticky."
+    },
+    {
+     "id": "sticky.adj.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best describes the floor?",
+     "passage": "Someone spilled juice in the kitchen. Now our socks stick to the floor with every step.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sticky"
+      },
+      {
+       "id": "b",
+       "text": "cozy"
+      },
+      {
+       "id": "c",
+       "text": "tiny"
+      },
+      {
+       "id": "d",
+       "text": "proud"
+      }
+     ],
+     "answer": "a",
+     "clue": "socks stick to the floor",
+     "hint": "Socks stick to the floor.",
+     "explanation": "\"Socks stick to the floor\" after spilled juice means the floor is sticky."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "wander.verb.1",
+   "word": "wander",
+   "grade": 2,
+   "pos": "verb",
+   "say": "WON-der",
+   "definition": "to walk around slowly without a plan for where to go",
+   "hero": {
+    "text": "Juniper wandered through the park, enjoying the sunny day.",
+    "scene": {
+     "pose": "calm",
+     "props": [
+      "🌳",
+      "🌼"
+     ],
+     "setting": "park"
+    }
+   },
+   "everyday": "The goats wandered around the farm, nibbling grass.",
+   "contrast": {
+    "nonExample": "Tom ran straight to the finish line as fast as he could.",
+    "explanation": "Tom has a plan and is fast. To wander is to walk slowly with no plan for where to go.",
+    "scene": {
+     "pose": "running",
+     "props": [
+      "🏁",
+      "💨"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "roam",
+     "stroll"
+    ],
+    "antonyms": [
+     "hurry",
+     "rush"
+    ],
+    "family": [
+     "wandered",
+     "wanderer",
+     "wandering"
+    ]
+   },
+   "forms": [
+    "wander",
+    "wanders",
+    "wandered",
+    "wandering"
+   ],
+   "tags": [
+    "everyday"
+   ],
+   "items": [
+    {
+     "id": "wander.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"wander\" mean in this sentence?",
+     "passage": "On Sunday, we like to wander around the old town.",
+     "options": [
+      {
+       "id": "a",
+       "text": "run in a race"
+      },
+      {
+       "id": "b",
+       "text": "shout at friends"
+      },
+      {
+       "id": "c",
+       "text": "walk slowly with no plan"
+      }
+     ],
+     "answer": "c",
+     "hint": "Is it fast and planned, or slow and relaxed?",
+     "explanation": "To wander is to walk around slowly without a plan for where to go."
+    },
+    {
+     "id": "wander.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Stay close to me at the fair, and do not ___ off by yourself.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sparkle"
+      },
+      {
+       "id": "b",
+       "text": "giggle"
+      },
+      {
+       "id": "c",
+       "text": "shiver"
+      },
+      {
+       "id": "d",
+       "text": "wander"
+      }
+     ],
+     "answer": "d",
+     "clue": "stay close; off by yourself",
+     "hint": "What might a child do that would get them lost?",
+     "explanation": "\"Stay close\" and \"off by yourself\" warn about walking away with no plan. That is wander."
+    },
+    {
+     "id": "wander.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"wandered\" in this sentence?",
+     "passage": "The kids wandered along the beach.",
+     "options": [
+      {
+       "id": "a",
+       "text": "hurried"
+      },
+      {
+       "id": "b",
+       "text": "strolled"
+      },
+      {
+       "id": "c",
+       "text": "sang"
+      },
+      {
+       "id": "d",
+       "text": "slept"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means moving fast with a goal.",
+     "explanation": "Hurried is the opposite of wandered. Strolled means walking slowly, almost the same as wandered."
+    },
+    {
+     "id": "wander.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what wander means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The cow wandered"
+      },
+      {
+       "id": "c2",
+       "text": "slowly across the field"
+      },
+      {
+       "id": "c3",
+       "text": "with no place to be."
+      },
+      {
+       "id": "c4",
+       "text": "to catch the early bus."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Wandering is slow, with no plan.",
+     "explanation": "The cow walks slowly with no place to be, so it wanders. Catching a bus is a plan with a goal."
+    },
+    {
+     "id": "wander.verb.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this an example of wandering?",
+     "passage": "Nia ran straight home because dinner was ready.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is Nia walking slowly with no plan?",
+     "explanation": "No. Nia runs straight home with a goal. Wandering is walking slowly without a plan."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "plenty.noun.1",
+   "word": "plenty",
+   "grade": 2,
+   "pos": "noun",
+   "say": "PLEN-tee",
+   "definition": "a lot, or more than enough",
+   "hero": {
+    "text": "Rex packed plenty of water for everyone on the long hike.",
+    "scene": {
+     "pose": "confident",
+     "props": [
+      "💧",
+      "🎒"
+     ],
+     "setting": "nature"
+    }
+   },
+   "everyday": "There is plenty of pizza, so you can have a second slice.",
+   "contrast": {
+    "nonExample": "There was only one cookie left for five kids.",
+    "explanation": "One cookie for five kids is not enough. Plenty means a lot, or more than enough.",
+    "scene": {
+     "pose": "sad",
+     "props": [
+      "🍪",
+      "😕"
+     ],
+     "setting": "school"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "lots",
+     "a lot"
+    ],
+    "antonyms": [
+     "too little",
+     "shortage"
+    ],
+    "family": [
+     "plentiful"
+    ]
+   },
+   "forms": [
+    "plenty"
+   ],
+   "tags": [
+    "everyday",
+    "math"
+   ],
+   "items": [
+    {
+     "id": "plenty.noun.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "What does \"plenty\" mean in this sentence?",
+     "passage": "We have plenty of paper for the whole class.",
+     "options": [
+      {
+       "id": "a",
+       "text": "only a little"
+      },
+      {
+       "id": "b",
+       "text": "none at all"
+      },
+      {
+       "id": "c",
+       "text": "more than enough"
+      }
+     ],
+     "answer": "c",
+     "hint": "Is there enough paper for everyone?",
+     "explanation": "Plenty means a lot, or more than enough. There is enough paper for the whole class and more."
+    },
+    {
+     "id": "plenty.noun.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Take as many apples as you like. We have ___!",
+     "options": [
+      {
+       "id": "a",
+       "text": "nothing"
+      },
+      {
+       "id": "b",
+       "text": "none"
+      },
+      {
+       "id": "c",
+       "text": "plenty"
+      }
+     ],
+     "answer": "c",
+     "clue": "as many as you like",
+     "hint": "If you can take as many as you like, how many are there?",
+     "explanation": "\"Take as many apples as you like\" shows there are a lot. Plenty fits. If there were nothing, you could not take any."
+    },
+    {
+     "id": "plenty.noun.1#3",
+     "format": "example_nonexample",
+     "stage": "independent",
+     "prompt": "Does this show plenty?",
+     "passage": "The garden had so many tomatoes that we gave bags of them to our neighbors.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Was there more than enough?",
+     "explanation": "Yes. There were so many tomatoes that there were extras to give away. That is plenty."
+    },
+    {
+     "id": "plenty.noun.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what plenty means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "We brought plenty of snacks,"
+      },
+      {
+       "id": "c2",
+       "text": "so everyone got some"
+      },
+      {
+       "id": "c3",
+       "text": "and there were extras."
+      },
+      {
+       "id": "c4",
+       "text": "so most kids got nothing."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Plenty means more than enough.",
+     "explanation": "With plenty of snacks, everyone gets some and there are extras. If most kids got nothing, there was not plenty."
+    },
+    {
+     "id": "plenty.noun.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best fits the sentence?",
+     "passage": "The bus has 40 seats and only 12 kids. There is ___ room for everyone.",
+     "options": [
+      {
+       "id": "a",
+       "text": "not enough"
+      },
+      {
+       "id": "b",
+       "text": "plenty of"
+      },
+      {
+       "id": "c",
+       "text": "no"
+      }
+     ],
+     "answer": "b",
+     "clue": "40 seats and only 12 kids",
+     "hint": "40 seats and only 12 kids. Is that enough room?",
+     "explanation": "40 seats for 12 kids is more than enough room. That is plenty."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "protect.verb.1",
+   "word": "protect",
+   "grade": 2,
+   "pos": "verb",
+   "say": "pruh-TEKT",
+   "definition": "to keep someone or something safe from harm",
+   "hero": {
+    "text": "Nova held up her shield to protect the kids from the falling rocks.",
+    "scene": {
+     "pose": "determined",
+     "props": [
+      "🛡️",
+      "🪨"
+     ],
+     "second": "scared",
+     "setting": "city"
+    }
+   },
+   "everyday": "Sunscreen protects your skin from the hot sun.",
+   "contrast": {
+    "nonExample": "Sam left his ice cream out in the hot sun.",
+    "explanation": "Leaving the ice cream in the sun does not keep it safe, so it melts. To protect is to keep something safe from harm.",
+    "scene": {
+     "pose": "shrugging",
+     "props": [
+      "🍦",
+      "☀️"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "guard",
+     "shield",
+     "keep safe"
+    ],
+    "antonyms": [
+     "harm",
+     "hurt"
+    ],
+    "family": [
+     "protected",
+     "protection",
+     "protective"
+    ]
+   },
+   "forms": [
+    "protect",
+    "protects",
+    "protected",
+    "protecting"
+   ],
+   "tags": [
+    "everyday",
+    "science",
+    "social"
+   ],
+   "items": [
+    {
+     "id": "protect.verb.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing protects something?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a crayon on the floor"
+      },
+      {
+       "id": "b",
+       "text": "a balloon in the sky"
+      },
+      {
+       "id": "c",
+       "text": "a helmet on a bike rider's head"
+      }
+     ],
+     "answer": "c",
+     "hint": "To protect is to keep safe.",
+     "explanation": "A helmet keeps a bike rider's head safe. It protects. A crayon and a balloon do not keep anything safe."
+    },
+    {
+     "id": "protect.verb.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The mother duck spread her wings to ___ her ducklings from the rain.",
+     "options": [
+      {
+       "id": "a",
+       "text": "tickle"
+      },
+      {
+       "id": "b",
+       "text": "borrow"
+      },
+      {
+       "id": "c",
+       "text": "scrub"
+      },
+      {
+       "id": "d",
+       "text": "protect"
+      }
+     ],
+     "answer": "d",
+     "clue": "spread her wings; from the rain",
+     "hint": "Why would a duck cover her babies?",
+     "explanation": "The duck covers her ducklings to keep them safe from the rain. That is protect."
+    },
+    {
+     "id": "protect.verb.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"protect\" in this sentence?",
+     "passage": "A fence helps protect the garden from rabbits.",
+     "options": [
+      {
+       "id": "a",
+       "text": "guard"
+      },
+      {
+       "id": "b",
+       "text": "water"
+      },
+      {
+       "id": "c",
+       "text": "grow"
+      },
+      {
+       "id": "d",
+       "text": "dig"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means keep safe.",
+     "explanation": "Guard means keep safe, like protect. Water and grow are things you do for a garden, but they do not keep rabbits out."
+    },
+    {
+     "id": "protect.verb.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what protect means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "I wear gloves"
+      },
+      {
+       "id": "c2",
+       "text": "to protect my hands"
+      },
+      {
+       "id": "c3",
+       "text": "from the cold snow."
+      },
+      {
+       "id": "c4",
+       "text": "so they get colder."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Protecting keeps you safe from harm.",
+     "explanation": "Gloves keep your hands safe from the cold. Making your hands colder is not protecting them."
+    },
+    {
+     "id": "protect.verb.1#5",
+     "format": "dialogue",
+     "stage": "transfer",
+     "prompt": "Which line uses \"protect\" the right way?",
+     "options": [
+      {
+       "id": "a",
+       "text": "\"I put a case on my tablet to protect it if it falls.\""
+      },
+      {
+       "id": "b",
+       "text": "\"I protect my sandwich by stepping on it.\""
+      },
+      {
+       "id": "c",
+       "text": "\"Let's protect the flowers by pulling them out.\""
+      }
+     ],
+     "answer": "a",
+     "hint": "To protect is to keep something safe.",
+     "explanation": "A case keeps a tablet safe if it falls, so it protects it. Stepping on a sandwich and pulling out flowers harm them."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "swift.adj.1",
+   "word": "swift",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "SWIFT",
+   "definition": "moving very fast",
+   "hero": {
+    "text": "Bolt is the swiftest hero, faster than a speeding train.",
+    "scene": {
+     "pose": "running",
+     "props": [
+      "⚡",
+      "🚄"
+     ],
+     "setting": "city"
+    }
+   },
+   "everyday": "The swift rabbit dashed across the field and into its hole.",
+   "contrast": {
+    "nonExample": "The turtle crept slowly across the path.",
+    "explanation": "Creeping slowly is not fast at all. Swift means moving very fast.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🐢",
+      "🐌"
+     ],
+     "setting": "nature"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "fast",
+     "quick"
+    ],
+    "antonyms": [
+     "slow"
+    ],
+    "family": [
+     "swiftly",
+     "swifter",
+     "swiftest"
+    ]
+   },
+   "forms": [
+    "swift",
+    "swifter",
+    "swiftest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "swift.adj.1#1",
+     "format": "example_nonexample",
+     "stage": "supported",
+     "prompt": "Is this animal swift?",
+     "passage": "The cheetah raced across the grass faster than a car.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Is the cheetah moving very fast?",
+     "explanation": "Yes. Racing faster than a car is very fast. The cheetah is swift."
+    },
+    {
+     "id": "swift.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The ___ runner zoomed past everyone and won the race.",
+     "options": [
+      {
+       "id": "a",
+       "text": "drowsy"
+      },
+      {
+       "id": "b",
+       "text": "hollow"
+      },
+      {
+       "id": "c",
+       "text": "grumpy"
+      },
+      {
+       "id": "d",
+       "text": "swift"
+      }
+     ],
+     "answer": "d",
+     "clue": "zoomed past everyone",
+     "hint": "Someone who zooms past everyone is fast.",
+     "explanation": "\"Zoomed past everyone\" shows the runner was very fast. Swift fits. A drowsy runner would be slow and sleepy."
+    },
+    {
+     "id": "swift.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"swift\" in this sentence?",
+     "passage": "A swift bird flew over the lake.",
+     "options": [
+      {
+       "id": "a",
+       "text": "slow"
+      },
+      {
+       "id": "b",
+       "text": "quick"
+      },
+      {
+       "id": "c",
+       "text": "small"
+      },
+      {
+       "id": "d",
+       "text": "blue"
+      }
+     ],
+     "answer": "a",
+     "hint": "Find the word that means not fast.",
+     "explanation": "Slow is the opposite of swift. Quick means almost the same as swift."
+    },
+    {
+     "id": "swift.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what swift means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The swift river"
+      },
+      {
+       "id": "c2",
+       "text": "carried the leaf away"
+      },
+      {
+       "id": "c3",
+       "text": "in just a few seconds."
+      },
+      {
+       "id": "c4",
+       "text": "over many, many days."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Swift things move very fast.",
+     "explanation": "A swift river moves fast, so the leaf goes away in seconds. Taking many days would be slow."
+    },
+    {
+     "id": "swift.adj.1#5",
+     "format": "best_word",
+     "stage": "transfer",
+     "prompt": "Which word fits best?",
+     "passage": "The hummingbird's wings moved so fast that they were just a blur. The hummingbird was ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "lazy"
+      },
+      {
+       "id": "b",
+       "text": "sticky"
+      },
+      {
+       "id": "c",
+       "text": "swift"
+      }
+     ],
+     "answer": "c",
+     "clue": "so fast; just a blur",
+     "hint": "Which word means very fast?",
+     "explanation": "\"So fast\" and \"just a blur\" are the clues. Swift means moving very fast."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "drowsy.adj.1",
+   "word": "drowsy",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "DROW-zee",
+   "definition": "sleepy and ready to fall asleep",
+   "hero": {
+    "text": "After the long night patrol, Kai felt drowsy and yawned on the way home.",
+    "scene": {
+     "pose": "tired",
+     "props": [
+      "😴",
+      "🌙"
+     ],
+     "setting": "night"
+    }
+   },
+   "everyday": "The warm bath made me feel drowsy before bed.",
+   "contrast": {
+    "nonExample": "Lily jumped up and down, ready to play all day.",
+    "explanation": "Lily is full of energy. Drowsy means sleepy and ready to fall asleep.",
+    "scene": {
+     "pose": "jumping",
+     "props": [
+      "⚡",
+      "🎉"
+     ],
+     "setting": "park"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "sleepy",
+     "tired"
+    ],
+    "antonyms": [
+     "awake",
+     "alert"
+    ],
+    "family": [
+     "drowsily",
+     "drowsiness"
+    ]
+   },
+   "forms": [
+    "drowsy",
+    "drowsier",
+    "drowsiest"
+   ],
+   "tags": [
+    "everyday",
+    "reading"
+   ],
+   "items": [
+    {
+     "id": "drowsy.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person is drowsy?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ava runs laps around the gym."
+      },
+      {
+       "id": "b",
+       "text": "Jay yawns, and his eyes keep closing."
+      },
+      {
+       "id": "c",
+       "text": "Leo shouts and cheers at the game."
+      }
+     ],
+     "answer": "b",
+     "hint": "Drowsy means sleepy.",
+     "explanation": "Jay yawns and his eyes keep closing. He is sleepy, so he is drowsy. Ava and Leo are full of energy."
+    },
+    {
+     "id": "drowsy.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "It was past bedtime, and the ___ baby rubbed her eyes.",
+     "options": [
+      {
+       "id": "a",
+       "text": "swift"
+      },
+      {
+       "id": "b",
+       "text": "sturdy"
+      },
+      {
+       "id": "c",
+       "text": "drowsy"
+      },
+      {
+       "id": "d",
+       "text": "cheerful"
+      }
+     ],
+     "answer": "c",
+     "clue": "past bedtime; rubbed her eyes",
+     "hint": "Past bedtime, rubbing her eyes. How does the baby feel?",
+     "explanation": "\"Past bedtime\" and \"rubbed her eyes\" show the baby is sleepy. Drowsy fits."
+    },
+    {
+     "id": "drowsy.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"drowsy\" in this sentence?",
+     "passage": "The long car ride made Sam drowsy.",
+     "options": [
+      {
+       "id": "a",
+       "text": "angry"
+      },
+      {
+       "id": "b",
+       "text": "sleepy"
+      },
+      {
+       "id": "c",
+       "text": "hungry"
+      },
+      {
+       "id": "d",
+       "text": "brave"
+      }
+     ],
+     "answer": "b",
+     "hint": "Find the word about wanting to sleep.",
+     "explanation": "Sleepy means ready to sleep, just like drowsy."
+    },
+    {
+     "id": "drowsy.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what drowsy means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The cat felt drowsy"
+      },
+      {
+       "id": "c2",
+       "text": "in the warm sunshine"
+      },
+      {
+       "id": "c3",
+       "text": "and curled up for a nap."
+      },
+      {
+       "id": "c4",
+       "text": "and ran up the tall tree."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "Drowsy means sleepy.",
+     "explanation": "A drowsy cat wants to sleep, so it curls up for a nap. Running up a tree shows energy, not sleepiness."
+    },
+    {
+     "id": "drowsy.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this person drowsy?",
+     "passage": "Tim's head kept nodding as his teacher read a quiet story after lunch.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "yes",
+     "hint": "Does Tim seem sleepy?",
+     "explanation": "Yes. His head keeps nodding during a quiet story, so he is sleepy. He is drowsy."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "clever.adj.1",
+   "word": "clever",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "KLEV-er",
+   "definition": "quick at thinking and good at finding smart ideas",
+   "hero": {
+    "text": "Pixel had a clever idea: use a mirror to bounce the light into the dark room.",
+    "scene": {
+     "pose": "thinking",
+     "props": [
+      "💡",
+      "🪞"
+     ],
+     "setting": "lab"
+    }
+   },
+   "everyday": "The clever crow dropped stones into the jar to raise the water.",
+   "contrast": {
+    "nonExample": "Ben kept pushing the door marked PULL.",
+    "explanation": "Ben is not thinking about how to solve the problem. Clever means quick at thinking of smart ideas.",
+    "scene": {
+     "pose": "confused",
+     "props": [
+      "🚪",
+      "❓"
+     ],
+     "setting": "school"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "smart",
+     "bright"
+    ],
+    "antonyms": [
+     "foolish"
+    ],
+    "family": [
+     "cleverly",
+     "cleverness",
+     "cleverer"
+    ]
+   },
+   "forms": [
+    "clever",
+    "cleverer",
+    "cleverest"
+   ],
+   "tags": [
+    "everyday",
+    "reading",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "clever.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which person is clever?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Rita forgets where she left her shoes."
+      },
+      {
+       "id": "b",
+       "text": "Mia uses a stick to get her ball out from under the car."
+      },
+      {
+       "id": "c",
+       "text": "Tom drops his lunch on the floor."
+      }
+     ],
+     "answer": "b",
+     "hint": "Clever means good at thinking of smart ideas.",
+     "explanation": "Mia thinks of a smart way to get her ball back. She is clever. Forgetting shoes and dropping lunch are not smart ideas.",
+     "wrong": {
+      "a": "Forgetting is not the same as thinking of a smart idea.",
+      "c": "Dropping lunch is an accident, not a clever idea."
+     }
+    },
+    {
+     "id": "clever.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "Jen's plan to keep the birds away from the berries was very ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "sticky"
+      },
+      {
+       "id": "b",
+       "text": "clever"
+      },
+      {
+       "id": "c",
+       "text": "drowsy"
+      },
+      {
+       "id": "d",
+       "text": "chilly"
+      }
+     ],
+     "answer": "b",
+     "clue": "plan to keep the birds away",
+     "hint": "What kind of plan solves a problem?",
+     "explanation": "A plan that solves a problem is a smart idea. Clever fits."
+    },
+    {
+     "id": "clever.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word means almost the same as \"clever\" in this sentence?",
+     "passage": "The clever puppy learned to open the gate.",
+     "options": [
+      {
+       "id": "a",
+       "text": "fluffy"
+      },
+      {
+       "id": "b",
+       "text": "noisy"
+      },
+      {
+       "id": "c",
+       "text": "smart"
+      },
+      {
+       "id": "d",
+       "text": "sleepy"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word about thinking.",
+     "explanation": "Smart means good at thinking, like clever. Fluffy and noisy describe how the puppy looks or sounds."
+    },
+    {
+     "id": "clever.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what clever means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "Sam had a clever idea:"
+      },
+      {
+       "id": "c2",
+       "text": "he used a box as a step"
+      },
+      {
+       "id": "c3",
+       "text": "to reach the high shelf."
+      },
+      {
+       "id": "c4",
+       "text": "he just cried and gave up."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A clever idea solves a problem.",
+     "explanation": "Using a box as a step is a smart way to reach the shelf. Crying and giving up is not a clever idea."
+    },
+    {
+     "id": "clever.adj.1#5",
+     "format": "context_clues",
+     "stage": "transfer",
+     "prompt": "Which word best describes Max?",
+     "passage": "Max wanted to share one orange with three friends. He split it into four equal pieces so everyone got the same.",
+     "options": [
+      {
+       "id": "a",
+       "text": "clever"
+      },
+      {
+       "id": "b",
+       "text": "lonely"
+      },
+      {
+       "id": "c",
+       "text": "grumpy"
+      },
+      {
+       "id": "d",
+       "text": "careless"
+      }
+     ],
+     "answer": "a",
+     "clue": "split it into four equal pieces",
+     "hint": "Max thought of a smart way to share.",
+     "explanation": "Splitting the orange into four equal pieces is a smart idea. That makes Max clever."
+    }
+   ],
+   "review": "pending"
+  },
+  {
+   "id": "rough.adj.1",
+   "word": "rough",
+   "grade": 2,
+   "pos": "adjective",
+   "say": "RUF",
+   "definition": "bumpy and not smooth to touch",
+   "hero": {
+    "text": "Rex climbed the rough rock wall, gripping its bumpy sides.",
+    "scene": {
+     "pose": "determined",
+     "props": [
+      "🧗",
+      "🪨"
+     ],
+     "setting": "nature"
+    }
+   },
+   "everyday": "The tree bark felt rough under my hand.",
+   "contrast": {
+    "nonExample": "The glass window felt cool and smooth.",
+    "explanation": "Smooth glass has no bumps. Rough means bumpy and not smooth.",
+    "scene": {
+     "pose": "looking",
+     "props": [
+      "🪟",
+      "✨"
+     ],
+     "setting": "home"
+    }
+   },
+   "related": {
+    "synonyms": [
+     "bumpy",
+     "scratchy"
+    ],
+    "antonyms": [
+     "smooth",
+     "soft"
+    ],
+    "family": [
+     "roughly",
+     "rougher",
+     "roughness"
+    ]
+   },
+   "forms": [
+    "rough",
+    "rougher",
+    "roughest"
+   ],
+   "tags": [
+    "everyday",
+    "science"
+   ],
+   "items": [
+    {
+     "id": "rough.adj.1#1",
+     "format": "meaning",
+     "stage": "supported",
+     "prompt": "Which thing feels rough?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a soft, fluffy pillow"
+      },
+      {
+       "id": "b",
+       "text": "a smooth, shiny marble"
+      },
+      {
+       "id": "c",
+       "text": "a scratchy piece of sandpaper"
+      }
+     ],
+     "answer": "c",
+     "hint": "Rough means bumpy and not smooth.",
+     "explanation": "Sandpaper is bumpy and scratchy, so it is rough. A pillow is soft and a marble is smooth."
+    },
+    {
+     "id": "rough.adj.1#2",
+     "format": "context_gap",
+     "stage": "independent",
+     "prompt": "Choose the word that best completes the sentence.",
+     "passage": "The old wooden bench was ___ and gave me a splinter.",
+     "options": [
+      {
+       "id": "a",
+       "text": "cozy"
+      },
+      {
+       "id": "b",
+       "text": "rough"
+      },
+      {
+       "id": "c",
+       "text": "delicious"
+      },
+      {
+       "id": "d",
+       "text": "swift"
+      }
+     ],
+     "answer": "b",
+     "clue": "gave me a splinter",
+     "hint": "What kind of wood gives you a splinter?",
+     "explanation": "\"Gave me a splinter\" shows the wood was bumpy and not smooth. Rough fits."
+    },
+    {
+     "id": "rough.adj.1#3",
+     "format": "synonym",
+     "stage": "independent",
+     "prompt": "Which word is the OPPOSITE of \"rough\" in this sentence?",
+     "passage": "The cat's tongue felt rough on my hand.",
+     "options": [
+      {
+       "id": "a",
+       "text": "bumpy"
+      },
+      {
+       "id": "b",
+       "text": "wet"
+      },
+      {
+       "id": "c",
+       "text": "smooth"
+      },
+      {
+       "id": "d",
+       "text": "pink"
+      }
+     ],
+     "answer": "c",
+     "hint": "Find the word that means no bumps.",
+     "explanation": "Smooth is the opposite of rough. Bumpy means almost the same as rough."
+    },
+    {
+     "id": "rough.adj.1#4",
+     "format": "sentence_build",
+     "stage": "independent",
+     "prompt": "Build a sentence that shows what rough means.",
+     "chunks": [
+      {
+       "id": "c1",
+       "text": "The road was rough"
+      },
+      {
+       "id": "c2",
+       "text": "with rocks and holes,"
+      },
+      {
+       "id": "c3",
+       "text": "so our bike ride was bumpy."
+      },
+      {
+       "id": "c4",
+       "text": "so our ride was smooth as ice."
+      }
+     ],
+     "answer": [
+      "c1",
+      "c2",
+      "c3"
+     ],
+     "hint": "A rough road has bumps.",
+     "explanation": "Rocks and holes make a rough road, so the ride is bumpy. \"Smooth as ice\" is the opposite of rough."
+    },
+    {
+     "id": "rough.adj.1#5",
+     "format": "example_nonexample",
+     "stage": "transfer",
+     "prompt": "Is this thing rough?",
+     "passage": "Ella rubbed the silk ribbon. It felt slippery and smooth.",
+     "options": [
+      {
+       "id": "yes",
+       "text": "Yes, it fits"
+      },
+      {
+       "id": "no",
+       "text": "No, it doesn't fit"
+      }
+     ],
+     "answer": "no",
+     "hint": "Is the ribbon bumpy or smooth?",
+     "explanation": "No. The silk ribbon is smooth and slippery, not rough. Rough means bumpy and not smooth."
+    }
+   ],
+   "review": "pending"
+  }
+ ]
+}

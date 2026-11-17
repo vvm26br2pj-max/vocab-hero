@@ -1,0 +1,853 @@
+[
+  {
+    "id": "sincere.adj.1",
+    "word": "sincere",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "sin-SEER",
+    "definition": "honest and truly meaning what you say",
+    "hero": {
+      "text": "Juniper gave a sincere apology to the baker after she crashed into his shop.",
+      "scene": { "pose": "kind", "props": ["🍞", "🙏"], "setting": "street" }
+    },
+    "everyday": "Luis wrote a sincere note telling his teacher how much her help meant to him.",
+    "contrast": {
+      "nonExample": "Rita told Jo, \"I love your hat!\" and then whispered to a friend that it looked silly.",
+      "explanation": "Sincere means you really mean what you say. Rita said one thing but meant another, so she was not sincere.",
+      "scene": { "pose": "sneaky", "props": ["🎩", "🤫"], "setting": "school" }
+    },
+    "related": { "synonyms": ["honest", "genuine", "heartfelt"], "antonyms": ["fake", "insincere"], "family": ["sincerely", "sincerity"] },
+    "forms": ["sincere"],
+    "tags": ["social", "reading"],
+    "items": [
+      {
+        "id": "sincere.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Was Ali's apology sincere?",
+        "passage": "Ali said sorry only because the teacher made him, and he rolled his eyes as he said it.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "Did Ali really mean his sorry?",
+        "explanation": "Sincere means truly meaning what you say. Rolling his eyes and only saying sorry because he had to show Ali did not mean it."
+      },
+      {
+        "id": "sincere.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Her warm, ___ smile showed she was truly happy to see us.",
+        "options": [
+          { "id": "a", "text": "fragile" }, { "id": "b", "text": "scarce" },
+          { "id": "c", "text": "sincere" }, { "id": "d", "text": "clumsy" }
+        ],
+        "answer": "c",
+        "clue": "truly happy",
+        "hint": "Her smile was real, not fake.",
+        "explanation": "\"Truly happy\" shows the smile was real and honest. That is sincere."
+      },
+      {
+        "id": "sincere.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"sincere\" in this sentence?",
+        "passage": "Mom gave a sincere thank-you to the nurse who helped us.",
+        "options": [
+          { "id": "a", "text": "loud" }, { "id": "b", "text": "fake" },
+          { "id": "c", "text": "short" }, { "id": "d", "text": "happy" }
+        ],
+        "answer": "b",
+        "hint": "Sincere means real and honest. What is the opposite?",
+        "explanation": "Fake means not real or not meant, the opposite of sincere."
+      },
+      {
+        "id": "sincere.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what sincere means.",
+        "chunks": [
+          { "id": "c1", "text": "Tom gave a sincere apology" },
+          { "id": "c2", "text": "and promised" },
+          { "id": "c3", "text": "to fix the fence he broke." },
+          { "id": "c4", "text": "and then laughed that he didn't mean it." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A sincere apology is really meant.",
+        "explanation": "Promising to fix the fence shows Tom truly means his apology. Laughing that he didn't mean it makes it not sincere."
+      },
+      {
+        "id": "sincere.adj.1#5", "format": "dialogue", "stage": "transfer",
+        "prompt": "Which line sounds sincere?",
+        "options": [
+          { "id": "a", "text": "\"Fine, I'm sorry, okay? Can we please stop talking about your silly old toy now?\"" },
+          { "id": "b", "text": "\"Sorry, I guess. Whatever.\"" },
+          { "id": "c", "text": "\"I'm really sorry I broke your toy. I'll save up to buy you a new one.\"" }
+        ],
+        "answer": "c",
+        "hint": "Which speaker truly means it?",
+        "explanation": "Saying \"really sorry\" and offering to replace the toy shows the speaker truly means it. That is sincere. The other lines sound annoyed or careless."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "temporary.adj.1",
+    "word": "temporary",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "TEM-puh-rair-ee",
+    "definition": "lasting for only a short time",
+    "hero": {
+      "text": "Rex built a temporary bridge so people could cross until the real one was fixed.",
+      "scene": { "pose": "building", "props": ["🌉", "🔧"], "setting": "city" }
+    },
+    "everyday": "The tattoo from the fair was temporary and washed off in the bath.",
+    "contrast": {
+      "nonExample": "The old stone wall has stood around the farm for two hundred years.",
+      "explanation": "Temporary things last only a short time. The wall has lasted for centuries, so it is permanent.",
+      "scene": { "pose": "neutral", "props": ["🧱"], "setting": "nature" }
+    },
+    "related": { "synonyms": ["short-term", "brief"], "antonyms": ["permanent", "lasting"], "family": ["temporarily"] },
+    "forms": ["temporary"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "temporary.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which thing is temporary?",
+        "options": [
+          { "id": "a", "text": "a mountain that has stood for millions of years" },
+          { "id": "b", "text": "a sandcastle that the tide washes away" },
+          { "id": "c", "text": "a brick school built to last a hundred years" }
+        ],
+        "answer": "b",
+        "hint": "Which one lasts only a short time?",
+        "explanation": "Temporary means lasting only a short time. A sandcastle washes away the same day."
+      },
+      {
+        "id": "temporary.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "While the roof was fixed, the gym became our ___ classroom for two weeks.",
+        "options": [
+          { "id": "a", "text": "ancient" }, { "id": "b", "text": "peculiar" },
+          { "id": "c", "text": "generous" }, { "id": "d", "text": "temporary" }
+        ],
+        "answer": "d",
+        "clue": "While the roof was fixed; for two weeks",
+        "hint": "How long would they use the gym?",
+        "explanation": "\"While the roof was fixed\" and \"for two weeks\" show the gym was used for only a short time. That is temporary."
+      },
+      {
+        "id": "temporary.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"temporary\" in this sentence?",
+        "passage": "The road is closed, but it is only a temporary problem.",
+        "options": [
+          { "id": "a", "text": "small" }, { "id": "b", "text": "easy" },
+          { "id": "c", "text": "permanent" }, { "id": "d", "text": "noisy" }
+        ],
+        "answer": "c",
+        "hint": "Which word means lasting forever?",
+        "explanation": "Permanent means lasting for a very long time or forever, the opposite of temporary."
+      },
+      {
+        "id": "temporary.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what temporary means.",
+        "chunks": [
+          { "id": "c1", "text": "The bandage was temporary," },
+          { "id": "c2", "text": "so the nurse told me" },
+          { "id": "c3", "text": "to take it off in two days." },
+          { "id": "c4", "text": "to wear it for the rest of my life." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Temporary things don't last long.",
+        "explanation": "Taking the bandage off in two days fits temporary. Wearing it forever would be permanent."
+      },
+      {
+        "id": "temporary.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the shop?",
+        "passage": "The pop-up shop sold ice cream on the beach for one week, and then it closed.",
+        "options": [
+          { "id": "a", "text": "ancient" }, { "id": "b", "text": "temporary" },
+          { "id": "c", "text": "wealthy" }, { "id": "d", "text": "fragile" }
+        ],
+        "answer": "b",
+        "clue": "for one week, and then it closed",
+        "hint": "How long was the shop open?",
+        "explanation": "\"For one week, and then it closed\" shows the shop lasted a short time. That is temporary."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "vanish.verb.1",
+    "word": "vanish",
+    "grade": 3,
+    "pos": "verb",
+    "say": "VAN-ish",
+    "definition": "to disappear suddenly or completely",
+    "hero": {
+      "text": "Pixel vanished in a flash of light and appeared on the other side of the street.",
+      "scene": { "pose": "sneaky", "props": ["✨", "💨"], "setting": "street" }
+    },
+    "everyday": "The cookies vanished from the plate in just five minutes.",
+    "contrast": {
+      "nonExample": "The puppy hid under the blanket, but we could see its tail sticking out.",
+      "explanation": "To vanish is to disappear completely. We could still see the puppy's tail, so it had not vanished.",
+      "scene": { "pose": "happy", "props": ["🐶", "🛏️"], "setting": "home" }
+    },
+    "related": { "synonyms": ["disappear"], "antonyms": ["appear"], "family": ["vanished", "vanishing"] },
+    "forms": ["vanish", "vanishes", "vanished", "vanishing"],
+    "tags": ["reading", "science"],
+    "items": [
+      {
+        "id": "vanish.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Did the fog vanish?",
+        "passage": "The sun came out, and in a few minutes the thick fog was completely gone.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Was the fog still there?",
+        "explanation": "To vanish is to disappear completely. The fog was \"completely gone,\" so it vanished."
+      },
+      {
+        "id": "vanish.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "When the hot sun came out, the puddles began to ___.",
+        "options": [
+          { "id": "a", "text": "boast" }, { "id": "b", "text": "vanish" },
+          { "id": "c", "text": "imitate" }, { "id": "d", "text": "recall" }
+        ],
+        "answer": "b",
+        "clue": "the hot sun came out",
+        "hint": "What happens to puddles in hot sun?",
+        "explanation": "The hot sun dries puddles until they are gone. They vanish."
+      },
+      {
+        "id": "vanish.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"vanish\" in this sentence?",
+        "passage": "The magician made the coin vanish from his open hand.",
+        "options": [
+          { "id": "a", "text": "shine" }, { "id": "b", "text": "grow" },
+          { "id": "c", "text": "disappear" }, { "id": "d", "text": "fall" }
+        ],
+        "answer": "c",
+        "hint": "What is a magician's coin trick?",
+        "explanation": "Disappear means the same as vanish. The coin is suddenly gone from his hand."
+      },
+      {
+        "id": "vanish.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what vanish means.",
+        "chunks": [
+          { "id": "c1", "text": "The rabbit vanished" },
+          { "id": "c2", "text": "into its hole" },
+          { "id": "c3", "text": "so fast that no one saw where it went." },
+          { "id": "c4", "text": "and stayed right where we could see it." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "When something vanishes, you can't see it anymore.",
+        "explanation": "No one saw where the rabbit went, so it vanished. Staying where we could see it is the opposite."
+      },
+      {
+        "id": "vanish.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best tells what the deer did?",
+        "passage": "One second the deer was standing in the field, and the next second it was gone.",
+        "options": [
+          { "id": "a", "text": "vanished" }, { "id": "b", "text": "glanced" },
+          { "id": "c", "text": "imitated" }, { "id": "d", "text": "boasted" }
+        ],
+        "answer": "a",
+        "clue": "the next second it was gone",
+        "hint": "Where was the deer a second later?",
+        "explanation": "\"The next second it was gone\" shows the deer disappeared suddenly. That is vanished."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "wealthy.adj.1",
+    "word": "wealthy",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "WEL-thee",
+    "definition": "having a lot of money or valuable things",
+    "hero": {
+      "text": "A wealthy store owner paid to rebuild the park that Bolt had saved.",
+      "scene": { "pose": "kind", "props": ["💰", "🌳"], "setting": "park" }
+    },
+    "everyday": "The wealthy family owned three houses and a big sailboat.",
+    "contrast": {
+      "nonExample": "Sam saved his allowance for months to buy one new book.",
+      "explanation": "Wealthy means having a lot of money. Sam had to save for months for one book, so he is not wealthy.",
+      "scene": { "pose": "thinking", "props": ["📚", "🪙"], "setting": "home" }
+    },
+    "related": { "synonyms": ["rich", "well-off"], "antonyms": ["poor"], "family": ["wealth"] },
+    "forms": ["wealthy"],
+    "tags": ["social", "history"],
+    "items": [
+      {
+        "id": "wealthy.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is wealthy?",
+        "options": [
+          { "id": "a", "text": "Mr. Gold has to count every last coin to buy one bus ticket." },
+          { "id": "b", "text": "Mr. Gold borrows money to pay for lunch." },
+          { "id": "c", "text": "Mr. Gold owns a mansion, ten cars, and a private jet." }
+        ],
+        "answer": "c",
+        "hint": "Who has a lot of money and valuable things?",
+        "explanation": "Wealthy means having lots of money or valuable things. A mansion, ten cars, and a jet show great wealth."
+      },
+      {
+        "id": "wealthy.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ king had rooms filled with gold and jewels.",
+        "options": [
+          { "id": "a", "text": "timid" }, { "id": "b", "text": "fragile" },
+          { "id": "c", "text": "wealthy" }, { "id": "d", "text": "clumsy" }
+        ],
+        "answer": "c",
+        "clue": "rooms filled with gold and jewels",
+        "hint": "What do rooms of gold tell you about the king?",
+        "explanation": "\"Rooms filled with gold and jewels\" show the king had a lot of valuable things. That is wealthy."
+      },
+      {
+        "id": "wealthy.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"wealthy\" in this sentence?",
+        "passage": "The wealthy man bought the most expensive car in the shop.",
+        "options": [
+          { "id": "a", "text": "rich" }, { "id": "b", "text": "poor" },
+          { "id": "c", "text": "tall" }, { "id": "d", "text": "busy" }
+        ],
+        "answer": "b",
+        "hint": "Wealthy is about money. What is the opposite?",
+        "explanation": "Poor means having very little money, the opposite of wealthy. Rich is a synonym.",
+        "wrong": { "a": "Rich means the same as wealthy, not the opposite." }
+      },
+      {
+        "id": "wealthy.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what wealthy means.",
+        "chunks": [
+          { "id": "c1", "text": "Because she was wealthy," },
+          { "id": "c2", "text": "the woman" },
+          { "id": "c3", "text": "gave a million dollars to the hospital." },
+          { "id": "c4", "text": "could not pay for a loaf of bread." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Wealthy people have a lot of money.",
+        "explanation": "Only someone with lots of money could give a million dollars. Not affording bread shows the opposite of wealthy."
+      },
+      {
+        "id": "wealthy.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes the family?",
+        "passage": "The family owns a huge house with a pool and travels around the world every summer.",
+        "options": [
+          { "id": "a", "text": "scarce" }, { "id": "b", "text": "polite" },
+          { "id": "c", "text": "nervous" }, { "id": "d", "text": "wealthy" }
+        ],
+        "answer": "d",
+        "clue": "huge house with a pool; travels around the world every summer",
+        "hint": "What does all of this cost?",
+        "explanation": "A huge house, a pool, and trips around the world cost a lot of money, so the family is wealthy."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "wilt.verb.1",
+    "word": "wilt",
+    "grade": 3,
+    "pos": "verb",
+    "say": "WILT",
+    "definition": "(of a plant) to droop and go limp, often from heat or too little water",
+    "hero": {
+      "text": "Juniper sprayed water on the garden so the flowers would not wilt in the heat.",
+      "scene": { "pose": "kind", "props": ["🌻", "💧"], "setting": "park" }
+    },
+    "everyday": "If you forget to water the basil, its leaves will wilt and hang down.",
+    "contrast": {
+      "nonExample": "After the rain, the tulips stood tall and bright in the garden.",
+      "explanation": "When plants wilt, they droop and go limp. These tulips stood tall, so they did not wilt.",
+      "scene": { "pose": "happy", "props": ["🌷", "🌧️"], "setting": "nature" }
+    },
+    "related": { "synonyms": ["droop", "sag"], "antonyms": ["bloom", "perk up"], "family": ["wilted", "wilting"] },
+    "forms": ["wilt", "wilts", "wilted", "wilting"],
+    "tags": ["science"],
+    "items": [
+      {
+        "id": "wilt.verb.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Did the lettuce wilt?",
+        "passage": "The lettuce sat in the hot car all day, and its leaves became soft and floppy.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "What happened to the leaves in the heat?",
+        "explanation": "To wilt is to droop and go limp. The lettuce leaves became soft and floppy in the heat."
+      },
+      {
+        "id": "wilt.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "After a week with no water, the roses began to ___.",
+        "options": [
+          { "id": "a", "text": "boast" }, { "id": "b", "text": "glance" },
+          { "id": "c", "text": "recall" }, { "id": "d", "text": "wilt" }
+        ],
+        "answer": "d",
+        "clue": "a week with no water",
+        "hint": "What happens to flowers without water?",
+        "explanation": "Plants without water droop and go limp. \"A week with no water\" makes the roses wilt."
+      },
+      {
+        "id": "wilt.verb.1#3", "format": "meaning", "stage": "independent",
+        "prompt": "What does \"wilted\" mean in this sentence?",
+        "passage": "The flowers wilted in the hot afternoon sun.",
+        "options": [
+          { "id": "a", "text": "grew much taller" }, { "id": "b", "text": "drooped and went limp" },
+          { "id": "c", "text": "changed color to blue" }, { "id": "d", "text": "smelled sweeter" }
+        ],
+        "answer": "b",
+        "hint": "What does hot sun do to flowers?",
+        "explanation": "Wilted means drooped and went limp. Hot sun dries flowers out so they hang down."
+      },
+      {
+        "id": "wilt.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what wilt means.",
+        "chunks": [
+          { "id": "c1", "text": "The daisies wilted" },
+          { "id": "c2", "text": "after a week with no water," },
+          { "id": "c3", "text": "and their heads hung low." },
+          { "id": "c4", "text": "and stood straighter than ever." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Wilted flowers droop.",
+        "explanation": "Heads hanging low shows the daisies drooped, which is wilting. Standing straight is the opposite."
+      },
+      {
+        "id": "wilt.verb.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "What happened to the pepper plants?",
+        "passage": "Grandpa forgot to water his pepper plants in the heat wave. Their leaves hung down like wet paper.",
+        "options": [
+          { "id": "a", "text": "They bloomed." }, { "id": "b", "text": "They froze." },
+          { "id": "c", "text": "They wilted." }, { "id": "d", "text": "They vanished." }
+        ],
+        "answer": "c",
+        "clue": "forgot to water; heat wave; leaves hung down",
+        "hint": "Heat and no water make leaves do what?",
+        "explanation": "No water, a heat wave, and leaves hanging down all show the plants drooped. They wilted. They did not vanish, because they were still there."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "peculiar.adj.1",
+    "word": "peculiar",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "pih-KYOOL-yur",
+    "definition": "strange or unusual",
+    "hero": {
+      "text": "Kai noticed a peculiar green glow coming from the empty lab late at night.",
+      "scene": { "pose": "surprised", "props": ["🟢", "🔬"], "setting": "night" }
+    },
+    "everyday": "The milk had a peculiar smell, so we poured it down the sink.",
+    "contrast": {
+      "nonExample": "Our cat ate her food, napped in the sun, and purred, just like every day.",
+      "explanation": "Peculiar means strange or unusual. The cat did what she does every day, which is ordinary.",
+      "scene": { "pose": "calm", "props": ["🐈", "☀️"], "setting": "home" }
+    },
+    "related": { "synonyms": ["strange", "odd", "weird"], "antonyms": ["ordinary", "normal"], "family": ["peculiarly"] },
+    "forms": ["peculiar"],
+    "tags": ["reading", "everyday"],
+    "items": [
+      {
+        "id": "peculiar.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which is peculiar?",
+        "options": [
+          { "id": "a", "text": "a dog that barks at the door" },
+          { "id": "b", "text": "a dog that chews a bone" },
+          { "id": "c", "text": "a dog that meows like a cat" }
+        ],
+        "answer": "c",
+        "hint": "Which one is strange?",
+        "explanation": "Peculiar means strange or unusual. Dogs don't usually meow, so that is peculiar."
+      },
+      {
+        "id": "peculiar.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The sound coming from the empty attic was ___, like someone humming and tapping a spoon.",
+        "options": [
+          { "id": "a", "text": "generous" }, { "id": "b", "text": "peculiar" },
+          { "id": "c", "text": "grateful" }, { "id": "d", "text": "patient" }
+        ],
+        "answer": "b",
+        "clue": "empty attic; like someone humming and tapping",
+        "hint": "Is humming in an empty attic normal?",
+        "explanation": "Humming and tapping in an attic is strange and unexpected. That is peculiar."
+      },
+      {
+        "id": "peculiar.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"peculiar\" in this sentence?",
+        "passage": "Ian wore a peculiar hat shaped like a fish.",
+        "options": [
+          { "id": "a", "text": "warm" }, { "id": "b", "text": "tiny" },
+          { "id": "c", "text": "boring" }, { "id": "d", "text": "strange" }
+        ],
+        "answer": "d",
+        "hint": "Is a fish-shaped hat normal?",
+        "explanation": "Strange means the same as peculiar. A hat shaped like a fish is unusual. Boring is nearly the opposite."
+      },
+      {
+        "id": "peculiar.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what peculiar means.",
+        "chunks": [
+          { "id": "c1", "text": "The soup tasted peculiar," },
+          { "id": "c2", "text": "so Mia asked" },
+          { "id": "c3", "text": "if someone had added something strange." },
+          { "id": "c4", "text": "for another bowl of the same old soup." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Peculiar means strange. Which ending fits?",
+        "explanation": "A peculiar taste makes Mia wonder about something strange in it. \"The same old soup\" means nothing was unusual."
+      },
+      {
+        "id": "peculiar.adj.1#5", "format": "best_word", "stage": "transfer",
+        "prompt": "Which word best describes the tree?",
+        "passage": "The tree in Ana's yard grows purple apples that taste like lemons.",
+        "options": [
+          { "id": "a", "text": "ordinary" }, { "id": "b", "text": "peculiar" },
+          { "id": "c", "text": "ancient" }, { "id": "d", "text": "fragile" }
+        ],
+        "answer": "b",
+        "clue": "purple apples that taste like lemons",
+        "hint": "Have you ever seen apples like that?",
+        "explanation": "Purple apples that taste like lemons are very unusual, so the tree is peculiar. Ordinary means normal, the opposite.",
+        "wrong": { "a": "Ordinary means normal. Purple lemon-flavored apples are not normal at all." }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "rumor.noun.1",
+    "word": "rumor",
+    "grade": 3,
+    "pos": "noun",
+    "say": "ROO-mur",
+    "definition": "a story people pass around that may not be true",
+    "hero": {
+      "text": "Bolt heard a rumor that a monster lived in the lake, so he went to check.",
+      "scene": { "pose": "looking", "props": ["👂", "🌊"], "setting": "nature" }
+    },
+    "everyday": "There was a rumor that school would close for snow, but it turned out to be false.",
+    "contrast": {
+      "nonExample": "The principal announced on the loudspeaker that the field trip is on Friday.",
+      "explanation": "A rumor is passed from person to person and may not be true. This news came straight from the principal, so it is an official fact.",
+      "scene": { "pose": "talking", "props": ["📢"], "setting": "school" }
+    },
+    "related": { "synonyms": ["gossip", "hearsay"], "antonyms": ["fact", "truth"], "family": ["rumors", "rumored"] },
+    "forms": ["rumor", "rumors"],
+    "tags": ["social", "reading"],
+    "items": [
+      {
+        "id": "rumor.noun.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "What is a rumor?",
+        "passage": "A rumor spread that our teacher was moving to France.",
+        "options": [
+          { "id": "a", "text": "a fact that a book has proven to be true" },
+          { "id": "b", "text": "a story passed around that may not be true" },
+          { "id": "c", "text": "a happy song that people sing together at school" },
+          { "id": "d", "text": "a secret that only one single person knows" }
+        ],
+        "answer": "b",
+        "hint": "The story \"spread\" from person to person.",
+        "explanation": "A rumor is a story people pass around that may not be true. \"Spread\" shows it went from person to person."
+      },
+      {
+        "id": "rumor.noun.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The ___ about free ice cream spread fast, but no one knew if it was true.",
+        "options": [
+          { "id": "a", "text": "habitat" }, { "id": "b", "text": "glance" },
+          { "id": "c", "text": "rumor" }, { "id": "d", "text": "recipe" }
+        ],
+        "answer": "c",
+        "clue": "spread fast; no one knew if it was true",
+        "hint": "What kind of story spreads but might not be true?",
+        "explanation": "\"Spread fast\" and \"no one knew if it was true\" describe a rumor."
+      },
+      {
+        "id": "rumor.noun.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"rumor\" in this sentence?",
+        "passage": "Don't believe every rumor you hear on the playground.",
+        "options": [
+          { "id": "a", "text": "game" }, { "id": "b", "text": "gossip" },
+          { "id": "c", "text": "fact" }, { "id": "d", "text": "song" }
+        ],
+        "answer": "b",
+        "hint": "What kind of talk shouldn't you always believe?",
+        "explanation": "Gossip is talk passed around about others that may not be true, like a rumor. A fact is proven true, which is the opposite.",
+        "wrong": { "c": "A fact is known to be true. A rumor may not be true." }
+      },
+      {
+        "id": "rumor.noun.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what rumor means.",
+        "chunks": [
+          { "id": "c1", "text": "The rumor said" },
+          { "id": "c2", "text": "a famous singer was visiting our school," },
+          { "id": "c3", "text": "but nobody knew if it was true." },
+          { "id": "c4", "text": "and everyone knew it was a proven fact." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A rumor may or may not be true.",
+        "explanation": "Rumors are stories no one is sure about. A \"proven fact\" is not a rumor."
+      },
+      {
+        "id": "rumor.noun.1#5", "format": "example_nonexample", "stage": "transfer",
+        "prompt": "Is this a rumor?",
+        "passage": "Lena heard from a friend, who heard it from a cousin, that the town pool is closing forever.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Where did the news come from? Is it sure to be true?",
+        "explanation": "The story was passed from person to person, and no one official said it. That makes it a rumor."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "clumsy.adj.1",
+    "word": "clumsy",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "KLUM-zee",
+    "definition": "moving in an awkward way that makes you trip, bump, or drop things",
+    "hero": {
+      "text": "Rex was clumsy in his heavy new armor and tripped over the curb twice.",
+      "scene": { "pose": "confused", "props": ["🛡️", "🤕"], "setting": "street" }
+    },
+    "everyday": "The clumsy puppy kept tripping over its own big paws.",
+    "contrast": {
+      "nonExample": "The dancer leaped and landed smoothly on her toes without a wobble.",
+      "explanation": "Clumsy means awkward and likely to trip or drop things. The dancer moved smoothly and gracefully.",
+      "scene": { "pose": "jumping", "props": ["🩰"], "setting": "stage" }
+    },
+    "related": { "synonyms": ["awkward", "bumbling"], "antonyms": ["graceful", "nimble"], "family": ["clumsily", "clumsiness"] },
+    "forms": ["clumsy"],
+    "tags": ["everyday", "reading"],
+    "items": [
+      {
+        "id": "clumsy.adj.1#1", "format": "example_nonexample", "stage": "supported",
+        "prompt": "Is Tim being clumsy?",
+        "passage": "In one morning, Tim knocked over his milk, dropped his spoon, and tripped on his backpack.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Is Tim moving smoothly or awkwardly?",
+        "explanation": "Clumsy means awkward and likely to trip or drop things. Tim spills, drops, and trips."
+      },
+      {
+        "id": "clumsy.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "I am so ___ today that I have dropped my pencil four times!",
+        "options": [
+          { "id": "a", "text": "wealthy" }, { "id": "b", "text": "ancient" },
+          { "id": "c", "text": "sincere" }, { "id": "d", "text": "clumsy" }
+        ],
+        "answer": "d",
+        "clue": "dropped my pencil four times",
+        "hint": "What kind of person keeps dropping things?",
+        "explanation": "Dropping a pencil \"four times\" is awkward and careless. That is clumsy."
+      },
+      {
+        "id": "clumsy.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"clumsy\" in this sentence?",
+        "passage": "The clumsy waiter spilled soup all over the table.",
+        "options": [
+          { "id": "a", "text": "hungry" }, { "id": "b", "text": "graceful" },
+          { "id": "c", "text": "tired" }, { "id": "d", "text": "loud" }
+        ],
+        "answer": "b",
+        "hint": "What do you call someone who moves smoothly and carefully?",
+        "explanation": "Graceful means moving smoothly and easily, the opposite of clumsy."
+      },
+      {
+        "id": "clumsy.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what clumsy means.",
+        "chunks": [
+          { "id": "c1", "text": "Being clumsy," },
+          { "id": "c2", "text": "Jake" },
+          { "id": "c3", "text": "bumped into the door and dropped his books." },
+          { "id": "c4", "text": "walked across the balance beam without a wobble." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "Clumsy people bump and drop things.",
+        "explanation": "Bumping and dropping things are clumsy. Walking a beam without a wobble is graceful."
+      },
+      {
+        "id": "clumsy.adj.1#5", "format": "context_clues", "stage": "transfer",
+        "prompt": "Which word best describes Nora?",
+        "passage": "Every time Nora carries a tray, she wobbles, trips, and spills something.",
+        "options": [
+          { "id": "a", "text": "steady" }, { "id": "b", "text": "clumsy" },
+          { "id": "c", "text": "sensible" }, { "id": "d", "text": "patient" }
+        ],
+        "answer": "b",
+        "clue": "wobbles, trips, and spills",
+        "hint": "How does Nora move?",
+        "explanation": "\"Wobbles, trips, and spills\" shows awkward moving. That is clumsy. Steady is the opposite."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "steady.adj.1",
+    "word": "steady",
+    "grade": 3,
+    "pos": "adjective",
+    "say": "STED-ee",
+    "definition": "firm and not shaking or wobbling",
+    "hero": {
+      "text": "Nova held the ladder steady while the firefighter climbed up to the window.",
+      "scene": { "pose": "determined", "props": ["🪜", "🚒"], "setting": "city" }
+    },
+    "everyday": "Hold the camera steady, or the picture will come out blurry.",
+    "contrast": {
+      "nonExample": "The old table wobbles every time someone leans on it.",
+      "explanation": "Steady means firm and not shaking. The wobbly table moves around, so it is not steady.",
+      "scene": { "pose": "confused", "props": ["🪑"], "setting": "home" }
+    },
+    "related": { "synonyms": ["stable", "firm"], "antonyms": ["shaky", "wobbly"], "family": ["steadily", "steadiness"] },
+    "forms": ["steady"],
+    "tags": ["everyday", "science"],
+    "items": [
+      {
+        "id": "steady.adj.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which thing is steady?",
+        "options": [
+          { "id": "a", "text": "a chair with one short leg that rocks" },
+          { "id": "b", "text": "a ladder that stays still as you climb" },
+          { "id": "c", "text": "a jelly that wiggles on the plate" }
+        ],
+        "answer": "b",
+        "hint": "Which one does not shake or wobble?",
+        "explanation": "Steady means firm and not wobbling. A ladder that stays still is steady."
+      },
+      {
+        "id": "steady.adj.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Keep your hand ___ so the paint stays right on the line.",
+        "options": [
+          { "id": "a", "text": "frantic" }, { "id": "b", "text": "clumsy" },
+          { "id": "c", "text": "steady" }, { "id": "d", "text": "nervous" }
+        ],
+        "answer": "c",
+        "clue": "so the paint stays right on the line",
+        "hint": "What kind of hand paints a neat line?",
+        "explanation": "To paint right on the line, your hand must not shake. That is steady. A clumsy or nervous hand might wobble.",
+        "wrong": { "b": "A clumsy hand would make mistakes, not keep the paint on the line.", "d": "A nervous hand might shake, which is the opposite of what you need." }
+      },
+      {
+        "id": "steady.adj.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word means the OPPOSITE of \"steady\" in this sentence?",
+        "passage": "The doctor had steady hands as she stitched the cut.",
+        "options": [
+          { "id": "a", "text": "clean" }, { "id": "b", "text": "warm" },
+          { "id": "c", "text": "quick" }, { "id": "d", "text": "shaky" }
+        ],
+        "answer": "d",
+        "hint": "Steady hands don't move around. What do you call hands that do?",
+        "explanation": "Shaky means trembling, the opposite of steady."
+      },
+      {
+        "id": "steady.adj.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows what steady means.",
+        "chunks": [
+          { "id": "c1", "text": "Ana kept the canoe steady" },
+          { "id": "c2", "text": "by sitting still in the middle," },
+          { "id": "c3", "text": "so nobody fell into the lake." },
+          { "id": "c4", "text": "so it rocked and tipped over." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "A steady boat doesn't rock.",
+        "explanation": "Keeping the canoe steady means it doesn't rock, so nobody falls in. Rocking and tipping is the opposite."
+      },
+      {
+        "id": "steady.adj.1#5", "format": "example_nonexample", "stage": "transfer",
+        "prompt": "Was the tower steady?",
+        "passage": "Leo's tall tower of blocks swayed back and forth and then crashed to the floor.",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "no",
+        "hint": "Did the tower stay firm?",
+        "explanation": "Steady means firm and not wobbling. The tower swayed and fell, so it was not steady."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "boast.verb.1",
+    "word": "boast",
+    "grade": 3,
+    "pos": "verb",
+    "say": "BOHST",
+    "definition": "to talk with too much pride about yourself or what you have",
+    "hero": {
+      "text": "Bolt began to boast about how fast he was, until Kai beat him in a race.",
+      "scene": { "pose": "proud", "props": ["⚡", "🏃"], "setting": "park" }
+    },
+    "everyday": "Jen likes to boast about her new shoes to everyone she meets.",
+    "contrast": {
+      "nonExample": "When Amir won the art prize, he said \"Thank you\" and praised the other artists.",
+      "explanation": "To boast is to brag too much about yourself. Amir was modest and praised others, so he did not boast.",
+      "scene": { "pose": "kind", "props": ["🏆", "🎨"], "setting": "school" }
+    },
+    "related": { "synonyms": ["brag", "show off"], "antonyms": [], "family": ["boastful", "boasted", "boasting"] },
+    "forms": ["boast", "boasts", "boasted", "boasting"],
+    "tags": ["social", "reading"],
+    "items": [
+      {
+        "id": "boast.verb.1#1", "format": "meaning", "stage": "supported",
+        "prompt": "Which person is boasting?",
+        "options": [
+          { "id": "a", "text": "Kyle says, \"I'm the best player ever, way better than all of you!\"" },
+          { "id": "b", "text": "Kyle says, \"Good game, everyone!\"" },
+          { "id": "c", "text": "Kyle says, \"Could you please help me practice my free throws after school?\"" }
+        ],
+        "answer": "a",
+        "hint": "Who talks about himself with too much pride?",
+        "explanation": "To boast is to brag. Saying \"I'm the best player ever\" is bragging."
+      },
+      {
+        "id": "boast.verb.1#2", "format": "context_gap", "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Mia loves to ___ about her high test scores, which bothers her friends.",
+        "options": [
+          { "id": "a", "text": "vanish" }, { "id": "b", "text": "boast" },
+          { "id": "c", "text": "wilt" }, { "id": "d", "text": "glance" }
+        ],
+        "answer": "b",
+        "clue": "about her high test scores; bothers her friends",
+        "hint": "What kind of talking about yourself bothers friends?",
+        "explanation": "Talking about her own high scores in a way that \"bothers her friends\" is bragging. That is boasting."
+      },
+      {
+        "id": "boast.verb.1#3", "format": "synonym", "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"boasts\" in this sentence?",
+        "passage": "Uncle Joe always boasts about the giant fish he caught.",
+        "options": [
+          { "id": "a", "text": "worries" }, { "id": "b", "text": "forgets" },
+          { "id": "c", "text": "brags" }, { "id": "d", "text": "whispers" }
+        ],
+        "answer": "c",
+        "hint": "How does Uncle Joe talk about his giant fish?",
+        "explanation": "Brags means the same as boasts: talking proudly about yourself or what you did."
+      },
+      {
+        "id": "boast.verb.1#4", "format": "sentence_build", "stage": "independent",
+        "prompt": "Build a sentence that shows the opposite of boasting.",
+        "chunks": [
+          { "id": "c1", "text": "Instead of boasting about her win," },
+          { "id": "c2", "text": "Rosa" },
+          { "id": "c3", "text": "thanked her coach and her team." },
+          { "id": "c4", "text": "shouted that she was the greatest ever." }
+        ],
+        "answer": ["c1", "c2", "c3"],
+        "hint": "\"Instead of boasting\" means she did NOT brag.",
+        "explanation": "Thanking others is the opposite of boasting, so it fits \"instead of boasting.\" Shouting that she was the greatest IS boasting."
+      },
+      {
+        "id": "boast.verb.1#5", "format": "example_nonexample", "stage": "transfer",
+        "prompt": "Is Liz boasting?",
+        "passage": "After scoring a goal, Liz ran around shouting, \"Nobody can kick like me! I'm the best!\"",
+        "options": [{ "id": "yes", "text": "Yes, it fits" }, { "id": "no", "text": "No, it doesn't fit" }],
+        "answer": "yes",
+        "hint": "Is Liz talking about herself with too much pride?",
+        "explanation": "Shouting \"Nobody can kick like me! I'm the best!\" is bragging about herself. That is boasting."
+      }
+    ],
+    "review": "pending"
+  }
+]

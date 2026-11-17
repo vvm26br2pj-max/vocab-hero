@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "cultivate.verb.1",
+    "word": "cultivate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "KUL-tuh-vate",
+    "definition": "to prepare land and grow crops or plants on it",
+    "hero": {
+      "text": "Juniper helped the villagers cultivate the rocky hillside, clearing stones and planting rows of corn and squash.",
+      "scene": {
+        "pose": "building",
+        "props": [
+          "🌽",
+          "🪨",
+          "🌱"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Ancient Egyptians cultivated wheat along the Nile, where yearly floods left rich soil behind.",
+    "contrast": {
+      "nonExample": "Wild blackberries grew along the fence without anyone planting or watering them.",
+      "explanation": "Plants that grow on their own are not cultivated. Cultivating means people prepare the soil and grow the plants on purpose.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🫐"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "farm",
+        "grow",
+        "till"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon"
+      ],
+      "family": [
+        "cultivation",
+        "cultivated",
+        "cultivator"
+      ]
+    },
+    "forms": [
+      "cultivate",
+      "cultivates",
+      "cultivated",
+      "cultivating"
+    ],
+    "tags": [
+      "science",
+      "history",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "cultivate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"cultivate\" mean in this sentence?",
+        "passage": "Farmers in the valley cultivate rice in flooded fields that they prepare carefully each spring.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to sell food at a market"
+          },
+          {
+            "id": "b",
+            "text": "to cook food in water"
+          },
+          {
+            "id": "c",
+            "text": "to protect land from floods"
+          },
+          {
+            "id": "d",
+            "text": "to prepare land and grow crops"
+          }
+        ],
+        "answer": "d",
+        "hint": "The farmers prepare fields each spring. What are they doing with the rice?",
+        "explanation": "The farmers \"prepare\" the fields and grow rice in them. Preparing land and growing crops is cultivating."
+      },
+      {
+        "id": "cultivate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Our class plans to ___ a small vegetable garden behind the gym, starting by loosening the hard soil.",
+        "options": [
+          {
+            "id": "a",
+            "text": "cultivate"
+          },
+          {
+            "id": "b",
+            "text": "photograph"
+          },
+          {
+            "id": "c",
+            "text": "visit"
+          },
+          {
+            "id": "d",
+            "text": "flatten"
+          }
+        ],
+        "answer": "a",
+        "clue": "loosening the hard soil; vegetable garden",
+        "hint": "Loosening soil is the first step in what kind of work?",
+        "explanation": "Loosening soil to start a vegetable garden is preparing land to grow plants. That is cultivating. Visiting or photographing a garden does not grow it."
+      },
+      {
+        "id": "cultivate.verb.1#3",
+        "format": "example_nonexample",
+        "stage": "independent",
+        "prompt": "Is this an example of cultivating?",
+        "passage": "Mrs. Ortiz bought a bag of apples at the grocery store and put them in a bowl on her table.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did Mrs. Ortiz prepare land or grow anything?",
+        "explanation": "Buying apples is not growing them. Cultivating means preparing land and growing crops yourself."
+      },
+      {
+        "id": "cultivate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what cultivate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Early settlers cultivated the prairie"
+          },
+          {
+            "id": "c2",
+            "text": "by plowing the thick grass"
+          },
+          {
+            "id": "c3",
+            "text": "and planting fields of wheat."
+          },
+          {
+            "id": "c4",
+            "text": "and leaving it untouched forever."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Cultivating land means working it to grow crops.",
+        "explanation": "Plowing and planting wheat are the steps of cultivating land. Leaving land untouched is the opposite."
+      },
+      {
+        "id": "cultivate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what the Inca did on the mountainsides?",
+        "passage": "The Inca built flat steps called terraces into steep mountains, filled them with soil, and grew potatoes and corn there.",
+        "options": [
+          {
+            "id": "a",
+            "text": "explored"
+          },
+          {
+            "id": "b",
+            "text": "cultivated"
+          },
+          {
+            "id": "c",
+            "text": "abandoned"
+          },
+          {
+            "id": "d",
+            "text": "mapped"
+          }
+        ],
+        "answer": "b",
+        "clue": "filled them with soil; grew potatoes and corn",
+        "hint": "They prepared the land and grew food on it.",
+        "explanation": "Building terraces, adding soil, and growing potatoes and corn is preparing land for crops. That is cultivating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "debate.noun.1",
+    "word": "debate",
+    "grade": 5,
+    "pos": "noun",
+    "say": "dih-BATE",
+    "definition": "a discussion in which people give reasons for different opinions",
+    "hero": {
+      "text": "The heroes held a debate about the new rule, with Rex arguing for it and Kai giving reasons against it.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "🎤",
+          "📋"
+        ],
+        "second": "talking",
+        "setting": "school"
+      }
+    },
+    "everyday": "In the class debate, one team argued for a longer recess while the other argued for more library time.",
+    "contrast": {
+      "nonExample": "Two friends shouted \"Mine!\" at each other over the last cookie without giving any reasons.",
+      "explanation": "Shouting without reasons is just an argument. A debate is a discussion where each side explains its reasons.",
+      "scene": {
+        "pose": "angry",
+        "props": [
+          "🍪"
+        ],
+        "second": "angry",
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "discussion",
+        "argument",
+        "dispute"
+      ],
+      "antonyms": [
+        "agreement"
+      ],
+      "family": [
+        "debater",
+        "debatable",
+        "debated"
+      ]
+    },
+    "forms": [
+      "debate",
+      "debates"
+    ],
+    "tags": [
+      "social",
+      "reading",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "debate.noun.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which situation is a debate?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Two teams give reasons for and against school uniforms."
+          },
+          {
+            "id": "b",
+            "text": "A class sings a song together."
+          },
+          {
+            "id": "c",
+            "text": "A student reads a book quietly at her desk."
+          },
+          {
+            "id": "d",
+            "text": "Everyone in the room agrees on lunch right away."
+          }
+        ],
+        "answer": "a",
+        "hint": "A debate needs different opinions and reasons.",
+        "explanation": "Two teams giving reasons \"for and against\" is a debate. When everyone agrees right away, there is nothing to debate."
+      },
+      {
+        "id": "debate.noun.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The town held a public ___ so that people could share their reasons for and against building the new mall.",
+        "options": [
+          {
+            "id": "a",
+            "text": "parade"
+          },
+          {
+            "id": "b",
+            "text": "contest"
+          },
+          {
+            "id": "c",
+            "text": "debate"
+          },
+          {
+            "id": "d",
+            "text": "concert"
+          }
+        ],
+        "answer": "c",
+        "clue": "share their reasons for and against",
+        "hint": "Where would people share reasons for and against an idea?",
+        "explanation": "\"Reasons for and against\" describes a debate. A contest has winners, but it is not mainly about sharing reasons on an issue.",
+        "wrong": {
+          "b": "A contest is a competition, but the clue is about sharing reasons on two sides of an issue."
+        }
+      },
+      {
+        "id": "debate.noun.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"debate\" in this sentence?",
+        "passage": "After a long debate, the students still could not decide on a name for the class pet.",
+        "options": [
+          {
+            "id": "a",
+            "text": "quarrel"
+          },
+          {
+            "id": "b",
+            "text": "agreement"
+          },
+          {
+            "id": "c",
+            "text": "question"
+          },
+          {
+            "id": "d",
+            "text": "lesson"
+          }
+        ],
+        "answer": "b",
+        "hint": "A debate happens because people disagree. What is the opposite of disagreeing?",
+        "explanation": "A debate involves different opinions. Agreement means everyone thinks the same, the opposite. Quarrel is close in meaning to debate, but angrier."
+      },
+      {
+        "id": "debate.noun.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "The two candidates calmly explained their plans and answered questions during the televised ___.",
+        "options": [
+          {
+            "id": "a",
+            "text": "fight"
+          },
+          {
+            "id": "b",
+            "text": "debate"
+          },
+          {
+            "id": "c",
+            "text": "argument"
+          },
+          {
+            "id": "d",
+            "text": "lecture"
+          }
+        ],
+        "answer": "b",
+        "clue": "calmly explained their plans; answered questions",
+        "hint": "Look for a word that means a calm, organized discussion of different views.",
+        "explanation": "\"Calmly explained\" and \"answered questions\" describe an organized debate. A fight or argument sounds angry, and a lecture has only one speaker."
+      },
+      {
+        "id": "debate.noun.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What are the scientists having?",
+        "passage": "Some scientists say the dinosaurs died from a giant asteroid. Others point to huge volcanoes. Both groups share evidence for their view.",
+        "options": [
+          {
+            "id": "a",
+            "text": "an experiment"
+          },
+          {
+            "id": "b",
+            "text": "a celebration"
+          },
+          {
+            "id": "c",
+            "text": "a debate"
+          },
+          {
+            "id": "d",
+            "text": "a vacation"
+          }
+        ],
+        "answer": "c",
+        "clue": "Some scientists say; Others point to; share evidence for their view",
+        "hint": "Two groups disagree and each gives evidence.",
+        "explanation": "Two groups with different views, each sharing evidence, are having a debate. An experiment tests an idea, but the passage describes people disagreeing."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "decline.verb.1",
+    "word": "decline",
+    "grade": 5,
+    "pos": "verb",
+    "say": "dih-KLINE",
+    "definition": "to become smaller, fewer, or weaker over time",
+    "hero": {
+      "text": "Pixel noticed the river's fish numbers had declined each year, so the team searched upstream for the cause.",
+      "scene": {
+        "pose": "looking",
+        "props": [
+          "🐟",
+          "📉"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "The number of honeybees declined in many areas, which worried farmers who need bees to pollinate crops.",
+    "contrast": {
+      "nonExample": "The town's population grew from 5,000 to 8,000 people in ten years.",
+      "explanation": "Growing is the opposite of declining. Decline means to get smaller, fewer, or weaker.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🏘️",
+          "📈"
+        ],
+        "setting": "city"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "decrease",
+        "drop",
+        "shrink"
+      ],
+      "antonyms": [
+        "increase",
+        "grow",
+        "rise"
+      ],
+      "family": [
+        "declining",
+        "declined"
+      ]
+    },
+    "forms": [
+      "decline",
+      "declines",
+      "declined",
+      "declining"
+    ],
+    "tags": [
+      "science",
+      "math",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "decline.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Decline can mean \"to politely say no\" or \"to become smaller or fewer\". Which meaning is used here?",
+        "passage": "As the forest was cut down, the number of owls living there began to decline.",
+        "options": [
+          {
+            "id": "a",
+            "text": "to politely say no"
+          },
+          {
+            "id": "b",
+            "text": "to become smaller or fewer"
+          },
+          {
+            "id": "c",
+            "text": "to slope downward like a hill"
+          },
+          {
+            "id": "d",
+            "text": "to fly away quickly"
+          }
+        ],
+        "answer": "b",
+        "hint": "Owls cannot say no to anything here. What happens to their number?",
+        "explanation": "\"The number of owls\" is what declines, so it means became fewer. Owls are not refusing an invitation, so \"politely say no\" does not fit this sentence."
+      },
+      {
+        "id": "decline.verb.1#2",
+        "format": "meaning",
+        "stage": "independent",
+        "prompt": "Which meaning of \"declined\" is used in this passage?",
+        "passage": "Maya was invited to join the chess club. She thanked the coach but declined because she already had soccer practice.",
+        "options": [
+          {
+            "id": "a",
+            "text": "became smaller or weaker"
+          },
+          {
+            "id": "b",
+            "text": "won a game"
+          },
+          {
+            "id": "c",
+            "text": "politely said no"
+          },
+          {
+            "id": "d",
+            "text": "forgot about it"
+          }
+        ],
+        "answer": "c",
+        "clue": "invited; thanked the coach but",
+        "hint": "Maya was invited and thanked the coach. What did she do with the invitation?",
+        "explanation": "Maya \"thanked the coach but\" did not join, so declined here means politely said no. This is a different sense from the main one you learned: becoming smaller.",
+        "wrong": {
+          "a": "That is the meaning for numbers or strength. Here, a person is answering an invitation."
+        }
+      },
+      {
+        "id": "decline.verb.1#3",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Sales of paper maps have ___ over the years because most people now use phones to find their way.",
+        "options": [
+          {
+            "id": "a",
+            "text": "declined"
+          },
+          {
+            "id": "b",
+            "text": "doubled"
+          },
+          {
+            "id": "c",
+            "text": "printed"
+          },
+          {
+            "id": "d",
+            "text": "traveled"
+          }
+        ],
+        "answer": "a",
+        "clue": "because most people now use phones",
+        "hint": "If people use phones instead, do map sales go up or down?",
+        "explanation": "People using phones instead of maps means fewer maps are sold. Sales declined. Doubled would mean the opposite."
+      },
+      {
+        "id": "decline.verb.1#4",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"declined\" in this sentence?",
+        "passage": "Grandpa's eyesight declined as he got older, so he needed stronger glasses to read the newspaper.",
+        "options": [
+          {
+            "id": "a",
+            "text": "weakened"
+          },
+          {
+            "id": "b",
+            "text": "blurred"
+          },
+          {
+            "id": "c",
+            "text": "improved"
+          },
+          {
+            "id": "d",
+            "text": "refused"
+          }
+        ],
+        "answer": "c",
+        "hint": "His eyesight got worse. Which word means got better?",
+        "explanation": "Declined here means got weaker, so improved is the opposite. Weakened is a synonym. Refused matches the other sense of decline, which does not fit eyesight."
+      },
+      {
+        "id": "decline.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes what happened to the lake's water level?",
+        "passage": "Month after month without rain, the lake shrank. The old dock that once sat in water now stood on dry, cracked mud.",
+        "options": [
+          {
+            "id": "a",
+            "text": "rose"
+          },
+          {
+            "id": "b",
+            "text": "froze"
+          },
+          {
+            "id": "c",
+            "text": "flooded"
+          },
+          {
+            "id": "d",
+            "text": "declined"
+          }
+        ],
+        "answer": "d",
+        "clue": "the lake shrank; now stood on dry, cracked mud",
+        "hint": "The lake shrank and the dock is now on dry mud.",
+        "explanation": "\"Shrank\" and the dock on \"dry, cracked mud\" show the water level dropped over time. That is declining."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "elaborate.verb.1",
+    "word": "elaborate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "ih-LAB-uh-rate",
+    "definition": "to add more details to explain an idea fully",
+    "hero": {
+      "text": "When the students looked confused, Nova elaborated on her plan, explaining each step and drawing a map.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "🗺️",
+          "✏️"
+        ],
+        "second": "listening",
+        "setting": "school"
+      }
+    },
+    "everyday": "My teacher wrote \"Please elaborate\" next to my answer, so I added two examples to support my idea.",
+    "contrast": {
+      "nonExample": "When asked why she liked the book, Ana just said, \"It was good,\" and stopped talking.",
+      "explanation": "Giving a short answer with no details is not elaborating. To elaborate, you add details and explain more.",
+      "scene": {
+        "pose": "shrugging",
+        "props": [
+          "📕"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "expand on",
+        "explain",
+        "develop"
+      ],
+      "antonyms": [
+        "summarize",
+        "shorten",
+        "simplify"
+      ],
+      "family": [
+        "elaboration",
+        "elaborate (adj.)",
+        "elaborately"
+      ]
+    },
+    "forms": [
+      "elaborate",
+      "elaborates",
+      "elaborated",
+      "elaborating"
+    ],
+    "tags": [
+      "reading",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "elaborate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which student elaborates on an idea?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ty writes: \"Dogs are good pets.\""
+          },
+          {
+            "id": "b",
+            "text": "Ming writes: \"Dogs are good pets because they are loyal, playful, and get you outside.\""
+          },
+          {
+            "id": "c",
+            "text": "Sara erases her whole answer."
+          },
+          {
+            "id": "d",
+            "text": "Jake copies the question onto his paper."
+          }
+        ],
+        "answer": "b",
+        "hint": "Look for the answer with added reasons and details.",
+        "explanation": "Ming adds three reasons to explain her idea fully. That is elaborating. Ty states the idea but gives no details."
+      },
+      {
+        "id": "elaborate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "The scientist's first answer was short, so a reporter asked her to ___ with more details about the discovery.",
+        "options": [
+          {
+            "id": "a",
+            "text": "apologize"
+          },
+          {
+            "id": "b",
+            "text": "whisper"
+          },
+          {
+            "id": "c",
+            "text": "leave"
+          },
+          {
+            "id": "d",
+            "text": "elaborate"
+          }
+        ],
+        "answer": "d",
+        "clue": "first answer was short; with more details",
+        "hint": "A short answer needs what?",
+        "explanation": "\"Was short\" and \"with more details\" show the reporter wanted a fuller explanation. That is elaborating."
+      },
+      {
+        "id": "elaborate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"elaborate\" in this sentence?",
+        "passage": "In your essay, elaborate on why the Pilgrims needed help from the Wampanoag during their first winter.",
+        "options": [
+          {
+            "id": "a",
+            "text": "describe"
+          },
+          {
+            "id": "b",
+            "text": "explain"
+          },
+          {
+            "id": "c",
+            "text": "shorten"
+          },
+          {
+            "id": "d",
+            "text": "discover"
+          }
+        ],
+        "answer": "c",
+        "hint": "Elaborate means to add more. Which word means to make less?",
+        "explanation": "Elaborating makes an explanation longer and fuller, so shorten is the opposite. Describe and explain are close in meaning to elaborate."
+      },
+      {
+        "id": "elaborate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what elaborate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "To elaborate on his point,"
+          },
+          {
+            "id": "c2",
+            "text": "Diego added facts about"
+          },
+          {
+            "id": "c3",
+            "text": "how much water a leaky faucet wastes."
+          },
+          {
+            "id": "c4",
+            "text": "deleted every detail from his speech."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Elaborating means adding, not removing.",
+        "explanation": "Adding facts about water waste gives more detail, which is elaborating. Deleting details does the opposite."
+      },
+      {
+        "id": "elaborate.verb.1#5",
+        "format": "dialogue",
+        "stage": "transfer",
+        "prompt": "Which line uses \"elaborate\" naturally?",
+        "options": [
+          {
+            "id": "a",
+            "text": "\"Can you elaborate? I'd like to hear more about why you think that.\""
+          },
+          {
+            "id": "b",
+            "text": "\"I'll elaborate the dishes after dinner.\""
+          },
+          {
+            "id": "c",
+            "text": "\"The bus elaborated down the street.\""
+          },
+          {
+            "id": "d",
+            "text": "\"She elaborated her lunch quickly.\""
+          }
+        ],
+        "answer": "a",
+        "hint": "Which speaker wants more explanation?",
+        "explanation": "Asking someone to elaborate means asking for more detail about their idea, as in \"I'd like to hear more\". The other lines use the word like wash, drive, or eat."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "emerge.verb.1",
+    "word": "emerge",
+    "grade": 5,
+    "pos": "verb",
+    "say": "ih-MURJ",
+    "definition": "to come out from somewhere or come into view",
+    "hero": {
+      "text": "After a long night underground, Rex emerged from the tunnel, blinking in the morning sunlight.",
+      "scene": {
+        "pose": "surprised",
+        "props": [
+          "🕳️",
+          "☀️"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "After two weeks inside its chrysalis, the butterfly emerged and slowly spread its wet wings.",
+    "contrast": {
+      "nonExample": "The turtle pulled its head back into its shell when the dog barked.",
+      "explanation": "Going back inside is the opposite of emerging. To emerge is to come out or come into view.",
+      "scene": {
+        "pose": "scared",
+        "props": [
+          "🐢",
+          "🐕"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "come out",
+        "appear",
+        "surface"
+      ],
+      "antonyms": [
+        "disappear",
+        "vanish",
+        "retreat"
+      ],
+      "family": [
+        "emergence",
+        "emerging",
+        "emergent"
+      ]
+    },
+    "forms": [
+      "emerge",
+      "emerges",
+      "emerged",
+      "emerging"
+    ],
+    "tags": [
+      "science",
+      "reading",
+      "history"
+    ],
+    "items": [
+      {
+        "id": "emerge.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this an example of something emerging?",
+        "passage": "As the fog grew thicker, the tall lighthouse slowly faded until nobody on the beach could see it.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Did the lighthouse come into view, or go out of view?",
+        "explanation": "The lighthouse faded out of view. Emerge means the opposite: to come out or come into view."
+      },
+      {
+        "id": "emerge.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Every spring, tiny green shoots ___ from the soil where we planted tulip bulbs last fall.",
+        "options": [
+          {
+            "id": "a",
+            "text": "vanish"
+          },
+          {
+            "id": "b",
+            "text": "emerge"
+          },
+          {
+            "id": "c",
+            "text": "freeze"
+          },
+          {
+            "id": "d",
+            "text": "sink"
+          }
+        ],
+        "answer": "b",
+        "clue": "from the soil; every spring",
+        "hint": "What do new plants do when they first grow out of the ground?",
+        "explanation": "Shoots coming up \"from the soil\" are coming out into view. That is emerging. Vanish means the opposite."
+      },
+      {
+        "id": "emerge.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"emerged\" in this sentence?",
+        "passage": "The whale emerged from the deep water, blew a spray of mist, and dove back down.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hid"
+          },
+          {
+            "id": "b",
+            "text": "swam"
+          },
+          {
+            "id": "c",
+            "text": "surfaced"
+          },
+          {
+            "id": "d",
+            "text": "fed"
+          }
+        ],
+        "answer": "c",
+        "hint": "The whale came up out of deep water.",
+        "explanation": "Surfaced means came up to the surface, which matches emerged here. Swam is too general; it does not show coming out into view."
+      },
+      {
+        "id": "emerge.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what emerge means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "When the storm passed,"
+          },
+          {
+            "id": "c2",
+            "text": "families emerged from their basements"
+          },
+          {
+            "id": "c3",
+            "text": "to check on their neighbors."
+          },
+          {
+            "id": "c4",
+            "text": "and stayed hidden inside all week."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Emerging means coming out. Which ending shows people out and about?",
+        "explanation": "Coming out of basements to check on neighbors shows emerging. Staying hidden inside contradicts coming out."
+      },
+      {
+        "id": "emerge.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best fits the frogs' action?",
+        "passage": "All winter the frogs slept buried in the pond's mud. When the water warmed in April, they climbed out and began to sing.",
+        "options": [
+          {
+            "id": "a",
+            "text": "emerged"
+          },
+          {
+            "id": "b",
+            "text": "escaped"
+          },
+          {
+            "id": "c",
+            "text": "hibernated"
+          },
+          {
+            "id": "d",
+            "text": "drowned"
+          }
+        ],
+        "answer": "a",
+        "clue": "buried in the pond's mud; climbed out",
+        "hint": "The frogs came out from where they had been hidden.",
+        "explanation": "\"Climbed out\" of the mud after being buried means the frogs came out into view. That is emerged. Escaped suggests getting away from danger or a trap, which isn't the idea here.",
+        "wrong": {
+          "b": "Escaped means getting free from danger or a trap. The frogs simply came out when it was warm.",
+          "c": "Hibernated describes their winter sleep, not climbing out."
+        }
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "emphasize.verb.1",
+    "word": "emphasize",
+    "grade": 5,
+    "pos": "verb",
+    "say": "EM-fuh-size",
+    "definition": "to show that something is especially important",
+    "hero": {
+      "text": "Kai emphasized the most important safety rule by saying it twice and writing it in giant letters on the board.",
+      "scene": {
+        "pose": "pointing",
+        "props": [
+          "⚠️",
+          "📋"
+        ],
+        "setting": "school"
+      }
+    },
+    "everyday": "The author emphasized the danger of the storm by describing the howling wind in three separate paragraphs.",
+    "contrast": {
+      "nonExample": "The coach mentioned the new rule quickly at the end of practice while everyone was leaving.",
+      "explanation": "Mentioning something quickly does not show it is important. To emphasize, you make something stand out.",
+      "scene": {
+        "pose": "talking",
+        "props": [
+          "⚽"
+        ],
+        "setting": "park"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "stress",
+        "highlight",
+        "underline"
+      ],
+      "antonyms": [
+        "downplay",
+        "play down",
+        "ignore"
+      ],
+      "family": [
+        "emphasis",
+        "emphatic",
+        "emphasized"
+      ]
+    },
+    "forms": [
+      "emphasize",
+      "emphasizes",
+      "emphasized",
+      "emphasizing",
+      "emphasise",
+      "emphasised"
+    ],
+    "tags": [
+      "reading",
+      "arts",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "emphasize.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "What does \"emphasized\" mean in this sentence?",
+        "passage": "The museum guide emphasized that visitors must never touch the ancient paintings, repeating it at every door.",
+        "options": [
+          {
+            "id": "a",
+            "text": "showed it was very important"
+          },
+          {
+            "id": "b",
+            "text": "said it very quietly"
+          },
+          {
+            "id": "c",
+            "text": "forgot to mention it"
+          },
+          {
+            "id": "d",
+            "text": "asked a question about it"
+          }
+        ],
+        "answer": "a",
+        "hint": "The guide repeated the rule at every door. Why would someone do that?",
+        "explanation": "Repeating the rule \"at every door\" shows the guide wanted it to stand out as important. That is emphasizing."
+      },
+      {
+        "id": "emphasize.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "To ___ the key vocabulary, the textbook prints each new word in bold, dark letters.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hide"
+          },
+          {
+            "id": "b",
+            "text": "shorten"
+          },
+          {
+            "id": "c",
+            "text": "emphasize"
+          },
+          {
+            "id": "d",
+            "text": "replace"
+          }
+        ],
+        "answer": "c",
+        "clue": "in bold, dark letters",
+        "hint": "Why would a book print words in bold?",
+        "explanation": "Bold letters make words stand out, showing they are important. That is emphasizing. Hiding would be the opposite."
+      },
+      {
+        "id": "emphasize.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"emphasize\" in this sentence?",
+        "passage": "In her speech, the principal wanted to emphasize how proud she was of every student.",
+        "options": [
+          {
+            "id": "a",
+            "text": "question"
+          },
+          {
+            "id": "b",
+            "text": "stress"
+          },
+          {
+            "id": "c",
+            "text": "doubt"
+          },
+          {
+            "id": "d",
+            "text": "repeat"
+          }
+        ],
+        "answer": "b",
+        "hint": "Which word can mean to put extra weight or importance on something you say?",
+        "explanation": "To stress an idea means to give it extra importance, which matches emphasize. Repeating is one way to emphasize, but it does not mean the same thing.",
+        "wrong": {
+          "d": "Repeating can be a way to emphasize, but you can repeat something without making it seem important."
+        }
+      },
+      {
+        "id": "emphasize.verb.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "The band played the last note extra loud and long to ___ the dramatic ending of the song.",
+        "options": [
+          {
+            "id": "a",
+            "text": "mention"
+          },
+          {
+            "id": "b",
+            "text": "soften"
+          },
+          {
+            "id": "c",
+            "text": "rehearse"
+          },
+          {
+            "id": "d",
+            "text": "emphasize"
+          }
+        ],
+        "answer": "d",
+        "clue": "extra loud and long; dramatic",
+        "hint": "Playing a note extra loud makes it stand out.",
+        "explanation": "Playing the note \"extra loud and long\" makes the ending stand out. That is emphasizing. Mention is too weak, and soften means the opposite."
+      },
+      {
+        "id": "emphasize.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What is the poster doing with the word \"STOP\"?",
+        "passage": "The safety poster shows the word STOP in huge red letters, three times larger than any other word on it.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hiding it"
+          },
+          {
+            "id": "b",
+            "text": "translating it"
+          },
+          {
+            "id": "c",
+            "text": "emphasizing it"
+          },
+          {
+            "id": "d",
+            "text": "spelling it wrong"
+          }
+        ],
+        "answer": "c",
+        "clue": "huge red letters; three times larger",
+        "hint": "Big red letters make a word stand out.",
+        "explanation": "\"Huge red letters\" and \"three times larger\" make STOP the most noticeable word, showing it is the most important. That is emphasizing."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "essential.adj.1",
+    "word": "essential",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "ih-SEN-shul",
+    "definition": "completely necessary; something you cannot do without",
+    "hero": {
+      "text": "Bolt packed only the essential supplies for the mountain rescue: water, rope, a first-aid kit, and a radio.",
+      "scene": {
+        "pose": "determined",
+        "props": [
+          "🎒",
+          "🧯",
+          "📻"
+        ],
+        "setting": "nature"
+      }
+    },
+    "everyday": "Sunlight, water, and air are essential for most plants, which cannot survive without them.",
+    "contrast": {
+      "nonExample": "Glitter stickers make Ava's notebook look fun, but she can take notes without them.",
+      "explanation": "Something nice to have is not essential. Essential means you truly cannot do without it.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "✨",
+          "📓"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "necessary",
+        "vital",
+        "required"
+      ],
+      "antonyms": [
+        "optional",
+        "unnecessary",
+        "extra"
+      ],
+      "family": [
+        "essence",
+        "essentially",
+        "essentials"
+      ]
+    },
+    "forms": [
+      "essential"
+    ],
+    "tags": [
+      "science",
+      "everyday",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "essential.adj.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is the item essential?",
+        "passage": "For a long hike in the desert, Jen brings a fancy hat with a feather that she likes to wear in photos.",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "no",
+        "hint": "Could Jen do the hike without the feather hat?",
+        "explanation": "The feather is just for photos; Jen could hike without it. Essential things are completely necessary, like water in the desert."
+      },
+      {
+        "id": "essential.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Calcium is ___ for strong bones, so doctors tell children to eat foods like milk, yogurt, and leafy greens.",
+        "options": [
+          {
+            "id": "a",
+            "text": "essential"
+          },
+          {
+            "id": "b",
+            "text": "optional"
+          },
+          {
+            "id": "c",
+            "text": "harmful"
+          },
+          {
+            "id": "d",
+            "text": "delicious"
+          }
+        ],
+        "answer": "a",
+        "clue": "for strong bones; doctors tell children to eat",
+        "hint": "Doctors want children to eat it. Is it needed or not?",
+        "explanation": "Doctors recommend calcium because bones need it to be strong. Essential means necessary. Optional means you could skip it.",
+        "wrong": {
+          "d": "Delicious is about taste. The sentence is about what bones need."
+        }
+      },
+      {
+        "id": "essential.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"essential\" in this sentence?",
+        "passage": "Teamwork is essential for building a bridge, since no one person can lift the heavy beams alone.",
+        "options": [
+          {
+            "id": "a",
+            "text": "vital"
+          },
+          {
+            "id": "b",
+            "text": "difficult"
+          },
+          {
+            "id": "c",
+            "text": "unnecessary"
+          },
+          {
+            "id": "d",
+            "text": "possible"
+          }
+        ],
+        "answer": "c",
+        "hint": "Essential means needed. Which word means not needed?",
+        "explanation": "Unnecessary means not needed, the opposite of essential. Vital means almost the same as essential."
+      },
+      {
+        "id": "essential.adj.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "A key is ___ for opening this lock; without one, there is no way to get the door open.",
+        "options": [
+          {
+            "id": "a",
+            "text": "helpful"
+          },
+          {
+            "id": "b",
+            "text": "essential"
+          },
+          {
+            "id": "c",
+            "text": "common"
+          },
+          {
+            "id": "d",
+            "text": "useful"
+          }
+        ],
+        "answer": "b",
+        "clue": "without one, there is no way",
+        "hint": "Helpful and useful mean it makes things easier. Which word means you cannot do it at all without it?",
+        "explanation": "\"Without one, there is no way\" means the key is absolutely necessary, so essential is the strongest, best fit. Helpful and useful are too weak."
+      },
+      {
+        "id": "essential.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What does the passage show about clean water?",
+        "passage": "When the town's water pipes broke, the hospital could not wash tools or treat patients until trucks brought clean water.",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was a luxury."
+          },
+          {
+            "id": "b",
+            "text": "It was too expensive."
+          },
+          {
+            "id": "c",
+            "text": "It was rare in nature."
+          },
+          {
+            "id": "d",
+            "text": "It was essential."
+          }
+        ],
+        "answer": "d",
+        "clue": "could not wash tools or treat patients until",
+        "hint": "What happened to the hospital without water?",
+        "explanation": "The hospital \"could not\" do its work without clean water, so water was absolutely necessary. That is essential. A luxury is something extra, not needed."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "estimate.verb.1",
+    "word": "estimate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "ES-tuh-mate",
+    "definition": "to make a careful guess about an amount, size, or value",
+    "hero": {
+      "text": "Pixel estimated that the crowd held about 2,000 people by counting one section and multiplying by ten.",
+      "scene": {
+        "pose": "thinking",
+        "props": [
+          "👥",
+          "🔢"
+        ],
+        "setting": "city"
+      }
+    },
+    "everyday": "Before measuring, Jamal estimated that the classroom was about 30 feet long, and the real answer was 32.",
+    "contrast": {
+      "nonExample": "Rosa used a ruler and found that the pencil was exactly 7 inches long.",
+      "explanation": "Measuring exactly is not estimating. To estimate, you make a careful, close guess without measuring exactly.",
+      "scene": {
+        "pose": "writing",
+        "props": [
+          "📏",
+          "✏️"
+        ],
+        "setting": "school"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "approximate",
+        "judge",
+        "guess"
+      ],
+      "antonyms": [
+        "measure exactly",
+        "calculate"
+      ],
+      "family": [
+        "estimate (noun)",
+        "estimation",
+        "estimated"
+      ]
+    },
+    "forms": [
+      "estimate",
+      "estimates",
+      "estimated",
+      "estimating"
+    ],
+    "tags": [
+      "math",
+      "science"
+    ],
+    "items": [
+      {
+        "id": "estimate.verb.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which student is estimating?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Lea weighs the pumpkin on a scale: 12 pounds."
+          },
+          {
+            "id": "b",
+            "text": "Max reads the price tag on a book."
+          },
+          {
+            "id": "c",
+            "text": "Ana says the jar holds about 200 beans before counting."
+          },
+          {
+            "id": "d",
+            "text": "Ben counts every bean in the jar one by one."
+          }
+        ],
+        "answer": "c",
+        "hint": "Estimating is a careful guess, not an exact count.",
+        "explanation": "Ana says \"about 200\" before counting, which is a careful guess. That is estimating. Ben and Lea find exact amounts.",
+        "wrong": {
+          "d": "Counting one by one finds the exact number. Estimating is a close guess."
+        }
+      },
+      {
+        "id": "estimate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Since we did not have a calculator, Mr. Diaz asked us to ___ the total by rounding each price to the nearest dollar.",
+        "options": [
+          {
+            "id": "a",
+            "text": "estimate"
+          },
+          {
+            "id": "b",
+            "text": "ignore"
+          },
+          {
+            "id": "c",
+            "text": "memorize"
+          },
+          {
+            "id": "d",
+            "text": "spend"
+          }
+        ],
+        "answer": "a",
+        "clue": "did not have a calculator; rounding",
+        "hint": "Rounding gives an answer that is close but not exact.",
+        "explanation": "Rounding prices gives a close, careful answer instead of an exact one. That is estimating."
+      },
+      {
+        "id": "estimate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is closest in meaning to \"estimate\" in this sentence?",
+        "passage": "Scientists estimate that the oldest tree in the forest is around 3,000 years old.",
+        "options": [
+          {
+            "id": "a",
+            "text": "prove"
+          },
+          {
+            "id": "b",
+            "text": "wish"
+          },
+          {
+            "id": "c",
+            "text": "approximate"
+          },
+          {
+            "id": "d",
+            "text": "admit"
+          }
+        ],
+        "answer": "c",
+        "hint": "The word \"around\" tells you the age is not exact.",
+        "explanation": "Approximate means to find a close, not exact, amount, just like estimate. \"Around 3,000\" shows it is a careful guess. Prove would mean they know for certain."
+      },
+      {
+        "id": "estimate.verb.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what estimate means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "Looking at the long line,"
+          },
+          {
+            "id": "c2",
+            "text": "Dad estimated"
+          },
+          {
+            "id": "c3",
+            "text": "that we would wait about twenty minutes."
+          },
+          {
+            "id": "c4",
+            "text": "that we waited exactly 1,207 seconds."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Estimates are close guesses, so they often use words like \"about\".",
+        "explanation": "\"About twenty minutes\" is a careful guess, so it fits estimate. \"Exactly 1,207 seconds\" is a precise measurement, not an estimate."
+      },
+      {
+        "id": "estimate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What is the painter doing?",
+        "passage": "The painter looks at the wall, thinks about past jobs, and says it will probably take about four cans of paint.",
+        "options": [
+          {
+            "id": "a",
+            "text": "measuring exactly"
+          },
+          {
+            "id": "b",
+            "text": "estimating"
+          },
+          {
+            "id": "c",
+            "text": "complaining"
+          },
+          {
+            "id": "d",
+            "text": "decorating"
+          }
+        ],
+        "answer": "b",
+        "clue": "probably; about four cans",
+        "hint": "Words like \"probably\" and \"about\" signal a careful guess.",
+        "explanation": "\"Probably\" and \"about four cans\" show the painter is making a careful guess based on experience. That is estimating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "exaggerate.verb.1",
+    "word": "exaggerate",
+    "grade": 5,
+    "pos": "verb",
+    "say": "ig-ZAJ-uh-rate",
+    "definition": "to describe something as bigger, better, or worse than it really is",
+    "hero": {
+      "text": "Rex exaggerated when he told everyone he had lifted a mountain; it was really just a large boulder.",
+      "scene": {
+        "pose": "proud",
+        "props": [
+          "⛰️",
+          "🪨"
+        ],
+        "second": "shrugging",
+        "setting": "park"
+      }
+    },
+    "everyday": "Tall tales like Paul Bunyan exaggerate on purpose, claiming he dug the Grand Canyon by dragging his axe.",
+    "contrast": {
+      "nonExample": "Jess said the fish she caught was ten inches long, and the ruler showed exactly ten inches.",
+      "explanation": "Jess described the fish exactly as it was. To exaggerate, you make something sound bigger or more extreme than it is.",
+      "scene": {
+        "pose": "happy",
+        "props": [
+          "🐟",
+          "📏"
+        ],
+        "setting": "nature"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "overstate",
+        "stretch the truth",
+        "inflate"
+      ],
+      "antonyms": [
+        "understate",
+        "downplay"
+      ],
+      "family": [
+        "exaggeration",
+        "exaggerated"
+      ]
+    },
+    "forms": [
+      "exaggerate",
+      "exaggerates",
+      "exaggerated",
+      "exaggerating"
+    ],
+    "tags": [
+      "reading",
+      "arts",
+      "everyday"
+    ],
+    "items": [
+      {
+        "id": "exaggerate.verb.1#1",
+        "format": "example_nonexample",
+        "stage": "supported",
+        "prompt": "Is this person exaggerating?",
+        "passage": "After waiting five minutes for the bus, Owen groaned, \"I've been standing here for a million years!\"",
+        "options": [
+          {
+            "id": "yes",
+            "text": "Yes, it fits"
+          },
+          {
+            "id": "no",
+            "text": "No, it doesn't fit"
+          }
+        ],
+        "answer": "yes",
+        "hint": "Five minutes or a million years: which is true?",
+        "explanation": "Owen waited five minutes but said a million years. Making something sound much bigger than it is, is exaggerating."
+      },
+      {
+        "id": "exaggerate.verb.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "Advertisements sometimes ___ how well a product works, so smart shoppers read real reviews before buying.",
+        "options": [
+          {
+            "id": "a",
+            "text": "measure"
+          },
+          {
+            "id": "b",
+            "text": "hide"
+          },
+          {
+            "id": "c",
+            "text": "test"
+          },
+          {
+            "id": "d",
+            "text": "exaggerate"
+          }
+        ],
+        "answer": "d",
+        "clue": "so smart shoppers read real reviews",
+        "hint": "Why would shoppers need to check real reviews? Ads might make things sound better than they are.",
+        "explanation": "Shoppers check \"real reviews\" because ads may make products sound better than they truly are. That is exaggerating."
+      },
+      {
+        "id": "exaggerate.verb.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"exaggerated\" in this sentence?",
+        "passage": "The news story exaggerated the damage from the small storm, calling it a disaster when only a few branches fell.",
+        "options": [
+          {
+            "id": "a",
+            "text": "understated"
+          },
+          {
+            "id": "b",
+            "text": "reported"
+          },
+          {
+            "id": "c",
+            "text": "overstated"
+          },
+          {
+            "id": "d",
+            "text": "repaired"
+          }
+        ],
+        "answer": "a",
+        "hint": "Exaggerate makes things sound bigger. Which word means making things sound smaller?",
+        "explanation": "Understated means made something sound smaller or less serious than it was, the opposite of exaggerated. Overstated is a synonym."
+      },
+      {
+        "id": "exaggerate.verb.1#4",
+        "format": "best_word",
+        "stage": "independent",
+        "prompt": "Which word fits best?",
+        "passage": "Mom said I ___ when I claimed my little brother \"always\" takes my toys; he actually did it just once this week.",
+        "options": [
+          {
+            "id": "a",
+            "text": "lied"
+          },
+          {
+            "id": "b",
+            "text": "exaggerated"
+          },
+          {
+            "id": "c",
+            "text": "whispered"
+          },
+          {
+            "id": "d",
+            "text": "apologized"
+          }
+        ],
+        "answer": "b",
+        "clue": "\"always\"; just once this week",
+        "hint": "It did happen, just not as often as claimed. Is that a total lie, or stretching the truth?",
+        "explanation": "The brother really did take a toy once, so the claim was not completely false. Saying \"always\" made it bigger than the truth. That is exaggerating, which is different from lying about something that never happened.",
+        "wrong": {
+          "a": "A lie is completely untrue. Here something real happened, but it was made to sound bigger."
+        }
+      },
+      {
+        "id": "exaggerate.verb.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "What is the cartoonist doing?",
+        "passage": "To make people laugh, the cartoonist drew the mayor with ears as big as umbrellas and a nose like a carrot.",
+        "options": [
+          {
+            "id": "a",
+            "text": "copying exactly"
+          },
+          {
+            "id": "b",
+            "text": "erasing details"
+          },
+          {
+            "id": "c",
+            "text": "exaggerating features"
+          },
+          {
+            "id": "d",
+            "text": "hiding the face"
+          }
+        ],
+        "answer": "c",
+        "clue": "ears as big as umbrellas; a nose like a carrot",
+        "hint": "Real ears are not as big as umbrellas.",
+        "explanation": "Ears \"as big as umbrellas\" are much larger than real ears. Making features bigger than they are is exaggerating."
+      }
+    ],
+    "review": "pending"
+  },
+  {
+    "id": "hostile.adj.1",
+    "word": "hostile",
+    "grade": 5,
+    "pos": "adjective",
+    "say": "HOSS-tul",
+    "definition": "unfriendly and ready to fight or oppose",
+    "hero": {
+      "text": "The guard robot turned hostile, flashing red lights and blocking the door, until Kai calmly reset its program.",
+      "scene": {
+        "pose": "calm",
+        "props": [
+          "🤖",
+          "🚨"
+        ],
+        "setting": "lab"
+      }
+    },
+    "everyday": "The crowd grew hostile, booing and shouting at the referee after the unfair call.",
+    "contrast": {
+      "nonExample": "The new neighbors waved, smiled, and brought over a plate of cookies.",
+      "explanation": "Friendly, welcoming behavior is the opposite of hostile. Hostile means unfriendly and ready to oppose.",
+      "scene": {
+        "pose": "waving",
+        "props": [
+          "🍪",
+          "🏠"
+        ],
+        "second": "happy",
+        "setting": "home"
+      }
+    },
+    "related": {
+      "synonyms": [
+        "unfriendly",
+        "aggressive",
+        "harsh"
+      ],
+      "antonyms": [
+        "friendly",
+        "welcoming",
+        "kind"
+      ],
+      "family": [
+        "hostility",
+        "hostilely"
+      ]
+    },
+    "forms": [
+      "hostile"
+    ],
+    "tags": [
+      "science",
+      "history",
+      "social"
+    ],
+    "items": [
+      {
+        "id": "hostile.adj.1#1",
+        "format": "meaning",
+        "stage": "supported",
+        "prompt": "Which animal is acting hostile?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A cat purrs and rubs against your leg."
+          },
+          {
+            "id": "b",
+            "text": "A dog wags its tail and licks your hand."
+          },
+          {
+            "id": "c",
+            "text": "A rabbit sleeps quietly in its hutch."
+          },
+          {
+            "id": "d",
+            "text": "A goose hisses and charges at anyone near its nest."
+          }
+        ],
+        "answer": "d",
+        "hint": "Hostile means unfriendly and ready to attack or oppose.",
+        "explanation": "The goose hisses and charges, which is unfriendly, attacking behavior. That is hostile. The cat and dog are friendly."
+      },
+      {
+        "id": "hostile.adj.1#2",
+        "format": "context_gap",
+        "stage": "independent",
+        "prompt": "Choose the word that best completes the sentence.",
+        "passage": "For most living things, Antarctica is ___, with freezing winds and almost no liquid water.",
+        "options": [
+          {
+            "id": "a",
+            "text": "hostile"
+          },
+          {
+            "id": "b",
+            "text": "cozy"
+          },
+          {
+            "id": "c",
+            "text": "crowded"
+          },
+          {
+            "id": "d",
+            "text": "peaceful"
+          }
+        ],
+        "answer": "a",
+        "clue": "freezing winds; almost no liquid water",
+        "hint": "Here the word describes a place, not a person. What kind of place makes life hard?",
+        "explanation": "Hostile can describe a place that is harsh and hard to survive in. \"Freezing winds\" and \"almost no liquid water\" make Antarctica hostile to life.",
+        "wrong": {
+          "d": "Peaceful sounds calm and pleasant, but the clues describe a harsh place."
+        }
+      },
+      {
+        "id": "hostile.adj.1#3",
+        "format": "synonym",
+        "stage": "independent",
+        "prompt": "Which word is the OPPOSITE of \"hostile\" in this sentence?",
+        "passage": "The two kingdoms had been hostile for years, but the new treaty finally brought them together.",
+        "options": [
+          {
+            "id": "a",
+            "text": "unfriendly"
+          },
+          {
+            "id": "b",
+            "text": "friendly"
+          },
+          {
+            "id": "c",
+            "text": "powerful"
+          },
+          {
+            "id": "d",
+            "text": "distant"
+          }
+        ],
+        "answer": "b",
+        "hint": "Hostile kingdoms are enemies. What is the opposite?",
+        "explanation": "Friendly is the opposite of hostile. Unfriendly is a synonym. Powerful describes strength, not attitude."
+      },
+      {
+        "id": "hostile.adj.1#4",
+        "format": "sentence_build",
+        "stage": "independent",
+        "prompt": "Build a sentence that shows what hostile means.",
+        "chunks": [
+          {
+            "id": "c1",
+            "text": "The hostile crowd"
+          },
+          {
+            "id": "c2",
+            "text": "booed the speaker"
+          },
+          {
+            "id": "c3",
+            "text": "and refused to let her finish."
+          },
+          {
+            "id": "c4",
+            "text": "and gave her a warm welcome."
+          }
+        ],
+        "answer": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "hint": "Hostile people are unfriendly. Which ending shows that?",
+        "explanation": "Booing and refusing to let the speaker finish show unfriendly opposition. A warm welcome is the opposite of hostile."
+      },
+      {
+        "id": "hostile.adj.1#5",
+        "format": "context_clues",
+        "stage": "transfer",
+        "prompt": "Which word best describes how the shopkeeper treated the boys?",
+        "passage": "When the boys came in, the shopkeeper glared, crossed his arms, and snapped, \"Don't touch anything. Get out soon.\"",
+        "options": [
+          {
+            "id": "a",
+            "text": "nervous"
+          },
+          {
+            "id": "b",
+            "text": "generous"
+          },
+          {
+            "id": "c",
+            "text": "hostile"
+          },
+          {
+            "id": "d",
+            "text": "curious"
+          }
+        ],
+        "answer": "c",
+        "clue": "glared; crossed his arms; snapped",
+        "hint": "Look at his face, his arms, and his voice.",
+        "explanation": "Glaring, crossing his arms, and snapping are unfriendly signals. The shopkeeper was hostile. Nervous would mean worried, not unfriendly."
+      }
+    ],
+    "review": "pending"
+  }
+]
