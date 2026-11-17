@@ -19,6 +19,7 @@ import { HeroSprite } from '../components/Sprite';
 import type { TrialState } from '../../core/types';
 import { Btn } from '../components/common';
 import { FullscreenButton } from '../fullscreen';
+import { Joystick } from '../components/Joystick';
 import { sfx, playTrack, fadeOutTrack, duckTrack } from '../sound';
 import battleTheme from '@battle-theme';
 
@@ -174,13 +175,13 @@ export function Battle({ req, nav }: { req: BattleRequest; nav: Nav }) {
   const t = trial;
   const boss = t ? BOSS_BY_ID[t.enemy.bossId] : null;
 
-  const tb = (k: keyof InputState, label: string, cls = '', disabled = false, player = 0) => (
-    <button className={`tbtn ${cls} ${disabled ? 'disabled' : ''}`} aria-label={label}
-      onPointerDown={(e) => { e.preventDefault(); (e.target as HTMLElement).setPointerCapture?.(e.pointerId); setInput(k, true, player); }}
-      onPointerUp={() => setInput(k, false, player)} onPointerCancel={() => setInput(k, false, player)} onPointerLeave={() => setInput(k, false, player)}
-      onContextMenu={(e) => e.preventDefault()}>{label}</button>
+  const tb = (k: keyof InputState, label: React.ReactNode, cls = '', disabled = false, player = 0, aria?: string, cd = 0) => (
+    <button className={`tbtn ${cls} ${disabled ? 'disabled' : ''}`} aria-label={aria ?? (typeof label === 'string' ? label : k)} style={cd > 0 ? ({ ['--cd' as any]: cd } as React.CSSProperties) : undefined}
+      onPointerDown={(e) => { e.preventDefault(); try { (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId); } catch { /* */ } setInput(k, true, player); try { navigator.vibrate?.(8); } catch { /* */ } }}
+      onPointerUp={() => setInput(k, false, player)} onPointerCancel={() => setInput(k, false, player)} onLostPointerCapture={() => setInput(k, false, player)}
+      onContextMenu={(e) => e.preventDefault()}>{label}{cd > 0 && <span className="cd-ring" />}</button>
   );
-  const pwLabel = (i: 0 | 1) => { const ph = hud?.powers[i]; if (!ph) return null; return { label: ph.name.split(' ').map((w) => w[0]).join('').slice(0, 3) + (ph.ready ? '' : ` ${Math.ceil(ph.cdFrac * 10)}`), dis: !ph.ready || !ph.affordable }; };
+  const pwLabel = (i: 0 | 1) => { const ph = hud?.powers[i]; if (!ph) return null; return { label: ph.name.split(' ').map((w) => w[0]).join('').slice(0, 3), name: ph.name, cd: ph.ready ? 0 : Math.min(1, ph.cdFrac), dis: !ph.ready || !ph.affordable }; };
   const p1 = pwLabel(0), p2 = pwLabel(1);
 
   return (
@@ -203,16 +204,18 @@ export function Battle({ req, nav }: { req: BattleRequest; nav: Nav }) {
         )}
         {showTouch && !result && !paused && (!multi || req.online) && (
           <>
-            <div className="pad left">{tb('down', '▼', 'small')}<div className="lr">{tb('left', '◀', 'big')}{tb('right', '▶', 'big')}</div></div>
-            <div className="pad right">
-              {p1 ? tb('power1', p1.label, '', p1.dis) : <span />}
-              {p2 ? tb('power2', p2.label, '', p2.dis) : <span />}
-              {hud?.move ? tb('move', 'MOVE', '', !hud.move.ready) : <span />}
-              {tb('dodge', '💨')}{tb('punch', '👊', 'big')}{tb('jump', '⤒', 'big')}
+            <Joystick />
+            <div className="action-pad">
+              {tb('punch', '👊', 'big a-punch', false, 0, 'Punch')}
+              {tb('jump', '⤒', 'big a-jump', false, 0, 'Jump')}
+              {tb('dodge', '💨', 'a-dodge', false, 0, 'Dodge')}
+              {p1 && tb('power1', p1.label, 'a-p1 power', p1.dis, 0, p1.name, p1.cd)}
+              {p2 && tb('power2', p2.label, 'a-p2 power', p2.dis, 0, p2.name, p2.cd)}
+              {hud?.move && tb('move', 'MOVE', 'a-move power', !hud.move.ready, 0, 'Movement power')}
             </div>
           </>
         )}
-        {portrait && showTouch && !paused && <div className="rotate-hint">↻ Turn your device sideways for the best view</div>}
+        {portrait && showTouch && !paused && <div className="rotate-hint"><span className="rotate-ic">📱</span>Turn your phone sideways to play</div>}
       </div>
       {paused && !result && (
         <div className="overlay">

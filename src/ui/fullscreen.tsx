@@ -17,11 +17,22 @@ function openOwnTab() {
   else toast('⚠️ Full screen isn’t allowed here and the browser blocked a new tab. Try your browser’s own full-screen view (Ctrl+Cmd+F on a Mac, F11 on Windows or Chromebook).');
 }
 
+/** iPhones (and iPads without the Fullscreen API) can't make a web page full screen; the Home Screen app can. */
+export const isIOS = () => /iP(hone|od|ad)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+export const isStandalone = () => (navigator as Navigator & { standalone?: boolean }).standalone === true || matchMedia('(display-mode: fullscreen), (display-mode: standalone)').matches;
+
 export function toggleFullscreen() {
   const el = document.documentElement as HTMLElement & { webkitRequestFullscreen?: () => Promise<void> | void };
   if (isFullscreen()) { (doc.exitFullscreen ?? doc.webkitExitFullscreen)?.call(doc); return; }
   const req = el.requestFullscreen ?? el.webkitRequestFullscreen;
-  if (req && (doc.fullscreenEnabled || doc.webkitFullscreenEnabled)) {
+  const can = typeof req === "function" && !!(doc.fullscreenEnabled || doc.webkitFullscreenEnabled);
+  if (!can && isIOS()) {
+    toast(/iPad/.test(navigator.userAgent) || navigator.maxTouchPoints > 1 && !/iPhone/.test(navigator.userAgent)
+      ? '📱 This page can’t go full screen here. In Safari, tap Share (□↑) → Add to Home Screen, then open Vocab Hero from your Home Screen for full screen.'
+      : '📱 iPhones don’t allow full screen inside the browser. In Safari, tap Share (□↑) → Add to Home Screen, then open Vocab Hero from your Home Screen: it plays full screen, like an app.');
+    return;
+  }
+  if (can) {
     try { const p = req.call(el); if (p && (p as Promise<void>).catch) (p as Promise<void>).catch(openOwnTab); } catch { openOwnTab(); }
   } else openOwnTab();
 }
@@ -39,6 +50,7 @@ export function useFullscreen() {
 /** The ⛶ button: corner of every menu screen, and beside Pause in battle. */
 export function FullscreenButton({ floating = false }: { floating?: boolean }) {
   const on = useFullscreen();
+  if (isStandalone()) return null;
   return (
     <button className={`fs-btn ${floating ? 'floating' : ''}`} onClick={toggleFullscreen} title={on ? 'Leave full screen' : 'Full screen'} aria-label={on ? 'Leave full screen' : 'Full screen'}>
       <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
